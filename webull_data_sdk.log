@@ -1,0 +1,36 @@
+140053972672640 2026-09-01 23:00:29,574 webull.core.client ERROR ServerException occurred. Host:api.webull.com SDK-Version:2.0.17 Request:{
+  "_version": "v2",
+  "_action_name": "/openapi/config",
+  "_protocol_type": "https",
+  "_accept_format": "JSON",
+  "_params": {},
+  "_method": "GET",
+  "_header": {
+    "x-version": "v2",
+    "Accept-Encoding": "gzip",
+    "x-app-key": "read -r -s WEBULL_APP_KEY; printf '%s' \"$WEBULL_APP_KEY\" | gcloud secrets create webull-app-key --data-file=- --replication-policy=automatic; unset WEBULL_APP_KEYread -r -s WEBULL_APP_KEY; printf '%s' \"$WEBULL_APP_KEY\" | gcloud secrets create webull-app-key --data-file=- --replication-policy=automatic; unset WEBULL_APP_KEYread -r -s WEBULL_APP_KEY; printf '%s' \"$WEBULL_APP_KEY\" | gcloud secrets create webull-app-key --data-file=- --replication-policy=automatic; unset WEBULL_APP_KEY",
+    "x-timestamp": "2026-09-01T23:00:29Z",
+    "x-signature-version": "1.0",
+    "x-signature-algorithm": "HMAC-SHA256",
+    "x-signature-nonce": "4c0a149f-9c79-5f77-ae85-86db65691a0a",
+    "x-signature": "QlAFsqsHArEV6S9baOW0tgw/Q/Feagf49gX0Pbb8bzc=",
+    "User-Agent": "WebullApiSDK (Linux 6.6.143+;x86_64) Python/3.12.3 Core/2.0.19 python-requests/2.34.2",
+    "x-webull-client-source": "sdk"
+  },
+  "_body_params": null,
+  "_uri_pattern": null,
+  "_uri_params": null,
+  "_content": null,
+  "_extra_user_agent": {},
+  "string_to_sign": "",
+  "_request_connect_timeout": null,
+  "_request_read_timeout": null,
+  "endpoint": "api.webull.com",
+  "_signer_spec": "<module 'webull.core.auth.algorithm.sha_hmac1' from '/home/abidiar/.local/lib/python3.12/site-packages/webull/core/auth/algorithm/sha_hmac1.py'>"
+} Response:{'message': 'Invalid credentials. Please verify your credentials and ensure you are connecting to the correct environment', 'error_code': 'UNAUTHORIZED'} ServerException:HTTP Status: 401, Code: UNAUTHORIZED, Msg: Invalid credentials. Please verify your credentials and ensure you are connecting to the correct environment, RequestID: 17ba2f8c-9be5-48f5-a1b3-12128b7c6749
+140053972672640 2026-09-01 23:00:29,575 webull.core.client ERROR get_response exception. {
+  "error_code": "UNAUTHORIZED",
+  "error_msg": "Invalid credentials. Please verify your credentials and ensure you are connecting to the correct environment",
+  "http_status": 401,
+  "request_id": "17ba2f8c-9be5-48f5-a1b3-12128b7c6749"
+}

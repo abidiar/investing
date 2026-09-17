@@ -1,0 +1,8 @@
+Flask==3.1.1
+gunicorn==23.0.0
+google-api-python-client==2.177.0
+google-auth==2.40.3
+requests==2.32.4
+
+tzdata>=2024.1
+webull-openapi-python-sdk==2.0.19
