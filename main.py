@@ -24,6 +24,10 @@ CONFIRMATION_SHEET = os.environ.get(
     "CONFIRMATION_SHEET",
     "Post-Open Confirmation",
 ).strip()
+BAR_HISTORY_SHEET = os.environ.get(
+    "BAR_HISTORY_SHEET",
+    "Intraday Bar History",
+).strip()
 
 WEBULL_APP_KEY = os.environ.get("WEBULL_APP_KEY", "").strip()
 WEBULL_APP_SECRET = os.environ.get("WEBULL_APP_SECRET", "").strip()
@@ -48,6 +52,10 @@ DATA_SOURCE = os.environ.get(
     "DATA_SOURCE",
     "Webull OpenAPI (Nasdaq Basic; non-SIP)",
 ).strip()
+DATA_QUALITY = os.environ.get(
+    "DATA_QUALITY",
+    "WEBULL_NASDAQ_BASIC_NON_SIP",
+).strip()
 
 TIMEZONE = os.environ.get(
     "TIMEZONE",
@@ -55,7 +63,8 @@ TIMEZONE = os.environ.get(
 ).strip()
 
 ET = ZoneInfo(TIMEZONE)
-PHASE = "snapshot-connector-webull-v1"
+UTC = ZoneInfo("UTC")
+PHASE = "snapshot-connector-webull-v2-bar-history"
 VWAP_SOURCE = "Webull 1m OHLCV typical-price VWAP"
 
 
@@ -156,6 +165,121 @@ def completed_regular_session_minute_expected(
     return time(9, 31) <= local_time < time(16, 0)
 
 
+def parse_bar_time(value: Any) -> datetime | None:
+    """Parse the normalized Webull bar timestamp without changing semantics."""
+    text = str(value or "").strip()
+
+    if not text:
+        return None
+
+    if text.endswith("Z"):
+        text = text[:-1] + "+00:00"
+
+    try:
+        parsed = datetime.fromisoformat(text)
+    except ValueError:
+        parsed = None
+
+    if parsed is None:
+        for fmt in (
+            "%Y-%m-%dT%H:%M:%S.%f%z",
+            "%Y-%m-%dT%H:%M:%S%z",
+        ):
+            try:
+                parsed = datetime.strptime(text, fmt)
+                break
+            except ValueError:
+                continue
+
+    if parsed is None or parsed.tzinfo is None:
+        return None
+
+    return parsed
+
+
+def build_bar_history_rows(
+    symbol: str,
+    bars: list[dict[str, Any]],
+    retrieved_at_et: datetime,
+) -> list[list[Any]]:
+    """Serialize the exact bars used by build_snapshot for research storage.
+
+    Session VWAP is calculated cumulatively with the same typical-price,
+    volume-weighted method used by calculations.build_snapshot. No additional
+    market-data request is made.
+    """
+    rows: list[list[Any]] = []
+    cumulative_volume = 0.0
+    cumulative_weighted_price = 0.0
+    retrieved_text = retrieved_at_et.isoformat(timespec="seconds")
+
+    for bar in bars:
+        parsed_time = parse_bar_time(bar.get("time"))
+
+        if parsed_time is None:
+            LOGGER.warning(
+                "Skipping history row with unparseable time for %s: %r",
+                symbol,
+                bar.get("time"),
+            )
+            continue
+
+        open_price = float(bar["open"])
+        high_price = float(bar["high"])
+        low_price = float(bar["low"])
+        close_price = float(bar["close"])
+        volume = float(bar.get("volume") or 0)
+        typical_price = (
+            high_price + low_price + close_price
+        ) / 3.0
+
+        cumulative_volume += volume
+        cumulative_weighted_price += typical_price * volume
+        session_vwap = (
+            cumulative_weighted_price / cumulative_volume
+            if cumulative_volume > 0
+            else None
+        )
+
+        timestamp_et = parsed_time.astimezone(ET).isoformat(
+            timespec="seconds"
+        )
+        timestamp_utc = (
+            parsed_time.astimezone(UTC)
+            .isoformat(timespec="seconds")
+            .replace("+00:00", "Z")
+        )
+        session = str(
+            bar.get("trading_session") or "RTH"
+        ).strip().upper()
+
+        rows.append(
+            [
+                timestamp_et,
+                timestamp_utc,
+                symbol,
+                open_price,
+                high_price,
+                low_price,
+                close_price,
+                int(volume) if volume.is_integer() else volume,
+                round(typical_price, 6),
+                (
+                    round(session_vwap, 6)
+                    if session_vwap is not None
+                    else ""
+                ),
+                DATA_SOURCE,
+                session or "RTH",
+                "M1",
+                retrieved_text,
+                DATA_QUALITY,
+            ]
+        )
+
+    return rows
+
+
 @app.get("/health")
 def health():
     configured = bool(
@@ -170,10 +294,13 @@ def health():
             "service": "investing-os-post-open",
             "phase": PHASE,
             "spreadsheet_configured": bool(SPREADSHEET_ID),
+            "confirmation_sheet": CONFIRMATION_SHEET,
+            "bar_history_sheet": BAR_HISTORY_SHEET,
             "webull_app_key_configured": bool(WEBULL_APP_KEY),
             "webull_app_secret_configured": bool(WEBULL_APP_SECRET),
             "webull_access_token_configured": bool(WEBULL_ACCESS_TOKEN),
             "data_source": DATA_SOURCE,
+            "data_quality": DATA_QUALITY,
             "vwap_source": VWAP_SOURCE,
         }
     ), 200 if configured else 503
@@ -321,6 +448,7 @@ def confirm():
 
         snapshots: dict[str, Any] = {}
         symbol_errors: dict[str, str] = {}
+        bar_history_rows: list[list[Any]] = []
 
         for symbol in symbols:
             try:
@@ -335,6 +463,15 @@ def confirm():
                         "Webull returned no usable 1m RTH bars"
                     )
 
+                # Persist the exact in-memory bars used for the snapshot.
+                # This deliberately does not make a second Webull request.
+                bar_history_rows.extend(
+                    build_bar_history_rows(
+                        symbol,
+                        bars,
+                        now_et,
+                    )
+                )
                 snapshots[symbol] = build_snapshot(
                     symbol,
                     bars,
@@ -343,6 +480,23 @@ def confirm():
             except Exception as exc:
                 LOGGER.exception("Snapshot error for %s", symbol)
                 symbol_errors[symbol] = str(exc)[:200]
+
+        history_appended = 0
+        history_duplicates = 0
+        history_error = ""
+
+        # Historical persistence is intentionally non-fatal: a temporary
+        # history-sheet problem must not break the existing Post-Open output.
+        try:
+            history_appended, history_duplicates = (
+                sheets.append_unique_bar_rows(
+                    BAR_HISTORY_SHEET,
+                    bar_history_rows,
+                )
+            )
+        except Exception as exc:
+            LOGGER.exception("Intraday bar history persistence failed")
+            history_error = str(exc)[:300]
 
         constituent_set = set(constituents)
         bc_rows: list[list[Any]] = []
@@ -448,6 +602,7 @@ def confirm():
                     "X-CloudScheduler-ScheduleTime"
                 ),
                 "data_source": DATA_SOURCE,
+                "data_quality": DATA_QUALITY,
                 "vwap_source": VWAP_SOURCE,
                 "premarket_active": premarket_active,
                 "premarket_status": (
@@ -459,12 +614,19 @@ def confirm():
                 "symbols_completed": sorted(snapshots.keys()),
                 "symbol_errors": symbol_errors,
                 "sheet": CONFIRMATION_SHEET,
+                "bar_history_sheet": BAR_HISTORY_SHEET,
+                "bar_history_rows_prepared": len(bar_history_rows),
+                "bar_history_rows_appended": history_appended,
+                "bar_history_duplicates_skipped": history_duplicates,
+                "bar_history_error": history_error,
                 "phase": PHASE,
                 "note": (
                     "Webull post-open snapshot updated regardless of "
-                    "premarket setup status. Premarket confirmation and "
-                    "independent post-open reversal discovery remain "
-                    "separate decision layers."
+                    "premarket setup status. The exact in-memory Webull "
+                    "1m bars used for calculations are also persisted "
+                    "idempotently for intraday research. Premarket "
+                    "confirmation and independent post-open reversal "
+                    "discovery remain separate decision layers."
                 ),
             }
         )
