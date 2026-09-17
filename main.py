@@ -64,7 +64,7 @@ TIMEZONE = os.environ.get(
 
 ET = ZoneInfo(TIMEZONE)
 UTC = ZoneInfo("UTC")
-PHASE = "snapshot-connector-webull-v2-bar-history"
+PHASE = "snapshot-connector-webull-v3-incremental-collector"
 VWAP_SOURCE = "Webull 1m OHLCV typical-price VWAP"
 
 
@@ -165,6 +165,36 @@ def completed_regular_session_minute_expected(
     return time(9, 31) <= local_time < time(16, 0)
 
 
+def collector_market_window(
+    now_et: datetime,
+) -> tuple[datetime, datetime]:
+    """Return the completed RTH window, including a post-close final pass."""
+    start = datetime.combine(
+        now_et.date(),
+        time(9, 30),
+        tzinfo=ET,
+    )
+    last_rth_minute = datetime.combine(
+        now_et.date(),
+        time(15, 59),
+        tzinfo=ET,
+    )
+    completed_minute = (
+        now_et.replace(second=0, microsecond=0)
+        - timedelta(minutes=1)
+    )
+    return start, min(completed_minute, last_rth_minute)
+
+
+def collector_window_expected(now_et: datetime) -> bool:
+    """Allow intraday collection plus a short post-close finalization window."""
+    if now_et.weekday() >= 5:
+        return False
+
+    local_time = now_et.time().replace(tzinfo=None)
+    return time(9, 31) <= local_time < time(16, 20)
+
+
 def parse_bar_time(value: Any) -> datetime | None:
     """Parse the normalized Webull bar timestamp without changing semantics."""
     text = str(value or "").strip()
@@ -201,16 +231,20 @@ def build_bar_history_rows(
     symbol: str,
     bars: list[dict[str, Any]],
     retrieved_at_et: datetime,
+    *,
+    starting_volume: float = 0.0,
+    starting_weighted_price: float = 0.0,
 ) -> list[list[Any]]:
-    """Serialize the exact bars used by build_snapshot for research storage.
+    """Serialize Webull bars for research storage.
 
-    Session VWAP is calculated cumulatively with the same typical-price,
-    volume-weighted method used by calculations.build_snapshot. No additional
-    market-data request is made.
+    Session VWAP is cumulative and uses the same typical-price, volume-weighted
+    method as calculations.build_snapshot. Incremental collector runs seed the
+    cumulative totals from already stored bars so the resulting VWAP remains a
+    true session-to-date value without refetching the whole session.
     """
     rows: list[list[Any]] = []
-    cumulative_volume = 0.0
-    cumulative_weighted_price = 0.0
+    cumulative_volume = float(starting_volume or 0.0)
+    cumulative_weighted_price = float(starting_weighted_price or 0.0)
     retrieved_text = retrieved_at_et.isoformat(timespec="seconds")
 
     for bar in bars:
@@ -280,6 +314,36 @@ def build_bar_history_rows(
     return rows
 
 
+def symbols_from_confirmation_rows(
+    rows: list[list[Any]],
+) -> list[str]:
+    """Use the existing Post-Open universe as the history collector universe."""
+    symbols: list[str] = []
+
+    for row_number in range(16, 29):
+        symbol = normalize_symbol(cell(rows, row_number, 1))
+
+        if symbol and symbol not in symbols:
+            symbols.append(symbol)
+
+    for benchmark in ("SPY", "QQQ"):
+        if benchmark not in symbols:
+            symbols.append(benchmark)
+
+    return symbols
+
+
+def make_webull_client() -> WebullClient:
+    return WebullClient(
+        app_key=WEBULL_APP_KEY,
+        app_secret=WEBULL_APP_SECRET,
+        access_token=WEBULL_ACCESS_TOKEN or None,
+        region_id=WEBULL_REGION_ID,
+        api_endpoint=WEBULL_API_ENDPOINT,
+        token_dir=WEBULL_TOKEN_DIR or None,
+    )
+
+
 @app.get("/health")
 def health():
     configured = bool(
@@ -302,8 +366,184 @@ def health():
             "data_source": DATA_SOURCE,
             "data_quality": DATA_QUALITY,
             "vwap_source": VWAP_SOURCE,
+            "collector_endpoint": "/collect",
+            "collector_finalization_window_et": "16:00-16:19",
         }
     ), 200 if configured else 503
+
+
+@app.post("/collect")
+def collect():
+    """Persist only missing 1-minute bars for the current RTH session."""
+    try:
+        require_configuration()
+        now_et = datetime.now(ET)
+
+        if not collector_window_expected(now_et):
+            return jsonify(
+                {
+                    "ok": True,
+                    "skipped": True,
+                    "reason": (
+                        "Outside the intraday/post-close collection window"
+                    ),
+                    "timestamp_et": now_et.isoformat(),
+                    "phase": PHASE,
+                }
+            )
+
+        sheets = SheetsClient(SPREADSHEET_ID)
+        webull = make_webull_client()
+        confirmation_rows = sheets.read_values(
+            f"'{CONFIRMATION_SHEET}'!A1:A28"
+        )
+        symbols = symbols_from_confirmation_rows(confirmation_rows)
+
+        if not symbols:
+            raise RuntimeError(
+                "No symbols configured for intraday bar collection"
+            )
+
+        session_start_et, end_et = collector_market_window(now_et)
+
+        if end_et < session_start_et:
+            return jsonify(
+                {
+                    "ok": True,
+                    "skipped": True,
+                    "reason": "No completed RTH minute is available yet",
+                    "timestamp_et": now_et.isoformat(),
+                    "phase": PHASE,
+                }
+            )
+
+        session_utc_prefix = (
+            session_start_et.astimezone(UTC).date().isoformat()
+        )
+        state_by_symbol = sheets.bar_history_state(
+            BAR_HISTORY_SHEET,
+            symbols,
+            interval="M1",
+            timestamp_utc_prefix=session_utc_prefix,
+        )
+
+        rows_to_append: list[list[Any]] = []
+        symbol_errors: dict[str, str] = {}
+        request_windows: dict[str, dict[str, str]] = {}
+        up_to_date: list[str] = []
+        no_new_bars: list[str] = []
+
+        for symbol in symbols:
+            state = state_by_symbol.get(symbol, {})
+            symbol_start_et = session_start_et
+            latest_utc = str(
+                state.get("latest_timestamp_utc") or ""
+            ).strip()
+
+            if latest_utc:
+                latest_time = parse_bar_time(latest_utc)
+
+                if latest_time is not None:
+                    next_minute = (
+                        latest_time.astimezone(ET)
+                        .replace(second=0, microsecond=0)
+                        + timedelta(minutes=1)
+                    )
+                    if next_minute > symbol_start_et:
+                        symbol_start_et = next_minute
+
+            if symbol_start_et > end_et:
+                up_to_date.append(symbol)
+                continue
+
+            request_windows[symbol] = {
+                "start_et": symbol_start_et.isoformat(timespec="seconds"),
+                "end_et": end_et.isoformat(timespec="seconds"),
+            }
+
+            try:
+                bars = webull.minute_bars(
+                    symbol,
+                    symbol_start_et,
+                    end_et,
+                )
+
+                if not bars:
+                    no_new_bars.append(symbol)
+                    continue
+
+                rows_to_append.extend(
+                    build_bar_history_rows(
+                        symbol,
+                        bars,
+                        now_et,
+                        starting_volume=float(
+                            state.get("cumulative_volume") or 0.0
+                        ),
+                        starting_weighted_price=float(
+                            state.get("cumulative_weighted_price") or 0.0
+                        ),
+                    )
+                )
+            except Exception as exc:
+                LOGGER.exception(
+                    "Incremental bar collection error for %s",
+                    symbol,
+                )
+                symbol_errors[symbol] = str(exc)[:200]
+
+        history_appended = 0
+        history_duplicates = 0
+
+        if rows_to_append:
+            history_appended, history_duplicates = (
+                sheets.append_unique_bar_rows(
+                    BAR_HISTORY_SHEET,
+                    rows_to_append,
+                )
+            )
+
+        return jsonify(
+            {
+                "ok": not bool(symbol_errors),
+                "timestamp_et": now_et.isoformat(timespec="seconds"),
+                "scheduler_time": request.headers.get(
+                    "X-CloudScheduler-ScheduleTime"
+                ),
+                "symbols_requested": symbols,
+                "symbols_up_to_date": up_to_date,
+                "symbols_with_no_new_bars": no_new_bars,
+                "symbol_errors": symbol_errors,
+                "request_windows": request_windows,
+                "bar_history_rows_prepared": len(rows_to_append),
+                "bar_history_rows_appended": history_appended,
+                "bar_history_duplicates_skipped": history_duplicates,
+                "bar_history_sheet": BAR_HISTORY_SHEET,
+                "collection_end_et": end_et.isoformat(timespec="seconds"),
+                "phase": PHASE,
+                "note": (
+                    "Incremental collector requested only bars after each "
+                    "symbol's latest stored M1 timestamp. A run after 16:00 ET "
+                    "is clamped to 15:59 ET for end-of-day finalization."
+                ),
+            }
+        ), 200 if not symbol_errors else 207
+    except WebullError as exc:
+        LOGGER.exception("Webull collector error")
+        return jsonify(
+            {
+                "ok": False,
+                "error": str(exc),
+            }
+        ), 502
+    except Exception as exc:
+        LOGGER.exception("Incremental collection service failure")
+        return jsonify(
+            {
+                "ok": False,
+                "error": str(exc),
+            }
+        ), 500
 
 
 @app.post("/confirm")
@@ -330,14 +570,7 @@ def confirm():
             )
 
         sheets = SheetsClient(SPREADSHEET_ID)
-        webull = WebullClient(
-            app_key=WEBULL_APP_KEY,
-            app_secret=WEBULL_APP_SECRET,
-            access_token=WEBULL_ACCESS_TOKEN or None,
-            region_id=WEBULL_REGION_ID,
-            api_endpoint=WEBULL_API_ENDPOINT,
-            token_dir=WEBULL_TOKEN_DIR or None,
-        )
+        webull = make_webull_client()
 
         rows = sheets.read_values(
             f"'{CONFIRMATION_SHEET}'!A1:P28"
@@ -463,8 +696,7 @@ def confirm():
                         "Webull returned no usable 1m RTH bars"
                     )
 
-                # Persist the exact in-memory bars used for the snapshot.
-                # This deliberately does not make a second Webull request.
+                # Preserve the exact in-memory bars used for the snapshot.
                 bar_history_rows.extend(
                     build_bar_history_rows(
                         symbol,
