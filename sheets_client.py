@@ -115,6 +115,140 @@ class SheetsClient:
 
         return keys
 
+    def bar_history_state(
+        self,
+        sheet_name: str,
+        symbols: list[str],
+        *,
+        interval: str = "M1",
+        timestamp_utc_prefix: str | None = None,
+    ) -> dict[str, dict[str, Any]]:
+        """Return current-session history state for each requested symbol.
+
+        The state includes the latest stored UTC timestamp and cumulative
+        volume/typical-price*volume totals. Those cumulative totals let the
+        incremental collector continue the existing session VWAP exactly
+        without refetching the full session from Webull.
+        """
+        target_symbols = {
+            str(symbol or "").strip().upper()
+            for symbol in symbols
+            if str(symbol or "").strip()
+        }
+        target_interval = str(interval or "").strip().upper()
+        state: dict[str, dict[str, Any]] = {
+            symbol: {
+                "latest_timestamp_utc": "",
+                "cumulative_volume": 0.0,
+                "cumulative_weighted_price": 0.0,
+                "bar_count": 0,
+            }
+            for symbol in target_symbols
+        }
+
+        if not target_symbols:
+            return state
+
+        quoted = self._quote_sheet_name(sheet_name)
+        response = (
+            self.service.spreadsheets()
+            .values()
+            .batchGet(
+                spreadsheetId=self.spreadsheet_id,
+                ranges=[
+                    f"{quoted}!B2:C",
+                    f"{quoted}!H2:I",
+                    f"{quoted}!M2:M",
+                ],
+                valueRenderOption="UNFORMATTED_VALUE",
+                majorDimension="ROWS",
+            )
+            .execute()
+        )
+        value_ranges = response.get("valueRanges", [])
+        timestamp_symbol_rows = (
+            value_ranges[0].get("values", [])
+            if len(value_ranges) >= 1
+            else []
+        )
+        volume_typical_rows = (
+            value_ranges[1].get("values", [])
+            if len(value_ranges) >= 2
+            else []
+        )
+        interval_rows = (
+            value_ranges[2].get("values", [])
+            if len(value_ranges) >= 3
+            else []
+        )
+        row_count = max(
+            len(timestamp_symbol_rows),
+            len(volume_typical_rows),
+            len(interval_rows),
+        )
+
+        for index in range(row_count):
+            timestamp_utc = ""
+            symbol = ""
+            row_interval = ""
+
+            if index < len(timestamp_symbol_rows):
+                row = timestamp_symbol_rows[index]
+                if len(row) >= 1:
+                    timestamp_utc = str(row[0] or "").strip()
+                if len(row) >= 2:
+                    symbol = str(row[1] or "").strip().upper()
+
+            if index < len(interval_rows):
+                row = interval_rows[index]
+                if row:
+                    row_interval = str(row[0] or "").strip().upper()
+
+            if symbol not in target_symbols:
+                continue
+
+            if target_interval and row_interval != target_interval:
+                continue
+
+            if (
+                timestamp_utc_prefix
+                and not timestamp_utc.startswith(timestamp_utc_prefix)
+            ):
+                continue
+
+            volume = 0.0
+            typical_price = 0.0
+
+            if index < len(volume_typical_rows):
+                row = volume_typical_rows[index]
+
+                if len(row) >= 1:
+                    try:
+                        volume = float(row[0] or 0)
+                    except (TypeError, ValueError):
+                        volume = 0.0
+
+                if len(row) >= 2:
+                    try:
+                        typical_price = float(row[1] or 0)
+                    except (TypeError, ValueError):
+                        typical_price = 0.0
+
+            symbol_state = state[symbol]
+            symbol_state["cumulative_volume"] += volume
+            symbol_state["cumulative_weighted_price"] += (
+                typical_price * volume
+            )
+            symbol_state["bar_count"] += 1
+
+            latest = str(
+                symbol_state["latest_timestamp_utc"] or ""
+            )
+            if timestamp_utc and timestamp_utc > latest:
+                symbol_state["latest_timestamp_utc"] = timestamp_utc
+
+        return state
+
     def append_unique_bar_rows(
         self,
         sheet_name: str,
