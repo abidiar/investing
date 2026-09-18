@@ -1,0 +1,64 @@
+{
+  "protocol": "TORI-DETECTOR-v1.2-REPLICATION-CHECKSUM-v1",
+  "purpose": "Recover unpersisted implementation mechanics using structural fingerprints only. Forward returns are prohibited inputs to profile selection.",
+  "frozen_detector": {
+    "pivot_side_htf_bars": 2,
+    "min_touches": 3,
+    "min_consecutive_touch_gap_htf_bars": 6,
+    "min_first_to_third_touch_trading_sessions": 15,
+    "touch_tolerance_atr": 0.25,
+    "max_abs_slope_atr_per_htf_bar": 0.25,
+    "prebreak_close_integrity_atr": 0.25,
+    "breakout_close_above_line_atr": 0.10,
+    "family_breakout_gap_htf_bars": 2,
+    "family_action_line_tolerance_atr": 0.25,
+    "regime_lockout_new_pivots": 2,
+    "regime_lockout_max_old_anchors": 1,
+    "raw_entry": "next executable M30 RTH open",
+    "htf_construction_et": ["09:30-13:00", "13:00-16:00"]
+  },
+  "frozen_tori_early": {"reject_if_extension_atr_gt": 1.0},
+  "unknown_mechanics_allowed_to_vary_for_replication_only": [
+    "ATR(14) smoothing: Wilder/RMA vs 14-bar SMA",
+    "trendline construction: anchor-pair line vs OLS refit through qualifying contacts",
+    "ATR reference for touch tolerance: local pivot ATR vs breakout ATR",
+    "ATR reference for structural-integrity test: local bar ATR vs breakout ATR",
+    "ATR reference for slope normalization: breakout ATR vs mean touch ATR"
+  ],
+  "explicitly_not_used_for_profile_selection": [
+    "forward returns", "+2% path outcomes", "MFE", "MAE", "Day-5 return", "RS", "volume"
+  ],
+  "checksums": {
+    "calibration_h1_2025": {
+      "universe_counts": {"AAPL": 2, "AMZN": 4, "META": 3, "MSFT": 2, "NVDA": 3},
+      "total": 14
+    },
+    "oos_h2_2024": {
+      "universe_counts": {"GOOGL": 4, "AMD": 2, "JPM": 0, "XOM": 2, "CAT": 2},
+      "total": 10,
+      "known_event_fingerprint": [
+        {"ticker": "XOM", "date": "2024-11-06", "extension_atr": 1.29, "extension_rounding_tolerance": 0.03}
+      ]
+    },
+    "oos_partial_h1_2024": {
+      "universe": ["AVGO","BAC","GS","CVX","SLB","UNH","LLY","WMT","COST","HD","CRM","ORCL","NOW","MU","QCOM","GE"],
+      "coverage": "approximately 2024-02-27 through 2024-06-30",
+      "total": 19,
+      "known_retained_fingerprints": [
+        {"ticker":"ORCL","date":"2024-06-06","extension_atr":0.19,"extension_rounding_tolerance":0.03},
+        {"ticker":"SLB","date":"2024-06-18","extension_atr":0.65,"extension_rounding_tolerance":0.03},
+        {"ticker":"NOW","date":"2024-05-09","extension_atr":0.30,"extension_rounding_tolerance":0.03},
+        {"ticker":"HD","date":"2024-06-10","extension_atr":0.22,"extension_rounding_tolerance":0.03},
+        {"ticker":"AVGO","date":"2024-05-13","extension_atr":0.13,"extension_rounding_tolerance":0.03}
+      ],
+      "known_extension_rejections": [
+        {"ticker":"LLY","extension_atr":2.57,"extension_rounding_tolerance":0.03},
+        {"ticker":"QCOM","extension_atr":1.64,"extension_rounding_tolerance":0.03},
+        {"ticker":"ORCL","extension_atr":1.14,"extension_rounding_tolerance":0.03},
+        {"ticker":"HD","extension_atr":1.37,"extension_rounding_tolerance":0.03},
+        {"ticker":"CRM","extension_atr":2.02,"extension_rounding_tolerance":0.03}
+      ]
+    }
+  },
+  "promotion_rule": "A replication profile may touch H2-2023 only after reproducing all available count checksums and known date/extension fingerprints. If no profile passes, stop; do not optimize against H2-2023 or forward returns."
+}
