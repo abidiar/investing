@@ -18,13 +18,17 @@
     "htf_construction_et": ["09:30-13:00", "13:00-16:00"]
   },
   "frozen_tori_early": {"reject_if_extension_atr_gt": 1.0},
-  "unknown_mechanics_allowed_to_vary_for_replication_only": [
-    "ATR(14) smoothing: Wilder/RMA vs 14-bar SMA",
-    "trendline construction: anchor-pair line vs OLS refit through qualifying contacts",
-    "ATR reference for touch tolerance: local pivot ATR vs breakout ATR",
-    "ATR reference for structural-integrity test: local bar ATR vs breakout ATR",
-    "ATR reference for slope normalization: breakout ATR vs mean touch ATR"
-  ],
+  "replication_grid_v1": {
+    "profiles": 64,
+    "dimensions": {
+      "atr14_smoothing": ["Wilder/RMA", "14-bar SMA"],
+      "line_construction": ["anchor-pair line", "OLS refit through qualifying contacts"],
+      "touch_tolerance_atr_reference": ["local pivot ATR", "breakout ATR"],
+      "integrity_atr_reference": ["local bar ATR", "breakout ATR"],
+      "slope_normalization_atr_reference": ["breakout ATR", "mean touch ATR"],
+      "overlapping_touch_assignment": ["earliest", "minimum normalized error"]
+    }
+  },
   "explicitly_not_used_for_profile_selection": [
     "forward returns", "+2% path outcomes", "MFE", "MAE", "Day-5 return", "RS", "volume"
   ],
