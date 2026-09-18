@@ -4,8 +4,13 @@ import argparse
 from datetime import datetime, timedelta, time
 import os
 from pathlib import Path
+import sys
 from zoneinfo import ZoneInfo
 import pandas as pd
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from webull.data.common.timespan import Timespan
 from webull_client import WebullClient
