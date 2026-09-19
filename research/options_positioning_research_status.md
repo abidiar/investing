@@ -118,21 +118,44 @@ Using each instrument-year's own median to avoid simple scale pooling, HIGH near
 
 However, the normalized `NEXT_RANGE_VS_20D` relationship was much weaker (pooled rho=-0.084), and the price-only walk-forward baseline already captured nearly all of the practical information. Adding gamma improved MAE only **0.19%** for next RTH range and **0.24%** for max excursion, far below the frozen 2% promotion threshold. This strongly suggests near-spot gamma concentration is a **robust marker of the prevailing compression/volatility regime, but not yet an independent forecasting edge beyond price-based volatility state**.
 
-All frozen association/stability gates passed; the incremental walk-forward gate failed. Do not promote it to STRENGTH, RUNWAY, BUY/WAIT or option selection. If surfaced at all in future research, it should be treated only as a possible path-amplitude context feature until incremental value is demonstrated.
+## Pass 10 — Untouched 2020–2022 incremental-value holdout
+Files:
+- `research/near_spot_gamma_incremental_value_v1.md`
+- `research/results/near_spot_gamma_incremental_value_v1_results.md`
+
+Verdict: **CONDITIONAL ASSOCIATION / RESEARCH-ONLY**.
+
+This preregistered holdout used **2,262** SPY/QQQ/IWM Day-T observations across **2020, 2021, 2022**, with no 2023–2026 observations in the verdict. It directly tested whether near-spot unsigned gamma retained information after controlling for seven Day-T volatility/range variables: absolute O/C move, RTH range, RV5, RV20, trailing-20 median range, ATR20, and current-range/trailing-median ratio, with instrument/year fixed effects and HC3 errors.
+
+The controlled association **survived strongly**:
+- pooled near gamma -> log(next RTH range): coefficient **-0.722**, HC3 p<0.001
+- pooled near gamma -> log(next max excursion): coefficient **-0.747**, HC3 p<0.001
+- range coefficient was negative in **SPY (-1.191, p<0.001), QQQ (-0.560, p=0.015), and IWM (-0.374, p=0.031)**
+- range coefficient was negative in **2020 (-0.477, p=0.023), 2021 (-1.210, p<0.001), and 2022 (-0.490, p=0.013)**
+- non-OPEX coefficients remained strongly negative for both primary outcomes.
+
+Residual tests told the same story after removing the volatility-only fitted component:
+- near gamma vs unexpected next RTH range residual: rho **-0.090**, p=0.00002
+- near gamma vs unexpected max-excursion residual: rho **-0.072**, p=0.00057
+- both remained negative/significant outside OPEX.
+
+However, the practical incremental forecast improvement was still modest rather than large. Adding the frozen gamma features to the richer price-volatility baseline improved walk-forward MAE by **1.26%** for next RTH range and **1.33%** for max excursion, below the frozen **2%** promotion threshold; absolute O/C improved only 0.64%.
+
+Interpretation: near-spot unsigned gamma is **not merely a simple volatility proxy**. It contains a small but statistically robust amount of independent information about next-session amplitude after controlling for observable price volatility. But the incremental forecasting gain remains too small under our predeclared standard to influence scanner action states, Strength/Runway, or option selection.
 
 ## Current best interpretation
 - Raw OI: not directional.
 - Delta-OI persistence: not useful enough for next-session movement/continuation.
 - Large gamma wall: not automatically a magnet.
 - The directional gap-continuation interpretation of near-spot unsigned gamma **failed two independent replications** and is not usable.
-- A narrower, non-directional relationship **did replicate broadly**: higher near-spot unsigned gamma is associated with smaller next-session RTH range/excursion across SPY, QQQ and IWM and across 2023–2025.
-- But most of that compression information appears redundant with observable price-volatility regime variables; current walk-forward incremental value is negligible.
+- A narrower, non-directional compression relationship has now survived both a 2023–2025 broad replication and a separate 2020–2022 controlled holdout.
+- High near-spot unsigned gamma appears to be a **real, small additive signal about expected RTH amplitude/compression**, not just a restatement of price volatility, but current walk-forward value is below the frozen promotion threshold.
 - Signed/modelled dealer GEX remains economically distinct and still requires larger independent validation.
 
 ## Do Not Re-Test Unless
 Do not re-optimize or resurrect the failed QQQ gap-conditioned continuation rule by changing the gap threshold, DTE, moneyness, near-gamma band, IV filter, or OPEX exclusions.
 
-For unsigned gamma compression, do not promote or tune a scanner threshold from the 2023–2025 results. Re-test only through a preregistered incremental-information experiment that controls explicitly for volatility regime, or with an untouched additional period/instrument set.
+For unsigned gamma compression, do not tune thresholds on the 2020–2025 results to force the 2% gate. The core relationship is now sufficiently replicated; additional work should focus on either (a) a genuinely new data source/mechanism, such as signed dealer positioning, or (b) whether the small additive amplitude signal improves a specific already-frozen Investing OS decision problem such as chase avoidance, target sizing, or option-structure choice without granting directional authority.
 
 ## Next clean falsification
-Test whether near-spot unsigned gamma contains **incremental** information after explicitly residualizing next-session range against observable Day-T volatility state (current RTH range, RV5, trailing-20 range, ATR/realized-volatility percentile, and instrument/year effects). Freeze the controls and residual test before viewing results. The key question is no longer whether gamma and compression are associated—they are—but whether gamma predicts **unexpected compression beyond what price-based volatility state already tells us**.
+If continuing unsigned-gamma work, the most useful next experiment is **decision-level utility**, not another correlation test. Freeze one concrete use case—for example, whether adding a high-gamma compression flag to otherwise-qualified breakout setups reduces false breakout/chase losses or improves target calibration—then test it out of sample without changing entry direction or Strength/Runway rules. Alternatively, shift research effort to signed/modelled dealer-GEX amplification/damping, which remains a distinct and potentially more actionable mechanism.
