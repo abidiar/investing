@@ -1,0 +1,46 @@
+name: QQQ Gamma RTH Decomposition Research
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/run_qqq_gamma_rth_decomposition.py'
+      - 'research/qqq_gamma_rth_decomposition_v1.md'
+      - '.github/workflows/qqq-gamma-rth-decomposition.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout Investing OS
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install research dependencies
+        run: pip install pandas numpy scipy tabulate
+
+      - name: Run frozen gamma RTH decomposition test
+        run: |
+          mkdir -p research/results
+          python research/run_qqq_gamma_rth_decomposition.py | tee research/results/qqq_gamma_rth_decomposition_v1_run.log
+
+      - name: Commit reproducible results
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/results/qqq_gamma_rth_decomposition_v1_*.csv research/results/qqq_gamma_rth_decomposition_v1_*.md research/results/qqq_gamma_rth_decomposition_v1_run.log
+          if git diff --cached --quiet; then
+            echo 'No result changes to commit.'
+          else
+            git commit -m 'Record frozen QQQ gamma RTH decomposition v1 results [skip ci]'
+            git push
+          fi
