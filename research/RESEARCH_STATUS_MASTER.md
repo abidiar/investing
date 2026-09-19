@@ -3,13 +3,14 @@
 Updated: 2026-09-19
 Status: **CANONICAL CROSS-TOPIC INDEX**
 
-This file is the concise cross-chat research state. Detailed frozen protocols, code, and results remain in their topic files. Governance is defined in `research/RESEARCH_GOVERNANCE.md`.
+This file is the concise cross-chat research state. Detailed prior-work reviews, frozen protocols, code, and results remain in their topic files. Governance is defined in `research/RESEARCH_GOVERNANCE.md`.
 
 ## Current production posture
 - **Price gets final vote.**
 - No research-only options-positioning feature may independently create direction, add STRENGTH/RUNWAY, manufacture R:R, or authorize BUY/SELL/CALL/PUT/HOLD/overnight carry.
 - Quarterly expiration/rebalance risk is a standing scanner gate and must be surfaced prominently.
 - A finding enters production only after its preregistered promotion standard passes.
+- **Every new hypothesis now requires a prior-work review before protocol freezing.** See `research/PRIOR_WORK_REVIEW_STANDARD.md`.
 
 ## Options-positioning / gamma research status
 
@@ -81,23 +82,36 @@ Untouched holdout: 799 SPY/QQQ/IWM candidates in 2012–2013, trained from a 201
 - The QQQ 2026 gap-gamma continuation effect as a general market rule.
 
 ## What remains alive
-- Signed/modelled dealer GEX as a potentially distinct amplification/damping mechanism, still needing larger independent validation.
+- Signed/modelled dealer GEX as a potentially distinct amplification/damping mechanism, still needing a source/method audit and Investing OS incremental-utility test.
 - Unsigned near-spot gamma as a small, non-directional next-session amplitude/compression association, **research/context-only** after failing two practical decision-level overlays.
+
+## Prior-work review — signed dealer GEX branch
+File: `research/prior_work/dealer_gex_amplification_damping_prior_work_2026-09-19.md`
+
+Key conclusion: the broad mechanism is already well studied. Academic work including Barbon & Buraschi, Baltussen et al., Anderegg et al., Dim/Eraker/Vilkov, and Adams/Fontaine/Ornthanalai supports some form of **negative dealer gamma -> momentum/amplification** and **positive dealer gamma -> reversal/damping**, especially conditional on liquidity. Modern Cboe work also warns that gross 0DTE volume does not imply large net hedge flow, and public OI does not reveal dealer inventory. Older expiration-pinning evidence exists, but recent modern-market studies weaken the case for treating exact GEX walls as automatic local magnets.
+
+**Design implication:** our next work should not rediscover whether signed gamma can matter. It should first audit whether we can obtain a credible historical dealer-sign measure, then test **incremental decision value beyond price/volatility/liquidity**. Price must continue to supply direction.
 
 ## Do Not Re-Test Unless
 - Do not resurrect the failed QQQ gap-continuation rule by changing gap threshold, DTE, moneyness, near-gamma band, IV filter, or OPEX exclusions.
 - Do not tune the 2020–2025 unsigned-gamma thresholds to force the 2% forecast gate.
 - Do not convert the failed Pass-11 veto into a softer threshold chosen from the same 2017–2019 outcomes and call it validation.
 - Do not lower the Pass-12 0.60 target threshold, change the target ladder, or tune on the same 2012–2013 outcomes to create target changes.
+- Do not treat public open interest as observed dealer inventory.
+- Do not make exact gamma-wall pinning the next research priority without materially stronger evidence/data.
 - Further unsigned-gamma work requires a genuinely new economic question plus untouched data; otherwise treat this branch as sufficiently explored.
 
 ## Next clean research priority
-**Shift to signed/modelled dealer-GEX amplification/damping.** Before outcome testing, freeze a source/methodology audit because dealer-side sign is model-assumed and GEX formulas differ by provider. Then test on an independent multi-year sample where **price supplies direction** and signed GEX is allowed only to modify expected move behavior (amplification/damping), never direction. Require a price-only baseline and preregistered promotion gates.
+**Dealer-sign data/source audit before any new outcome experiment.** Determine whether accessible sources can provide participant-class dealer/customer data, signed option flow, historical dealer inventory proxies, SPX/SPXW coverage, 0DTE vs longer-dated contributions, and intraday underlying liquidity. If only an OI sign heuristic is available, any next test must be labeled a proxy-method replication and include alternate-sign robustness.
+
+Only after that audit should the signed-GEX amplification/damping experiment be frozen.
 
 ## Key locations
 - Governance: `research/RESEARCH_GOVERNANCE.md`
+- Prior-work standard: `research/PRIOR_WORK_REVIEW_STANDARD.md`
 - Start-here bootstrap: `INVESTING_OS_RESEARCH_START_HERE.md`
 - Detailed options status: `research/options_positioning_research_status.md`
+- Prior-work reviews: `research/prior_work/`
 - Frozen protocols/code/results: `research/` and `research/results/`
 - Google Doc human-readable ledger: **Investing OS Research Ledger — Canonical**, document ID `1MxHv5HPlr1Ab9A8cb3diPUtBJv6fWgNZwhhrw72zAus`
 - Live Investing OS Sheet: spreadsheet ID `14lTnD-on91I4F5E5FAQ8-39zTRv2GzBjyd1b4_uCzjc`
