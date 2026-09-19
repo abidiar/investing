@@ -98,20 +98,41 @@ Walk-forward performance worsened materially when gamma features were added: fol
 
 Because both SPY 2025 and QQQ 2025 failed, the original QQQ 2026 gap-conditioned gamma continuation result is now best treated as **2026-regime/source-specific discovery rather than a durable cross-regime scanner edge**.
 
+## Pass 9 — Multi-year near-spot unsigned gamma compression
+Files:
+- `research/multiyear_near_spot_gamma_compression_v1.md`
+- `research/results/multiyear_near_spot_gamma_compression_v1_results.md`
+
+Verdict: **REPLICATED ASSOCIATION / RESEARCH-ONLY**.
+
+This preregistered test used **2,221** SPY/QQQ/IWM Day-T observations across **2023, 2024, 2025** and asked a non-directional question: does greater unsigned theoretical gamma concentration within ±0.50% of spot predict a smaller next-session RTH range/excursion?
+
+The raw association replicated strongly:
+- pooled near gamma -> next RTH range: rho=-0.456, p<0.001
+- pooled near gamma -> next max excursion: rho=-0.382, p<0.001
+- non-OPEX near gamma -> RTH range: rho=-0.452, p<0.001
+- SPY: rho=-0.459; QQQ: rho=-0.305; IWM: rho=-0.090 for next RTH range, all negative and IWM still p=0.014
+- 2023: rho=-0.407; 2024: rho=-0.463; 2025: rho=-0.488 for next RTH range, all p<0.001
+
+Using each instrument-year's own median to avoid simple scale pooling, HIGH near-gamma sessions averaged **1.228%** next-day RTH range versus **1.507%** for LOW near-gamma sessions, and **0.999%** versus **1.187%** maximum open-centered excursion.
+
+However, the normalized `NEXT_RANGE_VS_20D` relationship was much weaker (pooled rho=-0.084), and the price-only walk-forward baseline already captured nearly all of the practical information. Adding gamma improved MAE only **0.19%** for next RTH range and **0.24%** for max excursion, far below the frozen 2% promotion threshold. This strongly suggests near-spot gamma concentration is a **robust marker of the prevailing compression/volatility regime, but not yet an independent forecasting edge beyond price-based volatility state**.
+
+All frozen association/stability gates passed; the incremental walk-forward gate failed. Do not promote it to STRENGTH, RUNWAY, BUY/WAIT or option selection. If surfaced at all in future research, it should be treated only as a possible path-amplitude context feature until incremental value is demonstrated.
+
 ## Current best interpretation
 - Raw OI: not directional.
 - Delta-OI persistence: not useful enough for next-session movement/continuation.
 - Large gamma wall: not automatically a magnet.
-- Near-spot unsigned gamma concentration may relate to RTH range/excursion structure in some samples, but its directional gap-continuation relationship **failed two independent replications**.
-- The 2026 QQQ gap-conditioned continuation result is **not promotable and is materially downgraded**.
-- Higher near-spot gamma may sometimes reduce both favorable and adverse excursions rather than selectively improve continuation; this is closer to a compression hypothesis than a directional continuation edge.
-- Signed/modelled dealer GEX remains a separate hypothesis and still requires larger independent validation.
+- The directional gap-continuation interpretation of near-spot unsigned gamma **failed two independent replications** and is not usable.
+- A narrower, non-directional relationship **did replicate broadly**: higher near-spot unsigned gamma is associated with smaller next-session RTH range/excursion across SPY, QQQ and IWM and across 2023–2025.
+- But most of that compression information appears redundant with observable price-volatility regime variables; current walk-forward incremental value is negligible.
+- Signed/modelled dealer GEX remains economically distinct and still requires larger independent validation.
 
 ## Do Not Re-Test Unless
-Do not re-optimize or resurrect the QQQ gap-conditioned gamma continuation rule by changing the 0.25% gap threshold, DTE, moneyness, near-gamma band, IV filter, or OPEX exclusions. Re-test only if:
-- a materially different signed dealer-positioning dataset becomes available;
-- the same frozen rule can be tested over multiple untouched historical years as a preregistered panel;
-- or a clearly new economic mechanism is specified before outcomes are viewed.
+Do not re-optimize or resurrect the failed QQQ gap-conditioned continuation rule by changing the gap threshold, DTE, moneyness, near-gamma band, IV filter, or OPEX exclusions.
+
+For unsigned gamma compression, do not promote or tune a scanner threshold from the 2023–2025 results. Re-test only through a preregistered incremental-information experiment that controls explicitly for volatility regime, or with an untouched additional period/instrument set.
 
 ## Next clean falsification
-If options-structure research continues, prefer a **multi-year QQQ panel (e.g. 2022–2024) using the same 2025 historical archive methodology and the already-frozen rules**, with year-by-year reporting before any pooled result. The purpose would not be to rescue the failed continuation rule, but to determine whether near-spot unsigned gamma has a stable **compression / lower-total-excursion** effect across regimes. Alternatively, shift research effort back to signed/modelled dealer-GEX amplification/damping, which is economically distinct from unsigned gamma concentration.
+Test whether near-spot unsigned gamma contains **incremental** information after explicitly residualizing next-session range against observable Day-T volatility state (current RTH range, RV5, trailing-20 range, ATR/realized-volatility percentile, and instrument/year effects). Freeze the controls and residual test before viewing results. The key question is no longer whether gamma and compression are associated—they are—but whether gamma predicts **unexpected compression beyond what price-based volatility state already tells us**.
