@@ -34,7 +34,9 @@ jobs:
       - name: Run frozen OI persistence test
         env:
           QQQ_OPTION_SRC: /tmp/qqq-option/data/2026
-        run: python research/run_qqq_oi_persistence.py | tee research/results/qqq_oi_persistence_v1_run.log
+        run: |
+          mkdir -p research/results
+          python research/run_qqq_oi_persistence.py | tee research/results/qqq_oi_persistence_v1_run.log
 
       - name: Commit reproducible results
         run: |
