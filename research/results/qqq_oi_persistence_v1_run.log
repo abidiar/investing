@@ -1,0 +1,81 @@
+# QQQ OI Persistence v1.0 — Frozen Backtest Results
+
+Generated: 2026-09-19T16:03:39Z
+
+## Frozen sample construction
+- Eligible sequential snapshot sessions: **162**
+- First eligible T date: **2026-01-21**
+- Last eligible T date: **2026-09-15**
+- Median matched 1–30DTE near-spot contracts/session: **612**
+- Current-moneyness window: **±3.0%** of QQQ Day-T close
+- DTE universe: **1–30 calendar days**
+- Day-T snapshot predicts **T+1 only**; no same-day use of settled OI.
+
+### Exclusions / source coverage
+- no_price: 8
+- no_next_price: 1
+- missing_prior_snapshot: 3
+- nonconsecutive_snapshot: 0
+- empty_chain: 0
+- TOTAL_PERSISTENCE > 1.0: 0 sessions; > 2.0: 0. These were **reported, not clipped** per frozen rule.
+
+## Primary tests
+
+### H1 — Does total OI persistence predict next-session movement magnitude?
+- 1–30DTE persistence vs next |close-to-close|: **rho=-0.060**, p=0.446, n=162
+- 1–30DTE persistence vs next high-low range: **rho=-0.084**, p=0.289, n=162
+
+All frozen bucket tests:
+| bucket   | feature           | outcome     |   n |   spearman_rho |   p_value |
+|:---------|:------------------|:------------|----:|---------------:|----------:|
+| dte1_30  | total_persistence | next_abs_cc | 162 |        -0.0603 |    0.4458 |
+| dte1_30  | total_persistence | next_range  | 162 |        -0.0838 |    0.2888 |
+| dte1_30  | build_imbalance   | next_cc     | 162 |         0.0056 |    0.9437 |
+| dte1_7   | total_persistence | next_abs_cc | 162 |        -0.1096 |    0.165  |
+| dte1_7   | total_persistence | next_range  | 162 |        -0.0992 |    0.2093 |
+| dte1_7   | build_imbalance   | next_cc     | 162 |         0.0091 |    0.9088 |
+| dte8_30  | total_persistence | next_abs_cc | 162 |        -0.0092 |    0.9074 |
+| dte8_30  | total_persistence | next_range  | 162 |        -0.0866 |    0.2732 |
+| dte8_30  | build_imbalance   | next_cc     | 162 |         0.0068 |    0.9314 |
+
+### Descriptive above/below-median persistence cut
+This median split is **exploratory/readability only**, not a scanner threshold.
+| bucket             |   n |   mean_persistence | avg_abs_next   | avg_range   | avg_signed_next   |
+|:-------------------|----:|-------------------:|:---------------|:------------|:------------------|
+| ABOVE_MEDIAN       |  81 |              0.136 | 1.01%          | 1.52%       | 0.26%             |
+| AT_OR_BELOW_MEDIAN |  81 |              0.077 | 1.07%          | 1.47%       | -0.09%            |
+
+### H2 — Is call-vs-put OI buildup imbalance directionally predictive?
+- BUILD_IMBALANCE vs next signed close-to-close return: **rho=0.006**, p=0.944, n=162
+- Per frozen rules, this is not promoted unless stable; long/short identity remains unobserved.
+
+### H3 — Does persistence improve continuation after price has already moved >=0.25%?
+| bucket             |   n |   mean_persistence | continuation_rate   | avg_abs_next   |
+|:-------------------|----:|-------------------:|:--------------------|:---------------|
+| ABOVE_MEDIAN       |  63 |              0.132 | 53.97%              | 1.01%          |
+| AT_OR_BELOW_MEDIAN |  64 |              0.075 | 57.81%              | 1.08%          |
+
+### Call vs put persistence robustness
+| side   | outcome     |   n |     rho |      p |
+|:-------|:------------|----:|--------:|-------:|
+| call   | next_abs_cc | 162 | -0.1683 | 0.0323 |
+| call   | next_range  | 162 | -0.1512 | 0.0548 |
+| put    | next_abs_cc | 162 |  0.0038 | 0.9618 |
+| put    | next_range  | 162 |  0.0031 | 0.9689 |
+
+### Monthly-OPEX-week descriptive cut
+| monthly_opex_week   |   n |   mean_persistence | avg_abs_next   | avg_range   |
+|:--------------------|----:|-------------------:|:---------------|:------------|
+| False               | 127 |              0.107 | 1.07%          | 1.52%       |
+| True                |  35 |              0.106 | 0.95%          | 1.40%       |
+
+## Automatic interpretation guardrails
+- A positive/negative call-vs-put buildup imbalance is **not** buyer/seller direction.
+- Persistence is treated as a possible *positioning intensity / stickiness* measure only.
+- No result from this pass adds STRENGTH, RUNWAY, R:R, or creates a trade.
+- If the relationship is weak/unstable across DTE buckets, the feature is rejected or kept research-only.
+
+## Mechanical Pass-2A verdict
+NOT YET SUPPORTED: persistence does not meet the predeclared conservative movement-magnitude screen; keep research-only.
+
+The mechanical screen is deliberately conservative and is not an optimization target.
