@@ -1,0 +1,66 @@
+# Gamma Target Calibration v1.0 — Frozen Results
+
+Generated: 2026-09-19T18:08:33+00:00
+
+## Coverage
+- Total panel rows (2011–2013): **1289**
+- Training seed candidates (2011): **490**
+- Untouched holdout candidates (2012–2013): **799**
+- Median eligible option contracts/candidate: **48**
+- Exclusions: `{'SPY': {'no_price': 0, 'no_next_price': 0, 'no_history': 0, 'no_gamma': 0, 'small_gap': 338}, 'QQQ': {'no_price': 0, 'no_next_price': 0, 'no_history': 0, 'no_gamma': 0, 'small_gap': 283}, 'IWM': {'no_price': 0, 'no_next_price': 0, 'no_history': 0, 'no_gamma': 0, 'small_gap': 295}}`
+
+## Full-sample decision utility
+- Mean capture A (price-only target): **0.21%**
+- Mean capture B (price+gamma target): **0.21%**
+- Relative capture improvement: **0.00%**
+- Paired mean capture difference: **0.00%**
+- Paired bootstrap 95% CI: **[0.00%, 0.00%]**
+- Target hit rate A: **40.55%**
+- Target hit rate B: **40.55%**
+- Hit-rate change: **0.00 pp**
+- Mean target multiple A: **0.500× median20 range**
+- Mean target multiple B: **0.500× median20 range**
+- B/A target-multiple ratio: **1.000**
+- Mean captured-MFE ratio A: **25.95%**
+- Mean captured-MFE ratio B: **25.95%**
+- Target changes: **0 upgrades / 0 downgrades / 799 unchanged**
+
+## Target selection shares
+- A: T1 99.87%, T2 0.13%, T3 0.00%
+- B: T1 99.87%, T2 0.13%, T3 0.00%
+
+## Instrument / year robustness
+| sample     |   n | capture_improvement_rel   |   hit_rate_diff_pp |   mean_target_mult_a |   mean_target_mult_b |
+|:-----------|----:|:--------------------------|-------------------:|---------------------:|---------------------:|
+| FULL       | 799 | 0.00%                     |                  0 |             0.500313 |             0.500313 |
+| SYMBOL_SPY | 245 | 0.00%                     |                  0 |             0.50102  |             0.50102  |
+| SYMBOL_QQQ | 278 | 0.00%                     |                  0 |             0.5      |             0.5      |
+| SYMBOL_IWM | 276 | 0.00%                     |                  0 |             0.5      |             0.5      |
+| YEAR_2012  | 435 | 0.00%                     |                  0 |             0.5      |             0.5      |
+| YEAR_2013  | 364 | 0.00%                     |                  0 |             0.500687 |             0.500687 |
+
+## Probability diagnostic
+|   target_mult |   brier_a |   brier_b |   improvement_rel |
+|--------------:|----------:|----------:|------------------:|
+|      0.500000 |  0.245581 |  0.248757 |         -0.012930 |
+|      0.750000 |  0.171436 |  0.172927 |         -0.008698 |
+|      1.000000 |  0.102507 |  0.102802 |         -0.002878 |
+- Average relative Brier improvement across T1/T2/T3: **-0.82%**
+
+## Target-change MFE diagnostic
+| group     |   n |   mean_same_dir_mfe |
+|:----------|----:|--------------------:|
+| UPGRADE   |   0 |          nan        |
+| DOWNGRADE |   0 |          nan        |
+| UNCHANGED | 799 |            0.005122 |
+
+## Frozen decision gates
+- Mean capture improvement >=3%: **FAIL**
+- Paired bootstrap lower bound >0: **FAIL**
+- Hit rate worsens by <=2pp: **PASS**
+- Mean target multiple B >=95% of A: **PASS**
+- Positive capture improvement in >=2/3 instruments and both years: **FAIL**
+- Overall frozen verdict: **FAILED DECISION-LEVEL TARGET OVERLAY**
+
+## Interpretation constraint
+This is a target-feasibility proxy on opening-gap continuation candidates. All entries are retained in both models. Daily OHLC cannot determine target-before-stop ordering. No result changes production direction, STRENGTH, RUNWAY, R:R, option selection, BUY/WAIT, or overnight logic automatically.
