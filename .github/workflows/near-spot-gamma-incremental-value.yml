@@ -1,0 +1,61 @@
+name: Near-Spot Gamma Incremental Value Research
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/near_spot_gamma_incremental_value_v1.md'
+      - 'research/run_near_spot_gamma_incremental_value.py'
+      - '.github/workflows/near-spot-gamma-incremental-value.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout Investing OS
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install research dependencies
+        run: pip install pandas numpy scipy statsmodels yfinance pyarrow tabulate
+
+      - name: Fetch 2020-2022 SPY QQQ IWM options datasets
+        run: |
+          mkdir -p /tmp/options_gamma_incremental
+          for sym in spy qqq iwm; do
+            for year in 2020 2021 2022; do
+              echo "Fetching ${sym} ${year}"
+              curl -L --fail --retry 3 \
+                "https://raw.githubusercontent.com/anahatsingh-ui/options-dataset-hist/main/${sym}/options_${year}.parquet" \
+                -o "/tmp/options_gamma_incremental/${sym}_${year}.parquet"
+            done
+          done
+          ls -lh /tmp/options_gamma_incremental
+
+      - name: Run frozen incremental-value holdout test
+        env:
+          OPTIONS_DATA_DIR: /tmp/options_gamma_incremental
+        run: |
+          mkdir -p research/results
+          python research/run_near_spot_gamma_incremental_value.py | tee research/results/near_spot_gamma_incremental_value_v1_run.log
+
+      - name: Commit reproducible results
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/results/near_spot_gamma_incremental_value_v1_*.csv research/results/near_spot_gamma_incremental_value_v1_*.md research/results/near_spot_gamma_incremental_value_v1_run.log
+          if git diff --cached --quiet; then
+            echo 'No result changes to commit.'
+          else
+            git commit -m 'Record frozen near-spot gamma incremental-value holdout results [skip ci]'
+            git push
+          fi
