@@ -1,0 +1,110 @@
+# QQQ Gamma Concentration / Pinning v1.0 — Frozen Backtest Results
+
+Generated: 2026-09-19T16:13:31+00:00
+
+## Frozen sample
+- Eligible sessions: **165**
+- First Day-T: **2026-01-20**
+- Last Day-T: **2026-09-17**
+- Median eligible contracts/session: **1079**
+- DTE: **1–30 days**; moneyness: **±5%**; IV filter: **5%–200%**
+- Unsigned theoretical gamma only; this is **not dealer GEX**.
+
+### Exclusions
+- no_price: 8
+- no_next_price: 1
+- empty_chain: 0
+- no_eligible_gamma: 0
+
+## H1/H2 — Primary damping / expansion associations
+
+| sample      | feature                |   expected_sign | outcome     |   n |     rho |   p_value |
+|:------------|:-----------------------|----------------:|:------------|----:|--------:|----------:|
+| FULL        | near_gamma_share_0_5   |              -1 | next_abs_cc | 165 |  0.011  |    0.8883 |
+| FULL        | near_gamma_share_0_5   |              -1 | next_range  | 165 | -0.22   |    0.0045 |
+| FULL        | front_near_gamma_share |              -1 | next_abs_cc | 165 |  0.0051 |    0.9477 |
+| FULL        | front_near_gamma_share |              -1 | next_range  | 165 | -0.2162 |    0.0053 |
+| FULL        | strike_hhi             |              -1 | next_abs_cc | 165 | -0.014  |    0.858  |
+| FULL        | strike_hhi             |              -1 | next_range  | 165 |  0.0252 |    0.7476 |
+| FULL        | weighted_abs_distance  |               1 | next_abs_cc | 165 |  0.0326 |    0.6776 |
+| FULL        | weighted_abs_distance  |               1 | next_range  | 165 |  0.1451 |    0.0629 |
+| FULL        | effective_strikes      |               1 | next_abs_cc | 165 |  0.014  |    0.858  |
+| FULL        | effective_strikes      |               1 | next_range  | 165 | -0.0252 |    0.7476 |
+| FIRST_HALF  | near_gamma_share_0_5   |              -1 | next_abs_cc |  82 |  0.1633 |    0.1427 |
+| FIRST_HALF  | near_gamma_share_0_5   |              -1 | next_range  |  82 | -0.1277 |    0.2528 |
+| FIRST_HALF  | front_near_gamma_share |              -1 | next_abs_cc |  82 |  0.1863 |    0.0937 |
+| FIRST_HALF  | front_near_gamma_share |              -1 | next_range  |  82 | -0.1598 |    0.1515 |
+| FIRST_HALF  | strike_hhi             |              -1 | next_abs_cc |  82 |  0.0854 |    0.4454 |
+| FIRST_HALF  | strike_hhi             |              -1 | next_range  |  82 |  0.0717 |    0.5219 |
+| FIRST_HALF  | weighted_abs_distance  |               1 | next_abs_cc |  82 | -0.1299 |    0.2446 |
+| FIRST_HALF  | weighted_abs_distance  |               1 | next_range  |  82 |  0.0674 |    0.5474 |
+| FIRST_HALF  | effective_strikes      |               1 | next_abs_cc |  82 | -0.0854 |    0.4454 |
+| FIRST_HALF  | effective_strikes      |               1 | next_range  |  82 | -0.0717 |    0.5219 |
+| SECOND_HALF | near_gamma_share_0_5   |              -1 | next_abs_cc |  83 | -0.1285 |    0.247  |
+| SECOND_HALF | near_gamma_share_0_5   |              -1 | next_range  |  83 | -0.3414 |    0.0016 |
+| SECOND_HALF | front_near_gamma_share |              -1 | next_abs_cc |  83 | -0.1711 |    0.1219 |
+| SECOND_HALF | front_near_gamma_share |              -1 | next_range  |  83 | -0.2906 |    0.0077 |
+| SECOND_HALF | strike_hhi             |              -1 | next_abs_cc |  83 | -0.0912 |    0.4124 |
+| SECOND_HALF | strike_hhi             |              -1 | next_range  |  83 | -0.0916 |    0.4104 |
+| SECOND_HALF | weighted_abs_distance  |               1 | next_abs_cc |  83 |  0.2034 |    0.0652 |
+| SECOND_HALF | weighted_abs_distance  |               1 | next_range  |  83 |  0.2637 |    0.016  |
+| SECOND_HALF | effective_strikes      |               1 | next_abs_cc |  83 |  0.0912 |    0.4124 |
+| SECOND_HALF | effective_strikes      |               1 | next_range  |  83 |  0.0916 |    0.4104 |
+
+## Descriptive median split — near-spot gamma share
+
+| bucket             |   n |   feature_mean | avg_abs_next   | avg_range   | avg_signed_next   |
+|:-------------------|----:|---------------:|:---------------|:------------|:------------------|
+| ABOVE_MEDIAN       |  82 |         0.2495 | 1.07%          | 1.34%       | 0.34%             |
+| AT_OR_BELOW_MEDIAN |  83 |         0.1579 | 1.01%          | 1.64%       | -0.14%            |
+
+## Descriptive median split — strike HHI
+
+| bucket             |   n |   feature_mean | avg_abs_next   | avg_range   | avg_signed_next   |
+|:-------------------|----:|---------------:|:---------------|:------------|:------------------|
+| ABOVE_MEDIAN       |  82 |         0.0574 | 1.04%          | 1.46%       | 0.05%             |
+| AT_OR_BELOW_MEDIAN |  83 |         0.0425 | 1.03%          | 1.52%       | 0.13%             |
+
+## H3/H4 and secondary structure tests
+
+| test                 | feature                  | outcome             |   n |     rho |   p_value |
+|:---------------------|:-------------------------|:--------------------|----:|--------:|----------:|
+| H3_near_dominant_pin | dominant_strike_share    | pin_improvement     | 108 | -0.0804 |    0.408  |
+| H4_continuation      | front_near_gamma_share   | continuation_return | 129 |  0.0641 |    0.4708 |
+| H4_continuation      | front_near_gamma_share   | continued           | 129 |  0.1318 |    0.1365 |
+| H4_continuation      | strike_hhi               | continuation_return | 129 | -0.0156 |    0.8607 |
+| H4_continuation      | strike_hhi               | continued           | 129 | -0.0757 |    0.3936 |
+| SECONDARY_STRUCTURE  | near_gamma_share_1_0     | next_abs_cc         | 165 | -0.0811 |    0.3006 |
+| SECONDARY_STRUCTURE  | near_gamma_share_1_0     | next_range          | 165 | -0.1541 |    0.0481 |
+| SECONDARY_STRUCTURE  | front_gamma_share        | next_abs_cc         | 165 |  0.1063 |    0.1741 |
+| SECONDARY_STRUCTURE  | front_gamma_share        | next_range          | 165 |  0.0791 |    0.3127 |
+| SECONDARY_STRUCTURE  | dominant_strike_share    | next_abs_cc         | 165 |  0.0311 |    0.6921 |
+| SECONDARY_STRUCTURE  | dominant_strike_share    | next_range          | 165 |  0.0462 |    0.5554 |
+| SECONDARY_STRUCTURE  | dominant_strike_distance | next_abs_cc         | 165 | -0.0987 |    0.2072 |
+| SECONDARY_STRUCTURE  | dominant_strike_distance | next_range          | 165 | -0.086  |    0.2718 |
+
+## Walk-forward incremental test vs price-only baseline
+
+| target      |   n_test | baseline_mae   | extended_mae   | mae_improvement_pct   |   baseline_pred_rho |   baseline_pred_p |   extended_pred_rho |   extended_pred_p |
+|:------------|---------:|:---------------|:---------------|:----------------------|--------------------:|------------------:|--------------------:|------------------:|
+| next_abs_cc |      105 | 0.67%          | 0.70%          | -4.40%                |              0.2446 |            0.0119 |              0.1541 |            0.1166 |
+| next_range  |      105 | 0.50%          | 0.49%          | 2.40%                 |              0.4649 |            0      |              0.4433 |            0      |
+
+## OPEX descriptive cut
+
+| monthly_opex_week   |   n |   near_share |   front_near_share |   strike_hhi | avg_abs_next   | avg_range   |
+|:--------------------|----:|-------------:|-------------------:|-------------:|:---------------|:------------|
+| False               | 129 |       0.2021 |             0.1335 |       0.0481 | 1.06%          | 1.52%       |
+| True                |  36 |       0.2082 |             0.1652 |       0.0562 | 0.94%          | 1.39%       |
+
+## Mechanical promotion screen
+
+- Stable expected-sign primary associations with full-sample p<0.10: **3**
+  - near_gamma_share_0_5 -> next_range: rho=-0.2200, p=0.0045
+  - front_near_gamma_share -> next_range: rho=-0.2162, p=0.0053
+  - weighted_abs_distance -> next_range: rho=0.1451, p=0.0629
+- Walk-forward MAE gate: **FAIL**
+- Pinning/continuation directional-coherence gate: **FAIL**
+- Overall v1.0 promotion verdict: **RESEARCH-ONLY**
+
+No result from this pass has independent directional authority or permission to alter STRENGTH, RUNWAY, R:R, or action state.
