@@ -73,15 +73,45 @@ The primary QQQ relationship did **not** generalize:
 
 A lower-adverse-excursion relationship survived in the full SPY sample (near gamma -> MAE rho=-0.248, p=0.0045) and non-OPEX sample, but it failed chronological stability because the second-half sign turned slightly positive. Descriptively, higher-gamma SPY gaps continued 53.1% vs 46.2% for lower gamma, far smaller than the prior QQQ 61.0% vs 36.7% separation.
 
-Walk-forward performance materially worsened when gamma features were added: follow-through MAE -18.4% improvement (worse), excursion-efficiency MAE -2.8% (worse), and MAE-from-open prediction -21.7% (worse). Therefore the QQQ gap-gamma effect must be treated as **sample/instrument-specific until proven otherwise**, not as a general scanner edge.
+Walk-forward performance materially worsened when gamma features were added: follow-through MAE -18.4% improvement (worse), excursion-efficiency MAE -2.8% (worse), and MAE-from-open prediction -21.7% (worse). Therefore the QQQ gap-gamma effect must be treated as sample/instrument-specific until proven otherwise, not as a general scanner edge.
+
+## Pass 8 — QQQ 2025 time-shift replication
+Files:
+- `research/qqq_gap_gamma_2025_replication_v1.md`
+- `research/results/qqq_gap_gamma_2025_replication_v1_results.md`
+
+Verdict: **FAILED REPLICATION**.
+
+This is the same underlying as the original discovery but a non-overlapping calendar year and an independent historical options archive. It contained 151 qualifying abs(gap)>=0.25% sessions.
+
+The original 2026 QQQ relationship did not replicate:
+- near gamma -> gap follow-through: rho=-0.030, p=0.718
+- near gamma -> excursion efficiency: rho=-0.144, p=0.078, opposite the frozen expected sign
+- near gamma -> MFE: rho=-0.328, p<0.001, strongly opposite the original favorable-excursion hypothesis
+- near gamma -> MAE: rho=-0.085, p=0.297, directionally favorable but weak
+
+Chronological stability also failed. In the second half, near gamma vs follow-through was rho=-0.189 and near gamma vs excursion efficiency was rho=-0.237 (p=0.039), both opposite the expected continuation relationship. Non-OPEX follow-through became mildly positive (rho=+0.129) but excursion efficiency remained essentially zero (rho=-0.006).
+
+Descriptively, above-median near-gamma sessions continued only 45.3% versus 46.1% below median, with lower average MFE (0.51% vs 0.91%) and lower excursion efficiency (42.4% vs 48.4%).
+
+Walk-forward performance worsened materially when gamma features were added: follow-through MAE -7.0% improvement (worse), excursion-efficiency MAE -1.43% (worse), and adverse-excursion MAE -14.27% (worse).
+
+Because both SPY 2025 and QQQ 2025 failed, the original QQQ 2026 gap-conditioned gamma continuation result is now best treated as **2026-regime/source-specific discovery rather than a durable cross-regime scanner edge**.
 
 ## Current best interpretation
 - Raw OI: not directional.
 - Delta-OI persistence: not useful enough for next-session movement/continuation.
 - Large gamma wall: not automatically a magnet.
-- Near-spot unsigned gamma concentration may relate to RTH range/excursion structure in some samples, but its relationship with directional gap continuation is **not independently replicated across SPY 2025**.
-- The QQQ gap-conditioned result is downgraded from promising-generalizable to **QQQ/2026-specific hypothesis requiring further independent replication**.
-- Signed/modelled dealer GEX may still matter for amplification/damping, but requires larger independent validation.
+- Near-spot unsigned gamma concentration may relate to RTH range/excursion structure in some samples, but its directional gap-continuation relationship **failed two independent replications**.
+- The 2026 QQQ gap-conditioned continuation result is **not promotable and is materially downgraded**.
+- Higher near-spot gamma may sometimes reduce both favorable and adverse excursions rather than selectively improve continuation; this is closer to a compression hypothesis than a directional continuation edge.
+- Signed/modelled dealer GEX remains a separate hypothesis and still requires larger independent validation.
+
+## Do Not Re-Test Unless
+Do not re-optimize or resurrect the QQQ gap-conditioned gamma continuation rule by changing the 0.25% gap threshold, DTE, moneyness, near-gamma band, IV filter, or OPEX exclusions. Re-test only if:
+- a materially different signed dealer-positioning dataset becomes available;
+- the same frozen rule can be tested over multiple untouched historical years as a preregistered panel;
+- or a clearly new economic mechanism is specified before outcomes are viewed.
 
 ## Next clean falsification
-Use the same frozen gap-conditioned gamma rules on **QQQ 2025** from the independent historical-options archive. This isolates whether the failed SPY replication reflects an instrument difference (SPY vs QQQ) or a regime/sample difference (2025 vs 2026). Do not alter the >=0.25% gap threshold, 1–30 DTE universe, ±5% moneyness, ±0.50% near-gamma zone, 1–7 DTE front bucket, IV filter, or promotion gates before that test.
+If options-structure research continues, prefer a **multi-year QQQ panel (e.g. 2022–2024) using the same 2025 historical archive methodology and the already-frozen rules**, with year-by-year reporting before any pooled result. The purpose would not be to rescue the failed continuation rule, but to determine whether near-spot unsigned gamma has a stable **compression / lower-total-excursion** effect across regimes. Alternatively, shift research effort back to signed/modelled dealer-GEX amplification/damping, which is economically distinct from unsigned gamma concentration.
