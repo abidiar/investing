@@ -1,0 +1,109 @@
+# SPY Gap-Conditioned Gamma Independent Replication v1.0 — Frozen Results
+
+Generated: 2026-09-19T17:16:31+00:00
+
+## Coverage
+- Qualifying abs(gap) >= 0.25% sessions: **129**
+- First Day-T: **2025-01-02**; last Day-T: **2025-12-12**
+- Monthly-OPEX-week qualifying sessions: **29**
+- Median eligible contracts/session: **1243**
+- Instrument/time independence: SPY calendar 2025; no 2026 QQQ observations used.
+- Exclusions: {'no_price': 0, 'no_next_price': 0, 'no_gamma': 0, 'gap_below_threshold': 109}
+
+## Primary correlations
+| sample      | feature                | outcome              |   expected_sign |   n |     rho |   p_value |
+|:------------|:-----------------------|:---------------------|----------------:|----:|--------:|----------:|
+| FULL        | near_gamma_share_0_5   | gap_followthrough    |               1 | 129 |  0.0535 |    0.5467 |
+| FULL        | near_gamma_share_0_5   | excursion_efficiency |               1 | 129 | -0.0355 |    0.6897 |
+| FULL        | near_gamma_share_0_5   | mfe_from_open        |               1 | 129 | -0.3083 |    0.0004 |
+| FULL        | near_gamma_share_0_5   | gap_retention_close  |               1 | 129 | -0.0729 |    0.4119 |
+| FULL        | near_gamma_share_0_5   | mae_from_open        |              -1 | 129 | -0.2484 |    0.0045 |
+| FULL        | near_gamma_share_0_5   | gap_fill             |              -1 | 129 | -0.0701 |    0.4296 |
+| FULL        | front_near_gamma_share | gap_followthrough    |               1 | 129 |  0.0199 |    0.8230 |
+| FULL        | front_near_gamma_share | excursion_efficiency |               1 | 129 | -0.0594 |    0.5036 |
+| FULL        | front_near_gamma_share | mfe_from_open        |               1 | 129 | -0.3373 |    0.0001 |
+| FULL        | front_near_gamma_share | gap_retention_close  |               1 | 129 | -0.0977 |    0.2707 |
+| FULL        | front_near_gamma_share | mae_from_open        |              -1 | 129 | -0.2259 |    0.0101 |
+| FULL        | front_near_gamma_share | gap_fill             |              -1 | 129 | -0.0155 |    0.8612 |
+| FULL        | weighted_abs_distance  | gap_followthrough    |              -1 | 129 | -0.0487 |    0.5838 |
+| FULL        | weighted_abs_distance  | excursion_efficiency |              -1 | 129 |  0.0097 |    0.9134 |
+| FULL        | weighted_abs_distance  | mfe_from_open        |              -1 | 129 |  0.3561 |    0.0000 |
+| FULL        | weighted_abs_distance  | gap_retention_close  |              -1 | 129 |  0.1216 |    0.1700 |
+| FULL        | weighted_abs_distance  | mae_from_open        |               1 | 129 |  0.3266 |    0.0002 |
+| FULL        | weighted_abs_distance  | gap_fill             |               1 | 129 |  0.1193 |    0.1782 |
+| FIRST_HALF  | near_gamma_share_0_5   | gap_followthrough    |               1 |  64 |  0.0928 |    0.4660 |
+| FIRST_HALF  | near_gamma_share_0_5   | excursion_efficiency |               1 |  64 |  0.0135 |    0.9159 |
+| FIRST_HALF  | near_gamma_share_0_5   | mfe_from_open        |               1 |  64 | -0.2457 |    0.0504 |
+| FIRST_HALF  | near_gamma_share_0_5   | gap_retention_close  |               1 |  64 | -0.0221 |    0.8623 |
+| FIRST_HALF  | near_gamma_share_0_5   | mae_from_open        |              -1 |  64 | -0.2621 |    0.0364 |
+| FIRST_HALF  | near_gamma_share_0_5   | gap_fill             |              -1 |  64 | -0.0966 |    0.4476 |
+| FIRST_HALF  | front_near_gamma_share | gap_followthrough    |               1 |  64 | -0.0326 |    0.7984 |
+| FIRST_HALF  | front_near_gamma_share | excursion_efficiency |               1 |  64 | -0.0930 |    0.4649 |
+| FIRST_HALF  | front_near_gamma_share | mfe_from_open        |               1 |  64 | -0.3506 |    0.0045 |
+| FIRST_HALF  | front_near_gamma_share | gap_retention_close  |               1 |  64 | -0.1234 |    0.3315 |
+| FIRST_HALF  | front_near_gamma_share | mae_from_open        |              -1 |  64 | -0.1410 |    0.2665 |
+| FIRST_HALF  | front_near_gamma_share | gap_fill             |              -1 |  64 |  0.0254 |    0.8419 |
+| FIRST_HALF  | weighted_abs_distance  | gap_followthrough    |              -1 |  64 | -0.0884 |    0.4874 |
+| FIRST_HALF  | weighted_abs_distance  | excursion_efficiency |              -1 |  64 |  0.0273 |    0.8305 |
+| FIRST_HALF  | weighted_abs_distance  | mfe_from_open        |              -1 |  64 |  0.3443 |    0.0053 |
+| FIRST_HALF  | weighted_abs_distance  | gap_retention_close  |              -1 |  64 |  0.0619 |    0.6273 |
+| FIRST_HALF  | weighted_abs_distance  | mae_from_open        |               1 |  64 |  0.2988 |    0.0165 |
+| FIRST_HALF  | weighted_abs_distance  | gap_fill             |               1 |  64 |  0.1170 |    0.3574 |
+| SECOND_HALF | near_gamma_share_0_5   | gap_followthrough    |               1 |  65 | -0.1718 |    0.1712 |
+| SECOND_HALF | near_gamma_share_0_5   | excursion_efficiency |               1 |  65 | -0.2022 |    0.1063 |
+| SECOND_HALF | near_gamma_share_0_5   | mfe_from_open        |               1 |  65 | -0.3553 |    0.0037 |
+| SECOND_HALF | near_gamma_share_0_5   | gap_retention_close  |               1 |  65 | -0.2122 |    0.0896 |
+| SECOND_HALF | near_gamma_share_0_5   | mae_from_open        |              -1 |  65 |  0.0270 |    0.8311 |
+| SECOND_HALF | near_gamma_share_0_5   | gap_fill             |              -1 |  65 |  0.0167 |    0.8947 |
+| SECOND_HALF | front_near_gamma_share | gap_followthrough    |               1 |  65 | -0.1771 |    0.1581 |
+| SECOND_HALF | front_near_gamma_share | excursion_efficiency |               1 |  65 | -0.2302 |    0.0651 |
+| SECOND_HALF | front_near_gamma_share | mfe_from_open        |               1 |  65 | -0.3872 |    0.0014 |
+| SECOND_HALF | front_near_gamma_share | gap_retention_close  |               1 |  65 | -0.2066 |    0.0988 |
+| SECOND_HALF | front_near_gamma_share | mae_from_open        |              -1 |  65 |  0.0218 |    0.8634 |
+| SECOND_HALF | front_near_gamma_share | gap_fill             |              -1 |  65 |  0.0904 |    0.4740 |
+| SECOND_HALF | weighted_abs_distance  | gap_followthrough    |              -1 |  65 |  0.1882 |    0.1334 |
+| SECOND_HALF | weighted_abs_distance  | excursion_efficiency |              -1 |  65 |  0.1317 |    0.2957 |
+| SECOND_HALF | weighted_abs_distance  | mfe_from_open        |              -1 |  65 |  0.3601 |    0.0032 |
+| SECOND_HALF | weighted_abs_distance  | gap_retention_close  |              -1 |  65 |  0.2528 |    0.0421 |
+| SECOND_HALF | weighted_abs_distance  | mae_from_open        |               1 |  65 |  0.0815 |    0.5188 |
+| SECOND_HALF | weighted_abs_distance  | gap_fill             |               1 |  65 |  0.0452 |    0.7207 |
+| NON_OPEX    | near_gamma_share_0_5   | gap_followthrough    |               1 | 100 |  0.1128 |    0.2638 |
+| NON_OPEX    | near_gamma_share_0_5   | excursion_efficiency |               1 | 100 |  0.0244 |    0.8096 |
+| NON_OPEX    | near_gamma_share_0_5   | mfe_from_open        |               1 | 100 | -0.3002 |    0.0024 |
+| NON_OPEX    | near_gamma_share_0_5   | gap_retention_close  |               1 | 100 | -0.0479 |    0.6358 |
+| NON_OPEX    | near_gamma_share_0_5   | mae_from_open        |              -1 | 100 | -0.3512 |    0.0003 |
+| NON_OPEX    | near_gamma_share_0_5   | gap_fill             |              -1 | 100 | -0.1546 |    0.1246 |
+| NON_OPEX    | front_near_gamma_share | gap_followthrough    |               1 | 100 |  0.0696 |    0.4916 |
+| NON_OPEX    | front_near_gamma_share | excursion_efficiency |               1 | 100 | -0.0034 |    0.9731 |
+| NON_OPEX    | front_near_gamma_share | mfe_from_open        |               1 | 100 | -0.3485 |    0.0004 |
+| NON_OPEX    | front_near_gamma_share | gap_retention_close  |               1 | 100 | -0.0753 |    0.4565 |
+| NON_OPEX    | front_near_gamma_share | mae_from_open        |              -1 | 100 | -0.3402 |    0.0005 |
+| NON_OPEX    | front_near_gamma_share | gap_fill             |              -1 | 100 | -0.1095 |    0.2780 |
+| NON_OPEX    | weighted_abs_distance  | gap_followthrough    |              -1 | 100 | -0.1345 |    0.1822 |
+| NON_OPEX    | weighted_abs_distance  | excursion_efficiency |              -1 | 100 | -0.0754 |    0.4561 |
+| NON_OPEX    | weighted_abs_distance  | mfe_from_open        |              -1 | 100 |  0.3114 |    0.0016 |
+| NON_OPEX    | weighted_abs_distance  | gap_retention_close  |              -1 | 100 |  0.0804 |    0.4265 |
+| NON_OPEX    | weighted_abs_distance  | mae_from_open        |               1 | 100 |  0.4276 |    0.0000 |
+| NON_OPEX    | weighted_abs_distance  | gap_fill             |               1 | 100 |  0.1969 |    0.0496 |
+
+## Near-gamma median split — descriptive only
+| bucket             |   n |   mean_near_share | continuation_rate   | avg_followthrough   | avg_mfe   | avg_mae   | avg_efficiency   | gap_fill_rate   | avg_retention   |
+|:-------------------|----:|------------------:|:--------------------|:--------------------|:----------|:----------|:-----------------|:----------------|:----------------|
+| ABOVE_MEDIAN       |  64 |            0.3012 | 53.12%              | 0.01%               | 0.45%     | 0.53%     | 45.71%           | 40.62%          | 0.58%           |
+| AT_OR_BELOW_MEDIAN |  65 |            0.1716 | 46.15%              | -0.39%              | 0.76%     | 1.19%     | 45.42%           | 46.15%          | 0.59%           |
+
+## Walk-forward incremental test
+| target               |   n_test | baseline_mae   | extended_mae   |   mae_improvement_pct |
+|:---------------------|---------:|:---------------|:---------------|----------------------:|
+| gap_followthrough    |       69 | 0.66%          | 0.78%          |                -18.41 |
+| excursion_efficiency |       69 | 29.22%         | 30.03%         |                 -2.76 |
+| mae_from_open        |       69 | 0.46%          | 0.56%          |                -21.67 |
+
+## Frozen replication gates
+- Expected-sign full/half/non-OPEX primary gate: **FAIL**
+- Adverse-excursion coherence gate: **PASS**
+- Non-OPEX persistence gate: **PASS**
+- Walk-forward incremental-usefulness gate: **FAIL**
+- Overall frozen verdict: **FAILED REPLICATION**
+
+No result from this replication independently creates BUY/SELL/CALL/PUT authority or changes STRENGTH, RUNWAY, R:R, action state, or overnight-carry rules.
