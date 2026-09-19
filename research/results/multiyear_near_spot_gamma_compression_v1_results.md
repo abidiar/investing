@@ -1,0 +1,134 @@
+# Multi-Year Near-Spot Unsigned Gamma Compression v1.0 — Frozen Results
+
+Generated: 2026-09-19T17:27:46+00:00
+
+## Coverage
+- Total matched Day-T observations: **2221**
+- Instruments: **SPY, QQQ, IWM**
+- Years: **2023, 2024, 2025**
+- Median eligible contracts/session: **892**
+- Monthly-OPEX-week observations: **509**
+- Exclusions: {'SPY': {'no_price': 1, 'no_next_price': 0, 'no_gamma': 0, 'no_history': 0}, 'QQQ': {'no_price': 0, 'no_next_price': 0, 'no_gamma': 0, 'no_history': 0}, 'IWM': {'no_price': 0, 'no_next_price': 0, 'no_gamma': 0, 'no_history': 0}}
+
+## Correlations
+| sample     | feature                | outcome            |   expected_sign |    n |     rho |   p_value |
+|:-----------|:-----------------------|:-------------------|----------------:|-----:|--------:|----------:|
+| POOLED     | near_gamma_share_0_5   | next_rth_range     |              -1 | 2221 | -0.4555 |    0.0000 |
+| POOLED     | near_gamma_share_0_5   | next_max_excursion |              -1 | 2221 | -0.3824 |    0.0000 |
+| POOLED     | near_gamma_share_0_5   | next_abs_oc        |              -1 | 2221 | -0.2049 |    0.0000 |
+| POOLED     | near_gamma_share_0_5   | next_range_vs_20d  |              -1 | 2221 | -0.0843 |    0.0001 |
+| POOLED     | front_near_gamma_share | next_rth_range     |              -1 | 2221 | -0.4500 |    0.0000 |
+| POOLED     | front_near_gamma_share | next_max_excursion |              -1 | 2221 | -0.3799 |    0.0000 |
+| POOLED     | front_near_gamma_share | next_abs_oc        |              -1 | 2221 | -0.1974 |    0.0000 |
+| POOLED     | front_near_gamma_share | next_range_vs_20d  |              -1 | 2221 | -0.0967 |    0.0000 |
+| POOLED     | weighted_abs_distance  | next_rth_range     |               1 | 2221 |  0.5312 |    0.0000 |
+| POOLED     | weighted_abs_distance  | next_max_excursion |               1 | 2221 |  0.4511 |    0.0000 |
+| POOLED     | weighted_abs_distance  | next_abs_oc        |               1 | 2221 |  0.2436 |    0.0000 |
+| POOLED     | weighted_abs_distance  | next_range_vs_20d  |               1 | 2221 |  0.0732 |    0.0006 |
+| NON_OPEX   | near_gamma_share_0_5   | next_rth_range     |              -1 | 1712 | -0.4516 |    0.0000 |
+| NON_OPEX   | near_gamma_share_0_5   | next_max_excursion |              -1 | 1712 | -0.3760 |    0.0000 |
+| NON_OPEX   | near_gamma_share_0_5   | next_abs_oc        |              -1 | 1712 | -0.1963 |    0.0000 |
+| NON_OPEX   | near_gamma_share_0_5   | next_range_vs_20d  |              -1 | 1712 | -0.0735 |    0.0023 |
+| NON_OPEX   | front_near_gamma_share | next_rth_range     |              -1 | 1712 | -0.4849 |    0.0000 |
+| NON_OPEX   | front_near_gamma_share | next_max_excursion |              -1 | 1712 | -0.4130 |    0.0000 |
+| NON_OPEX   | front_near_gamma_share | next_abs_oc        |              -1 | 1712 | -0.2089 |    0.0000 |
+| NON_OPEX   | front_near_gamma_share | next_range_vs_20d  |              -1 | 1712 | -0.1011 |    0.0000 |
+| NON_OPEX   | weighted_abs_distance  | next_rth_range     |               1 | 1712 |  0.5358 |    0.0000 |
+| NON_OPEX   | weighted_abs_distance  | next_max_excursion |               1 | 1712 |  0.4531 |    0.0000 |
+| NON_OPEX   | weighted_abs_distance  | next_abs_oc        |               1 | 1712 |  0.2411 |    0.0000 |
+| NON_OPEX   | weighted_abs_distance  | next_range_vs_20d  |               1 | 1712 |  0.0592 |    0.0143 |
+| SYMBOL_SPY | near_gamma_share_0_5   | next_rth_range     |              -1 |  740 | -0.4587 |    0.0000 |
+| SYMBOL_SPY | near_gamma_share_0_5   | next_max_excursion |              -1 |  740 | -0.3887 |    0.0000 |
+| SYMBOL_SPY | near_gamma_share_0_5   | next_abs_oc        |              -1 |  740 | -0.2459 |    0.0000 |
+| SYMBOL_SPY | near_gamma_share_0_5   | next_range_vs_20d  |              -1 |  740 | -0.1320 |    0.0003 |
+| SYMBOL_SPY | front_near_gamma_share | next_rth_range     |              -1 |  740 | -0.4246 |    0.0000 |
+| SYMBOL_SPY | front_near_gamma_share | next_max_excursion |              -1 |  740 | -0.3680 |    0.0000 |
+| SYMBOL_SPY | front_near_gamma_share | next_abs_oc        |              -1 |  740 | -0.2159 |    0.0000 |
+| SYMBOL_SPY | front_near_gamma_share | next_range_vs_20d  |              -1 |  740 | -0.1533 |    0.0000 |
+| SYMBOL_SPY | weighted_abs_distance  | next_rth_range     |               1 |  740 |  0.4717 |    0.0000 |
+| SYMBOL_SPY | weighted_abs_distance  | next_max_excursion |               1 |  740 |  0.4039 |    0.0000 |
+| SYMBOL_SPY | weighted_abs_distance  | next_abs_oc        |               1 |  740 |  0.2503 |    0.0000 |
+| SYMBOL_SPY | weighted_abs_distance  | next_range_vs_20d  |               1 |  740 |  0.0933 |    0.0111 |
+| SYMBOL_QQQ | near_gamma_share_0_5   | next_rth_range     |              -1 |  741 | -0.3049 |    0.0000 |
+| SYMBOL_QQQ | near_gamma_share_0_5   | next_max_excursion |              -1 |  741 | -0.2456 |    0.0000 |
+| SYMBOL_QQQ | near_gamma_share_0_5   | next_abs_oc        |              -1 |  741 | -0.1803 |    0.0000 |
+| SYMBOL_QQQ | near_gamma_share_0_5   | next_range_vs_20d  |              -1 |  741 | -0.0610 |    0.0972 |
+| SYMBOL_QQQ | front_near_gamma_share | next_rth_range     |              -1 |  741 | -0.2881 |    0.0000 |
+| SYMBOL_QQQ | front_near_gamma_share | next_max_excursion |              -1 |  741 | -0.2295 |    0.0000 |
+| SYMBOL_QQQ | front_near_gamma_share | next_abs_oc        |              -1 |  741 | -0.1514 |    0.0000 |
+| SYMBOL_QQQ | front_near_gamma_share | next_range_vs_20d  |              -1 |  741 | -0.0660 |    0.0727 |
+| SYMBOL_QQQ | weighted_abs_distance  | next_rth_range     |               1 |  741 |  0.3703 |    0.0000 |
+| SYMBOL_QQQ | weighted_abs_distance  | next_max_excursion |               1 |  741 |  0.2961 |    0.0000 |
+| SYMBOL_QQQ | weighted_abs_distance  | next_abs_oc        |               1 |  741 |  0.2066 |    0.0000 |
+| SYMBOL_QQQ | weighted_abs_distance  | next_range_vs_20d  |               1 |  741 |  0.0460 |    0.2108 |
+| SYMBOL_IWM | near_gamma_share_0_5   | next_rth_range     |              -1 |  740 | -0.0900 |    0.0143 |
+| SYMBOL_IWM | near_gamma_share_0_5   | next_max_excursion |              -1 |  740 | -0.0293 |    0.4264 |
+| SYMBOL_IWM | near_gamma_share_0_5   | next_abs_oc        |              -1 |  740 |  0.0582 |    0.1136 |
+| SYMBOL_IWM | near_gamma_share_0_5   | next_range_vs_20d  |              -1 |  740 | -0.0362 |    0.3259 |
+| SYMBOL_IWM | front_near_gamma_share | next_rth_range     |              -1 |  740 | -0.1195 |    0.0011 |
+| SYMBOL_IWM | front_near_gamma_share | next_max_excursion |              -1 |  740 | -0.0610 |    0.0973 |
+| SYMBOL_IWM | front_near_gamma_share | next_abs_oc        |              -1 |  740 |  0.0328 |    0.3727 |
+| SYMBOL_IWM | front_near_gamma_share | next_range_vs_20d  |              -1 |  740 | -0.0699 |    0.0575 |
+| SYMBOL_IWM | weighted_abs_distance  | next_rth_range     |               1 |  740 |  0.1427 |    0.0001 |
+| SYMBOL_IWM | weighted_abs_distance  | next_max_excursion |               1 |  740 |  0.0921 |    0.0122 |
+| SYMBOL_IWM | weighted_abs_distance  | next_abs_oc        |               1 |  740 | -0.0319 |    0.3859 |
+| SYMBOL_IWM | weighted_abs_distance  | next_range_vs_20d  |               1 |  740 |  0.0551 |    0.1344 |
+| YEAR_2023  | near_gamma_share_0_5   | next_rth_range     |              -1 |  750 | -0.4074 |    0.0000 |
+| YEAR_2023  | near_gamma_share_0_5   | next_max_excursion |              -1 |  750 | -0.3345 |    0.0000 |
+| YEAR_2023  | near_gamma_share_0_5   | next_abs_oc        |              -1 |  750 | -0.1823 |    0.0000 |
+| YEAR_2023  | near_gamma_share_0_5   | next_range_vs_20d  |              -1 |  750 | -0.0690 |    0.0588 |
+| YEAR_2023  | front_near_gamma_share | next_rth_range     |              -1 |  750 | -0.4033 |    0.0000 |
+| YEAR_2023  | front_near_gamma_share | next_max_excursion |              -1 |  750 | -0.3313 |    0.0000 |
+| YEAR_2023  | front_near_gamma_share | next_abs_oc        |              -1 |  750 | -0.1466 |    0.0001 |
+| YEAR_2023  | front_near_gamma_share | next_range_vs_20d  |              -1 |  750 | -0.0630 |    0.0845 |
+| YEAR_2023  | weighted_abs_distance  | next_rth_range     |               1 |  750 |  0.4938 |    0.0000 |
+| YEAR_2023  | weighted_abs_distance  | next_max_excursion |               1 |  750 |  0.4046 |    0.0000 |
+| YEAR_2023  | weighted_abs_distance  | next_abs_oc        |               1 |  750 |  0.1933 |    0.0000 |
+| YEAR_2023  | weighted_abs_distance  | next_range_vs_20d  |               1 |  750 |  0.0278 |    0.4465 |
+| YEAR_2024  | near_gamma_share_0_5   | next_rth_range     |              -1 |  755 | -0.4625 |    0.0000 |
+| YEAR_2024  | near_gamma_share_0_5   | next_max_excursion |              -1 |  755 | -0.3908 |    0.0000 |
+| YEAR_2024  | near_gamma_share_0_5   | next_abs_oc        |              -1 |  755 | -0.2001 |    0.0000 |
+| YEAR_2024  | near_gamma_share_0_5   | next_range_vs_20d  |              -1 |  755 | -0.1164 |    0.0014 |
+| YEAR_2024  | front_near_gamma_share | next_rth_range     |              -1 |  755 | -0.4414 |    0.0000 |
+| YEAR_2024  | front_near_gamma_share | next_max_excursion |              -1 |  755 | -0.3817 |    0.0000 |
+| YEAR_2024  | front_near_gamma_share | next_abs_oc        |              -1 |  755 | -0.1799 |    0.0000 |
+| YEAR_2024  | front_near_gamma_share | next_range_vs_20d  |              -1 |  755 | -0.1336 |    0.0002 |
+| YEAR_2024  | weighted_abs_distance  | next_rth_range     |               1 |  755 |  0.5296 |    0.0000 |
+| YEAR_2024  | weighted_abs_distance  | next_max_excursion |               1 |  755 |  0.4522 |    0.0000 |
+| YEAR_2024  | weighted_abs_distance  | next_abs_oc        |               1 |  755 |  0.2198 |    0.0000 |
+| YEAR_2024  | weighted_abs_distance  | next_range_vs_20d  |               1 |  755 |  0.1098 |    0.0025 |
+| YEAR_2025  | near_gamma_share_0_5   | next_rth_range     |              -1 |  716 | -0.4881 |    0.0000 |
+| YEAR_2025  | near_gamma_share_0_5   | next_max_excursion |              -1 |  716 | -0.4131 |    0.0000 |
+| YEAR_2025  | near_gamma_share_0_5   | next_abs_oc        |              -1 |  716 | -0.2189 |    0.0000 |
+| YEAR_2025  | near_gamma_share_0_5   | next_range_vs_20d  |              -1 |  716 | -0.0794 |    0.0337 |
+| YEAR_2025  | front_near_gamma_share | next_rth_range     |              -1 |  716 | -0.4821 |    0.0000 |
+| YEAR_2025  | front_near_gamma_share | next_max_excursion |              -1 |  716 | -0.4083 |    0.0000 |
+| YEAR_2025  | front_near_gamma_share | next_abs_oc        |              -1 |  716 | -0.2477 |    0.0000 |
+| YEAR_2025  | front_near_gamma_share | next_range_vs_20d  |              -1 |  716 | -0.0924 |    0.0134 |
+| YEAR_2025  | weighted_abs_distance  | next_rth_range     |               1 |  716 |  0.5562 |    0.0000 |
+| YEAR_2025  | weighted_abs_distance  | next_max_excursion |               1 |  716 |  0.4795 |    0.0000 |
+| YEAR_2025  | weighted_abs_distance  | next_abs_oc        |               1 |  716 |  0.2948 |    0.0000 |
+| YEAR_2025  | weighted_abs_distance  | next_range_vs_20d  |               1 |  716 |  0.0854 |    0.0223 |
+
+## Instrument-year median split — pooled descriptive summary
+| gamma_bucket   |    n |   mean_near_share | mean_next_range   | median_next_range   | mean_max_excursion   | mean_abs_oc   |   mean_range_vs20 |
+|:---------------|-----:|------------------:|:------------------|:--------------------|:---------------------|:--------------|------------------:|
+| HIGH           | 1109 |            0.2702 | 1.228%            | 1.091%              | 0.999%               | 0.649%        |            1.0854 |
+| LOW            | 1112 |            0.1567 | 1.507%            | 1.307%              | 1.187%               | 0.752%        |            1.1447 |
+
+## Walk-forward incremental test
+| target             |   n_test | baseline_mae   | extended_mae   |   mae_improvement_pct |
+|:-------------------|---------:|:---------------|:---------------|----------------------:|
+| next_rth_range     |     1720 | 0.452%         | 0.451%         |                  0.19 |
+| next_max_excursion |     1720 | 0.438%         | 0.437%         |                  0.24 |
+| next_abs_oc        |     1720 | 0.448%         | 0.449%         |                 -0.21 |
+
+## Frozen promotion gates
+- Pooled negative range relationship p<0.05: **PASS**
+- Negative range relationship across all 3 instruments and >=2/3 years: **PASS**
+- Negative max-excursion relationship pooled and >=2/3 instruments: **PASS**
+- Non-OPEX persistence for both primary outcomes: **PASS**
+- Walk-forward >=2% primary MAE improvement without >1% degradation of the other: **FAIL**
+- Overall frozen verdict: **REPLICATED ASSOCIATION / RESEARCH-ONLY**
+
+No result has directional authority or permission to alter STRENGTH, RUNWAY, R:R, action state, option selection, or overnight carry.
