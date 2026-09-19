@@ -8,7 +8,7 @@ Detailed prior-work reviews, frozen protocols, code, and machine-readable result
 ## Current production posture
 Options-positioning research remains **context-only / research-only** unless a particular decision rule passes its preregistered production gate. No tested OI/gamma feature may independently create direction, add STRENGTH/RUNWAY, manufacture R:R, authorize BUY/SELL/CALL/PUT/HOLD, or authorize overnight carry. **Price gets final vote.**
 
-Every new hypothesis now requires a prior-work review under `research/PRIOR_WORK_REVIEW_STANDARD.md` before the outcome protocol is frozen.
+Every new hypothesis requires a prior-work review under `research/PRIOR_WORK_REVIEW_STANDARD.md` before the outcome protocol is frozen.
 
 ## Pass history
 
@@ -52,7 +52,7 @@ Across 2,221 SPY/QQQ/IWM observations in 2023–2025, higher near-spot unsigned 
 ### Pass 10 — Untouched 2020–2022 incremental-value holdout
 Files: `research/near_spot_gamma_incremental_value_v1.md` and matching results.
 Verdict: **CONDITIONAL ASSOCIATION / RESEARCH-ONLY**.
-Across 2,262 untouched observations, the compression relationship survived seven price-volatility controls, instrument/year checks, and non-OPEX robustness. Adding gamma improved walk-forward MAE by 1.26% for next RTH range and 1.33% for max excursion, below the frozen 2% promotion gate. Conclusion: unsigned near-spot gamma contains a small real additive amplitude signal, but not enough for production authority.
+Across 2,262 untouched observations, the compression relationship survived seven price-volatility controls, instrument/year checks, and non-OPEX robustness. Adding gamma improved walk-forward MAE by 1.26% for next RTH range and 1.33% for max excursion, below the frozen 2% promotion gate.
 
 ### Pass 11 — Decision-level chase/veto falsification
 Files:
@@ -60,7 +60,7 @@ Files:
 - `research/results/gamma_chase_decision_v1_results.md`
 
 Verdict: **FAILED DECISION-LEVEL OVERLAY**.
-Untouched holdout: 1,195 SPY/QQQ/IWM candidates in 2017–2019, trained on 2014–2016. A gamma veto improved T1 precision from 69.39% to 73.97% (+4.58 pp), and vetoed candidates had a 44.0% miss rate versus 30.61% for baseline chases. But it retained only 79.41% of baseline winners versus the frozen >=85% requirement, and Brier improvement was only 0.38% versus the frozen >=2% requirement. **Unsigned gamma must not be used as a hard entry/chase veto.**
+Untouched holdout: 1,195 SPY/QQQ/IWM candidates in 2017–2019, trained on 2014–2016. A gamma veto improved T1 precision from 69.39% to 73.97% (+4.58 pp), but retained only 79.41% of baseline winners and improved Brier only 0.38%. **Unsigned gamma must not be used as a hard entry/chase veto.**
 
 ### Pass 12 — Target-calibration decision falsification
 Files:
@@ -68,46 +68,53 @@ Files:
 - `research/results/gamma_target_calibration_v1_results.md`
 
 Verdict: **FAILED DECISION-LEVEL TARGET OVERLAY**.
-This test used a wholly untouched 2012–2013 holdout with 799 SPY/QQQ/IWM candidates and a 2011 training seed. Every candidate was retained; gamma could only alter target ambition among a frozen 0.50/0.75/1.00 × trailing-20 median-range ladder.
+Untouched holdout: 799 SPY/QQQ/IWM candidates in 2012–2013 with a 2011 seed. Price-only and price+gamma produced identical 0.21% mean captured target distance, identical 40.55% hit rates, and no target changes on any event. Adding gamma worsened average Brier performance by 0.82%. **Unsigned gamma must not be used as a production target-sizing rule.**
 
-Results:
-- Mean captured target distance was **0.21% for both price-only and price+gamma**: 0.00% relative improvement.
-- Target hit rate was **40.55% for both**.
-- There were **0 upgrades, 0 downgrades, and 799 unchanged targets**.
-- Both models selected T1 on 99.87% of events; neither gamma nor price information provided enough confidence to select a larger target under the frozen 0.60 probability rule.
-- Average Brier performance across T1/T2/T3 became **0.82% worse** when gamma was added.
-- Frozen capture, bootstrap, and cross-instrument/year gates failed.
+### Pass 13 — Modelled dealer-GEX gap follow-through
+Prior work and data audit:
+- `research/prior_work/dealer_gex_amplification_damping_prior_work_2026-09-19.md`
+- `research/prior_work/dealer_gex_data_method_audit_2026-09-19.md`
 
-Interpretation: the preregistered target-sizing mechanism produced **no incremental decision utility**. This result must not be rescued by lowering the 0.60 threshold or changing the ladder using these same 2012–2013 outcomes.
+Files:
+- `research/modelled_dealer_gex_gap_followthrough_v1.md`
+- `research/results/modelled_dealer_gex_gap_followthrough_v1_results.md`
+
+Verdict: **MECHANISM-CONSISTENT / INCREMENTAL UTILITY NOT SUPPORTED**.
+
+The broad signed-gamma mechanism was already supported by prior academic work, so this test focused on incremental Investing OS utility. Direct participant-class dealer/customer data were not available, so the test used a published **MODELLED DEALER-GEX PROXY**: call gamma positive, put gamma negative, normalized by trailing-20 underlying dollar volume. This is an inventory assumption, not observed market-maker positioning.
+
+Untouched sample: 741 SPY/IWM opening-gap candidates in 2009–2010, using 2008 as seed.
+
+Mechanism-consistent findings:
+- signed GEX/ADV vs gap-direction open-to-close follow-through: **rho=-0.0759, p=0.0389**;
+- signed GEX/ADV vs excursion efficiency: **rho=-0.0758, p=0.0391**;
+- both expected signs persisted in **4/4** prespecified instrument/year subgroups;
+- negative-proxy sessions had **51.37%** gap-direction continuation vs **44.33%** for positive-proxy sessions;
+- negative-proxy sessions had larger RTH ranges (**2.31% vs 1.76%**), consistent with an amplification regime.
+
+But incremental predictive value was weak:
+- continuation Brier improvement: **0.61%** vs frozen 2% gate;
+- follow-through MAE improvement: **0.15%** vs frozen 2% gate;
+- excursion-efficiency MAE worsened slightly by **0.11%**.
+
+Conclusion: the easy/public call-minus-put OI proxy broadly matches the economic mechanism but **does not add enough decision value beyond price, volatility, and liquidity** for Investing OS. It receives no production authority.
 
 ## Current best interpretation
 - Raw OI is not directional.
 - Delta-OI persistence is not useful enough for next-session movement/continuation.
 - Large gamma walls are not automatic magnets; exact wall/flip levels are not penny-precise trade levels.
 - The unsigned-gamma directional gap-continuation idea failed two independent replications.
-- Unsigned near-spot gamma has a repeatedly observed **non-directional amplitude/compression association** and a small controlled additive relationship beyond price volatility.
-- That unsigned-gamma information has now **failed two separate decision-level uses**: hard chase/entry veto (Pass 11) and target calibration (Pass 12).
-- Therefore unsigned near-spot gamma remains research/context-only and should not receive additional production authority from the current evidence.
-- Signed/modelled dealer GEX is economically distinct from unsigned gamma concentration and remains the most defensible options-positioning branch for a new clean investigation.
+- Unsigned near-spot gamma has a replicated non-directional amplitude/compression association but failed two practical decision-level uses.
+- The published **OI-sign dealer-GEX proxy** is mechanism-consistent but fails our material incremental-utility standard.
+- Stronger dealer-side data remain potentially useful because participant capacity / signed-flow information solves the central measurement problem that OI cannot.
 
-## Prior-work review — signed dealer-GEX branch
-File: `research/prior_work/dealer_gex_amplification_damping_prior_work_2026-09-19.md`
+## Data/source conclusion for signed dealer GEX
+The strongest historical sources we identified are not currently in the Investing OS tool stack:
+- Cboe trade-by-trade participant capacity + buy/sell + open/close;
+- Cboe Open-Close participant summaries;
+- OptionMetrics Signed Volume / TradeFlow or equivalent signed-flow data.
 
-The broad signed-gamma mechanism is already well studied rather than novel. Prior academic work supports some version of:
-- **negative / short dealer gamma -> momentum, amplification, higher volatility**;
-- **positive / long dealer gamma -> reversal, damping, lower volatility**;
-with the effect often strongest when hedge demand is large relative to underlying liquidity.
-
-Key prior-work implications:
-- public OI does **not** reveal dealer inventory;
-- the dealer sign convention is a model assumption unless participant/signed-flow data are available;
-- liquidity is an important moderator and must be decided before outcomes are seen;
-- gross 0DTE volume is not the same as net hedge demand;
-- longer-dated positions aging into 0DTE can matter materially;
-- exact strike-local wall/pinning claims have weaker modern evidence than broad regime effects;
-- dealer inventory composition (long/short calls vs puts) may contain information beyond net GEX alone.
-
-Therefore our next work should **not** weakly retest `does signed gamma matter?`. The useful question is whether a credible dealer-sign measure adds **incremental decision value beyond price, volatility, and liquidity**, with price continuing to supply direction.
+The open Dubach ETF archive provides excellent OI/Greeks history but cannot identify dealer inventory. Therefore further OI-based sign tuning is low priority.
 
 ## Rejected / not production-eligible
 - Raw OI as bullish/bearish direction.
@@ -119,17 +126,20 @@ Therefore our next work should **not** weakly retest `does signed gamma matter?`
 - High unsigned gamma as a hard entry/chase veto.
 - High unsigned gamma as a production target-sizing rule.
 - The QQQ 2026 gap-gamma continuation effect as a general market rule.
+- Call-positive / put-negative modelled dealer-GEX as a production continuation/reversal overlay.
 
 ## Do Not Re-Test Unless
 - Do not resurrect the failed QQQ gap-continuation rule by changing gap threshold, DTE, moneyness, near-gamma band, IV filter, or OPEX exclusions.
 - Do not tune 2020–2025 unsigned-gamma thresholds to force the 2% forecasting gate.
 - Do not soften the failed Pass-11 veto using the same 2017–2019 outcomes and call it validation.
-- Do not lower the Pass-12 0.60 target threshold, change the target ladder, or otherwise tune on the same 2012–2013 outcomes to create target changes.
+- Do not lower the Pass-12 target threshold or change its ladder using the same 2012–2013 outcomes.
 - Do not treat public open interest as observed dealer inventory.
+- Do not tune Pass-13 sign convention, gap threshold, liquidity normalization, or 2009–2010 outcomes to force promotion.
 - Do not make exact wall/pinning behavior the next priority without materially stronger data/evidence.
-- Further unsigned-gamma testing requires a genuinely new economic question and untouched data; otherwise treat the branch as sufficiently explored for now.
 
 ## Next clean research priority
-**Dealer-sign data/source audit before a signed-GEX outcome test.** Determine whether accessible historical sources provide participant-class dealer/customer positioning, signed option flow, historical dealer inventory proxies, SPX/SPXW coverage, separate 0DTE vs longer-dated contributions, and intraday underlying liquidity/price data.
+Pause further **OI-based** dealer-GEX proxy work.
 
-If only an OI sign heuristic is available, the next experiment must be explicitly labeled a **proxy-method replication** and include robustness to alternate sign assumptions. Price must continue to supply direction; signed GEX may only modify expected continuation/reversal/amplitude.
+If stronger participant-class or signed-flow data become available, use a modern multi-year SPX/SPXW sample with intraday bars and test whether observed/stronger dealer positioning improves 30/60/120-minute continuation/reversal and MFE/MAE beyond a price/volatility/liquidity baseline.
+
+Otherwise shift Investing OS research to another hypothesis family rather than continuing to optimize public OI-based GEX.
