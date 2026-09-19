@@ -1,0 +1,55 @@
+name: SPY Gap Gamma Independent Replication
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/run_spy_gap_gamma_replication.py'
+      - 'research/spy_gap_gamma_replication_v1.md'
+      - '.github/workflows/spy-gap-gamma-replication.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout Investing OS
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install research dependencies
+        run: pip install pandas numpy scipy yfinance pyarrow tabulate
+
+      - name: Fetch independent SPY 2025 options dataset
+        run: |
+          curl -L --fail --retry 3 \
+            https://raw.githubusercontent.com/anahatsingh-ui/options-dataset-hist/main/spy/options_2025.parquet \
+            -o /tmp/options_2025.parquet
+          ls -lh /tmp/options_2025.parquet
+
+      - name: Run frozen SPY gap-gamma replication
+        env:
+          SPY_OPTIONS_PARQUET: /tmp/options_2025.parquet
+        run: |
+          mkdir -p research/results
+          python research/run_spy_gap_gamma_replication.py | tee research/results/spy_gap_gamma_replication_v1_run.log
+
+      - name: Commit reproducible results
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/results/spy_gap_gamma_replication_v1_*.csv research/results/spy_gap_gamma_replication_v1_*.md research/results/spy_gap_gamma_replication_v1_run.log
+          if git diff --cached --quiet; then
+            echo 'No result changes to commit.'
+          else
+            git commit -m 'Record frozen SPY gap-gamma independent replication results [skip ci]'
+            git push
+          fi
