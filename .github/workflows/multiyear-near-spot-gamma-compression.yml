@@ -1,0 +1,61 @@
+name: Multi-Year Near-Spot Gamma Compression Research
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/run_multiyear_near_spot_gamma_compression.py'
+      - 'research/multiyear_near_spot_gamma_compression_v1.md'
+      - '.github/workflows/multiyear-near-spot-gamma-compression.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout Investing OS
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install research dependencies
+        run: pip install pandas numpy scipy yfinance pyarrow tabulate
+
+      - name: Fetch 2023-2025 SPY QQQ IWM options datasets
+        run: |
+          mkdir -p /tmp/options_gamma_multi
+          for sym in spy qqq iwm; do
+            for yr in 2023 2024 2025; do
+              echo "Downloading ${sym} ${yr}"
+              curl -L --fail --retry 3 \
+                "https://raw.githubusercontent.com/anahatsingh-ui/options-dataset-hist/main/${sym}/options_${yr}.parquet" \
+                -o "/tmp/options_gamma_multi/${sym}_${yr}.parquet"
+            done
+          done
+          ls -lh /tmp/options_gamma_multi
+
+      - name: Run frozen multi-year gamma compression test
+        env:
+          OPTIONS_DATA_DIR: /tmp/options_gamma_multi
+        run: |
+          mkdir -p research/results
+          python research/run_multiyear_near_spot_gamma_compression.py | tee research/results/multiyear_near_spot_gamma_compression_v1_run.log
+
+      - name: Commit reproducible results
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/results/multiyear_near_spot_gamma_compression_v1_*.csv research/results/multiyear_near_spot_gamma_compression_v1_*.md research/results/multiyear_near_spot_gamma_compression_v1_run.log
+          if git diff --cached --quiet; then
+            echo 'No result changes to commit.'
+          else
+            git commit -m 'Record frozen multi-year near-spot gamma compression results [skip ci]'
+            git push
+          fi
