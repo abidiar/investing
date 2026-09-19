@@ -3,10 +3,12 @@
 Updated: 2026-09-19
 Status: **CANONICAL TOPIC INDEX**
 
-Detailed frozen protocols, code, and machine-readable results remain in `research/` and `research/results/`. Governance is controlled by `research/RESEARCH_GOVERNANCE.md`.
+Detailed prior-work reviews, frozen protocols, code, and machine-readable results remain in `research/`, `research/prior_work/`, and `research/results/`. Governance is controlled by `research/RESEARCH_GOVERNANCE.md`.
 
 ## Current production posture
 Options-positioning research remains **context-only / research-only** unless a particular decision rule passes its preregistered production gate. No tested OI/gamma feature may independently create direction, add STRENGTH/RUNWAY, manufacture R:R, authorize BUY/SELL/CALL/PUT/HOLD, or authorize overnight carry. **Price gets final vote.**
+
+Every new hypothesis now requires a prior-work review under `research/PRIOR_WORK_REVIEW_STANDARD.md` before the outcome protocol is frozen.
 
 ## Pass history
 
@@ -88,6 +90,25 @@ Interpretation: the preregistered target-sizing mechanism produced **no incremen
 - Therefore unsigned near-spot gamma remains research/context-only and should not receive additional production authority from the current evidence.
 - Signed/modelled dealer GEX is economically distinct from unsigned gamma concentration and remains the most defensible options-positioning branch for a new clean investigation.
 
+## Prior-work review — signed dealer-GEX branch
+File: `research/prior_work/dealer_gex_amplification_damping_prior_work_2026-09-19.md`
+
+The broad signed-gamma mechanism is already well studied rather than novel. Prior academic work supports some version of:
+- **negative / short dealer gamma -> momentum, amplification, higher volatility**;
+- **positive / long dealer gamma -> reversal, damping, lower volatility**;
+with the effect often strongest when hedge demand is large relative to underlying liquidity.
+
+Key prior-work implications:
+- public OI does **not** reveal dealer inventory;
+- the dealer sign convention is a model assumption unless participant/signed-flow data are available;
+- liquidity is an important moderator and must be decided before outcomes are seen;
+- gross 0DTE volume is not the same as net hedge demand;
+- longer-dated positions aging into 0DTE can matter materially;
+- exact strike-local wall/pinning claims have weaker modern evidence than broad regime effects;
+- dealer inventory composition (long/short calls vs puts) may contain information beyond net GEX alone.
+
+Therefore our next work should **not** weakly retest `does signed gamma matter?`. The useful question is whether a credible dealer-sign measure adds **incremental decision value beyond price, volatility, and liquidity**, with price continuing to supply direction.
+
 ## Rejected / not production-eligible
 - Raw OI as bullish/bearish direction.
 - Call-vs-put OI buildup as direction.
@@ -104,7 +125,11 @@ Interpretation: the preregistered target-sizing mechanism produced **no incremen
 - Do not tune 2020–2025 unsigned-gamma thresholds to force the 2% forecasting gate.
 - Do not soften the failed Pass-11 veto using the same 2017–2019 outcomes and call it validation.
 - Do not lower the Pass-12 0.60 target threshold, change the target ladder, or otherwise tune on the same 2012–2013 outcomes to create target changes.
+- Do not treat public open interest as observed dealer inventory.
+- Do not make exact wall/pinning behavior the next priority without materially stronger data/evidence.
 - Further unsigned-gamma testing requires a genuinely new economic question and untouched data; otherwise treat the branch as sufficiently explored for now.
 
 ## Next clean research priority
-**Shift to signed/modelled dealer-GEX amplification/damping.** First freeze a source/methodology audit because dealer-side sign is model-assumed and providers use different GEX formulas. Then run an independent multi-year falsification where **price supplies direction** and signed GEX is allowed only to predict move behavior (amplification vs damping), never bullish/bearish direction. Require untouched data, predeclared regime definitions, and a price-only baseline before any scanner consideration.
+**Dealer-sign data/source audit before a signed-GEX outcome test.** Determine whether accessible historical sources provide participant-class dealer/customer positioning, signed option flow, historical dealer inventory proxies, SPX/SPXW coverage, separate 0DTE vs longer-dated contributions, and intraday underlying liquidity/price data.
+
+If only an OI sign heuristic is available, the next experiment must be explicitly labeled a **proxy-method replication** and include robustness to alternate sign assumptions. Price must continue to supply direction; signed GEX may only modify expected continuation/reversal/amplitude.
