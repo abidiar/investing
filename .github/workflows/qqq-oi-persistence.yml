@@ -1,0 +1,49 @@
+name: QQQ OI Persistence Research
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/run_qqq_oi_persistence.py'
+      - 'research/qqq_oi_persistence_v1.md'
+      - '.github/workflows/qqq-oi-persistence.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout Investing OS
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install research dependencies
+        run: pip install pandas numpy scipy yfinance tabulate
+
+      - name: Fetch frozen public QQQ chain archive
+        run: git clone --depth 1 https://github.com/oceanyang2024/qqq-option.git /tmp/qqq-option
+
+      - name: Run frozen OI persistence test
+        env:
+          QQQ_OPTION_SRC: /tmp/qqq-option/data/2026
+        run: python research/run_qqq_oi_persistence.py | tee research/results/qqq_oi_persistence_v1_run.log
+
+      - name: Commit reproducible results
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/results/qqq_oi_persistence_v1_*.csv research/results/qqq_oi_persistence_v1_*.md research/results/qqq_oi_persistence_v1_run.log
+          if git diff --cached --quiet; then
+            echo 'No result changes to commit.'
+          else
+            git commit -m 'Record frozen QQQ OI persistence v1 results [skip ci]'
+            git push
+          fi
