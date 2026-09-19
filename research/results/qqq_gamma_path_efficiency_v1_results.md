@@ -1,0 +1,110 @@
+# QQQ Gamma Path Efficiency v1.0 — Frozen Results
+
+Generated: 2026-09-19T16:57:35+00:00
+
+## Coverage
+- 60m matched sessions: **165** (2026-01-21 to 2026-09-18)
+- 5m robustness sessions: **40**
+- Day-T gamma predicts only Day T+1 RTH path.
+
+## Primary/secondary correlations
+
+| sample          | feature                | outcome                   |   expected_sign |   n |     rho |   p_value |
+|:----------------|:-----------------------|:--------------------------|----------------:|----:|--------:|----------:|
+| 60M_FULL        | near_gamma_share_0_5   | path_efficiency           |               1 | 165 |  0.1190 |    0.1280 |
+| 60M_FULL        | near_gamma_share_0_5   | whipsaw_ratio             |              -1 | 165 | -0.1190 |    0.1280 |
+| 60M_FULL        | near_gamma_share_0_5   | bar_direction_persistence |               1 | 165 |  0.0851 |    0.2769 |
+| 60M_FULL        | near_gamma_share_0_5   | reversal_count            |              -1 | 165 | -0.1422 |    0.0684 |
+| 60M_FULL        | near_gamma_share_0_5   | adverse_to_net            |              -1 | 133 |  0.0183 |    0.8342 |
+| 60M_FULL        | near_gamma_share_0_5   | gap_aligned_efficiency    |               1 | 119 |  0.2666 |    0.0034 |
+| 60M_FULL        | front_near_gamma_share | path_efficiency           |               1 | 165 |  0.1237 |    0.1134 |
+| 60M_FULL        | front_near_gamma_share | whipsaw_ratio             |              -1 | 165 | -0.1237 |    0.1134 |
+| 60M_FULL        | front_near_gamma_share | bar_direction_persistence |               1 | 165 |  0.0801 |    0.3062 |
+| 60M_FULL        | front_near_gamma_share | reversal_count            |              -1 | 165 | -0.0908 |    0.2460 |
+| 60M_FULL        | front_near_gamma_share | adverse_to_net            |              -1 | 133 | -0.0594 |    0.4972 |
+| 60M_FULL        | front_near_gamma_share | gap_aligned_efficiency    |               1 | 119 |  0.2347 |    0.0102 |
+| 60M_FULL        | weighted_abs_distance  | path_efficiency           |              -1 | 165 | -0.1028 |    0.1888 |
+| 60M_FULL        | weighted_abs_distance  | whipsaw_ratio             |               1 | 165 |  0.1028 |    0.1888 |
+| 60M_FULL        | weighted_abs_distance  | bar_direction_persistence |              -1 | 165 | -0.0148 |    0.8508 |
+| 60M_FULL        | weighted_abs_distance  | reversal_count            |               1 | 165 |  0.0452 |    0.5640 |
+| 60M_FULL        | weighted_abs_distance  | adverse_to_net            |               1 | 133 |  0.0391 |    0.6551 |
+| 60M_FULL        | weighted_abs_distance  | gap_aligned_efficiency    |              -1 | 119 | -0.0803 |    0.3856 |
+| 60M_FIRST_HALF  | near_gamma_share_0_5   | path_efficiency           |               1 |  82 |  0.2282 |    0.0392 |
+| 60M_FIRST_HALF  | near_gamma_share_0_5   | whipsaw_ratio             |              -1 |  82 | -0.2282 |    0.0392 |
+| 60M_FIRST_HALF  | near_gamma_share_0_5   | bar_direction_persistence |               1 |  82 |  0.1264 |    0.2579 |
+| 60M_FIRST_HALF  | near_gamma_share_0_5   | reversal_count            |              -1 |  82 | -0.2924 |    0.0077 |
+| 60M_FIRST_HALF  | near_gamma_share_0_5   | adverse_to_net            |              -1 |  66 | -0.0003 |    0.9983 |
+| 60M_FIRST_HALF  | near_gamma_share_0_5   | gap_aligned_efficiency    |               1 |  58 |  0.3332 |    0.0106 |
+| 60M_FIRST_HALF  | front_near_gamma_share | path_efficiency           |               1 |  82 |  0.2559 |    0.0203 |
+| 60M_FIRST_HALF  | front_near_gamma_share | whipsaw_ratio             |              -1 |  82 | -0.2559 |    0.0203 |
+| 60M_FIRST_HALF  | front_near_gamma_share | bar_direction_persistence |               1 |  82 |  0.1964 |    0.0769 |
+| 60M_FIRST_HALF  | front_near_gamma_share | reversal_count            |              -1 |  82 | -0.2368 |    0.0322 |
+| 60M_FIRST_HALF  | front_near_gamma_share | adverse_to_net            |              -1 |  66 | -0.1216 |    0.3308 |
+| 60M_FIRST_HALF  | front_near_gamma_share | gap_aligned_efficiency    |               1 |  58 |  0.3716 |    0.0041 |
+| 60M_FIRST_HALF  | weighted_abs_distance  | path_efficiency           |              -1 |  82 | -0.1554 |    0.1634 |
+| 60M_FIRST_HALF  | weighted_abs_distance  | whipsaw_ratio             |               1 |  82 |  0.1554 |    0.1634 |
+| 60M_FIRST_HALF  | weighted_abs_distance  | bar_direction_persistence |              -1 |  82 | -0.0182 |    0.8712 |
+| 60M_FIRST_HALF  | weighted_abs_distance  | reversal_count            |               1 |  82 |  0.0209 |    0.8520 |
+| 60M_FIRST_HALF  | weighted_abs_distance  | adverse_to_net            |               1 |  66 |  0.0953 |    0.4468 |
+| 60M_FIRST_HALF  | weighted_abs_distance  | gap_aligned_efficiency    |              -1 |  58 | -0.1081 |    0.4192 |
+| 60M_SECOND_HALF | near_gamma_share_0_5   | path_efficiency           |               1 |  83 | -0.0094 |    0.9329 |
+| 60M_SECOND_HALF | near_gamma_share_0_5   | whipsaw_ratio             |              -1 |  83 |  0.0094 |    0.9329 |
+| 60M_SECOND_HALF | near_gamma_share_0_5   | bar_direction_persistence |               1 |  83 |  0.0380 |    0.7331 |
+| 60M_SECOND_HALF | near_gamma_share_0_5   | reversal_count            |              -1 |  83 | -0.0073 |    0.9480 |
+| 60M_SECOND_HALF | near_gamma_share_0_5   | adverse_to_net            |              -1 |  67 |  0.1120 |    0.3670 |
+| 60M_SECOND_HALF | near_gamma_share_0_5   | gap_aligned_efficiency    |               1 |  61 |  0.1913 |    0.1397 |
+| 60M_SECOND_HALF | front_near_gamma_share | path_efficiency           |               1 |  83 | -0.0391 |    0.7255 |
+| 60M_SECOND_HALF | front_near_gamma_share | whipsaw_ratio             |              -1 |  83 |  0.0391 |    0.7255 |
+| 60M_SECOND_HALF | front_near_gamma_share | bar_direction_persistence |               1 |  83 | -0.0361 |    0.7462 |
+| 60M_SECOND_HALF | front_near_gamma_share | reversal_count            |              -1 |  83 |  0.0438 |    0.6944 |
+| 60M_SECOND_HALF | front_near_gamma_share | adverse_to_net            |              -1 |  67 |  0.0737 |    0.5535 |
+| 60M_SECOND_HALF | front_near_gamma_share | gap_aligned_efficiency    |               1 |  61 |  0.0751 |    0.5652 |
+| 60M_SECOND_HALF | weighted_abs_distance  | path_efficiency           |              -1 |  83 | -0.0310 |    0.7807 |
+| 60M_SECOND_HALF | weighted_abs_distance  | whipsaw_ratio             |               1 |  83 |  0.0310 |    0.7807 |
+| 60M_SECOND_HALF | weighted_abs_distance  | bar_direction_persistence |              -1 |  83 | -0.0123 |    0.9122 |
+| 60M_SECOND_HALF | weighted_abs_distance  | reversal_count            |               1 |  83 |  0.0902 |    0.4175 |
+| 60M_SECOND_HALF | weighted_abs_distance  | adverse_to_net            |               1 |  67 | -0.0569 |    0.6476 |
+| 60M_SECOND_HALF | weighted_abs_distance  | gap_aligned_efficiency    |              -1 |  61 |  0.0191 |    0.8839 |
+| 5M_RECENT       | near_gamma_share_0_5   | path_efficiency           |               1 |  40 | -0.0385 |    0.8137 |
+| 5M_RECENT       | near_gamma_share_0_5   | whipsaw_ratio             |              -1 |  40 |  0.0385 |    0.8137 |
+| 5M_RECENT       | near_gamma_share_0_5   | bar_direction_persistence |               1 |  40 |  0.0272 |    0.8677 |
+| 5M_RECENT       | near_gamma_share_0_5   | reversal_count            |              -1 |  40 | -0.2746 |    0.0864 |
+| 5M_RECENT       | near_gamma_share_0_5   | adverse_to_net            |              -1 |  30 | -0.0265 |    0.8896 |
+| 5M_RECENT       | near_gamma_share_0_5   | gap_aligned_efficiency    |               1 |  28 |  0.3585 |    0.0610 |
+| 5M_RECENT       | front_near_gamma_share | path_efficiency           |               1 |  40 |  0.0054 |    0.9734 |
+| 5M_RECENT       | front_near_gamma_share | whipsaw_ratio             |              -1 |  40 | -0.0054 |    0.9734 |
+| 5M_RECENT       | front_near_gamma_share | bar_direction_persistence |               1 |  40 |  0.1047 |    0.5204 |
+| 5M_RECENT       | front_near_gamma_share | reversal_count            |              -1 |  40 | -0.1001 |    0.5388 |
+| 5M_RECENT       | front_near_gamma_share | adverse_to_net            |              -1 |  30 |  0.0959 |    0.6142 |
+| 5M_RECENT       | front_near_gamma_share | gap_aligned_efficiency    |               1 |  28 |  0.1489 |    0.4496 |
+| 5M_RECENT       | weighted_abs_distance  | path_efficiency           |              -1 |  40 |  0.0300 |    0.8541 |
+| 5M_RECENT       | weighted_abs_distance  | whipsaw_ratio             |               1 |  40 | -0.0300 |    0.8541 |
+| 5M_RECENT       | weighted_abs_distance  | bar_direction_persistence |              -1 |  40 | -0.0266 |    0.8704 |
+| 5M_RECENT       | weighted_abs_distance  | reversal_count            |               1 |  40 |  0.1544 |    0.3414 |
+| 5M_RECENT       | weighted_abs_distance  | adverse_to_net            |               1 |  30 | -0.1911 |    0.3117 |
+| 5M_RECENT       | weighted_abs_distance  | gap_aligned_efficiency    |              -1 |  28 | -0.0082 |    0.9669 |
+
+## Near-gamma median split
+
+| bucket             |   n |   mean_near_share |   mean_efficiency |   mean_whipsaw |   mean_bar_persistence |   mean_reversals |   mean_adverse_to_net | resolution   |
+|:-------------------|----:|------------------:|------------------:|---------------:|-----------------------:|-----------------:|----------------------:|:-------------|
+| ABOVE_MEDIAN       |  82 |            0.2495 |            0.4638 |         0.5362 |                 0.6426 |           2.8537 |                0.5774 | 60m          |
+| AT_OR_BELOW_MEDIAN |  83 |            0.1579 |            0.3763 |         0.6237 |                 0.6036 |           3.1928 |                0.5783 | 60m          |
+| ABOVE_MEDIAN       |  20 |            0.2542 |            0.1198 |         0.8802 |                 0.5247 |          39.0500 |                0.4128 | 5m           |
+| AT_OR_BELOW_MEDIAN |  20 |            0.1586 |            0.1096 |         0.8904 |                 0.5225 |          41.9500 |                0.5907 | 5m           |
+
+## Walk-forward incremental test
+
+| target          |   n_test |   baseline_mae |   extended_mae |   mae_improvement_pct |
+|:----------------|---------:|---------------:|---------------:|----------------------:|
+| path_efficiency |      105 |         0.2232 |         0.2263 |               -1.3943 |
+| whipsaw_ratio   |      105 |         0.2232 |         0.2263 |               -1.3943 |
+
+## Mechanical promotion screen
+- Stable full/half primary relationship gate: **FAIL**
+- Same-sign 5m robustness gate: **FAIL**
+- >=10% descriptive effect-size gate: **PASS**
+- Walk-forward >=2% MAE gate: **FAIL**
+- Overall verdict: **RESEARCH-ONLY**
+
+No result has directional authority or permission to alter STRENGTH, RUNWAY, R:R, action state, or overnight carry.
