@@ -1,0 +1,94 @@
+# QQQ Gamma Overnight vs RTH Decomposition v1.0 — Frozen Results
+
+Generated: 2026-09-19T16:25:58+00:00
+
+## Frozen sample
+- Sessions: **165**
+- First Day-T: **2026-01-20**
+- Last Day-T: **2026-09-17**
+- Reuses the previously frozen gamma-concentration panel; this is a mechanism follow-up, not independent OOS proof.
+
+## Primary correlations
+
+| sample      | feature                | outcome    |   n |     rho |   p_value |
+|:------------|:-----------------------|:-----------|----:|--------:|----------:|
+| FULL        | near_gamma_share_0_5   | abs_gap    | 165 | -0.0608 |    0.4382 |
+| FULL        | near_gamma_share_0_5   | abs_rth_oc | 165 | -0.0565 |    0.4711 |
+| FULL        | near_gamma_share_0_5   | rth_range  | 165 | -0.22   |    0.0045 |
+| FULL        | near_gamma_share_0_5   | abs_cc     | 165 |  0.011  |    0.8883 |
+| FULL        | front_near_gamma_share | abs_gap    | 165 | -0.056  |    0.4747 |
+| FULL        | front_near_gamma_share | abs_rth_oc | 165 | -0.0591 |    0.4511 |
+| FULL        | front_near_gamma_share | rth_range  | 165 | -0.2162 |    0.0053 |
+| FULL        | front_near_gamma_share | abs_cc     | 165 |  0.0051 |    0.9477 |
+| FULL        | weighted_abs_distance  | abs_gap    | 165 |  0.0967 |    0.2167 |
+| FULL        | weighted_abs_distance  | abs_rth_oc | 165 |  0.0056 |    0.9435 |
+| FULL        | weighted_abs_distance  | rth_range  | 165 |  0.1451 |    0.0629 |
+| FULL        | weighted_abs_distance  | abs_cc     | 165 |  0.0326 |    0.6776 |
+| FIRST_HALF  | near_gamma_share_0_5   | abs_gap    |  82 |  0.0562 |    0.6159 |
+| FIRST_HALF  | near_gamma_share_0_5   | abs_rth_oc |  82 |  0.0819 |    0.4645 |
+| FIRST_HALF  | near_gamma_share_0_5   | rth_range  |  82 | -0.1277 |    0.2528 |
+| FIRST_HALF  | near_gamma_share_0_5   | abs_cc     |  82 |  0.1633 |    0.1427 |
+| FIRST_HALF  | front_near_gamma_share | abs_gap    |  82 |  0.0406 |    0.717  |
+| FIRST_HALF  | front_near_gamma_share | abs_rth_oc |  82 |  0.0939 |    0.4012 |
+| FIRST_HALF  | front_near_gamma_share | rth_range  |  82 | -0.1598 |    0.1515 |
+| FIRST_HALF  | front_near_gamma_share | abs_cc     |  82 |  0.1863 |    0.0937 |
+| FIRST_HALF  | weighted_abs_distance  | abs_gap    |  82 |  0.0447 |    0.6899 |
+| FIRST_HALF  | weighted_abs_distance  | abs_rth_oc |  82 | -0.1129 |    0.3124 |
+| FIRST_HALF  | weighted_abs_distance  | rth_range  |  82 |  0.0674 |    0.5474 |
+| FIRST_HALF  | weighted_abs_distance  | abs_cc     |  82 | -0.1299 |    0.2446 |
+| SECOND_HALF | near_gamma_share_0_5   | abs_gap    |  83 | -0.0952 |    0.3919 |
+| SECOND_HALF | near_gamma_share_0_5   | abs_rth_oc |  83 | -0.2221 |    0.0436 |
+| SECOND_HALF | near_gamma_share_0_5   | rth_range  |  83 | -0.3414 |    0.0016 |
+| SECOND_HALF | near_gamma_share_0_5   | abs_cc     |  83 | -0.1285 |    0.247  |
+| SECOND_HALF | front_near_gamma_share | abs_gap    |  83 | -0.1081 |    0.3306 |
+| SECOND_HALF | front_near_gamma_share | abs_rth_oc |  83 | -0.2343 |    0.033  |
+| SECOND_HALF | front_near_gamma_share | rth_range  |  83 | -0.2906 |    0.0077 |
+| SECOND_HALF | front_near_gamma_share | abs_cc     |  83 | -0.1711 |    0.1219 |
+| SECOND_HALF | weighted_abs_distance  | abs_gap    |  83 |  0.1094 |    0.3248 |
+| SECOND_HALF | weighted_abs_distance  | abs_rth_oc |  83 |  0.156  |    0.159  |
+| SECOND_HALF | weighted_abs_distance  | rth_range  |  83 |  0.2637 |    0.016  |
+| SECOND_HALF | weighted_abs_distance  | abs_cc     |  83 |  0.2034 |    0.0652 |
+
+## Frozen RTH-vs-gap differentials
+
+| feature                |   rth_oc_differential |   range_differential |
+|:-----------------------|----------------------:|---------------------:|
+| near_gamma_share_0_5   |               -0.0043 |               0.1592 |
+| front_near_gamma_share |                0.003  |               0.1601 |
+| weighted_abs_distance  |               -0.0911 |               0.0485 |
+
+Positive differential means stronger RTH-specific behavior in the predeclared expected direction.
+
+## Descriptive median split — near-spot gamma share
+
+| bucket             |   n |   mean_near_share | avg_abs_gap   | avg_abs_rth_oc   | avg_rth_range   | avg_abs_cc   | avg_gap_followthrough   |
+|:-------------------|----:|------------------:|:--------------|:-----------------|:----------------|:-------------|:------------------------|
+| ABOVE_MEDIAN       |  82 |            0.2495 | 0.65%         | 0.71%            | 1.34%           | 1.07%        | 0.24%                   |
+| AT_OR_BELOW_MEDIAN |  83 |            0.1579 | 0.70%         | 0.78%            | 1.64%           | 1.01%        | -0.13%                  |
+
+## Secondary gap-followthrough test (|gap| >= 0.25%)
+
+| feature                |   n |   rho_vs_gap_followthrough |   p_value |
+|:-----------------------|----:|---------------------------:|----------:|
+| near_gamma_share_0_5   | 119 |                     0.2766 |    0.0023 |
+| front_near_gamma_share | 119 |                     0.2336 |    0.0106 |
+| weighted_abs_distance  | 119 |                    -0.0499 |    0.5898 |
+
+## Walk-forward incremental test
+
+| target     |   n_test | baseline_mae   | extended_mae   | mae_improvement_pct   |   baseline_pred_rho |   baseline_pred_p |   extended_pred_rho |   extended_pred_p |
+|:-----------|---------:|:---------------|:---------------|:----------------------|--------------------:|------------------:|--------------------:|------------------:|
+| abs_gap    |      105 | 0.46%          | 0.49%          | -4.59%                |              0.1013 |            0.3039 |             -0.0092 |            0.9261 |
+| abs_rth_oc |      105 | 0.44%          | 0.44%          | -1.35%                |              0.2988 |            0.002  |              0.2502 |            0.0101 |
+| rth_range  |      105 | 0.50%          | 0.50%          | 1.18%                 |              0.4649 |            0      |              0.4117 |            0      |
+
+## Mechanical promotion screen
+
+- Stable full/half association + p<0.10 + differential >=0.10: **PASS**
+  - near_gamma_share_0_5 -> rth_range, differential=0.1592
+  - front_near_gamma_share -> rth_range, differential=0.1601
+- Walk-forward RTH MAE gate: **FAIL**
+- RTH-specific improvement vs ABS_GAP gate: **PASS**
+- Overall v1.0 verdict: **RESEARCH-ONLY**
+
+No result from this pass has directional authority or permission to alter STRENGTH, RUNWAY, R:R, action state, or overnight-carry rules.
