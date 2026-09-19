@@ -1,0 +1,58 @@
+name: Modelled Dealer GEX Gap Follow-Through Research
+
+on:
+  push:
+    paths:
+      - 'research/modelled_dealer_gex_gap_followthrough_v1.md'
+      - 'research/run_modelled_dealer_gex_gap_followthrough.py'
+      - '.github/workflows/modelled-dealer-gex-gap-followthrough.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Investing OS
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install research dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy pandas pyarrow scipy scikit-learn tabulate
+
+      - name: Fetch untouched 2008-2010 SPY and IWM option data
+        run: |
+          mkdir -p /tmp/modelled_gex_proxy
+          for sym in spy iwm; do
+            curl -L --fail --retry 3 -o /tmp/modelled_gex_proxy/${sym}_underlying_prices.parquet \
+              https://raw.githubusercontent.com/anahatsingh-ui/options-dataset-hist/main/${sym}/underlying_prices.parquet
+            for year in 2008 2009 2010; do
+              curl -L --fail --retry 3 -o /tmp/modelled_gex_proxy/${sym}_options_${year}.parquet \
+                https://raw.githubusercontent.com/anahatsingh-ui/options-dataset-hist/main/${sym}/options_${year}.parquet
+            done
+          done
+
+      - name: Run frozen modelled dealer GEX falsification
+        env:
+          GEX_PROXY_DATA_DIR: /tmp/modelled_gex_proxy
+        run: python research/run_modelled_dealer_gex_gap_followthrough.py
+
+      - name: Commit reproducible results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/results/modelled_dealer_gex_gap_followthrough_v1_*
+          if git diff --cached --quiet; then
+            echo "No result changes to commit."
+          else
+            git commit -m "Record frozen modelled dealer GEX gap-followthrough results"
+            git push
+          fi
