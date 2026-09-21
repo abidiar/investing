@@ -13,18 +13,29 @@ This file is the concise cross-chat research state. Detailed prior-work reviews,
 - **Every new hypothesis requires a prior-work review before protocol freezing.** See `research/PRIOR_WORK_REVIEW_STANDARD.md`.
 
 ## SPY quarterly-expiration late-close → next-open research
-File:
+Files:
+- `research/spy_quarterly_expiration_frozen_event_panel_v1.md`
 - `research/results/spy_quarterly_expiration_late_close_next_open_discovery_2026-09-21.md`
+- `research/results/spy_quarterly_expiration_backward_falsification_v1_results.md`
 
-Status: **DISCOVERY / RESEARCH-ONLY — NOT A PRODUCTION RULE**.
+Status: **PRIMARY HYPOTHESIS FAILED LONG-HISTORY STABILITY / RECENT-REGIME CLUSTER ONLY**.
 
-A reconstruction using already-available Webull M5 history found that, across the eight completed quarterly-expiration events from 2024-09-20 through 2026-06-18, the sign of SPY's 3:30 PM ET → RTH-close move matched the sign of the expiration-close → next-RTH-open gap in **8/8** observations. This is a tiny, hypothesis-aware discovery sample and must not be presented as a live probability or predictive win rate. The relationship did not extend cleanly through the following RTH session: next-session open→close matched only 4/8, and expiration close→next-session close matched 5/8.
+The event panel was frozen before backward outcomes were exposed: 79 quarterly-expiration sessions from 2007-03 through 2026-09, with holiday-adjusted expirations preserved. Existing Webull M5 history supplied 64 valid frozen events from 2010-12-17 through 2026-09-18; the first 15 frozen events remained missing. Massive was checked for the missing old intraday history but the current plan was not entitled, and Alpaca returned no old records.
 
-The 2026-09-21 post-expiration rally is qualitatively supportive but is not yet counted until the 2026-09-18 signal/outcome is computed under the same frozen definition.
+Frozen primary result:
+- 33 / 64 directional matches = **51.56%**
+- 95% Wilson CI: **39.58%–63.37%**
+- exact two-sided binomial p vs 50%: **0.901**
+- return-level Pearson correlation: approximately **-0.009**
+- Spearman correlation: approximately **+0.044**
 
-**Next clean falsification:** freeze the primary definition as 3:30 PM ET → expiration RTH close sign versus expiration close → next RTH open gap sign; build the historical expiration-event panel backward to 2010 or earlier using existing data where possible; freeze the event list before exposing aggregate outcomes; then report N, match rate, Wilson CI, magnitude, and era stability. 3:00/3:45 start times and near-zero exclusions are robustness analyses only and may not replace the primary rule.
+Therefore the 3:30 PM ET → expiration-close direction does **not** provide a durable long-history directional edge for the next-session opening gap.
 
-No scanner change. Existing quarterly-expiration/rebalance distortion gate remains unchanged.
+Era behavior was unstable: 2010-2014 = 41.18%, 2015-2019 = 50.00%, 2020-2023 = 43.75%, 2024-2026 = 81.82%. The recent observation remains notable: **2024-09-20 through 2026-09-18 is 9/9**, including 2026-09-18 (+0.108% late move) → 2026-09-21 (+0.617% opening gap). But the pre-streak sample was only 24/55 = 43.64%.
+
+Magnitude filters did not rescue the rule. This recent 9/9 run is preserved as a **descriptive recent-regime cluster**, not a live probability, scanner score, or production rule.
+
+**Research verdict: do not promote the directional rule.** The existing quarterly-expiration/rebalance distortion gate remains unchanged because late-day expiration flows can still be mechanically distorted; that is a risk-management conclusion, not a directional forecast.
 
 ## Options-positioning / gamma research status
 
@@ -125,7 +136,7 @@ Conclusion: the public OI-based sign proxy is **mechanism-consistent but not dec
 ## What remains alive
 - **Direct or stronger dealer-side positioning data** — participant-class inventory/open-close data, signed flow, or a validated inventory proxy — as a potentially distinct amplification/damping mechanism.
 - Unsigned near-spot gamma as a small non-directional next-session amplitude/compression association, **research/context-only** after failing two practical decision-level overlays.
-- SPY quarterly-expiration 3:30→close sign versus next-open gap sign as a **recent-regime discovery requiring backward historical falsification**.
+- SPY quarterly-expiration recent 9/9 sign-match streak as a **descriptive recent-regime cluster only** after the long-history primary rule failed.
 
 ## Prior-work and data-source conclusion — signed dealer-GEX branch
 The broad mechanism is already well studied: negative/short dealer gamma can amplify price moves and positive/long dealer gamma can dampen them, especially relative to available liquidity. The remaining Investing OS question is **incremental decision value**, not whether the mechanism can exist.
@@ -148,13 +159,11 @@ Our open ETF archive is sufficient only for an OI-sign proxy. Pass 13 shows that
 - Do not change the SPY quarterly-expiration primary 3:30→close / next-open definition after exposing backward-test outcomes; alternate start times and near-zero filters remain robustness checks only.
 
 ## Next clean research priority
-**SPY quarterly-expiration late-close → next-open backward falsification**, while OI-based GEX proxy work remains paused unless stronger dealer-side data become available.
+**Do not optimize the failed SPY quarterly-expiration primary rule.**
 
-For the expiration branch, freeze the primary test before exposing historical outcomes:
+If the expiration branch is continued, the next defensible question is whether the recent 2024-09→2026-09 9/9 cluster corresponds to a **pre-specified observable regime difference known before the next open** (for example closing-auction imbalance type, expiration/rebalance coincidence, volatility regime, breadth, or dealer-hedging environment). Any such branch requires the mandatory prior-work review and a frozen regime definition before outcomes are exposed.
 
-> On each quarterly options/futures expiration session, does the sign of SPY's 3:30 PM ET → RTH-close move match the sign of the expiration-close → next-RTH-open gap?
-
-Build the historical event list backward to 2010 or earlier using existing data where possible, freeze that event panel, and only then expose aggregate outcomes. Report N, match rate, Wilson CI, magnitude and era stability. Do not promote the feature unless a preregistered validation standard is established and passed.
+OI-based GEX proxy work remains paused unless stronger dealer-side data become available.
 
 If we later obtain participant-class or signed-flow data, the next clean GEX experiment should use a modern multi-year SPX/SPXW sample with intraday underlying bars and ask:
 
