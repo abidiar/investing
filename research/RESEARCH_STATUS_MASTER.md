@@ -1,6 +1,6 @@
 # Investing OS Research — Master Status
 
-Updated: 2026-09-19
+Updated: 2026-09-21
 Status: **CANONICAL CROSS-TOPIC INDEX**
 
 This file is the concise cross-chat research state. Detailed prior-work reviews, frozen protocols, code, and results remain in their topic files. Governance is defined in `research/RESEARCH_GOVERNANCE.md`.
@@ -11,6 +11,20 @@ This file is the concise cross-chat research state. Detailed prior-work reviews,
 - Quarterly expiration/rebalance risk is a standing scanner gate and must be surfaced prominently.
 - A finding enters production only after its preregistered promotion standard passes.
 - **Every new hypothesis requires a prior-work review before protocol freezing.** See `research/PRIOR_WORK_REVIEW_STANDARD.md`.
+
+## SPY quarterly-expiration late-close → next-open research
+File:
+- `research/results/spy_quarterly_expiration_late_close_next_open_discovery_2026-09-21.md`
+
+Status: **DISCOVERY / RESEARCH-ONLY — NOT A PRODUCTION RULE**.
+
+A reconstruction using already-available Webull M5 history found that, across the eight completed quarterly-expiration events from 2024-09-20 through 2026-06-18, the sign of SPY's 3:30 PM ET → RTH-close move matched the sign of the expiration-close → next-RTH-open gap in **8/8** observations. This is a tiny, hypothesis-aware discovery sample and must not be presented as a live probability or predictive win rate. The relationship did not extend cleanly through the following RTH session: next-session open→close matched only 4/8, and expiration close→next-session close matched 5/8.
+
+The 2026-09-21 post-expiration rally is qualitatively supportive but is not yet counted until the 2026-09-18 signal/outcome is computed under the same frozen definition.
+
+**Next clean falsification:** freeze the primary definition as 3:30 PM ET → expiration RTH close sign versus expiration close → next RTH open gap sign; build the historical expiration-event panel backward to 2010 or earlier using existing data where possible; freeze the event list before exposing aggregate outcomes; then report N, match rate, Wilson CI, magnitude, and era stability. 3:00/3:45 start times and near-zero exclusions are robustness analyses only and may not replace the primary rule.
+
+No scanner change. Existing quarterly-expiration/rebalance distortion gate remains unchanged.
 
 ## Options-positioning / gamma research status
 
@@ -111,6 +125,7 @@ Conclusion: the public OI-based sign proxy is **mechanism-consistent but not dec
 ## What remains alive
 - **Direct or stronger dealer-side positioning data** — participant-class inventory/open-close data, signed flow, or a validated inventory proxy — as a potentially distinct amplification/damping mechanism.
 - Unsigned near-spot gamma as a small non-directional next-session amplitude/compression association, **research/context-only** after failing two practical decision-level overlays.
+- SPY quarterly-expiration 3:30→close sign versus next-open gap sign as a **recent-regime discovery requiring backward historical falsification**.
 
 ## Prior-work and data-source conclusion — signed dealer-GEX branch
 The broad mechanism is already well studied: negative/short dealer gamma can amplify price moves and positive/long dealer gamma can dampen them, especially relative to available liquidity. The remaining Investing OS question is **incremental decision value**, not whether the mechanism can exist.
@@ -130,15 +145,22 @@ Our open ETF archive is sufficient only for an OI-sign proxy. Pass 13 shows that
 - Do not treat public open interest as observed dealer inventory.
 - Do not tune the Pass-13 call-minus-put proxy, gap threshold, liquidity normalization, or 2009–2010 sample to force the 2% incremental gates.
 - Do not make exact gamma-wall pinning the next research priority without materially stronger evidence/data.
+- Do not change the SPY quarterly-expiration primary 3:30→close / next-open definition after exposing backward-test outcomes; alternate start times and near-zero filters remain robustness checks only.
 
 ## Next clean research priority
-**Pause OI-based GEX proxy work unless stronger dealer-side data become available.**
+**SPY quarterly-expiration late-close → next-open backward falsification**, while OI-based GEX proxy work remains paused unless stronger dealer-side data become available.
 
-If we obtain participant-class or signed-flow data, the next clean experiment should use a modern multi-year SPX/SPXW sample with intraday underlying bars and ask:
+For the expiration branch, freeze the primary test before exposing historical outcomes:
+
+> On each quarterly options/futures expiration session, does the sign of SPY's 3:30 PM ET → RTH-close move match the sign of the expiration-close → next-RTH-open gap?
+
+Build the historical event list backward to 2010 or earlier using existing data where possible, freeze that event panel, and only then expose aggregate outcomes. Report N, match rate, Wilson CI, magnitude and era stability. Do not promote the feature unless a preregistered validation standard is established and passed.
+
+If we later obtain participant-class or signed-flow data, the next clean GEX experiment should use a modern multi-year SPX/SPXW sample with intraday underlying bars and ask:
 
 > Given an independently confirmed price impulse, does **observed or substantially stronger dealer positioning** improve 30/60/120-minute continuation/reversal, MFE/MAE, and realized excursion beyond price, volatility, and liquidity?
 
-Until then, higher-value Investing OS research should shift to another hypothesis branch rather than further tuning public OI-based GEX.
+Until then, do not further tune public OI-based GEX.
 
 ## Key locations
 - Governance: `research/RESEARCH_GOVERNANCE.md`
