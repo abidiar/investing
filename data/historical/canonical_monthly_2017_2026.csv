@@ -1,0 +1,1054 @@
+month,ticker,month_end_date,split_adjusted_close,source,status
+2017-01,AAPL,2017-01-31,30.33750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-01,AMZN,2017-01-31,41.17400000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-01,GOOGL,2017-01-31,41.00950000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-01,META,2017-01-31,130.32000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-01,MSFT,2017-01-31,64.65000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-01,NVDA,2017-01-31,2.72950000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-01,QQQ,2017-01-31,124.56999969,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-01,SPY,2017-01-31,227.53000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-01,TSLA,2017-01-31,3.35906667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-02,AAPL,2017-02-28,34.24750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-02,AMZN,2017-02-28,42.25200000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-02,GOOGL,2017-02-28,42.24650000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-02,META,2017-02-28,135.54000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-02,MSFT,2017-02-28,63.98000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-02,NVDA,2017-02-28,2.53700000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-02,QQQ,2017-02-28,130.02000427,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-02,SPY,2017-02-28,236.47000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-02,TSLA,2017-02-28,3.33320000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-03,AAPL,2017-03-31,35.91500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-03,AMZN,2017-03-31,44.32700000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-03,GOOGL,2017-03-31,42.39000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-03,META,2017-03-31,142.05000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-03,MSFT,2017-03-31,65.86000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-03,NVDA,2017-03-31,2.72325000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-03,QQQ,2017-03-31,132.38000488,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-03,SPY,2017-03-31,235.74000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-03,TSLA,2017-03-31,3.71066667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-04,AAPL,2017-04-28,35.91250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-04,AMZN,2017-04-28,46.24950000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-04,GOOGL,2017-04-28,46.22600000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-04,META,2017-04-28,150.25000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-04,MSFT,2017-04-28,68.46000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-04,NVDA,2017-04-28,2.60750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-04,QQQ,2017-04-28,135.99000549,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-04,SPY,2017-04-28,238.08000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-04,TSLA,2017-04-28,4.18760000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-05,AAPL,2017-05-31,38.19000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-05,AMZN,2017-05-31,49.73100000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-05,GOOGL,2017-05-31,49.35450000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-05,META,2017-05-31,151.46000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-05,MSFT,2017-05-31,69.84000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-05,NVDA,2017-05-31,3.60875000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-05,QQQ,2017-05-31,141.28999329,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-05,SPY,2017-05-31,241.44000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-05,TSLA,2017-05-31,4.54680000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-06,AAPL,2017-06-30,36.00500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-06,AMZN,2017-06-30,48.40000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-06,GOOGL,2017-06-30,46.48400000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-06,META,2017-06-30,150.98000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-06,MSFT,2017-06-30,68.93000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-06,NVDA,2017-06-30,3.61400000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-06,QQQ,2017-06-30,137.63999939,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-06,SPY,2017-06-30,241.80000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-06,TSLA,2017-06-30,4.82146667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-07,AAPL,2017-07-31,37.18250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-07,AMZN,2017-07-31,49.38900000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-07,GOOGL,2017-07-31,47.27500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-07,META,2017-07-31,169.25000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-07,MSFT,2017-07-31,72.70000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-07,NVDA,2017-07-31,4.06275000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-07,QQQ,2017-07-31,143.22999573,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-07,SPY,2017-07-31,246.77000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-07,TSLA,2017-07-31,4.31293333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-08,AAPL,2017-08-31,41.00000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-08,AMZN,2017-08-31,49.03000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-08,GOOGL,2017-08-31,47.76200000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-08,META,2017-08-31,171.97000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-08,MSFT,2017-08-31,74.77000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-08,NVDA,2017-08-31,4.23600000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-08,QQQ,2017-08-31,146.19999695,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-08,SPY,2017-08-31,247.49000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-08,TSLA,2017-08-31,4.74533333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-09,AAPL,2017-09-29,38.53000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-09,AMZN,2017-09-29,48.06750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-09,GOOGL,2017-09-29,48.68600000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-09,META,2017-09-29,170.87000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-09,MSFT,2017-09-29,74.49000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-09,NVDA,2017-09-29,4.46925000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-09,QQQ,2017-09-29,145.44999695,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-09,SPY,2017-09-29,251.23000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-09,TSLA,2017-09-29,4.54800000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-10,AAPL,2017-10-31,42.26000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-10,AMZN,2017-10-31,55.26400000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-10,GOOGL,2017-10-31,51.65200000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-10,META,2017-10-31,180.06000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-10,MSFT,2017-10-31,83.18000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-10,NVDA,2017-10-31,5.17025000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-10,QQQ,2017-10-31,152.14999390,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-10,SPY,2017-10-31,257.15000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-10,TSLA,2017-10-31,4.42040000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-11,AAPL,2017-11-30,42.96250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-11,AMZN,2017-11-30,58.83750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-11,GOOGL,2017-11-30,51.80850000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-11,META,2017-11-30,177.18000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-11,MSFT,2017-11-30,84.17000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-11,NVDA,2017-11-30,5.01775000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-11,QQQ,2017-11-30,155.14999390,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-11,SPY,2017-11-30,265.01000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-11,TSLA,2017-11-30,4.11800000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-12,AAPL,2017-12-29,42.30750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-12,AMZN,2017-12-29,58.47350000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-12,GOOGL,2017-12-29,52.67000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-12,META,2017-12-29,176.46000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-12,MSFT,2017-12-29,85.54000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-12,NVDA,2017-12-29,4.83750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2017-12,QQQ,2017-12-29,155.75999451,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2017-12,SPY,2017-12-29,266.86000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2017-12,TSLA,2017-12-29,4.15133333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-01,AAPL,2018-01-31,41.85750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-01,AMZN,2018-01-31,72.54450000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-01,GOOGL,2018-01-31,59.11100000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-01,META,2018-01-31,186.89000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-01,MSFT,2018-01-31,95.01000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-01,NVDA,2018-01-31,6.14500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-01,QQQ,2018-01-31,169.39999390,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-01,SPY,2018-01-31,281.90000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-01,TSLA,2018-01-31,4.72413333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-02,AAPL,2018-02-28,44.53000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-02,AMZN,2018-02-28,75.62250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-02,GOOGL,2018-02-28,55.19600000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-02,META,2018-02-28,178.32000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-02,MSFT,2018-02-28,93.77000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-02,NVDA,2018-02-28,6.05000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-02,QQQ,2018-02-28,167.21000671,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-02,SPY,2018-02-28,271.65000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-02,TSLA,2018-02-28,4.57413333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-03,AAPL,2018-03-29,41.94500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-03,AMZN,2018-03-29,72.36700000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-03,GOOGL,2018-03-29,51.85700000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-03,META,2018-03-29,159.79000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-03,MSFT,2018-03-29,91.27000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-03,NVDA,2018-03-29,5.78975000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-03,QQQ,2018-03-29,160.13000488,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-03,SPY,2018-03-29,263.15000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-03,TSLA,2018-03-29,3.54840000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-04,AAPL,2018-04-30,41.31500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-04,AMZN,2018-04-30,78.30650000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-04,GOOGL,2018-04-30,50.92900000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-04,META,2018-04-30,172.00000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-04,MSFT,2018-04-30,93.52000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-04,NVDA,2018-04-30,5.62250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-04,QQQ,2018-04-30,160.94000244,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-04,SPY,2018-04-30,264.51000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-04,TSLA,2018-04-30,3.91866667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-05,AAPL,2018-05-31,46.71750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-05,AMZN,2018-05-31,81.48100000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-05,GOOGL,2018-05-31,55.00000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-05,META,2018-05-31,191.78000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-05,MSFT,2018-05-31,98.84000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-05,NVDA,2018-05-31,6.30475000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-05,QQQ,2018-05-31,170.07000732,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-05,SPY,2018-05-31,270.94000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-05,TSLA,2018-05-31,3.79640000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-06,AAPL,2018-06-29,46.27750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-06,AMZN,2018-06-29,84.99000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-06,GOOGL,2018-06-29,56.45949500,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-06,META,2018-06-29,194.32000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-06,MSFT,2018-06-29,98.61000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-06,NVDA,2018-06-29,5.92250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-06,QQQ,2018-06-29,171.64999390,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-06,SPY,2018-06-29,271.28000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-06,TSLA,2018-06-29,4.57266667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-07,AAPL,2018-07-31,47.57250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-07,AMZN,2018-07-31,88.87200000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-07,GOOGL,2018-07-31,61.36100000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-07,META,2018-07-31,172.58000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-07,MSFT,2018-07-31,106.08000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-07,NVDA,2018-07-31,6.12150000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-07,QQQ,2018-07-31,176.44999695,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-07,SPY,2018-07-31,281.33000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-07,TSLA,2018-07-31,3.97520000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-08,AAPL,2018-08-31,56.90750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-08,AMZN,2018-08-31,100.63550000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-08,GOOGL,2018-08-31,61.59000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-08,META,2018-08-31,175.73000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-08,MSFT,2018-08-31,112.33000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-08,NVDA,2018-08-31,7.01700000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-08,QQQ,2018-08-31,186.64999390,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-08,SPY,2018-08-31,290.31000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-08,TSLA,2018-08-31,4.02213333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-09,AAPL,2018-09-28,56.43500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-09,AMZN,2018-09-28,100.15000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-09,GOOGL,2018-09-28,60.35400000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-09,META,2018-09-28,164.46000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-09,MSFT,2018-09-28,114.37000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-09,NVDA,2018-09-28,7.02550000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-09,QQQ,2018-09-28,185.78999329,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-09,SPY,2018-09-28,290.72000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-09,TSLA,2018-09-28,3.53026667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-10,AAPL,2018-10-31,54.71500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-10,AMZN,2018-10-31,79.90050000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-10,GOOGL,2018-10-31,54.52900000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-10,META,2018-10-31,151.79000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-10,MSFT,2018-10-31,106.81000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-10,NVDA,2018-10-31,5.27075000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-10,QQQ,2018-10-31,169.82000732,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-10,SPY,2018-10-31,270.63000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-10,TSLA,2018-10-31,4.49760000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-11,AAPL,2018-11-30,44.64500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-11,AMZN,2018-11-30,84.50850000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-11,GOOGL,2018-11-30,55.48250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-11,META,2018-11-30,140.61000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-11,MSFT,2018-11-30,110.89000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-11,NVDA,2018-11-30,4.08575000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-11,QQQ,2018-11-30,169.36999512,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-11,SPY,2018-11-30,275.65000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-11,TSLA,2018-11-30,4.67306667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-12,AAPL,2018-12-31,39.43500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-12,AMZN,2018-12-31,75.09850000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-12,GOOGL,2018-12-31,52.24800000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-12,META,2018-12-31,131.09000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-12,MSFT,2018-12-31,101.57000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-12,NVDA,2018-12-31,3.33750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2018-12,QQQ,2018-12-31,154.25999451,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2018-12,SPY,2018-12-31,249.92000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2018-12,TSLA,2018-12-31,4.43733333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-01,AAPL,2019-01-31,41.61000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-01,AMZN,2019-01-31,85.93650000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-01,GOOGL,2019-01-31,56.29450000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-01,META,2019-01-31,166.69000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-01,MSFT,2019-01-31,104.43000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-01,NVDA,2019-01-31,3.59375000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-01,QQQ,2019-01-31,168.16000366,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-01,SPY,2019-01-31,269.93000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-01,TSLA,2019-01-31,4.09360000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-02,AAPL,2019-02-28,43.28750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-02,AMZN,2019-02-28,81.99150000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-02,GOOGL,2019-02-28,56.32750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-02,META,2019-02-28,161.45000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-02,MSFT,2019-02-28,112.03000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-02,NVDA,2019-02-28,3.85650000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-02,QQQ,2019-02-28,173.19000244,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-02,SPY,2019-02-28,278.68000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-02,TSLA,2019-02-28,4.26506667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-03,AAPL,2019-03-29,47.48750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-03,AMZN,2019-03-29,89.03750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-03,GOOGL,2019-03-29,58.84450000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-03,META,2019-03-29,166.69000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-03,MSFT,2019-03-29,117.94000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-03,NVDA,2019-03-29,4.48900000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-03,QQQ,2019-03-29,179.66000366,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-03,SPY,2019-03-29,282.48000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-03,TSLA,2019-03-29,3.73146667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-04,AAPL,2019-04-30,50.16750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-04,AMZN,2019-04-30,96.32600000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-04,GOOGL,2019-04-30,59.94800000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-04,META,2019-04-30,193.40000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-04,MSFT,2019-04-30,130.60000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-04,NVDA,2019-04-30,4.52500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-04,QQQ,2019-04-30,189.53999329,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-04,SPY,2019-04-30,294.02000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-04,TSLA,2019-04-30,3.18253333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-05,AAPL,2019-05-31,43.76750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-05,AMZN,2019-05-31,88.75350000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-05,GOOGL,2019-05-31,55.32500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-05,META,2019-05-31,177.47000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-05,MSFT,2019-05-31,123.68000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-05,NVDA,2019-05-31,3.38650000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-05,QQQ,2019-05-31,173.94999695,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-05,SPY,2019-05-31,275.27000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-05,TSLA,2019-05-31,2.46880000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-06,AAPL,2019-06-28,49.48000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-06,AMZN,2019-06-28,94.68150000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-06,GOOGL,2019-06-28,54.14000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-06,META,2019-06-28,193.00000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-06,MSFT,2019-06-28,133.96000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-06,NVDA,2019-06-28,4.10575000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-06,QQQ,2019-06-28,186.74000549,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-06,SPY,2019-06-28,293.00000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-06,TSLA,2019-06-28,2.97946667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-07,AAPL,2019-07-31,53.26000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-07,AMZN,2019-07-31,93.33900000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-07,GOOGL,2019-07-31,60.91000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-07,META,2019-07-31,194.23000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-07,MSFT,2019-07-31,136.27000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-07,NVDA,2019-07-31,4.21800000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-07,QQQ,2019-07-31,191.10000610,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-07,SPY,2019-07-31,297.43000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-07,TSLA,2019-07-31,3.22146667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-08,AAPL,2019-08-30,52.18500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-08,AMZN,2019-08-30,88.81450000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-08,GOOGL,2019-08-30,59.52650000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-08,META,2019-08-30,185.67000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-08,MSFT,2019-08-30,137.86000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-08,NVDA,2019-08-30,4.18775000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-08,QQQ,2019-08-30,187.47000122,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-08,SPY,2019-08-30,292.45000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-08,TSLA,2019-08-30,3.00813333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-09,AAPL,2019-09-30,55.99250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-09,AMZN,2019-09-30,86.79550000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-09,GOOGL,2019-09-30,61.05700000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-09,META,2019-09-30,178.08000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-09,MSFT,2019-09-30,139.03000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-09,NVDA,2019-09-30,4.35175000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-09,QQQ,2019-09-30,188.80999756,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-09,SPY,2019-09-30,296.77000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-09,TSLA,2019-09-30,3.21160000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-10,AAPL,2019-10-31,62.19000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-10,AMZN,2019-10-31,88.83300000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-10,GOOGL,2019-10-31,62.94000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-10,META,2019-10-31,191.65000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-10,MSFT,2019-10-31,143.37000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-10,NVDA,2019-10-31,5.02550000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-10,QQQ,2019-10-31,197.08000183,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-10,SPY,2019-10-31,303.33000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-10,TSLA,2019-10-31,4.19893333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-11,AAPL,2019-11-29,66.81250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-11,AMZN,2019-11-29,90.04000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-11,GOOGL,2019-11-29,65.20450000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-11,META,2019-11-29,201.64000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-11,MSFT,2019-11-29,151.38000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-11,NVDA,2019-11-29,5.41850000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-11,QQQ,2019-11-29,205.10000610,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-11,SPY,2019-11-29,314.31000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-11,TSLA,2019-11-29,4.39920000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-12,AAPL,2019-12-31,73.41250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-12,AMZN,2019-12-31,92.39200000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-12,GOOGL,2019-12-31,66.96950000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-12,META,2019-12-31,205.25000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-12,MSFT,2019-12-31,157.70000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-12,NVDA,2019-12-31,5.88250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2019-12,QQQ,2019-12-31,212.61000061,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2019-12,SPY,2019-12-31,321.86000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2019-12,TSLA,2019-12-31,5.57773333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-01,AAPL,2020-01-31,77.37750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-01,AMZN,2020-01-31,100.43600000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-01,GOOGL,2020-01-31,71.63900000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-01,META,2020-01-31,201.91000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-01,MSFT,2020-01-31,170.23000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-01,NVDA,2020-01-31,5.91075000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-01,QQQ,2020-01-31,219.07000732,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2020-01,SPY,2020-01-31,321.73000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2020-01,TSLA,2020-01-31,8.67426667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-02,AAPL,2020-02-28,68.34000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-02,AMZN,2020-02-28,94.18750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-02,GOOGL,2020-02-28,66.96250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-02,META,2020-02-28,192.47000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-02,MSFT,2020-02-28,162.01000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-02,NVDA,2020-02-28,6.75175000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-02,QQQ,2020-02-28,205.80000305,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2020-02,SPY,2020-02-28,296.26000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2020-02,TSLA,2020-02-28,8.90653333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-03,AAPL,2020-03-31,63.57250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-03,AMZN,2020-03-31,97.48600000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-03,GOOGL,2020-03-31,58.09750000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-03,META,2020-03-31,166.80000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-03,MSFT,2020-03-31,157.71000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-03,NVDA,2020-03-31,6.59000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-03,QQQ,2020-03-31,190.39999390,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2020-03,SPY,2020-03-31,257.75000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2020-03,TSLA,2020-03-31,6.98666667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-04,AAPL,2020-04-30,73.45000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-04,AMZN,2020-04-30,123.70000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-04,GOOGL,2020-04-30,67.33500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-04,META,2020-04-30,204.71000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-04,MSFT,2020-04-30,179.21000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-04,NVDA,2020-04-30,7.30700000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-04,QQQ,2020-04-30,218.91000366,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2020-04,SPY,2020-04-30,290.48000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2020-04,TSLA,2020-04-30,10.42506667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-05,AAPL,2020-05-29,79.48500000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-05,AMZN,2020-05-29,122.11850000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-05,GOOGL,2020-05-29,71.67600000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-05,META,2020-05-29,225.09000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-05,MSFT,2020-05-29,183.25000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-05,NVDA,2020-05-29,8.87550000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-05,QQQ,2020-05-29,233.36000061,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2020-05,SPY,2020-05-29,304.32000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2020-05,TSLA,2020-05-29,11.13333333,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-06,AAPL,2020-06-30,91.20000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-06,AMZN,2020-06-30,137.94100000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-06,GOOGL,2020-06-30,70.90250000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-06,META,2020-06-30,227.07000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-06,MSFT,2020-06-30,203.51000000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-06,NVDA,2020-06-30,9.49775000,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-06,QQQ,2020-06-30,247.60000610,github:lituokobe/CQF-Jan25-Exam3@19e6aa3,FINAL
+2020-06,SPY,2020-06-30,308.36000000,github:sjsucmpe272-fall21/BlackSwanImpactPredictor@1f0effd,FINAL
+2020-06,TSLA,2020-06-30,14.39746667,github:oscarescuderoarnanz/dtwParallel@3250811,FINAL
+2020-07,AAPL,2020-07-31,106.35000000,Alpaca IEX,FINAL
+2020-07,AMZN,2020-07-31,158.21000000,Alpaca IEX,FINAL
+2020-07,GOOGL,2020-07-31,74.40350000,Alpaca IEX,FINAL
+2020-07,META,2020-07-31,253.71000000,Alpaca IEX,FINAL
+2020-07,MSFT,2020-07-31,205.00000000,Alpaca IEX,FINAL
+2020-07,NVDA,2020-07-31,10.59975000,Alpaca IEX,FINAL
+2020-07,QQQ,2020-07-31,265.80000000,Alpaca IEX,FINAL
+2020-07,SPY,2020-07-31,326.54000000,Alpaca IEX,FINAL
+2020-07,TSLA,2020-07-31,95.44400000,Alpaca IEX,FINAL
+2020-08,AAPL,2020-08-31,129.11000000,Alpaca IEX,FINAL
+2020-08,AMZN,2020-08-31,172.66075000,Alpaca IEX,FINAL
+2020-08,GOOGL,2020-08-31,81.60025000,Alpaca IEX,FINAL
+2020-08,META,2020-08-31,293.99000000,Alpaca IEX,FINAL
+2020-08,MSFT,2020-08-31,225.00000000,Alpaca IEX,FINAL
+2020-08,NVDA,2020-08-31,13.37325000,Alpaca IEX,FINAL
+2020-08,QQQ,2020-08-31,295.04000000,Alpaca IEX,FINAL
+2020-08,SPY,2020-08-31,349.34000000,Alpaca IEX,FINAL
+2020-08,TSLA,2020-08-31,166.23666667,Alpaca IEX,FINAL
+2020-09,AAPL,2020-09-30,115.84000000,Alpaca IEX,FINAL
+2020-09,AMZN,2020-09-30,157.45350000,Alpaca IEX,FINAL
+2020-09,GOOGL,2020-09-30,73.30100000,Alpaca IEX,FINAL
+2020-09,META,2020-09-30,261.92000000,Alpaca IEX,FINAL
+2020-09,MSFT,2020-09-30,210.26000000,Alpaca IEX,FINAL
+2020-09,NVDA,2020-09-30,13.53450000,Alpaca IEX,FINAL
+2020-09,QQQ,2020-09-30,278.18000000,Alpaca IEX,FINAL
+2020-09,SPY,2020-09-30,334.90000000,Alpaca IEX,FINAL
+2020-09,TSLA,2020-09-30,143.09666667,Alpaca IEX,FINAL
+2020-10,AAPL,2020-10-30,109.11000000,Alpaca IEX,FINAL
+2020-10,AMZN,2020-10-30,151.90825000,Alpaca IEX,FINAL
+2020-10,GOOGL,2020-10-30,80.81300000,Alpaca IEX,FINAL
+2020-10,META,2020-10-30,263.55000000,Alpaca IEX,FINAL
+2020-10,MSFT,2020-10-30,202.89000000,Alpaca IEX,FINAL
+2020-10,NVDA,2020-10-30,12.54825000,Alpaca IEX,FINAL
+2020-10,QQQ,2020-10-30,269.75000000,Alpaca IEX,FINAL
+2020-10,SPY,2020-10-30,326.78000000,Alpaca IEX,FINAL
+2020-10,TSLA,2020-10-30,129.41666667,Alpaca IEX,FINAL
+2020-11,AAPL,2020-11-30,119.53000000,Alpaca IEX,FINAL
+2020-11,AMZN,2020-11-30,158.46450000,Alpaca IEX,FINAL
+2020-11,GOOGL,2020-11-30,87.82500000,Alpaca IEX,FINAL
+2020-11,META,2020-11-30,277.57000000,Alpaca IEX,FINAL
+2020-11,MSFT,2020-11-30,214.46000000,Alpaca IEX,FINAL
+2020-11,NVDA,2020-11-30,13.40925000,Alpaca IEX,FINAL
+2020-11,QQQ,2020-11-30,299.52000000,Alpaca IEX,FINAL
+2020-11,SPY,2020-11-30,362.32000000,Alpaca IEX,FINAL
+2020-11,TSLA,2020-11-30,188.83666667,Alpaca IEX,FINAL
+2020-12,AAPL,2020-12-31,132.65000000,Alpaca IEX,FINAL
+2020-12,AMZN,2020-12-31,162.94250000,Alpaca IEX,FINAL
+2020-12,GOOGL,2020-12-31,87.62600000,Alpaca IEX,FINAL
+2020-12,META,2020-12-31,273.58000000,Alpaca IEX,FINAL
+2020-12,MSFT,2020-12-31,222.83000000,Alpaca IEX,FINAL
+2020-12,NVDA,2020-12-31,13.06075000,Alpaca IEX,FINAL
+2020-12,QQQ,2020-12-31,314.19000000,Alpaca IEX,FINAL
+2020-12,SPY,2020-12-31,373.85000000,Alpaca IEX,FINAL
+2020-12,TSLA,2020-12-31,235.21333333,Alpaca IEX,FINAL
+2021-01,AAPL,2021-01-29,131.78000000,Alpaca IEX,FINAL
+2021-01,AMZN,2021-01-29,160.16175000,Alpaca IEX,FINAL
+2021-01,GOOGL,2021-01-29,91.29700000,Alpaca IEX,FINAL
+2021-01,META,2021-01-29,258.09000000,Alpaca IEX,FINAL
+2021-01,MSFT,2021-01-29,231.70000000,Alpaca IEX,FINAL
+2021-01,NVDA,2021-01-29,12.97500000,Alpaca IEX,FINAL
+2021-01,QQQ,2021-01-29,314.52000000,Alpaca IEX,FINAL
+2021-01,SPY,2021-01-29,370.01000000,Alpaca IEX,FINAL
+2021-01,TSLA,2021-01-29,264.41333333,Alpaca IEX,FINAL
+2021-02,AAPL,2021-02-26,121.30000000,Alpaca IEX,FINAL
+2021-02,AMZN,2021-02-26,154.78100000,Alpaca IEX,FINAL
+2021-02,GOOGL,2021-02-26,101.13750000,Alpaca IEX,FINAL
+2021-02,META,2021-02-26,257.01000000,Alpaca IEX,FINAL
+2021-02,MSFT,2021-02-26,232.50000000,Alpaca IEX,FINAL
+2021-02,NVDA,2021-02-26,13.71700000,Alpaca IEX,FINAL
+2021-02,QQQ,2021-02-26,314.84000000,Alpaca IEX,FINAL
+2021-02,SPY,2021-02-26,380.31000000,Alpaca IEX,FINAL
+2021-02,TSLA,2021-02-26,224.46000000,Alpaca IEX,FINAL
+2021-03,AAPL,2021-03-31,122.15000000,Alpaca IEX,FINAL
+2021-03,AMZN,2021-03-31,154.75700000,Alpaca IEX,FINAL
+2021-03,GOOGL,2021-03-31,103.11800000,Alpaca IEX,FINAL
+2021-03,META,2021-03-31,294.45000000,Alpaca IEX,FINAL
+2021-03,MSFT,2021-03-31,235.97000000,Alpaca IEX,FINAL
+2021-03,NVDA,2021-03-31,13.35275000,Alpaca IEX,FINAL
+2021-03,QQQ,2021-03-31,318.99000000,Alpaca IEX,FINAL
+2021-03,SPY,2021-03-31,396.11000000,Alpaca IEX,FINAL
+2021-03,TSLA,2021-03-31,222.67000000,Alpaca IEX,FINAL
+2021-04,AAPL,2021-04-30,131.44000000,Alpaca IEX,FINAL
+2021-04,AMZN,2021-04-30,173.33450000,Alpaca IEX,FINAL
+2021-04,GOOGL,2021-04-30,117.70500000,Alpaca IEX,FINAL
+2021-04,META,2021-04-30,324.89000000,Alpaca IEX,FINAL
+2021-04,MSFT,2021-04-30,252.12000000,Alpaca IEX,FINAL
+2021-04,NVDA,2021-04-30,15.00375000,Alpaca IEX,FINAL
+2021-04,QQQ,2021-04-30,337.84000000,Alpaca IEX,FINAL
+2021-04,SPY,2021-04-30,417.33000000,Alpaca IEX,FINAL
+2021-04,TSLA,2021-04-30,236.60000000,Alpaca IEX,FINAL
+2021-05,AAPL,2021-05-28,124.61000000,Alpaca IEX,FINAL
+2021-05,AMZN,2021-05-28,161.21300000,Alpaca IEX,FINAL
+2021-05,GOOGL,2021-05-28,117.91000000,Alpaca IEX,FINAL
+2021-05,META,2021-05-28,328.96000000,Alpaca IEX,FINAL
+2021-05,MSFT,2021-05-28,249.64000000,Alpaca IEX,FINAL
+2021-05,NVDA,2021-05-28,16.25000000,Alpaca IEX,FINAL
+2021-05,QQQ,2021-05-28,333.65000000,Alpaca IEX,FINAL
+2021-05,SPY,2021-05-28,420.08000000,Alpaca IEX,FINAL
+2021-05,TSLA,2021-05-28,208.45333333,Alpaca IEX,FINAL
+2021-06,AAPL,2021-06-30,136.88000000,Alpaca IEX,FINAL
+2021-06,AMZN,2021-06-30,171.99275000,Alpaca IEX,FINAL
+2021-06,GOOGL,2021-06-30,122.08500000,Alpaca IEX,FINAL
+2021-06,META,2021-06-30,347.77500000,Alpaca IEX,FINAL
+2021-06,MSFT,2021-06-30,271.17000000,Alpaca IEX,FINAL
+2021-06,NVDA,2021-06-30,20.00950000,Alpaca IEX,FINAL
+2021-06,QQQ,2021-06-30,354.47000000,Alpaca IEX,FINAL
+2021-06,SPY,2021-06-30,428.06000000,Alpaca IEX,FINAL
+2021-06,TSLA,2021-06-30,226.61000000,Alpaca IEX,FINAL
+2021-07,AAPL,2021-07-30,145.88000000,Alpaca IEX,FINAL
+2021-07,AMZN,2021-07-30,166.31200000,Alpaca IEX,FINAL
+2021-07,GOOGL,2021-07-30,134.72700000,Alpaca IEX,FINAL
+2021-07,META,2021-07-30,356.39000000,Alpaca IEX,FINAL
+2021-07,MSFT,2021-07-30,285.05000000,Alpaca IEX,FINAL
+2021-07,NVDA,2021-07-30,19.50500000,Alpaca IEX,FINAL
+2021-07,QQQ,2021-07-30,364.49000000,Alpaca IEX,FINAL
+2021-07,SPY,2021-07-30,438.48000000,Alpaca IEX,FINAL
+2021-07,TSLA,2021-07-30,229.19333333,Alpaca IEX,FINAL
+2021-08,AAPL,2021-08-31,151.78000000,Alpaca IEX,FINAL
+2021-08,AMZN,2021-08-31,173.59900000,Alpaca IEX,FINAL
+2021-08,GOOGL,2021-08-31,144.77600000,Alpaca IEX,FINAL
+2021-08,META,2021-08-31,379.45000000,Alpaca IEX,FINAL
+2021-08,MSFT,2021-08-31,301.81000000,Alpaca IEX,FINAL
+2021-08,NVDA,2021-08-31,22.37700000,Alpaca IEX,FINAL
+2021-08,QQQ,2021-08-31,379.82000000,Alpaca IEX,FINAL
+2021-08,SPY,2021-08-31,451.61000000,Alpaca IEX,FINAL
+2021-08,TSLA,2021-08-31,245.16000000,Alpaca IEX,FINAL
+2021-09,AAPL,2021-09-30,141.37000000,Alpaca IEX,FINAL
+2021-09,AMZN,2021-09-30,164.25250000,Alpaca IEX,FINAL
+2021-09,GOOGL,2021-09-30,133.62200000,Alpaca IEX,FINAL
+2021-09,META,2021-09-30,339.25000000,Alpaca IEX,FINAL
+2021-09,MSFT,2021-09-30,281.75000000,Alpaca IEX,FINAL
+2021-09,NVDA,2021-09-30,20.71500000,Alpaca IEX,FINAL
+2021-09,QQQ,2021-09-30,358.06000000,Alpaca IEX,FINAL
+2021-09,SPY,2021-09-30,429.06000000,Alpaca IEX,FINAL
+2021-09,TSLA,2021-09-30,258.33666667,Alpaca IEX,FINAL
+2021-10,AAPL,2021-10-29,149.75000000,Alpaca IEX,FINAL
+2021-10,AMZN,2021-10-29,168.60050000,Alpaca IEX,FINAL
+2021-10,GOOGL,2021-10-29,147.99200000,Alpaca IEX,FINAL
+2021-10,META,2021-10-29,323.44000000,Alpaca IEX,FINAL
+2021-10,MSFT,2021-10-29,331.41000000,Alpaca IEX,FINAL
+2021-10,NVDA,2021-10-29,25.57000000,Alpaca IEX,FINAL
+2021-10,QQQ,2021-10-29,386.01000000,Alpaca IEX,FINAL
+2021-10,SPY,2021-10-29,459.14000000,Alpaca IEX,FINAL
+2021-10,TSLA,2021-10-29,371.44666667,Alpaca IEX,FINAL
+2021-11,AAPL,2021-11-30,165.50500000,Alpaca IEX,FINAL
+2021-11,AMZN,2021-11-30,175.31050000,Alpaca IEX,FINAL
+2021-11,GOOGL,2021-11-30,141.92050000,Alpaca IEX,FINAL
+2021-11,META,2021-11-30,324.41000000,Alpaca IEX,FINAL
+2021-11,MSFT,2021-11-30,331.22000000,Alpaca IEX,FINAL
+2021-11,NVDA,2021-11-30,32.74100000,Alpaca IEX,FINAL
+2021-11,QQQ,2021-11-30,393.78000000,Alpaca IEX,FINAL
+2021-11,SPY,2021-11-30,456.17000000,Alpaca IEX,FINAL
+2021-11,TSLA,2021-11-30,381.58000000,Alpaca IEX,FINAL
+2021-12,AAPL,2021-12-31,177.66000000,Alpaca IEX,FINAL
+2021-12,AMZN,2021-12-31,166.77950000,Alpaca IEX,FINAL
+2021-12,GOOGL,2021-12-31,144.93200000,Alpaca IEX,FINAL
+2021-12,META,2021-12-31,336.29000000,Alpaca IEX,FINAL
+2021-12,MSFT,2021-12-31,336.29000000,Alpaca IEX,FINAL
+2021-12,NVDA,2021-12-31,29.41000000,Alpaca IEX,FINAL
+2021-12,QQQ,2021-12-31,397.53000000,Alpaca IEX,FINAL
+2021-12,SPY,2021-12-31,474.90000000,Alpaca IEX,FINAL
+2021-12,TSLA,2021-12-31,352.28666667,Alpaca IEX,FINAL
+2022-01,AAPL,2022-01-31,174.88000000,Alpaca IEX,FINAL
+2022-01,AMZN,2022-01-31,149.54550000,Alpaca IEX,FINAL
+2022-01,GOOGL,2022-01-31,135.34900000,Alpaca IEX,FINAL
+2022-01,META,2022-01-31,313.27000000,Alpaca IEX,FINAL
+2022-01,MSFT,2022-01-31,310.73000000,Alpaca IEX,FINAL
+2022-01,NVDA,2022-01-31,24.50000000,Alpaca IEX,FINAL
+2022-01,QQQ,2022-01-31,363.16000000,Alpaca IEX,FINAL
+2022-01,SPY,2022-01-31,449.81500000,Alpaca IEX,FINAL
+2022-01,TSLA,2022-01-31,312.16666667,Alpaca IEX,FINAL
+2022-02,AAPL,2022-02-28,165.28000000,Alpaca IEX,FINAL
+2022-02,AMZN,2022-02-28,153.37350000,Alpaca IEX,FINAL
+2022-02,GOOGL,2022-02-28,134.97950000,Alpaca IEX,FINAL
+2022-02,META,2022-02-28,211.23000000,Alpaca IEX,FINAL
+2022-02,MSFT,2022-02-28,299.10000000,Alpaca IEX,FINAL
+2022-02,NVDA,2022-02-28,24.36200000,Alpaca IEX,FINAL
+2022-02,QQQ,2022-02-28,347.00000000,Alpaca IEX,FINAL
+2022-02,SPY,2022-02-28,436.49000000,Alpaca IEX,FINAL
+2022-02,TSLA,2022-02-28,290.38000000,Alpaca IEX,FINAL
+2022-03,AAPL,2022-03-31,174.67000000,Alpaca IEX,FINAL
+2022-03,AMZN,2022-03-31,163.24950000,Alpaca IEX,FINAL
+2022-03,GOOGL,2022-03-31,139.05100000,Alpaca IEX,FINAL
+2022-03,META,2022-03-31,222.27000000,Alpaca IEX,FINAL
+2022-03,MSFT,2022-03-31,308.36000000,Alpaca IEX,FINAL
+2022-03,NVDA,2022-03-31,27.27500000,Alpaca IEX,FINAL
+2022-03,QQQ,2022-03-31,362.02000000,Alpaca IEX,FINAL
+2022-03,SPY,2022-03-31,451.80000000,Alpaca IEX,FINAL
+2022-03,TSLA,2022-03-31,359.23333333,Alpaca IEX,FINAL
+2022-04,AAPL,2022-04-29,157.85500000,Alpaca IEX,FINAL
+2022-04,AMZN,2022-04-29,124.28125000,Alpaca IEX,FINAL
+2022-04,GOOGL,2022-04-29,114.16050000,Alpaca IEX,FINAL
+2022-04,META,2022-04-29,200.49000000,Alpaca IEX,FINAL
+2022-04,MSFT,2022-04-29,277.59000000,Alpaca IEX,FINAL
+2022-04,NVDA,2022-04-29,18.55500000,Alpaca IEX,FINAL
+2022-04,QQQ,2022-04-29,313.43000000,Alpaca IEX,FINAL
+2022-04,SPY,2022-04-29,411.91000000,Alpaca IEX,FINAL
+2022-04,TSLA,2022-04-29,290.25666667,Alpaca IEX,FINAL
+2022-05,AAPL,2022-05-31,148.82000000,Alpaca IEX,FINAL
+2022-05,AMZN,2022-05-31,120.23150000,Alpaca IEX,FINAL
+2022-05,GOOGL,2022-05-31,113.74250000,Alpaca IEX,FINAL
+2022-05,META,2022-05-31,193.55000000,Alpaca IEX,FINAL
+2022-05,MSFT,2022-05-31,271.76000000,Alpaca IEX,FINAL
+2022-05,NVDA,2022-05-31,18.63800000,Alpaca IEX,FINAL
+2022-05,QQQ,2022-05-31,308.53000000,Alpaca IEX,FINAL
+2022-05,SPY,2022-05-31,412.96000000,Alpaca IEX,FINAL
+2022-05,TSLA,2022-05-31,252.85000000,Alpaca IEX,FINAL
+2022-06,AAPL,2022-06-30,136.96000000,Alpaca IEX,FINAL
+2022-06,AMZN,2022-06-30,106.42000000,Alpaca IEX,FINAL
+2022-06,GOOGL,2022-06-30,109.04400000,Alpaca IEX,FINAL
+2022-06,META,2022-06-30,161.26000000,Alpaca IEX,FINAL
+2022-06,MSFT,2022-06-30,256.90500000,Alpaca IEX,FINAL
+2022-06,NVDA,2022-06-30,15.17400000,Alpaca IEX,FINAL
+2022-06,QQQ,2022-06-30,280.38000000,Alpaca IEX,FINAL
+2022-06,SPY,2022-06-30,377.28500000,Alpaca IEX,FINAL
+2022-06,TSLA,2022-06-30,224.83333333,Alpaca IEX,FINAL
+2022-07,AAPL,2022-07-29,162.58000000,Alpaca IEX,FINAL
+2022-07,AMZN,2022-07-29,135.00000000,Alpaca IEX,FINAL
+2022-07,GOOGL,2022-07-29,116.34000000,Alpaca IEX,FINAL
+2022-07,META,2022-07-29,159.06000000,Alpaca IEX,FINAL
+2022-07,MSFT,2022-07-29,280.78500000,Alpaca IEX,FINAL
+2022-07,NVDA,2022-07-29,18.16900000,Alpaca IEX,FINAL
+2022-07,QQQ,2022-07-29,315.31000000,Alpaca IEX,FINAL
+2022-07,SPY,2022-07-29,412.13000000,Alpaca IEX,FINAL
+2022-07,TSLA,2022-07-29,297.15666667,Alpaca IEX,FINAL
+2022-08,AAPL,2022-08-31,157.19000000,Alpaca IEX,FINAL
+2022-08,AMZN,2022-08-31,126.77000000,Alpaca IEX,FINAL
+2022-08,GOOGL,2022-08-31,108.20000000,Alpaca IEX,FINAL
+2022-08,META,2022-08-31,162.93000000,Alpaca IEX,FINAL
+2022-08,MSFT,2022-08-31,261.37000000,Alpaca IEX,FINAL
+2022-08,NVDA,2022-08-31,15.09800000,Alpaca IEX,FINAL
+2022-08,QQQ,2022-08-31,299.27000000,Alpaca IEX,FINAL
+2022-08,SPY,2022-08-31,395.11000000,Alpaca IEX,FINAL
+2022-08,TSLA,2022-08-31,275.47000000,Alpaca IEX,FINAL
+2022-09,AAPL,2022-09-30,138.08000000,Alpaca IEX,FINAL
+2022-09,AMZN,2022-09-30,113.00000000,Alpaca IEX,FINAL
+2022-09,GOOGL,2022-09-30,95.68000000,Alpaca IEX,FINAL
+2022-09,META,2022-09-30,135.68000000,Alpaca IEX,FINAL
+2022-09,MSFT,2022-09-30,232.81000000,Alpaca IEX,FINAL
+2022-09,NVDA,2022-09-30,12.14900000,Alpaca IEX,FINAL
+2022-09,QQQ,2022-09-30,267.55000000,Alpaca IEX,FINAL
+2022-09,SPY,2022-09-30,357.21000000,Alpaca IEX,FINAL
+2022-09,TSLA,2022-09-30,265.11000000,Alpaca IEX,FINAL
+2022-10,AAPL,2022-10-31,153.39500000,Alpaca IEX,FINAL
+2022-10,AMZN,2022-10-31,102.41000000,Alpaca IEX,FINAL
+2022-10,GOOGL,2022-10-31,94.50000000,Alpaca IEX,FINAL
+2022-10,META,2022-10-31,93.11000000,Alpaca IEX,FINAL
+2022-10,MSFT,2022-10-31,232.23000000,Alpaca IEX,FINAL
+2022-10,NVDA,2022-10-31,13.49600000,Alpaca IEX,FINAL
+2022-10,QQQ,2022-10-31,277.88000000,Alpaca IEX,FINAL
+2022-10,SPY,2022-10-31,386.22000000,Alpaca IEX,FINAL
+2022-10,TSLA,2022-10-31,227.48000000,Alpaca IEX,FINAL
+2022-11,AAPL,2022-11-30,147.99000000,Alpaca IEX,FINAL
+2022-11,AMZN,2022-11-30,96.52000000,Alpaca IEX,FINAL
+2022-11,GOOGL,2022-11-30,101.01000000,Alpaca IEX,FINAL
+2022-11,META,2022-11-30,118.10000000,Alpaca IEX,FINAL
+2022-11,MSFT,2022-11-30,254.92000000,Alpaca IEX,FINAL
+2022-11,NVDA,2022-11-30,16.92800000,Alpaca IEX,FINAL
+2022-11,QQQ,2022-11-30,293.43000000,Alpaca IEX,FINAL
+2022-11,SPY,2022-11-30,407.45000000,Alpaca IEX,FINAL
+2022-11,TSLA,2022-11-30,194.70000000,Alpaca IEX,FINAL
+2022-12,AAPL,2022-12-30,129.93500000,Alpaca IEX,FINAL
+2022-12,AMZN,2022-12-30,84.00000000,Alpaca IEX,FINAL
+2022-12,GOOGL,2022-12-30,88.22000000,Alpaca IEX,FINAL
+2022-12,META,2022-12-30,120.34000000,Alpaca IEX,FINAL
+2022-12,MSFT,2022-12-30,239.79000000,Alpaca IEX,FINAL
+2022-12,NVDA,2022-12-30,14.61500000,Alpaca IEX,FINAL
+2022-12,QQQ,2022-12-30,266.37000000,Alpaca IEX,FINAL
+2022-12,SPY,2022-12-30,382.47000000,Alpaca IEX,FINAL
+2022-12,TSLA,2022-12-30,123.22000000,Alpaca IEX,FINAL
+2023-01,AAPL,2023-01-31,144.30000000,Alpaca IEX,FINAL
+2023-01,AMZN,2023-01-31,103.13000000,Alpaca IEX,FINAL
+2023-01,GOOGL,2023-01-31,98.87000000,Alpaca IEX,FINAL
+2023-01,META,2023-01-31,148.94000000,Alpaca IEX,FINAL
+2023-01,MSFT,2023-01-31,247.82000000,Alpaca IEX,FINAL
+2023-01,NVDA,2023-01-31,19.54200000,Alpaca IEX,FINAL
+2023-01,QQQ,2023-01-31,294.68000000,Alpaca IEX,FINAL
+2023-01,SPY,2023-01-31,406.50000000,Alpaca IEX,FINAL
+2023-01,TSLA,2023-01-31,173.20000000,Alpaca IEX,FINAL
+2023-02,AAPL,2023-02-28,147.47000000,Alpaca IEX,FINAL
+2023-02,AMZN,2023-02-28,94.21000000,Alpaca IEX,FINAL
+2023-02,GOOGL,2023-02-28,90.07000000,Alpaca IEX,FINAL
+2023-02,META,2023-02-28,174.96000000,Alpaca IEX,FINAL
+2023-02,MSFT,2023-02-28,249.40000000,Alpaca IEX,FINAL
+2023-02,NVDA,2023-02-28,23.22150000,Alpaca IEX,FINAL
+2023-02,QQQ,2023-02-28,293.56000000,Alpaca IEX,FINAL
+2023-02,SPY,2023-02-28,396.26000000,Alpaca IEX,FINAL
+2023-02,TSLA,2023-02-28,205.81500000,Alpaca IEX,FINAL
+2023-03,AAPL,2023-03-31,164.86000000,Alpaca IEX,FINAL
+2023-03,AMZN,2023-03-31,103.27000000,Alpaca IEX,FINAL
+2023-03,GOOGL,2023-03-31,103.73000000,Alpaca IEX,FINAL
+2023-03,META,2023-03-31,211.92000000,Alpaca IEX,FINAL
+2023-03,MSFT,2023-03-31,288.39000000,Alpaca IEX,FINAL
+2023-03,NVDA,2023-03-31,27.78250000,Alpaca IEX,FINAL
+2023-03,QQQ,2023-03-31,320.83000000,Alpaca IEX,FINAL
+2023-03,SPY,2023-03-31,409.37000000,Alpaca IEX,FINAL
+2023-03,TSLA,2023-03-31,207.41000000,Alpaca IEX,FINAL
+2023-04,AAPL,2023-04-28,169.68500000,Alpaca IEX,FINAL
+2023-04,AMZN,2023-04-28,105.42000000,Alpaca IEX,FINAL
+2023-04,GOOGL,2023-04-28,107.33000000,Alpaca IEX,FINAL
+2023-04,META,2023-04-28,240.19000000,Alpaca IEX,FINAL
+2023-04,MSFT,2023-04-28,307.32500000,Alpaca IEX,FINAL
+2023-04,NVDA,2023-04-28,27.74400000,Alpaca IEX,FINAL
+2023-04,QQQ,2023-04-28,322.61000000,Alpaca IEX,FINAL
+2023-04,SPY,2023-04-28,415.90000000,Alpaca IEX,FINAL
+2023-04,TSLA,2023-04-28,164.35000000,Alpaca IEX,FINAL
+2023-05,AAPL,2023-05-31,177.42500000,Alpaca IEX,FINAL
+2023-05,AMZN,2023-05-31,120.58000000,Alpaca IEX,FINAL
+2023-05,GOOGL,2023-05-31,122.94000000,Alpaca IEX,FINAL
+2023-05,META,2023-05-31,264.91000000,Alpaca IEX,FINAL
+2023-05,MSFT,2023-05-31,328.69000000,Alpaca IEX,FINAL
+2023-05,NVDA,2023-05-31,37.86150000,Alpaca IEX,FINAL
+2023-05,QQQ,2023-05-31,347.58000000,Alpaca IEX,FINAL
+2023-05,SPY,2023-05-31,417.86000000,Alpaca IEX,FINAL
+2023-05,TSLA,2023-05-31,203.88000000,Alpaca IEX,FINAL
+2023-06,AAPL,2023-06-30,193.92000000,Alpaca IEX,FINAL
+2023-06,AMZN,2023-06-30,130.28000000,Alpaca IEX,FINAL
+2023-06,GOOGL,2023-06-30,119.73000000,Alpaca IEX,FINAL
+2023-06,META,2023-06-30,286.93000000,Alpaca IEX,FINAL
+2023-06,MSFT,2023-06-30,340.35000000,Alpaca IEX,FINAL
+2023-06,NVDA,2023-06-30,42.28900000,Alpaca IEX,FINAL
+2023-06,QQQ,2023-06-30,369.54000000,Alpaca IEX,FINAL
+2023-06,SPY,2023-06-30,443.22000000,Alpaca IEX,FINAL
+2023-06,TSLA,2023-06-30,261.73000000,Alpaca IEX,FINAL
+2023-07,AAPL,2023-07-31,196.46500000,Alpaca IEX,FINAL
+2023-07,AMZN,2023-07-31,133.71000000,Alpaca IEX,FINAL
+2023-07,GOOGL,2023-07-31,132.79000000,Alpaca IEX,FINAL
+2023-07,META,2023-07-31,318.58000000,Alpaca IEX,FINAL
+2023-07,MSFT,2023-07-31,335.94000000,Alpaca IEX,FINAL
+2023-07,NVDA,2023-07-31,46.74000000,Alpaca IEX,FINAL
+2023-07,QQQ,2023-07-31,383.81000000,Alpaca IEX,FINAL
+2023-07,SPY,2023-07-31,457.81000000,Alpaca IEX,FINAL
+2023-07,TSLA,2023-07-31,267.53000000,Alpaca IEX,FINAL
+2023-08,AAPL,2023-08-31,187.92000000,Alpaca IEX,FINAL
+2023-08,AMZN,2023-08-31,137.99000000,Alpaca IEX,FINAL
+2023-08,GOOGL,2023-08-31,136.20000000,Alpaca IEX,FINAL
+2023-08,META,2023-08-31,295.89500000,Alpaca IEX,FINAL
+2023-08,MSFT,2023-08-31,327.92000000,Alpaca IEX,FINAL
+2023-08,NVDA,2023-08-31,49.36300000,Alpaca IEX,FINAL
+2023-08,QQQ,2023-08-31,377.92000000,Alpaca IEX,FINAL
+2023-08,SPY,2023-08-31,450.20000000,Alpaca IEX,FINAL
+2023-08,TSLA,2023-08-31,258.06000000,Alpaca IEX,FINAL
+2023-09,AAPL,2023-09-29,171.29000000,Alpaca IEX,FINAL
+2023-09,AMZN,2023-09-29,127.15000000,Alpaca IEX,FINAL
+2023-09,GOOGL,2023-09-29,130.90000000,Alpaca IEX,FINAL
+2023-09,META,2023-09-29,300.09000000,Alpaca IEX,FINAL
+2023-09,MSFT,2023-09-29,315.76000000,Alpaca IEX,FINAL
+2023-09,NVDA,2023-09-29,43.49900000,Alpaca IEX,FINAL
+2023-09,QQQ,2023-09-29,358.39000000,Alpaca IEX,FINAL
+2023-09,SPY,2023-09-29,427.30000000,Alpaca IEX,FINAL
+2023-09,TSLA,2023-09-29,250.22000000,Alpaca IEX,FINAL
+2023-10,AAPL,2023-10-31,170.73000000,Alpaca IEX,FINAL
+2023-10,AMZN,2023-10-31,133.03000000,Alpaca IEX,FINAL
+2023-10,GOOGL,2023-10-31,124.03000000,Alpaca IEX,FINAL
+2023-10,META,2023-10-31,301.15000000,Alpaca IEX,FINAL
+2023-10,MSFT,2023-10-31,338.04000000,Alpaca IEX,FINAL
+2023-10,NVDA,2023-10-31,40.78000000,Alpaca IEX,FINAL
+2023-10,QQQ,2023-10-31,350.98000000,Alpaca IEX,FINAL
+2023-10,SPY,2023-10-31,418.18000000,Alpaca IEX,FINAL
+2023-10,TSLA,2023-10-31,200.88000000,Alpaca IEX,FINAL
+2023-11,AAPL,2023-11-30,189.88000000,Alpaca IEX,FINAL
+2023-11,AMZN,2023-11-30,146.05000000,Alpaca IEX,FINAL
+2023-11,GOOGL,2023-11-30,132.43000000,Alpaca IEX,FINAL
+2023-11,META,2023-11-30,327.10000000,Alpaca IEX,FINAL
+2023-11,MSFT,2023-11-30,378.70000000,Alpaca IEX,FINAL
+2023-11,NVDA,2023-11-30,46.77100000,Alpaca IEX,FINAL
+2023-11,QQQ,2023-11-30,388.94000000,Alpaca IEX,FINAL
+2023-11,SPY,2023-11-30,456.28000000,Alpaca IEX,FINAL
+2023-11,TSLA,2023-11-30,239.79000000,Alpaca IEX,FINAL
+2023-12,AAPL,2023-12-29,192.61000000,Alpaca IEX,FINAL
+2023-12,AMZN,2023-12-29,151.95500000,Alpaca IEX,FINAL
+2023-12,GOOGL,2023-12-29,139.71000000,Alpaca IEX,FINAL
+2023-12,META,2023-12-29,354.26000000,Alpaca IEX,FINAL
+2023-12,MSFT,2023-12-29,376.08000000,Alpaca IEX,FINAL
+2023-12,NVDA,2023-12-29,49.52300000,Alpaca IEX,FINAL
+2023-12,QQQ,2023-12-29,409.46000000,Alpaca IEX,FINAL
+2023-12,SPY,2023-12-29,475.36000000,Alpaca IEX,FINAL
+2023-12,TSLA,2023-12-29,248.46000000,Alpaca IEX,FINAL
+2024-01,AAPL,2024-01-31,184.41000000,Alpaca IEX,FINAL
+2024-01,AMZN,2024-01-31,155.13000000,Alpaca IEX,FINAL
+2024-01,GOOGL,2024-01-31,140.01000000,Alpaca IEX,FINAL
+2024-01,META,2024-01-31,390.06000000,Alpaca IEX,FINAL
+2024-01,MSFT,2024-01-31,397.56000000,Alpaca IEX,FINAL
+2024-01,NVDA,2024-01-31,61.51500000,Alpaca IEX,FINAL
+2024-01,QQQ,2024-01-31,416.95000000,Alpaca IEX,FINAL
+2024-01,SPY,2024-01-31,482.95500000,Alpaca IEX,FINAL
+2024-01,TSLA,2024-01-31,187.24000000,Alpaca IEX,FINAL
+2024-02,AAPL,2024-02-29,180.73000000,Alpaca IEX,FINAL
+2024-02,AMZN,2024-02-29,176.62500000,Alpaca IEX,FINAL
+2024-02,GOOGL,2024-02-29,138.30000000,Alpaca IEX,FINAL
+2024-02,META,2024-02-29,489.63000000,Alpaca IEX,FINAL
+2024-02,MSFT,2024-02-29,413.42000000,Alpaca IEX,FINAL
+2024-02,NVDA,2024-02-29,79.10200000,Alpaca IEX,FINAL
+2024-02,QQQ,2024-02-29,439.11000000,Alpaca IEX,FINAL
+2024-02,SPY,2024-02-29,508.15000000,Alpaca IEX,FINAL
+2024-02,TSLA,2024-02-29,201.81000000,Alpaca IEX,FINAL
+2024-03,AAPL,2024-03-28,171.51000000,Alpaca IEX,FINAL
+2024-03,AMZN,2024-03-28,180.22000000,Alpaca IEX,FINAL
+2024-03,GOOGL,2024-03-28,150.83000000,Alpaca IEX,FINAL
+2024-03,META,2024-03-28,485.42000000,Alpaca IEX,FINAL
+2024-03,MSFT,2024-03-28,420.21000000,Alpaca IEX,FINAL
+2024-03,NVDA,2024-03-28,90.28400000,Alpaca IEX,FINAL
+2024-03,QQQ,2024-03-28,444.09000000,Alpaca IEX,FINAL
+2024-03,SPY,2024-03-28,523.13500000,Alpaca IEX,FINAL
+2024-03,TSLA,2024-03-28,175.72000000,Alpaca IEX,FINAL
+2024-04,AAPL,2024-04-30,170.05000000,Alpaca IEX,FINAL
+2024-04,AMZN,2024-04-30,175.60000000,Alpaca IEX,FINAL
+2024-04,GOOGL,2024-04-30,162.74000000,Alpaca IEX,FINAL
+2024-04,META,2024-04-30,430.23000000,Alpaca IEX,FINAL
+2024-04,MSFT,2024-04-30,389.30500000,Alpaca IEX,FINAL
+2024-04,NVDA,2024-04-30,86.41350000,Alpaca IEX,FINAL
+2024-04,QQQ,2024-04-30,424.63000000,Alpaca IEX,FINAL
+2024-04,SPY,2024-04-30,502.26000000,Alpaca IEX,FINAL
+2024-04,TSLA,2024-04-30,183.34000000,Alpaca IEX,FINAL
+2024-05,AAPL,2024-05-31,192.31000000,Alpaca IEX,FINAL
+2024-05,AMZN,2024-05-31,176.52000000,Alpaca IEX,FINAL
+2024-05,GOOGL,2024-05-31,172.50000000,Alpaca IEX,FINAL
+2024-05,META,2024-05-31,466.99000000,Alpaca IEX,FINAL
+2024-05,MSFT,2024-05-31,415.28000000,Alpaca IEX,FINAL
+2024-05,NVDA,2024-05-31,109.51400000,Alpaca IEX,FINAL
+2024-05,QQQ,2024-05-31,451.60000000,Alpaca IEX,FINAL
+2024-05,SPY,2024-05-31,527.33500000,Alpaca IEX,FINAL
+2024-05,TSLA,2024-05-31,178.12000000,Alpaca IEX,FINAL
+2024-06,AAPL,2024-06-28,210.61000000,Alpaca IEX,FINAL
+2024-06,AMZN,2024-06-28,193.27000000,Alpaca IEX,FINAL
+2024-06,GOOGL,2024-06-28,182.10000000,Alpaca IEX,FINAL
+2024-06,META,2024-06-28,504.47000000,Alpaca IEX,FINAL
+2024-06,MSFT,2024-06-28,446.82000000,Alpaca IEX,FINAL
+2024-06,NVDA,2024-06-28,123.43000000,Alpaca IEX,FINAL
+2024-06,QQQ,2024-06-28,479.06000000,Alpaca IEX,FINAL
+2024-06,SPY,2024-06-28,544.11000000,Alpaca IEX,FINAL
+2024-06,TSLA,2024-06-28,197.99000000,Alpaca IEX,FINAL
+2024-07,AAPL,2024-07-31,222.18000000,Alpaca IEX,FINAL
+2024-07,AMZN,2024-07-31,187.03000000,Alpaca IEX,FINAL
+2024-07,GOOGL,2024-07-31,171.46000000,Alpaca IEX,FINAL
+2024-07,META,2024-07-31,474.36000000,Alpaca IEX,FINAL
+2024-07,MSFT,2024-07-31,418.02000000,Alpaca IEX,FINAL
+2024-07,NVDA,2024-07-31,117.06000000,Alpaca IEX,FINAL
+2024-07,QQQ,2024-07-31,471.01000000,Alpaca IEX,FINAL
+2024-07,SPY,2024-07-31,550.37000000,Alpaca IEX,FINAL
+2024-07,TSLA,2024-07-31,232.00000000,Alpaca IEX,FINAL
+2024-08,AAPL,2024-08-30,228.88000000,Alpaca IEX,FINAL
+2024-08,AMZN,2024-08-30,178.53000000,Alpaca IEX,FINAL
+2024-08,GOOGL,2024-08-30,163.30000000,Alpaca IEX,FINAL
+2024-08,META,2024-08-30,521.42000000,Alpaca IEX,FINAL
+2024-08,MSFT,2024-08-30,416.99000000,Alpaca IEX,FINAL
+2024-08,NVDA,2024-08-30,119.46000000,Alpaca IEX,FINAL
+2024-08,QQQ,2024-08-30,476.43000000,Alpaca IEX,FINAL
+2024-08,SPY,2024-08-30,563.57000000,Alpaca IEX,FINAL
+2024-08,TSLA,2024-08-30,214.20000000,Alpaca IEX,FINAL
+2024-09,AAPL,2024-09-30,232.85000000,Alpaca IEX,FINAL
+2024-09,AMZN,2024-09-30,186.38000000,Alpaca IEX,FINAL
+2024-09,GOOGL,2024-09-30,165.83000000,Alpaca IEX,FINAL
+2024-09,META,2024-09-30,572.59000000,Alpaca IEX,FINAL
+2024-09,MSFT,2024-09-30,430.20000000,Alpaca IEX,FINAL
+2024-09,NVDA,2024-09-30,121.50000000,Alpaca IEX,FINAL
+2024-09,QQQ,2024-09-30,487.94000000,Alpaca IEX,FINAL
+2024-09,SPY,2024-09-30,574.04500000,Alpaca IEX,FINAL
+2024-09,TSLA,2024-09-30,261.68000000,Alpaca IEX,FINAL
+2024-10,AAPL,2024-10-31,225.73000000,Alpaca IEX,FINAL
+2024-10,AMZN,2024-10-31,186.22000000,Alpaca IEX,FINAL
+2024-10,GOOGL,2024-10-31,171.10000000,Alpaca IEX,FINAL
+2024-10,META,2024-10-31,566.68000000,Alpaca IEX,FINAL
+2024-10,MSFT,2024-10-31,406.37000000,Alpaca IEX,FINAL
+2024-10,NVDA,2024-10-31,132.81000000,Alpaca IEX,FINAL
+2024-10,QQQ,2024-10-31,483.85000000,Alpaca IEX,FINAL
+2024-10,SPY,2024-10-31,568.46000000,Alpaca IEX,FINAL
+2024-10,TSLA,2024-10-31,249.82000000,Alpaca IEX,FINAL
+2024-11,AAPL,2024-11-29,237.39000000,Alpaca IEX,FINAL
+2024-11,AMZN,2024-11-29,207.95000000,Alpaca IEX,FINAL
+2024-11,GOOGL,2024-11-29,168.93000000,Alpaca IEX,FINAL
+2024-11,META,2024-11-29,574.47000000,Alpaca IEX,FINAL
+2024-11,MSFT,2024-11-29,423.63000000,Alpaca IEX,FINAL
+2024-11,NVDA,2024-11-29,138.28000000,Alpaca IEX,FINAL
+2024-11,QQQ,2024-11-29,509.74000000,Alpaca IEX,FINAL
+2024-11,SPY,2024-11-29,602.49000000,Alpaca IEX,FINAL
+2024-11,TSLA,2024-11-29,345.13000000,Alpaca IEX,FINAL
+2024-12,AAPL,2024-12-31,250.54500000,Alpaca IEX,FINAL
+2024-12,AMZN,2024-12-31,219.47000000,Alpaca IEX,FINAL
+2024-12,GOOGL,2024-12-31,189.36000000,Alpaca IEX,FINAL
+2024-12,META,2024-12-31,585.79000000,Alpaca IEX,FINAL
+2024-12,MSFT,2024-12-31,421.70000000,Alpaca IEX,FINAL
+2024-12,NVDA,2024-12-31,134.20000000,Alpaca IEX,FINAL
+2024-12,QQQ,2024-12-31,511.23000000,Alpaca IEX,FINAL
+2024-12,SPY,2024-12-31,586.07000000,Alpaca IEX,FINAL
+2024-12,TSLA,2024-12-31,403.74000000,Alpaca IEX,FINAL
+2025-01,AAPL,2025-01-31,235.96000000,Alpaca IEX,FINAL
+2025-01,AMZN,2025-01-31,237.65000000,Alpaca IEX,FINAL
+2025-01,GOOGL,2025-01-31,204.05000000,Alpaca IEX,FINAL
+2025-01,META,2025-01-31,689.19000000,Alpaca IEX,FINAL
+2025-01,MSFT,2025-01-31,415.00000000,Alpaca IEX,FINAL
+2025-01,NVDA,2025-01-31,120.03500000,Alpaca IEX,FINAL
+2025-01,QQQ,2025-01-31,522.30000000,Alpaca IEX,FINAL
+2025-01,SPY,2025-01-31,601.78500000,Alpaca IEX,FINAL
+2025-01,TSLA,2025-01-31,404.68000000,Alpaca IEX,FINAL
+2025-02,AAPL,2025-02-28,241.37000000,Alpaca IEX,FINAL
+2025-02,AMZN,2025-02-28,212.09000000,Alpaca IEX,FINAL
+2025-02,GOOGL,2025-02-28,170.36000000,Alpaca IEX,FINAL
+2025-02,META,2025-02-28,667.84000000,Alpaca IEX,FINAL
+2025-02,MSFT,2025-02-28,397.00500000,Alpaca IEX,FINAL
+2025-02,NVDA,2025-02-28,124.99500000,Alpaca IEX,FINAL
+2025-02,QQQ,2025-02-28,508.08000000,Alpaca IEX,FINAL
+2025-02,SPY,2025-02-28,593.89500000,Alpaca IEX,FINAL
+2025-02,TSLA,2025-02-28,293.27000000,Alpaca IEX,FINAL
+2025-03,AAPL,2025-03-31,222.06500000,Alpaca IEX,FINAL
+2025-03,AMZN,2025-03-31,190.28000000,Alpaca IEX,FINAL
+2025-03,GOOGL,2025-03-31,154.55000000,Alpaca IEX,FINAL
+2025-03,META,2025-03-31,576.44000000,Alpaca IEX,FINAL
+2025-03,MSFT,2025-03-31,375.03000000,Alpaca IEX,FINAL
+2025-03,NVDA,2025-03-31,108.52500000,Alpaca IEX,FINAL
+2025-03,QQQ,2025-03-31,468.92000000,Alpaca IEX,FINAL
+2025-03,SPY,2025-03-31,559.26000000,Alpaca IEX,FINAL
+2025-03,TSLA,2025-03-31,259.14000000,Alpaca IEX,FINAL
+2025-04,AAPL,2025-04-30,212.30500000,Alpaca IEX,FINAL
+2025-04,AMZN,2025-04-30,184.10000000,Alpaca IEX,FINAL
+2025-04,GOOGL,2025-04-30,158.79000000,Alpaca IEX,FINAL
+2025-04,META,2025-04-30,546.55000000,Alpaca IEX,FINAL
+2025-04,MSFT,2025-04-30,394.04000000,Alpaca IEX,FINAL
+2025-04,NVDA,2025-04-30,108.79000000,Alpaca IEX,FINAL
+2025-04,QQQ,2025-04-30,475.23000000,Alpaca IEX,FINAL
+2025-04,SPY,2025-04-30,554.02000000,Alpaca IEX,FINAL
+2025-04,TSLA,2025-04-30,282.07000000,Alpaca IEX,FINAL
+2025-05,AAPL,2025-05-30,200.64000000,Alpaca IEX,FINAL
+2025-05,AMZN,2025-05-30,204.77500000,Alpaca IEX,FINAL
+2025-05,GOOGL,2025-05-30,171.63000000,Alpaca IEX,FINAL
+2025-05,META,2025-05-30,647.53000000,Alpaca IEX,FINAL
+2025-05,MSFT,2025-05-30,459.97000000,Alpaca IEX,FINAL
+2025-05,NVDA,2025-05-30,134.89000000,Alpaca IEX,FINAL
+2025-05,QQQ,2025-05-30,519.21000000,Alpaca IEX,FINAL
+2025-05,SPY,2025-05-30,589.30000000,Alpaca IEX,FINAL
+2025-05,TSLA,2025-05-30,345.76000000,Alpaca IEX,FINAL
+2025-06,AAPL,2025-06-30,205.17000000,Alpaca IEX,FINAL
+2025-06,AMZN,2025-06-30,219.33000000,Alpaca IEX,FINAL
+2025-06,GOOGL,2025-06-30,176.22000000,Alpaca IEX,FINAL
+2025-06,META,2025-06-30,738.54000000,Alpaca IEX,FINAL
+2025-06,MSFT,2025-06-30,497.45000000,Alpaca IEX,FINAL
+2025-06,NVDA,2025-06-30,157.98000000,Alpaca IEX,FINAL
+2025-06,QQQ,2025-06-30,551.60000000,Alpaca IEX,FINAL
+2025-06,SPY,2025-06-30,617.83000000,Alpaca IEX,FINAL
+2025-06,TSLA,2025-06-30,317.76000000,Alpaca IEX,FINAL
+2025-07,AAPL,2025-07-31,207.85000000,Alpaca IEX,FINAL
+2025-07,AMZN,2025-07-31,234.18000000,Alpaca IEX,FINAL
+2025-07,GOOGL,2025-07-31,192.07500000,Alpaca IEX,FINAL
+2025-07,META,2025-07-31,773.63000000,Alpaca IEX,FINAL
+2025-07,MSFT,2025-07-31,533.93000000,Alpaca IEX,FINAL
+2025-07,NVDA,2025-07-31,178.06000000,Alpaca IEX,FINAL
+2025-07,QQQ,2025-07-31,565.00000000,Alpaca IEX,FINAL
+2025-07,SPY,2025-07-31,631.90000000,Alpaca IEX,FINAL
+2025-07,TSLA,2025-07-31,308.66500000,Alpaca IEX,FINAL
+2025-08,AAPL,2025-08-29,232.27000000,Alpaca IEX,FINAL
+2025-08,AMZN,2025-08-29,229.02000000,Alpaca IEX,FINAL
+2025-08,GOOGL,2025-08-29,213.02000000,Alpaca IEX,FINAL
+2025-08,META,2025-08-29,738.21000000,Alpaca IEX,FINAL
+2025-08,MSFT,2025-08-29,506.74000000,Alpaca IEX,FINAL
+2025-08,NVDA,2025-08-29,174.21500000,Alpaca IEX,FINAL
+2025-08,QQQ,2025-08-29,570.31000000,Alpaca IEX,FINAL
+2025-08,SPY,2025-08-29,645.03000000,Alpaca IEX,FINAL
+2025-08,TSLA,2025-08-29,333.86000000,Alpaca IEX,FINAL
+2025-09,AAPL,2025-09-30,254.56000000,Alpaca IEX,FINAL
+2025-09,AMZN,2025-09-30,219.52000000,Alpaca IEX,FINAL
+2025-09,GOOGL,2025-09-30,243.09000000,Alpaca IEX,FINAL
+2025-09,META,2025-09-30,734.01000000,Alpaca IEX,FINAL
+2025-09,MSFT,2025-09-30,518.12000000,Alpaca IEX,FINAL
+2025-09,NVDA,2025-09-30,186.54000000,Alpaca IEX,FINAL
+2025-09,QQQ,2025-09-30,600.33000000,Alpaca IEX,FINAL
+2025-09,SPY,2025-09-30,666.06000000,Alpaca IEX,FINAL
+2025-09,TSLA,2025-09-30,444.66000000,Alpaca IEX,FINAL
+2025-10,AAPL,2025-10-31,270.41000000,Alpaca IEX,FINAL
+2025-10,AMZN,2025-10-31,244.29000000,Alpaca IEX,FINAL
+2025-10,GOOGL,2025-10-31,281.27000000,Alpaca IEX,FINAL
+2025-10,META,2025-10-31,648.05000000,Alpaca IEX,FINAL
+2025-10,MSFT,2025-10-31,517.81500000,Alpaca IEX,FINAL
+2025-10,NVDA,2025-10-31,202.49000000,Alpaca IEX,FINAL
+2025-10,QQQ,2025-10-31,629.26000000,Alpaca IEX,FINAL
+2025-10,SPY,2025-10-31,682.03000000,Alpaca IEX,FINAL
+2025-10,TSLA,2025-10-31,456.51000000,Alpaca IEX,FINAL
+2025-11,AAPL,2025-11-28,278.77000000,Alpaca IEX,FINAL
+2025-11,AMZN,2025-11-28,233.23000000,Alpaca IEX,FINAL
+2025-11,GOOGL,2025-11-28,319.99500000,Alpaca IEX,FINAL
+2025-11,META,2025-11-28,647.93500000,Alpaca IEX,FINAL
+2025-11,MSFT,2025-11-28,491.99500000,Alpaca IEX,FINAL
+2025-11,NVDA,2025-11-28,176.95000000,Alpaca IEX,FINAL
+2025-11,QQQ,2025-11-28,619.10000000,Alpaca IEX,FINAL
+2025-11,SPY,2025-11-28,683.36000000,Alpaca IEX,FINAL
+2025-11,TSLA,2025-11-28,430.14000000,Alpaca IEX,FINAL
+2025-12,AAPL,2025-12-31,272.03500000,Alpaca IEX,FINAL
+2025-12,AMZN,2025-12-31,230.85000000,Alpaca IEX,FINAL
+2025-12,GOOGL,2025-12-31,313.04000000,Alpaca IEX,FINAL
+2025-12,META,2025-12-31,660.11000000,Alpaca IEX,FINAL
+2025-12,MSFT,2025-12-31,483.69500000,Alpaca IEX,FINAL
+2025-12,NVDA,2025-12-31,186.52000000,Alpaca IEX,FINAL
+2025-12,QQQ,2025-12-31,614.25000000,Alpaca IEX,FINAL
+2025-12,SPY,2025-12-31,681.82000000,Alpaca IEX,FINAL
+2025-12,TSLA,2025-12-31,449.81000000,Alpaca IEX,FINAL
+2026-01,AAPL,2026-01-30,259.06000000,Alpaca IEX,FINAL
+2026-01,AMZN,2026-01-30,239.52000000,Alpaca IEX,FINAL
+2026-01,GOOGL,2026-01-30,338.03000000,Alpaca IEX,FINAL
+2026-01,META,2026-01-30,716.86000000,Alpaca IEX,FINAL
+2026-01,MSFT,2026-01-30,430.05000000,Alpaca IEX,FINAL
+2026-01,NVDA,2026-01-30,191.13000000,Alpaca IEX,FINAL
+2026-01,QQQ,2026-01-30,621.71000000,Alpaca IEX,FINAL
+2026-01,SPY,2026-01-30,691.80000000,Alpaca IEX,FINAL
+2026-01,TSLA,2026-01-30,430.29000000,Alpaca IEX,FINAL
+2026-02,AAPL,2026-02-27,264.07000000,Alpaca IEX,FINAL
+2026-02,AMZN,2026-02-27,210.01500000,Alpaca IEX,FINAL
+2026-02,GOOGL,2026-02-27,311.56000000,Alpaca IEX,FINAL
+2026-02,META,2026-02-27,648.20000000,Alpaca IEX,FINAL
+2026-02,MSFT,2026-02-27,392.80000000,Alpaca IEX,FINAL
+2026-02,NVDA,2026-02-27,177.20500000,Alpaca IEX,FINAL
+2026-02,QQQ,2026-02-27,607.33500000,Alpaca IEX,FINAL
+2026-02,SPY,2026-02-27,686.16000000,Alpaca IEX,FINAL
+2026-02,TSLA,2026-02-27,402.43000000,Alpaca IEX,FINAL
+2026-03,AAPL,2026-03-31,253.73000000,Alpaca IEX,FINAL
+2026-03,AMZN,2026-03-31,208.39000000,Alpaca IEX,FINAL
+2026-03,GOOGL,2026-03-31,287.47000000,Alpaca IEX,FINAL
+2026-03,META,2026-03-31,572.14000000,Alpaca IEX,FINAL
+2026-03,MSFT,2026-03-31,370.13000000,Alpaca IEX,FINAL
+2026-03,NVDA,2026-03-31,174.41000000,Alpaca IEX,FINAL
+2026-03,QQQ,2026-03-31,577.11000000,Alpaca IEX,FINAL
+2026-03,SPY,2026-03-31,650.12000000,Alpaca IEX,FINAL
+2026-03,TSLA,2026-03-31,371.70000000,Alpaca IEX,FINAL
+2026-04,AAPL,2026-04-30,271.14500000,Alpaca IEX,FINAL
+2026-04,AMZN,2026-04-30,265.04000000,Alpaca IEX,FINAL
+2026-04,GOOGL,2026-04-30,384.99000000,Alpaca IEX,FINAL
+2026-04,META,2026-04-30,612.16000000,Alpaca IEX,FINAL
+2026-04,MSFT,2026-04-30,407.76500000,Alpaca IEX,FINAL
+2026-04,NVDA,2026-04-30,199.54000000,Alpaca IEX,FINAL
+2026-04,QQQ,2026-04-30,667.61000000,Alpaca IEX,FINAL
+2026-04,SPY,2026-04-30,718.41000000,Alpaca IEX,FINAL
+2026-04,TSLA,2026-04-30,381.62000000,Alpaca IEX,FINAL
+2026-05,AAPL,2026-05-29,312.01000000,Alpaca IEX,FINAL
+2026-05,AMZN,2026-05-29,270.61000000,Alpaca IEX,FINAL
+2026-05,GOOGL,2026-05-29,380.38000000,Alpaca IEX,FINAL
+2026-05,META,2026-05-29,632.52000000,Alpaca IEX,FINAL
+2026-05,MSFT,2026-05-29,449.44000000,Alpaca IEX,FINAL
+2026-05,NVDA,2026-05-29,211.15500000,Alpaca IEX,FINAL
+2026-05,QQQ,2026-05-29,738.21000000,Alpaca IEX,FINAL
+2026-05,SPY,2026-05-29,756.34000000,Alpaca IEX,FINAL
+2026-05,TSLA,2026-05-29,435.57000000,Alpaca IEX,FINAL
+2026-06,AAPL,2026-06-30,289.24000000,Alpaca IEX,FINAL
+2026-06,AMZN,2026-06-30,238.23000000,Alpaca IEX,FINAL
+2026-06,GOOGL,2026-06-30,357.22000000,Alpaca IEX,FINAL
+2026-06,META,2026-06-30,563.10000000,Alpaca IEX,FINAL
+2026-06,MSFT,2026-06-30,372.92000000,Alpaca IEX,FINAL
+2026-06,NVDA,2026-06-30,199.93000000,Alpaca IEX,FINAL
+2026-06,QQQ,2026-06-30,736.07000000,Alpaca IEX,FINAL
+2026-06,SPY,2026-06-30,746.65000000,Alpaca IEX,FINAL
+2026-06,TSLA,2026-06-30,420.37000000,Alpaca IEX,FINAL
+2026-07,AAPL,2026-07-31,308.72500000,Alpaca IEX,FINAL
+2026-07,AMZN,2026-07-31,271.46500000,Alpaca IEX,FINAL
+2026-07,GOOGL,2026-07-31,356.06000000,Alpaca IEX,FINAL
+2026-07,META,2026-07-31,556.60000000,Alpaca IEX,FINAL
+2026-07,MSFT,2026-07-31,464.70000000,Alpaca IEX,FINAL
+2026-07,NVDA,2026-07-31,200.74000000,Alpaca IEX,FINAL
+2026-07,QQQ,2026-07-31,687.89000000,Alpaca IEX,FINAL
+2026-07,SPY,2026-07-31,746.79000000,Alpaca IEX,FINAL
+2026-07,TSLA,2026-07-31,311.19000000,Alpaca IEX,FINAL
+2026-08,AAPL,2026-08-31,317.14000000,Alpaca IEX,FINAL
+2026-08,AMZN,2026-08-31,259.75500000,Alpaca IEX,FINAL
+2026-08,GOOGL,2026-08-31,339.17000000,Alpaca IEX,FINAL
+2026-08,META,2026-08-31,572.48500000,Alpaca IEX,FINAL
+2026-08,MSFT,2026-08-31,506.95000000,Alpaca IEX,FINAL
+2026-08,NVDA,2026-08-31,220.86000000,Alpaca IEX,FINAL
+2026-08,QQQ,2026-08-31,716.69000000,Alpaca IEX,FINAL
+2026-08,SPY,2026-08-31,766.87000000,Alpaca IEX,FINAL
+2026-08,TSLA,2026-08-31,367.93000000,Alpaca IEX,FINAL
+2026-09,AAPL,2026-09-24,335.88000000,Alpaca IEX,PARTIAL_MONTH
+2026-09,AMZN,2026-09-24,249.34000000,Alpaca IEX,PARTIAL_MONTH
+2026-09,GOOGL,2026-09-24,342.33000000,Alpaca IEX,PARTIAL_MONTH
+2026-09,META,2026-09-24,777.73000000,Alpaca IEX,PARTIAL_MONTH
+2026-09,MSFT,2026-09-24,497.58500000,Alpaca IEX,PARTIAL_MONTH
+2026-09,NVDA,2026-09-24,224.58000000,Alpaca IEX,PARTIAL_MONTH
+2026-09,QQQ,2026-09-24,741.09000000,Alpaca IEX,PARTIAL_MONTH
+2026-09,SPY,2026-09-24,767.29000000,Alpaca IEX,PARTIAL_MONTH
+2026-09,TSLA,2026-09-24,377.99000000,Alpaca IEX,PARTIAL_MONTH
