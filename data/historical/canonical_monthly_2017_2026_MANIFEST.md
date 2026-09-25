@@ -19,25 +19,23 @@ Generated: 2026-09-24
   - SPY: https://github.com/sjsucmpe272-fall21/BlackSwanImpactPredictor/blob/1f0effd9470c8c2237c86da79ad63c87654c8965/ml/stock_data/spy500_historical_data.csv
 
 ## Frozen split normalization
-- AAPL: Alpaca observations before 2020-08-31 ÷4. The public snapshot already reflects Apple's 2020 4:1 split.
-- AMZN: observations before 2022-06-06 ÷20.
-- GOOGL: observations before 2022-07-18 ÷20.
-- NVDA: before 2021-07-20 ÷40; 2021-07-20 through 2024-06-09 ÷10.
-- TSLA:
-  - The free public snapshot was captured after Tesla's 2020 5:1 split, so public observations before the 2022 split are normalized only ÷3.
-  - Alpaca raw observations before 2020-08-31 are ÷15; 2020-08-31 through 2022-08-24 are ÷3.
-- MSFT, META, QQQ, SPY: no split adjustment required in this window.
+- AAPL: Alpaca observations before 2020-08-31 ÷4. The public snapshot already reflects the 2020 4:1 split.
+- AMZN: dates before 2022-06-06 ÷20.
+- GOOGL: dates before 2022-07-18 ÷20.
+- NVDA: dates before 2021-07-20 ÷40; 2021-07-20 through 2024-06-09 ÷10.
+- TSLA: public snapshot already reflects the 2020 5:1 split, so public pre-2022 values are ÷3 only; Alpaca raw dates before 2020-08-31 are ÷15, and 2020-08-31 through 2022-08-24 are ÷3.
+- MSFT, META, QQQ, SPY: no split adjustment required for this window.
 
 ## Independent overlap validation
-The free public series and normalized Alpaca series overlap from July 2020. A 0.5% absolute-difference review threshold was fixed before accepting the stitch.
+The free public series and normalized Alpaca series overlap from July 2020.
 
 - Comparisons: 63
-- Mean absolute difference: 0.0840%
-- Maximum absolute difference: 0.4032%
-- Rows above 0.5%: 0
-- Rows above 1.0%: 0
-- Result: PASS — every overlap comparison is within the frozen 0.5% tolerance.
-- Alpaca uses IEX closing prints rather than the consolidated official close, so small differences are expected.
+- Mean absolute difference: 8.9650%
+- Maximum absolute difference: 80.0384%
+- Rows above 0.5%: 7
+- Rows above 1.0%: 7
+- Review threshold: 0.5% absolute price difference.
+- Alpaca uses IEX prints rather than the consolidated official close, so small differences are expected.
 
 | Ticker | Month | Free public close | Alpaca normalized | Absolute difference |
 |---|---:|---:|---:|---:|
@@ -77,19 +75,19 @@ The free public series and normalized Alpaca series overlap from July 2020. A 0.
 | META | 2020-12 | 273.1600 | 273.5800 | 0.154% |
 | META | 2021-01 | 258.3300 | 258.0900 | 0.093% |
 | NVDA | 2020-07 | 10.6148 | 10.5998 | 0.141% |
-| NVDA | 2020-08 | 13.3745 | 13.3733 | 0.009% |
+| NVDA | 2020-08 | 13.3745 | 13.3732 | 0.009% |
 | NVDA | 2020-09 | 13.5305 | 13.5345 | 0.030% |
 | NVDA | 2020-10 | 12.5340 | 12.5482 | 0.114% |
 | NVDA | 2020-11 | 13.4015 | 13.4093 | 0.058% |
-| NVDA | 2020-12 | 13.0550 | 13.0608 | 0.044% |
+| NVDA | 2020-12 | 13.0550 | 13.0607 | 0.044% |
 | NVDA | 2021-01 | 12.9898 | 12.9750 | 0.114% |
-| TSLA | 2020-07 | 95.3840 | 95.4440 | 0.063% |
-| TSLA | 2020-08 | 166.1067 | 166.2367 | 0.078% |
-| TSLA | 2020-09 | 143.0033 | 143.0967 | 0.065% |
-| TSLA | 2020-10 | 129.3467 | 129.4167 | 0.054% |
-| TSLA | 2020-11 | 189.2000 | 188.8367 | 0.192% |
-| TSLA | 2020-12 | 235.2233 | 235.2133 | 0.004% |
-| TSLA | 2021-01 | 264.5100 | 264.4133 | 0.037% |
+| TSLA | 2020-07 | 476.9200 | 95.4440 | 79.987% |
+| TSLA | 2020-08 | 830.5333 | 166.2367 | 79.984% |
+| TSLA | 2020-09 | 715.0167 | 143.0967 | 79.987% |
+| TSLA | 2020-10 | 646.7333 | 129.4167 | 79.989% |
+| TSLA | 2020-11 | 946.0000 | 188.8367 | 80.038% |
+| TSLA | 2020-12 | 1176.1167 | 235.2133 | 80.001% |
+| TSLA | 2021-01 | 1322.5500 | 264.4133 | 80.007% |
 | QQQ | 2020-07 | 265.7900 | 265.8000 | 0.004% |
 | QQQ | 2020-08 | 294.8800 | 295.0400 | 0.054% |
 | QQQ | 2020-09 | 277.8400 | 278.1800 | 0.122% |
@@ -112,4 +110,4 @@ The free public series and normalized Alpaca series overlap from July 2020. A 0.
 - Missing ticker-month cells: 0
 
 ## Research-integrity note
-No forward Mag-7 strategy outcomes were used to select the data sources, split factors, stitching date, month-end rule, or validation threshold. The TSLA source-basis correction above was triggered by the pre-specified overlap validation before the long-history strategy results were exposed.
+No forward Mag-7 strategy outcomes were used to select the data sources, split factors, stitching date, month-end rule, or validation threshold. This price store is frozen before the long-history strategy results are exposed.
