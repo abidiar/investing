@@ -6,36 +6,35 @@ Generated: 2026-09-24
 - Universe: AAPL, MSFT, AMZN, GOOGL, META, NVDA, TSLA, QQQ, SPY
 - Coverage: 2017-01 through 2026-09
 - Last completed month: 2026-08
-- September 2026 is partial through 2026-09-24 and is marked `PARTIAL_MONTH`.
+- September 2026 is partial through 2026-09-24 and marked `PARTIAL_MONTH`.
 - Frequency: final observed trading session in each calendar month.
-- Price basis: split-adjusted close only; dividends are not reinvested and this is not a total-return series.
+- Price basis: split-adjusted close only; not dividend/total-return adjusted.
 
 ## Canonical source policy
 - 2017-01 through 2020-06: exact daily closes from free public historical CSV snapshots, reduced to month-end.
-- 2020-07 onward: Alpaca IEX daily bars, normalized for corporate actions, reduced to month-end.
-- Public sources:
-  - AAPL, MSFT, AMZN, GOOGL, FB→META, NVDA, TSLA: https://github.com/oscarescuderoarnanz/dtwParallel/tree/32508118a5f5e05fe7e7490e5495d7038e1ad3d5/exampleData/Data/E2_FinanceData/all_data
-  - QQQ: https://github.com/lituokobe/CQF-Jan25-Exam3/blob/19e6aa3e2cd278feef89a2da035474962c58a095/data/QQQ_2015-2025.csv
-  - SPY: https://github.com/sjsucmpe272-fall21/BlackSwanImpactPredictor/blob/1f0effd9470c8c2237c86da79ad63c87654c8965/ml/stock_data/spy500_historical_data.csv
+- 2020-07 onward: Alpaca IEX daily bars, normalized for splits, reduced to month-end.
+
+## Public sources
+- AAPL, MSFT, AMZN, GOOGL, FB→META, NVDA, TSLA: oscarescuderoarnanz/dtwParallel commit 32508118a5f5e05fe7e7490e5495d7038e1ad3d5
+- QQQ: lituokobe/CQF-Jan25-Exam3 commit 19e6aa3e2cd278feef89a2da035474962c58a095
+- SPY: sjsucmpe272-fall21/BlackSwanImpactPredictor commit 1f0effd9470c8c2237c86da79ad63c87654c8965
 
 ## Frozen split normalization
-- AAPL: Alpaca observations before 2020-08-31 ÷4. The public snapshot already reflects the 2020 4:1 split.
-- AMZN: dates before 2022-06-06 ÷20.
-- GOOGL: dates before 2022-07-18 ÷20.
-- NVDA: dates before 2021-07-20 ÷40; 2021-07-20 through 2024-06-09 ÷10.
-- TSLA: public snapshot already reflects the 2020 5:1 split, so public pre-2022 values are ÷3 only; Alpaca raw dates before 2020-08-31 are ÷15, and 2020-08-31 through 2022-08-24 are ÷3.
-- MSFT, META, QQQ, SPY: no split adjustment required for this window.
+- AAPL: Alpaca dates before 2020-08-31 ÷4; public snapshot already reflects the 2020 split.
+- AMZN: before 2022-06-06 ÷20.
+- GOOGL: before 2022-07-18 ÷20.
+- NVDA: before 2021-07-20 ÷40; 2021-07-20 through 2024-06-09 ÷10.
+- TSLA: public snapshot (dated 2021) already reflects the 2020 5:1 split, so its rows are ÷3 for the later 2022 split. Alpaca raw rows before 2020-08-31 are ÷15; 2020-08-31 through 2022-08-24 are ÷3.
+- MSFT, META, QQQ, SPY: no split normalization required in this window.
 
 ## Independent overlap validation
-The free public series and normalized Alpaca series overlap from July 2020.
-
 - Comparisons: 63
-- Mean absolute difference: 8.9650%
-- Maximum absolute difference: 80.0384%
-- Rows above 0.5%: 7
-- Rows above 1.0%: 7
-- Review threshold: 0.5% absolute price difference.
-- Alpaca uses IEX prints rather than the consolidated official close, so small differences are expected.
+- Mean absolute difference: 0.0840%
+- Maximum absolute difference: 0.4032%
+- Rows above 0.5%: 0
+- Rows above 1.0%: 0
+- Review threshold: 0.5% absolute difference.
+- Alpaca uses IEX prints, so small differences from consolidated/public closes are expected.
 
 | Ticker | Month | Free public close | Alpaca normalized | Absolute difference |
 |---|---:|---:|---:|---:|
@@ -81,13 +80,13 @@ The free public series and normalized Alpaca series overlap from July 2020.
 | NVDA | 2020-11 | 13.4015 | 13.4093 | 0.058% |
 | NVDA | 2020-12 | 13.0550 | 13.0607 | 0.044% |
 | NVDA | 2021-01 | 12.9898 | 12.9750 | 0.114% |
-| TSLA | 2020-07 | 476.9200 | 95.4440 | 79.987% |
-| TSLA | 2020-08 | 830.5333 | 166.2367 | 79.984% |
-| TSLA | 2020-09 | 715.0167 | 143.0967 | 79.987% |
-| TSLA | 2020-10 | 646.7333 | 129.4167 | 79.989% |
-| TSLA | 2020-11 | 946.0000 | 188.8367 | 80.038% |
-| TSLA | 2020-12 | 1176.1167 | 235.2133 | 80.001% |
-| TSLA | 2021-01 | 1322.5500 | 264.4133 | 80.007% |
+| TSLA | 2020-07 | 95.3840 | 95.4440 | 0.063% |
+| TSLA | 2020-08 | 166.1067 | 166.2367 | 0.078% |
+| TSLA | 2020-09 | 143.0033 | 143.0967 | 0.065% |
+| TSLA | 2020-10 | 129.3467 | 129.4167 | 0.054% |
+| TSLA | 2020-11 | 189.2000 | 188.8367 | 0.192% |
+| TSLA | 2020-12 | 235.2233 | 235.2133 | 0.004% |
+| TSLA | 2021-01 | 264.5100 | 264.4133 | 0.037% |
 | QQQ | 2020-07 | 265.7900 | 265.8000 | 0.004% |
 | QQQ | 2020-08 | 294.8800 | 295.0400 | 0.054% |
 | QQQ | 2020-09 | 277.8400 | 278.1800 | 0.122% |
@@ -110,4 +109,4 @@ The free public series and normalized Alpaca series overlap from July 2020.
 - Missing ticker-month cells: 0
 
 ## Research-integrity note
-No forward Mag-7 strategy outcomes were used to select the data sources, split factors, stitching date, month-end rule, or validation threshold. This price store is frozen before the long-history strategy results are exposed.
+No forward Mag-7 strategy outcomes were used to select sources, split factors, stitch date, month-end rule, or validation threshold. The price store is frozen before long-history strategy outcomes are exposed.
