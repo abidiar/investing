@@ -1,0 +1,2 @@
+trade_date,posted_time_et,observed_time_et,instrument,levels_descending,source_type,forecast_context,forward_status,notes
+2026-09-25,07:08,07:32,SPX,"7774|7749|7726|7700|7676|7648",user_supplied_screenshot,"Savino stated higher prices into Thu/Fri 2026-09-24/25 in prior forecast; numerical levels themselves are treated as non-directional reaction/pivot levels",UNSCORED,"Captured before 2026-09-25 RTH open. Do not alter levels after observing session outcome. Score against actual SPX path after session completes."
