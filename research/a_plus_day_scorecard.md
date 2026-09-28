@@ -109,18 +109,71 @@ The closing outcome scores the detector only. It does not become evidence that t
 ### Research implication
 This is a useful negative-control session for the frozen rule that generic futures strength, AI enthusiasm, or morning momentum cannot create A+ without a material driver, coherent transmission, accepted RTH structure and fresh runway. Preserve the rule unchanged.
 
+## 2026-09-28
+
+### Scheduled classifications
+- 09:20 PREMARKET: PUT CANDIDATE
+- 09:50 ACTION: WATCH / DEVELOPING
+- 10:20 CONFIRMATION: WATCH / DEVELOPING
+- FINAL FROZEN STATE: WATCH / DEVELOPING
+
+### Origin / family
+MACRO REPRICING — geopolitical/oil/rates downside thesis.
+
+### Morning reconstruction
+Before the open, a specific material driver was present: renewed U.S.-Iran uncertainty after rejection of an Iranian peace proposal. Crude rose materially and Treasury yields remained elevated, creating a coherent inflation/rates transmission channel adverse to equities. S&P 500 and Nasdaq futures were lower. This was sufficient for a PUT CANDIDATE at the premarket gate, not trade permission.
+
+The cash market opened lower and the broad bearish causal chain remained plausible. However, contemporaneous evidence also showed meaningful countervailing leadership, most notably Nvidia strength following its large share-repurchase authorization, while oil had already pared part of its initial spike on expectations for further Qatar-mediated talks. The preserved reconstruction does not contain enough exact 09:50 or 10:20 M5/vehicle evidence to certify every frozen execution gate — accepted breakdown/failed repair, precise executable trigger, invalidation, option viability and fresh >=~2:1 destination R:R — without importing later-session information. Therefore both actionable checkpoints remain WATCH / DEVELOPING.
+
+### Promotion blocker
+The material bearish macro driver and transmission were present, but the exact contemporaneous execution package required for A+ was not sufficiently preserved to prove ALL gates at either checkpoint. Under anti-moving-goalpost discipline, the later decline cannot manufacture the missing accepted trigger or entry-time R:R.
+
+### Event / distortion flags
+- Triple witching: NO.
+- Quarterly expiration distortion: NO.
+- Major rebalance distortion: no material session-wide flag identified at the scheduled checkpoints.
+- Event-risk: elevated geopolitical headline risk remained material because U.S.-Iran/Qatari negotiations could reverse oil and risk sentiment quickly. This increased execution risk but did not erase the premarket PUT candidate.
+
+### Executable A+ fields
+Not applicable because the frozen state never reached A+ PUT.
+- first valid accepted executable trigger/entry: N/A
+- timestamp: N/A
+- origin/family: MACRO REPRICING — geopolitical/oil/rates downside thesis
+- chosen vehicle: N/A
+- invalidation: N/A
+- T1/destination: N/A
+- entry-time realistic R:R: N/A
+- RTH MFE: N/A
+- RTH MAE: N/A
+- close return from entry: N/A
+- +0.5% before -0.5%: N/A
+- +0.75% before -0.5%: N/A
+- +1.0% before -0.5%: N/A
+- T1 vs invalidation first: N/A
+- directional thesis survived into close: YES, directionally; this does not retroactively create an A+ trade.
+
+### Subsequent outcome
+The bearish macro thesis survived into the close. The S&P 500 finished at approximately 7,684.41, down 0.76%; the Nasdaq Composite fell about 0.91%; and the Dow fell about 0.66%. Oil and elevated Treasury yields remained the principal macro pressure while Nvidia strength helped curb broader losses.
+
+Outcome label: MISSED LATER DOWNSIDE / FALSE NEGATIVE FOR OPPORTUNITY CAPTURE, while preserving WATCH / DEVELOPING as the frozen state.
+
+This is specifically NOT a retroactive A+ PUT. The outcome scores the detector only.
+
+### Research implication
+September 28 is a useful test of the distinction between correctly identifying a macro PUT candidate and proving an executable A+ PUT. Future prospective logging should preserve the exact M5 checkpoint snapshot, accepted trigger, invalidation, destination and entry-time R:R automatically so a valid morning setup is not left unscorable after the fact. Do not loosen v1.0 because the market later declined.
+
 ## Cumulative prospective scorecard
-Through 2026-09-25, for sessions actually persisted in this scorecard:
+Through 2026-09-28, for sessions actually persisted in this scorecard:
 
 | State | Count |
 |---|---:|
 | A+ CALL | 0 |
 | A+ PUT | 0 |
-| WATCH / DEVELOPING | 1 |
+| WATCH / DEVELOPING | 2 |
 | NO TRADE | 1 |
-| Total persisted scored sessions | 2 |
+| Total persisted scored sessions | 3 |
 
-A+ frequency: 0 / 2 persisted scored sessions.
+A+ frequency: 0 / 3 persisted scored sessions.
 
 A+ hit rate: N/A — no persisted prospective A+ observations yet.
 
@@ -134,6 +187,6 @@ Average A+ MAE: N/A.
 
 Median A+ MAE: N/A.
 
-Note: the scheduled detector ran on intervening sessions, but this file currently contains only sessions whose complete scorecard result has been explicitly persisted here. Do not silently infer missing daily classifications when computing cumulative statistics.
+Note: the scheduled detector ran on some intervening sessions, but this file contains only sessions whose complete scorecard result has been explicitly persisted here. Do not silently infer missing daily classifications when computing cumulative statistics.
 
 Do not interpret the above frequency or future historical scorecard statistics as a live-session probability.
