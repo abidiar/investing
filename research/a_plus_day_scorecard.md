@@ -116,9 +116,43 @@ By 10:20, the macro releases were known, but SPY remained near 765.09 after spen
 
 ### Executable A+ fields
 Not applicable because the frozen state never reached A+ CALL/PUT.
+
+### Subsequent outcome
+SPY later extended lower to roughly 762.35 around early afternoon before recovering into the 764s; the S&P 500 ultimately finished only modestly lower. Outcome label: MISSED LATER DOWNSIDE / FALSE NEGATIVE FOR OPPORTUNITY CAPTURE. This is NOT a retroactive A+ PUT.
+
+## 2026-09-30
+
+### Scheduled classifications
+- 09:20 PREMARKET: CALL CANDIDATE
+- 09:50 ACTION: WATCH / DEVELOPING
+- 10:20 CONFIRMATION: WATCH / DEVELOPING
+- FINAL FROZEN STATE: WATCH / DEVELOPING
+
+### Origin / family
+MACRO REPRICING — cooler PCE / reduced near-term Fed-hike expectations, with technology leadership.
+
+### Morning reconstruction
+The 08:30 ET inflation batch was a genuine material information shock. Core PCE rose 0.2% month-over-month versus 0.3% expected and headline PCE rose 0.3% versus 0.4% expected. Equity futures moved higher and Treasury yields initially fell. ADP was stronger (+90K) and Q2 GDP was revised higher to 2.2%, so the macro package was not one-directional, but the immediate equity/rates transmission after the inflation surprise supported a CALL CANDIDATE at 09:20.
+
+The regular session opened higher: SPX opened 7688.99 versus the prior 7670.84 close and ultimately traded as high as 7721.39. The bullish direction was real, and technology/mega-cap leadership remained supportive. However, the exact preserved 09:50 M5/vehicle snapshot is not available in the research record, and the available level map materially constrains runway: Savino's contemporaneous major levels were 7695 then 7719. Once price had accepted above 7695, 7719 was the nearest realistic structural destination. Without a certified 09:50 entry, invalidation and >=~2:1 fresh destination R:R, frozen v1.0 cannot be promoted from WATCH by using the later 7721.39 high.
+
+By 10:20, the same anti-hindsight problem remained and the nearest upside destination was increasingly consumed. In addition, long-end yields subsequently reversed higher during the session, with the 10-year reaching about 5.304%, while crude remained elevated. That weakened the clean rates/equity transmission required for an A+ macro-repricing continuation. Therefore 10:20 remains WATCH / DEVELOPING rather than A+ CALL.
+
+### Promotion blocker
+09:50: bullish price confirmation existed, but the preserved record does not certify the first accepted executable M5 trigger, option vehicle, invalidation and fresh >=~2:1 destination R:R. 10:20: no preserved complete execution package; upside runway to the nearest structural destination had been consumed further, while the initially favorable rates transmission was no longer clean.
+
+### Event / distortion flags
+- Triple witching: NO.
+- Quarterly expiration: NO.
+- Quarter-end / rebalance: YES — final trading day of Q3 and month-end; closing/rebalance flows are a material distortion flag.
+- Event-risk veto: NO unresolved scheduled binary event at the 09:50/10:20 gates sufficient by itself to force a veto; the key PCE/GDP data were already released premarket. The classification failed affirmative execution/runway gates rather than being blocked solely by event risk.
+- Rates/oil cross-current: YES — long-end yields later surged despite the softer inflation print, and crude remained elevated.
+
+### Executable A+ fields
+Not applicable because the frozen state never reached A+ CALL/PUT.
 - first valid accepted executable trigger/entry: N/A
 - timestamp: N/A
-- origin/family: N/A
+- origin/family: N/A for executable trade (candidate family above)
 - chosen vehicle: N/A
 - invalidation: N/A
 - T1/destination: N/A
@@ -133,25 +167,25 @@ Not applicable because the frozen state never reached A+ CALL/PUT.
 - directional thesis survived into close: N/A — no frozen A+ directional thesis.
 
 ### Subsequent outcome
-SPY later extended lower to roughly 762.35 around early afternoon before recovering into the 764s; the S&P 500 ultimately finished only modestly lower. The session therefore contained a meaningful later downside move that the frozen detector did not promote at its scheduled checkpoints.
+SPX reached 7721.39, slightly above Savino's 7719 destination, before finishing around 7706.94 (+0.47% versus the prior close). The bullish candidate therefore produced a real morning continuation, but it did not become a certified frozen-v1.0 A+ entry. The S&P finished off its high while Nasdaq/technology outperformed and the Dow lagged; long-end yields rose sharply later in the session.
 
-Outcome label: MISSED LATER DOWNSIDE / FALSE NEGATIVE FOR OPPORTUNITY CAPTURE. This is NOT a retroactive A+ PUT. The event-risk veto and missing/uncertified execution gates remain binding regardless of the later decline.
+Outcome label: MISSED MORNING UPSIDE / FALSE NEGATIVE FOR OPPORTUNITY CAPTURE, but NOT a retroactive A+ CALL. The missing certified 09:50/10:20 executable package and insufficiently preserved fresh R:R remain binding.
 
 ### Research implication
-September 29 reinforces the need to persist the exact 09:50 and 10:20 post-event M5 state, trigger, invalidation, destination and entry-time R:R. It also provides a clean test case for whether a separately pre-specified post-10:20 state-change module could capture delayed breakdowns without weakening frozen v1.0.
+This is another case where direction was right but v1.0 did not authorize an entry. Persist exact 09:50 and 10:20 M5 snapshots plus trigger/invalidation/destination calculations prospectively. Do not weaken the >=~2:1 fresh-runway requirement merely because 7719 was subsequently reached.
 
 ## Cumulative prospective scorecard
-Through 2026-09-29, for sessions actually persisted in this scorecard:
+Through 2026-09-30, for sessions actually persisted in this scorecard:
 
 | State | Count |
 |---|---:|
 | A+ CALL | 0 |
 | A+ PUT | 0 |
-| WATCH / DEVELOPING | 3 |
+| WATCH / DEVELOPING | 4 |
 | NO TRADE | 1 |
-| Total persisted scored sessions | 4 |
+| Total persisted scored sessions | 5 |
 
-A+ frequency: 0 / 4 persisted scored sessions.
+A+ frequency: 0 / 5 persisted scored sessions.
 
 A+ hit rate: N/A — no persisted prospective A+ observations yet.
 
