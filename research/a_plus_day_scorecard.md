@@ -134,45 +134,24 @@ MACRO REPRICING — cooler PCE / reduced near-term Fed-hike expectations, with t
 ### Morning reconstruction
 The 08:30 ET inflation batch was a genuine material information shock. Core PCE rose 0.2% month-over-month versus 0.3% expected and headline PCE rose 0.3% versus 0.4% expected. Equity futures moved higher and Treasury yields initially fell. ADP was stronger (+90K) and Q2 GDP was revised higher to 2.2%, so the macro package was not one-directional, but the immediate equity/rates transmission after the inflation surprise supported a CALL CANDIDATE at 09:20.
 
-The regular session opened higher: SPX opened 7688.99 versus the prior 7670.84 close and ultimately traded as high as 7721.39. The bullish direction was real, and technology/mega-cap leadership remained supportive. However, the exact preserved 09:50 M5/vehicle snapshot is not available in the research record, and the available level map materially constrains runway: Savino's contemporaneous major levels were 7695 then 7719. Once price had accepted above 7695, 7719 was the nearest realistic structural destination. Without a certified 09:50 entry, invalidation and >=~2:1 fresh destination R:R, frozen v1.0 cannot be promoted from WATCH by using the later 7721.39 high.
+The regular session opened higher and the bullish direction was real, with technology/mega-cap leadership supportive. However, the exact preserved 09:50 M5/vehicle snapshot was not available and the nearest structural upside destination constrained runway. Without a certified 09:50 entry, invalidation and >=~2:1 fresh destination R:R, frozen v1.0 could not be promoted from WATCH by using later highs.
 
-By 10:20, the same anti-hindsight problem remained and the nearest upside destination was increasingly consumed. In addition, long-end yields subsequently reversed higher during the session, with the 10-year reaching about 5.304%, while crude remained elevated. That weakened the clean rates/equity transmission required for an A+ macro-repricing continuation. Therefore 10:20 remains WATCH / DEVELOPING rather than A+ CALL.
+By 10:20, the same anti-hindsight problem remained and upside runway had been consumed further. Long-end yields subsequently reversed higher during the session while crude remained elevated, weakening the clean rates/equity transmission required for an A+ macro-repricing continuation.
 
 ### Promotion blocker
-09:50: bullish price confirmation existed, but the preserved record does not certify the first accepted executable M5 trigger, option vehicle, invalidation and fresh >=~2:1 destination R:R. 10:20: no preserved complete execution package; upside runway to the nearest structural destination had been consumed further, while the initially favorable rates transmission was no longer clean.
+09:50: bullish price confirmation existed, but the preserved record did not certify the first accepted executable M5 trigger, option vehicle, invalidation and fresh >=~2:1 destination R:R. 10:20: no preserved complete execution package; upside runway was consumed further while the initially favorable rates transmission was no longer clean.
 
 ### Event / distortion flags
 - Triple witching: NO.
 - Quarterly expiration: NO.
-- Quarter-end / rebalance: YES — final trading day of Q3 and month-end; closing/rebalance flows are a material distortion flag.
-- Event-risk veto: NO unresolved scheduled binary event at the 09:50/10:20 gates sufficient by itself to force a veto; the key PCE/GDP data were already released premarket. The classification failed affirmative execution/runway gates rather than being blocked solely by event risk.
-- Rates/oil cross-current: YES — long-end yields later surged despite the softer inflation print, and crude remained elevated.
+- Quarter-end / rebalance: YES — final trading day of Q3 and month-end; closing/rebalance flows were a material distortion flag.
+- Event-risk veto: NO unresolved scheduled binary event at the 09:50/10:20 gates sufficient by itself to force a veto; key data were already released premarket.
 
 ### Executable A+ fields
 Not applicable because the frozen state never reached A+ CALL/PUT.
-- first valid accepted executable trigger/entry: N/A
-- timestamp: N/A
-- origin/family: N/A for executable trade (candidate family above)
-- chosen vehicle: N/A
-- invalidation: N/A
-- T1/destination: N/A
-- entry-time realistic R:R: N/A
-- RTH MFE: N/A
-- RTH MAE: N/A
-- close return from entry: N/A
-- +0.5% before -0.5%: N/A
-- +0.75% before -0.5%: N/A
-- +1.0% before -0.5%: N/A
-- T1 vs invalidation first: N/A
-- directional thesis survived into close: N/A — no frozen A+ directional thesis.
 
 ### Subsequent outcome
-SPX reached 7721.39, slightly above Savino's 7719 destination, before finishing around 7706.94 (+0.47% versus the prior close). The bullish candidate therefore produced a real morning continuation, but it did not become a certified frozen-v1.0 A+ entry. The S&P finished off its high while Nasdaq/technology outperformed and the Dow lagged; long-end yields rose sharply later in the session.
-
-Outcome label: MISSED MORNING UPSIDE / FALSE NEGATIVE FOR OPPORTUNITY CAPTURE, but NOT a retroactive A+ CALL. The missing certified 09:50/10:20 executable package and insufficiently preserved fresh R:R remain binding.
-
-### Research implication
-This is another case where direction was right but v1.0 did not authorize an entry. Persist exact 09:50 and 10:20 M5 snapshots plus trigger/invalidation/destination calculations prospectively. Do not weaken the >=~2:1 fresh-runway requirement merely because 7719 was subsequently reached.
+The bullish candidate produced a real morning continuation but did not become a certified frozen-v1.0 A+ entry. Outcome label: MISSED MORNING UPSIDE / FALSE NEGATIVE FOR OPPORTUNITY CAPTURE, but NOT a retroactive A+ CALL.
 
 ## 2026-10-01
 
@@ -186,22 +165,53 @@ This is another case where direction was right but v1.0 did not authorize an ent
 MACRO REPRICING — hot labor / yields / inflation-pressure downside thesis, with a potential BEARISH FAILED REPAIR path after the open.
 
 ### Morning reconstruction
-By the 09:20 checkpoint, the macro backdrop supported a legitimate bearish candidate but not trade permission. Initial jobless claims had fallen to 197,000, the lowest since mid-July, reinforcing a resilient-labor / higher-for-longer rates narrative. Long-end Treasury yields were already at extreme levels, with the 10-year around/above 5.3%, while crude and geopolitical inflation risk remained elevated. Equity futures were mixed rather than uniformly weak, and AI/semiconductor leadership remained a meaningful counterweight. This was enough for PUT CANDIDATE, not A+ PUT.
+By 09:20, initial jobless claims had fallen to 197,000 and long-end Treasury yields were at extreme levels while crude/geopolitical inflation risk remained elevated. Equity futures were mixed and AI/semiconductor leadership remained a counterweight. This supported PUT CANDIDATE, not trade permission.
 
-At 09:50 the bearish price/rates thesis was developing, but the 10:00 ET ISM Manufacturing release was an unresolved binary macro event capable of materially changing the rates/equity interpretation. Frozen v1.0 therefore could not promote the setup through the event-risk gate. The contemporaneous record also does not preserve a complete first accepted M5 trigger, invalidation, option vehicle and fresh >=~2:1 destination R:R at 09:50.
-
-At 10:00, ISM Manufacturing printed 54.5 and its prices-paid index jumped to 77.9 from 71.1, reinforcing the inflation/rates concern. By about 10:20-10:30, the S&P 500 was trading lower and breadth was poor while the 10-year Treasury yield had surged to roughly 5.34%, its highest level since 2002. However, technology/AI leadership remained relatively resilient, and the preserved checkpoint evidence does not certify a complete post-ISM M5 failed-repair/reacceptance-lower trigger plus fresh >=~2:1 structural destination R:R. Under the frozen rules, strong narrative + bearish price direction is still insufficient. Therefore 10:20 remains WATCH / DEVELOPING.
+At 09:50, the 10:00 ET ISM Manufacturing release was an unresolved binary macro event, so frozen v1.0 could not promote the setup through the event-risk gate. At 10:00, ISM Manufacturing printed 54.5 and prices paid jumped to 77.9. By 10:20-10:30, equities were lower and the 10-year had surged toward 5.34%, but the preserved evidence still did not certify a complete post-ISM M5 failed-repair/reacceptance-lower trigger plus fresh >=~2:1 structural destination R:R; technology/AI leadership was also relatively resilient.
 
 ### Promotion blocker
-09:50: imminent 10:00 ET ISM Manufacturing event-risk veto plus incomplete certified execution package. 10:20: post-ISM bearish macro transmission and weak breadth were real, but the record does not establish every affirmative execution gate — specifically the first accepted M5 trigger, invalidation, viable option vehicle and fresh >=~2:1 destination runway — while relative technology/AI strength made broad-market leadership less clean.
+09:50: imminent 10:00 ET ISM event-risk veto plus incomplete execution package. 10:20: bearish macro transmission was real but first accepted M5 trigger, invalidation, viable vehicle and fresh >=~2:1 runway were not fully certified, while broad leadership was imperfect.
 
 ### Event / distortion flags
 - Triple witching: NO.
 - Quarterly expiration: NO.
-- Quarter-end/month-end rebalance: NO — the prior session was quarter-end; Oct. 1 is a new-quarter session, though residual positioning effects are contextual only.
-- Event-risk veto: YES at 09:50 because ISM Manufacturing was due at 10:00 ET. By 10:20 that scheduled release had passed.
-- Fed headline risk: YES later in the session. Fed Vice Chair Philip Jefferson subsequently signaled support for holding rates steady in October, materially reversing the rates/equity tone; this later information scores the outcome but is not imported backward into the 10:20 classification.
-- Geopolitical/oil risk: elevated.
+- Quarter-end/month-end rebalance: NO.
+- Event-risk veto: YES at 09:50 because ISM was due at 10:00 ET; passed by 10:20.
+- Fed headline risk: YES later in the session.
+
+### Executable A+ fields
+Not applicable because the frozen state never reached A+ CALL/PUT.
+
+### Subsequent outcome
+The bearish thesis initially worked but did not survive the session. Treasury yields later reversed sharply after Fed Vice Chair Philip Jefferson indicated the Fed could hold rates steady in October; equities recovered and the S&P 500 closed positive. Outcome label: CORRECT ABSTENTION / FALSE POSITIVE AVOIDED.
+
+## 2026-10-02
+
+### Scheduled classifications
+- 09:20 PREMARKET: CALL CANDIDATE
+- 09:50 ACTION: WATCH / DEVELOPING
+- 10:20 CONFIRMATION: WATCH / DEVELOPING
+- FINAL FROZEN STATE: WATCH / DEVELOPING
+
+### Origin / family
+MACRO REPRICING — weak September payrolls / reduced near-term Fed-hike expectations / lower-yield and lower-oil risk-on thesis, reinforced by technology and semiconductor leadership.
+
+### Morning reconstruction
+The 08:30 ET employment report was a material new information shock. September nonfarm payrolls increased only 29,000 versus roughly 90,000 expected, unemployment rose to 4.2%, prior months were revised down by a combined 60,000, and wage growth was softer. Markets interpreted the report as reducing the probability of an October Fed hike. By the 09:20 checkpoint, S&P futures were higher, the 10-year Treasury yield had fallen toward roughly 5.17%-5.18%, the dollar was softer, VIX was lower, and crude was down sharply. This is a coherent CALL CANDIDATE under the frozen macro-repricing family.
+
+At the regular-session open SPY gapped sharply higher from the prior 763.99 close to roughly 770.6-770.7. By about 09:40 it was near 770.75, already roughly +0.9% on the day. The catalyst, rates/oil transmission and technology leadership were supportive, but the large opening gap/first wave had already consumed substantial broad-index runway. The preserved reconstruction does not certify, at exactly 09:50, a first accepted M5 pullback/hold trigger with a defined invalidation and a realistic fresh structural destination still offering >=~2:1 R:R. Frozen v1.0 therefore remains WATCH rather than converting a successful gap into a hindsight A+ CALL.
+
+By 10:12 SPY was around 770.74 after having reached roughly 772.09 intraday, and by 10:16 broad indexes were reported around S&P +1.0% / Nasdaq +1.7%. This confirms the macro direction and strong technology leadership, but it also means more of the first-wave upside had been consumed by the 10:20 checkpoint. The frozen fresh-runway/chase gate remains binding. No contemporaneously preserved 10:20 M5 trigger + invalidation + >=~2:1 destination package is available to certify A+. Therefore 10:20 remains WATCH / DEVELOPING.
+
+### Promotion blocker
+09:50: strong catalyst/transmission and bullish price confirmation, but the large gap/first wave had already consumed meaningful broad-index runway and the record does not certify a fresh accepted M5 trigger, invalidation and >=~2:1 current structural destination R:R. 10:20: directional confirmation strengthened, but first-wave extension/runway consumption increased further; no complete executable A+ package can be certified without hindsight.
+
+### Event / distortion flags
+- Triple witching: NO.
+- Quarterly expiration: NO.
+- Month/quarter-end rebalance: NO — Oct. 2 was not month/quarter end.
+- Event-risk veto at 09:50/10:20: NO unresolved scheduled binary event identified that independently forced WATCH; the major payroll release had already occurred at 08:30 ET.
+- Macro/headline risk: elevated background geopolitical/oil and global bond volatility remained, but neither independently invalidated the morning CALL candidate.
 
 ### Executable A+ fields
 Not applicable because the frozen state never reached A+ CALL/PUT.
@@ -219,28 +229,28 @@ Not applicable because the frozen state never reached A+ CALL/PUT.
 - +0.75% before -0.5%: N/A
 - +1.0% before -0.5%: N/A
 - T1 vs invalidation first: N/A
-- directional thesis survived into close: N/A — no frozen A+ trade thesis.
+- directional thesis survived into close: N/A for an A+ trade; the morning CALL candidate direction did survive into the close.
 
 ### Subsequent outcome
-The morning bearish thesis initially worked: yields surged and broad equities weakened, with the S&P 500 around 7635.7 at approximately 10:27 ET and weak market breadth. It did NOT survive the full session. Treasury yields later reversed sharply after Fed Vice Chair Philip Jefferson indicated the Fed could hold rates steady in October; the 10-year retreated from roughly 5.34% toward 5.23%. Equities recovered and the S&P 500 closed about +0.23%, while Nasdaq and Dow also finished slightly positive.
+SPY opened around 770.6-770.7, reached an RTH high around 772.65, later pulled back as Treasury yields rebounded, and was around 769.3-769.4 near the close, still approximately +0.7% versus the prior 763.99 close. The S&P 500 finished about +0.68% and Nasdaq about +1.14%; technology/semiconductors led, while the 10-year yield ultimately rebounded to roughly 5.26%-5.29% after its initial post-jobs decline. The bullish macro candidate therefore survived into the close, but the opening gap was the dominant repricing and frozen v1.0 never certified a fresh >=~2:1 executable continuation entry at the scheduled gates.
 
-Outcome label: CORRECT ABSTENTION / FALSE POSITIVE AVOIDED. The detector's refusal to promote the morning PUT candidate avoided treating a transient morning macro selloff as an A+ all-session directional setup. This is NOT a retroactive CALL; the late reversal was driven by information unavailable at the morning checkpoints.
+Outcome label: MISSED MORNING UPSIDE / FALSE NEGATIVE FOR OPPORTUNITY CAPTURE, but NOT a retroactive A+ CALL.
 
 ### Research implication
-Oct. 1 is a useful falsification case for weakening the confirmation gates. The bearish catalyst/transmission looked compelling after ISM, but the lack of a fully certified executable package and mixed leadership prevented A+. Later Fed information reversed the rates channel and the market. Preserve this as evidence that WATCH can be the correct state even when the initial direction works for part of the morning.
+This is another useful separation between directional forecasting and executable A+ qualification. The catalyst and transmission were unusually clean, but much of the broad-index move occurred before/at the open. Do not weaken the fresh-runway/chase gate because the direction subsequently worked. Preserve this session for the separately frozen late/state-change research and for testing whether gap-survival/pullback structures can create a distinct, prospectively specified entry family.
 
 ## Cumulative prospective scorecard
-Through 2026-10-01, for sessions actually persisted in this scorecard:
+Through 2026-10-02, for sessions actually persisted in this scorecard:
 
 | State | Count |
 |---|---:|
 | A+ CALL | 0 |
 | A+ PUT | 0 |
-| WATCH / DEVELOPING | 5 |
+| WATCH / DEVELOPING | 6 |
 | NO TRADE | 1 |
-| Total persisted scored sessions | 6 |
+| Total persisted scored sessions | 7 |
 
-A+ frequency: 0 / 6 persisted scored sessions.
+A+ frequency: 0 / 7 persisted scored sessions.
 
 A+ hit rate: N/A — no persisted prospective A+ observations yet.
 
@@ -251,6 +261,6 @@ Median A+ MFE: N/A.
 Average A+ MAE: N/A.
 Median A+ MAE: N/A.
 
-Note: the scheduled detector ran on some intervening sessions, but this file contains only sessions whose complete scorecard result has been explicitly persisted here. Do not silently infer missing daily classifications when computing cumulative statistics.
+Note: this file contains only sessions whose complete scorecard result has been explicitly persisted here. Do not silently infer missing daily classifications when computing cumulative statistics.
 
 Do not interpret the above frequency or future historical scorecard statistics as a live-session probability.
