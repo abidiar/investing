@@ -264,3 +264,39 @@ Median A+ MAE: N/A.
 Note: this file contains only sessions whose complete scorecard result has been explicitly persisted here. Do not silently infer missing daily classifications when computing cumulative statistics.
 
 Do not interpret the above frequency or future historical scorecard statistics as a live-session probability.
+
+## 2026-10-06
+
+### Scheduled classifications
+- 09:20 PREMARKET: CALL CANDIDATE
+- 09:50 ACTION: WATCH / DEVELOPING
+- 10:20 CONFIRMATION: WATCH / DEVELOPING
+- FINAL FROZEN STATE: WATCH / DEVELOPING
+
+### Origin / family
+MACRO REPRICING — lower oil / easing yields / lower volatility / equity and AI leadership risk-on thesis.
+
+### Promotion blocker
+Bullish price acceptance was real, but by both scheduled actionable checkpoints a meaningful portion of the move had already occurred. The preserved record does not certify a first accepted M5 trigger, defined invalidation, and fresh >=~2:1 structural destination R:R without hindsight. By 10:20, first-wave extension/runway consumption was even greater.
+
+### Event / distortion flags
+- Triple witching: NO.
+- Quarterly expiration: NO.
+- Month/quarter-end rebalance: NO.
+- Unresolved major scheduled-data veto at 09:50/10:20: NO.
+- Later Fed-speaker / Treasury-auction risk: background only.
+
+### Subsequent outcome
+The bullish thesis survived into the close and SPY spent most of the day higher. Outcome label: MISSED BULLISH CONTINUATION / OPPORTUNITY NOT CAPTURED, but NOT a retroactive A+ CALL.
+
+### Cumulative prospective scorecard
+Through 2026-10-06 across the persisted daily records:
+- A+ CALL: 0
+- A+ PUT: 0
+- WATCH / DEVELOPING: 8
+- NO TRADE: 1
+- Total scored sessions: 9
+- A+ frequency: 0/9
+- A+ hit rate / false-positive rate / MFE / MAE: N/A because there are still no certified prospective A+ observations.
+
+Do not interpret these research statistics as live probabilities.
