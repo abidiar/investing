@@ -300,3 +300,41 @@ Through 2026-10-06 across the persisted daily records:
 - A+ hit rate / false-positive rate / MFE / MAE: N/A because there are still no certified prospective A+ observations.
 
 Do not interpret these research statistics as live probabilities.
+
+
+## 2026-10-07
+
+### Scheduled classifications
+- 09:20 PREMARKET: PUT CANDIDATE
+- 09:50 ACTION: WATCH / DEVELOPING
+- 10:20 CONFIRMATION: WATCH / DEVELOPING
+- FINAL FROZEN STATE: WATCH / DEVELOPING
+
+### Origin / family
+MACRO REPRICING — higher oil / higher long-end Treasury yields / stronger dollar / higher volatility risk-off thesis.
+
+### Promotion blocker
+The bearish macro transmission and lower open were supportive, but neither 09:50 nor 10:20 had a fully preserved first accepted M5 trigger, defined invalidation, chosen vehicle, and fresh >=~2:1 structural destination R:R. The later session low cannot be used to manufacture an earlier executable setup.
+
+### Event / distortion flags
+- Triple witching: NO.
+- Quarterly expiration: NO.
+- Month/quarter-end rebalance: NO.
+- Immediate scheduled-data veto at 09:50/10:20: NO.
+- Material later event risk: YES — 10-year Treasury auction around 13:00 ET and FOMC minutes at 14:00 ET.
+- Oil/geopolitical headline risk: elevated.
+
+### Subsequent outcome
+The morning bearish candidate produced some downside, but SPY recovered materially from the session low and the selloff did not strengthen into a clean sustained trend. Outcome label: CORRECT ABSTENTION / FALSE POSITIVE AVOIDED for an A+ PUT. This is NOT a retroactive A+ PUT.
+
+### Cumulative prospective scorecard
+Through 2026-10-07 across the persisted daily records:
+- A+ CALL: 0
+- A+ PUT: 0
+- WATCH / DEVELOPING: 9
+- NO TRADE: 1
+- Total scored sessions: 10
+- A+ frequency: 0/10
+- A+ hit rate / false-positive rate / average and median MFE / average and median MAE: N/A because there are still no certified prospective A+ observations.
+
+Do not interpret these research statistics as live probabilities.
