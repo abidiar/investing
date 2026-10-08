@@ -338,3 +338,43 @@ Through 2026-10-07 across the persisted daily records:
 - A+ hit rate / false-positive rate / average and median MFE / average and median MAE: N/A because there are still no certified prospective A+ observations.
 
 Do not interpret these research statistics as live probabilities.
+
+
+## 2026-10-08
+
+### Scheduled classifications (conservatively reconstructed; original morning detector outputs not recovered)
+- 09:20 PREMARKET: PUT CANDIDATE
+- 09:50 ACTION: WATCH / DEVELOPING
+- 10:20 CONFIRMATION: WATCH / DEVELOPING
+- FINAL FROZEN STATE: WATCH / DEVELOPING
+
+### Morning reconstruction and promotion blocker
+Macro oil/yields risk supported a PUT CANDIDATE at 09:20, but SPY recovered above its opening level by the actionable checkpoints. No prospectively certified accepted bearish M5 trigger with defined invalidation and fresh >=~2:1 destination R:R was established. Do not reconstruct a trade using the subsequent low.
+
+### Events and distortion
+- Triple witching: NO.
+- Month/quarter-end rebalance: NO.
+- Immediate major scheduled-data veto: NO.
+- Later 30-year Treasury auction risk: YES.
+- Geopolitical headline risk: YES.
+
+### Executable A+ fields
+N/A: no authorized A+ CALL/PUT. First accepted executable trigger, time, vehicle, invalidation, T1, entry-time R:R, MFE/MAE, close return and threshold-ordering are not measurable as A+ trade outcomes.
+
+### Subsequent outcome
+SPY prior close 777.22; open 774.86; high 777.09; low 770.435; close 773.97. Afternoon downside presented a later bearish opportunity, but morning abstention avoided prematurely labeling the rebound an A+ PUT. Final label: CORRECT EARLY ABSTENTION / LATER BEARISH OPPORTUNITY NOT CAPTURED. No hindsight promotion.
+
+Original full daily record: research/a_plus_daily/2026-10-08.md.
+Dated cumulative snapshot: research/a_plus_cumulative_2026-10-08.md.
+
+### Cumulative prospective scorecard (through 2026-10-08)
+- A+ CALL: 0
+- A+ PUT: 0
+- WATCH / DEVELOPING: 10
+- NO TRADE: 1
+- Total scored sessions: 11
+- A+ frequency: 0/11 (historical research statistic only; not a live probability)
+- A+ hit rate and false-positive rate: N/A — no certified prospective A+ observations
+- Average/median A+ MFE and MAE: N/A.
+
+Anti-moving-goalpost discipline preserved.
