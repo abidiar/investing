@@ -1,0 +1,16 @@
+# Crom × Savino broad-context vs strict intersection — exploratory matched-time test
+Date 2026-10-09. **Retrospective exploratory sensitivity analysis, not a frozen OOS result.** Uses Webull SPY RTH M5 bars for Oct 08 and same clock windows on preceding 20 full trading sessions (Sep 10–Oct 07). All dates 2026, EDT UTC-4. Bar range percent = (high-low)/open ×100. All results are price-only realized ranges, NOT options IV. Prior-work context: `research/PRIOR_WORK_REVIEW_STANDARD.md`, `research/savino/crom_savino_combined_incremental_test_v0_1_2026-10-09.md`.
+
+| Window ET | Bars | Oct 08 mean M5 range % | Prior 20 session matched-time mean % | Oct08 absolute window net return % | Prior 20 mean absolute window net return % | Oct08 absolute-return rank (number lower of 20) |
+|---|---:|---:|---:|---:|---:|---:|
+| 13:00–13:30 | 6 | 0.146667 | 0.066454 | 0.263866 | 0.076003 | 19 |
+| 13:30–14:00 | 6 | 0.100943 | 0.056104 | 0.105043 | 0.053265 | 19 |
+| 13:30–15:00 | 18 | 0.084371 | 0.062081 | 0.229539 | 0.139670 | 17 |
+| 12:30–14:30 | 24 | 0.116623 | 0.063845 | 0.270450 | 0.112121 | 19 |
+| 13:30–16:00 | 30 | 0.080832 | 0.062991 | 0.365707 | 0.161045 | 18 |
+
+Oct 08 Savino preposted intraday approximate trough 13:00–13:03; actual SPY RTH M5 low in 13:25 bar. Crom Oct 02 blue alert projected Oct 08 17:30 ±4 consecutive elapsed hours (USER-ASSUMED), strict RTH window 13:30–16:00. Savino pivot **outside strict window**, and actual low outside strict window. The immediately prior 13:00–13:30 period had more than twice historical mean bar range; the first 13:30–14:00 had ~1.8× historical mean; this pattern is consistent with a broader active-volatility environment around a turn, but is **NOT proof of pre-specified Crom forecast accuracy**. Window 12:30–14:30 was CHOSEN AFTER OBSERVING the Oct08 turn, thus **descriptive only** and may not be scored as a newly discovered successful forecast.
+
+**Distinct four-arm test status**: price-only matched baseline computed; Crom-only volatility descriptive evidence available; Savino-only broad turning-phase match on one selected day; strict combined signal **not triggered**. Broad combined context is a **candidate model** without any prospective outcome observations. Comparing larger absolute returns to baseline does not establish tradable net alpha: the side, entry time, stop, slippage and option premium unknown. Window absolute net returns are hindsight descriptors, not available-to-trade at window start without direction.
+
+**Clean next hypothesis to precommit on untouched future paired events**: keep original Crom strict-window score intact; separately label a Crom **CONTEXT** flag on the whole forecast session only if an alert was posted BEFORE that session, and measure whether independently timestamped Savino pivots during the same session have larger subsequent 30/60/90m absolute moves and lower directional errors than Savino pivots on sessions without Crom alert. Evaluate intersection vs context vs Savino-only vs matched clock-time baseline; include opportunity loss and all missed/false alarms. **Do not backfit a ±30-minute halo to Oct08**; no changed Crom official windows. Require raw preposted Savino pivots and Crom alert coverage on both alert and non-alert days. No production changes.
