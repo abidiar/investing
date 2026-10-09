@@ -180,3 +180,20 @@ Until then, do not further tune public OI-based GEX.
 - Frozen protocols/code/results: `research/` and `research/results/`
 - Google Doc human-readable ledger: **Investing OS Research Ledger — Canonical**, document ID `1MxHv5HPlr1Ab9A8cb3diPUtBJv6fWgNZwhhrw72zAus`
 - Live Investing OS Sheet: spreadsheet ID `14lTnD-on91I4F5E5FAQ8-39zTRv2GzBjyd1b4_uCzjc`
+
+## Savino SPX destination/invalidation reference — 2026-10-09
+Verdict: **RESEARCH-ONLY / NO DEMONSTRATED DECISION EDGE**; optional non-directional display is permitted, but NO live production promotion or automatic scanner logic change.
+
+Records:
+- `research/savino_preliminary_pattern_audit_2026-10-09.md`
+- `research/savino_destination_invalidation_test_v0_1_frozen_2026-10-09.md`
+- `research/savino_destination_invalidation_results_v0_1_2026-10-09.md`
+- `research/savino/savino_structural_reference_overlay_v0_1_2026-10-09.md`
+
+Six screenshot-selected retrospective dates; first independent OR+VWAP M5 entry each day (Webull SPY proxy). Nearest Savino translated next level won the target-before-structural-stop race 3/6, but each target-first outcome offered under 0.5R at entry. One of six setups offered >=2R to the nearest level, and it stopped first. Plain offset fixed-distance level grids had 2–4/6 target-first outcomes; no demonstrated Savino edge. No exact SPX intraday entitlement; provider/basis and selection risks remain.
+
+**Use:** timestamp/source-verified SPX major-level map as a separate optional reference showing potential next destination, intervening friction and possible failure/reclaim zone AFTER direction, independent trigger, stop, destination and viable R:R have been established. No Savino-derived entries, no Strength/Runway credit, no auto-veto/auto-target/auto-stop, and no A+ reclassification. When unposted/unverified, omit map rather than backfill. Do not modify frozen A+ v1.0 or 11:00 late-state-change experiment.
+
+Do Not Re-Test Unless: exact SPX M5 and materially more complete timestamped premarket archive available, a documented prior-work review is completed, and a new distance-matched v0.2 test is frozen before its untouched outcomes. Separate invalidation-stop test must account for stop widths, false exits and net options execution quality.
+
+Google Doc ledger must match this posture; operational prompts may print optional research context but live service/scanner logic remains unchanged.
