@@ -197,3 +197,14 @@ Six screenshot-selected retrospective dates; first independent OR+VWAP M5 entry 
 Do Not Re-Test Unless: exact SPX M5 and materially more complete timestamped premarket archive available, a documented prior-work review is completed, and a new distance-matched v0.2 test is frozen before its untouched outcomes. Separate invalidation-stop test must account for stop widths, false exits and net options execution quality.
 
 Google Doc ledger must match this posture; operational prompts may print optional research context but live service/scanner logic remains unchanged.
+
+## Savino inverse timing + SPX level combined proof of concept — 2026-10-09
+Verdict: **MEASUREMENT PIPELINE FEASIBLE / INCREMENTAL EDGE NOT DEMONSTRATED / RESEARCH-ONLY**.
+- Prior work: `research/prior_work/savino_inverse_timing_combined_poc_prior_work_2026-10-09.md`
+- Precommitted exploratory measurement method (AFTER the session outcome was known): `research/savino/savino_inverse_combined_poc_protocol_v0_1_2026-10-09.md`
+- Detailed results: `research/savino/savino_inverse_combined_poc_results_2026-10-09.md`
+- Reproducible scorer/data: `research/run_savino_inverse_poc_v0_1.py` and `research/results/savino_inverse_poc_2026-10-08_intervals.csv`
+
+One screenshot-selected matched October 8 inverse curve scored from ORIGINAL PREMARKET red path against connected Webull SPY M5 30-minute signs: **6 of 12** direction matches; always-UP and always-DOWN same-day baselines also **6 of 12**. Afternoon forecast trough ~13:03 ET versus actual Webull SPY low in 13:25 M5 bar (~22m early, approximate chart x calibration). **Major scale warning:** morning red chart left axis ~7795–7807 SPX; post-close results chart left axis ~7730–7805. The premarket chart cannot legitimately be credited with accurately calling 7730. The independent Oct 8 OR+VWAP 10:10 LONG contradicts the inverse DOWN phase (and later stops), but the actual first half-hour direction was UP; hypothetical after-the-fact filtering is NOT evidence of an advantageous live filter.
+
+Conclusion: do not add inverse as timing gate, Direction/Strength/Runway input, veto, A+ promoter, trade or stop authority. Savino levels remain optional structural reference only, frozen A+ unchanged. Before any future promotion collect 30–50+ timestamp-archived untouched matched intraday inverse+levels sessions, resolve axis and SPX M5 data quality, and compare price-only vs inverse-only vs levels-only vs combined under matched entries/stops and opportunity cost.
