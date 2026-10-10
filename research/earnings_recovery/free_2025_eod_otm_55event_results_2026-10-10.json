@@ -8,22 +8,27 @@
   "scope": "55 preexisting 2025 historical events; two fixed entry methods, 30/60 sampled EOD expiry buckets. Research only, outcome previously inspected.",
   "CAVEAT": "EOD bid/ask source lacks volume, and is not contemporaneous with next OPEN entry or intraday stock trigger. This is NOT the original first-option-trade, >=10-volume, actionable options backtest.",
   "quotesProvider": "https://www.dolthub.com/api/v1alpha1/post-no-preference/options/master",
-  "quote_queries": 194,
+  "quote_queries": 192,
   "quote_status_counts": {
-    "OK": 194
+    "OK": 192
   },
   "price_source_status": {
-    "AMAT": {
-      "ok": true,
-      "error": null,
-      "splits": []
-    },
     "ADP": {
       "ok": true,
       "error": null,
       "splits": []
     },
     "ADBE": {
+      "ok": true,
+      "error": null,
+      "splits": []
+    },
+    "AMAT": {
+      "ok": true,
+      "error": null,
+      "splits": []
+    },
+    "ANET": {
       "ok": true,
       "error": null,
       "splits": []
@@ -38,12 +43,12 @@
       "error": null,
       "splits": [
         {
-          "date": "1767623400",
+          "date": "2026-01-05",
           "ratio": 1.067
         }
       ]
     },
-    "ANET": {
+    "COIN": {
       "ok": true,
       "error": null,
       "splits": []
@@ -53,17 +58,12 @@
       "error": null,
       "splits": []
     },
-    "COIN": {
-      "ok": true,
-      "error": null,
-      "splits": []
-    },
     "CRWD": {
       "ok": true,
       "error": null,
       "splits": [
         {
-          "date": "1782999000",
+          "date": "2026-07-02",
           "ratio": 4.0
         }
       ]
@@ -83,12 +83,12 @@
       "error": null,
       "splits": []
     },
-    "DIS": {
+    "DOW": {
       "ok": true,
       "error": null,
       "splits": []
     },
-    "DOW": {
+    "DIS": {
       "ok": true,
       "error": null,
       "splits": []
@@ -113,11 +113,11 @@
       "error": null,
       "splits": [
         {
-          "date": "1761831000",
+          "date": "2025-10-30",
           "ratio": 1.061
         },
         {
-          "date": "1782739800",
+          "date": "2026-06-29",
           "ratio": 0.9535
         }
       ]
@@ -142,27 +142,17 @@
       "error": null,
       "splits": [
         {
-          "date": "1737469800",
+          "date": "2025-01-21",
           "ratio": 1.033
         }
       ]
     },
-    "NEM": {
+    "MPWR": {
       "ok": true,
       "error": null,
       "splits": []
     },
-    "NFLX": {
-      "ok": true,
-      "error": null,
-      "splits": [
-        {
-          "date": "1763389800",
-          "ratio": 10.0
-        }
-      ]
-    },
-    "MPWR": {
+    "NEM": {
       "ok": true,
       "error": null,
       "splits": []
@@ -172,17 +162,27 @@
       "error": null,
       "splits": []
     },
+    "NFLX": {
+      "ok": true,
+      "error": null,
+      "splits": [
+        {
+          "date": "2025-11-17",
+          "ratio": 10.0
+        }
+      ]
+    },
     "NOW": {
       "ok": true,
       "error": null,
       "splits": [
         {
-          "date": "1766068200",
+          "date": "2025-12-18",
           "ratio": 5.0
         }
       ]
     },
-    "PANW": {
+    "OKE": {
       "ok": true,
       "error": null,
       "splits": []
@@ -192,12 +192,12 @@
       "error": null,
       "splits": []
     },
-    "OKE": {
+    "PANW": {
       "ok": true,
       "error": null,
       "splits": []
     },
-    "QCOM": {
+    "REGN": {
       "ok": true,
       "error": null,
       "splits": []
@@ -207,7 +207,12 @@
       "error": null,
       "splits": []
     },
-    "REGN": {
+    "QCOM": {
+      "ok": true,
+      "error": null,
+      "splits": []
+    },
+    "TXN": {
       "ok": true,
       "error": null,
       "splits": []
@@ -218,11 +223,6 @@
       "splits": []
     },
     "UPS": {
-      "ok": true,
-      "error": null,
-      "splits": []
-    },
-    "TXN": {
       "ok": true,
       "error": null,
       "splits": []
@@ -247,12 +247,13 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1767623400",
+          "date": "2026-01-05",
           "ratio": 1.067
         }
       ],
-      "underlying_unadjusted_open": 30.6279297,
-      "underlying_saved_adjusted_ratio": 1.001135,
+      "underlying_unadjusted_open": 32.680001,
+      "underlying_saved_adjusted_ratio": 1.068211,
+      "reversed_future_split_factor": 1.067,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -263,7 +264,7 @@
         "observed_expiry_count": 1,
         "sampled_first_expiry": "2025-03-07",
         "sampled_quoted_strikes": 8,
-        "affordable_EOD_asks_in_first_expiry": 2,
+        "affordable_EOD_asks_in_first_expiry": 4,
         "selection_status": "SELECTED_EOD_PROXY",
         "NO_VOLUME_DATA": true,
         "expiry": "2025-03-07",
@@ -304,16 +305,17 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1767623400",
+          "date": "2026-01-05",
           "ratio": 1.067
         }
       ],
-      "underlying_unadjusted_open": 32.4461098,
-      "underlying_saved_adjusted_ratio": 1.001135,
+      "underlying_unadjusted_open": 34.6199991,
+      "underlying_saved_adjusted_ratio": 1.068211,
+      "reversed_future_split_factor": 1.067,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
-      "entry_quote_rows": 28,
+      "entry_quote_rows": 23,
       "exit_quote_rows": 19,
       "eod_30": {
         "dte": 30,
@@ -348,6 +350,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 37.5800018,
       "underlying_saved_adjusted_ratio": 1.11129,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -395,6 +398,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 39.0,
       "underlying_saved_adjusted_ratio": 1.111289,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -441,24 +445,25 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1766068200",
+          "date": "2025-12-18",
           "ratio": 5.0
         }
       ],
-      "underlying_unadjusted_open": 207.9819946,
-      "underlying_saved_adjusted_ratio": 1.0,
+      "underlying_unadjusted_open": 1039.9099731,
+      "underlying_saved_adjusted_ratio": 5.0,
+      "reversed_future_split_factor": 5.0,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
-      "entry_quote_rows": 0,
-      "exit_quote_rows": 0,
+      "entry_quote_rows": 24,
+      "exit_quote_rows": 21,
       "eod_30": {
         "dte": 30,
-        "observed_expiry_count": 0,
-        "sampled_first_expiry": null,
-        "sampled_quoted_strikes": 0,
+        "observed_expiry_count": 1,
+        "sampled_first_expiry": "2025-03-07",
+        "sampled_quoted_strikes": 8,
         "affordable_EOD_asks_in_first_expiry": 0,
-        "selection_status": "NO_QUOTED_EXPIRY",
+        "selection_status": "NO_AFFORDABLE_EOD_ASK",
         "NO_VOLUME_DATA": true
       },
       "eod_60": {
@@ -492,6 +497,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 111.3399963,
       "underlying_saved_adjusted_ratio": 1.119473,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -539,6 +545,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 113.8700027,
       "underlying_saved_adjusted_ratio": 1.119473,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -577,6 +584,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 79.0,
       "underlying_saved_adjusted_ratio": 1.011152,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -615,6 +623,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 78.1999969,
       "underlying_saved_adjusted_ratio": 1.011152,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -667,6 +676,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 108.4400024,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -712,6 +722,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 189.0599976,
       "underlying_saved_adjusted_ratio": 1.005857,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -756,16 +767,17 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1761831000",
+          "date": "2025-10-30",
           "ratio": 1.061
         },
         {
-          "date": "1782739800",
+          "date": "2026-06-29",
           "ratio": 0.9535
         }
       ],
-      "underlying_unadjusted_open": 204.188446,
-      "underlying_saved_adjusted_ratio": 0.297069,
+      "underlying_unadjusted_open": 206.569998,
+      "underlying_saved_adjusted_ratio": 0.300533,
+      "reversed_future_split_factor": 1.01166,
       "status": "SOURCE_PRICE_SCALE_CONFLICT"
     },
     {
@@ -781,16 +793,17 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1761831000",
+          "date": "2025-10-30",
           "ratio": 1.061
         },
         {
-          "date": "1782739800",
+          "date": "2026-06-29",
           "ratio": 0.9535
         }
       ],
-      "underlying_unadjusted_open": 207.1736298,
-      "underlying_saved_adjusted_ratio": 0.297069,
+      "underlying_unadjusted_open": 209.5899994,
+      "underlying_saved_adjusted_ratio": 0.300533,
+      "reversed_future_split_factor": 1.01166,
       "status": "SOURCE_PRICE_SCALE_CONFLICT"
     },
     {
@@ -807,6 +820,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 99.6299973,
       "underlying_saved_adjusted_ratio": 1.017986,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -845,6 +859,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 103.1600037,
       "underlying_saved_adjusted_ratio": 1.017986,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -883,6 +898,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 70.5,
       "underlying_saved_adjusted_ratio": 1.055353,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -930,6 +946,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 71.4100037,
       "underlying_saved_adjusted_ratio": 1.055353,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -968,6 +985,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 187.7799988,
       "underlying_saved_adjusted_ratio": 1.008542,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1013,6 +1031,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 175.1399994,
       "underlying_saved_adjusted_ratio": 1.01128,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1051,6 +1070,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 176.1300049,
       "underlying_saved_adjusted_ratio": 1.01128,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1089,6 +1109,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 260.6600037,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1127,6 +1148,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 185.0,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1165,6 +1187,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 94.0500031,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1203,6 +1226,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 83.5100021,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1241,6 +1265,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 94.25,
       "underlying_saved_adjusted_ratio": 1.023404,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1279,6 +1304,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 93.9499969,
       "underlying_saved_adjusted_ratio": 1.023404,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1316,17 +1342,18 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1782999000",
+          "date": "2026-07-02",
           "ratio": 4.0
         }
       ],
-      "underlying_unadjusted_open": 80.6624985,
-      "underlying_saved_adjusted_ratio": 1.0,
+      "underlying_unadjusted_open": 322.6499939,
+      "underlying_saved_adjusted_ratio": 4.0,
+      "reversed_future_split_factor": 4.0,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
-      "entry_quote_rows": 0,
-      "exit_quote_rows": 0,
+      "entry_quote_rows": 19,
+      "exit_quote_rows": 19,
       "eod_30": {
         "dte": 30,
         "observed_expiry_count": 0,
@@ -1359,17 +1386,18 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1782999000",
+          "date": "2026-07-02",
           "ratio": 4.0
         }
       ],
-      "underlying_unadjusted_open": 86.6425018,
-      "underlying_saved_adjusted_ratio": 1.0,
+      "underlying_unadjusted_open": 346.5700073,
+      "underlying_saved_adjusted_ratio": 4.0,
+      "reversed_future_split_factor": 4.0,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
-      "entry_quote_rows": 0,
-      "exit_quote_rows": 0,
+      "entry_quote_rows": 21,
+      "exit_quote_rows": 29,
       "eod_30": {
         "dte": 30,
         "observed_expiry_count": 0,
@@ -1403,6 +1431,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 15.25,
       "underlying_saved_adjusted_ratio": 1.039158,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1464,6 +1493,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 15.7550001,
       "underlying_saved_adjusted_ratio": 1.039158,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1516,6 +1546,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 395.3599854,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1554,6 +1585,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 403.0,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1592,6 +1624,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 465.2999878,
       "underlying_saved_adjusted_ratio": 1.025183,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1630,6 +1663,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 476.1199951,
       "underlying_saved_adjusted_ratio": 1.025183,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1668,6 +1702,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 600.0,
       "underlying_saved_adjusted_ratio": 1.008141,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1706,6 +1741,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 606.8900146,
       "underlying_saved_adjusted_ratio": 1.008141,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1744,6 +1780,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 81.2099991,
       "underlying_saved_adjusted_ratio": 1.067677,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1782,6 +1819,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 83.5899963,
       "underlying_saved_adjusted_ratio": 1.067677,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1820,6 +1858,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 94.3799973,
       "underlying_saved_adjusted_ratio": 1.01581,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1858,6 +1897,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 95.0800018,
       "underlying_saved_adjusted_ratio": 1.01581,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1896,6 +1936,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 101.4899979,
       "underlying_saved_adjusted_ratio": 1.000049,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1952,6 +1993,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 105.0999985,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -1999,6 +2041,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 163.5399933,
       "underlying_saved_adjusted_ratio": 1.01128,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2046,6 +2089,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 162.5,
       "underlying_saved_adjusted_ratio": 1.008413,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2084,6 +2128,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 188.6699982,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2122,6 +2167,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 195.0,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2160,6 +2206,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 52.1199989,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2205,6 +2252,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 383.9899902,
       "underlying_saved_adjusted_ratio": 1.000013,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2252,6 +2300,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 383.6000061,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2298,12 +2347,13 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1737469800",
+          "date": "2025-01-21",
           "ratio": 1.033
         }
       ],
       "underlying_unadjusted_open": 110.8099976,
       "underlying_saved_adjusted_ratio": 1.031239,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2350,12 +2400,13 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1737469800",
+          "date": "2025-01-21",
           "ratio": 1.033
         }
       ],
       "underlying_unadjusted_open": 111.0199966,
       "underlying_saved_adjusted_ratio": 1.031239,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2402,24 +2453,25 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1763389800",
+          "date": "2025-11-17",
           "ratio": 10.0
         }
       ],
-      "underlying_unadjusted_open": 118.9810028,
-      "underlying_saved_adjusted_ratio": 1.0,
+      "underlying_unadjusted_open": 1189.8100281,
+      "underlying_saved_adjusted_ratio": 10.0,
+      "reversed_future_split_factor": 10.0,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
-      "entry_quote_rows": 0,
-      "exit_quote_rows": 0,
+      "entry_quote_rows": 30,
+      "exit_quote_rows": 33,
       "eod_30": {
         "dte": 30,
-        "observed_expiry_count": 0,
-        "sampled_first_expiry": null,
-        "sampled_quoted_strikes": 0,
+        "observed_expiry_count": 1,
+        "sampled_first_expiry": "2025-08-22",
+        "sampled_quoted_strikes": 10,
         "affordable_EOD_asks_in_first_expiry": 0,
-        "selection_status": "NO_QUOTED_EXPIRY",
+        "selection_status": "NO_AFFORDABLE_EOD_ASK",
         "NO_VOLUME_DATA": true
       },
       "eod_60": {
@@ -2445,17 +2497,18 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1763389800",
+          "date": "2025-11-17",
           "ratio": 10.0
         }
       ],
-      "underlying_unadjusted_open": 121.401001,
-      "underlying_saved_adjusted_ratio": 1.0,
+      "underlying_unadjusted_open": 1214.0100098,
+      "underlying_saved_adjusted_ratio": 10.0,
+      "reversed_future_split_factor": 10.0,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
-      "entry_quote_rows": 0,
-      "exit_quote_rows": 0,
+      "entry_quote_rows": 30,
+      "exit_quote_rows": 42,
       "eod_30": {
         "dte": 30,
         "observed_expiry_count": 0,
@@ -2489,6 +2542,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 187.8800049,
       "underlying_saved_adjusted_ratio": 1.03334,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2527,6 +2581,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 192.1499939,
       "underlying_saved_adjusted_ratio": 1.033312,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2579,6 +2634,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 199.0,
       "underlying_saved_adjusted_ratio": 1.005966,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2624,6 +2680,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 104.2699966,
       "underlying_saved_adjusted_ratio": 1.015799,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2662,6 +2719,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 107.0299988,
       "underlying_saved_adjusted_ratio": 1.015799,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2700,6 +2758,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 68.0,
       "underlying_saved_adjusted_ratio": 1.011152,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2738,6 +2797,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 70.0,
       "underlying_saved_adjusted_ratio": 1.011152,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2776,6 +2836,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 148.5200043,
       "underlying_saved_adjusted_ratio": 1.026634,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2823,6 +2884,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 153.9700012,
       "underlying_saved_adjusted_ratio": 1.026634,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2870,6 +2932,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 70.0800018,
       "underlying_saved_adjusted_ratio": 1.044291,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2908,6 +2971,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 72.5,
       "underlying_saved_adjusted_ratio": 1.044291,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2960,6 +3024,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 75.5,
       "underlying_saved_adjusted_ratio": 1.054284,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -2998,6 +3063,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 74.8199997,
       "underlying_saved_adjusted_ratio": 1.054284,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3036,6 +3102,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 170.0399933,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3081,6 +3148,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 75.0,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3133,6 +3201,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 79.8799973,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3180,6 +3249,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 99.8700027,
       "underlying_saved_adjusted_ratio": 1.016716,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3232,6 +3302,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 99.6600037,
       "underlying_saved_adjusted_ratio": 1.016716,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3270,6 +3341,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 161.8000031,
       "underlying_saved_adjusted_ratio": 1.008413,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3317,6 +3389,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 162.3099976,
       "underlying_saved_adjusted_ratio": 1.005531,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3355,6 +3428,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 66.8199997,
       "underlying_saved_adjusted_ratio": 1.024663,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3402,6 +3476,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 68.3199997,
       "underlying_saved_adjusted_ratio": 1.024663,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3449,6 +3524,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 124.0299988,
       "underlying_saved_adjusted_ratio": 1.012743,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3487,6 +3563,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 127.25,
       "underlying_saved_adjusted_ratio": 1.012743,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3524,17 +3601,18 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1763389800",
+          "date": "2025-11-17",
           "ratio": 10.0
         }
       ],
-      "underlying_unadjusted_open": 110.0670013,
-      "underlying_saved_adjusted_ratio": 1.0,
+      "underlying_unadjusted_open": 1100.6700134,
+      "underlying_saved_adjusted_ratio": 10.0,
+      "reversed_future_split_factor": 10.0,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
-      "entry_quote_rows": 0,
-      "exit_quote_rows": 0,
+      "entry_quote_rows": 35,
+      "exit_quote_rows": 57,
       "eod_30": {
         "dte": 30,
         "observed_expiry_count": 0,
@@ -3567,35 +3645,14 @@
       "stock_spot_method": "Yahoo chart raw (split-reversed)",
       "stock_splits": [
         {
-          "date": "1763389800",
+          "date": "2025-11-17",
           "ratio": 10.0
         }
       ],
-      "underlying_unadjusted_open": 111.7600021,
-      "underlying_saved_adjusted_ratio": 1.0,
-      "status": "EOD_QUOTE_READ",
-      "quote_entry_status": "OK",
-      "quote_exit_status": "OK",
-      "entry_quote_rows": 0,
-      "exit_quote_rows": 36,
-      "eod_30": {
-        "dte": 30,
-        "observed_expiry_count": 0,
-        "sampled_first_expiry": null,
-        "sampled_quoted_strikes": 0,
-        "affordable_EOD_asks_in_first_expiry": 0,
-        "selection_status": "NO_QUOTED_EXPIRY",
-        "NO_VOLUME_DATA": true
-      },
-      "eod_60": {
-        "dte": 60,
-        "observed_expiry_count": 0,
-        "sampled_first_expiry": null,
-        "sampled_quoted_strikes": 0,
-        "affordable_EOD_asks_in_first_expiry": 0,
-        "selection_status": "NO_QUOTED_EXPIRY",
-        "NO_VOLUME_DATA": true
-      }
+      "underlying_unadjusted_open": 1117.6000214,
+      "underlying_saved_adjusted_ratio": 10.0,
+      "reversed_future_split_factor": 10.0,
+      "status": "SPLIT_DURING_HOLD"
     },
     {
       "ticker": "TXN",
@@ -3611,6 +3668,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 169.8200073,
       "underlying_saved_adjusted_ratio": 1.025897,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3656,6 +3714,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 81.3199997,
       "underlying_saved_adjusted_ratio": 1.009379,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3694,6 +3753,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 82.0199966,
       "underlying_saved_adjusted_ratio": 1.009379,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3732,6 +3792,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 260.2999878,
       "underlying_saved_adjusted_ratio": 1.029023,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3770,6 +3831,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 252.6199951,
       "underlying_saved_adjusted_ratio": 1.029023,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3808,6 +3870,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 78.4400024,
       "underlying_saved_adjusted_ratio": 1.023374,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3846,6 +3909,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 79.2300034,
       "underlying_saved_adjusted_ratio": 1.023374,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3884,6 +3948,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 961.039978,
       "underlying_saved_adjusted_ratio": 1.00671,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3929,6 +3994,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 137.5,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -3967,6 +4033,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 127.4749985,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4005,6 +4072,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 87.9599991,
       "underlying_saved_adjusted_ratio": 1.010708,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4043,6 +4111,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 89.4899979,
       "underlying_saved_adjusted_ratio": 1.010708,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4095,6 +4164,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 82.2799988,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4142,6 +4212,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 83.3499985,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4180,6 +4251,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 105.0999985,
       "underlying_saved_adjusted_ratio": 1.01448,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4227,6 +4299,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 104.9199982,
       "underlying_saved_adjusted_ratio": 1.01448,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4265,6 +4338,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 183.5299988,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4303,6 +4377,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 189.5399933,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4341,6 +4416,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 38.9199982,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4379,6 +4455,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 39.1399994,
       "underlying_saved_adjusted_ratio": 1.0,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4431,6 +4508,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 62.4199982,
       "underlying_saved_adjusted_ratio": 1.017241,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4469,6 +4547,7 @@
       "stock_splits": [],
       "underlying_unadjusted_open": 63.0900002,
       "underlying_saved_adjusted_ratio": 1.017241,
+      "reversed_future_split_factor": 1,
       "status": "EOD_QUOTE_READ",
       "quote_entry_status": "OK",
       "quote_exit_status": "OK",
@@ -4508,8 +4587,8 @@
           "n_with_entry_and_exit_EOD_bidask": 0,
           "n_with_affordable_entry_ask": 7,
           "no_quote_match": 7,
-          "no_expiry": 17,
-          "no_affordable_ask": 4,
+          "no_expiry": 15,
+          "no_affordable_ask": 6,
           "mean_return_pct": null,
           "median_return_pct": null,
           "positive_count": 0
@@ -4531,16 +4610,17 @@
       "method": "rising_lows",
       "n_events": 29,
       "setup_status": {
-        "EOD_QUOTE_READ": 23,
+        "EOD_QUOTE_READ": 22,
         "NO_SIGNAL": 5,
-        "SOURCE_PRICE_SCALE_CONFLICT": 1
+        "SOURCE_PRICE_SCALE_CONFLICT": 1,
+        "SPLIT_DURING_HOLD": 1
       },
       "dtes": {
         "30": {
           "n_with_entry_and_exit_EOD_bidask": 3,
           "n_with_affordable_entry_ask": 6,
           "no_quote_match": 3,
-          "no_expiry": 12,
+          "no_expiry": 11,
           "no_affordable_ask": 5,
           "mean_return_pct": -36.399,
           "median_return_pct": -44.469,
@@ -4550,7 +4630,7 @@
           "n_with_entry_and_exit_EOD_bidask": 0,
           "n_with_affordable_entry_ask": 1,
           "no_quote_match": 1,
-          "no_expiry": 22,
+          "no_expiry": 21,
           "no_affordable_ask": 0,
           "mean_return_pct": null,
           "median_return_pct": null,
