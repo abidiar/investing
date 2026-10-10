@@ -1,0 +1,53 @@
+{
+  "source": "Massive historical option trades 2024-11/12",
+  "observations": [
+    {
+      "ticker": "PYPL",
+      "occ": "O:PYPL241206C00090000",
+      "entry": "2024-11-06",
+      "exit": "2024-11-11",
+      "status": "OK",
+      "first": 0.36,
+      "volume": 38,
+      "last": 1.56,
+      "exitVolume": 441,
+      "barCount": 4
+    },
+    {
+      "ticker": "AMAT",
+      "occ": "O:AMAT241220C00200000",
+      "entry": "2024-11-20",
+      "exit": "2024-11-29",
+      "status": "OK",
+      "first": 0.41,
+      "volume": 104,
+      "last": 0.43,
+      "exitVolume": 513,
+      "barCount": 7
+    },
+    {
+      "ticker": "DELL",
+      "occ": "O:DELL250103C00148000",
+      "entry": "2024-12-03",
+      "exit": "2024-12-10",
+      "status": "OK",
+      "first": 0.35,
+      "volume": 8,
+      "last": null,
+      "exitVolume": 0,
+      "barCount": 3
+    },
+    {
+      "ticker": "LEN",
+      "occ": "O:LEN250124C00160000",
+      "entry": "2024-12-24",
+      "exit": "2025-01-10",
+      "status": "OK",
+      "first": 0.05,
+      "volume": 1,
+      "last": null,
+      "exitVolume": 0,
+      "barCount": 3
+    }
+  ]
+}
