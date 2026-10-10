@@ -1,0 +1,38 @@
+name: Earnings Historical Quote & Volume Source Recovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/earnings_recovery/run_historical_options_missing_contract_source_probe_2026-10-10.py'
+      - '.github/workflows/earnings-options-free-source-recovery.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: earnings-historical-source-recovery
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit free full-chain files and query exact missing contract exits
+        run: python research/earnings_recovery/run_historical_options_missing_contract_source_probe_2026-10-10.py
+      - name: Archive audit data
+        if: always()
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -f research/earnings_recovery/historical_options_missing_contract_source_probe_2026-10-10.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive free option quote and volume source viability [skip ci]'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push && break
+              sleep 2
+            done
+          fi
