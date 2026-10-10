@@ -1,0 +1,45 @@
+{
+  "asof": "2026-10-10",
+  "n": 4,
+  "tradeBarSource": "Massive options daily trade OHLC; historical volume v is number of option CONTRACTS, n is transactions. Quotes at trigger are NOT available.",
+  "cases": [
+    {
+      "ticker": "CMCSA",
+      "occ": "O:CMCSA250307C00035000",
+      "entry": "2025-02-04",
+      "exit": "2025-02-06",
+      "status": "OK",
+      "bars": 3,
+      "firstTrade": 0.23,
+      "entryVolume": 63,
+      "exitTrade": 0.62,
+      "exitVolume": 346
+    },
+    {
+      "ticker": "TXN",
+      "occ": "O:TXN250829C00215000",
+      "entry": "2025-07-30",
+      "exit": "2025-07-31",
+      "status": "OK",
+      "bars": 2,
+      "firstTrade": 0.35,
+      "entryVolume": 1,
+      "exitTrade": 0.26,
+      "exitVolume": 1
+    },
+    {
+      "ticker": "FTNT",
+      "occ": "O:FTNT250912C00088000",
+      "entry": "2025-08-12",
+      "exit": "2025-08-12",
+      "status": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+    },
+    {
+      "ticker": "ZBH",
+      "occ": "O:ZBH251219C00110000",
+      "entry": "2025-11-13",
+      "exit": "2025-11-24",
+      "status": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+    }
+  ]
+}
