@@ -1,0 +1,132 @@
+{
+  "createdDate": "2026-10-10",
+  "status": "Historical stock/option trade BAR pilot, not executable bid/ask fill. Descriptive, previously observed events.",
+  "provider": "Massive connected historical option and stock OHLC, 5-minute bars; DoltHub EOD bid/ask cross-check",
+  "provenance": {
+    "massiveEndpoint": "/v2/aggs/ticker/{optionsOrStockTicker}/range/5/minute/{date}/{date}",
+    "dolthubArchive": "research/earnings_recovery/dolthub_four_event_eod_chain_2026-10-10.json",
+    "optionDailyArchive": "research/earnings_recovery/affordable_otm_tradebar_pilot_observations_2026-10-10.json"
+  },
+  "rules": {
+    "stocks": "Actual UNADJUSTED stock first 5-minute bar reaching +5% from day3/rising entry regular-hour open. A bar high is not the exact touch timestamp. Options: earliest five-minute option trade bar strictly AFTER the first triggered stock five-minute bar. A trade print does not equal liquidatable NBBO bid.",
+    "feesEachSideUsd": 0.65
+  },
+  "observations": [
+    {
+      "ticker": "QCOM",
+      "entry": "day3",
+      "selloffDate": "2025-07-31",
+      "stockEntryDate": "2025-08-05",
+      "stockEntryOpenUnadjusted": 148.52,
+      "stockExitDate": "2025-08-13",
+      "underlyingProfitThreshold": 155.946,
+      "firstHitBarStartUTC": "2025-08-13T15:10:00Z",
+      "firstHitBarHigh": 156.15,
+      "firstHitBarClose": 156.05,
+      "contract": "O:QCOM250905C00175000",
+      "optionExpiration": "2025-09-05",
+      "strike": 175,
+      "entryFirstOptionTradeUsd": 0.14,
+      "entryFirstOptionTradeDate": "2025-08-05",
+      "entryDayOptionVolume": 21,
+      "exitFirstTradeAfterTriggerUTC": "2025-08-13T15:45:00Z",
+      "timeFromHitBarMinutes": 35,
+      "firstTradeAfterTargetUsd": 0.24,
+      "firstTradeAfterVolume": 11,
+      "firstTradeAfterTransactions": 2,
+      "nextTradeUTC": "2025-08-13T16:40:00Z",
+      "nextTradePrice": 0.25,
+      "profitProxyAtFirstAfterTargetPct": 59.38566552901023,
+      "profitProxyEndDayLastPrintPct": 66.21160409556313,
+      "exitOptionBarList": [
+        [
+          "2025-08-13T13:50:00Z",
+          0.15,
+          2
+        ],
+        [
+          "2025-08-13T15:45:00Z",
+          0.24,
+          11
+        ],
+        [
+          "2025-08-13T16:40:00Z",
+          0.25,
+          2
+        ]
+      ],
+      "warning": "No option trade during first 5-minute stock target-hit bar 11:10-11:15 ET. Next actual OPTION trade 11:45 ET. No bid/ask executable at 11:10 confirmed."
+    },
+    {
+      "ticker": "QCOM",
+      "entry": "three_rising_lows",
+      "selloffDate": "2025-07-31",
+      "stockEntryDate": "2025-08-13",
+      "stockEntryOpenUnadjusted": 153.97,
+      "stockExitDate": "2025-09-05",
+      "underlyingProfitThreshold": 161.6685,
+      "firstHitBarStartUTC": "2025-09-05T13:40:00Z",
+      "firstHitBarHigh": 161.8,
+      "firstHitBarClose": 161.74,
+      "contract": "O:QCOM250912C00170000",
+      "optionExpiration": "2025-09-12",
+      "strike": 170,
+      "entryFirstOptionTradeUsd": 0.43,
+      "entryFirstOptionTradeDate": "2025-08-13",
+      "entryDayOptionVolume": 16,
+      "exitFirstTradeAfterTriggerUTC": "2025-09-05T13:50:00Z",
+      "timeFromHitBarMinutes": 10,
+      "firstTradeAfterTargetUsd": 0.28,
+      "firstTradeAfterVolume": 1,
+      "firstTradeAfterTransactions": 1,
+      "laterTradeBar15minAfterTargetUTC": "2025-09-05T13:55:00Z",
+      "laterBarPriceRange": [
+        0.43,
+        0.48
+      ],
+      "laterTradeBar20minAfterTargetUTC": "2025-09-05T14:00:00Z",
+      "profitProxyAtFirstAfterTargetPct": -37.34249713631156,
+      "profitProxyAt14_00_highPct": 8.476517754868285,
+      "profitProxyEndDayLastPrintPct": -64.83390607101947,
+      "exitOptionBarList": [
+        [
+          "2025-09-05T13:50:00Z",
+          0.28,
+          1
+        ],
+        [
+          "2025-09-05T13:55:00Z",
+          0.36,
+          28
+        ],
+        [
+          "2025-09-05T14:00:00Z",
+          0.43,
+          4
+        ],
+        [
+          "2025-09-05T14:10:00Z",
+          0.3,
+          11
+        ],
+        [
+          "2025-09-05T14:30:00Z",
+          0.24,
+          4
+        ],
+        [
+          "2025-09-05T15:00:00Z",
+          0.15,
+          1
+        ],
+        [
+          "2025-09-05T19:05:00Z",
+          0.16,
+          5
+        ]
+      ],
+      "warning": "First observed post-stock-target option trade was single contract at 9:50 ET; no executable at exact 9:40 target. Same option traded higher and lower later, so apparent profit depends strongly on price timing."
+    }
+  ],
+  "sourceGap": "Connected Massive endpoint temporarily rate-limited further PYPL stock 5-minute retrieval. No made-up stop timestamp. Other frozen four-event combinations not independently timestamp verified."
+}
