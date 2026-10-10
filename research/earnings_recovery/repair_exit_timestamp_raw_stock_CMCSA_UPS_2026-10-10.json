@@ -1,0 +1,68 @@
+{
+  "asof": "2026-10-10",
+  "provenance": {
+    "eod_quote_candidates": "research/earnings_recovery/frozen_100event_52_eod_affordable_contracts_for_volume_repair_2026-10-10.json",
+    "dividend_raw_audit": "research/earnings_recovery/raw_stock_price_dividend_exit_audit_100events_2026-10-10.json",
+    "source": "Massive historical unadjusted 5-minute stock bars and real option TRADE OHLC, 2025",
+    "notice": "5-minute threshold is a BAR with unknown intrabar crossing time; first next-bar trade is not a contemporaneous NBBO execution; first-entry trade is not verified 9:30 fill; costs illustrative only."
+  },
+  "cases": [
+    {
+      "ticker": "CMCSA",
+      "event": "2025-01-30",
+      "method": "day3",
+      "entry": "2025-02-04",
+      "rawStockOpen": 32.680001,
+      "target": 34.31400105,
+      "originalAdjustedStockExit": "2025-02-06",
+      "rawStockExit": "2025-02-06",
+      "triggerBarStartUTC": "2025-02-06T17:25:00Z",
+      "triggerBarHigh": 34.32,
+      "option": "O:CMCSA250307C00035000",
+      "entryFirstTradePrice": 0.23,
+      "entryDayVolume": 63,
+      "firstOptionBarAfterTriggerUTC": "2025-02-06T17:35:00Z",
+      "firstOptionBarTradePrice": 0.55,
+      "firstOptionBarVolume": 66,
+      "lastOptionTradeExitDay": 0.62,
+      "originalDoltEODAsk": 0.4,
+      "originalDoltEODExitBid": 0.6,
+      "firstTradeToNextBarProxyPct": 129.80972515856243,
+      "EodQuoteProxyPct": 46.00246002460025,
+      "warning": "Qualified observed strike by historical first trade cost and entry volume; not proven closest affordable strike across every listed strike; next trade 10 minutes after first stock trigger bar start is not executable bid at trigger."
+    },
+    {
+      "ticker": "UPS",
+      "event": "2025-01-30",
+      "method": "day3",
+      "entry": "2025-02-04",
+      "rawStockOpen": 111.3399963,
+      "target": 116.906996115,
+      "originalAdjustedStockExit": "2025-02-18",
+      "rawStockExit": "2025-02-24",
+      "corporateAction": "UPS $1.64 ex-dividend on 2025-02-18; adjusted series reports +5% Feb18, raw price did not reach +5% until Feb24",
+      "triggerBarStartUTC": "2025-02-24T14:50:00Z",
+      "triggerBarHigh": 117.31,
+      "triggerBarClose": 117.31,
+      "option": "O:UPS250307C00121000",
+      "entryFirstTradePrice": 0.29,
+      "entryDayVolume": 27,
+      "sameTriggerBarOptionPriceRange": [
+        0.4,
+        0.46
+      ],
+      "sameTriggerBarOptionVolume": 54,
+      "firstOptionBarAfterTriggerUTC": "2025-02-24T14:55:00Z",
+      "firstOptionBarTradePrice": 0.52,
+      "firstOptionBarTradeRange": [
+        0.52,
+        0.55
+      ],
+      "firstOptionBarVolume": 12,
+      "lastTradeOnWRONGAdjustedStockExitDayFeb18": 0.25,
+      "wrongAdjustedEndDayProxyPct": -17.87521079258008,
+      "firstTradeToCorrectedRawStockTargetProxyPct": 73.18718381112988,
+      "warning": "The previous -17.9% print-to-print figure used dividend-adjusted-stock target date Feb18, NOT actual raw +5% equity target. Correct raw stock first hit Feb24 and next option print at Feb24 9:55 ET +73% proxy, NOT verified sell-side bid."
+    }
+  ]
+}
