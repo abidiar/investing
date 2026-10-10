@@ -126,7 +126,74 @@
         ]
       ],
       "warning": "First observed post-stock-target option trade was single contract at 9:50 ET; no executable at exact 9:40 target. Same option traded higher and lower later, so apparent profit depends strongly on price timing."
+    },
+    {
+      "ticker": "PYPL",
+      "entry": "three_rising_lows",
+      "selloffDate": "2025-02-04",
+      "stockEntryDate": "2025-02-18",
+      "stockEntryOpenUnadjusted": 78.2,
+      "stockExitDate": "2025-02-24",
+      "underlyingStopThreshold": 74.29,
+      "firstHitBarStartUTC": "2025-02-24T15:05:00Z",
+      "firstHitBarLow": 73.97,
+      "firstHitBarClose": 74.38,
+      "contract": "O:PYPL250321C00090000",
+      "strike": 90,
+      "expiry": "2025-03-21",
+      "entryOptionFirstTradePrice": 0.4,
+      "entryDateOptionVolume": 733,
+      "entryDoltEodBid": 0.34,
+      "entryDoltEodAsk": 0.39,
+      "entryDoltEodDelta": 0.1021,
+      "entryDoltEodIV": 0.3421,
+      "exitDoltEodBid": 0.15,
+      "exitDoltEodAsk": 0.16,
+      "exitDoltEodIV": 0.395,
+      "sameStopBarOptionPrintUSD": 0.16,
+      "sameStopBarOptionPrintCount": 1,
+      "sameStopBarUTC": "2025-02-24T15:05:00Z",
+      "nextOptionPrintAfterStopBarUTC": "2025-02-24T15:10:00Z",
+      "nextOptionPrintPrice": 0.15,
+      "nextOptionPrintVolume": 7,
+      "nextOptionPrintTransactions": 4,
+      "returnAfterFeesFirstPrintEntryToAfterStopPct": -64.69864698646987,
+      "returnAfterFeesEodAskToEodBidPct": -63.80832282471627,
+      "warning": "Option bar 10:05 ET contemporaneous with stock-stop five-minute window, not assured sale. First subsequent bar 10:10 ET supports ~15 cent actual trade observation. Increasing IV did not rescue far-OTM call."
+    },
+    {
+      "ticker": "PYPL",
+      "entry": "day3",
+      "selloffDate": "2025-02-04",
+      "stockEntryDate": "2025-02-07",
+      "stockEntryOpenUnadjusted": 79,
+      "stockExitDate": "2025-02-21",
+      "underlyingStopThreshold": 75.05,
+      "firstHitBarStartUTC": "2025-02-21T18:20:00Z",
+      "firstHitBarLow": 74.91,
+      "firstHitBarClose": 74.985,
+      "contract": "O:PYPL250314C00090000",
+      "strike": 90,
+      "expiry": "2025-03-14",
+      "entryOptionFirstTradePrice": 0.43,
+      "entryDateOptionVolume": 359,
+      "optionTradeRecordsOnExitDay": [
+        [
+          "2025-02-21T14:50:00Z",
+          0.17,
+          1
+        ],
+        [
+          "2025-02-21T15:10:00Z",
+          0.15,
+          1
+        ]
+      ],
+      "postStockStopTradeFound": false,
+      "afterStopTradeReturn": null,
+      "priorUnsyncedLastPriceProxyPct": -67.12485681557845,
+      "warning": "Both historical option trades on the stock stop day occurred BEFORE the + or - trigger: 09:50 and 10:10 ET versus first stock stop at 13:20 ET. Prior daily close-print -67% proxy is not an observed exit at the trigger and must not be reported as realizable."
     }
   ],
-  "sourceGap": "Connected Massive endpoint temporarily rate-limited further PYPL stock 5-minute retrieval. No made-up stop timestamp. Other frozen four-event combinations not independently timestamp verified."
+  "sourceGap": "Verified PYPL day3 and rising stock stop 5-minute triggers after paging through Massive stock intraday data where required; at the chosen strikes after-stop option coverage missing for PYPL day3. DELL, AMAT not yet timestamp-audited for options. Data already retrospective/exploratory, not new holdout."
 }
