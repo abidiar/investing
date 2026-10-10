@@ -30,5 +30,9 @@ jobs:
           git add -f research/earnings_recovery/free_2025_eod_otm_55event_results_2026-10-10.json research/earnings_recovery/free_2025_eod_otm_55event_raw_quotes_2026-10-10.json.gz || true
           if ! git diff --cached --quiet; then
             git commit -m 'Record historical 55-event 2025 free EOD options quote audit [skip ci]'
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push && break
+              sleep 2
+            done
           fi
