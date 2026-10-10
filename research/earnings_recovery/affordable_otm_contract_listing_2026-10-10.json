@@ -1,0 +1,324 @@
+{
+  "collectionDate": "2026-10-10",
+  "source": "Massive historical option contract listing",
+  "entries": [
+    {
+      "ticker": "DELL",
+      "method": "day3",
+      "entry": "2025-03-06",
+      "stock": 94.25,
+      "recordCount": 43,
+      "status": "OK",
+      "expiries": [
+        {
+          "targetDte": 30,
+          "targetMin": "2025-04-05",
+          "expiry": "2025-04-11",
+          "strikes": [
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117
+          ],
+          "contracts": [
+            "O:DELL250411C00095000",
+            "O:DELL250411C00096000",
+            "O:DELL250411C00097000",
+            "O:DELL250411C00098000",
+            "O:DELL250411C00099000",
+            "O:DELL250411C00100000",
+            "O:DELL250411C00101000",
+            "O:DELL250411C00102000",
+            "O:DELL250411C00103000",
+            "O:DELL250411C00104000",
+            "O:DELL250411C00105000",
+            "O:DELL250411C00106000",
+            "O:DELL250411C00107000",
+            "O:DELL250411C00108000",
+            "O:DELL250411C00109000",
+            "O:DELL250411C00110000",
+            "O:DELL250411C00111000",
+            "O:DELL250411C00112000",
+            "O:DELL250411C00113000",
+            "O:DELL250411C00114000",
+            "O:DELL250411C00115000",
+            "O:DELL250411C00116000",
+            "O:DELL250411C00117000"
+          ]
+        },
+        {
+          "targetDte": 60,
+          "targetMin": "2025-05-05",
+          "expiry": null,
+          "strikes": [],
+          "contracts": []
+        }
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "method": "rising",
+      "entry": "2025-03-13",
+      "stock": 93.95,
+      "recordCount": 28,
+      "status": "OK",
+      "expiries": [
+        {
+          "targetDte": 30,
+          "targetMin": "2025-04-12",
+          "expiry": "2025-04-17",
+          "strikes": [
+            95,
+            100,
+            105,
+            110,
+            115
+          ],
+          "contracts": [
+            "O:DELL250417C00095000",
+            "O:DELL250417C00100000",
+            "O:DELL250417C00105000",
+            "O:DELL250417C00110000",
+            "O:DELL250417C00115000"
+          ]
+        },
+        {
+          "targetDte": 60,
+          "targetMin": "2025-05-12",
+          "expiry": "2025-05-16",
+          "strikes": [
+            95,
+            100,
+            105,
+            110,
+            115
+          ],
+          "contracts": [
+            "O:DELL250516C00095000",
+            "O:DELL250516C00100000",
+            "O:DELL250516C00105000",
+            "O:DELL250516C00110000",
+            "O:DELL250516C00115000"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "QCOM",
+      "method": "day3",
+      "entry": "2025-08-05",
+      "stock": 148.52,
+      "recordCount": 24,
+      "status": "OK",
+      "expiries": [
+        {
+          "targetDte": 30,
+          "targetMin": "2025-09-04",
+          "expiry": "2025-09-05",
+          "strikes": [
+            150,
+            155,
+            160,
+            165,
+            170,
+            175,
+            180,
+            185
+          ],
+          "contracts": [
+            "O:QCOM250905C00150000",
+            "O:QCOM250905C00155000",
+            "O:QCOM250905C00160000",
+            "O:QCOM250905C00165000",
+            "O:QCOM250905C00170000",
+            "O:QCOM250905C00175000",
+            "O:QCOM250905C00180000",
+            "O:QCOM250905C00185000"
+          ]
+        },
+        {
+          "targetDte": 60,
+          "targetMin": "2025-10-04",
+          "expiry": null,
+          "strikes": [],
+          "contracts": []
+        }
+      ]
+    },
+    {
+      "ticker": "QCOM",
+      "method": "rising",
+      "entry": "2025-08-13",
+      "stock": 153.97,
+      "recordCount": 32,
+      "status": "OK",
+      "expiries": [
+        {
+          "targetDte": 30,
+          "targetMin": "2025-09-12",
+          "expiry": "2025-09-12",
+          "strikes": [
+            155,
+            160,
+            165,
+            170,
+            175,
+            180,
+            185,
+            190
+          ],
+          "contracts": [
+            "O:QCOM250912C00155000",
+            "O:QCOM250912C00160000",
+            "O:QCOM250912C00165000",
+            "O:QCOM250912C00170000",
+            "O:QCOM250912C00175000",
+            "O:QCOM250912C00180000",
+            "O:QCOM250912C00185000",
+            "O:QCOM250912C00190000"
+          ]
+        },
+        {
+          "targetDte": 60,
+          "targetMin": "2025-10-12",
+          "expiry": "2025-10-17",
+          "strikes": [
+            155,
+            160,
+            165,
+            170,
+            175,
+            180,
+            185,
+            190
+          ],
+          "contracts": [
+            "O:QCOM251017C00155000",
+            "O:QCOM251017C00160000",
+            "O:QCOM251017C00165000",
+            "O:QCOM251017C00170000",
+            "O:QCOM251017C00175000",
+            "O:QCOM251017C00180000",
+            "O:QCOM251017C00185000",
+            "O:QCOM251017C00190000"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "PYPL",
+      "method": "day3",
+      "entry": "2025-02-07",
+      "stock": 79,
+      "recordCount": 0,
+      "status": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing",
+      "expiries": [
+        {
+          "targetDte": 30,
+          "targetMin": "2025-03-09",
+          "expiry": null,
+          "strikes": [],
+          "contracts": []
+        },
+        {
+          "targetDte": 60,
+          "targetMin": "2025-04-08",
+          "expiry": null,
+          "strikes": [],
+          "contracts": []
+        }
+      ]
+    },
+    {
+      "ticker": "PYPL",
+      "method": "rising",
+      "entry": "2025-02-18",
+      "stock": 78.2,
+      "recordCount": 0,
+      "status": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing",
+      "expiries": [
+        {
+          "targetDte": 30,
+          "targetMin": "2025-03-20",
+          "expiry": null,
+          "strikes": [],
+          "contracts": []
+        },
+        {
+          "targetDte": 60,
+          "targetMin": "2025-04-19",
+          "expiry": null,
+          "strikes": [],
+          "contracts": []
+        }
+      ]
+    },
+    {
+      "ticker": "AMAT",
+      "method": "day3",
+      "entry": "2025-02-20",
+      "stock": 175.14,
+      "recordCount": 0,
+      "status": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing",
+      "expiries": [
+        {
+          "targetDte": 30,
+          "targetMin": "2025-03-22",
+          "expiry": null,
+          "strikes": [],
+          "contracts": []
+        },
+        {
+          "targetDte": 60,
+          "targetMin": "2025-04-21",
+          "expiry": null,
+          "strikes": [],
+          "contracts": []
+        }
+      ]
+    },
+    {
+      "ticker": "AMAT",
+      "method": "rising",
+      "entry": "2025-02-21",
+      "stock": 176.13,
+      "recordCount": 0,
+      "status": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing",
+      "expiries": [
+        {
+          "targetDte": 30,
+          "targetMin": "2025-03-23",
+          "expiry": null,
+          "strikes": [],
+          "contracts": []
+        },
+        {
+          "targetDte": 60,
+          "targetMin": "2025-04-22",
+          "expiry": null,
+          "strikes": [],
+          "contracts": []
+        }
+      ]
+    }
+  ]
+}
