@@ -1,0 +1,38 @@
+name: Earnings 45-Event Free Historic EOD Call Audit (2024)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/earnings_recovery/run_free_2024_eod_otm_45events_2026-10-10.py'
+      - '.github/workflows/earnings-45event-free-options-2024.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: earnings-55event-free-options-2025
+  cancel-in-progress: false
+jobs:
+  retrospective-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical 45-event free EOD bid ask study of 2024 frozen events
+        run: python research/earnings_recovery/run_free_2024_eod_otm_45events_2026-10-10.py
+      - name: Commit 2024 results and quoted options source
+        if: always()
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -f research/earnings_recovery/free_2024_eod_otm_45event_results_2026-10-10.json research/earnings_recovery/free_2024_eod_otm_45event_raw_quotes_2026-10-10.json.gz || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record frozen 45-event 2024 free EOD option quote audit [skip ci]'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push && break
+              sleep 2
+            done
+          fi
