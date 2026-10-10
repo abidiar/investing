@@ -110,10 +110,10 @@ def quote_valid(x):
 
 def choose(entr,leave,entryDate,expiryDays):
     d=asdate(entryDate);minExp=d+dt.timedelta(days=expiryDays);maxExp=minExp+dt.timedelta(days=7)
-    e=[x for x in entr if quote_valid(x) and minExp<=asdate(str(x["expiration"])[:10])<=maxExp]
+    e=[x for x in entr if minExp<=asdate(str(x["expiration"])[:10])<=maxExp]
     all_exp=sorted(set(str(x["expiration"])[:10] for x in e))
     chosen_exp=all_exp[0] if all_exp else None
-    opts=[x for x in e if str(x["expiration"])[:10]==chosen_exp]
+    opts=[x for x in e if str(x["expiration"])[:10]==chosen_exp and quote_valid(x)]
     afford=sorted([x for x in opts if float(x["ask"])*100+.65<=50 and parse_cash(x.get("strike"))],key=lambda x:float(x["strike"]))
     selected=afford[0] if afford else None
     info={"dte":expiryDays,"observed_expiry_count":len(all_exp),"sampled_first_expiry":chosen_exp,"sampled_quoted_strikes":len(opts),
