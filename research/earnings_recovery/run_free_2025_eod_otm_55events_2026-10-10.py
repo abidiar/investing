@@ -49,7 +49,12 @@ def yahoo(symbol):
     splits=[]
     for spl in splitlist.values():
         r=float(spl.get("numerator",0))/float(spl.get("denominator",1)) if spl.get("denominator") else 0
-        if r>0:splits.append({"date":str(spl.get("date"))[:10],"ratio":r})
+        if r>0:
+            sd=spl.get("date")
+            try:
+                date=dt.datetime.fromtimestamp(int(sd),dt.timezone.utc).date().isoformat() if isinstance(sd,(int,float)) or str(sd).isdigit() else str(sd)[:10]
+            except (ValueError,TypeError,OverflowError):date=str(sd)[:10]
+            splits.append({"date":date,"ratio":r})
     quotes={}
     for t,p in zip(stamps,opens):
         if p is None or not math.isfinite(float(p)):continue
@@ -163,7 +168,9 @@ def go():
             c["underlying_saved_adjusted_ratio"]=round(spot/e["bars"][i][1],6)
             # A massive mismatch usually signifies split/OCC adjustment. Exclude rather than construct wrong strike.
             ratio=spot/e["bars"][i][1]
-            if ratio<.67 or ratio>1.5:
+            expected_factor=math.prod(z["ratio"] for z in y.get("splits",[]) if z["date"]>when)
+            c["reversed_future_split_factor"]=round(expected_factor,5)
+            if ratio/max(0.000001,expected_factor)<.67 or ratio/max(0.000001,expected_factor)>1.5:
                 c["status"]="SOURCE_PRICE_SCALE_CONFLICT";cases.append(c);continue
             if any(when<s["date"]<=x["date"] for s in y.get("splits",[])):
                 c["status"]="SPLIT_DURING_HOLD";cases.append(c);continue
