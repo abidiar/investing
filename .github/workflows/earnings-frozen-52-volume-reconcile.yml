@@ -1,0 +1,36 @@
+name: Historical Frozen 52 Option Contract Volume Reconciliation
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/earnings_recovery/reconcile_52_contract_volume_research_2026-10-10.cjs'
+      - 'research/earnings_recovery/volume_repair_2025_remaining_phase*.json'
+      - 'research/earnings_recovery/volume_repair_2024_remaining_phase*.json'
+      - '.github/workflows/earnings-frozen-52-volume-reconcile.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: earnings-frozen-52-volume-reconcile
+  cancel-in-progress: false
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Merge all recovered historic option trade and stock-exit evidence
+        run: node research/earnings_recovery/reconcile_52_contract_volume_research_2026-10-10.cjs
+      - name: Archive reproducible completeness/eligibility results
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/earnings_recovery/frozen_52_contract_volume_reconciliation_2026-10-10.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update 52 candidate entry volume and raw-stock exit audit [skip ci]'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push && break
+              sleep 2
+            done
+          fi
