@@ -1,0 +1,17 @@
+# Frozen untouched-company holdout — earnings-selloff day-three entry
+
+Protocol frozen October 10, 2026, **before examining new company prices/outcomes**. 65 tickers deliberately disjoint from all 50 companies in the prior 92-event sample, all 57 stocks in the earlier trigger holdout, and the seven original discovery names. Selection is contemporary and intentionally diversified across sectors; NOT a point-in-time historical index.
+
+## Entire frozen ticker list (65)
+ADP, AMAT, AMT, APH, AON, AZO, BK, BLK, BMY, BSX, CHTR, CL, CMCSA, COP, CPRT, CTAS, DAL, DDOG, DG, DLTR, DRI, EA, EOG, EQT, EW, EXPE, FCX, FICO, FIS, FSLR, FTNT, GIS, GLW, GPN, HAL, HSY, KDP, KMB, KR, LEN, LUV, MAR, MCHP, MPWR, NEM, NOC, NTAP, NXPI, OKE, ON, PNC, PPG, PRU, REGN, ROST, STX, SYY, TMO, TPR, VLO, WAB, WDC, WYNN, XOM, ZBH
+
+## Event selection and quality, same as earlier 92-event study
+- Company earnings announcements January 1, 2023–June 30, 2026 from Quant500 SEC 8-K-linked date/time pages. Include only unambiguous BEFORE_OPEN and AFTER_CLOSE sessions; exclude provisional UNKNOWN, DURING_SESSION, dates with uncertainty asterisk and events missing enough price coverage. SEC filing receipt time is only a proxy for actual public release time; this remains a source limitation.
+- For BEFORE_OPEN announcement, reaction session is first regular trading day on/after the date. AFTER_CLOSE reaction starts following trading day. Compare stock close to last close strictly before reaction. First or second post-reaction close <=−5% defines the earnings selloff event. Flag if second day selected, possible intervening news.
+- Screen financial quality strictly from published statements available BEFORE announcement: last four distinct reported quarters' sum net income >0 and sum(CFO+capex) >0, most recent reported quarter revenue > year-earlier comparable quarter revenue, latest published total debt / total equity <2 (equity must be >0). Missing records = UNKNOWN (excluded from quality primary).
+- Freeze day-three entry: after selloff close, buy open on third following regular session; manage for 20 entry-inclusive trading sessions with +5% underlying target and −5% underlying stop, stop-first if both on same day; gaps executed at open; no touch => sell at 20th session close. No fees, slippage, spreads or option premium modeled.
+- Secondary descriptive measurement: market-relative selloff (stock 2-session drop minus SPY same window), stock pre-earnings prior 20-session return, earnings-day market return, selloff magnitude >=10% vs 5–10%, stock-to-SPY relative momentum. These are diagnostic only; no threshold fitting, cherry-picked strata or promotion. Account for clustering by ticker and announcement year.
+- Preserve all attempted companies, valid events, and missing/failed data counts. Do not silently drop missing fundamentals. Evaluate all quality-pass events, quality failures/unknown separately if available. Compare total pass average and win rate to prior 92 sample but do not pool as independent cohorts.
+- Decision: no A+ label unless at least 50 independent eligible quality-PASS events, >60% target-before-stop and positive net profitability after modeled realistic execution, good year-by-year and ticker-cluster robustness. Retrospective company holdout is not live forward test. Signals involving option expirations remain unverified without historical contract premiums.
+
+Sources: https://quant500.com/data and Webull. No paid datasets. 
