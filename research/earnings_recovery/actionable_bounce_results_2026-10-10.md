@@ -67,3 +67,13 @@ The longer window catches more **underlying stock targets**, but also more stops
 
 ## Conclusion and distinct next hypothesis
 Do NOT deploy as A+; the day-three benchmark fails the independent-company cohort and neither new rule proves a stable edge. SMA5 crossover with new high is a *promising candidate for falsification* because mean same-event difference was positive but statistically weak in both cohorts, and its separate cohort was approximately break-even gross before costs. Crucial research target now: can a price-based stabilization entry beat 'too early' after controlling whether the FIRST +5% rebound has already occurred, volatility-adjusted drop and sector-relative strength? Pre-register on an UNTOUCHED 2026Q3+/forward log and test stop risk, independent of options. Then obtain dated historical option quotes from a no-cost provider or clearly hypothetical quote-based Greeks sensitivity for 30/45/60 DTE; no claim that 14-day or 60-day contracts are proven best.
+
+## Additional post-hoc 'already bounced' diagnostic (NOT a new trading rule)
+After viewing the main strategy results, subdivided the SMA5-triggered trades by whether the original selloff closing price had already been exceeded by +5% intraday BEFORE the modeled entry and whether an additional -10% had occurred before entry. **This is explicitly post-hoc exploration, not previously frozen, and cannot establish a new filter.**
+
+| Cohort | SMA5 events with early +5% bounce | Gross mean stock return (+5/−10, max 20 sessions) | SMA5 events WITHOUT early +5% bounce | Gross mean |
+|---|---:|---:|---:|---:|
+| Original | 17 | +0.68% | 54 | +2.00% |
+| Separate | 17 | +0.66% | 40 | −0.33% |
+
+The original sample appeared to favor waiting through an extra -10% dislocation and buying below the initial selloff anchor, but the separate sample pointed the opposite way: after an additional -10% decline, SMA5 signal outcome was +4.08% for 10 original events vs **−4.54%** for 9 separate events. Such instability is strong evidence NOT to create 'oversold 10%' filters from this archive. An unsighted forward series and actual option prices remain required.
