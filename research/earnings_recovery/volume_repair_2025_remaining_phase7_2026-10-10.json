@@ -1,0 +1,53 @@
+{
+  "source": "Massive 2025 option history trade OHLCV",
+  "observations": [
+    {
+      "ticker": "CPRT",
+      "occ": "O:CPRT260116C00042500",
+      "entry": "2025-12-11",
+      "exit": "2026-01-09",
+      "status": "OK",
+      "first": 0.27,
+      "volume": 5,
+      "last": 0.1,
+      "exitVolume": 16,
+      "bars": 20
+    },
+    {
+      "ticker": "FIS",
+      "occ": "O:FIS251017C00080000",
+      "entry": "2025-08-14",
+      "exit": "2025-08-21",
+      "status": "OK",
+      "first": null,
+      "volume": 0,
+      "last": null,
+      "exitVolume": 0,
+      "bars": 1
+    },
+    {
+      "ticker": "FTNT",
+      "occ": "O:FTNT250912C00089000",
+      "entry": "2025-08-13",
+      "exit": "2025-09-02",
+      "status": "OK",
+      "first": 0.4,
+      "volume": 3,
+      "last": 0.04,
+      "exitVolume": 2,
+      "bars": 6
+    },
+    {
+      "ticker": "AMAT",
+      "occ": "O:AMAT250919C00190000",
+      "entry": "2025-08-20",
+      "exit": "2025-09-11",
+      "status": "OK",
+      "first": 0.39,
+      "volume": 1510,
+      "last": 0.12,
+      "exitVolume": 223,
+      "bars": 16
+    }
+  ]
+}
