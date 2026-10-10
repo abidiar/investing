@@ -1,0 +1,27 @@
+# Frozen protocol — options survivability sensitivity / historical trade-bar feasibility (2026-10-10)
+
+Status: retrospective EXPLORATORY, not untouched validation. Frozen before the new option-value sensitivity calculation. Prior-work note: research/prior_work/earnings_rebound_call_entry_options_prior_work_2026-10-10.md.
+
+## Universe / data
+Use saved 164 event stock OHLC windows, 92 original + 72 separate-company cohort; first qualifying post-earnings selloff closing price is the event anchor. Dates 2023–June 2026. Do not modify event list. Source research/earnings_recovery/actionable_bounce_event_price_windows_164_2026-10-10.json (eventIndexWithinBars=7, each bar [YYYY-MM-DD,open,high,low,close]). No claims of independent forward validation. Repeat the four already frozen entries from actionable_bounce_entry_protocol_2026-10-10.md, enter next *open*, no lookahead:
+- next_open first post-selloff session open; day3 third post-selloff session open;
+- SMA5 crossover: first post-selloff session 5–20 where close > current 5-close average and yesterday close <= yesterday 5-close average and today's close > yesterday high, enter next open, skip outright if this open >1.08x original selloff close;
+- 3 rising lows: first post-selloff session 3–20 with nondecreasing lows last three sessions and today's close above past 2 sessions' highs, enter next open; same first-trigger chase cap; no signal = no trade.
+
+## Model-based sensitivity (NOT actual option ROI)
+- At each entry OPEN, purchase a synthetic ATM European call, strike=entry stock price exactly (nonlisted strike approximation). Each nominal original DTE in 14,30,45,60,90 calendar days. European Black-Scholes call with r=4%/year, continuous q=0; dividend, skew, American exercise, early assignment, actual strikes, interest history and evolving realized IV are not modeled.
+- Initial annualized implied volatility IV0 in {25%,40%,60%}; future IV evolution flat, minus 10 absolute vol points over 10 calendar days, or plus 10 absolute points over 10 calendar days, linearly, then fixed. Lower floor 10%. These are sensitivity assumptions, NOT empirical IV estimates. Selection is pre-outcome.
+- Buy at theoretical mid times 1.01 + $0.65 per standard contract (100 shares); sell at theoretical mid times 0.99 - $0.65 per contract, floor net liquidation proceeds at zero. Thus approximate roundtrip 2% combined spread, excluding commissions. No model calibration to historical option premiums.
+- Underlying exit, frozen for ALL DTE: +5% stock profit threshold or -5% stock stop from entry OPEN within at most 20 entry-inclusive trading sessions, next session after initial entry counts as second. Open gaps use actual opening price; if intraday both barriers touched, STOP is assumed first. Sell option marked at the assumed stock stop/target underlying spot and remaining time on barrier day; barrier touches assumed around market midday, entry at session opening. If neither barrier hit, sell at closing spot of earlier of session 20 or last available regular trading session before calendar expiry (DTE-1). Model lower bound of remaining time 0.000001 years; no expiry exercise/cash-settlement assumptions beyond forced sale.
+- Premium max drawdown proxy: minimum daily theoretical *liquidation* value when underlying at intraday LOW between buy and exit, divided by purchase debit; this is a pessimistic intraday risk proxy; may count within-bar low after first target if timing unknown. Never claim actual options drawdown.
+- Record profit likelihood, average/median modeled return, 10th percentile, mean and median premium drawdown for every strategy, cohort, DTE, IV0 and IV change. Failed signals count 0% per-event in population-level averages; conditional trade averages separate.
+- Principal comparisons: each confirmation strategy against day3 buying SAME signaled events, plus initial next_open; contrasts separated by cohorts. No most-profitable DTE designation because the model is calibrated to no actual option IV data and scenarios are wide. Distinguish 14-DTE short-window timeouts.
+- No A+ scanner promotion without real quotes, independent calendar holdout and after-cost viability.
+
+## Historical options trade bar (NOT executable quotes) pilot
+Preselect exactly DELL event 2025-03-03 (original), QCOM 2025-07-31 (original), PYPL 2025-02-04 (original), AMAT 2025-02-14 (holdout). Compare day3 and rising-lows observed entry triggers where they exist; no new event replacements after seeing data availability.
+For each entry, find actual listed ATM-ish call strike and nearest actual expiry on/after entry + nominal 30 and 60 days from those option calendars. Confirm contract existence. Retrieve Massive OHLC DAILY option trade bars covering entry-to-underlying-exit for each. Use daily trade open as the proxy for entry at underlying open; use daily trade close as an approximate exit mark, while explicitly noting that asynchronous stock and option prints, actual same-day stop timing, bid/ask, IV, dividends, contract splits, fees and trade liquidity prevent executable ROI inference. If missing bars, show missing; do not interpolate option data.
+Keep actual option-bar pilot results separate from theoretical Black-Scholes outputs; do not infer all-event strategy performance from pilot.
+
+## Documentation
+Preserve new results under research/earnings_recovery/, mark RESEARCH-ONLY / unvalidated. Update master status and Google Doc if completed. No scanner/runtime changes.
