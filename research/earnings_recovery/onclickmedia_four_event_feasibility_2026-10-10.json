@@ -1,0 +1,86 @@
+{
+  "as_of": "2026-10-10",
+  "provider": "https://backtest.onclickmedia.com/",
+  "meaning": "EOD bid/ask driven provider backtest; NOT an executable opening-price quote or an intraday stock-trigger fill",
+  "events": [
+    [
+      "DELL",
+      "day3",
+      "2025-03-06",
+      "2025-03-07"
+    ],
+    [
+      "DELL",
+      "rising_lows",
+      "2025-03-13",
+      "2025-03-17"
+    ],
+    [
+      "QCOM",
+      "day3",
+      "2025-08-05",
+      "2025-08-13"
+    ],
+    [
+      "QCOM",
+      "rising_lows",
+      "2025-08-13",
+      "2025-09-05"
+    ],
+    [
+      "PYPL",
+      "day3",
+      "2025-02-07",
+      "2025-02-21"
+    ],
+    [
+      "PYPL",
+      "rising_lows",
+      "2025-02-18",
+      "2025-02-24"
+    ],
+    [
+      "AMAT",
+      "day3",
+      "2025-02-20",
+      "2025-02-25"
+    ],
+    [
+      "AMAT",
+      "rising_lows",
+      "2025-02-21",
+      "2025-02-25"
+    ]
+  ],
+  "dte_targets": [
+    30,
+    60
+  ],
+  "fixed_moneyness": [
+    -0.05,
+    -0.1,
+    -0.15,
+    -0.2
+  ],
+  "budget_USD": 50,
+  "availability": {
+    "DELL": {
+      "ok": false,
+      "error": "HTTP 502: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-502/\",\"title\":\"Error 502: Bad gateway\",\"status\":502,\"detail\":\"The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overloaded or misconfigured.\",\"instance\":\"a4895485ef4490b3\",\"error_code\":502,\"error_name\":\"origin_bad_gate"
+    },
+    "QCOM": {
+      "ok": false,
+      "error": "HTTP 502: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-502/\",\"title\":\"Error 502: Bad gateway\",\"status\":502,\"detail\":\"The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overloaded or misconfigured.\",\"instance\":\"a48954891e970043\",\"error_code\":502,\"error_name\":\"origin_bad_gate"
+    },
+    "PYPL": {
+      "ok": false,
+      "error": "HTTP 502: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-502/\",\"title\":\"Error 502: Bad gateway\",\"status\":502,\"detail\":\"The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overloaded or misconfigured.\",\"instance\":\"a489548c5cc77619\",\"error_code\":502,\"error_name\":\"origin_bad_gate"
+    },
+    "AMAT": {
+      "ok": false,
+      "error": "HTTP 502: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-502/\",\"title\":\"Error 502: Bad gateway\",\"status\":502,\"detail\":\"The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overloaded or misconfigured.\",\"instance\":\"a489548faa5e3ef3\",\"error_code\":502,\"error_name\":\"origin_bad_gate"
+    }
+  },
+  "probes": [],
+  "status": "UNREACHABLE: all availability checks failed, no POST requests attempted"
+}
