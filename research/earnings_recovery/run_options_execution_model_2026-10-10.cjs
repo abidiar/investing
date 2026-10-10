@@ -1,6 +1,6 @@
 // Research calculation for options_execution_model_protocol_2026-10-10.md
 // Input: JSON research/earnings_recovery/actionable_bounce_event_price_windows_164_2026-10-10.json
-// Run: const fs=require('fs'); const data=JSON.parse(fs.readFileSync(process.argv[2],'utf8')); const results=(function analyze(data){
+const fs=require('fs'); const data=JSON.parse(fs.readFileSync(process.argv[2],'utf8')); const results=(function analyze(data){
  const idx=data.eventIndexWithinBars;
  const MS=86400000;const dateN=d=>Date.parse(d+"T12:00:00Z");const cdf=x=>{const t=1/(1+0.2316419*Math.abs(x)),d=.3989422804014327*Math.exp(-x*x/2);const p=1-d*t*(.319381530+t*(-.356563782+t*(1.781477937+t*(-1.821255978+t*1.330274429))));return x>=0?p:1-p};
  function call(s,k,iv,caldays){const T=Math.max(0.0000001,caldays)/365,r=.04,sigma=Math.max(.10,iv);const z=Math.log(s/k)+(r+.5*sigma*sigma)*T;const d1=z/(sigma*Math.sqrt(T)),d2=d1-sigma*Math.sqrt(T);return Math.max(s*cdf(d1)-k*Math.exp(-r*T)*cdf(d2),0)}
