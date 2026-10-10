@@ -1,0 +1,196 @@
+{
+  "explanation": "Calendar-day windows from next-open entry; +5% underlying target before -10% underlying stop, otherwise expiry last close; NOT option pricing, IV, Greeks or true listed expiration dates.",
+  "result": {
+    "original92": {
+      "day3": {
+        "14": {
+          "n": 92,
+          "wins": 42,
+          "stops": 6,
+          "timeouts": 44,
+          "meanUnderlyingPct": 0.7388206651604527
+        },
+        "30": {
+          "n": 92,
+          "wins": 54,
+          "stops": 14,
+          "timeouts": 24,
+          "meanUnderlyingPct": 0.9228146594552179
+        },
+        "45": {
+          "n": 92,
+          "wins": 61,
+          "stops": 18,
+          "timeouts": 13,
+          "meanUnderlyingPct": 1.0301634098714565
+        },
+        "60": {
+          "n": 92,
+          "wins": 62,
+          "stops": 21,
+          "timeouts": 9,
+          "meanUnderlyingPct": 0.8632531602384297
+        },
+        "coverage": 92
+      },
+      "sma_reclaim": {
+        "14": {
+          "n": 71,
+          "wins": 30,
+          "stops": 5,
+          "timeouts": 36,
+          "meanUnderlyingPct": 0.725543892895027
+        },
+        "30": {
+          "n": 71,
+          "wins": 44,
+          "stops": 10,
+          "timeouts": 17,
+          "meanUnderlyingPct": 1.478025265020703
+        },
+        "45": {
+          "n": 71,
+          "wins": 47,
+          "stops": 15,
+          "timeouts": 9,
+          "meanUnderlyingPct": 1.0239145453789866
+        },
+        "60": {
+          "n": 71,
+          "wins": 49,
+          "stops": 20,
+          "timeouts": 2,
+          "meanUnderlyingPct": 0.7846556153711338
+        },
+        "coverage": 71
+      },
+      "rising_lows_break": {
+        "14": {
+          "n": 68,
+          "wins": 26,
+          "stops": 3,
+          "timeouts": 39,
+          "meanUnderlyingPct": 1.211771024528368
+        },
+        "30": {
+          "n": 68,
+          "wins": 37,
+          "stops": 7,
+          "timeouts": 24,
+          "meanUnderlyingPct": 1.1580282079668722
+        },
+        "45": {
+          "n": 68,
+          "wins": 41,
+          "stops": 12,
+          "timeouts": 15,
+          "meanUnderlyingPct": 0.7131883498880768
+        },
+        "60": {
+          "n": 68,
+          "wins": 42,
+          "stops": 16,
+          "timeouts": 10,
+          "meanUnderlyingPct": 0.7810367265890821
+        },
+        "coverage": 68
+      }
+    },
+    "independent72": {
+      "day3": {
+        "14": {
+          "n": 72,
+          "wins": 26,
+          "stops": 10,
+          "timeouts": 36,
+          "meanUnderlyingPct": -0.4679626834850665
+        },
+        "30": {
+          "n": 72,
+          "wins": 34,
+          "stops": 15,
+          "timeouts": 23,
+          "meanUnderlyingPct": -0.49771043391310243
+        },
+        "45": {
+          "n": 72,
+          "wins": 37,
+          "stops": 21,
+          "timeouts": 14,
+          "meanUnderlyingPct": -0.8880332698858464
+        },
+        "60": {
+          "n": 72,
+          "wins": 40,
+          "stops": 23,
+          "timeouts": 9,
+          "meanUnderlyingPct": -0.6775682052767981
+        },
+        "coverage": 72
+      },
+      "sma_reclaim": {
+        "14": {
+          "n": 57,
+          "wins": 18,
+          "stops": 3,
+          "timeouts": 36,
+          "meanUnderlyingPct": 0.19982730290885342
+        },
+        "30": {
+          "n": 57,
+          "wins": 24,
+          "stops": 8,
+          "timeouts": 25,
+          "meanUnderlyingPct": -0.12865286198706838
+        },
+        "45": {
+          "n": 57,
+          "wins": 30,
+          "stops": 13,
+          "timeouts": 14,
+          "meanUnderlyingPct": -0.34493037426105555
+        },
+        "60": {
+          "n": 57,
+          "wins": 35,
+          "stops": 14,
+          "timeouts": 8,
+          "meanUnderlyingPct": 0.19703407270481643
+        },
+        "coverage": 57
+      },
+      "rising_lows_break": {
+        "14": {
+          "n": 52,
+          "wins": 21,
+          "stops": 4,
+          "timeouts": 27,
+          "meanUnderlyingPct": 0.5373312931590487
+        },
+        "30": {
+          "n": 52,
+          "wins": 29,
+          "stops": 9,
+          "timeouts": 14,
+          "meanUnderlyingPct": 0.16171880729765922
+        },
+        "45": {
+          "n": 52,
+          "wins": 32,
+          "stops": 12,
+          "timeouts": 8,
+          "meanUnderlyingPct": 0.13446555678690117
+        },
+        "60": {
+          "n": 52,
+          "wins": 34,
+          "stops": 13,
+          "timeouts": 5,
+          "meanUnderlyingPct": 0.14039229021335703
+        },
+        "coverage": 52
+      }
+    }
+  },
+  "issues": []
+}
