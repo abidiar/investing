@@ -8,7 +8,7 @@ const read=p=>JSON.parse(fs.readFileSync(root+p,'utf8'));
 const src=read('frozen_100event_52_eod_affordable_contracts_for_volume_repair_2026-10-10.json');
 const raw=read('raw_stock_price_dividend_exit_audit_100events_2026-10-10.json');
 const rawMap=new Map(raw.all_setups.map(z=>[z.year+'|'+z.ticker+'|'+z.event+'|'+z.method,z]));
-const paths=fs.readdirSync(root).filter(n=>/^volume_repair_(massive_historical_trade_probes_phase[12]|2024_remaining_phase[0-9]+|2025_remaining_phase[0-9]+)_2026-10-10\.json$/.test(n)).sort();
+const paths=fs.readdirSync(root).filter(n=>n.startsWith('volume_repair_') && n.endsWith('_2026-10-10.json') && !n.includes('source_probe')).sort();
 const key=z=>[z.occ,z.entry,z.exit].join('|');
 const observations=new Map();
 for(const file of paths){
