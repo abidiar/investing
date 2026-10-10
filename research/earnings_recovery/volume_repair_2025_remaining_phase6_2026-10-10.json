@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-10",
+  "data_type": "option actual historical first trade and session volume",
+  "observations": [
+    {
+      "ticker": "CSCO",
+      "occ": "O:CSCO250919C00070000",
+      "entry": "2025-08-20",
+      "exit": "2025-09-17",
+      "status": "OK",
+      "first": 0.45,
+      "volume": 3981,
+      "last": 0.03,
+      "exitVolume": 801,
+      "queryBars": 20
+    },
+    {
+      "ticker": "CSCO",
+      "occ": "O:CSCO250926C00073000",
+      "entry": "2025-08-27",
+      "exit": "2025-09-24",
+      "status": "OK",
+      "first": 0.22,
+      "volume": 22,
+      "last": 0.01,
+      "exitVolume": 5,
+      "queryBars": 17
+    },
+    {
+      "ticker": "FTNT",
+      "occ": "O:FTNT251212C00096000",
+      "entry": "2025-11-11",
+      "exit": "2025-11-20",
+      "status": "Warning [EMPTY]: API returned 0 records. The ticker may be invalid, delisted, or have no data for the requested period."
+    },
+    {
+      "ticker": "DIS",
+      "occ": "O:DIS251219C00120000",
+      "entry": "2025-11-18",
+      "exit": "2025-12-11",
+      "status": "OK",
+      "first": 0.21,
+      "volume": 432,
+      "last": 0.1,
+      "exitVolume": 690,
+      "queryBars": 17
+    }
+  ]
+}
