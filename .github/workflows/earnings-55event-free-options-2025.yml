@@ -1,0 +1,34 @@
+name: Earnings 55-Event Free Historic EOD Call Audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/earnings_recovery/run_free_2025_eod_otm_55events_2026-10-10.py'
+      - '.github/workflows/earnings-55event-free-options-2025.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: earnings-55event-free-options-2025
+  cancel-in-progress: false
+jobs:
+  retrospective-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Historical free EOD bid ask on frozen 55-event 2025 cohort
+        run: python research/earnings_recovery/run_free_2025_eod_otm_55events_2026-10-10.py
+      - name: Commit full result and fetched market evidence
+        if: always()
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -f research/earnings_recovery/free_2025_eod_otm_55event_results_2026-10-10.json research/earnings_recovery/free_2025_eod_otm_55event_raw_quotes_2026-10-10.json.gz || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record historical 55-event 2025 free EOD options quote audit [skip ci]'
+            git push
+          fi
