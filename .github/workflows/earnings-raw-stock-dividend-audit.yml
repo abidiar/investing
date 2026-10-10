@@ -1,0 +1,35 @@
+name: Earnings 100-Event Dividend-Adjusted Vs Raw Stock Exit Audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/earnings_recovery/run_adjusted_vs_raw_stock_exit_100events_2026-10-10.py'
+      - '.github/workflows/earnings-raw-stock-dividend-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  historical-corporate-action-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify 100 historical earnings trade stock barriers without dividend adjustment
+        run: python research/earnings_recovery/run_adjusted_vs_raw_stock_exit_100events_2026-10-10.py
+      - name: Persist full 200-setup raw-vs-adjusted result
+        if: always()
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -f research/earnings_recovery/raw_stock_price_dividend_exit_audit_100events_2026-10-10.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive dividend versus raw option-execution stock target mismatch study [skip ci]'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push && break
+              sleep 2
+            done
+          fi
