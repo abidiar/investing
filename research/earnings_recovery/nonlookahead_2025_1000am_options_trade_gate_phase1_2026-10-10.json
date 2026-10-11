@@ -1,0 +1,43 @@
+{
+  "fromFrozen": "nonlookahead_priorclose_2025_55events_selections_2026-10-10.json",
+  "observations": [
+    {
+      "ticker": "HPE",
+      "occ": "O:HPE250411C00017500",
+      "entry": "2025-03-12",
+      "status": "EMPTY"
+    },
+    {
+      "ticker": "FTNT",
+      "occ": "O:FTNT250718C00125000",
+      "entry": "2025-05-14",
+      "status": "EMPTY"
+    },
+    {
+      "ticker": "QCOM",
+      "occ": "O:QCOM251017C00185000",
+      "entry": "2025-08-13",
+      "status": "OK",
+      "before10Volume": 20,
+      "preBars": [
+        {
+          "time": "09:30",
+          "v": 20,
+          "o": 0.5
+        }
+      ],
+      "firstPost10": null,
+      "totalBars": 4,
+      "firstWholeDay": {
+        "time": "09:30",
+        "price": 0.5
+      }
+    },
+    {
+      "ticker": "FIS",
+      "occ": "O:FIS251017C00082500",
+      "entry": "2025-08-14",
+      "status": "EMPTY"
+    }
+  ]
+}
