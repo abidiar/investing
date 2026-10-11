@@ -6,11 +6,14 @@
     "ALL_91": {
       "n": 91,
       "uniqueTickers": 34,
+      "laterPartialBounces": 65,
+      "stockD4Target": 38,
+      "stockD4Stop": 16,
       "features": {
         "initialShockClosePct": {
           "n": 91,
-          "mean": -8.982147203955929,
-          "median": -8.178216943525562
+          "mean": -9.404130880638728,
+          "median": -8.410980129399704
         },
         "secondaryDipDepthPct": {
           "n": 91,
@@ -42,11 +45,14 @@
     "D3_EARLY_LOW_54": {
       "n": 54,
       "uniqueTickers": 28,
+      "laterPartialBounces": 35,
+      "stockD4Target": 38,
+      "stockD4Stop": 16,
       "features": {
         "initialShockClosePct": {
           "n": 54,
-          "mean": -8.54155433595143,
-          "median": -8.197305166507913
+          "mean": -9.01405549335094,
+          "median": -8.440423147983456
         },
         "secondaryDipDepthPct": {
           "n": 54,
@@ -78,11 +84,14 @@
     "D4_TARGET_38": {
       "n": 38,
       "uniqueTickers": 24,
+      "laterPartialBounces": 29,
+      "stockD4Target": 38,
+      "stockD4Stop": 0,
       "features": {
         "initialShockClosePct": {
           "n": 38,
-          "mean": -8.347299634135084,
-          "median": -7.528085827551839
+          "mean": -8.897014337824265,
+          "median": -8.02422121491302
         },
         "secondaryDipDepthPct": {
           "n": 38,
@@ -114,10 +123,13 @@
     "D4_STOP_16": {
       "n": 16,
       "uniqueTickers": 13,
+      "laterPartialBounces": 6,
+      "stockD4Target": 0,
+      "stockD4Stop": 16,
       "features": {
         "initialShockClosePct": {
           "n": 16,
-          "mean": -9.002909252765246,
+          "mean": -9.292028237726788,
           "median": -8.5104133828603
         },
         "secondaryDipDepthPct": {
@@ -150,11 +162,14 @@
     "ORIGINAL_TARGET": {
       "n": 28,
       "uniqueTickers": 18,
+      "laterPartialBounces": 20,
+      "stockD4Target": 28,
+      "stockD4Stop": 0,
       "features": {
         "initialShockClosePct": {
           "n": 28,
-          "mean": -8.615102321997227,
-          "median": -8.570726388908689
+          "mean": -9.253566495618236,
+          "median": -8.819712899534
         },
         "secondaryDipDepthPct": {
           "n": 28,
@@ -186,10 +201,13 @@
     "ORIGINAL_STOP": {
       "n": 13,
       "uniqueTickers": 10,
+      "laterPartialBounces": 6,
+      "stockD4Target": 0,
+      "stockD4Stop": 13,
       "features": {
         "initialShockClosePct": {
           "n": 13,
-          "mean": -9.164295438925235,
+          "mean": -9.398210354076914,
           "median": -8.469866166567208
         },
         "secondaryDipDepthPct": {
@@ -222,10 +240,13 @@
     "DISJOINT_TARGET": {
       "n": 10,
       "uniqueTickers": 6,
+      "laterPartialBounces": 9,
+      "stockD4Target": 10,
+      "stockD4Stop": 0,
       "features": {
         "initialShockClosePct": {
           "n": 10,
-          "mean": -7.597452108121084,
+          "mean": -7.898668296001145,
           "median": -6.35930707983775
         },
         "secondaryDipDepthPct": {
@@ -258,10 +279,13 @@
     "DISJOINT_STOP": {
       "n": 3,
       "uniqueTickers": 3,
+      "laterPartialBounces": 0,
+      "stockD4Target": 0,
+      "stockD4Stop": 3,
       "features": {
         "initialShockClosePct": {
           "n": 3,
-          "mean": -8.303569112738629,
+          "mean": -8.831905733542898,
           "median": -9.778456837280359
         },
         "secondaryDipDepthPct": {
@@ -294,11 +318,14 @@
     "NO_EARLY_LOW_37": {
       "n": 37,
       "uniqueTickers": 24,
+      "laterPartialBounces": 30,
+      "stockD4Target": 0,
+      "stockD4Stop": 0,
       "features": {
         "initialShockClosePct": {
           "n": 37,
-          "mean": -9.625174632935465,
-          "median": -8.178216943525562
+          "mean": -9.973430094518205,
+          "median": -8.250615407638461
         },
         "secondaryDipDepthPct": {
           "n": 37,
@@ -326,6 +353,84 @@
           "median": 2.9811567613995966
         }
       }
+    },
+    "LATER_PARTIAL_BOUNCE_WITH_EARLY_LOW": {
+      "n": 35,
+      "uniqueTickers": 22,
+      "laterPartialBounces": 35,
+      "stockD4Target": 29,
+      "stockD4Stop": 6,
+      "features": {
+        "initialShockClosePct": {
+          "n": 35,
+          "mean": -9.538681843108293,
+          "median": -8.877284983897649
+        },
+        "secondaryDipDepthPct": {
+          "n": 35,
+          "mean": -2.98296005016987,
+          "median": -2.2637868329250965
+        },
+        "closeAboveKnownLowPct": {
+          "n": 35,
+          "mean": 3.6631925279624267,
+          "median": 2.1815391520417116
+        },
+        "lastCloseChangePct": {
+          "n": 35,
+          "mean": -1.1703917417218497,
+          "median": -1.2173304304974097
+        },
+        "relativeSPYD0D3Pct": {
+          "n": 35,
+          "mean": -1.2564442568769014,
+          "median": -0.7634337114280632
+        },
+        "averageD1toD3RangePct": {
+          "n": 35,
+          "mean": 3.758508738563474,
+          "median": 3.7921914052604166
+        }
+      }
+    },
+    "NO_LATER_PARTIAL_BOUNCE_WITH_EARLY_LOW": {
+      "n": 19,
+      "uniqueTickers": 14,
+      "laterPartialBounces": 0,
+      "stockD4Target": 9,
+      "stockD4Stop": 10,
+      "features": {
+        "initialShockClosePct": {
+          "n": 19,
+          "mean": -8.047638533271602,
+          "median": -7.983630203616121
+        },
+        "secondaryDipDepthPct": {
+          "n": 19,
+          "mean": -3.12263474206246,
+          "median": -2.532778925828527
+        },
+        "closeAboveKnownLowPct": {
+          "n": 19,
+          "mean": 1.213846450933681,
+          "median": 0.7085599770970674
+        },
+        "lastCloseChangePct": {
+          "n": 19,
+          "mean": -2.7999784003554726,
+          "median": -2.222120616341261
+        },
+        "relativeSPYD0D3Pct": {
+          "n": 19,
+          "mean": -2.926471707055593,
+          "median": -2.9430724720030943
+        },
+        "averageD1toD3RangePct": {
+          "n": 19,
+          "mean": 2.8855357365916956,
+          "median": 2.5381107433941215
+        }
+      }
     }
   },
   "rows": [
@@ -333,12 +438,15 @@
       "ticker": "ABNB",
       "cohort": "original92",
       "date": "2023-05-10",
+      "earningsDate": "2023-05-09",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -10.923113244668292,
         "secondaryDipDepthPct": -5.321386120508375,
@@ -352,12 +460,15 @@
       "ticker": "ADBE",
       "cohort": "original92",
       "date": "2025-06-13",
+      "earningsDate": "2025-06-12",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -5.3181202862115695,
         "secondaryDipDepthPct": -1.6182410423452698,
@@ -371,8 +482,11 @@
       "ticker": "ADBE",
       "cohort": "original92",
       "date": "2025-03-13",
+      "earningsDate": "2025-03-12",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -13.853169174646618,
         "secondaryDipDepthPct": 0.8811748998664992,
@@ -386,12 +500,15 @@
       "ticker": "ADBE",
       "cohort": "original92",
       "date": "2024-12-12",
+      "earningsDate": "2024-12-11",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.2499779366340205,
         "net": -5.449977936634021
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -13.69265179204625,
         "secondaryDipDepthPct": -3.9116789314761258,
@@ -405,12 +522,15 @@
       "ticker": "ADBE",
       "cohort": "original92",
       "date": "2024-09-13",
+      "earningsDate": "2024-09-12",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.000000000000004,
         "net": -5.200000000000005
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -8.469866166567208,
         "secondaryDipDepthPct": -3.8188188378275756,
@@ -424,8 +544,11 @@
       "ticker": "ADBE",
       "cohort": "original92",
       "date": "2024-03-15",
+      "earningsDate": "2024-03-14",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -13.671662722412137,
         "secondaryDipDepthPct": 2.1752577319587685,
@@ -439,12 +562,15 @@
       "ticker": "AMD",
       "cohort": "original92",
       "date": "2026-02-04",
+      "earningsDate": "2026-02-03",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.16872734033651,
         "net": -5.36872734033651
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -17.31444384783777,
         "secondaryDipDepthPct": -4.233038296239878,
@@ -458,8 +584,11 @@
       "ticker": "AMD",
       "cohort": "original92",
       "date": "2025-08-06",
+      "earningsDate": "2025-08-05",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -6.4195972692329795,
         "secondaryDipDepthPct": 5.6400506970849085,
@@ -473,8 +602,11 @@
       "ticker": "AMD",
       "cohort": "original92",
       "date": "2025-02-05",
+      "earningsDate": "2025-02-04",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -6.2677824267782345,
         "secondaryDipDepthPct": 0.27230046948356623,
@@ -488,12 +620,15 @@
       "ticker": "AMD",
       "cohort": "original92",
       "date": "2024-10-30",
+      "earningsDate": "2024-10-29",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.339439199661842,
         "net": 3.139439199661842
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -10.616541353383457,
         "secondaryDipDepthPct": -5.658338960162046,
@@ -507,12 +642,15 @@
       "ticker": "AMD",
       "cohort": "original92",
       "date": "2024-05-01",
+      "earningsDate": "2024-04-30",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -8.908953150650323,
         "secondaryDipDepthPct": -0.6929787533417664,
@@ -526,8 +664,11 @@
       "ticker": "AMD",
       "cohort": "original92",
       "date": "2023-05-03",
+      "earningsDate": "2023-05-02",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -9.220331442553654,
         "secondaryDipDepthPct": 0.11108368304122429,
@@ -541,12 +682,15 @@
       "ticker": "ANET",
       "cohort": "original92",
       "date": "2026-05-06",
+      "earningsDate": "2026-05-05",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -13.605921748325688,
         "secondaryDipDepthPct": -3.8767961303172727,
@@ -560,12 +704,15 @@
       "ticker": "ANET",
       "cohort": "original92",
       "date": "2025-11-05",
+      "earningsDate": "2025-11-04",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.790761474012019,
         "net": -5.990761474012019
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -8.55096059915339,
         "secondaryDipDepthPct": -5.406299100128564,
@@ -579,12 +726,15 @@
       "ticker": "ANET",
       "cohort": "original92",
       "date": "2025-02-19",
+      "earningsDate": "2025-02-18",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -6.428957320367368,
         "secondaryDipDepthPct": -9.811060814800232,
@@ -598,12 +748,15 @@
       "ticker": "ANET",
       "cohort": "original92",
       "date": "2024-11-08",
+      "earningsDate": "2024-11-07",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.000000000000004,
         "net": -5.200000000000005
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -7.092478307271122,
         "secondaryDipDepthPct": -1.8314465408804992,
@@ -617,8 +770,11 @@
       "ticker": "ANET",
       "cohort": "original92",
       "date": "2024-02-13",
+      "earningsDate": "2024-02-12",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -5.472087724295072,
         "secondaryDipDepthPct": 1.7152457607251703,
@@ -632,12 +788,15 @@
       "ticker": "ANET",
       "cohort": "original92",
       "date": "2023-05-02",
+      "earningsDate": "2023-05-01",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.4105720492396907,
         "net": 3.2105720492396905
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -15.721778221778226,
         "secondaryDipDepthPct": -2.2637868329250965,
@@ -651,12 +810,15 @@
       "ticker": "COIN",
       "cohort": "original92",
       "date": "2025-02-14",
+      "earningsDate": "2025-02-13",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.000000000000004,
         "net": -5.200000000000005
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -7.983630203616121,
         "secondaryDipDepthPct": -8.624051094890506,
@@ -670,12 +832,15 @@
       "ticker": "COIN",
       "cohort": "original92",
       "date": "2024-10-31",
+      "earningsDate": "2024-10-30",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -15.34429016718618,
         "secondaryDipDepthPct": -1.3645006151437156,
@@ -689,10 +854,13 @@
       "ticker": "COIN",
       "cohort": "original92",
       "date": "2024-08-05",
+      "earningsDate": "2024-08-01",
+      "d0WasEarningsAfterSession": 2,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
-        "initialShockClosePct": -7.322441792212874,
+        "initialShockClosePct": -10.896350639578623,
         "secondaryDipDepthPct": 10.091230683299202,
         "closeAboveKnownLowPct": 19.357040898653267,
         "lastCloseChangePct": 1.5041959149205697,
@@ -704,8 +872,11 @@
       "ticker": "CRM",
       "cohort": "original92",
       "date": "2024-05-30",
+      "earningsDate": "2024-05-29",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -19.737132892344167,
         "secondaryDipDepthPct": 1.9150943888077698,
@@ -719,12 +890,15 @@
       "ticker": "CRWD",
       "cohort": "original92",
       "date": "2025-03-05",
+      "earningsDate": "2025-03-04",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -6.335862210375243,
         "secondaryDipDepthPct": -11.431486880466469,
@@ -738,14 +912,17 @@
       "ticker": "CRWD",
       "cohort": "original92",
       "date": "2024-11-29",
+      "earningsDate": "2024-11-26",
+      "d0WasEarningsAfterSession": 2,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
-        "initialShockClosePct": -0.46606634252998047,
+        "initialShockClosePct": -5.0315673895141355,
         "secondaryDipDepthPct": -2.3671385472267437,
         "closeAboveKnownLowPct": 8.200618017589733,
         "lastCloseChangePct": 5.257681301846984,
@@ -757,12 +934,15 @@
       "ticker": "CSCO",
       "cohort": "original92",
       "date": "2026-02-12",
+      "earningsDate": "2026-02-11",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -12.32172008414516,
         "secondaryDipDepthPct": -0.8976173154869094,
@@ -776,14 +956,17 @@
       "ticker": "CSCO",
       "cohort": "original92",
       "date": "2025-08-15",
+      "earningsDate": "2025-08-13",
+      "d0WasEarningsAfterSession": 2,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
-        "initialShockClosePct": -4.4733048274835046,
+        "initialShockClosePct": -5.965909070234543,
         "secondaryDipDepthPct": -0.16702200051572635,
         "closeAboveKnownLowPct": 2.068440876679878,
         "lastCloseChangePct": 1.3746215517174143,
@@ -795,8 +978,11 @@
       "ticker": "CSCO",
       "cohort": "original92",
       "date": "2023-11-16",
+      "earningsDate": "2023-11-15",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -9.834835488470283,
         "secondaryDipDepthPct": 2.922078278398388,
@@ -810,12 +996,15 @@
       "ticker": "DELL",
       "cohort": "original92",
       "date": "2025-08-29",
+      "earningsDate": "2025-08-28",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.013752691648021,
         "net": -5.213752691648021
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -8.877284983897649,
         "secondaryDipDepthPct": -1.6133081285649054,
@@ -829,14 +1018,17 @@
       "ticker": "DELL",
       "cohort": "original92",
       "date": "2025-03-03",
+      "earningsDate": "2025-02-27",
+      "d0WasEarningsAfterSession": 2,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.2110337179457105,
         "net": 3.0110337179457103
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
-        "initialShockClosePct": -7.006617657406111,
+        "initialShockClosePct": -11.37902262648237,
         "secondaryDipDepthPct": -2.221986521300201,
         "closeAboveKnownLowPct": 0.6601016792475045,
         "lastCloseChangePct": -2.6580156256100995,
@@ -848,8 +1040,11 @@
       "ticker": "DELL",
       "cohort": "original92",
       "date": "2024-11-27",
+      "earningsDate": "2024-11-26",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -12.247777434012209,
         "secondaryDipDepthPct": 1.6323159492509065,
@@ -863,12 +1058,15 @@
       "ticker": "DIS",
       "cohort": "original92",
       "date": "2023-05-11",
+      "earningsDate": "2023-05-10",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -8.730472648417676,
         "secondaryDipDepthPct": -1.2842832136773952,
@@ -882,8 +1080,11 @@
       "ticker": "FDX",
       "cohort": "original92",
       "date": "2024-09-20",
+      "earningsDate": "2024-09-19",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -15.230200830443819,
         "secondaryDipDepthPct": 0.7889547067068792,
@@ -897,14 +1098,17 @@
       "ticker": "GILD",
       "cohort": "original92",
       "date": "2024-02-08",
+      "earningsDate": "2024-02-06",
+      "d0WasEarningsAfterSession": 2,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
-        "initialShockClosePct": -0.8331087557620132,
+        "initialShockClosePct": -5.04374621711573,
         "secondaryDipDepthPct": -0.3012464633395884,
         "closeAboveKnownLowPct": 0.9888753838068975,
         "lastCloseChangePct": -0.3658544774800321,
@@ -916,14 +1120,17 @@
       "ticker": "GILD",
       "cohort": "original92",
       "date": "2023-11-09",
+      "earningsDate": "2023-11-07",
+      "d0WasEarningsAfterSession": 2,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
-        "initialShockClosePct": -3.748395391369308,
+        "initialShockClosePct": -6.98424453259242,
         "secondaryDipDepthPct": -0.24757395498578028,
         "closeAboveKnownLowPct": 0.24148064996303287,
         "lastCloseChangePct": -0.34675932775627416,
@@ -935,12 +1142,15 @@
       "ticker": "GOOG",
       "cohort": "original92",
       "date": "2025-02-05",
+      "earningsDate": "2025-02-04",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.000000000000016,
         "net": -5.200000000000016
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -6.937557600970767,
         "secondaryDipDepthPct": -2.532778925828527,
@@ -954,12 +1164,15 @@
       "ticker": "GOOG",
       "cohort": "original92",
       "date": "2024-07-24",
+      "earningsDate": "2024-07-23",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -8.415294129321216,
         "net": -8.615294129321216
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -5.027233376964768,
         "secondaryDipDepthPct": -4.439131650471905,
@@ -973,12 +1186,15 @@
       "ticker": "GOOG",
       "cohort": "original92",
       "date": "2024-01-31",
+      "earningsDate": "2024-01-30",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -7.350538925974082,
         "secondaryDipDepthPct": -2.387848799038894,
@@ -992,12 +1208,15 @@
       "ticker": "HPE",
       "cohort": "original92",
       "date": "2025-03-07",
+      "earningsDate": "2025-03-06",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -11.971048700326925,
         "secondaryDipDepthPct": -0.5358308566048131,
@@ -1011,12 +1230,15 @@
       "ticker": "HPE",
       "cohort": "original92",
       "date": "2024-09-05",
+      "earningsDate": "2024-09-04",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -6.020248123932581,
         "secondaryDipDepthPct": -5.369327209860564,
@@ -1030,8 +1252,11 @@
       "ticker": "HPE",
       "cohort": "original92",
       "date": "2023-05-31",
+      "earningsDate": "2023-05-30",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -7.087627926208584,
         "secondaryDipDepthPct": 4.6410487883532525,
@@ -1045,8 +1270,11 @@
       "ticker": "IBM",
       "cohort": "original92",
       "date": "2026-04-23",
+      "earningsDate": "2026-04-22",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -8.250615407638461,
         "secondaryDipDepthPct": 1.4747667711079382,
@@ -1060,14 +1288,17 @@
       "ticker": "ISRG",
       "cohort": "original92",
       "date": "2023-07-24",
+      "earningsDate": "2023-07-20",
+      "d0WasEarningsAfterSession": 2,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.198533903481972,
         "net": -5.398533903481972
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
-        "initialShockClosePct": -3.8911661617061832,
+        "initialShockClosePct": -6.932060058678024,
         "secondaryDipDepthPct": -0.05578973468881587,
         "closeAboveKnownLowPct": 0.34112758171556123,
         "lastCloseChangePct": 0,
@@ -1079,8 +1310,11 @@
       "ticker": "ISRG",
       "cohort": "original92",
       "date": "2023-01-25",
+      "earningsDate": "2023-01-24",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -5.496550120164356,
         "secondaryDipDepthPct": 1.3146876570088617,
@@ -1094,12 +1328,15 @@
       "ticker": "KLAC",
       "cohort": "original92",
       "date": "2026-01-30",
+      "earningsDate": "2026-01-29",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -15.241198972504833,
         "secondaryDipDepthPct": -9.302391678153722,
@@ -1113,12 +1350,15 @@
       "ticker": "NFLX",
       "cohort": "original92",
       "date": "2025-10-22",
+      "earningsDate": "2025-10-21",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -10.068071051677608,
         "secondaryDipDepthPct": -2.266047046768116,
@@ -1132,12 +1372,15 @@
       "ticker": "NFLX",
       "cohort": "original92",
       "date": "2025-07-18",
+      "earningsDate": "2025-07-17",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -5.095866328668852,
         "secondaryDipDepthPct": -2.28224577647147,
@@ -1151,12 +1394,15 @@
       "ticker": "NFLX",
       "cohort": "original92",
       "date": "2023-07-20",
+      "earningsDate": "2023-07-19",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -8.410980129399704,
         "secondaryDipDepthPct": -2.965277777777786,
@@ -1170,12 +1416,15 @@
       "ticker": "NOW",
       "cohort": "original92",
       "date": "2026-01-29",
+      "earningsDate": "2026-01-28",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -9.944453016509803,
         "secondaryDipDepthPct": -4.446212322107312,
@@ -1189,8 +1438,11 @@
       "ticker": "NOW",
       "cohort": "original92",
       "date": "2025-01-30",
+      "earningsDate": "2025-01-29",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -11.444260818621398,
         "secondaryDipDepthPct": 0.8134040404040421,
@@ -1204,12 +1456,15 @@
       "ticker": "PANW",
       "cohort": "original92",
       "date": "2026-06-03",
+      "earningsDate": "2026-06-02",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.000000000000004,
         "net": -5.200000000000005
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -5.636314691432798,
         "secondaryDipDepthPct": -4.14355628058728,
@@ -1223,12 +1478,15 @@
       "ticker": "PANW",
       "cohort": "original92",
       "date": "2026-02-18",
+      "earningsDate": "2026-02-17",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -6.8195718654434305,
         "secondaryDipDepthPct": -2.61637784573564,
@@ -1242,12 +1500,15 @@
       "ticker": "PANW",
       "cohort": "original92",
       "date": "2025-11-20",
+      "earningsDate": "2025-11-19",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -7.418709354677344,
         "secondaryDipDepthPct": -1.7194323144104628,
@@ -1261,8 +1522,11 @@
       "ticker": "PANW",
       "cohort": "original92",
       "date": "2025-05-21",
+      "earningsDate": "2025-05-20",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -6.797614150555331,
         "secondaryDipDepthPct": 2.1383788625167988,
@@ -1276,8 +1540,11 @@
       "ticker": "PANW",
       "cohort": "original92",
       "date": "2024-02-21",
+      "earningsDate": "2024-02-20",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -28.441093720123455,
         "secondaryDipDepthPct": 1.8878080664385566,
@@ -1291,8 +1558,11 @@
       "ticker": "PANW",
       "cohort": "original92",
       "date": "2023-11-16",
+      "earningsDate": "2023-11-15",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -5.418065422749629,
         "secondaryDipDepthPct": 3.771086910100352,
@@ -1306,8 +1576,11 @@
       "ticker": "PYPL",
       "cohort": "original92",
       "date": "2024-02-08",
+      "earningsDate": "2024-02-07",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -11.242885081787223,
         "secondaryDipDepthPct": 0.6994788751204295,
@@ -1321,12 +1594,15 @@
       "ticker": "PYPL",
       "cohort": "original92",
       "date": "2023-08-03",
+      "earningsDate": "2023-08-02",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.000000000000004,
         "net": -5.200000000000005
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -12.322405396655833,
         "secondaryDipDepthPct": -2.9641184466176584,
@@ -1340,12 +1616,15 @@
       "ticker": "PYPL",
       "cohort": "original92",
       "date": "2023-05-09",
+      "earningsDate": "2023-05-08",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -12.731726606002635,
         "secondaryDipDepthPct": -6.894457514775021,
@@ -1359,8 +1638,11 @@
       "ticker": "QCOM",
       "cohort": "original92",
       "date": "2026-02-05",
+      "earningsDate": "2026-02-04",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -8.455907391418094,
         "secondaryDipDepthPct": 1.9193096037025459,
@@ -1374,8 +1656,11 @@
       "ticker": "QCOM",
       "cohort": "original92",
       "date": "2025-07-31",
+      "earningsDate": "2025-07-30",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -7.7329315316171705,
         "secondaryDipDepthPct": 0.06347141302296411,
@@ -1389,12 +1674,15 @@
       "ticker": "QCOM",
       "cohort": "original92",
       "date": "2024-08-01",
+      "earningsDate": "2024-07-31",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -9.367228530744464,
         "secondaryDipDepthPct": -6.161221827974317,
@@ -1408,8 +1696,11 @@
       "ticker": "SBUX",
       "cohort": "original92",
       "date": "2024-05-01",
+      "earningsDate": "2024-04-30",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -15.877500604761563,
         "secondaryDipDepthPct": 0.0412833055326578,
@@ -1423,8 +1714,11 @@
       "ticker": "SBUX",
       "cohort": "original92",
       "date": "2023-05-03",
+      "earningsDate": "2023-05-02",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -9.173509718717654,
         "secondaryDipDepthPct": 0,
@@ -1438,8 +1732,11 @@
       "ticker": "TXN",
       "cohort": "original92",
       "date": "2025-10-22",
+      "earningsDate": "2025-10-21",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -5.601637151023842,
         "secondaryDipDepthPct": 3.459273939248031,
@@ -1453,12 +1750,15 @@
       "ticker": "TXN",
       "cohort": "original92",
       "date": "2025-07-23",
+      "earningsDate": "2025-07-22",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.000000000000016,
         "net": -5.200000000000016
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -13.33984757790818,
         "secondaryDipDepthPct": -1.1279614514639102,
@@ -1472,12 +1772,15 @@
       "ticker": "AMAT",
       "cohort": "separate72",
       "date": "2024-11-15",
+      "earningsDate": "2024-11-14",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -9.204301113328928,
         "secondaryDipDepthPct": -0.28679881240546434,
@@ -1491,8 +1794,11 @@
       "ticker": "AMAT",
       "cohort": "separate72",
       "date": "2025-02-14",
+      "earningsDate": "2025-02-13",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -8.178216943525562,
         "secondaryDipDepthPct": 0.29061161818384473,
@@ -1506,12 +1812,15 @@
       "ticker": "AMAT",
       "cohort": "separate72",
       "date": "2025-05-16",
+      "earningsDate": "2025-05-15",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -5.253219035824353,
         "secondaryDipDepthPct": -0.15501470122701866,
@@ -1525,12 +1834,15 @@
       "ticker": "AMAT",
       "cohort": "separate72",
       "date": "2025-08-15",
+      "earningsDate": "2025-08-14",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -14.069804794895447,
         "secondaryDipDepthPct": -2.331334044924116,
@@ -1544,8 +1856,11 @@
       "ticker": "CPRT",
       "cohort": "separate72",
       "date": "2024-09-05",
+      "earningsDate": "2024-09-04",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -6.672950047125347,
         "secondaryDipDepthPct": 0.7545219638242839,
@@ -1559,12 +1874,15 @@
       "ticker": "CPRT",
       "cohort": "separate72",
       "date": "2025-05-23",
+      "earningsDate": "2025-05-22",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.000000000000004,
         "net": -5.200000000000005
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -11.52324431256181,
         "secondaryDipDepthPct": -4.106506656666042,
@@ -1578,10 +1896,13 @@
       "ticker": "CPRT",
       "cohort": "separate72",
       "date": "2025-11-24",
+      "earningsDate": "2025-11-20",
+      "d0WasEarningsAfterSession": 2,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
-        "initialShockClosePct": -4.468450773385713,
+        "initialShockClosePct": -5.143832276938099,
         "secondaryDipDepthPct": 0,
         "closeAboveKnownLowPct": 0.8016550297388125,
         "lastCloseChangePct": 0.17990233873039774,
@@ -1593,14 +1914,17 @@
       "ticker": "CPRT",
       "cohort": "separate72",
       "date": "2026-02-23",
+      "earningsDate": "2026-02-19",
+      "d0WasEarningsAfterSession": 2,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
-        "initialShockClosePct": -3.0701754385964897,
+        "initialShockClosePct": -6.08233731739708,
         "secondaryDipDepthPct": -1.0963975509041823,
         "closeAboveKnownLowPct": 6.968039159228345,
         "lastCloseChangePct": 5.06221719457014,
@@ -1612,10 +1936,13 @@
       "ticker": "EOG",
       "cohort": "separate72",
       "date": "2026-05-07",
+      "earningsDate": "2026-05-05",
+      "d0WasEarningsAfterSession": 2,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
-        "initialShockClosePct": -2.821293814669601,
+        "initialShockClosePct": -7.051555066783899,
         "secondaryDipDepthPct": 0.2871999488399224,
         "closeAboveKnownLowPct": 4.113948425559766,
         "lastCloseChangePct": 2.475361199717674,
@@ -1627,12 +1954,15 @@
       "ticker": "EW",
       "cohort": "separate72",
       "date": "2023-07-27",
+      "earningsDate": "2023-07-26",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.000000000000004,
         "net": -5.200000000000005
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -9.778456837280359,
         "secondaryDipDepthPct": -1.8420510833101256,
@@ -1646,12 +1976,15 @@
       "ticker": "FSLR",
       "cohort": "separate72",
       "date": "2026-02-25",
+      "earningsDate": "2026-02-24",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -13.605526088565433,
         "secondaryDipDepthPct": -2.3706286586917757,
@@ -1665,8 +1998,11 @@
       "ticker": "FTNT",
       "cohort": "separate72",
       "date": "2025-05-08",
+      "earningsDate": "2025-05-07",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -8.414542728635688,
         "secondaryDipDepthPct": 2.326968013975317,
@@ -1680,8 +2016,11 @@
       "ticker": "FTNT",
       "cohort": "separate72",
       "date": "2025-08-07",
+      "earningsDate": "2025-08-06",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -22.03354731828536,
         "secondaryDipDepthPct": 3.8648031945236694,
@@ -1695,8 +2034,11 @@
       "ticker": "FTNT",
       "cohort": "separate72",
       "date": "2025-11-06",
+      "earningsDate": "2025-11-05",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -6.337946272822403,
         "secondaryDipDepthPct": 5.6300624087106454,
@@ -1710,12 +2052,15 @@
       "ticker": "LEN",
       "cohort": "separate72",
       "date": "2024-03-14",
+      "earningsDate": "2024-03-13",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.566503887165906,
         "net": 3.366503887165906
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -7.637462300426334,
         "secondaryDipDepthPct": -0.4925465640404858,
@@ -1729,12 +2074,15 @@
       "ticker": "LEN",
       "cohort": "separate72",
       "date": "2024-09-20",
+      "earningsDate": "2024-09-19",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -5.331255000790813,
         "secondaryDipDepthPct": -0.07745598657876718,
@@ -1748,8 +2096,11 @@
       "ticker": "LEN",
       "cohort": "separate72",
       "date": "2024-12-19",
+      "earningsDate": "2024-12-18",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -5.16000774170613,
         "secondaryDipDepthPct": 1.0058424283148515,
@@ -1763,10 +2114,13 @@
       "ticker": "LEN",
       "cohort": "separate72",
       "date": "2025-06-18",
+      "earningsDate": "2025-06-16",
+      "d0WasEarningsAfterSession": 2,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
-        "initialShockClosePct": -1.1471184495822961,
+        "initialShockClosePct": -5.553018925111253,
         "secondaryDipDepthPct": 0.9558179474446815,
         "closeAboveKnownLowPct": 8.93397039845254,
         "lastCloseChangePct": 8.00696260566227,
@@ -1778,8 +2132,11 @@
       "ticker": "MPWR",
       "cohort": "separate72",
       "date": "2023-05-05",
+      "earningsDate": "2023-05-04",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -10.385026056106605,
         "secondaryDipDepthPct": 3.867966702593928,
@@ -1793,14 +2150,17 @@
       "ticker": "MPWR",
       "cohort": "separate72",
       "date": "2023-08-02",
+      "earningsDate": "2023-07-31",
+      "d0WasEarningsAfterSession": 2,
       "eligible": true,
       "earlyTrade": {
         "type": "STOP",
         "gross": -5.000000000000004,
         "net": -5.200000000000005
       },
+      "laterFivePctFromD0WithinD60": false,
       "features": {
-        "initialShockClosePct": -3.60900618837372,
+        "initialShockClosePct": -5.194016050786532,
         "secondaryDipDepthPct": -0.7709376554887903,
         "closeAboveKnownLowPct": 4.436004665605275,
         "lastCloseChangePct": 2.1284618196498073,
@@ -1812,8 +2172,11 @@
       "ticker": "MPWR",
       "cohort": "separate72",
       "date": "2024-10-31",
+      "earningsDate": "2024-10-30",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -17.45034299522913,
         "secondaryDipDepthPct": 1.731417402184321,
@@ -1827,8 +2190,11 @@
       "ticker": "MPWR",
       "cohort": "separate72",
       "date": "2025-10-31",
+      "earningsDate": "2025-10-30",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -7.591305280738004,
         "secondaryDipDepthPct": 1.8334704132188406,
@@ -1842,12 +2208,15 @@
       "ticker": "NEM",
       "cohort": "separate72",
       "date": "2025-10-24",
+      "earningsDate": "2025-10-23",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -6.231019785787706,
         "secondaryDipDepthPct": -6.449993523904663,
@@ -1861,12 +2230,15 @@
       "ticker": "OKE",
       "cohort": "separate72",
       "date": "2025-04-30",
+      "earningsDate": "2025-04-29",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -6.487594373887795,
         "secondaryDipDepthPct": -0.6324188277711973,
@@ -1880,8 +2252,11 @@
       "ticker": "OKE",
       "cohort": "separate72",
       "date": "2025-08-05",
+      "earningsDate": "2025-08-04",
+      "d0WasEarningsAfterSession": 1,
       "eligible": false,
       "earlyTrade": null,
+      "laterFivePctFromD0WithinD60": false,
       "features": {
         "initialShockClosePct": -5.173494754011543,
         "secondaryDipDepthPct": 0.25596095943811736,
@@ -1895,12 +2270,15 @@
       "ticker": "OKE",
       "cohort": "separate72",
       "date": "2026-02-24",
+      "earningsDate": "2026-02-23",
+      "d0WasEarningsAfterSession": 1,
       "eligible": true,
       "earlyTrade": {
         "type": "TARGET",
         "gross": 3.0000000000000027,
         "net": 2.8000000000000025
       },
+      "laterFivePctFromD0WithinD60": true,
       "features": {
         "initialShockClosePct": -5.084163149107557,
         "secondaryDipDepthPct": -1.9474852333326909,
@@ -1910,5 +2288,6 @@
         "averageD1toD3RangePct": 3.9394747435442397
       }
     }
-  ]
+  ],
+  "fix": "Corrected initialShockClosePct to actual AH earnings-day closing price rather than prior regular-session close. For 12/91 where qualifying reaction selloff day is 2nd post-report session, earlier version used the wrong denominator. Added 60D eventual partial bounce as separate outcome label."
 }
