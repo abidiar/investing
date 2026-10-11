@@ -1,0 +1,124 @@
+{
+  "research": "dell_asof_forward_expectation_change_v1",
+  "date": "2026-10-11",
+  "scope": "Three outcome-exposed Dell cases only, not full frozen 164-case matched coding",
+  "asOf": "Earnings announcements and contemporaneous reports known no later than D3 16:00 ET; provider PDF transcripts original, exact publication minutes not independently preserved",
+  "pointInTimeAnalystFY1Consensus": "UNKNOWN for all three",
+  "nullMeans": "not comparable or unobserved, never 0",
+  "sources": "See primaryUrls; stored earnings releases dates, relevant transcripts and contemporaneous dated press",
+  "records": [
+    {
+      "ticker": "DELL",
+      "earningsDate": "2024-11-26",
+      "priorOutlookDate": "2024-08-29",
+      "guidancePeriod": "FY2025",
+      "priorAdjustedEPS": 7.8,
+      "updatedAdjustedEPS": 7.81,
+      "priorRevenueBillion": 97,
+      "updatedRevenueBillion": null,
+      "priorRevenueGrowthPct": 10,
+      "updatedRevenueGrowthPct": 9,
+      "priorAIServerOrdersBillion": 3.2,
+      "updatedAIServerOrdersBillion": 3.6,
+      "priorAIBacklogBillion": 3.8,
+      "updatedAIBacklogBillion": 4.5,
+      "knownByD3": [
+        "earnings FY25 nonGAAP EPS projected $7.81 versus $7.80 in prior call",
+        "FY25 revenue midpoint projected growth 9% versus 10% prior",
+        "Q3 consumer PC sales -18% y/y",
+        "AI orders Q3 $3.6B vs Q2 $3.2B, backlog Q3 $4.5B vs Q2 $3.8B"
+      ],
+      "contemporaneousCoverage": "Prior earnings call/Nov earnings call; FY revenue dollars after earnings not independently standardized",
+      "primaryUrls": [
+        "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2024~08~dell-technologies-delivers-second-quarter-fiscal-2025-financial-results.htm",
+        "https://investors.delltechnologies.com/static-files/5baec214-ec57-45c9-8e4a-83e6ed9355f5",
+        "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2024~11~dell-technologies-delivers-third-quarter-fiscal-2025-financial-results.htm",
+        "https://investors.delltechnologies.com/static-files/d5eaf5c6-5ae6-42e0-9391-57c0226e5f81"
+      ],
+      "knownLater": [
+        "Jan 21 2025 Stargate did not name Dell a named original participant",
+        "Buyback actual Q4 period disclosed in later FY2025 10K"
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "earningsDate": "2025-02-27",
+      "priorOutlookDate": "2024-11-26",
+      "guidancePeriod": "FY2026",
+      "priorAdjustedEPS": null,
+      "updatedAdjustedEPS": 9.3,
+      "latestCompletedFYAdjustedEPS": 8.14,
+      "priorRevenueBillion": null,
+      "updatedRevenueBillion": 103,
+      "priorAIServerShipmentsAnnualBillion": null,
+      "updatedAIServerShipmentsAnnualBillion": 15,
+      "priorAIBacklogBillion": 4.1,
+      "updatedAIBacklogBillion": 9,
+      "priorAIBacklogAsOf": "FY25 Q4 ending quarter",
+      "updatedAIBacklogAsOf": "announcement date 2025-02-27",
+      "knownByD3": [
+        "NEW FY2026 midpoint nonGAAP EPS $9.30, no numeric comparable prior FY2026 guidance",
+        "FY25 ACTUAL adjusted EPS $8.14 (not pre-announcement analyst expected FY26 EPS)",
+        "AI backlog was $4.1B at quarter end vs ~ $9B as of earnings release date after signed xAI and other deals",
+        "FY2026 revenue forecast $103B FY26 AI shipments ~$15B",
+        "FY2026 projected consolidated gross margin rate decline ~100bps, mix and pricing",
+        "additional $10B share-repurchase authorization, dividend +18%"
+      ],
+      "contemporaneousCoverage": "New period guidance; no previous FY2026 EPS official numerical guide, so historical revision unknown; backlog comparison is unequal as-of intervals",
+      "primaryUrls": [
+        "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000014/exhibit991earnings8kq4fy25.htm",
+        "https://investors.delltechnologies.com/static-files/047f0b1a-89b8-484a-92ec-d73c73b749bd"
+      ],
+      "knownLater": [
+        "March 18 Dell NVIDIA announcements after D4 target completed",
+        "May 12 tariff reprieve after D4 exit",
+        "Actual repurchase quantities filed June 2025"
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "earningsDate": "2025-08-28",
+      "priorOutlookDate": "2025-05-29",
+      "guidancePeriod": "FY2026",
+      "priorAdjustedEPS": 9.4,
+      "updatedAdjustedEPS": 9.55,
+      "priorRevenueBillion": 103,
+      "updatedRevenueBillion": 107,
+      "priorAIServerShipmentsAnnualBillion": 15,
+      "updatedAIServerShipmentsAnnualBillion": 20,
+      "priorAIServerOrdersBillion": 12.1,
+      "updatedAIServerOrdersBillion": 5.6,
+      "priorAIBacklogBillion": 14.4,
+      "updatedAIBacklogBillion": 11.7,
+      "priorISGRevenueBillion": 10.3,
+      "updatedISGRevenueBillion": 16.8,
+      "priorISGOperatingIncomeBillion": 1,
+      "updatedISGOperatingIncomeBillion": 1.5,
+      "reportedNextQuarterAdjustedEPS": 2.45,
+      "reportedNextQuarterStreetEPS": 2.55,
+      "reportedGrossMarginPct": 18.7,
+      "reportedStreetGrossMarginPct": 19.6,
+      "knownByD3": [
+        "FY26 adjusted EPS midpoint raised $9.40->$9.55",
+        "FY26 revenue midpoint $103B->$107B",
+        "FY26 AI shipment guidance $15B->$20B",
+        "quarter AI orders $12.1B->$5.6B, backlog $14.4B->$11.7B",
+        "ISG operating income increased but margin was lower on higher segment revenue",
+        "Q3 projected adjusted EPS $2.45 versus reported ~$2.55 street expectations",
+        "adjusted gross margin 18.7% versus reported 19.6% expectation"
+      ],
+      "contemporaneousCoverage": "Two management calls, same FY26 period for full-year EPS revenue and AI shipment guidance; street surprise is dated contemporaneous press report, not historical FY1 EPS revisions",
+      "primaryUrls": [
+        "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2025~05~dell-technologies-delivers-first-quarter-fiscal-2026-financial-results.htm",
+        "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2025~08~dell-technologies-delivers-second-quarter-fiscal-2026-financial-results.htm",
+        "https://www.reuters.com/business/dell-lifts-annual-forecasts-ai-server-sales-boom-2025-08-28/",
+        "https://www.reuters.com/business/dell-slides-after-weak-margins-eclipse-upbeat-full-year-forecast-2025-08-29/"
+      ],
+      "knownLater": [
+        "Sep 08 company announces CFO resign effective Sep09 while reaffirming FY26 guidance; this occurs AFTER D4 Sep05 and BEFORE Sep09 STOP; public release https://investors.delltechnologies.com/news-releases/news-release-details/dell-technologies-announces-cfo-transition",
+        "Sep 22 OpenAI-NVIDIA LOI coincident with full first close recovery but AFTER D4",
+        "September repurchases filed December 2025"
+      ]
+    }
+  ]
+}
