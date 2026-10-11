@@ -1,0 +1,403 @@
+{
+  "source": "Frozen before new cross-company intraday OHLC retrieval, source reactions discovered in prior run",
+  "event_count": 45,
+  "events": [
+    {
+      "ticker": "ABNB",
+      "announcement": "2026-08-06",
+      "session": "after the close",
+      "reaction_day": "2026-08-07",
+      "source": "https://quant500.com/earnings-date/ABNB",
+      "source_close_reaction_pct": 17.4
+    },
+    {
+      "ticker": "ADP",
+      "announcement": "2026-07-29",
+      "session": "before the open",
+      "reaction_day": "2026-07-29",
+      "source": "https://quant500.com/earnings-date/ADP",
+      "source_close_reaction_pct": 3.5
+    },
+    {
+      "ticker": "AMD",
+      "announcement": "2026-08-04",
+      "session": "after the close",
+      "reaction_day": "2026-08-05",
+      "source": "https://quant500.com/earnings-date/AMD",
+      "source_close_reaction_pct": -7
+    },
+    {
+      "ticker": "ANET",
+      "announcement": "2026-08-04",
+      "session": "after the close",
+      "reaction_day": "2026-08-05",
+      "source": "https://quant500.com/earnings-date/ANET",
+      "source_close_reaction_pct": 3.6
+    },
+    {
+      "ticker": "CMCSA",
+      "announcement": "2026-07-23",
+      "session": "before the open",
+      "reaction_day": "2026-07-23",
+      "source": "https://quant500.com/earnings-date/CMCSA",
+      "source_close_reaction_pct": -6.8
+    },
+    {
+      "ticker": "COIN",
+      "announcement": "2026-07-30",
+      "session": "after the close",
+      "reaction_day": "2026-07-31",
+      "source": "https://quant500.com/earnings-date/COIN",
+      "source_close_reaction_pct": -10.6
+    },
+    {
+      "ticker": "COP",
+      "announcement": "2026-08-06",
+      "session": "before the open",
+      "reaction_day": "2026-08-06",
+      "source": "https://quant500.com/earnings-date/COP",
+      "source_close_reaction_pct": 1.5
+    },
+    {
+      "ticker": "CRM",
+      "announcement": "2026-08-26",
+      "session": "after the close",
+      "reaction_day": "2026-08-27",
+      "source": "https://quant500.com/earnings-date/CRM",
+      "source_close_reaction_pct": 22.6
+    },
+    {
+      "ticker": "CRWD",
+      "announcement": "2026-08-26",
+      "session": "after the close",
+      "reaction_day": "2026-08-27",
+      "source": "https://quant500.com/earnings-date/CRWD",
+      "source_close_reaction_pct": 20.5
+    },
+    {
+      "ticker": "CSCO",
+      "announcement": "2026-08-12",
+      "session": "after the close",
+      "reaction_day": "2026-08-13",
+      "source": "https://quant500.com/earnings-date/CSCO",
+      "source_close_reaction_pct": -8.4
+    },
+    {
+      "ticker": "CVS",
+      "announcement": "2026-08-05",
+      "session": "before the open",
+      "reaction_day": "2026-08-05",
+      "source": "https://quant500.com/earnings-date/CVS",
+      "source_close_reaction_pct": -5.1
+    },
+    {
+      "ticker": "DAL",
+      "announcement": "2026-07-10",
+      "session": "before the open",
+      "reaction_day": "2026-07-10",
+      "source": "https://quant500.com/earnings-date/DAL",
+      "source_close_reaction_pct": -1.8
+    },
+    {
+      "ticker": "DELL",
+      "announcement": "2026-09-01",
+      "session": "after the close",
+      "reaction_day": "2026-09-02",
+      "source": "https://quant500.com/earnings-date/DELL",
+      "source_close_reaction_pct": 15.8
+    },
+    {
+      "ticker": "DG",
+      "announcement": "2026-08-27",
+      "session": "before the open",
+      "reaction_day": "2026-08-27",
+      "source": "https://quant500.com/earnings-date/DG",
+      "source_close_reaction_pct": 2.5
+    },
+    {
+      "ticker": "DIS",
+      "announcement": "2026-08-05",
+      "session": "before the open",
+      "reaction_day": "2026-08-05",
+      "source": "https://quant500.com/earnings-date/DIS",
+      "source_close_reaction_pct": 3.6
+    },
+    {
+      "ticker": "DLTR",
+      "announcement": "2026-08-27",
+      "session": "before the open",
+      "reaction_day": "2026-08-27",
+      "source": "https://quant500.com/earnings-date/DLTR",
+      "source_close_reaction_pct": -3.9
+    },
+    {
+      "ticker": "EOG",
+      "announcement": "2026-08-04",
+      "session": "after the close",
+      "reaction_day": "2026-08-05",
+      "source": "https://quant500.com/earnings-date/EOG",
+      "source_close_reaction_pct": -6.5
+    },
+    {
+      "ticker": "EW",
+      "announcement": "2026-07-23",
+      "session": "after the close",
+      "reaction_day": "2026-07-24",
+      "source": "https://quant500.com/earnings-date/EW",
+      "source_close_reaction_pct": -1.4
+    },
+    {
+      "ticker": "FIS",
+      "announcement": "2026-08-04",
+      "session": "before the open",
+      "reaction_day": "2026-08-04",
+      "source": "https://quant500.com/earnings-date/FIS",
+      "source_close_reaction_pct": -1.2
+    },
+    {
+      "ticker": "FSLR",
+      "announcement": "2026-07-30",
+      "session": "after the close",
+      "reaction_day": "2026-07-31",
+      "source": "https://quant500.com/earnings-date/FSLR",
+      "source_close_reaction_pct": 2.4
+    },
+    {
+      "ticker": "FTNT",
+      "announcement": "2026-07-29",
+      "session": "after the close",
+      "reaction_day": "2026-07-30",
+      "source": "https://quant500.com/earnings-date/FTNT",
+      "source_close_reaction_pct": 0.7
+    },
+    {
+      "ticker": "GE",
+      "announcement": "2026-07-16",
+      "session": "before the open",
+      "reaction_day": "2026-07-16",
+      "source": "https://quant500.com/earnings-date/GE",
+      "source_close_reaction_pct": -4.1
+    },
+    {
+      "ticker": "GILD",
+      "announcement": "2026-08-04",
+      "session": "after the close",
+      "reaction_day": "2026-08-05",
+      "source": "https://quant500.com/earnings-date/GILD",
+      "source_close_reaction_pct": -2.6
+    },
+    {
+      "ticker": "GLW",
+      "announcement": "2026-07-28",
+      "session": "before the open",
+      "reaction_day": "2026-07-28",
+      "source": "https://quant500.com/earnings-date/GLW",
+      "source_close_reaction_pct": -12.1
+    },
+    {
+      "ticker": "GOOG",
+      "announcement": "2026-07-22",
+      "session": "after the close",
+      "reaction_day": "2026-07-23",
+      "source": "https://quant500.com/earnings-date/GOOG",
+      "source_close_reaction_pct": -6.9
+    },
+    {
+      "ticker": "GPN",
+      "announcement": "2026-08-05",
+      "session": "before the open",
+      "reaction_day": "2026-08-05",
+      "source": "https://quant500.com/earnings-date/GPN",
+      "source_close_reaction_pct": -0.9
+    },
+    {
+      "ticker": "HAL",
+      "announcement": "2026-07-21",
+      "session": "before the open",
+      "reaction_day": "2026-07-21",
+      "source": "https://quant500.com/earnings-date/HAL",
+      "source_close_reaction_pct": -5.5
+    },
+    {
+      "ticker": "IBM",
+      "announcement": "2026-07-22",
+      "session": "after the close",
+      "reaction_day": "2026-07-23",
+      "source": "https://quant500.com/earnings-date/IBM",
+      "source_close_reaction_pct": 0.4
+    },
+    {
+      "ticker": "ISRG",
+      "announcement": "2026-07-16",
+      "session": "after the close",
+      "reaction_day": "2026-07-17",
+      "source": "https://quant500.com/earnings-date/ISRG",
+      "source_close_reaction_pct": -14.1
+    },
+    {
+      "ticker": "KDP",
+      "announcement": "2026-08-06",
+      "session": "before the open",
+      "reaction_day": "2026-08-06",
+      "source": "https://quant500.com/earnings-date/KDP",
+      "source_close_reaction_pct": -1.2
+    },
+    {
+      "ticker": "KLAC",
+      "announcement": "2026-07-28",
+      "session": "after the close",
+      "reaction_day": "2026-07-29",
+      "source": "https://quant500.com/earnings-date/KLAC",
+      "source_close_reaction_pct": -10.8
+    },
+    {
+      "ticker": "LOW",
+      "announcement": "2026-08-19",
+      "session": "before the open",
+      "reaction_day": "2026-08-19",
+      "source": "https://quant500.com/earnings-date/LOW",
+      "source_close_reaction_pct": 2
+    },
+    {
+      "ticker": "MPWR",
+      "announcement": "2026-07-30",
+      "session": "after the close",
+      "reaction_day": "2026-07-31",
+      "source": "https://quant500.com/earnings-date/MPWR",
+      "source_close_reaction_pct": 8.3
+    },
+    {
+      "ticker": "NEM",
+      "announcement": "2026-07-23",
+      "session": "after the close",
+      "reaction_day": "2026-07-24",
+      "source": "https://quant500.com/earnings-date/NEM",
+      "source_close_reaction_pct": -1.6
+    },
+    {
+      "ticker": "NFLX",
+      "announcement": "2026-07-16",
+      "session": "after the close",
+      "reaction_day": "2026-07-17",
+      "source": "https://quant500.com/earnings-date/NFLX",
+      "source_close_reaction_pct": -7.3
+    },
+    {
+      "ticker": "NOC",
+      "announcement": "2026-07-21",
+      "session": "before the open",
+      "reaction_day": "2026-07-21",
+      "source": "https://quant500.com/earnings-date/NOC",
+      "source_close_reaction_pct": -2.2
+    },
+    {
+      "ticker": "NOW",
+      "announcement": "2026-07-22",
+      "session": "after the close",
+      "reaction_day": "2026-07-23",
+      "source": "https://quant500.com/earnings-date/NOW",
+      "source_close_reaction_pct": -3.7
+    },
+    {
+      "ticker": "PANW",
+      "announcement": "2026-09-01",
+      "session": "after the close",
+      "reaction_day": "2026-09-02",
+      "source": "https://quant500.com/earnings-date/PANW",
+      "source_close_reaction_pct": -9.3
+    },
+    {
+      "ticker": "QCOM",
+      "announcement": "2026-07-29",
+      "session": "after the close",
+      "reaction_day": "2026-07-30",
+      "source": "https://quant500.com/earnings-date/QCOM",
+      "source_close_reaction_pct": -2.6
+    },
+    {
+      "ticker": "SBUX",
+      "announcement": "2026-07-29",
+      "session": "after the close",
+      "reaction_day": "2026-07-30",
+      "source": "https://quant500.com/earnings-date/SBUX",
+      "source_close_reaction_pct": 1.6
+    },
+    {
+      "ticker": "TGT",
+      "announcement": "2026-08-19",
+      "session": "before the open",
+      "reaction_day": "2026-08-19",
+      "source": "https://quant500.com/earnings-date/TGT",
+      "source_close_reaction_pct": 4.3
+    },
+    {
+      "ticker": "TMO",
+      "announcement": "2026-07-23",
+      "session": "before the open",
+      "reaction_day": "2026-07-23",
+      "source": "https://quant500.com/earnings-date/TMO",
+      "source_close_reaction_pct": 8.7
+    },
+    {
+      "ticker": "TPR",
+      "announcement": "2026-08-13",
+      "session": "before the open",
+      "reaction_day": "2026-08-13",
+      "source": "https://quant500.com/earnings-date/TPR",
+      "source_close_reaction_pct": -16.5
+    },
+    {
+      "ticker": "TXN",
+      "announcement": "2026-07-22",
+      "session": "after the close",
+      "reaction_day": "2026-07-23",
+      "source": "https://quant500.com/earnings-date/TXN",
+      "source_close_reaction_pct": -3.1
+    },
+    {
+      "ticker": "UPS",
+      "announcement": "2026-07-28",
+      "session": "before the open",
+      "reaction_day": "2026-07-28",
+      "source": "https://quant500.com/earnings-date/UPS",
+      "source_close_reaction_pct": -6.6
+    }
+  ],
+  "unambiguous_excluded": [
+    {
+      "ticker": "AMAT",
+      "announcement": "2026-08-13",
+      "session": "no time on the filing"
+    },
+    {
+      "ticker": "HON",
+      "announcement": "2026-07-23",
+      "session": "no time on the filing"
+    },
+    {
+      "ticker": "HPE",
+      "announcement": "2026-09-02",
+      "session": "no time on the filing"
+    },
+    {
+      "ticker": "HSY",
+      "announcement": "2026-07-30",
+      "session": "during market hours"
+    },
+    {
+      "ticker": "REGN",
+      "announcement": "2026-07-30",
+      "session": "no time on the filing"
+    },
+    {
+      "ticker": "WAB",
+      "announcement": "2026-07-22",
+      "session": "no time on the filing"
+    },
+    {
+      "ticker": "ZBH",
+      "announcement": "2026-08-05",
+      "session": "no time on the filing"
+    }
+  ]
+}
