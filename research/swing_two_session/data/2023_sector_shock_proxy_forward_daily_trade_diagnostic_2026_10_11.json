@@ -1,0 +1,990 @@
+{
+  "title": "2023 ex-ante sector co-selloff vs relative weakness on original support falsebreak (daily-OHLC diagnostic)",
+  "frozenProtocol": "research/swing_two_session/frozen_shock_source_proxy_2023_v1_2026_10_11.md",
+  "preOutcomeManifest": "research/swing_two_session/data/frozen_2023_sector_shock_signal_manifest_2026_10_11.json",
+  "status": "RESEARCH_ONLY_DAILY_FIRST_HIT_APPROXIMATION_CA_AND_NEWS_NOT_CERTIFIED",
+  "universe": {
+    "nAll": 45,
+    "nValid": 45,
+    "nUnknown": 0,
+    "nTickers": 27,
+    "targets": 22,
+    "stops": 8,
+    "timeouts": 15,
+    "ambiguousBothDaily": 0,
+    "avgGrossPct": 0.7172607410522591,
+    "avgNet20bpsPct": 0.517260741052259,
+    "avgNet50bpsPct": 0.2172607410522591,
+    "avgNet100bpsPct": -0.28273925894774093,
+    "positiveNetCount": 29
+  },
+  "groups": {
+    "SHARED_SECTOR_PRESSURE": {
+      "nAll": 18,
+      "nValid": 18,
+      "nUnknown": 0,
+      "nTickers": 13,
+      "targets": 7,
+      "stops": 5,
+      "timeouts": 6,
+      "ambiguousBothDaily": 0,
+      "avgGrossPct": 0.28127056669968226,
+      "avgNet20bpsPct": 0.08127056669968219,
+      "avgNet50bpsPct": -0.21872943330031772,
+      "avgNet100bpsPct": -0.7187294333003177,
+      "positiveNetCount": 10
+    },
+    "ISSUER_RELATIVE_WEAKNESS": {
+      "nAll": 9,
+      "nValid": 9,
+      "nUnknown": 0,
+      "nTickers": 8,
+      "targets": 4,
+      "stops": 2,
+      "timeouts": 3,
+      "ambiguousBothDaily": 0,
+      "avgGrossPct": 0.4581705724455802,
+      "avgNet20bpsPct": 0.2581705724455801,
+      "avgNet50bpsPct": -0.04182942755441981,
+      "avgNet100bpsPct": -0.5418294275544198,
+      "positiveNetCount": 5
+    },
+    "UNCLASSIFIED": {
+      "nAll": 18,
+      "nValid": 18,
+      "nUnknown": 0,
+      "nTickers": 15,
+      "targets": 11,
+      "stops": 1,
+      "timeouts": 6,
+      "ambiguousBothDaily": 0,
+      "avgGrossPct": 1.282795999708175,
+      "avgNet20bpsPct": 1.0827959997081755,
+      "avgNet50bpsPct": 0.7827959997081754,
+      "avgNet100bpsPct": 0.28279599970817526,
+      "positiveNetCount": 14
+    }
+  },
+  "bootstrap": {
+    "tickerClusters": 27,
+    "replications": 10000,
+    "validSamples": 10000,
+    "seed": 20261011,
+    "meanSharedMinusIdiosyncraticPp": -0.1769000057458979,
+    "ci95SharedMinusIdiosyncraticPp": [
+      -1.6358766407651315,
+      1.509355467335125
+    ],
+    "ci95SharedNetPct": [
+      -1.16497107290295,
+      0.7714168531969411
+    ],
+    "ci95IdiosyncraticNetPct": [
+      -1.3223059724716824,
+      1.009794658633998
+    ]
+  },
+  "unknown": [],
+  "events": [
+    {
+      "symbol": "HON",
+      "date": "2023-01-18",
+      "sectorETF": "XLI",
+      "stockReturn3dPct": -5.435688445595755,
+      "etfReturn3dPct": -2.827062076841158,
+      "stockMinusEtf3dPp": -2.6086263687545967,
+      "shockClass": "UNCLASSIFIED",
+      "support": 650.434355,
+      "rangeWidthPct": 8.281877884509958,
+      "rvol20": 1.8704299109747549,
+      "matchedTouches": 3,
+      "status": "STOP_GAP",
+      "grossPct": -2.317670168056851,
+      "net50bps": -2.817670168056851,
+      "followingDates": [
+        "2023-01-19",
+        "2023-01-20"
+      ]
+    },
+    {
+      "symbol": "WMT",
+      "date": "2023-01-18",
+      "sectorETF": "XLP",
+      "stockReturn3dPct": -2.7415227927691466,
+      "etfReturn3dPct": -2.204597625369298,
+      "stockMinusEtf3dPp": -0.5369251673998487,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 44.966318,
+      "rangeWidthPct": 9.40929608690666,
+      "rvol20": 1.483432654866263,
+      "matchedTouches": 9,
+      "status": "STOP",
+      "grossPct": -2,
+      "net50bps": -2.5,
+      "followingDates": [
+        "2023-01-19",
+        "2023-01-20"
+      ]
+    },
+    {
+      "symbol": "CSCO",
+      "date": "2023-01-20",
+      "sectorETF": "XLK",
+      "stockReturn3dPct": -2.7038279046207814,
+      "etfReturn3dPct": 0.198352520956524,
+      "stockMinusEtf3dPp": -2.9021804255773054,
+      "shockClass": "UNCLASSIFIED",
+      "support": 41.988405,
+      "rangeWidthPct": 8.621611132883,
+      "rvol20": 1.4175047206927114,
+      "matchedTouches": 10,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-01-23",
+        "2023-01-24"
+      ]
+    },
+    {
+      "symbol": "GS",
+      "date": "2023-01-20",
+      "sectorETF": "XLF",
+      "stockReturn3dPct": -2.309099225538669,
+      "etfReturn3dPct": -1.4771471348108522,
+      "stockMinusEtf3dPp": -0.8319520907278166,
+      "shockClass": "UNCLASSIFIED",
+      "support": 310.136535,
+      "rangeWidthPct": 14.02966857806678,
+      "rvol20": 4.2574445681455675,
+      "matchedTouches": 10,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-01-23",
+        "2023-01-24"
+      ]
+    },
+    {
+      "symbol": "PG",
+      "date": "2023-01-20",
+      "sectorETF": "XLP",
+      "stockReturn3dPct": -4.368891423963117,
+      "etfReturn3dPct": -2.901457108851546,
+      "stockMinusEtf3dPp": -1.4674343151115705,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 129.53279,
+      "rangeWidthPct": 8.380592280919764,
+      "rvol20": 1.3340694859261018,
+      "matchedTouches": 3,
+      "status": "STOP",
+      "grossPct": -2,
+      "net50bps": -2.5,
+      "followingDates": [
+        "2023-01-23",
+        "2023-01-24"
+      ]
+    },
+    {
+      "symbol": "CVX",
+      "date": "2023-03-13",
+      "sectorETF": "XLE",
+      "stockReturn3dPct": -2.625928002800748,
+      "etfReturn3dPct": -4.65253234093379,
+      "stockMinusEtf3dPp": 2.0266043381330423,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 137.284322,
+      "rangeWidthPct": 17.3279538795406,
+      "rvol20": 1.3472463415714444,
+      "matchedTouches": 7,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-03-14",
+        "2023-03-15"
+      ]
+    },
+    {
+      "symbol": "KLAC",
+      "date": "2023-03-13",
+      "sectorETF": "SMH",
+      "stockReturn3dPct": -5.831032032081495,
+      "etfReturn3dPct": -3.568094018989054,
+      "stockMinusEtf3dPp": -2.262938013092441,
+      "shockClass": "UNCLASSIFIED",
+      "support": 35.291795,
+      "rangeWidthPct": 17.723286673290485,
+      "rvol20": 1.2764808813361601,
+      "matchedTouches": 2,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-03-14",
+        "2023-03-15"
+      ]
+    },
+    {
+      "symbol": "BA",
+      "date": "2023-03-15",
+      "sectorETF": "XLI",
+      "stockReturn3dPct": -2.3932634067070357,
+      "etfReturn3dPct": -1.989898070559426,
+      "stockMinusEtf3dPp": -0.4033653361476097,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 197.11,
+      "rangeWidthPct": 12.28755517223885,
+      "rvol20": 1.9336255315869513,
+      "matchedTouches": 5,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-03-16",
+        "2023-03-17"
+      ]
+    },
+    {
+      "symbol": "TXN",
+      "date": "2023-04-25",
+      "sectorETF": "SMH",
+      "stockReturn3dPct": -4.093534385144537,
+      "etfReturn3dPct": -4.674983574525493,
+      "stockMinusEtf3dPp": 0.5814491893809564,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 153.158891,
+      "rangeWidthPct": 10.005609142207739,
+      "rvol20": 1.7296042679781745,
+      "matchedTouches": 7,
+      "status": "STOP",
+      "grossPct": -2,
+      "net50bps": -2.5,
+      "followingDates": [
+        "2023-04-26",
+        "2023-04-27"
+      ]
+    },
+    {
+      "symbol": "KLAC",
+      "date": "2023-04-26",
+      "sectorETF": "SMH",
+      "stockReturn3dPct": -3.9277336453891976,
+      "etfReturn3dPct": -3.016026267083305,
+      "stockMinusEtf3dPp": -0.9117073783058927,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 34.670649,
+      "rangeWidthPct": 12.37857704942298,
+      "rvol20": 1.297695028249042,
+      "matchedTouches": 4,
+      "status": "STOP",
+      "grossPct": -2,
+      "net50bps": -2.5,
+      "followingDates": [
+        "2023-04-27",
+        "2023-04-28"
+      ]
+    },
+    {
+      "symbol": "PANW",
+      "date": "2023-04-28",
+      "sectorETF": "IGV",
+      "stockReturn3dPct": -0.060250862682798,
+      "etfReturn3dPct": 2.297819712129212,
+      "stockMinusEtf3dPp": -2.35807057481201,
+      "shockClass": "UNCLASSIFIED",
+      "support": 90.815,
+      "rangeWidthPct": 12.007928205692897,
+      "rvol20": 1.550726488390234,
+      "matchedTouches": 8,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-05-01",
+        "2023-05-02"
+      ]
+    },
+    {
+      "symbol": "DIS",
+      "date": "2023-05-12",
+      "sectorETF": "XLC",
+      "stockReturn3dPct": -9.97259744721628,
+      "etfReturn3dPct": 1.9812127173032268,
+      "stockMinusEtf3dPp": -11.953810164519506,
+      "shockClass": "ISSUER_RELATIVE_WEAKNESS",
+      "support": 89.083466,
+      "rangeWidthPct": 13.093164785483303,
+      "rvol20": 1.8772784969207232,
+      "matchedTouches": 3,
+      "status": "TIMEOUT",
+      "grossPct": -0.6117551115971787,
+      "net50bps": -1.1117551115971787,
+      "followingDates": [
+        "2023-05-15",
+        "2023-05-16"
+      ]
+    },
+    {
+      "symbol": "NKE",
+      "date": "2023-05-17",
+      "sectorETF": "XLY",
+      "stockReturn3dPct": -2.686964355144106,
+      "etfReturn3dPct": 1.7993637363820092,
+      "stockMinusEtf3dPp": -4.486328091526115,
+      "shockClass": "ISSUER_RELATIVE_WEAKNESS",
+      "support": 107.589643,
+      "rangeWidthPct": 10.816397076436068,
+      "rvol20": 1.637196952435046,
+      "matchedTouches": 2,
+      "status": "STOP_GAP",
+      "grossPct": -2.444009819582027,
+      "net50bps": -2.944009819582027,
+      "followingDates": [
+        "2023-05-18",
+        "2023-05-19"
+      ]
+    },
+    {
+      "symbol": "DE",
+      "date": "2023-05-19",
+      "sectorETF": "XLI",
+      "stockReturn3dPct": 0.2398806383065777,
+      "etfReturn3dPct": 2.2126615185796394,
+      "stockMinusEtf3dPp": -1.9727808802730618,
+      "shockClass": "UNCLASSIFIED",
+      "support": 345.729643,
+      "rangeWidthPct": 15.773201431848282,
+      "rvol20": 4.55597132920327,
+      "matchedTouches": 5,
+      "status": "TIMEOUT",
+      "grossPct": 0.21963346996405342,
+      "net50bps": -0.2803665300359466,
+      "followingDates": [
+        "2023-05-22",
+        "2023-05-23"
+      ]
+    },
+    {
+      "symbol": "C",
+      "date": "2023-05-25",
+      "sectorETF": "XLF",
+      "stockReturn3dPct": -3.4068583962197363,
+      "etfReturn3dPct": -2.4800989859583455,
+      "stockMinusEtf3dPp": -0.9267594102613907,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 39.752067,
+      "rangeWidthPct": 13.209874092836493,
+      "rvol20": 1.226098214928731,
+      "matchedTouches": 2,
+      "status": "TIMEOUT",
+      "grossPct": 0.5398112276874478,
+      "net50bps": 0.039811227687447825,
+      "followingDates": [
+        "2023-05-26",
+        "2023-05-30"
+      ]
+    },
+    {
+      "symbol": "NOC",
+      "date": "2023-05-25",
+      "sectorETF": "XLI",
+      "stockReturn3dPct": -2.1576726965936155,
+      "etfReturn3dPct": -2.1551719732475494,
+      "stockMinusEtf3dPp": -0.0025007233460661027,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 408.502361,
+      "rangeWidthPct": 11.593332994224713,
+      "rvol20": 1.463742550747505,
+      "matchedTouches": 7,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-05-26",
+        "2023-05-30"
+      ]
+    },
+    {
+      "symbol": "PG",
+      "date": "2023-05-25",
+      "sectorETF": "XLP",
+      "stockReturn3dPct": -2.527487272327922,
+      "etfReturn3dPct": -2.1265213206748457,
+      "stockMinusEtf3dPp": -0.40096595165307614,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 133.476082,
+      "rangeWidthPct": 8.778604244616673,
+      "rvol20": 1.25149938482944,
+      "matchedTouches": 6,
+      "status": "STOP",
+      "grossPct": -2,
+      "net50bps": -2.5,
+      "followingDates": [
+        "2023-05-26",
+        "2023-05-30"
+      ]
+    },
+    {
+      "symbol": "C",
+      "date": "2023-05-31",
+      "sectorETF": "XLF",
+      "stockReturn3dPct": 0.2034831152812666,
+      "etfReturn3dPct": -0.28257431717484405,
+      "stockMinusEtf3dPp": 0.48605743245611066,
+      "shockClass": "UNCLASSIFIED",
+      "support": 39.571703,
+      "rangeWidthPct": 13.725873763886277,
+      "rvol20": 1.2614719782430248,
+      "matchedTouches": 5,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-06-01",
+        "2023-06-02"
+      ]
+    },
+    {
+      "symbol": "WMT",
+      "date": "2023-05-31",
+      "sectorETF": "XLP",
+      "stockReturn3dPct": 0.48576735139616023,
+      "etfReturn3dPct": -0.6969119475463192,
+      "stockMinusEtf3dPp": 1.1826792989424795,
+      "shockClass": "UNCLASSIFIED",
+      "support": 46.699726,
+      "rangeWidthPct": 6.38224729626895,
+      "rvol20": 1.6512608747787783,
+      "matchedTouches": 6,
+      "status": "TIMEOUT",
+      "grossPct": 1.7851043528952726,
+      "net50bps": 1.2851043528952726,
+      "followingDates": [
+        "2023-06-01",
+        "2023-06-02"
+      ]
+    },
+    {
+      "symbol": "CVX",
+      "date": "2023-06-01",
+      "sectorETF": "XLE",
+      "stockReturn3dPct": -1.2461057523847074,
+      "etfReturn3dPct": -1.5615082791424206,
+      "stockMinusEtf3dPp": 0.3154025267577132,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 131.368296,
+      "rangeWidthPct": 13.862393404265516,
+      "rvol20": 1.3401189103510014,
+      "matchedTouches": 5,
+      "status": "TARGET_GAP",
+      "grossPct": 2.5035578765542077,
+      "net50bps": 2.0035578765542077,
+      "followingDates": [
+        "2023-06-02",
+        "2023-06-05"
+      ]
+    },
+    {
+      "symbol": "GS",
+      "date": "2023-06-01",
+      "sectorETF": "XLF",
+      "stockReturn3dPct": -3.976036452567988,
+      "etfReturn3dPct": -0.031143649383280625,
+      "stockMinusEtf3dPp": -3.9448928031847075,
+      "shockClass": "ISSUER_RELATIVE_WEAKNESS",
+      "support": 292.122647,
+      "rangeWidthPct": 9.498263926110484,
+      "rvol20": 1.8409977837079672,
+      "matchedTouches": 11,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-06-02",
+        "2023-06-05"
+      ]
+    },
+    {
+      "symbol": "MRK",
+      "date": "2023-06-07",
+      "sectorETF": "XLV",
+      "stockReturn3dPct": -3.4749378046276314,
+      "etfReturn3dPct": -0.8670961273269051,
+      "stockMinusEtf3dPp": -2.6078416773007262,
+      "shockClass": "UNCLASSIFIED",
+      "support": 97.664834,
+      "rangeWidthPct": 10.306997501270509,
+      "rvol20": 1.8869965331805336,
+      "matchedTouches": 3,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-06-08",
+        "2023-06-09"
+      ]
+    },
+    {
+      "symbol": "HON",
+      "date": "2023-08-01",
+      "sectorETF": "XLI",
+      "stockReturn3dPct": -1.4917773411639468,
+      "etfReturn3dPct": 1.16002918986291,
+      "stockMinusEtf3dPp": -2.651806531026857,
+      "shockClass": "UNCLASSIFIED",
+      "support": 623.037137,
+      "rangeWidthPct": 9.02181790810328,
+      "rvol20": 1.3094945984315873,
+      "matchedTouches": 5,
+      "status": "TIMEOUT",
+      "grossPct": -1.7483238964948744,
+      "net50bps": -2.2483238964948744,
+      "followingDates": [
+        "2023-08-02",
+        "2023-08-03"
+      ]
+    },
+    {
+      "symbol": "MRK",
+      "date": "2023-08-01",
+      "sectorETF": "XLV",
+      "stockReturn3dPct": 0.009499367507093126,
+      "etfReturn3dPct": -0.9941392349526068,
+      "stockMinusEtf3dPp": 1.0036386024597,
+      "shockClass": "UNCLASSIFIED",
+      "support": 95.326238,
+      "rangeWidthPct": 9.92678532011302,
+      "rvol20": 1.3704703260608972,
+      "matchedTouches": 11,
+      "status": "TIMEOUT",
+      "grossPct": -0.28293938393526563,
+      "net50bps": -0.7829393839352656,
+      "followingDates": [
+        "2023-08-02",
+        "2023-08-03"
+      ]
+    },
+    {
+      "symbol": "PANW",
+      "date": "2023-08-18",
+      "sectorETF": "IGV",
+      "stockReturn3dPct": -2.7682463136418423,
+      "etfReturn3dPct": -1.968113307952113,
+      "stockMinusEtf3dPp": -0.8001330056897293,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 103.445,
+      "rangeWidthPct": 25.129295761032445,
+      "rvol20": 2.4061667821644495,
+      "matchedTouches": 2,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-08-21",
+        "2023-08-22"
+      ]
+    },
+    {
+      "symbol": "SBUX",
+      "date": "2023-08-23",
+      "sectorETF": "XLY",
+      "stockReturn3dPct": -2.10840296155701,
+      "etfReturn3dPct": 2.1086919997249653,
+      "stockMinusEtf3dPp": -4.217094961281975,
+      "shockClass": "ISSUER_RELATIVE_WEAKNESS",
+      "support": 88.137612,
+      "rangeWidthPct": 9.324961062026492,
+      "rvol20": 1.8070261491640327,
+      "matchedTouches": 6,
+      "status": "TIMEOUT",
+      "grossPct": 0.7704482386728717,
+      "net50bps": 0.2704482386728717,
+      "followingDates": [
+        "2023-08-24",
+        "2023-08-25"
+      ]
+    },
+    {
+      "symbol": "PEP",
+      "date": "2023-09-05",
+      "sectorETF": "XLP",
+      "stockReturn3dPct": -3.1448994823209064,
+      "etfReturn3dPct": -2.201559542044107,
+      "stockMinusEtf3dPp": -0.9433399402767995,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 156.220988,
+      "rangeWidthPct": 9.73703738194256,
+      "rvol20": 1.2312132347200464,
+      "matchedTouches": 6,
+      "status": "TIMEOUT",
+      "grossPct": 0.8461010364628541,
+      "net50bps": 0.34610103646285406,
+      "followingDates": [
+        "2023-09-06",
+        "2023-09-07"
+      ]
+    },
+    {
+      "symbol": "KO",
+      "date": "2023-09-06",
+      "sectorETF": "XLP",
+      "stockReturn3dPct": -1.7549724218619334,
+      "etfReturn3dPct": -1.8141836627546537,
+      "stockMinusEtf3dPp": 0.05921124089272034,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 58.67,
+      "rangeWidthPct": 7.831941366967787,
+      "rvol20": 1.5167731866580718,
+      "matchedTouches": 3,
+      "status": "TIMEOUT",
+      "grossPct": -1.0517387616624352,
+      "net50bps": -1.5517387616624352,
+      "followingDates": [
+        "2023-09-07",
+        "2023-09-08"
+      ]
+    },
+    {
+      "symbol": "WFC",
+      "date": "2023-09-06",
+      "sectorETF": "XLF",
+      "stockReturn3dPct": -0.6539135218473158,
+      "etfReturn3dPct": -0.17451713197886853,
+      "stockMinusEtf3dPp": -0.47939638986844724,
+      "shockClass": "UNCLASSIFIED",
+      "support": 37.903171,
+      "rangeWidthPct": 14.98440592213246,
+      "rvol20": 1.496386661836683,
+      "matchedTouches": 3,
+      "status": "TIMEOUT",
+      "grossPct": 0.6629042433624166,
+      "net50bps": 0.1629042433624166,
+      "followingDates": [
+        "2023-09-07",
+        "2023-09-08"
+      ]
+    },
+    {
+      "symbol": "ASML",
+      "date": "2023-09-07",
+      "sectorETF": "SMH",
+      "stockReturn3dPct": -3.7327175531256307,
+      "etfReturn3dPct": -3.1239992307551367,
+      "stockMinusEtf3dPp": -0.608718322370494,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 620.248866,
+      "rangeWidthPct": 21.136152629418902,
+      "rvol20": 1.4978521923765324,
+      "matchedTouches": 3,
+      "status": "TIMEOUT",
+      "grossPct": -0.10503362166542907,
+      "net50bps": -0.6050336216654291,
+      "followingDates": [
+        "2023-09-08",
+        "2023-09-11"
+      ]
+    },
+    {
+      "symbol": "PFE",
+      "date": "2023-09-07",
+      "sectorETF": "XLV",
+      "stockReturn3dPct": -4.192287243039217,
+      "etfReturn3dPct": -1.1304933636110737,
+      "stockMinusEtf3dPp": -3.061793879428143,
+      "shockClass": "ISSUER_RELATIVE_WEAKNESS",
+      "support": 28.249327,
+      "rangeWidthPct": 9.117041974132679,
+      "rvol20": 1.237089227905213,
+      "matchedTouches": 2,
+      "status": "STOP",
+      "grossPct": -2,
+      "net50bps": -2.5,
+      "followingDates": [
+        "2023-09-08",
+        "2023-09-11"
+      ]
+    },
+    {
+      "symbol": "NOC",
+      "date": "2023-09-11",
+      "sectorETF": "XLI",
+      "stockReturn3dPct": 0.32102736977090984,
+      "etfReturn3dPct": -0.7980466321639179,
+      "stockMinusEtf3dPp": 1.1190740019348278,
+      "shockClass": "UNCLASSIFIED",
+      "support": 399.427634,
+      "rangeWidthPct": 9.226282025344279,
+      "rvol20": 1.4910665733212523,
+      "matchedTouches": 4,
+      "status": "TIMEOUT",
+      "grossPct": 0.658764480166596,
+      "net50bps": 0.15876448016659594,
+      "followingDates": [
+        "2023-09-12",
+        "2023-09-13"
+      ]
+    },
+    {
+      "symbol": "FDX",
+      "date": "2023-09-19",
+      "sectorETF": "XLI",
+      "stockReturn3dPct": -2.7389799498738543,
+      "etfReturn3dPct": -0.8852418657161687,
+      "stockMinusEtf3dPp": -1.8537380841576856,
+      "shockClass": "UNCLASSIFIED",
+      "support": 236.086515,
+      "rangeWidthPct": 8.253935215232433,
+      "rvol20": 1.511773116650723,
+      "matchedTouches": 4,
+      "status": "TARGET_GAP",
+      "grossPct": 4.112854896845808,
+      "net50bps": 3.612854896845808,
+      "followingDates": [
+        "2023-09-20",
+        "2023-09-21"
+      ]
+    },
+    {
+      "symbol": "C",
+      "date": "2023-10-04",
+      "sectorETF": "XLF",
+      "stockReturn3dPct": -3.209335797981061,
+      "etfReturn3dPct": -1.6882724116468295,
+      "stockMinusEtf3dPp": -1.5210633863342315,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 36.117152,
+      "rangeWidthPct": 14.246023606734015,
+      "rvol20": 1.4338226569034533,
+      "matchedTouches": 3,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-10-05",
+        "2023-10-06"
+      ]
+    },
+    {
+      "symbol": "FTNT",
+      "date": "2023-10-05",
+      "sectorETF": "IGV",
+      "stockReturn3dPct": -1.0404229916424979,
+      "etfReturn3dPct": -1.0549327644424844,
+      "stockMinusEtf3dPp": 0.014509772799986553,
+      "shockClass": "UNCLASSIFIED",
+      "support": 56.84,
+      "rangeWidthPct": 15.552427867698814,
+      "rvol20": 1.5765611408863065,
+      "matchedTouches": 6,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-10-06",
+        "2023-10-09"
+      ]
+    },
+    {
+      "symbol": "NOC",
+      "date": "2023-10-06",
+      "sectorETF": "XLI",
+      "stockReturn3dPct": -2.548870720061136,
+      "etfReturn3dPct": 1.0933891102439475,
+      "stockMinusEtf3dPp": -3.6422598303050835,
+      "shockClass": "ISSUER_RELATIVE_WEAKNESS",
+      "support": 396.388239,
+      "rangeWidthPct": 6.968875279874287,
+      "rvol20": 1.256952801223177,
+      "matchedTouches": 8,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-10-09",
+        "2023-10-10"
+      ]
+    },
+    {
+      "symbol": "TXN",
+      "date": "2023-10-06",
+      "sectorETF": "SMH",
+      "stockReturn3dPct": -0.15898253065170787,
+      "etfReturn3dPct": 3.7557699000272837,
+      "stockMinusEtf3dPp": -3.9147524306789916,
+      "shockClass": "ISSUER_RELATIVE_WEAKNESS",
+      "support": 142.046634,
+      "rangeWidthPct": 10.789435531432567,
+      "rvol20": 1.2366851565549497,
+      "matchedTouches": 4,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-10-09",
+        "2023-10-10"
+      ]
+    },
+    {
+      "symbol": "WMT",
+      "date": "2023-10-06",
+      "sectorETF": "XLP",
+      "stockReturn3dPct": -1.6845812914374036,
+      "etfReturn3dPct": -1.7391301289448435,
+      "stockMinusEtf3dPp": 0.054548837507439885,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 50.073246,
+      "rangeWidthPct": 6.986129878618219,
+      "rvol20": 2.630334699952763,
+      "matchedTouches": 6,
+      "status": "TIMEOUT",
+      "grossPct": 1.6249677148089559,
+      "net50bps": 1.1249677148089559,
+      "followingDates": [
+        "2023-10-09",
+        "2023-10-10"
+      ]
+    },
+    {
+      "symbol": "FTNT",
+      "date": "2023-10-13",
+      "sectorETF": "IGV",
+      "stockReturn3dPct": -2.760942760942764,
+      "etfReturn3dPct": -0.9556218365832758,
+      "stockMinusEtf3dPp": -1.805320924359488,
+      "shockClass": "UNCLASSIFIED",
+      "support": 56.64,
+      "rangeWidthPct": 15.960451977401146,
+      "rvol20": 2.20549844521023,
+      "matchedTouches": 5,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-10-16",
+        "2023-10-17"
+      ]
+    },
+    {
+      "symbol": "TXN",
+      "date": "2023-10-17",
+      "sectorETF": "SMH",
+      "stockReturn3dPct": -0.47741963685324906,
+      "etfReturn3dPct": -2.5428744293522487,
+      "stockMinusEtf3dPp": 2.0654547924989997,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 139.674205,
+      "rangeWidthPct": 12.67124377045854,
+      "rvol20": 1.2499293248656445,
+      "matchedTouches": 3,
+      "status": "TIMEOUT",
+      "grossPct": -1.2947952715913202,
+      "net50bps": -1.7947952715913202,
+      "followingDates": [
+        "2023-10-18",
+        "2023-10-19"
+      ]
+    },
+    {
+      "symbol": "LRCX",
+      "date": "2023-10-20",
+      "sectorETF": "SMH",
+      "stockReturn3dPct": -7.631355416136831,
+      "etfReturn3dPct": -4.193635420093466,
+      "stockMinusEtf3dPp": -3.4377199960433646,
+      "shockClass": "ISSUER_RELATIVE_WEAKNESS",
+      "support": 58.543919,
+      "rangeWidthPct": 18.251993003748158,
+      "rvol20": 1.2114345464559813,
+      "matchedTouches": 3,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-10-23",
+        "2023-10-24"
+      ]
+    },
+    {
+      "symbol": "NOW",
+      "date": "2023-10-25",
+      "sectorETF": "IGV",
+      "stockReturn3dPct": -2.274612449540092,
+      "etfReturn3dPct": -1.7888241679471006,
+      "stockMinusEtf3dPp": -0.4857882815929915,
+      "shockClass": "SHARED_SECTOR_PRESSURE",
+      "support": 105.6,
+      "rangeWidthPct": 15.132575757575761,
+      "rvol20": 1.914354691796322,
+      "matchedTouches": 2,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-10-26",
+        "2023-10-27"
+      ]
+    },
+    {
+      "symbol": "COP",
+      "date": "2023-12-12",
+      "sectorETF": "XLE",
+      "stockReturn3dPct": 0.18944504395574935,
+      "etfReturn3dPct": -0.1843889665858689,
+      "stockMinusEtf3dPp": 0.37383401054161824,
+      "shockClass": "UNCLASSIFIED",
+      "support": 99.947241,
+      "rangeWidthPct": 15.47008786365598,
+      "rvol20": 1.286938877297739,
+      "matchedTouches": 3,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-12-13",
+        "2023-12-14"
+      ]
+    },
+    {
+      "symbol": "PG",
+      "date": "2023-12-14",
+      "sectorETF": "XLP",
+      "stockReturn3dPct": -0.7955009214527076,
+      "etfReturn3dPct": 0.6499009824880275,
+      "stockMinusEtf3dPp": -1.445401903940735,
+      "shockClass": "UNCLASSIFIED",
+      "support": 134.392203,
+      "rangeWidthPct": 6.303625367313925,
+      "rvol20": 1.5141842478730374,
+      "matchedTouches": 7,
+      "status": "TARGET",
+      "grossPct": 2,
+      "net50bps": 1.5,
+      "followingDates": [
+        "2023-12-15",
+        "2023-12-18"
+      ]
+    },
+    {
+      "symbol": "NOC",
+      "date": "2023-12-15",
+      "sectorETF": "XLI",
+      "stockReturn3dPct": -3.7976004476128256,
+      "etfReturn3dPct": 2.2805430127274207,
+      "stockMinusEtf3dPp": -6.078143460340247,
+      "shockClass": "ISSUER_RELATIVE_WEAKNESS",
+      "support": 434.865607,
+      "rangeWidthPct": 8.226879160853029,
+      "rvol20": 2.9968884096605835,
+      "matchedTouches": 6,
+      "status": "TIMEOUT",
+      "grossPct": 0.40885184451655565,
+      "net50bps": -0.09114815548344435,
+      "followingDates": [
+        "2023-12-18",
+        "2023-12-19"
+      ]
+    }
+  ]
+}
