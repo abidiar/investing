@@ -1,0 +1,6632 @@
+{
+  "id": "D4_failedLow_vwapVolume_91AH_M5_2026-10-11",
+  "frozen": "frozen_91AH_D4_failed_low_vwap_volume_M5_expansion_2026-10-11.md",
+  "source": "raw_12AH_3d_webull_M5_OHLCV_2026-10-11.json and raw_79AH_M5_expansion_part0..7_2026-10-11.json",
+  "status": "RETROSPECTIVE_OUTCOME_EXPOSED_NOT_VALIDATED_OPTIONS",
+  "coverage": {
+    "all": 91,
+    "valid": 88,
+    "invalid": [
+      {
+        "ticker": "CSCO",
+        "day": "2023-11-22",
+        "reason": "INVALID_M5_SESSION",
+        "counts": [
+          78,
+          42,
+          78
+        ],
+        "bounds": [
+          {
+            "start": "2023-11-22T14:30",
+            "end": "2023-11-22T20:55"
+          },
+          {
+            "start": "2023-11-24T14:30",
+            "end": "2023-11-24T17:55"
+          },
+          {
+            "start": "2023-11-27T14:30",
+            "end": "2023-11-27T20:55"
+          }
+        ],
+        "morning": true
+      },
+      {
+        "ticker": "PANW",
+        "day": "2023-11-22",
+        "reason": "INVALID_M5_SESSION",
+        "counts": [
+          78,
+          42,
+          78
+        ],
+        "bounds": [
+          {
+            "start": "2023-11-22T14:30",
+            "end": "2023-11-22T20:55"
+          },
+          {
+            "start": "2023-11-24T14:30",
+            "end": "2023-11-24T17:55"
+          },
+          {
+            "start": "2023-11-27T14:30",
+            "end": "2023-11-27T20:55"
+          }
+        ],
+        "morning": true
+      },
+      {
+        "ticker": "PANW",
+        "day": "2025-11-26",
+        "reason": "INVALID_M5_SESSION",
+        "counts": [
+          78,
+          42,
+          78
+        ],
+        "bounds": [
+          {
+            "start": "2025-11-26T14:30",
+            "end": "2025-11-26T20:55"
+          },
+          {
+            "start": "2025-11-28T14:30",
+            "end": "2025-11-28T17:55"
+          },
+          {
+            "start": "2025-12-01T14:30",
+            "end": "2025-12-01T20:55"
+          }
+        ],
+        "morning": true
+      }
+    ]
+  },
+  "groups": {
+    "allValid": {
+      "eligible": 88,
+      "signals": 5,
+      "failedLowFound": 34,
+      "reclaimAfterFailed": 9,
+      "volumeQualifiedAfterFailed": 6,
+      "chaseRejectedEvents": 1,
+      "medianSignalAdvanceFromKnownLowPct": 0.8410647706581065,
+      "medianSignalMoveFromOpeningPct": -0.42478760619690803,
+      "primary": {
+        "eligible": 88,
+        "entered": 5,
+        "skipped": 83,
+        "targets": 2,
+        "stops": 2,
+        "timeouts": 1,
+        "targetRatePerEntryPct": 40,
+        "meanNetPerEntryPct": 0.28225529051073145,
+        "medianNetPerEntryPct": 0.21127645255365496,
+        "meanNetPerEligibleEventSkippingZeroPct": 0.016037232415382466
+      },
+      "vwapOnly": {
+        "eligible": 88,
+        "entered": 35,
+        "skipped": 53,
+        "targets": 11,
+        "stops": 22,
+        "timeouts": 2,
+        "targetRatePerEntryPct": 31.428571428571427,
+        "meanNetPerEntryPct": -0.15430664204340294,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.06137195990362618
+      },
+      "baseline0950": {
+        "eligible": 88,
+        "entered": 88,
+        "skipped": 0,
+        "targets": 29,
+        "stops": 57,
+        "timeouts": 2,
+        "targetRatePerEntryPct": 32.95454545454545,
+        "meanNetPerEntryPct": -0.20278585072792232,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.20278585072792232
+      },
+      "avgPrimaryMinusBaselinePct": 0.21882308314330484,
+      "avgVWAPMinusBaselinePct": 0.1414138908242962
+    },
+    "priorPilot": {
+      "eligible": 12,
+      "signals": 1,
+      "failedLowFound": 6,
+      "reclaimAfterFailed": 1,
+      "volumeQualifiedAfterFailed": 1,
+      "chaseRejectedEvents": 0,
+      "medianSignalAdvanceFromKnownLowPct": 0.5044136191677318,
+      "medianSignalMoveFromOpeningPct": -0.42478760619690803,
+      "primary": {
+        "eligible": 12,
+        "entered": 1,
+        "skipped": 11,
+        "targets": 0,
+        "stops": 1,
+        "timeouts": 0,
+        "targetRatePerEntryPct": 0,
+        "meanNetPerEntryPct": -1.2000000000000008,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.10000000000000007
+      },
+      "vwapOnly": {
+        "eligible": 12,
+        "entered": 4,
+        "skipped": 8,
+        "targets": 1,
+        "stops": 3,
+        "timeouts": 0,
+        "targetRatePerEntryPct": 25,
+        "meanNetPerEntryPct": -0.45000000000000295,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.150000000000001
+      },
+      "baseline0950": {
+        "eligible": 12,
+        "entered": 12,
+        "skipped": 0,
+        "targets": 2,
+        "stops": 10,
+        "timeouts": 0,
+        "targetRatePerEntryPct": 16.666666666666668,
+        "meanNetPerEntryPct": -0.8785847126650562,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.8785847126650562
+      },
+      "avgPrimaryMinusBaselinePct": 0.7785847126650562,
+      "avgVWAPMinusBaselinePct": 0.7285847126650554
+    },
+    "new79": {
+      "eligible": 76,
+      "signals": 4,
+      "failedLowFound": 28,
+      "reclaimAfterFailed": 8,
+      "volumeQualifiedAfterFailed": 5,
+      "chaseRejectedEvents": 1,
+      "medianSignalAdvanceFromKnownLowPct": 0.8534328182294826,
+      "medianSignalMoveFromOpeningPct": -0.5251800794833617,
+      "primary": {
+        "eligible": 76,
+        "entered": 4,
+        "skipped": 72,
+        "targets": 2,
+        "stops": 1,
+        "timeouts": 1,
+        "targetRatePerEntryPct": 50,
+        "meanNetPerEntryPct": 0.6528191131384145,
+        "medianNetPerEntryPct": 1.0056382262768284,
+        "meanNetPerEligibleEventSkippingZeroPct": 0.0343589006914955
+      },
+      "vwapOnly": {
+        "eligible": 76,
+        "entered": 31,
+        "skipped": 45,
+        "targets": 10,
+        "stops": 19,
+        "timeouts": 2,
+        "targetRatePerEntryPct": 32.25806451612903,
+        "meanNetPerEntryPct": -0.11615266037158359,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.04737805883577752
+      },
+      "baseline0950": {
+        "eligible": 76,
+        "entered": 76,
+        "skipped": 0,
+        "targets": 27,
+        "stops": 47,
+        "timeouts": 2,
+        "targetRatePerEntryPct": 35.526315789473685,
+        "meanNetPerEntryPct": -0.09608076726416447,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.09608076726416447
+      },
+      "avgPrimaryMinusBaselinePct": 0.13043966795565995,
+      "avgVWAPMinusBaselinePct": 0.04870270842838692
+    },
+    "originalCohort": {
+      "eligible": 62,
+      "signals": 3,
+      "failedLowFound": 22,
+      "reclaimAfterFailed": 6,
+      "volumeQualifiedAfterFailed": 4,
+      "chaseRejectedEvents": 1,
+      "medianSignalAdvanceFromKnownLowPct": 0.8410647706581065,
+      "medianSignalMoveFromOpeningPct": -0.7001366120218622,
+      "primary": {
+        "eligible": 62,
+        "entered": 3,
+        "skipped": 59,
+        "targets": 2,
+        "stops": 0,
+        "timeouts": 1,
+        "targetRatePerEntryPct": 66.66666666666667,
+        "meanNetPerEntryPct": 1.2704254841845528,
+        "medianNetPerEntryPct": 1.8000000000000018,
+        "meanNetPerEligibleEventSkippingZeroPct": 0.06147220084763965
+      },
+      "vwapOnly": {
+        "eligible": 62,
+        "entered": 25,
+        "skipped": 37,
+        "targets": 7,
+        "stops": 16,
+        "timeouts": 2,
+        "targetRatePerEntryPct": 28,
+        "meanNetPerEntryPct": -0.20882323470473435,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.08420291721965094
+      },
+      "baseline0950": {
+        "eligible": 62,
+        "entered": 62,
+        "skipped": 0,
+        "targets": 20,
+        "stops": 40,
+        "timeouts": 2,
+        "targetRatePerEntryPct": 32.25806451612903,
+        "meanNetPerEntryPct": -0.17762320678889934,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.17762320678889934
+      },
+      "avgPrimaryMinusBaselinePct": 0.23909540763653897,
+      "avgVWAPMinusBaselinePct": 0.09342028956924836
+    },
+    "separateCohort": {
+      "eligible": 26,
+      "signals": 2,
+      "failedLowFound": 12,
+      "reclaimAfterFailed": 3,
+      "volumeQualifiedAfterFailed": 2,
+      "chaseRejectedEvents": 0,
+      "medianSignalAdvanceFromKnownLowPct": 0.6851072424842952,
+      "medianSignalMoveFromOpeningPct": -0.33132815133822824,
+      "primary": {
+        "eligible": 26,
+        "entered": 2,
+        "skipped": 24,
+        "targets": 0,
+        "stops": 2,
+        "timeouts": 0,
+        "targetRatePerEntryPct": 0,
+        "meanNetPerEntryPct": -1.2000000000000008,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.09230769230769237
+      },
+      "vwapOnly": {
+        "eligible": 26,
+        "entered": 10,
+        "skipped": 16,
+        "targets": 4,
+        "stops": 6,
+        "timeouts": 0,
+        "targetRatePerEntryPct": 40,
+        "meanNetPerEntryPct": -0.018015160390074468,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.006928907842336334
+      },
+      "baseline0950": {
+        "eligible": 26,
+        "entered": 26,
+        "skipped": 0,
+        "targets": 9,
+        "stops": 17,
+        "timeouts": 0,
+        "targetRatePerEntryPct": 34.61538461538461,
+        "meanNetPerEntryPct": -0.2627890785825159,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.2627890785825159
+      },
+      "avgPrimaryMinusBaselinePct": 0.17048138627482354,
+      "avgVWAPMinusBaselinePct": 0.2558601707401796
+    },
+    "priorD4StockWinners": {
+      "eligible": 55,
+      "signals": 4,
+      "failedLowFound": 17,
+      "reclaimAfterFailed": 7,
+      "volumeQualifiedAfterFailed": 5,
+      "chaseRejectedEvents": 1,
+      "medianSignalAdvanceFromKnownLowPct": 0.7176589085726159,
+      "medianSignalMoveFromOpeningPct": -0.5624621091093851,
+      "primary": {
+        "eligible": 55,
+        "entered": 4,
+        "skipped": 51,
+        "targets": 2,
+        "stops": 1,
+        "timeouts": 1,
+        "targetRatePerEntryPct": 50,
+        "meanNetPerEntryPct": 0.6528191131384145,
+        "medianNetPerEntryPct": 1.0056382262768284,
+        "meanNetPerEligibleEventSkippingZeroPct": 0.04747775368279378
+      },
+      "vwapOnly": {
+        "eligible": 55,
+        "entered": 22,
+        "skipped": 33,
+        "targets": 10,
+        "stops": 10,
+        "timeouts": 2,
+        "targetRatePerEntryPct": 45.45454545454545,
+        "meanNetPerEntryPct": 0.35198891973312824,
+        "medianNetPerEntryPct": 0.480489942257212,
+        "meanNetPerEligibleEventSkippingZeroPct": 0.1407955678932513
+      },
+      "baseline0950": {
+        "eligible": 55,
+        "entered": 55,
+        "skipped": 0,
+        "targets": 23,
+        "stops": 30,
+        "timeouts": 2,
+        "targetRatePerEntryPct": 41.81818181818182,
+        "meanNetPerEntryPct": 0.10008926575680398,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": 0.10008926575680398
+      },
+      "avgPrimaryMinusBaselinePct": -0.05261151207401024,
+      "avgVWAPMinusBaselinePct": 0.04070630213644735
+    },
+    "priorD4StockNonWinners": {
+      "eligible": 33,
+      "signals": 1,
+      "failedLowFound": 17,
+      "reclaimAfterFailed": 2,
+      "volumeQualifiedAfterFailed": 1,
+      "chaseRejectedEvents": 0,
+      "medianSignalAdvanceFromKnownLowPct": 0.8658008658008587,
+      "medianSignalMoveFromOpeningPct": -0.23786869647954845,
+      "primary": {
+        "eligible": 33,
+        "entered": 1,
+        "skipped": 32,
+        "targets": 0,
+        "stops": 1,
+        "timeouts": 0,
+        "targetRatePerEntryPct": 0,
+        "meanNetPerEntryPct": -1.2000000000000008,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.03636363636363639
+      },
+      "vwapOnly": {
+        "eligible": 33,
+        "entered": 13,
+        "skipped": 20,
+        "targets": 1,
+        "stops": 12,
+        "timeouts": 0,
+        "targetRatePerEntryPct": 7.6923076923076925,
+        "meanNetPerEntryPct": -1.0111145158190713,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.3983178395650887
+      },
+      "baseline0950": {
+        "eligible": 33,
+        "entered": 33,
+        "skipped": 0,
+        "targets": 6,
+        "stops": 27,
+        "timeouts": 0,
+        "targetRatePerEntryPct": 18.181818181818183,
+        "meanNetPerEntryPct": -0.7075777115357997,
+        "medianNetPerEntryPct": -1.2000000000000008,
+        "meanNetPerEligibleEventSkippingZeroPct": -0.7075777115357997
+      },
+      "avgPrimaryMinusBaselinePct": 0.6712140751721634,
+      "avgVWAPMinusBaselinePct": 0.3092598719707111
+    },
+    "byYear": {
+      "2023": {
+        "eligible": 15,
+        "signals": 1,
+        "failedLowFound": 6,
+        "reclaimAfterFailed": 1,
+        "volumeQualifiedAfterFailed": 1,
+        "chaseRejectedEvents": 0,
+        "medianSignalAdvanceFromKnownLowPct": 0.877555389061313,
+        "medianSignalMoveFromOpeningPct": -0.78957894736843,
+        "primary": {
+          "eligible": 15,
+          "entered": 1,
+          "skipped": 14,
+          "targets": 1,
+          "stops": 0,
+          "timeouts": 0,
+          "targetRatePerEntryPct": 100,
+          "meanNetPerEntryPct": 1.8000000000000018,
+          "medianNetPerEntryPct": 1.8000000000000018,
+          "meanNetPerEligibleEventSkippingZeroPct": 0.12000000000000012
+        },
+        "vwapOnly": {
+          "eligible": 15,
+          "entered": 8,
+          "skipped": 7,
+          "targets": 4,
+          "stops": 4,
+          "timeouts": 0,
+          "targetRatePerEntryPct": 50,
+          "meanNetPerEntryPct": 0.23539585645578923,
+          "medianNetPerEntryPct": 0.3000000000000005,
+          "meanNetPerEligibleEventSkippingZeroPct": 0.12554445677642093
+        },
+        "baseline0950": {
+          "eligible": 15,
+          "entered": 15,
+          "skipped": 0,
+          "targets": 5,
+          "stops": 10,
+          "timeouts": 0,
+          "targetRatePerEntryPct": 33.333333333333336,
+          "meanNetPerEntryPct": -0.25092053143747717,
+          "medianNetPerEntryPct": -1.2000000000000008,
+          "meanNetPerEligibleEventSkippingZeroPct": -0.25092053143747717
+        },
+        "avgPrimaryMinusBaselinePct": 0.37092053143747733,
+        "avgVWAPMinusBaselinePct": 0.37646498821389807
+      },
+      "2024": {
+        "eligible": 27,
+        "signals": 1,
+        "failedLowFound": 9,
+        "reclaimAfterFailed": 2,
+        "volumeQualifiedAfterFailed": 1,
+        "chaseRejectedEvents": 0,
+        "medianSignalAdvanceFromKnownLowPct": 0.8410647706581065,
+        "medianSignalMoveFromOpeningPct": -0.7001366120218622,
+        "primary": {
+          "eligible": 27,
+          "entered": 1,
+          "skipped": 26,
+          "targets": 1,
+          "stops": 0,
+          "timeouts": 0,
+          "targetRatePerEntryPct": 100,
+          "meanNetPerEntryPct": 1.8000000000000018,
+          "medianNetPerEntryPct": 1.8000000000000018,
+          "meanNetPerEligibleEventSkippingZeroPct": 0.06666666666666674
+        },
+        "vwapOnly": {
+          "eligible": 27,
+          "entered": 10,
+          "skipped": 17,
+          "targets": 4,
+          "stops": 5,
+          "timeouts": 1,
+          "targetRatePerEntryPct": 40,
+          "meanNetPerEntryPct": 0.2704824224280967,
+          "medianNetPerEntryPct": -0.2251482840196104,
+          "meanNetPerEligibleEventSkippingZeroPct": 0.10017867497336917
+        },
+        "baseline0950": {
+          "eligible": 27,
+          "entered": 27,
+          "skipped": 0,
+          "targets": 14,
+          "stops": 12,
+          "timeouts": 1,
+          "targetRatePerEntryPct": 51.851851851851855,
+          "meanNetPerEntryPct": 0.4670663374847749,
+          "medianNetPerEntryPct": 1.8000000000000018,
+          "meanNetPerEligibleEventSkippingZeroPct": 0.4670663374847749
+        },
+        "avgPrimaryMinusBaselinePct": -0.4003996708181081,
+        "avgVWAPMinusBaselinePct": -0.3668876625114057
+      },
+      "2025": {
+        "eligible": 33,
+        "signals": 3,
+        "failedLowFound": 18,
+        "reclaimAfterFailed": 5,
+        "volumeQualifiedAfterFailed": 3,
+        "chaseRejectedEvents": 0,
+        "medianSignalAdvanceFromKnownLowPct": 0.5942530464871254,
+        "medianSignalMoveFromOpeningPct": -0.35022354694486113,
+        "primary": {
+          "eligible": 33,
+          "entered": 3,
+          "skipped": 30,
+          "targets": 0,
+          "stops": 2,
+          "timeouts": 1,
+          "targetRatePerEntryPct": 0,
+          "meanNetPerEntryPct": -0.729574515815449,
+          "medianNetPerEntryPct": -1.2000000000000008,
+          "meanNetPerEligibleEventSkippingZeroPct": -0.06632495598322263
+        },
+        "vwapOnly": {
+          "eligible": 33,
+          "entered": 11,
+          "skipped": 22,
+          "targets": 2,
+          "stops": 8,
+          "timeouts": 1,
+          "targetRatePerEntryPct": 18.181818181818183,
+          "meanNetPerEntryPct": -0.5262475952223963,
+          "medianNetPerEntryPct": -1.2000000000000008,
+          "meanNetPerEligibleEventSkippingZeroPct": -0.1754158650741321
+        },
+        "baseline0950": {
+          "eligible": 33,
+          "entered": 33,
+          "skipped": 0,
+          "targets": 5,
+          "stops": 27,
+          "timeouts": 1,
+          "targetRatePerEntryPct": 15.151515151515152,
+          "meanNetPerEntryPct": -0.7906708486237561,
+          "medianNetPerEntryPct": -1.2000000000000008,
+          "meanNetPerEligibleEventSkippingZeroPct": -0.7906708486237561
+        },
+        "avgPrimaryMinusBaselinePct": 0.7243458926405336,
+        "avgVWAPMinusBaselinePct": 0.6152549835496242
+      },
+      "2026": {
+        "eligible": 13,
+        "signals": 0,
+        "failedLowFound": 1,
+        "reclaimAfterFailed": 1,
+        "volumeQualifiedAfterFailed": 1,
+        "chaseRejectedEvents": 1,
+        "medianSignalAdvanceFromKnownLowPct": null,
+        "medianSignalMoveFromOpeningPct": null,
+        "primary": {
+          "eligible": 13,
+          "entered": 0,
+          "skipped": 13,
+          "targets": 0,
+          "stops": 0,
+          "timeouts": 0,
+          "targetRatePerEntryPct": null,
+          "meanNetPerEntryPct": null,
+          "medianNetPerEntryPct": null,
+          "meanNetPerEligibleEventSkippingZeroPct": 0
+        },
+        "vwapOnly": {
+          "eligible": 13,
+          "entered": 6,
+          "skipped": 7,
+          "targets": 1,
+          "stops": 5,
+          "timeouts": 0,
+          "targetRatePerEntryPct": 16.666666666666668,
+          "meanNetPerEntryPct": -0.7000000000000041,
+          "medianNetPerEntryPct": -1.2000000000000008,
+          "meanNetPerEligibleEventSkippingZeroPct": -0.3230769230769249
+        },
+        "baseline0950": {
+          "eligible": 13,
+          "entered": 13,
+          "skipped": 0,
+          "targets": 5,
+          "stops": 8,
+          "timeouts": 0,
+          "targetRatePerEntryPct": 38.46153846153846,
+          "meanNetPerEntryPct": -0.04615384615384428,
+          "medianNetPerEntryPct": -1.1999999999999897,
+          "meanNetPerEligibleEventSkippingZeroPct": -0.04615384615384428
+        },
+        "avgPrimaryMinusBaselinePct": 0.04615384615384428,
+        "avgVWAPMinusBaselinePct": -0.27692307692308066
+      }
+    }
+  },
+  "events": [
+    {
+      "ticker": "ISRG",
+      "earningsDate": "2023-01-24",
+      "selloffDate": "2023-01-25",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-01-31",
+      "d5": "2023-02-01",
+      "d6": "2023-02-02",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-01-31T14:30",
+          "end": "2023-01-31T20:55"
+        },
+        {
+          "start": "2023-02-01T14:30",
+          "end": "2023-02-01T20:55"
+        },
+        {
+          "start": "2023-02-02T14:30",
+          "end": "2023-02-02T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 19,
+        "entryTime": "2023-01-31T16:05",
+        "entry": 243.3,
+        "exitTime": "2023-02-01T14:30",
+        "exit": 248.16600000000003,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 60
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2023-01-31T14:50",
+        "entry": 242.855,
+        "exitTime": "2023-02-01T14:30",
+        "exit": 247.7121,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "ANET",
+      "earningsDate": "2023-05-01",
+      "selloffDate": "2023-05-02",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-05-08",
+      "d5": "2023-05-09",
+      "d6": "2023-05-10",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-05-08T13:30",
+          "end": "2023-05-08T19:55"
+        },
+        {
+          "start": "2023-05-09T13:30",
+          "end": "2023-05-09T19:55"
+        },
+        {
+          "start": "2023-05-10T13:30",
+          "end": "2023-05-10T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2023-05-08T13:50",
+        "entry": 138.72,
+        "exitTime": "2023-05-09T13:30",
+        "exit": 136.96,
+        "why": "GAP_STOP",
+        "gross": -1.2687427912341342,
+        "net": -1.4687427912341342,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "AMD",
+      "earningsDate": "2023-05-02",
+      "selloffDate": "2023-05-03",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-05-09",
+      "d5": "2023-05-10",
+      "d6": "2023-05-11",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-05-09T13:30",
+          "end": "2023-05-09T19:55"
+        },
+        {
+          "start": "2023-05-10T13:30",
+          "end": "2023-05-10T19:55"
+        },
+        {
+          "start": "2023-05-11T13:30",
+          "end": "2023-05-11T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2023-05-09T13:50",
+      "confirmIndex": 5,
+      "confirmTime": "2023-05-09T13:55",
+      "reclaimCrossesAfterCandidate": 1,
+      "volumeQualified": 1,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": -0.78957894736843,
+      "entryAdvanceVsKnownLowPct": 0.877555389061313,
+      "primary": {
+        "state": "TARGET",
+        "entryIndex": 6,
+        "entryTime": "2023-05-09T14:00",
+        "entry": 94.2499,
+        "exitTime": "2023-05-09T14:40",
+        "exit": 96.13489799999999,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 9
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 6,
+        "entryTime": "2023-05-09T14:00",
+        "entry": 94.2499,
+        "exitTime": "2023-05-09T14:40",
+        "exit": 96.13489799999999,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 9
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2023-05-09T13:50",
+        "entry": 93.59,
+        "exitTime": "2023-05-09T14:35",
+        "exit": 95.46180000000001,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 10
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "earningsDate": "2023-05-02",
+      "selloffDate": "2023-05-03",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2023-05-09",
+      "d5": "2023-05-10",
+      "d6": "2023-05-11",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-05-09T13:30",
+          "end": "2023-05-09T19:55"
+        },
+        {
+          "start": "2023-05-10T13:30",
+          "end": "2023-05-10T19:55"
+        },
+        {
+          "start": "2023-05-11T13:30",
+          "end": "2023-05-11T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 16,
+        "entryTime": "2023-05-09T14:50",
+        "entry": 106.8543,
+        "exitTime": "2023-05-10T17:25",
+        "exit": 105.78575699999999,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 110
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2023-05-09T13:50",
+        "entry": 106.905,
+        "exitTime": "2023-05-10T17:25",
+        "exit": 105.83,
+        "why": "GAP_STOP",
+        "gross": -1.0055656891632792,
+        "net": -1.205565689163279,
+        "barsHeld": 122
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "earningsDate": "2023-05-04",
+      "selloffDate": "2023-05-05",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2023-05-11",
+      "d5": "2023-05-12",
+      "d6": "2023-05-15",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        76,
+        77
+      ],
+      "bounds": [
+        {
+          "start": "2023-05-11T13:30",
+          "end": "2023-05-11T19:55"
+        },
+        {
+          "start": "2023-05-12T13:30",
+          "end": "2023-05-12T19:55"
+        },
+        {
+          "start": "2023-05-15T13:30",
+          "end": "2023-05-15T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2023-05-11T13:50",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2023-05-11T13:50",
+        "entry": 409.65,
+        "exitTime": "2023-05-11T14:05",
+        "exit": 405.5535,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 4
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "earningsDate": "2023-05-08",
+      "selloffDate": "2023-05-09",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-05-15",
+      "d5": "2023-05-16",
+      "d6": "2023-05-17",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-05-15T13:30",
+          "end": "2023-05-15T19:55"
+        },
+        {
+          "start": "2023-05-16T13:30",
+          "end": "2023-05-16T19:55"
+        },
+        {
+          "start": "2023-05-17T13:30",
+          "end": "2023-05-17T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 28,
+        "entryTime": "2023-05-15T15:50",
+        "entry": 62.245,
+        "exitTime": "2023-05-16T13:30",
+        "exit": 61.62255,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 51
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2023-05-15T13:50",
+        "entry": 62.335,
+        "exitTime": "2023-05-16T13:30",
+        "exit": 61.71165,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "ABNB",
+      "earningsDate": "2023-05-09",
+      "selloffDate": "2023-05-10",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-05-16",
+      "d5": "2023-05-17",
+      "d6": "2023-05-18",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-05-16T13:30",
+          "end": "2023-05-16T19:55"
+        },
+        {
+          "start": "2023-05-17T13:30",
+          "end": "2023-05-17T19:55"
+        },
+        {
+          "start": "2023-05-18T13:30",
+          "end": "2023-05-18T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2023-05-16T13:50",
+        "entry": 105.61,
+        "exitTime": "2023-05-16T18:05",
+        "exit": 104.5539,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 52
+      }
+    },
+    {
+      "ticker": "DIS",
+      "earningsDate": "2023-05-10",
+      "selloffDate": "2023-05-11",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-05-17",
+      "d5": "2023-05-18",
+      "d6": "2023-05-19",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-05-17T13:30",
+          "end": "2023-05-17T19:55"
+        },
+        {
+          "start": "2023-05-18T13:30",
+          "end": "2023-05-18T19:55"
+        },
+        {
+          "start": "2023-05-19T13:30",
+          "end": "2023-05-19T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 7,
+        "entryTime": "2023-05-17T14:05",
+        "entry": 91.2,
+        "exitTime": "2023-05-17T17:45",
+        "exit": 93.024,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 45
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2023-05-17T13:50",
+        "entry": 91.3415,
+        "exitTime": "2023-05-18T13:35",
+        "exit": 93.16833,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 76
+      }
+    },
+    {
+      "ticker": "HPE",
+      "earningsDate": "2023-05-30",
+      "selloffDate": "2023-05-31",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-06-06",
+      "d5": "2023-06-07",
+      "d6": "2023-06-08",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-06-06T13:30",
+          "end": "2023-06-06T19:55"
+        },
+        {
+          "start": "2023-06-07T13:30",
+          "end": "2023-06-07T19:55"
+        },
+        {
+          "start": "2023-06-08T13:30",
+          "end": "2023-06-08T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 16,
+        "entryTime": "2023-06-06T14:50",
+        "entry": 15.085,
+        "exitTime": "2023-06-06T18:45",
+        "exit": 15.386700000000001,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 48
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2023-06-06T13:50",
+        "entry": 15.145,
+        "exitTime": "2023-06-06T14:15",
+        "exit": 14.993549999999999,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 6
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "earningsDate": "2023-07-19",
+      "selloffDate": "2023-07-20",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-07-26",
+      "d5": "2023-07-27",
+      "d6": "2023-07-28",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-07-26T13:30",
+          "end": "2023-07-26T19:55"
+        },
+        {
+          "start": "2023-07-27T13:30",
+          "end": "2023-07-27T19:55"
+        },
+        {
+          "start": "2023-07-28T13:30",
+          "end": "2023-07-28T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2023-07-26T13:50",
+        "entry": 419.01,
+        "exitTime": "2023-07-27T13:30",
+        "exit": 427.3902,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "earningsDate": "2023-07-20",
+      "selloffDate": "2023-07-24",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2023-07-28",
+      "d5": "2023-07-31",
+      "d6": "2023-08-01",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-07-28T13:30",
+          "end": "2023-07-28T19:55"
+        },
+        {
+          "start": "2023-07-31T13:30",
+          "end": "2023-07-31T19:55"
+        },
+        {
+          "start": "2023-08-01T13:30",
+          "end": "2023-08-01T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 11,
+      "failedLowCandidateTime": "2023-07-28T14:25",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 7,
+        "entryTime": "2023-07-28T14:05",
+        "entry": 327.785,
+        "exitTime": "2023-07-31T13:30",
+        "exit": 324.50715,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 72
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2023-07-28T13:50",
+        "entry": 327.52,
+        "exitTime": "2023-07-31T13:30",
+        "exit": 324.2448,
+        "why": "STOP_TOUCH",
+        "gross": -0.9999999999999898,
+        "net": -1.1999999999999897,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "EW",
+      "earningsDate": "2023-07-26",
+      "selloffDate": "2023-07-27",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2023-08-02",
+      "d5": "2023-08-03",
+      "d6": "2023-08-04",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-08-02T13:30",
+          "end": "2023-08-02T19:55"
+        },
+        {
+          "start": "2023-08-03T13:30",
+          "end": "2023-08-03T19:55"
+        },
+        {
+          "start": "2023-08-04T13:30",
+          "end": "2023-08-04T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 10,
+      "failedLowCandidateTime": "2023-08-02T14:20",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 18,
+        "entryTime": "2023-08-02T15:00",
+        "entry": 81.09,
+        "exitTime": "2023-08-03T13:30",
+        "exit": 79.86,
+        "why": "GAP_STOP",
+        "gross": -1.5168331483536912,
+        "net": -1.7168331483536912,
+        "barsHeld": 61
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2023-08-02T13:50",
+        "entry": 81.0675,
+        "exitTime": "2023-08-03T13:30",
+        "exit": 79.86,
+        "why": "GAP_STOP",
+        "gross": -1.4894994911647697,
+        "net": -1.6894994911647696,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "earningsDate": "2023-07-31",
+      "selloffDate": "2023-08-02",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2023-08-08",
+      "d5": "2023-08-09",
+      "d6": "2023-08-10",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        76,
+        76
+      ],
+      "bounds": [
+        {
+          "start": "2023-08-08T13:30",
+          "end": "2023-08-08T19:55"
+        },
+        {
+          "start": "2023-08-09T13:30",
+          "end": "2023-08-09T19:55"
+        },
+        {
+          "start": "2023-08-10T13:30",
+          "end": "2023-08-10T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2023-08-08T13:50",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2023-08-08T13:50",
+        "entry": 526.83,
+        "exitTime": "2023-08-08T15:20",
+        "exit": 521.5617000000001,
+        "why": "STOP_TOUCH",
+        "gross": -0.9999999999999898,
+        "net": -1.1999999999999897,
+        "barsHeld": 19
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "earningsDate": "2023-08-02",
+      "selloffDate": "2023-08-03",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2023-08-09",
+      "d5": "2023-08-10",
+      "d6": "2023-08-11",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-08-09T13:30",
+          "end": "2023-08-09T19:55"
+        },
+        {
+          "start": "2023-08-10T13:30",
+          "end": "2023-08-10T19:55"
+        },
+        {
+          "start": "2023-08-11T13:30",
+          "end": "2023-08-11T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 3,
+      "failedLowCandidateTime": "2023-08-09T13:45",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2023-08-09T13:50",
+        "entry": 62.865,
+        "exitTime": "2023-08-09T15:30",
+        "exit": 62.23635,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 21
+      }
+    },
+    {
+      "ticker": "GILD",
+      "earningsDate": "2023-11-07",
+      "selloffDate": "2023-11-09",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-11-15",
+      "d5": "2023-11-16",
+      "d6": "2023-11-17",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-11-15T14:30",
+          "end": "2023-11-15T20:55"
+        },
+        {
+          "start": "2023-11-16T14:30",
+          "end": "2023-11-16T20:55"
+        },
+        {
+          "start": "2023-11-17T14:30",
+          "end": "2023-11-17T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2023-11-15T14:50",
+        "entry": 74.61,
+        "exitTime": "2023-11-16T14:30",
+        "exit": 76.1022,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "earningsDate": "2023-11-15",
+      "selloffDate": "2023-11-16",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-11-22",
+      "d5": "2023-11-24",
+      "d6": "2023-11-27",
+      "oldPilot": false,
+      "status": "INVALID_M5_SESSION",
+      "counts": [
+        78,
+        42,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-11-22T14:30",
+          "end": "2023-11-22T20:55"
+        },
+        {
+          "start": "2023-11-24T14:30",
+          "end": "2023-11-24T17:55"
+        },
+        {
+          "start": "2023-11-27T14:30",
+          "end": "2023-11-27T20:55"
+        }
+      ],
+      "morning": true
+    },
+    {
+      "ticker": "PANW",
+      "earningsDate": "2023-11-15",
+      "selloffDate": "2023-11-16",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2023-11-22",
+      "d5": "2023-11-24",
+      "d6": "2023-11-27",
+      "oldPilot": false,
+      "status": "INVALID_M5_SESSION",
+      "counts": [
+        78,
+        42,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2023-11-22T14:30",
+          "end": "2023-11-22T20:55"
+        },
+        {
+          "start": "2023-11-24T14:30",
+          "end": "2023-11-24T17:55"
+        },
+        {
+          "start": "2023-11-27T14:30",
+          "end": "2023-11-27T20:55"
+        }
+      ],
+      "morning": true
+    },
+    {
+      "ticker": "GOOG",
+      "earningsDate": "2024-01-30",
+      "selloffDate": "2024-01-31",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-02-06",
+      "d5": "2024-02-07",
+      "d6": "2024-02-08",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-02-06T14:30",
+          "end": "2024-02-06T20:55"
+        },
+        {
+          "start": "2024-02-07T14:30",
+          "end": "2024-02-07T20:55"
+        },
+        {
+          "start": "2024-02-08T14:30",
+          "end": "2024-02-08T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 8,
+      "failedLowCandidateTime": "2024-02-06T15:10",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "TIMEOUT",
+        "entryIndex": 20,
+        "entryTime": "2024-02-06T16:10",
+        "entry": 145.835,
+        "exitTime": "2024-02-08T20:55",
+        "exit": 147.22,
+        "why": "THIRD_DAY_CLOSE",
+        "gross": 0.9497034319607689,
+        "net": 0.7497034319607689,
+        "barsHeld": 214
+      },
+      "baseline0950": {
+        "state": "TIMEOUT",
+        "entryIndex": 4,
+        "entryTime": "2024-02-06T14:50",
+        "entry": 145.96,
+        "exitTime": "2024-02-08T20:55",
+        "exit": 147.22,
+        "why": "THIRD_DAY_CLOSE",
+        "gross": 0.8632502055357483,
+        "net": 0.6632502055357483,
+        "barsHeld": 230
+      }
+    },
+    {
+      "ticker": "GILD",
+      "earningsDate": "2024-02-06",
+      "selloffDate": "2024-02-08",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-02-14",
+      "d5": "2024-02-15",
+      "d6": "2024-02-16",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-02-14T14:30",
+          "end": "2024-02-14T20:55"
+        },
+        {
+          "start": "2024-02-15T14:30",
+          "end": "2024-02-15T20:55"
+        },
+        {
+          "start": "2024-02-16T14:30",
+          "end": "2024-02-16T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 7,
+        "entryTime": "2024-02-14T15:05",
+        "entry": 73.45,
+        "exitTime": "2024-02-16T14:30",
+        "exit": 72.7155,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 150
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-02-14T14:50",
+        "entry": 73.2,
+        "exitTime": "2024-02-16T14:30",
+        "exit": 72.468,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 153
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "earningsDate": "2024-02-07",
+      "selloffDate": "2024-02-08",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-02-14",
+      "d5": "2024-02-15",
+      "d6": "2024-02-16",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-02-14T14:30",
+          "end": "2024-02-14T20:55"
+        },
+        {
+          "start": "2024-02-15T14:30",
+          "end": "2024-02-15T20:55"
+        },
+        {
+          "start": "2024-02-16T14:30",
+          "end": "2024-02-16T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2024-02-14T14:50",
+      "confirmIndex": 9,
+      "confirmTime": "2024-02-14T15:15",
+      "reclaimCrossesAfterCandidate": 1,
+      "volumeQualified": 1,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": -0.7001366120218622,
+      "entryAdvanceVsKnownLowPct": 0.8410647706581065,
+      "primary": {
+        "state": "TARGET",
+        "entryIndex": 10,
+        "entryTime": "2024-02-14T15:20",
+        "entry": 58.15,
+        "exitTime": "2024-02-15T14:35",
+        "exit": 59.313,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 70
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 10,
+        "entryTime": "2024-02-14T15:20",
+        "entry": 58.15,
+        "exitTime": "2024-02-15T14:35",
+        "exit": 59.313,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 70
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-02-14T14:50",
+        "entry": 58.065,
+        "exitTime": "2024-02-15T14:35",
+        "exit": 59.2263,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 76
+      }
+    },
+    {
+      "ticker": "ANET",
+      "earningsDate": "2024-02-12",
+      "selloffDate": "2024-02-13",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-02-20",
+      "d5": "2024-02-21",
+      "d6": "2024-02-22",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-02-20T14:30",
+          "end": "2024-02-20T20:55"
+        },
+        {
+          "start": "2024-02-21T14:30",
+          "end": "2024-02-21T20:55"
+        },
+        {
+          "start": "2024-02-22T14:30",
+          "end": "2024-02-22T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 8,
+        "entryTime": "2024-02-20T15:10",
+        "entry": 258.165,
+        "exitTime": "2024-02-20T15:30",
+        "exit": 255.58335000000002,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 5
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-02-20T14:50",
+        "entry": 256.885,
+        "exitTime": "2024-02-21T14:45",
+        "exit": 254.31615,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 78
+      }
+    },
+    {
+      "ticker": "PANW",
+      "earningsDate": "2024-02-20",
+      "selloffDate": "2024-02-21",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-02-27",
+      "d5": "2024-02-28",
+      "d6": "2024-02-29",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-02-27T14:30",
+          "end": "2024-02-27T20:55"
+        },
+        {
+          "start": "2024-02-28T14:30",
+          "end": "2024-02-28T20:55"
+        },
+        {
+          "start": "2024-02-29T14:30",
+          "end": "2024-02-29T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-02-27T14:50",
+        "entry": 317.4441,
+        "exitTime": "2024-02-27T14:55",
+        "exit": 323.792982,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 2
+      }
+    },
+    {
+      "ticker": "LEN",
+      "earningsDate": "2024-03-13",
+      "selloffDate": "2024-03-14",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-03-20",
+      "d5": "2024-03-21",
+      "d6": "2024-03-22",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-03-20T13:30",
+          "end": "2024-03-20T19:55"
+        },
+        {
+          "start": "2024-03-21T13:30",
+          "end": "2024-03-21T19:55"
+        },
+        {
+          "start": "2024-03-22T13:30",
+          "end": "2024-03-22T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 10,
+      "failedLowCandidateTime": "2024-03-20T14:20",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 1,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-03-20T13:50",
+        "entry": 159.69,
+        "exitTime": "2024-03-20T18:45",
+        "exit": 162.8838,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 60
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "earningsDate": "2024-03-14",
+      "selloffDate": "2024-03-15",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2024-03-21",
+      "d5": "2024-03-22",
+      "d6": "2024-03-25",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-03-21T13:30",
+          "end": "2024-03-21T19:55"
+        },
+        {
+          "start": "2024-03-22T13:30",
+          "end": "2024-03-22T19:55"
+        },
+        {
+          "start": "2024-03-25T13:30",
+          "end": "2024-03-25T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 7,
+      "failedLowCandidateTime": "2024-03-21T14:05",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-03-21T13:50",
+        "entry": 517.86,
+        "exitTime": "2024-03-21T14:10",
+        "exit": 512.6814,
+        "why": "STOP_TOUCH",
+        "gross": -0.9999999999999898,
+        "net": -1.1999999999999897,
+        "barsHeld": 5
+      }
+    },
+    {
+      "ticker": "AMD",
+      "earningsDate": "2024-04-30",
+      "selloffDate": "2024-05-01",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-05-07",
+      "d5": "2024-05-08",
+      "d6": "2024-05-09",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-05-07T13:30",
+          "end": "2024-05-07T19:55"
+        },
+        {
+          "start": "2024-05-08T13:30",
+          "end": "2024-05-08T19:55"
+        },
+        {
+          "start": "2024-05-09T13:30",
+          "end": "2024-05-09T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 9,
+        "entryTime": "2024-05-07T14:15",
+        "entry": 155.8355,
+        "exitTime": "2024-05-07T18:20",
+        "exit": 154.277145,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 50
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-05-07T13:50",
+        "entry": 156.11,
+        "exitTime": "2024-05-07T13:55",
+        "exit": 154.5489,
+        "why": "STOP_TOUCH",
+        "gross": -1.000000000000012,
+        "net": -1.200000000000012,
+        "barsHeld": 2
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "earningsDate": "2024-04-30",
+      "selloffDate": "2024-05-01",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-05-07",
+      "d5": "2024-05-08",
+      "d6": "2024-05-09",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-05-07T13:30",
+          "end": "2024-05-07T19:55"
+        },
+        {
+          "start": "2024-05-08T13:30",
+          "end": "2024-05-08T19:55"
+        },
+        {
+          "start": "2024-05-09T13:30",
+          "end": "2024-05-09T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-05-07T13:50",
+        "entry": 72.3273,
+        "exitTime": "2024-05-08T14:20",
+        "exit": 73.77384599999999,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 85
+      }
+    },
+    {
+      "ticker": "CRM",
+      "earningsDate": "2024-05-29",
+      "selloffDate": "2024-05-30",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-06-05",
+      "d5": "2024-06-06",
+      "d6": "2024-06-07",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-06-05T13:30",
+          "end": "2024-06-05T19:55"
+        },
+        {
+          "start": "2024-06-06T13:30",
+          "end": "2024-06-06T19:55"
+        },
+        {
+          "start": "2024-06-07T13:30",
+          "end": "2024-06-07T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 6,
+      "failedLowCandidateTime": "2024-06-05T14:00",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 21,
+        "entryTime": "2024-06-05T15:15",
+        "entry": 233.4,
+        "exitTime": "2024-06-06T13:30",
+        "exit": 239.895,
+        "why": "GAP_TARGET",
+        "gross": 2.782776349614391,
+        "net": 2.5827763496143907,
+        "barsHeld": 58
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-06-05T13:50",
+        "entry": 232.61,
+        "exitTime": "2024-06-06T13:30",
+        "exit": 239.895,
+        "why": "GAP_TARGET",
+        "gross": 3.1318515970938376,
+        "net": 2.9318515970938375,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "earningsDate": "2024-07-23",
+      "selloffDate": "2024-07-24",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2024-07-30",
+      "d5": "2024-07-31",
+      "d6": "2024-08-01",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-07-30T13:30",
+          "end": "2024-07-30T19:55"
+        },
+        {
+          "start": "2024-07-31T13:30",
+          "end": "2024-07-31T19:55"
+        },
+        {
+          "start": "2024-08-01T13:30",
+          "end": "2024-08-01T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 5,
+      "failedLowCandidateTime": "2024-07-30T13:55",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-07-30T13:50",
+        "entry": 171.67,
+        "exitTime": "2024-07-31T13:30",
+        "exit": 175.1034,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "earningsDate": "2024-07-31",
+      "selloffDate": "2024-08-01",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-08-07",
+      "d5": "2024-08-08",
+      "d6": "2024-08-09",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-08-07T13:30",
+          "end": "2024-08-07T19:55"
+        },
+        {
+          "start": "2024-08-08T13:30",
+          "end": "2024-08-08T19:55"
+        },
+        {
+          "start": "2024-08-09T13:30",
+          "end": "2024-08-09T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 3,
+      "failedLowCandidateTime": "2024-08-07T13:45",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 19,
+        "entryTime": "2024-08-07T15:05",
+        "entry": 162.47,
+        "exitTime": "2024-08-07T15:40",
+        "exit": 160.8453,
+        "why": "STOP_TOUCH",
+        "gross": -0.9999999999999898,
+        "net": -1.1999999999999897,
+        "barsHeld": 8
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-08-07T13:50",
+        "entry": 163.35,
+        "exitTime": "2024-08-07T13:55",
+        "exit": 161.7165,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 2
+      }
+    },
+    {
+      "ticker": "COIN",
+      "earningsDate": "2024-08-01",
+      "selloffDate": "2024-08-05",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-08-09",
+      "d5": "2024-08-12",
+      "d6": "2024-08-13",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-08-09T13:30",
+          "end": "2024-08-09T19:55"
+        },
+        {
+          "start": "2024-08-12T13:30",
+          "end": "2024-08-12T19:55"
+        },
+        {
+          "start": "2024-08-13T13:30",
+          "end": "2024-08-13T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-08-09T13:50",
+        "entry": 191.9266,
+        "exitTime": "2024-08-09T14:00",
+        "exit": 195.76513200000002,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 3
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "earningsDate": "2024-09-04",
+      "selloffDate": "2024-09-05",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-09-11",
+      "d5": "2024-09-12",
+      "d6": "2024-09-13",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-09-11T13:30",
+          "end": "2024-09-11T19:55"
+        },
+        {
+          "start": "2024-09-12T13:30",
+          "end": "2024-09-12T19:55"
+        },
+        {
+          "start": "2024-09-13T13:30",
+          "end": "2024-09-13T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2024-09-11T13:50",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-09-11T13:50",
+        "entry": 48.45,
+        "exitTime": "2024-09-11T19:55",
+        "exit": 49.419000000000004,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 74
+      }
+    },
+    {
+      "ticker": "HPE",
+      "earningsDate": "2024-09-04",
+      "selloffDate": "2024-09-05",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-09-11",
+      "d5": "2024-09-12",
+      "d6": "2024-09-13",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-09-11T13:30",
+          "end": "2024-09-11T19:55"
+        },
+        {
+          "start": "2024-09-12T13:30",
+          "end": "2024-09-12T19:55"
+        },
+        {
+          "start": "2024-09-13T13:30",
+          "end": "2024-09-13T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-09-11T13:50",
+        "entry": 16.065,
+        "exitTime": "2024-09-11T14:40",
+        "exit": 15.90435,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 11
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "earningsDate": "2024-09-12",
+      "selloffDate": "2024-09-13",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2024-09-19",
+      "d5": "2024-09-20",
+      "d6": "2024-09-23",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-09-19T13:30",
+          "end": "2024-09-19T19:55"
+        },
+        {
+          "start": "2024-09-20T13:30",
+          "end": "2024-09-20T19:55"
+        },
+        {
+          "start": "2024-09-23T13:30",
+          "end": "2024-09-23T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-09-19T13:50",
+        "entry": 519.51,
+        "exitTime": "2024-09-23T14:45",
+        "exit": 529.9002,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 168
+      }
+    },
+    {
+      "ticker": "FDX",
+      "earningsDate": "2024-09-19",
+      "selloffDate": "2024-09-20",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-09-26",
+      "d5": "2024-09-27",
+      "d6": "2024-09-30",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-09-26T13:30",
+          "end": "2024-09-26T19:55"
+        },
+        {
+          "start": "2024-09-27T13:30",
+          "end": "2024-09-27T19:55"
+        },
+        {
+          "start": "2024-09-30T13:30",
+          "end": "2024-09-30T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-09-26T13:50",
+        "entry": 268.32,
+        "exitTime": "2024-09-26T19:20",
+        "exit": 265.6368,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 67
+      }
+    },
+    {
+      "ticker": "LEN",
+      "earningsDate": "2024-09-19",
+      "selloffDate": "2024-09-20",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-09-26",
+      "d5": "2024-09-27",
+      "d6": "2024-09-30",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-09-26T13:30",
+          "end": "2024-09-26T19:55"
+        },
+        {
+          "start": "2024-09-27T13:30",
+          "end": "2024-09-27T19:55"
+        },
+        {
+          "start": "2024-09-30T13:30",
+          "end": "2024-09-30T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 10,
+        "entryTime": "2024-09-26T14:20",
+        "entry": 183.055,
+        "exitTime": "2024-09-27T14:30",
+        "exit": 186.7161,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 81
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-09-26T13:50",
+        "entry": 183.31,
+        "exitTime": "2024-09-27T14:30",
+        "exit": 186.9762,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 87
+      }
+    },
+    {
+      "ticker": "AMD",
+      "earningsDate": "2024-10-29",
+      "selloffDate": "2024-10-30",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-11-05",
+      "d5": "2024-11-06",
+      "d6": "2024-11-07",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-11-05T14:30",
+          "end": "2024-11-05T20:55"
+        },
+        {
+          "start": "2024-11-06T14:30",
+          "end": "2024-11-06T20:55"
+        },
+        {
+          "start": "2024-11-07T14:30",
+          "end": "2024-11-07T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 17,
+      "failedLowCandidateTime": "2024-11-05T15:55",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-11-05T14:50",
+        "entry": 142.135,
+        "exitTime": "2024-11-06T14:30",
+        "exit": 145,
+        "why": "GAP_TARGET",
+        "gross": 2.015689309459323,
+        "net": 1.8156893094593232,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "COIN",
+      "earningsDate": "2024-10-30",
+      "selloffDate": "2024-10-31",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-11-06",
+      "d5": "2024-11-07",
+      "d6": "2024-11-08",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-11-06T14:30",
+          "end": "2024-11-06T20:55"
+        },
+        {
+          "start": "2024-11-07T14:30",
+          "end": "2024-11-07T20:55"
+        },
+        {
+          "start": "2024-11-08T14:30",
+          "end": "2024-11-08T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-11-06T14:50",
+        "entry": 224.64,
+        "exitTime": "2024-11-06T14:50",
+        "exit": 222.3936,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 1
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "earningsDate": "2024-10-30",
+      "selloffDate": "2024-10-31",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2024-11-06",
+      "d5": "2024-11-07",
+      "d6": "2024-11-08",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        77,
+        77,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-11-06T14:30",
+          "end": "2024-11-06T20:55"
+        },
+        {
+          "start": "2024-11-07T14:30",
+          "end": "2024-11-07T20:55"
+        },
+        {
+          "start": "2024-11-08T14:30",
+          "end": "2024-11-08T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 9,
+        "entryTime": "2024-11-06T15:15",
+        "entry": 775.5186,
+        "exitTime": "2024-11-07T14:30",
+        "exit": 793.64,
+        "why": "GAP_TARGET",
+        "gross": 2.3366815444529676,
+        "net": 2.1366815444529674,
+        "barsHeld": 69
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-11-06T14:50",
+        "entry": 767.39,
+        "exitTime": "2024-11-06T17:05",
+        "exit": 782.7378,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 28
+      }
+    },
+    {
+      "ticker": "ANET",
+      "earningsDate": "2024-11-07",
+      "selloffDate": "2024-11-08",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2024-11-14",
+      "d5": "2024-11-15",
+      "d6": "2024-11-18",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-11-14T14:30",
+          "end": "2024-11-14T20:55"
+        },
+        {
+          "start": "2024-11-15T14:30",
+          "end": "2024-11-15T20:55"
+        },
+        {
+          "start": "2024-11-18T14:30",
+          "end": "2024-11-18T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 13,
+        "entryTime": "2024-11-14T15:35",
+        "entry": 389.2,
+        "exitTime": "2024-11-15T14:30",
+        "exit": 383.89,
+        "why": "GAP_STOP",
+        "gross": -1.3643371017471706,
+        "net": -1.5643371017471706,
+        "barsHeld": 66
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-11-14T14:50",
+        "entry": 386.3,
+        "exitTime": "2024-11-15T14:30",
+        "exit": 382.437,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "earningsDate": "2024-11-14",
+      "selloffDate": "2024-11-15",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-11-21",
+      "d5": "2024-11-22",
+      "d6": "2024-11-25",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-11-21T14:30",
+          "end": "2024-11-21T20:55"
+        },
+        {
+          "start": "2024-11-22T14:30",
+          "end": "2024-11-22T20:55"
+        },
+        {
+          "start": "2024-11-25T14:30",
+          "end": "2024-11-25T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-11-21T14:50",
+        "entry": 173.78,
+        "exitTime": "2024-11-21T15:05",
+        "exit": 172.0422,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 4
+      }
+    },
+    {
+      "ticker": "DELL",
+      "earningsDate": "2024-11-26",
+      "selloffDate": "2024-11-27",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2024-12-04",
+      "d5": "2024-12-05",
+      "d6": "2024-12-06",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-12-04T14:30",
+          "end": "2024-12-04T20:55"
+        },
+        {
+          "start": "2024-12-05T14:30",
+          "end": "2024-12-05T20:55"
+        },
+        {
+          "start": "2024-12-06T14:30",
+          "end": "2024-12-06T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-12-04T14:50",
+        "entry": 125.24,
+        "exitTime": "2024-12-05T14:30",
+        "exit": 127.7448,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "earningsDate": "2024-11-26",
+      "selloffDate": "2024-11-29",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2024-12-05",
+      "d5": "2024-12-06",
+      "d6": "2024-12-09",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-12-05T14:30",
+          "end": "2024-12-05T20:55"
+        },
+        {
+          "start": "2024-12-06T14:30",
+          "end": "2024-12-06T20:55"
+        },
+        {
+          "start": "2024-12-09T14:30",
+          "end": "2024-12-09T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2024-12-05T14:50",
+        "entry": 361.09,
+        "exitTime": "2024-12-06T16:30",
+        "exit": 368.3118,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 99
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "earningsDate": "2024-12-11",
+      "selloffDate": "2024-12-12",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2024-12-18",
+      "d5": "2024-12-19",
+      "d6": "2024-12-20",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-12-18T14:30",
+          "end": "2024-12-18T20:55"
+        },
+        {
+          "start": "2024-12-19T14:30",
+          "end": "2024-12-19T20:55"
+        },
+        {
+          "start": "2024-12-20T14:30",
+          "end": "2024-12-20T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-12-18T14:50",
+        "entry": 453.23,
+        "exitTime": "2024-12-18T19:45",
+        "exit": 448.6977,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 60
+      }
+    },
+    {
+      "ticker": "LEN",
+      "earningsDate": "2024-12-18",
+      "selloffDate": "2024-12-19",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2024-12-26",
+      "d5": "2024-12-27",
+      "d6": "2024-12-30",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2024-12-26T14:30",
+          "end": "2024-12-26T20:55"
+        },
+        {
+          "start": "2024-12-27T14:30",
+          "end": "2024-12-27T20:55"
+        },
+        {
+          "start": "2024-12-30T14:30",
+          "end": "2024-12-30T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2024-12-26T14:50",
+        "entry": 138.02,
+        "exitTime": "2024-12-27T17:20",
+        "exit": 136.6398,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 109
+      }
+    },
+    {
+      "ticker": "NOW",
+      "earningsDate": "2025-01-29",
+      "selloffDate": "2025-01-30",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-02-05",
+      "d5": "2025-02-06",
+      "d6": "2025-02-07",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-02-05T14:30",
+          "end": "2025-02-05T20:55"
+        },
+        {
+          "start": "2025-02-06T14:30",
+          "end": "2025-02-06T20:55"
+        },
+        {
+          "start": "2025-02-07T14:30",
+          "end": "2025-02-07T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 12,
+        "entryTime": "2025-02-05T15:30",
+        "entry": 1024,
+        "exitTime": "2025-02-07T17:00",
+        "exit": 1013.76,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 175
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2025-02-05T14:50",
+        "entry": 1018.7878,
+        "exitTime": "2025-02-07T14:35",
+        "exit": 1039.163556,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 154
+      }
+    },
+    {
+      "ticker": "AMD",
+      "earningsDate": "2025-02-04",
+      "selloffDate": "2025-02-05",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-02-11",
+      "d5": "2025-02-12",
+      "d6": "2025-02-13",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-02-11T14:30",
+          "end": "2025-02-11T20:55"
+        },
+        {
+          "start": "2025-02-12T14:30",
+          "end": "2025-02-12T20:55"
+        },
+        {
+          "start": "2025-02-13T14:30",
+          "end": "2025-02-13T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2025-02-11T14:50",
+        "entry": 110.81,
+        "exitTime": "2025-02-11T16:35",
+        "exit": 113.0262,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 22
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "earningsDate": "2025-02-04",
+      "selloffDate": "2025-02-05",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-02-11",
+      "d5": "2025-02-12",
+      "d6": "2025-02-13",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-02-11T14:30",
+          "end": "2025-02-11T20:55"
+        },
+        {
+          "start": "2025-02-12T14:30",
+          "end": "2025-02-12T20:55"
+        },
+        {
+          "start": "2025-02-13T14:30",
+          "end": "2025-02-13T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 19,
+      "failedLowCandidateTime": "2025-02-11T16:05",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-02-11T14:50",
+        "entry": 187.375,
+        "exitTime": "2025-02-12T14:30",
+        "exit": 185.23,
+        "why": "GAP_STOP",
+        "gross": -1.144763175450303,
+        "net": -1.3447631754503029,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "earningsDate": "2025-02-13",
+      "selloffDate": "2025-02-14",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-02-21",
+      "d5": "2025-02-24",
+      "d6": "2025-02-25",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-02-21T14:30",
+          "end": "2025-02-21T20:55"
+        },
+        {
+          "start": "2025-02-24T14:30",
+          "end": "2025-02-24T20:55"
+        },
+        {
+          "start": "2025-02-25T14:30",
+          "end": "2025-02-25T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 17,
+      "failedLowCandidateTime": "2025-02-21T15:55",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-02-21T14:50",
+        "entry": 175.54,
+        "exitTime": "2025-02-21T15:50",
+        "exit": 173.78459999999998,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 13
+      }
+    },
+    {
+      "ticker": "COIN",
+      "earningsDate": "2025-02-13",
+      "selloffDate": "2025-02-14",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-02-21",
+      "d5": "2025-02-24",
+      "d6": "2025-02-25",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-02-21T14:30",
+          "end": "2025-02-21T20:55"
+        },
+        {
+          "start": "2025-02-24T14:30",
+          "end": "2025-02-24T20:55"
+        },
+        {
+          "start": "2025-02-25T14:30",
+          "end": "2025-02-25T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2025-02-21T14:50",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-02-21T14:50",
+        "entry": 262.38,
+        "exitTime": "2025-02-21T15:20",
+        "exit": 259.7562,
+        "why": "STOP_TOUCH",
+        "gross": -1.000000000000012,
+        "net": -1.200000000000012,
+        "barsHeld": 7
+      }
+    },
+    {
+      "ticker": "ANET",
+      "earningsDate": "2025-02-18",
+      "selloffDate": "2025-02-19",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-02-25",
+      "d5": "2025-02-26",
+      "d6": "2025-02-27",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-02-25T14:30",
+          "end": "2025-02-25T20:55"
+        },
+        {
+          "start": "2025-02-26T14:30",
+          "end": "2025-02-26T20:55"
+        },
+        {
+          "start": "2025-02-27T14:30",
+          "end": "2025-02-27T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 20,
+        "entryTime": "2025-02-25T16:10",
+        "entry": 91.05,
+        "exitTime": "2025-02-25T17:55",
+        "exit": 92.871,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 22
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-02-25T14:50",
+        "entry": 90.83,
+        "exitTime": "2025-02-25T15:20",
+        "exit": 89.9217,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 7
+      }
+    },
+    {
+      "ticker": "DELL",
+      "earningsDate": "2025-02-27",
+      "selloffDate": "2025-03-03",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-03-07",
+      "d5": "2025-03-10",
+      "d6": "2025-03-11",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-03-07T14:30",
+          "end": "2025-03-07T20:55"
+        },
+        {
+          "start": "2025-03-10T13:30",
+          "end": "2025-03-10T19:55"
+        },
+        {
+          "start": "2025-03-11T13:30",
+          "end": "2025-03-11T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 14,
+      "failedLowCandidateTime": "2025-03-07T15:40",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-03-07T14:50",
+        "entry": 92.21,
+        "exitTime": "2025-03-07T15:30",
+        "exit": 91.2879,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 9
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "earningsDate": "2025-03-04",
+      "selloffDate": "2025-03-05",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-03-11",
+      "d5": "2025-03-12",
+      "d6": "2025-03-13",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-03-11T13:30",
+          "end": "2025-03-11T19:55"
+        },
+        {
+          "start": "2025-03-12T13:30",
+          "end": "2025-03-12T19:55"
+        },
+        {
+          "start": "2025-03-13T13:30",
+          "end": "2025-03-13T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-03-11T13:50",
+        "entry": 325.7101,
+        "exitTime": "2025-03-11T13:55",
+        "exit": 322.45299900000003,
+        "why": "STOP_TOUCH",
+        "gross": -0.9999999999999898,
+        "net": -1.1999999999999897,
+        "barsHeld": 2
+      }
+    },
+    {
+      "ticker": "HPE",
+      "earningsDate": "2025-03-06",
+      "selloffDate": "2025-03-07",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-03-13",
+      "d5": "2025-03-14",
+      "d6": "2025-03-17",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-03-13T13:30",
+          "end": "2025-03-13T19:55"
+        },
+        {
+          "start": "2025-03-14T13:30",
+          "end": "2025-03-14T19:55"
+        },
+        {
+          "start": "2025-03-17T13:30",
+          "end": "2025-03-17T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 6,
+      "failedLowCandidateTime": "2025-03-13T14:00",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 1,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-03-13T13:50",
+        "entry": 15.305,
+        "exitTime": "2025-03-13T13:55",
+        "exit": 15.15195,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 2
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "earningsDate": "2025-03-12",
+      "selloffDate": "2025-03-13",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-03-19",
+      "d5": "2025-03-20",
+      "d6": "2025-03-21",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-03-19T13:30",
+          "end": "2025-03-19T19:55"
+        },
+        {
+          "start": "2025-03-20T13:30",
+          "end": "2025-03-20T19:55"
+        },
+        {
+          "start": "2025-03-21T13:30",
+          "end": "2025-03-21T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 6,
+        "entryTime": "2025-03-19T14:00",
+        "entry": 392.22,
+        "exitTime": "2025-03-19T17:10",
+        "exit": 388.2978,
+        "why": "STOP_TOUCH",
+        "gross": -1.000000000000012,
+        "net": -1.200000000000012,
+        "barsHeld": 39
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-03-19T13:50",
+        "entry": 391.28,
+        "exitTime": "2025-03-19T17:30",
+        "exit": 387.36719999999997,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 45
+      }
+    },
+    {
+      "ticker": "OKE",
+      "earningsDate": "2025-04-29",
+      "selloffDate": "2025-04-30",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-05-06",
+      "d5": "2025-05-07",
+      "d6": "2025-05-08",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-05-06T13:30",
+          "end": "2025-05-06T19:55"
+        },
+        {
+          "start": "2025-05-07T13:30",
+          "end": "2025-05-07T19:55"
+        },
+        {
+          "start": "2025-05-08T13:30",
+          "end": "2025-05-08T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2025-05-06T13:50",
+      "confirmIndex": 9,
+      "confirmTime": "2025-05-06T14:15",
+      "reclaimCrossesAfterCandidate": 1,
+      "volumeQualified": 1,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": -0.42478760619690803,
+      "entryAdvanceVsKnownLowPct": 0.5044136191677318,
+      "primary": {
+        "state": "STOP",
+        "entryIndex": 10,
+        "entryTime": "2025-05-06T14:20",
+        "entry": 79.7,
+        "exitTime": "2025-05-06T16:40",
+        "exit": 78.903,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 29
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 10,
+        "entryTime": "2025-05-06T14:20",
+        "entry": 79.7,
+        "exitTime": "2025-05-06T16:40",
+        "exit": 78.903,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 29
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-05-06T13:50",
+        "entry": 79.42,
+        "exitTime": "2025-05-06T16:55",
+        "exit": 78.6258,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 38
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "earningsDate": "2025-05-07",
+      "selloffDate": "2025-05-08",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-05-14",
+      "d5": "2025-05-15",
+      "d6": "2025-05-16",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-05-14T13:30",
+          "end": "2025-05-14T19:55"
+        },
+        {
+          "start": "2025-05-15T13:30",
+          "end": "2025-05-15T19:55"
+        },
+        {
+          "start": "2025-05-16T13:30",
+          "end": "2025-05-16T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 5,
+      "failedLowCandidateTime": "2025-05-14T13:55",
+      "confirmIndex": 10,
+      "confirmTime": "2025-05-14T14:20",
+      "reclaimCrossesAfterCandidate": 1,
+      "volumeQualified": 1,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": -0.23786869647954845,
+      "entryAdvanceVsKnownLowPct": 0.8658008658008587,
+      "primary": {
+        "state": "STOP",
+        "entryIndex": 11,
+        "entryTime": "2025-05-14T14:25",
+        "entry": 104.85,
+        "exitTime": "2025-05-14T16:45",
+        "exit": 103.80149999999999,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 29
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 11,
+        "entryTime": "2025-05-14T14:25",
+        "entry": 104.85,
+        "exitTime": "2025-05-14T16:45",
+        "exit": 103.80149999999999,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 29
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-05-14T13:50",
+        "entry": 104.34,
+        "exitTime": "2025-05-14T17:20",
+        "exit": 103.2966,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 43
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "earningsDate": "2025-05-15",
+      "selloffDate": "2025-05-16",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-05-22",
+      "d5": "2025-05-23",
+      "d6": "2025-05-27",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-05-22T13:30",
+          "end": "2025-05-22T19:55"
+        },
+        {
+          "start": "2025-05-23T13:30",
+          "end": "2025-05-23T19:55"
+        },
+        {
+          "start": "2025-05-27T13:30",
+          "end": "2025-05-27T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-05-22T13:50",
+        "entry": 161.31,
+        "exitTime": "2025-05-23T13:30",
+        "exit": 156.24,
+        "why": "GAP_STOP",
+        "gross": -3.1430165519806486,
+        "net": -3.3430165519806487,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "PANW",
+      "earningsDate": "2025-05-20",
+      "selloffDate": "2025-05-21",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-05-28",
+      "d5": "2025-05-29",
+      "d6": "2025-05-30",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-05-28T13:30",
+          "end": "2025-05-28T19:55"
+        },
+        {
+          "start": "2025-05-29T13:30",
+          "end": "2025-05-29T19:55"
+        },
+        {
+          "start": "2025-05-30T13:30",
+          "end": "2025-05-30T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 18,
+        "entryTime": "2025-05-28T15:00",
+        "entry": 188.44,
+        "exitTime": "2025-05-29T13:30",
+        "exit": 186.5556,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 61
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-05-28T13:50",
+        "entry": 188.72,
+        "exitTime": "2025-05-29T13:30",
+        "exit": 186.8328,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "earningsDate": "2025-05-22",
+      "selloffDate": "2025-05-23",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-05-30",
+      "d5": "2025-06-02",
+      "d6": "2025-06-03",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-05-30T13:30",
+          "end": "2025-05-30T19:55"
+        },
+        {
+          "start": "2025-06-02T13:30",
+          "end": "2025-06-02T19:55"
+        },
+        {
+          "start": "2025-06-03T13:30",
+          "end": "2025-06-03T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 10,
+        "entryTime": "2025-05-30T14:20",
+        "entry": 51.0659,
+        "exitTime": "2025-06-02T13:50",
+        "exit": 50.555240999999995,
+        "why": "STOP_TOUCH",
+        "gross": -1.000000000000012,
+        "net": -1.200000000000012,
+        "barsHeld": 73
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-05-30T13:50",
+        "entry": 50.9,
+        "exitTime": "2025-06-02T14:00",
+        "exit": 50.391,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 81
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "earningsDate": "2025-06-12",
+      "selloffDate": "2025-06-13",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-06-20",
+      "d5": "2025-06-23",
+      "d6": "2025-06-24",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-06-20T13:30",
+          "end": "2025-06-20T19:55"
+        },
+        {
+          "start": "2025-06-23T13:30",
+          "end": "2025-06-23T19:55"
+        },
+        {
+          "start": "2025-06-24T13:30",
+          "end": "2025-06-24T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 5,
+      "failedLowCandidateTime": "2025-06-20T13:55",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-06-20T13:50",
+        "entry": 378.75,
+        "exitTime": "2025-06-20T17:25",
+        "exit": 374.9625,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 44
+      }
+    },
+    {
+      "ticker": "LEN",
+      "earningsDate": "2025-06-16",
+      "selloffDate": "2025-06-18",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-06-25",
+      "d5": "2025-06-26",
+      "d6": "2025-06-27",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-06-25T13:30",
+          "end": "2025-06-25T19:55"
+        },
+        {
+          "start": "2025-06-26T13:30",
+          "end": "2025-06-26T19:55"
+        },
+        {
+          "start": "2025-06-27T13:30",
+          "end": "2025-06-27T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 3,
+      "failedLowCandidateTime": "2025-06-25T13:45",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-06-25T13:50",
+        "entry": 110.125,
+        "exitTime": "2025-06-26T13:35",
+        "exit": 109.02374999999999,
+        "why": "STOP_TOUCH",
+        "gross": -1.000000000000012,
+        "net": -1.200000000000012,
+        "barsHeld": 76
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "earningsDate": "2025-07-17",
+      "selloffDate": "2025-07-18",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-07-24",
+      "d5": "2025-07-25",
+      "d6": "2025-07-28",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-07-24T13:30",
+          "end": "2025-07-24T19:55"
+        },
+        {
+          "start": "2025-07-25T13:30",
+          "end": "2025-07-25T19:55"
+        },
+        {
+          "start": "2025-07-28T13:30",
+          "end": "2025-07-28T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 6,
+      "failedLowCandidateTime": "2025-07-24T14:00",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2025-07-24T13:50",
+        "entry": 1168.75,
+        "exitTime": "2025-07-28T13:30",
+        "exit": 1192.125,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 153
+      }
+    },
+    {
+      "ticker": "TXN",
+      "earningsDate": "2025-07-22",
+      "selloffDate": "2025-07-23",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-07-29",
+      "d5": "2025-07-30",
+      "d6": "2025-07-31",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-07-29T13:30",
+          "end": "2025-07-29T19:55"
+        },
+        {
+          "start": "2025-07-30T13:30",
+          "end": "2025-07-30T19:55"
+        },
+        {
+          "start": "2025-07-31T13:30",
+          "end": "2025-07-31T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-07-29T13:50",
+        "entry": 190.1,
+        "exitTime": "2025-07-31T13:30",
+        "exit": 186.14,
+        "why": "GAP_STOP",
+        "gross": -2.0831141504471407,
+        "net": -2.283114150447141,
+        "barsHeld": 153
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "earningsDate": "2025-07-30",
+      "selloffDate": "2025-07-31",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-08-06",
+      "d5": "2025-08-07",
+      "d6": "2025-08-08",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-08-06T13:30",
+          "end": "2025-08-06T19:55"
+        },
+        {
+          "start": "2025-08-07T13:30",
+          "end": "2025-08-07T19:55"
+        },
+        {
+          "start": "2025-08-08T13:30",
+          "end": "2025-08-08T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2025-08-06T13:50",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2025-08-06T13:50",
+        "entry": 144.65,
+        "exitTime": "2025-08-07T13:30",
+        "exit": 148.03,
+        "why": "GAP_TARGET",
+        "gross": 2.3366747321119874,
+        "net": 2.136674732111987,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "OKE",
+      "earningsDate": "2025-08-04",
+      "selloffDate": "2025-08-05",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-08-11",
+      "d5": "2025-08-12",
+      "d6": "2025-08-13",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-08-11T13:30",
+          "end": "2025-08-11T19:55"
+        },
+        {
+          "start": "2025-08-12T13:30",
+          "end": "2025-08-12T19:55"
+        },
+        {
+          "start": "2025-08-13T13:30",
+          "end": "2025-08-13T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 5,
+      "failedLowCandidateTime": "2025-08-11T13:55",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-08-11T13:50",
+        "entry": 74.5,
+        "exitTime": "2025-08-11T17:35",
+        "exit": 73.755,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 46
+      }
+    },
+    {
+      "ticker": "AMD",
+      "earningsDate": "2025-08-05",
+      "selloffDate": "2025-08-06",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-08-12",
+      "d5": "2025-08-13",
+      "d6": "2025-08-14",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-08-12T13:30",
+          "end": "2025-08-12T19:55"
+        },
+        {
+          "start": "2025-08-13T13:30",
+          "end": "2025-08-13T19:55"
+        },
+        {
+          "start": "2025-08-14T13:30",
+          "end": "2025-08-14T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-08-12T13:50",
+        "entry": 172.3995,
+        "exitTime": "2025-08-12T13:55",
+        "exit": 170.675505,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 2
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "earningsDate": "2025-08-06",
+      "selloffDate": "2025-08-07",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-08-13",
+      "d5": "2025-08-14",
+      "d6": "2025-08-15",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-08-13T13:30",
+          "end": "2025-08-13T19:55"
+        },
+        {
+          "start": "2025-08-14T13:30",
+          "end": "2025-08-14T19:55"
+        },
+        {
+          "start": "2025-08-15T13:30",
+          "end": "2025-08-15T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-08-13T13:50",
+        "entry": 78.6695,
+        "exitTime": "2025-08-14T13:30",
+        "exit": 77.882805,
+        "why": "STOP_TOUCH",
+        "gross": -0.9999999999999898,
+        "net": -1.1999999999999897,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "earningsDate": "2025-08-14",
+      "selloffDate": "2025-08-15",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-08-21",
+      "d5": "2025-08-22",
+      "d6": "2025-08-25",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-08-21T13:30",
+          "end": "2025-08-21T19:55"
+        },
+        {
+          "start": "2025-08-22T13:30",
+          "end": "2025-08-22T19:55"
+        },
+        {
+          "start": "2025-08-25T13:30",
+          "end": "2025-08-25T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 20,
+        "entryTime": "2025-08-21T15:10",
+        "entry": 160.63,
+        "exitTime": "2025-08-22T14:10",
+        "exit": 163.8426,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 67
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-08-21T13:50",
+        "entry": 160.775,
+        "exitTime": "2025-08-21T16:55",
+        "exit": 159.16725,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 38
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "earningsDate": "2025-08-13",
+      "selloffDate": "2025-08-15",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-08-21",
+      "d5": "2025-08-22",
+      "d6": "2025-08-25",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-08-21T13:30",
+          "end": "2025-08-21T19:55"
+        },
+        {
+          "start": "2025-08-22T13:30",
+          "end": "2025-08-22T19:55"
+        },
+        {
+          "start": "2025-08-25T13:30",
+          "end": "2025-08-25T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 3,
+      "failedLowCandidateTime": "2025-08-21T13:45",
+      "confirmIndex": 7,
+      "confirmTime": "2025-08-21T14:05",
+      "reclaimCrossesAfterCandidate": 1,
+      "volumeQualified": 1,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": -0.35022354694486113,
+      "entryAdvanceVsKnownLowPct": 0.5942530464871254,
+      "primary": {
+        "state": "TIMEOUT",
+        "entryIndex": 8,
+        "entryTime": "2025-08-21T14:10",
+        "entry": 66.865,
+        "exitTime": "2025-08-25T19:55",
+        "exit": 67.14,
+        "why": "THIRD_DAY_CLOSE",
+        "gross": 0.41127645255365497,
+        "net": 0.21127645255365496,
+        "barsHeld": 226
+      },
+      "vwapOnly": {
+        "state": "TIMEOUT",
+        "entryIndex": 8,
+        "entryTime": "2025-08-21T14:10",
+        "entry": 66.865,
+        "exitTime": "2025-08-25T19:55",
+        "exit": 67.14,
+        "why": "THIRD_DAY_CLOSE",
+        "gross": 0.41127645255365497,
+        "net": 0.21127645255365496,
+        "barsHeld": 226
+      },
+      "baseline0950": {
+        "state": "TIMEOUT",
+        "entryIndex": 4,
+        "entryTime": "2025-08-21T13:50",
+        "entry": 66.76,
+        "exitTime": "2025-08-25T19:55",
+        "exit": 67.14,
+        "why": "THIRD_DAY_CLOSE",
+        "gross": 0.5692031156381061,
+        "net": 0.3692031156381061,
+        "barsHeld": 230
+      }
+    },
+    {
+      "ticker": "DELL",
+      "earningsDate": "2025-08-28",
+      "selloffDate": "2025-08-29",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-09-05",
+      "d5": "2025-09-08",
+      "d6": "2025-09-09",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-09-05T13:30",
+          "end": "2025-09-05T19:55"
+        },
+        {
+          "start": "2025-09-08T13:30",
+          "end": "2025-09-08T19:55"
+        },
+        {
+          "start": "2025-09-09T13:30",
+          "end": "2025-09-09T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2025-09-05T13:50",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-09-05T13:50",
+        "entry": 127.42,
+        "exitTime": "2025-09-05T14:05",
+        "exit": 126.1458,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 4
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "earningsDate": "2025-10-21",
+      "selloffDate": "2025-10-22",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-10-28",
+      "d5": "2025-10-29",
+      "d6": "2025-10-30",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-10-28T13:30",
+          "end": "2025-10-28T19:55"
+        },
+        {
+          "start": "2025-10-29T13:30",
+          "end": "2025-10-29T19:55"
+        },
+        {
+          "start": "2025-10-30T13:30",
+          "end": "2025-10-30T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-10-28T13:50",
+        "entry": 1109.47,
+        "exitTime": "2025-10-28T16:15",
+        "exit": 1098.3753,
+        "why": "STOP_TOUCH",
+        "gross": -1.000000000000012,
+        "net": -1.200000000000012,
+        "barsHeld": 30
+      }
+    },
+    {
+      "ticker": "TXN",
+      "earningsDate": "2025-10-21",
+      "selloffDate": "2025-10-22",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-10-28",
+      "d5": "2025-10-29",
+      "d6": "2025-10-30",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-10-28T13:30",
+          "end": "2025-10-28T19:55"
+        },
+        {
+          "start": "2025-10-29T13:30",
+          "end": "2025-10-29T19:55"
+        },
+        {
+          "start": "2025-10-30T13:30",
+          "end": "2025-10-30T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2025-10-28T13:50",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 1,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 13,
+        "entryTime": "2025-10-28T14:35",
+        "entry": 168.505,
+        "exitTime": "2025-10-28T19:30",
+        "exit": 166.81995,
+        "why": "STOP_TOUCH",
+        "gross": -0.9999999999999898,
+        "net": -1.1999999999999897,
+        "barsHeld": 60
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-10-28T13:50",
+        "entry": 167.945,
+        "exitTime": "2025-10-29T13:30",
+        "exit": 166.22,
+        "why": "GAP_STOP",
+        "gross": -1.0271219744559246,
+        "net": -1.2271219744559245,
+        "barsHeld": 75
+      }
+    },
+    {
+      "ticker": "NEM",
+      "earningsDate": "2025-10-23",
+      "selloffDate": "2025-10-24",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-10-30",
+      "d5": "2025-10-31",
+      "d6": "2025-11-03",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-10-30T13:30",
+          "end": "2025-10-30T19:55"
+        },
+        {
+          "start": "2025-10-31T13:30",
+          "end": "2025-10-31T19:55"
+        },
+        {
+          "start": "2025-11-03T14:30",
+          "end": "2025-11-03T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2025-10-30T13:50",
+        "entry": 81,
+        "exitTime": "2025-10-30T17:45",
+        "exit": 82.62,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 48
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "earningsDate": "2025-10-30",
+      "selloffDate": "2025-10-31",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-11-06",
+      "d5": "2025-11-07",
+      "d6": "2025-11-10",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-11-06T14:30",
+          "end": "2025-11-06T20:55"
+        },
+        {
+          "start": "2025-11-07T14:30",
+          "end": "2025-11-07T20:55"
+        },
+        {
+          "start": "2025-11-10T14:30",
+          "end": "2025-11-10T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 9,
+      "failedLowCandidateTime": "2025-11-06T15:15",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-11-06T14:50",
+        "entry": 995.78,
+        "exitTime": "2025-11-06T14:55",
+        "exit": 985.8222,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 2
+      }
+    },
+    {
+      "ticker": "ANET",
+      "earningsDate": "2025-11-04",
+      "selloffDate": "2025-11-05",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-11-11",
+      "d5": "2025-11-12",
+      "d6": "2025-11-13",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-11-11T14:30",
+          "end": "2025-11-11T20:55"
+        },
+        {
+          "start": "2025-11-12T14:30",
+          "end": "2025-11-12T20:55"
+        },
+        {
+          "start": "2025-11-13T14:30",
+          "end": "2025-11-13T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 10,
+      "failedLowCandidateTime": "2025-11-11T15:20",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-11-11T14:50",
+        "entry": 135.52,
+        "exitTime": "2025-11-11T15:10",
+        "exit": 134.1648,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 5
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "earningsDate": "2025-11-05",
+      "selloffDate": "2025-11-06",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-11-12",
+      "d5": "2025-11-13",
+      "d6": "2025-11-14",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-11-12T14:30",
+          "end": "2025-11-12T20:55"
+        },
+        {
+          "start": "2025-11-13T14:30",
+          "end": "2025-11-13T20:55"
+        },
+        {
+          "start": "2025-11-14T14:30",
+          "end": "2025-11-14T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 4,
+      "failedLowCandidateTime": "2025-11-12T14:50",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-11-12T14:50",
+        "entry": 82.85,
+        "exitTime": "2025-11-12T19:30",
+        "exit": 82.02149999999999,
+        "why": "STOP_TOUCH",
+        "gross": -1.000000000000012,
+        "net": -1.200000000000012,
+        "barsHeld": 57
+      }
+    },
+    {
+      "ticker": "PANW",
+      "earningsDate": "2025-11-19",
+      "selloffDate": "2025-11-20",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2025-11-26",
+      "d5": "2025-11-28",
+      "d6": "2025-12-01",
+      "oldPilot": false,
+      "status": "INVALID_M5_SESSION",
+      "counts": [
+        78,
+        42,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-11-26T14:30",
+          "end": "2025-11-26T20:55"
+        },
+        {
+          "start": "2025-11-28T14:30",
+          "end": "2025-11-28T17:55"
+        },
+        {
+          "start": "2025-12-01T14:30",
+          "end": "2025-12-01T20:55"
+        }
+      ],
+      "morning": true
+    },
+    {
+      "ticker": "CPRT",
+      "earningsDate": "2025-11-20",
+      "selloffDate": "2025-11-24",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2025-12-01",
+      "d5": "2025-12-02",
+      "d6": "2025-12-03",
+      "oldPilot": true,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2025-12-01T14:30",
+          "end": "2025-12-01T20:55"
+        },
+        {
+          "start": "2025-12-02T14:30",
+          "end": "2025-12-02T20:55"
+        },
+        {
+          "start": "2025-12-03T14:30",
+          "end": "2025-12-03T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 15,
+        "entryTime": "2025-12-01T15:45",
+        "entry": 39.3,
+        "exitTime": "2025-12-02T15:25",
+        "exit": 38.907,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 75
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2025-12-01T14:50",
+        "entry": 39.325,
+        "exitTime": "2025-12-02T15:25",
+        "exit": 38.93175,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 86
+      }
+    },
+    {
+      "ticker": "NOW",
+      "earningsDate": "2026-01-28",
+      "selloffDate": "2026-01-29",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2026-02-04",
+      "d5": "2026-02-05",
+      "d6": "2026-02-06",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-02-04T14:30",
+          "end": "2026-02-04T20:55"
+        },
+        {
+          "start": "2026-02-05T14:30",
+          "end": "2026-02-05T20:55"
+        },
+        {
+          "start": "2026-02-06T14:30",
+          "end": "2026-02-06T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": 3,
+      "failedLowCandidateTime": "2026-02-04T14:45",
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 1,
+      "volumeQualified": 1,
+      "chaseRejections": 1,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2026-02-04T14:50",
+        "entry": 106.475,
+        "exitTime": "2026-02-04T14:50",
+        "exit": 105.41024999999999,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 1
+      }
+    },
+    {
+      "ticker": "KLAC",
+      "earningsDate": "2026-01-29",
+      "selloffDate": "2026-01-30",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2026-02-05",
+      "d5": "2026-02-06",
+      "d6": "2026-02-09",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-02-05T14:30",
+          "end": "2026-02-05T20:55"
+        },
+        {
+          "start": "2026-02-06T14:30",
+          "end": "2026-02-06T20:55"
+        },
+        {
+          "start": "2026-02-09T14:30",
+          "end": "2026-02-09T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2026-02-05T14:50",
+        "entry": 1329.29,
+        "exitTime": "2026-02-05T15:00",
+        "exit": 1315.9971,
+        "why": "STOP_TOUCH",
+        "gross": -0.9999999999999898,
+        "net": -1.1999999999999897,
+        "barsHeld": 3
+      }
+    },
+    {
+      "ticker": "AMD",
+      "earningsDate": "2026-02-03",
+      "selloffDate": "2026-02-04",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2026-02-10",
+      "d5": "2026-02-11",
+      "d6": "2026-02-12",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-02-10T14:30",
+          "end": "2026-02-10T20:55"
+        },
+        {
+          "start": "2026-02-11T14:30",
+          "end": "2026-02-11T20:55"
+        },
+        {
+          "start": "2026-02-12T14:30",
+          "end": "2026-02-12T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 18,
+        "entryTime": "2026-02-10T16:00",
+        "entry": 216.735,
+        "exitTime": "2026-02-10T18:30",
+        "exit": 214.56765000000001,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 31
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2026-02-10T14:50",
+        "entry": 214.71,
+        "exitTime": "2026-02-11T14:45",
+        "exit": 219.00420000000003,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 78
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "earningsDate": "2026-02-04",
+      "selloffDate": "2026-02-05",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2026-02-11",
+      "d5": "2026-02-12",
+      "d6": "2026-02-13",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-02-11T14:30",
+          "end": "2026-02-11T20:55"
+        },
+        {
+          "start": "2026-02-12T14:30",
+          "end": "2026-02-12T20:55"
+        },
+        {
+          "start": "2026-02-13T14:30",
+          "end": "2026-02-13T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 13,
+        "entryTime": "2026-02-11T15:35",
+        "entry": 140.35,
+        "exitTime": "2026-02-12T14:45",
+        "exit": 138.9465,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 69
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2026-02-11T14:50",
+        "entry": 140.06,
+        "exitTime": "2026-02-12T14:45",
+        "exit": 138.6594,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 78
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "earningsDate": "2026-02-11",
+      "selloffDate": "2026-02-12",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2026-02-19",
+      "d5": "2026-02-20",
+      "d6": "2026-02-23",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-02-19T14:30",
+          "end": "2026-02-19T20:55"
+        },
+        {
+          "start": "2026-02-20T14:30",
+          "end": "2026-02-20T20:55"
+        },
+        {
+          "start": "2026-02-23T14:30",
+          "end": "2026-02-23T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 7,
+        "entryTime": "2026-02-19T15:05",
+        "entry": 78.51,
+        "exitTime": "2026-02-23T15:50",
+        "exit": 77.7249,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 166
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2026-02-19T14:50",
+        "entry": 78.43,
+        "exitTime": "2026-02-23T15:50",
+        "exit": 77.6457,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 169
+      }
+    },
+    {
+      "ticker": "PANW",
+      "earningsDate": "2026-02-17",
+      "selloffDate": "2026-02-18",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2026-02-24",
+      "d5": "2026-02-25",
+      "d6": "2026-02-26",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-02-24T14:30",
+          "end": "2026-02-24T20:55"
+        },
+        {
+          "start": "2026-02-25T14:30",
+          "end": "2026-02-25T20:55"
+        },
+        {
+          "start": "2026-02-26T14:30",
+          "end": "2026-02-26T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2026-02-24T14:50",
+        "entry": 146.285,
+        "exitTime": "2026-02-24T14:55",
+        "exit": 144.82215,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 2
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "earningsDate": "2026-02-19",
+      "selloffDate": "2026-02-23",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2026-02-27",
+      "d5": "2026-03-02",
+      "d6": "2026-03-03",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-02-27T14:30",
+          "end": "2026-02-27T20:55"
+        },
+        {
+          "start": "2026-03-02T14:30",
+          "end": "2026-03-02T20:55"
+        },
+        {
+          "start": "2026-03-03T14:30",
+          "end": "2026-03-03T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2026-02-27T14:50",
+        "entry": 36.83,
+        "exitTime": "2026-02-27T18:15",
+        "exit": 37.5666,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 42
+      }
+    },
+    {
+      "ticker": "OKE",
+      "earningsDate": "2026-02-23",
+      "selloffDate": "2026-02-24",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2026-03-02",
+      "d5": "2026-03-03",
+      "d6": "2026-03-04",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-03-02T14:30",
+          "end": "2026-03-02T20:55"
+        },
+        {
+          "start": "2026-03-03T14:30",
+          "end": "2026-03-03T20:55"
+        },
+        {
+          "start": "2026-03-04T14:30",
+          "end": "2026-03-04T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2026-03-02T14:50",
+        "entry": 83.49,
+        "exitTime": "2026-03-02T15:25",
+        "exit": 85.15979999999999,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 8
+      }
+    },
+    {
+      "ticker": "FSLR",
+      "earningsDate": "2026-02-24",
+      "selloffDate": "2026-02-25",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2026-03-03",
+      "d5": "2026-03-04",
+      "d6": "2026-03-05",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-03-03T14:30",
+          "end": "2026-03-03T20:55"
+        },
+        {
+          "start": "2026-03-04T14:30",
+          "end": "2026-03-04T20:55"
+        },
+        {
+          "start": "2026-03-05T14:30",
+          "end": "2026-03-05T20:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 8,
+        "entryTime": "2026-03-03T15:10",
+        "entry": 194.99,
+        "exitTime": "2026-03-03T15:25",
+        "exit": 193.0401,
+        "why": "STOP_TOUCH",
+        "gross": -1.000000000000012,
+        "net": -1.200000000000012,
+        "barsHeld": 4
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2026-03-03T14:50",
+        "entry": 193.31,
+        "exitTime": "2026-03-03T15:55",
+        "exit": 197.1762,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 14
+      }
+    },
+    {
+      "ticker": "IBM",
+      "earningsDate": "2026-04-22",
+      "selloffDate": "2026-04-23",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2026-04-29",
+      "d5": "2026-04-30",
+      "d6": "2026-05-01",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-04-29T13:30",
+          "end": "2026-04-29T19:55"
+        },
+        {
+          "start": "2026-04-30T13:30",
+          "end": "2026-04-30T19:55"
+        },
+        {
+          "start": "2026-05-01T13:30",
+          "end": "2026-05-01T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2026-04-29T13:50",
+        "entry": 230.675,
+        "exitTime": "2026-04-29T18:05",
+        "exit": 228.36825000000002,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 52
+      }
+    },
+    {
+      "ticker": "ANET",
+      "earningsDate": "2026-05-05",
+      "selloffDate": "2026-05-06",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2026-05-12",
+      "d5": "2026-05-13",
+      "d6": "2026-05-14",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-05-12T13:30",
+          "end": "2026-05-12T19:55"
+        },
+        {
+          "start": "2026-05-13T13:30",
+          "end": "2026-05-13T19:55"
+        },
+        {
+          "start": "2026-05-14T13:30",
+          "end": "2026-05-14T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2026-05-12T13:50",
+        "entry": 139.45,
+        "exitTime": "2026-05-12T15:30",
+        "exit": 138.0555,
+        "why": "STOP_TOUCH",
+        "gross": -1.0000000000000009,
+        "net": -1.2000000000000008,
+        "barsHeld": 21
+      }
+    },
+    {
+      "ticker": "EOG",
+      "earningsDate": "2026-05-05",
+      "selloffDate": "2026-05-07",
+      "cohort": "separate72",
+      "releaseSession": "AH",
+      "oldD4Win": true,
+      "d4": "2026-05-13",
+      "d5": "2026-05-14",
+      "d6": "2026-05-15",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-05-13T13:30",
+          "end": "2026-05-13T19:55"
+        },
+        {
+          "start": "2026-05-14T13:30",
+          "end": "2026-05-14T19:55"
+        },
+        {
+          "start": "2026-05-15T13:30",
+          "end": "2026-05-15T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "TARGET",
+        "entryIndex": 6,
+        "entryTime": "2026-05-13T14:00",
+        "entry": 133.65,
+        "exitTime": "2026-05-14T16:40",
+        "exit": 136.323,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 111
+      },
+      "baseline0950": {
+        "state": "TARGET",
+        "entryIndex": 4,
+        "entryTime": "2026-05-13T13:50",
+        "entry": 133.26,
+        "exitTime": "2026-05-14T13:40",
+        "exit": 135.9252,
+        "why": "TARGET_TOUCH",
+        "gross": 2.0000000000000018,
+        "net": 1.8000000000000018,
+        "barsHeld": 77
+      }
+    },
+    {
+      "ticker": "PANW",
+      "earningsDate": "2026-06-02",
+      "selloffDate": "2026-06-03",
+      "cohort": "original92",
+      "releaseSession": "AH",
+      "oldD4Win": false,
+      "d4": "2026-06-09",
+      "d5": "2026-06-10",
+      "d6": "2026-06-11",
+      "oldPilot": false,
+      "status": "VALID",
+      "counts": [
+        78,
+        78,
+        78
+      ],
+      "bounds": [
+        {
+          "start": "2026-06-09T13:30",
+          "end": "2026-06-09T19:55"
+        },
+        {
+          "start": "2026-06-10T13:30",
+          "end": "2026-06-10T19:55"
+        },
+        {
+          "start": "2026-06-11T13:30",
+          "end": "2026-06-11T19:55"
+        }
+      ],
+      "morning": true,
+      "failedLowCandidateIndex": null,
+      "failedLowCandidateTime": null,
+      "confirmIndex": null,
+      "confirmTime": null,
+      "reclaimCrossesAfterCandidate": 0,
+      "volumeQualified": 0,
+      "chaseRejections": 0,
+      "entryMoveVsD4OpenPct": null,
+      "entryAdvanceVsKnownLowPct": null,
+      "primary": {
+        "state": "SKIP",
+        "net": 0,
+        "gross": 0
+      },
+      "vwapOnly": {
+        "state": "STOP",
+        "entryIndex": 11,
+        "entryTime": "2026-06-09T14:25",
+        "entry": 263.7599,
+        "exitTime": "2026-06-09T14:45",
+        "exit": 261.122301,
+        "why": "STOP_TOUCH",
+        "gross": -1.000000000000012,
+        "net": -1.200000000000012,
+        "barsHeld": 5
+      },
+      "baseline0950": {
+        "state": "STOP",
+        "entryIndex": 4,
+        "entryTime": "2026-06-09T13:50",
+        "entry": 265.2,
+        "exitTime": "2026-06-09T14:15",
+        "exit": 262.548,
+        "why": "STOP_TOUCH",
+        "gross": -0.9999999999999898,
+        "net": -1.1999999999999897,
+        "barsHeld": 6
+      }
+    }
+  ]
+}
