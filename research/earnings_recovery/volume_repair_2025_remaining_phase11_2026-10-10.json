@@ -1,0 +1,41 @@
+{
+  "source": "2025 options historical trade OHLCV provider",
+  "observations": [
+    {
+      "ticker": "AMAT",
+      "occ": "O:AMAT250620C00195000",
+      "entry": "2025-05-21",
+      "exit": "2025-05-30",
+      "status": "OK",
+      "first": 0.31,
+      "volume": 20,
+      "last": 0.05,
+      "exitVolume": 21,
+      "rows": 7
+    },
+    {
+      "ticker": "FTNT",
+      "occ": "O:FTNT250912C00088000",
+      "entry": "2025-08-12",
+      "exit": "2025-08-12",
+      "status": "OK",
+      "first": 0.39,
+      "volume": 4,
+      "last": 0.39,
+      "exitVolume": 4,
+      "rows": 1
+    },
+    {
+      "ticker": "ZBH",
+      "occ": "O:ZBH251219C00110000",
+      "entry": "2025-11-13",
+      "exit": "2025-11-24",
+      "status": "OK",
+      "first": 0.15,
+      "volume": 15,
+      "last": 0.01,
+      "exitVolume": 5,
+      "rows": 2
+    }
+  ]
+}
