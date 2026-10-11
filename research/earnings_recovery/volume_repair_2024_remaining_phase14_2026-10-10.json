@@ -1,0 +1,28 @@
+{
+  "observations": [
+    {
+      "ticker": "NOC",
+      "occ": "O:NOC240301C00505000",
+      "entry": "2024-01-31",
+      "exit": "2024-02-26",
+      "queriedRawExit": "2024-02-28",
+      "status": "NOT_ENTITLED"
+    },
+    {
+      "ticker": "FDX",
+      "occ": "O:FDX241025C00305000",
+      "entry": "2024-09-25",
+      "exit": "2024-10-22",
+      "queriedRawExit": "2024-10-22",
+      "status": "AVAILABLE"
+    },
+    {
+      "ticker": "LEN",
+      "occ": "O:LEN241025C00205000",
+      "entry": "2024-09-25",
+      "exit": "2024-10-22",
+      "queriedRawExit": "2024-10-22",
+      "status": "EMPTY"
+    }
+  ]
+}
