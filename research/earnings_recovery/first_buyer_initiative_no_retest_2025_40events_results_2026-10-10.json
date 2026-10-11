@@ -1,0 +1,1004 @@
+{
+  "design": "frozen_2025_first_buyer_initiative_without_retest_protocol_2026-10-10.md",
+  "eligibility": "first finished five-minute LOW -5pct vs pre-earnings prior as-traded RTH close by 11:30 ET",
+  "freeze": "2025 July-Aug roster + exact two-green buyer filter committed before Webull full 2025 historical bars",
+  "source": "Connected Webull 5-minute RTH raw stock OHLCV; no signed-orderflow or actual option NBBO",
+  "roster_n": 40,
+  "usable_event_n": 38,
+  "eligible_early_dislocations": 9,
+  "event_status_counts": {
+    "NO_MINUS_5_INTRADAY_TOUCH": 27,
+    "ELIGIBLE_MINUS5_EARLY": 9,
+    "INCOMPLETE_REQUIRED_RTH_5M_SESSION": 2,
+    "FIRST_MINUS5_TOO_LATE": 2
+  },
+  "buyer_pattern_counts": {
+    "NO_TWO_BAR_BUYER_INITIATIVE": 7,
+    "LATE_OR_OVEREXTENDED_SKIP": 2
+  },
+  "qualifying_intraday_breaches_that_recovered_above_minus5_by_close": 2,
+  "summary": {
+    "first_buyer_no_retest": {
+      "denominator": "asof_intraday_minus5_touch_by1130",
+      "events": 9,
+      "trades": 0,
+      "wins": 0,
+      "stop_first": 0,
+      "timeouts": 0,
+      "right_censored": 0,
+      "wins_per_trade_pct": null,
+      "wins_per_event_pct": 0.0,
+      "mean_gross_pct_traded": null,
+      "mean_gross_pct_per_event_skips_zero": 0.0,
+      "mean_after_20bp_cost_pct_per_event": 0.0
+    },
+    "immediate_minus5_breach": {
+      "denominator": "asof_intraday_minus5_touch_by1130",
+      "events": 9,
+      "trades": 9,
+      "wins": 3,
+      "stop_first": 6,
+      "timeouts": 0,
+      "right_censored": 0,
+      "wins_per_trade_pct": 33.333,
+      "wins_per_event_pct": 33.333,
+      "mean_gross_pct_traded": -0.1667,
+      "mean_gross_pct_per_event_skips_zero": -0.1667,
+      "mean_after_20bp_cost_pct_per_event": -0.3667
+    },
+    "buyer_per_all40_announcements": {
+      "denominator": "all_40_timestamped_2025_earnings_announcements",
+      "events": 40,
+      "trades": 0,
+      "wins": 0,
+      "stop_first": 0,
+      "timeouts": 0,
+      "right_censored": 0,
+      "wins_per_trade_pct": null,
+      "wins_per_event_pct": 0.0,
+      "mean_gross_pct_traded": null,
+      "mean_gross_pct_per_event_skips_zero": 0.0,
+      "mean_after_20bp_cost_pct_per_event": 0.0
+    }
+  },
+  "promotion_gates": {
+    "at_least_10_buyer_entries": false,
+    "at_least_plus10pp_wins_per_event_vs_immediate": false,
+    "at_least_three_more_wins": false,
+    "positive_after20bp_cost_across_all40": false
+  },
+  "all_gates_pass": false,
+  "events": [
+    {
+      "ticker": "ADP",
+      "earnings_announced": "2025-07-30",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-30",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {
+        "2025-07-28": {
+          "bar_count": 77,
+          "missing_clocks": [
+            "12:20"
+          ]
+        }
+      },
+      "prior_day": "2025-07-29",
+      "as_traded_prior_close": 308.64,
+      "reaction_day_closing_return_pct": 0.7452,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "AMAT",
+      "earnings_announced": "2025-08-14",
+      "announcement_session": "AH",
+      "reaction_day": "2025-08-15",
+      "source_week": "2025-08-11",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-14",
+      "as_traded_prior_close": 188.24,
+      "reaction_day_closing_return_pct": -14.0698,
+      "first_touch_time_ET": "09:30",
+      "first_touch_low": 162.5,
+      "status": "ELIGIBLE_MINUS5_EARLY",
+      "recovered_above_minus5_by_close": false,
+      "immediate_baseline": {
+        "status": "RESOLVED",
+        "result": "TARGET",
+        "target_first": true,
+        "entry_day": "2025-08-15",
+        "entry_clock": "09:35",
+        "entry_open": 164.16,
+        "exit_day": "2025-08-15",
+        "exit_clock": "09:40",
+        "exit_price": 166.6224,
+        "gross_pct": 1.5,
+        "exit_session": 1
+      },
+      "pattern": {
+        "state": "NO_TWO_BAR_BUYER_INITIATIVE"
+      }
+    },
+    {
+      "ticker": "AON",
+      "earnings_announced": "2025-07-25",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-25",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {
+        "2025-07-21": {
+          "bar_count": 77,
+          "missing_clocks": [
+            "12:40"
+          ]
+        }
+      },
+      "prior_day": "2025-07-24",
+      "as_traded_prior_close": 356.61,
+      "reaction_day_closing_return_pct": 4.5652,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "BK",
+      "earnings_announced": "2025-07-15",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-15",
+      "source_week": "2025-07-14",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-14",
+      "as_traded_prior_close": 95.26,
+      "reaction_day_closing_return_pct": -0.189,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "CHTR",
+      "earnings_announced": "2025-07-25",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-25",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-24",
+      "as_traded_prior_close": 380.0,
+      "reaction_day_closing_return_pct": -18.4868,
+      "first_touch_time_ET": "09:30",
+      "first_touch_low": 327.5,
+      "status": "ELIGIBLE_MINUS5_EARLY",
+      "recovered_above_minus5_by_close": false,
+      "immediate_baseline": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "target_first": false,
+        "entry_day": "2025-07-25",
+        "entry_clock": "09:35",
+        "entry_open": 334.48,
+        "exit_day": "2025-07-25",
+        "exit_clock": "09:35",
+        "exit_price": 331.1352,
+        "gross_pct": -1.0,
+        "exit_session": 1
+      },
+      "pattern": {
+        "state": "NO_TWO_BAR_BUYER_INITIATIVE"
+      }
+    },
+    {
+      "ticker": "CMCSA",
+      "earnings_announced": "2025-07-31",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-31",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-30",
+      "as_traded_prior_close": 32.5,
+      "reaction_day_closing_return_pct": 2.2462,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "COP",
+      "earnings_announced": "2025-08-07",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-08-07",
+      "source_week": "2025-08-04",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-06",
+      "as_traded_prior_close": 93.11,
+      "reaction_day_closing_return_pct": -0.5477,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "DAL",
+      "earnings_announced": "2025-07-10",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-10",
+      "source_week": "2025-07-07",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-09",
+      "as_traded_prior_close": 50.7,
+      "reaction_day_closing_return_pct": 11.9921,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "DG",
+      "earnings_announced": "2025-08-28",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-08-28",
+      "source_week": "2025-08-25",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-27",
+      "as_traded_prior_close": 111.2,
+      "reaction_day_closing_return_pct": 0.4586,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "EOG",
+      "earnings_announced": "2025-08-07",
+      "announcement_session": "AH",
+      "reaction_day": "2025-08-08",
+      "source_week": "2025-08-04",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-07",
+      "as_traded_prior_close": 115.97,
+      "reaction_day_closing_return_pct": 0.2673,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "EQT",
+      "earnings_announced": "2025-07-22",
+      "announcement_session": "AH",
+      "reaction_day": "2025-07-23",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-22",
+      "as_traded_prior_close": 54.34,
+      "reaction_day_closing_return_pct": -4.3798,
+      "first_touch_time_ET": "09:50",
+      "first_touch_low": 51.29,
+      "status": "ELIGIBLE_MINUS5_EARLY",
+      "recovered_above_minus5_by_close": true,
+      "immediate_baseline": {
+        "status": "RESOLVED",
+        "result": "TARGET",
+        "target_first": true,
+        "entry_day": "2025-07-23",
+        "entry_clock": "09:55",
+        "entry_open": 51.45,
+        "exit_day": "2025-07-23",
+        "exit_clock": "10:05",
+        "exit_price": 52.22175,
+        "gross_pct": 1.5,
+        "exit_session": 1
+      },
+      "pattern": {
+        "state": "NO_TWO_BAR_BUYER_INITIATIVE"
+      }
+    },
+    {
+      "ticker": "EW",
+      "earnings_announced": "2025-07-24",
+      "announcement_session": "AH",
+      "reaction_day": "2025-07-25",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-24",
+      "as_traded_prior_close": 75.8,
+      "reaction_day_closing_return_pct": 5.5409,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "FCX",
+      "earnings_announced": "2025-07-23",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-23",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-22",
+      "as_traded_prior_close": 45.8,
+      "reaction_day_closing_return_pct": -2.0961,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "FICO",
+      "earnings_announced": "2025-07-30",
+      "announcement_session": "AH",
+      "reaction_day": "2025-07-31",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {
+        "2025-07-28": {
+          "bar_count": 68,
+          "missing_clocks": [
+            "09:30",
+            "10:35",
+            "13:05",
+            "13:15",
+            "13:20",
+            "13:35",
+            "14:00",
+            "14:15",
+            "14:30",
+            "15:10"
+          ]
+        },
+        "2025-07-29": {
+          "bar_count": 60,
+          "missing_clocks": [
+            "09:40",
+            "09:50",
+            "10:40",
+            "10:50",
+            "11:05",
+            "11:10",
+            "12:05",
+            "12:20",
+            "12:25",
+            "12:30",
+            "12:35",
+            "12:40",
+            "12:45",
+            "12:55",
+            "13:15",
+            "13:30",
+            "13:50",
+            "14:00"
+          ]
+        },
+        "2025-07-30": {
+          "bar_count": 68,
+          "missing_clocks": [
+            "10:35",
+            "10:45",
+            "11:05",
+            "11:10",
+            "11:35",
+            "12:05",
+            "12:10",
+            "12:15",
+            "13:35",
+            "14:25"
+          ]
+        },
+        "2025-08-04": {
+          "bar_count": 68,
+          "missing_clocks": [
+            "09:50",
+            "10:10",
+            "11:15",
+            "11:55",
+            "12:05",
+            "13:05",
+            "13:10",
+            "13:35",
+            "13:55",
+            "15:25"
+          ]
+        },
+        "2025-08-05": {
+          "bar_count": 69,
+          "missing_clocks": [
+            "10:30",
+            "11:35",
+            "12:05",
+            "12:45",
+            "13:45",
+            "13:50",
+            "13:55",
+            "14:05",
+            "14:35"
+          ]
+        },
+        "2025-08-06": {
+          "bar_count": 68,
+          "missing_clocks": [
+            "09:40",
+            "09:55",
+            "11:25",
+            "12:50",
+            "13:35",
+            "14:30",
+            "14:45",
+            "15:00",
+            "15:05",
+            "15:15"
+          ]
+        },
+        "2025-08-07": {
+          "bar_count": 74,
+          "missing_clocks": [
+            "12:00",
+            "12:40",
+            "14:20",
+            "15:40"
+          ]
+        },
+        "2025-08-08": {
+          "bar_count": 75,
+          "missing_clocks": [
+            "10:40",
+            "14:05",
+            "14:15"
+          ]
+        }
+      },
+      "prior_day": "2025-07-30",
+      "status": "INCOMPLETE_REQUIRED_RTH_5M_SESSION",
+      "required_days": [
+        "2025-07-31",
+        "2025-08-01",
+        "2025-08-04"
+      ]
+    },
+    {
+      "ticker": "FIS",
+      "earnings_announced": "2025-08-05",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-08-05",
+      "source_week": "2025-08-04",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-04",
+      "as_traded_prior_close": 78.96,
+      "reaction_day_closing_return_pct": -8.536,
+      "first_touch_time_ET": "09:30",
+      "first_touch_low": 73.0869,
+      "status": "ELIGIBLE_MINUS5_EARLY",
+      "recovered_above_minus5_by_close": false,
+      "immediate_baseline": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "target_first": false,
+        "entry_day": "2025-08-05",
+        "entry_clock": "09:35",
+        "entry_open": 75.495,
+        "exit_day": "2025-08-05",
+        "exit_clock": "09:35",
+        "exit_price": 74.74005,
+        "gross_pct": -1.0,
+        "exit_session": 1
+      },
+      "pattern": {
+        "state": "NO_TWO_BAR_BUYER_INITIATIVE"
+      }
+    },
+    {
+      "ticker": "FSLR",
+      "earnings_announced": "2025-07-31",
+      "announcement_session": "AH",
+      "reaction_day": "2025-08-01",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-31",
+      "as_traded_prior_close": 174.73,
+      "reaction_day_closing_return_pct": 5.2882,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "FTNT",
+      "earnings_announced": "2025-08-06",
+      "announcement_session": "AH",
+      "reaction_day": "2025-08-07",
+      "source_week": "2025-08-04",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-06",
+      "as_traded_prior_close": 96.58,
+      "reaction_day_closing_return_pct": -22.0335,
+      "first_touch_time_ET": "09:30",
+      "first_touch_low": 71.8,
+      "status": "ELIGIBLE_MINUS5_EARLY",
+      "recovered_above_minus5_by_close": false,
+      "immediate_baseline": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "target_first": false,
+        "entry_day": "2025-08-07",
+        "entry_clock": "09:35",
+        "entry_open": 72.3356,
+        "exit_day": "2025-08-07",
+        "exit_clock": "09:40",
+        "exit_price": 71.612244,
+        "gross_pct": -1.0,
+        "exit_session": 1
+      },
+      "pattern": {
+        "state": "NO_TWO_BAR_BUYER_INITIATIVE"
+      }
+    },
+    {
+      "ticker": "GLW",
+      "earnings_announced": "2025-07-29",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-29",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-28",
+      "as_traded_prior_close": 55.41,
+      "reaction_day_closing_return_pct": 11.8571,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "GPN",
+      "earnings_announced": "2025-08-06",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-08-06",
+      "source_week": "2025-08-04",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-05",
+      "as_traded_prior_close": 78.41,
+      "reaction_day_closing_return_pct": 9.0932,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "HAL",
+      "earnings_announced": "2025-07-22",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-22",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-21",
+      "as_traded_prior_close": 21.18,
+      "reaction_day_closing_return_pct": 0.9915,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "HSY",
+      "earnings_announced": "2025-07-30",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-30",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-29",
+      "as_traded_prior_close": 186.23,
+      "reaction_day_closing_return_pct": 1.3961,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "KDP",
+      "earnings_announced": "2025-07-24",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-24",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-23",
+      "as_traded_prior_close": 33.5,
+      "reaction_day_closing_return_pct": 0.209,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "KMB",
+      "earnings_announced": "2025-08-01",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-08-01",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-31",
+      "as_traded_prior_close": 124.62,
+      "reaction_day_closing_return_pct": 4.8307,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "MAR",
+      "earnings_announced": "2025-08-05",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-08-05",
+      "source_week": "2025-08-04",
+      "missing5m_bar_days": {
+        "2025-08-12": {
+          "bar_count": 77,
+          "missing_clocks": [
+            "13:40"
+          ]
+        }
+      },
+      "prior_day": "2025-08-04",
+      "as_traded_prior_close": 259.13,
+      "reaction_day_closing_return_pct": 0.2277,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "MPWR",
+      "earnings_announced": "2025-07-31",
+      "announcement_session": "AH",
+      "reaction_day": "2025-08-01",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {
+        "2025-07-28": {
+          "bar_count": 77,
+          "missing_clocks": [
+            "14:25"
+          ]
+        },
+        "2025-07-29": {
+          "bar_count": 65,
+          "missing_clocks": [
+            "12:00",
+            "12:05",
+            "12:20",
+            "12:30",
+            "12:35",
+            "12:45",
+            "13:40",
+            "13:45",
+            "13:50",
+            "14:10",
+            "14:15",
+            "14:25",
+            "14:45"
+          ]
+        },
+        "2025-08-05": {
+          "bar_count": 76,
+          "missing_clocks": [
+            "13:20",
+            "14:20"
+          ]
+        },
+        "2025-08-06": {
+          "bar_count": 74,
+          "missing_clocks": [
+            "11:25",
+            "12:30",
+            "12:50",
+            "13:25"
+          ]
+        },
+        "2025-08-07": {
+          "bar_count": 73,
+          "missing_clocks": [
+            "12:15",
+            "12:20",
+            "13:15",
+            "13:40",
+            "14:55"
+          ]
+        },
+        "2025-08-08": {
+          "bar_count": 73,
+          "missing_clocks": [
+            "10:45",
+            "11:25",
+            "12:15",
+            "12:20",
+            "14:55"
+          ]
+        }
+      },
+      "prior_day": "2025-07-31",
+      "status": "INCOMPLETE_REQUIRED_RTH_5M_SESSION",
+      "required_days": [
+        "2025-08-01",
+        "2025-08-04",
+        "2025-08-05"
+      ]
+    },
+    {
+      "ticker": "NEM",
+      "earnings_announced": "2025-07-24",
+      "announcement_session": "AH",
+      "reaction_day": "2025-07-25",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-24",
+      "as_traded_prior_close": 61.51,
+      "reaction_day_closing_return_pct": 6.8932,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "NOC",
+      "earnings_announced": "2025-07-22",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-22",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {
+        "2025-07-29": {
+          "bar_count": 77,
+          "missing_clocks": [
+            "12:20"
+          ]
+        },
+        "2025-07-30": {
+          "bar_count": 76,
+          "missing_clocks": [
+            "13:05",
+            "14:30"
+          ]
+        },
+        "2025-07-31": {
+          "bar_count": 75,
+          "missing_clocks": [
+            "11:55",
+            "12:55",
+            "13:10"
+          ]
+        }
+      },
+      "prior_day": "2025-07-21",
+      "as_traded_prior_close": 515.29,
+      "reaction_day_closing_return_pct": 9.4122,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "OKE",
+      "earnings_announced": "2025-08-04",
+      "announcement_session": "AH",
+      "reaction_day": "2025-08-05",
+      "source_week": "2025-08-04",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-04",
+      "as_traded_prior_close": 79.83,
+      "reaction_day_closing_return_pct": -5.1735,
+      "first_touch_time_ET": "09:55",
+      "first_touch_low": 75.8107,
+      "status": "ELIGIBLE_MINUS5_EARLY",
+      "recovered_above_minus5_by_close": false,
+      "immediate_baseline": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "target_first": false,
+        "entry_day": "2025-08-05",
+        "entry_clock": "10:00",
+        "entry_open": 75.855,
+        "exit_day": "2025-08-05",
+        "exit_clock": "10:30",
+        "exit_price": 75.09645,
+        "gross_pct": -1.0,
+        "exit_session": 1
+      },
+      "pattern": {
+        "state": "NO_TWO_BAR_BUYER_INITIATIVE"
+      }
+    },
+    {
+      "ticker": "PPG",
+      "earnings_announced": "2025-07-29",
+      "announcement_session": "AH",
+      "reaction_day": "2025-07-30",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-29",
+      "as_traded_prior_close": 112.23,
+      "reaction_day_closing_return_pct": -5.3283,
+      "first_touch_time_ET": "09:30",
+      "first_touch_low": 105.3017,
+      "status": "ELIGIBLE_MINUS5_EARLY",
+      "recovered_above_minus5_by_close": false,
+      "immediate_baseline": {
+        "status": "RESOLVED",
+        "result": "TARGET",
+        "target_first": true,
+        "entry_day": "2025-07-30",
+        "entry_clock": "09:35",
+        "entry_open": 105.93,
+        "exit_day": "2025-07-30",
+        "exit_clock": "09:35",
+        "exit_price": 107.51895,
+        "gross_pct": 1.5,
+        "exit_session": 1
+      },
+      "pattern": {
+        "state": "NO_TWO_BAR_BUYER_INITIATIVE"
+      }
+    },
+    {
+      "ticker": "PRU",
+      "earnings_announced": "2025-07-30",
+      "announcement_session": "AH",
+      "reaction_day": "2025-07-31",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-30",
+      "as_traded_prior_close": 101.78,
+      "reaction_day_closing_return_pct": 1.7685,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "REGN",
+      "earnings_announced": "2025-08-01",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-08-01",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {
+        "2025-07-28": {
+          "bar_count": 77,
+          "missing_clocks": [
+            "11:15"
+          ]
+        },
+        "2025-07-30": {
+          "bar_count": 77,
+          "missing_clocks": [
+            "13:00"
+          ]
+        }
+      },
+      "prior_day": "2025-07-31",
+      "as_traded_prior_close": 545.46,
+      "reaction_day_closing_return_pct": 2.4585,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "ROST",
+      "earnings_announced": "2025-08-21",
+      "announcement_session": "AH",
+      "reaction_day": "2025-08-22",
+      "source_week": "2025-08-18",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-21",
+      "as_traded_prior_close": 145.62,
+      "reaction_day_closing_return_pct": 1.1194,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "STX",
+      "earnings_announced": "2025-07-29",
+      "announcement_session": "AH",
+      "reaction_day": "2025-07-30",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-29",
+      "as_traded_prior_close": 152.68,
+      "reaction_day_closing_return_pct": -3.4451,
+      "first_touch_time_ET": "09:30",
+      "first_touch_low": 140.27,
+      "status": "ELIGIBLE_MINUS5_EARLY",
+      "recovered_above_minus5_by_close": true,
+      "immediate_baseline": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "target_first": false,
+        "entry_day": "2025-07-30",
+        "entry_clock": "09:35",
+        "entry_open": 141.705,
+        "exit_day": "2025-07-30",
+        "exit_clock": "09:35",
+        "exit_price": 140.28795,
+        "gross_pct": -1.0,
+        "exit_session": 1
+      },
+      "pattern": {
+        "state": "LATE_OR_OVEREXTENDED_SKIP",
+        "details": {
+          "state": "FIRST_GREEN_PAIR",
+          "signal_clock": "10:00",
+          "signal_close": 146.48,
+          "first_green_clock": "09:55",
+          "second_green_clock": "10:00",
+          "second_bar_volume": 425070.0,
+          "prior3_median_volume": 253872.0,
+          "buyer_relative_vol": 1.67435,
+          "known_low": 138.31,
+          "entry_clock": "10:05",
+          "entry_open": 146.5041,
+          "entry_from_known_low_pct": 5.92445,
+          "entry_bar_index": 7
+        }
+      }
+    },
+    {
+      "ticker": "TMO",
+      "earnings_announced": "2025-07-23",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-23",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-22",
+      "as_traded_prior_close": 427.62,
+      "reaction_day_closing_return_pct": 9.1413,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "TPR",
+      "earnings_announced": "2025-08-14",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-08-14",
+      "source_week": "2025-08-11",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-13",
+      "as_traded_prior_close": 113.53,
+      "reaction_day_closing_return_pct": -15.7139,
+      "first_touch_time_ET": "09:30",
+      "first_touch_low": 94.0,
+      "status": "ELIGIBLE_MINUS5_EARLY",
+      "recovered_above_minus5_by_close": false,
+      "immediate_baseline": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "target_first": false,
+        "entry_day": "2025-08-14",
+        "entry_clock": "09:35",
+        "entry_open": 94.938,
+        "exit_day": "2025-08-14",
+        "exit_clock": "09:35",
+        "exit_price": 93.98862,
+        "gross_pct": -1.0,
+        "exit_session": 1
+      },
+      "pattern": {
+        "state": "LATE_OR_OVEREXTENDED_SKIP",
+        "details": {
+          "state": "FIRST_GREEN_PAIR",
+          "signal_clock": "10:10",
+          "signal_close": 96.165,
+          "first_green_clock": "10:05",
+          "second_green_clock": "10:10",
+          "second_bar_volume": 295156.0,
+          "prior3_median_volume": 247075.0,
+          "buyer_relative_vol": 1.1946,
+          "known_low": 92.64,
+          "entry_clock": "10:15",
+          "entry_open": 96.165,
+          "entry_from_known_low_pct": 3.80505,
+          "entry_bar_index": 9
+        }
+      }
+    },
+    {
+      "ticker": "VLO",
+      "earnings_announced": "2025-07-24",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-24",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-23",
+      "as_traded_prior_close": 147.54,
+      "reaction_day_closing_return_pct": -4.88,
+      "first_touch_time_ET": "12:30",
+      "first_touch_low": 139.62,
+      "status": "FIRST_MINUS5_TOO_LATE"
+    },
+    {
+      "ticker": "WAB",
+      "earnings_announced": "2025-07-24",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-07-24",
+      "source_week": "2025-07-21",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-23",
+      "as_traded_prior_close": 214.38,
+      "reaction_day_closing_return_pct": -6.3812,
+      "first_touch_time_ET": "11:40",
+      "first_touch_low": 203.45,
+      "status": "FIRST_MINUS5_TOO_LATE"
+    },
+    {
+      "ticker": "WYNN",
+      "earnings_announced": "2025-08-07",
+      "announcement_session": "AH",
+      "reaction_day": "2025-08-08",
+      "source_week": "2025-08-04",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-07",
+      "as_traded_prior_close": 107.23,
+      "reaction_day_closing_return_pct": -0.7647,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "XOM",
+      "earnings_announced": "2025-08-01",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-08-01",
+      "source_week": "2025-07-28",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-07-31",
+      "as_traded_prior_close": 111.64,
+      "reaction_day_closing_return_pct": -1.7915,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    },
+    {
+      "ticker": "ZBH",
+      "earnings_announced": "2025-08-07",
+      "announcement_session": "BMO",
+      "reaction_day": "2025-08-07",
+      "source_week": "2025-08-04",
+      "missing5m_bar_days": {},
+      "prior_day": "2025-08-06",
+      "as_traded_prior_close": 91.15,
+      "reaction_day_closing_return_pct": 7.9868,
+      "status": "NO_MINUS_5_INTRADAY_TOUCH"
+    }
+  ],
+  "caveats": [
+    "Old historical outcomes on some 2025 issuer events previously inspected in unrelated studies; not prospectively untouched.",
+    "Quality filter previously screened for different historical dates; not all 2025 events recertified by point-in-time fundamentals.",
+    "All 5-minute candidate bars must be complete, missing vendor candles lead to exclusion from evaluable denominators not losses.",
+    "Volume of a green candle is not signed market aggressor order flow.",
+    "Stock simulated entry and barrier prices are NOT option quotes, spreads, Greeks, premiums, or historical executable contracts.",
+    "Five-minute same candle stop target ambiguity is resolved conservatively stop first; gaps can exceed stock stop."
+  ]
+}
