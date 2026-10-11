@@ -1,0 +1,288 @@
+{
+  "freeze_date": "2026-10-10",
+  "source": "prior committed Quant500 calendar-derived 65-company holdout (2025 July-Aug window) incl ALL unambiguous BMO/AH announcements; no future reaction prices consulted for this new intraday approach",
+  "count": 40,
+  "events": [
+    {
+      "ticker": "ADP",
+      "earnings_date": "2025-07-30",
+      "session": "BMO",
+      "reaction_day": "2025-07-30",
+      "source": "https://quant500.com/earnings-date/ADP"
+    },
+    {
+      "ticker": "AMAT",
+      "earnings_date": "2025-08-14",
+      "session": "AH",
+      "reaction_day": "2025-08-15",
+      "source": "https://quant500.com/earnings-date/AMAT"
+    },
+    {
+      "ticker": "AON",
+      "earnings_date": "2025-07-25",
+      "session": "BMO",
+      "reaction_day": "2025-07-25",
+      "source": "https://quant500.com/earnings-date/AON"
+    },
+    {
+      "ticker": "BK",
+      "earnings_date": "2025-07-15",
+      "session": "BMO",
+      "reaction_day": "2025-07-15",
+      "source": "https://quant500.com/earnings-date/BK"
+    },
+    {
+      "ticker": "CHTR",
+      "earnings_date": "2025-07-25",
+      "session": "BMO",
+      "reaction_day": "2025-07-25",
+      "source": "https://quant500.com/earnings-date/CHTR"
+    },
+    {
+      "ticker": "CMCSA",
+      "earnings_date": "2025-07-31",
+      "session": "BMO",
+      "reaction_day": "2025-07-31",
+      "source": "https://quant500.com/earnings-date/CMCSA"
+    },
+    {
+      "ticker": "COP",
+      "earnings_date": "2025-08-07",
+      "session": "BMO",
+      "reaction_day": "2025-08-07",
+      "source": "https://quant500.com/earnings-date/COP"
+    },
+    {
+      "ticker": "DAL",
+      "earnings_date": "2025-07-10",
+      "session": "BMO",
+      "reaction_day": "2025-07-10",
+      "source": "https://quant500.com/earnings-date/DAL"
+    },
+    {
+      "ticker": "DG",
+      "earnings_date": "2025-08-28",
+      "session": "BMO",
+      "reaction_day": "2025-08-28",
+      "source": "https://quant500.com/earnings-date/DG"
+    },
+    {
+      "ticker": "EOG",
+      "earnings_date": "2025-08-07",
+      "session": "AH",
+      "reaction_day": "2025-08-08",
+      "source": "https://quant500.com/earnings-date/EOG"
+    },
+    {
+      "ticker": "EQT",
+      "earnings_date": "2025-07-22",
+      "session": "AH",
+      "reaction_day": "2025-07-23",
+      "source": "https://quant500.com/earnings-date/EQT"
+    },
+    {
+      "ticker": "EW",
+      "earnings_date": "2025-07-24",
+      "session": "AH",
+      "reaction_day": "2025-07-25",
+      "source": "https://quant500.com/earnings-date/EW"
+    },
+    {
+      "ticker": "FCX",
+      "earnings_date": "2025-07-23",
+      "session": "BMO",
+      "reaction_day": "2025-07-23",
+      "source": "https://quant500.com/earnings-date/FCX"
+    },
+    {
+      "ticker": "FICO",
+      "earnings_date": "2025-07-30",
+      "session": "AH",
+      "reaction_day": "2025-07-31",
+      "source": "https://quant500.com/earnings-date/FICO"
+    },
+    {
+      "ticker": "FIS",
+      "earnings_date": "2025-08-05",
+      "session": "BMO",
+      "reaction_day": "2025-08-05",
+      "source": "https://quant500.com/earnings-date/FIS"
+    },
+    {
+      "ticker": "FSLR",
+      "earnings_date": "2025-07-31",
+      "session": "AH",
+      "reaction_day": "2025-08-01",
+      "source": "https://quant500.com/earnings-date/FSLR"
+    },
+    {
+      "ticker": "FTNT",
+      "earnings_date": "2025-08-06",
+      "session": "AH",
+      "reaction_day": "2025-08-07",
+      "source": "https://quant500.com/earnings-date/FTNT"
+    },
+    {
+      "ticker": "GLW",
+      "earnings_date": "2025-07-29",
+      "session": "BMO",
+      "reaction_day": "2025-07-29",
+      "source": "https://quant500.com/earnings-date/GLW"
+    },
+    {
+      "ticker": "GPN",
+      "earnings_date": "2025-08-06",
+      "session": "BMO",
+      "reaction_day": "2025-08-06",
+      "source": "https://quant500.com/earnings-date/GPN"
+    },
+    {
+      "ticker": "HAL",
+      "earnings_date": "2025-07-22",
+      "session": "BMO",
+      "reaction_day": "2025-07-22",
+      "source": "https://quant500.com/earnings-date/HAL"
+    },
+    {
+      "ticker": "HSY",
+      "earnings_date": "2025-07-30",
+      "session": "BMO",
+      "reaction_day": "2025-07-30",
+      "source": "https://quant500.com/earnings-date/HSY"
+    },
+    {
+      "ticker": "KDP",
+      "earnings_date": "2025-07-24",
+      "session": "BMO",
+      "reaction_day": "2025-07-24",
+      "source": "https://quant500.com/earnings-date/KDP"
+    },
+    {
+      "ticker": "KMB",
+      "earnings_date": "2025-08-01",
+      "session": "BMO",
+      "reaction_day": "2025-08-01",
+      "source": "https://quant500.com/earnings-date/KMB"
+    },
+    {
+      "ticker": "MAR",
+      "earnings_date": "2025-08-05",
+      "session": "BMO",
+      "reaction_day": "2025-08-05",
+      "source": "https://quant500.com/earnings-date/MAR"
+    },
+    {
+      "ticker": "MPWR",
+      "earnings_date": "2025-07-31",
+      "session": "AH",
+      "reaction_day": "2025-08-01",
+      "source": "https://quant500.com/earnings-date/MPWR"
+    },
+    {
+      "ticker": "NEM",
+      "earnings_date": "2025-07-24",
+      "session": "AH",
+      "reaction_day": "2025-07-25",
+      "source": "https://quant500.com/earnings-date/NEM"
+    },
+    {
+      "ticker": "NOC",
+      "earnings_date": "2025-07-22",
+      "session": "BMO",
+      "reaction_day": "2025-07-22",
+      "source": "https://quant500.com/earnings-date/NOC"
+    },
+    {
+      "ticker": "OKE",
+      "earnings_date": "2025-08-04",
+      "session": "AH",
+      "reaction_day": "2025-08-05",
+      "source": "https://quant500.com/earnings-date/OKE"
+    },
+    {
+      "ticker": "PPG",
+      "earnings_date": "2025-07-29",
+      "session": "AH",
+      "reaction_day": "2025-07-30",
+      "source": "https://quant500.com/earnings-date/PPG"
+    },
+    {
+      "ticker": "PRU",
+      "earnings_date": "2025-07-30",
+      "session": "AH",
+      "reaction_day": "2025-07-31",
+      "source": "https://quant500.com/earnings-date/PRU"
+    },
+    {
+      "ticker": "REGN",
+      "earnings_date": "2025-08-01",
+      "session": "BMO",
+      "reaction_day": "2025-08-01",
+      "source": "https://quant500.com/earnings-date/REGN"
+    },
+    {
+      "ticker": "ROST",
+      "earnings_date": "2025-08-21",
+      "session": "AH",
+      "reaction_day": "2025-08-22",
+      "source": "https://quant500.com/earnings-date/ROST"
+    },
+    {
+      "ticker": "STX",
+      "earnings_date": "2025-07-29",
+      "session": "AH",
+      "reaction_day": "2025-07-30",
+      "source": "https://quant500.com/earnings-date/STX"
+    },
+    {
+      "ticker": "TMO",
+      "earnings_date": "2025-07-23",
+      "session": "BMO",
+      "reaction_day": "2025-07-23",
+      "source": "https://quant500.com/earnings-date/TMO"
+    },
+    {
+      "ticker": "TPR",
+      "earnings_date": "2025-08-14",
+      "session": "BMO",
+      "reaction_day": "2025-08-14",
+      "source": "https://quant500.com/earnings-date/TPR"
+    },
+    {
+      "ticker": "VLO",
+      "earnings_date": "2025-07-24",
+      "session": "BMO",
+      "reaction_day": "2025-07-24",
+      "source": "https://quant500.com/earnings-date/VLO"
+    },
+    {
+      "ticker": "WAB",
+      "earnings_date": "2025-07-24",
+      "session": "BMO",
+      "reaction_day": "2025-07-24",
+      "source": "https://quant500.com/earnings-date/WAB"
+    },
+    {
+      "ticker": "WYNN",
+      "earnings_date": "2025-08-07",
+      "session": "AH",
+      "reaction_day": "2025-08-08",
+      "source": "https://quant500.com/earnings-date/WYNN"
+    },
+    {
+      "ticker": "XOM",
+      "earnings_date": "2025-08-01",
+      "session": "BMO",
+      "reaction_day": "2025-08-01",
+      "source": "https://quant500.com/earnings-date/XOM"
+    },
+    {
+      "ticker": "ZBH",
+      "earnings_date": "2025-08-07",
+      "session": "BMO",
+      "reaction_day": "2025-08-07",
+      "source": "https://quant500.com/earnings-date/ZBH"
+    }
+  ],
+  "qualifying_on_future_stock_close": false
+}
