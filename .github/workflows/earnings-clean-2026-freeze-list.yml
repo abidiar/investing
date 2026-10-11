@@ -1,0 +1,36 @@
+name: Freeze Fresh 2026 Earnings Selloff Event List Before Outcomes
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/earnings_recovery/discover_jul_sep2026_earnings_reactions_preoutcome.py'
+      - '.github/workflows/earnings-clean-2026-freeze-list.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: earnings-clean-2026-freeze-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip -q install beautifulsoup4
+      - name: Freeze historical earnings reaction events without retrieving future prices
+        run: python research/earnings_recovery/discover_jul_sep2026_earnings_reactions_preoutcome.py
+      - name: Save cohort in a separate commit before stock outcome retrieval
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/earnings_recovery/frozen_jul_sep2026_earnings_selloff_discovery_2026-10-10.json
+          git commit -m 'Freeze later-2026 earnings reaction cohort before forward outcome retrieval [skip ci]'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            git push && break
+            sleep 2
+          done
