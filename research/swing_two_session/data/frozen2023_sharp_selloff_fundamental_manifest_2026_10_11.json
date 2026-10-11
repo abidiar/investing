@@ -1,0 +1,273 @@
+{
+  "frozenProtocol": "research/swing_two_session/frozen2023_historical_fundamental_shock_protocol_2026_10_11.md",
+  "universe": 49,
+  "nEligibleTickerFirst": 13,
+  "nSelected": 13,
+  "previouslyExposed2023CasesExcluded": 45,
+  "excludedOverlappingOld164": 5,
+  "selection": "first up to 20 chronologically after all frozen eligibility and exclusion criteria; only as-of-event prices accessed; NO future outcome inputs",
+  "allTickerFirstEligible": [
+    {
+      "symbol": "CRWD",
+      "date": "2023-01-05",
+      "stockShockCloseClosePct": -9.078714128299714,
+      "rvol20": 2.5647630955258953,
+      "signalClose": 23.7225,
+      "priorClose": 26.09125,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "DDOG",
+      "date": "2023-01-05",
+      "stockShockCloseClosePct": -7.917633410672842,
+      "rvol20": 2.045137922855513,
+      "signalClose": 63.5,
+      "priorClose": 68.96,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "SNOW",
+      "date": "2023-02-03",
+      "stockShockCloseClosePct": -8.289806234203889,
+      "rvol20": 1.2886128275226305,
+      "signalClose": 163.29,
+      "priorClose": 178.05,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "ADBE",
+      "date": "2023-02-24",
+      "stockShockCloseClosePct": -7.6306841104259,
+      "rvol20": 3.1859496756526533,
+      "signalClose": 320.54,
+      "priorClose": 347.02,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "C",
+      "date": "2023-03-13",
+      "stockShockCloseClosePct": -7.4472484644222625,
+      "rvol20": 3.049476134736212,
+      "signalClose": 39.909734,
+      "priorClose": 43.121067,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "WFC",
+      "date": "2023-03-13",
+      "stockShockCloseClosePct": -7.132494071791706,
+      "rvol20": 4.228085394729615,
+      "signalClose": 35.161288,
+      "priorClose": 37.861777,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "SLB",
+      "date": "2023-03-15",
+      "stockShockCloseClosePct": -8.184764517407617,
+      "rvol20": 2.3219157285798593,
+      "signalClose": 41.554651,
+      "priorClose": 45.258993,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "UPS",
+      "date": "2023-04-25",
+      "stockShockCloseClosePct": -9.987235454650968,
+      "rvol20": 4.794441486822681,
+      "signalClose": 145.756765,
+      "priorClose": 161.928995,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2023-04-27",
+      "stockShockCloseClosePct": -7.991347520558978,
+      "rvol20": 3.8706387236046647,
+      "signalClose": 132.74756,
+      "priorClose": 144.277257,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "PANW",
+      "date": "2023-07-12",
+      "stockShockCloseClosePct": -7.029532829796592,
+      "rvol20": 2.452281114960867,
+      "signalClose": 116.32,
+      "priorClose": 125.115,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "FTNT",
+      "date": "2023-08-04",
+      "stockShockCloseClosePct": -25.06599788806758,
+      "rvol20": 6.622850970952409,
+      "signalClose": 56.77,
+      "priorClose": 75.76,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "ANET",
+      "date": "2023-10-26",
+      "stockShockCloseClosePct": -8.743081304745026,
+      "rvol20": 3.031913138883846,
+      "signalClose": 42.455,
+      "priorClose": 46.5225,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "WMT",
+      "date": "2023-11-16",
+      "stockShockCloseClosePct": -8.092827294433702,
+      "rvol20": 5.953359758682454,
+      "signalClose": 50.402717,
+      "priorClose": 54.840896,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    }
+  ],
+  "selected": [
+    {
+      "symbol": "CRWD",
+      "date": "2023-01-05",
+      "stockShockCloseClosePct": -9.078714128299714,
+      "rvol20": 2.5647630955258953,
+      "signalClose": 23.7225,
+      "priorClose": 26.09125,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "DDOG",
+      "date": "2023-01-05",
+      "stockShockCloseClosePct": -7.917633410672842,
+      "rvol20": 2.045137922855513,
+      "signalClose": 63.5,
+      "priorClose": 68.96,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "SNOW",
+      "date": "2023-02-03",
+      "stockShockCloseClosePct": -8.289806234203889,
+      "rvol20": 1.2886128275226305,
+      "signalClose": 163.29,
+      "priorClose": 178.05,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "ADBE",
+      "date": "2023-02-24",
+      "stockShockCloseClosePct": -7.6306841104259,
+      "rvol20": 3.1859496756526533,
+      "signalClose": 320.54,
+      "priorClose": 347.02,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "C",
+      "date": "2023-03-13",
+      "stockShockCloseClosePct": -7.4472484644222625,
+      "rvol20": 3.049476134736212,
+      "signalClose": 39.909734,
+      "priorClose": 43.121067,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "WFC",
+      "date": "2023-03-13",
+      "stockShockCloseClosePct": -7.132494071791706,
+      "rvol20": 4.228085394729615,
+      "signalClose": 35.161288,
+      "priorClose": 37.861777,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "SLB",
+      "date": "2023-03-15",
+      "stockShockCloseClosePct": -8.184764517407617,
+      "rvol20": 2.3219157285798593,
+      "signalClose": 41.554651,
+      "priorClose": 45.258993,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "UPS",
+      "date": "2023-04-25",
+      "stockShockCloseClosePct": -9.987235454650968,
+      "rvol20": 4.794441486822681,
+      "signalClose": 145.756765,
+      "priorClose": 161.928995,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2023-04-27",
+      "stockShockCloseClosePct": -7.991347520558978,
+      "rvol20": 3.8706387236046647,
+      "signalClose": 132.74756,
+      "priorClose": 144.277257,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "PANW",
+      "date": "2023-07-12",
+      "stockShockCloseClosePct": -7.029532829796592,
+      "rvol20": 2.452281114960867,
+      "signalClose": 116.32,
+      "priorClose": 125.115,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "FTNT",
+      "date": "2023-08-04",
+      "stockShockCloseClosePct": -25.06599788806758,
+      "rvol20": 6.622850970952409,
+      "signalClose": 56.77,
+      "priorClose": 75.76,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "ANET",
+      "date": "2023-10-26",
+      "stockShockCloseClosePct": -8.743081304745026,
+      "rvol20": 3.031913138883846,
+      "signalClose": 42.455,
+      "priorClose": 46.5225,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    },
+    {
+      "symbol": "WMT",
+      "date": "2023-11-16",
+      "stockShockCloseClosePct": -8.092827294433702,
+      "rvol20": 5.953359758682454,
+      "signalClose": 50.402717,
+      "priorClose": 54.840896,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "PENDING_SOURCE_CODING"
+    }
+  ]
+}
