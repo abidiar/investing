@@ -1,0 +1,224 @@
+{
+  "id": "ah_12_frozen_6pair_same_period_management_guidance_quant_extraction_2026-10-11",
+  "sampleRule": "All exact previously frozen 12 AH release matched winner/failure roster; only six have newly cross-checked comparable prior-period numeric company-guidance metrics; other six must remain unknown",
+  "comparison": "Prior company management guide of SAME ending QUARTER vs newly reported ACTUAL; different from forward FY1 analyst consensus and from NEXT-quarter guidance revision",
+  "publicationCutoffs": "All issuer releases dated prior to existing earnings D3; exact first release minute not independently preserved for all; need validate before any automated execution",
+  "status": "RETROSPECTIVE_KNOWN_OUTCOMES_SOURCE_AUDIT_NOT_VALIDATION",
+  "codedRows": [
+    {
+      "key": "AMAT|2025-05-15",
+      "asofDate": "2025-05-21",
+      "metrics": [
+        {
+          "metric": "Q2_FY25_revenue",
+          "unit": "B_USD",
+          "expectedPreviousManagementGuideMidpoint": 7.1,
+          "actualReported": 7.1,
+          "deltaPct": 0,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q2_FY25_adjusted_eps",
+          "unit": "USD",
+          "expectedPreviousManagementGuideMidpoint": 2.3,
+          "actualReported": 2.39,
+          "deltaPct": 3.9130434782608914,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q2_FY25_nonGAAP_gross_margin",
+          "unit": "pct",
+          "expectedPreviousManagementGuideMidpoint": 48.4,
+          "actualReported": 49.2,
+          "deltaPct": null,
+          "deltaPp": 0.8000000000000043
+        }
+      ],
+      "priorSource": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000005/exhibit991q12025earningsre.htm",
+      "currentSource": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000017/exhibit991q22025earningsre.htm",
+      "futureFYGuidance": null
+    },
+    {
+      "key": "AMAT|2025-08-14",
+      "asofDate": "2025-08-20",
+      "metrics": [
+        {
+          "metric": "Q3_FY25_revenue",
+          "unit": "B_USD",
+          "expectedPreviousManagementGuideMidpoint": 7.2,
+          "actualReported": 7.3,
+          "deltaPct": 1.388888888888884,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q3_FY25_adjusted_eps",
+          "unit": "USD",
+          "expectedPreviousManagementGuideMidpoint": 2.35,
+          "actualReported": 2.48,
+          "deltaPct": 5.531914893617018,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q3_FY25_nonGAAP_gross_margin",
+          "unit": "pct",
+          "expectedPreviousManagementGuideMidpoint": 48.3,
+          "actualReported": 48.9,
+          "deltaPct": null,
+          "deltaPp": 0.6000000000000014
+        }
+      ],
+      "priorSource": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000017/exhibit991q22025earningsre.htm",
+      "currentSource": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000032/exhibit991q32025earningsre.htm",
+      "futureFYGuidance": null
+    },
+    {
+      "key": "LEN|2025-06-16",
+      "asofDate": "2025-06-23",
+      "metrics": [
+        {
+          "metric": "Q2_FY25_new_home_orders",
+          "unit": "homes",
+          "expectedPreviousManagementGuideMidpoint": 23000,
+          "actualReported": 22601,
+          "deltaPct": -1.7347826086956508,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q2_FY25_deliveries",
+          "unit": "homes",
+          "expectedPreviousManagementGuideMidpoint": 20000,
+          "actualReported": 20131,
+          "deltaPct": 0.6550000000000056,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q2_FY25_gross_margin_ex_purchase_accounting",
+          "unit": "pct",
+          "expectedPreviousManagementGuideMidpoint": 18,
+          "actualReported": 18,
+          "deltaPct": null,
+          "deltaPp": 0
+        }
+      ],
+      "priorSource": "https://investors.lennar.com/press-releases/2025/03-20-2025-210025354",
+      "currentSource": "https://investors.lennar.com/press-releases/2025/06-16-2025-224524472",
+      "futureFYGuidance": null
+    },
+    {
+      "key": "LEN|2024-12-18",
+      "asofDate": "2024-12-24",
+      "metrics": [
+        {
+          "metric": "Q4_FY24_new_home_orders",
+          "unit": "homes",
+          "expectedPreviousManagementGuideMidpoint": 19150,
+          "actualReported": 16895,
+          "deltaPct": -11.775456919060057,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q4_FY24_deliveries",
+          "unit": "homes",
+          "expectedPreviousManagementGuideMidpoint": 22750,
+          "actualReported": 22206,
+          "deltaPct": -2.3912087912087876,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q4_FY24_home_sales_gross_margin",
+          "unit": "pct",
+          "expectedPreviousManagementGuideMidpoint": 22.5,
+          "actualReported": 22.1,
+          "deltaPct": null,
+          "deltaPp": -0.3999999999999986
+        }
+      ],
+      "priorSource": "https://investors.lennar.com/press-releases/2024/09-19-2024-213050023",
+      "currentSource": "https://investors.lennar.com/press-releases/2024/12-18-2024-213041323",
+      "futureFYGuidance": null
+    },
+    {
+      "key": "MPWR|2025-10-30",
+      "asofDate": "2025-11-05",
+      "metrics": [
+        {
+          "metric": "Q3_CY25_revenue",
+          "unit": "M_USD",
+          "expectedPreviousManagementGuideMidpoint": 720,
+          "actualReported": 737.2,
+          "deltaPct": 2.388888888888885,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q3_CY25_GAAP_gross_margin",
+          "unit": "pct",
+          "expectedPreviousManagementGuideMidpoint": 55.2,
+          "actualReported": 55.1,
+          "deltaPct": null,
+          "deltaPp": -0.10000000000000142
+        },
+        {
+          "metric": "Q3_CY25_nonGAAP_gross_margin",
+          "unit": "pct",
+          "expectedPreviousManagementGuideMidpoint": 55.5,
+          "actualReported": 55.5,
+          "deltaPct": null,
+          "deltaPp": 0
+        }
+      ],
+      "priorSource": "https://www.globenewswire.com/news-release/2025/07/31/3125370/0/en/monolithic-power-systems-provides-earnings-commentary-for-the-quarter-ended-june-30-2025.html",
+      "currentSource": "https://www.sec.gov/Archives/edgar/data/1280452/000143774925032411/ex_854756.htm",
+      "futureFYGuidance": null
+    },
+    {
+      "key": "FTNT|2025-11-05",
+      "asofDate": "2025-11-11",
+      "metrics": [
+        {
+          "metric": "Q3_CY25_revenue",
+          "unit": "B_USD",
+          "expectedPreviousManagementGuideMidpoint": 1.7,
+          "actualReported": 1.72,
+          "deltaPct": 1.17647058823529,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q3_CY25_billings",
+          "unit": "B_USD",
+          "expectedPreviousManagementGuideMidpoint": 1.8,
+          "actualReported": 1.81,
+          "deltaPct": 0.5555555555555536,
+          "deltaPp": null
+        },
+        {
+          "metric": "Q3_CY25_nonGAAP_operating_margin",
+          "unit": "pct",
+          "expectedPreviousManagementGuideMidpoint": 33,
+          "actualReported": 36.9,
+          "deltaPct": null,
+          "deltaPp": 3.8999999999999986
+        }
+      ],
+      "priorSource": "https://investor.fortinet.com/news-releases/news-release-details/fortinet-reports-second-quarter-2025-financial-results/",
+      "currentSource": "https://fortinet.gcs-web.com/news-releases/news-release-details/fortinet-reports-third-quarter-2025-financial-results/",
+      "futureFYGuidance": {
+        "metric": "FY25_adjusted_EPS_USD",
+        "previousMidpoint": 2.5,
+        "currentMidpoint": 2.68
+      }
+    }
+  ],
+  "unmeasuredMatchedEvents": [
+    "OKE|2025-08-04",
+    "CPRT|2025-11-20",
+    "NEM|2025-10-23",
+    "OKE|2025-04-29",
+    "CPRT|2024-09-04",
+    "CPRT|2025-05-22"
+  ],
+  "notes": [
+    "GAAP and NON-GAAP gross margins not pooled; different units not pooled into one effect",
+    "LEN approximate 18 percent prior margin only a rounded forecast, margin net vs excluding purchase accounting kept separate",
+    "FTNT quarter ended Sep 2025 annual FY EPS guide 2.50->2.68 is forward revision; actual quarterly revenue and margin guide surprise are different features"
+  ]
+}
