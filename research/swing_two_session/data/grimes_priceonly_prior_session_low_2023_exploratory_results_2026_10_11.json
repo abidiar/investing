@@ -1,0 +1,3057 @@
+{
+  "studyId": "grimes_priceonly_prior_session_low_2023_exploratory",
+  "researchStatus": "RETROSPECTIVE_DIAGNOSTIC_OUTCOMES_PREVIOUSLY_EXPOSED_NOT_OOS",
+  "dateUTC": "2026-10-11",
+  "frozenProtocol": "research/swing_two_session/frozen_grimes_priceonly_prior_session_low_2023_exploratory_2026_10_11.md",
+  "preDerivationCommit": "fcab1cb3b4032ab54964af149120d3d8f38b1f45",
+  "sourceFiles": [
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_preoutcome_candidate_manifest_2026_10_11.json",
+      "blobSha": "7fe0ac1777c5503965c20d6d7097bc90e55a0b6d"
+    },
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_57_event_buyer_volume_sector_m5_results_2026_10_11.json",
+      "blobSha": "56e407c017c2893b73fa249871c2edef638d07d4"
+    },
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_m5_three_day_source_batch_01_2026_10_11.json",
+      "blobSha": "41bb8758710c4ce86b7a311d2c3cf118b93b250e"
+    },
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_m5_three_day_source_batch_02_2026_10_11.json",
+      "blobSha": "7e7a543a2152dae7c0537be59d90a6d4cafac7ca"
+    },
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_m5_three_day_source_batch_03_2026_10_11.json",
+      "blobSha": "8a4107efa8aef05cdb215994e36a5471cd48400d"
+    },
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_m5_three_day_source_batch_04_2026_10_11.json",
+      "blobSha": "5ce6400097dc3dbbb10e36f1adab4048d4cf5d16"
+    },
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_stock_daily_batch_01_2026_10_11.csv",
+      "blobSha": "f0bb98cd5c597bedea85d632938e219cef64e198"
+    },
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_stock_daily_batch_02_2026_10_11.csv",
+      "blobSha": "6b7869f7008b26a4c056afcf97db4ded3246d981"
+    },
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_stock_daily_batch_03_2026_10_11.csv",
+      "blobSha": "2f42310a53cca5724ad77ce9638eae30d5137452"
+    },
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_stock_daily_batch_04_2026_10_11.csv",
+      "blobSha": "4b31e9bdcbd8fe00ecd9d383443901a6889d703e"
+    },
+    {
+      "path": "research/swing_two_session/data/heldout2023_v4_stock_daily_batch_05_2026_10_11.csv",
+      "blobSha": "c6435c8f150275db882051d2aa0cb5406323a045"
+    }
+  ],
+  "denominators": {
+    "frozen": 57,
+    "archived": 57,
+    "evaluable": 54,
+    "unknown": 3
+  },
+  "qaIssues": [],
+  "methods": {
+    "source": "Webull archived RTH five-minute OHLC",
+    "primaryPivot": "minimum D0 RTH M5 low, known prior to D1",
+    "secondaryPivot": "20 daily session lows ending D0 adjusted onto D0 as-traded M5 close",
+    "breach": "D1 09:30-11:45 starting M5 bar low < 0.999*pivot",
+    "confirmation": "same or immediately following candle closes >= pivot",
+    "entry": "next five-minute candle opening price by noon, first qualifying pattern",
+    "extension": "entry <=1.02*pivot",
+    "structuralStop": "min breach and confirmation candle lows *0.999; stop distance 0.35%-2.00%",
+    "target": "entry*1.02",
+    "fixedReference": "same signal and entry, 2% fixed stop instead of structural constraint",
+    "outcomes": "D1 through D2 RTH OHLC, open gap first, intrabar stop first on ambiguity, timeout D2 final close",
+    "costPctPerFilledStockTrade": 0.5,
+    "skipsReturnPct": 0,
+    "optionsPricing": "none; stock proxy only"
+  },
+  "stats": {
+    "primaryStructural": {
+      "evaluable": 54,
+      "entries": 20,
+      "skips": 34,
+      "skipReasons": {
+        "SKIP_NO_PATTERN": 30,
+        "SKIP_EXTENDED": 1,
+        "SKIP_RISK_INVALID": 3
+      },
+      "targetFirst": 6,
+      "stopFirst": 13,
+      "timeouts": 1,
+      "stopGaps": 0,
+      "targetGaps": 2,
+      "ambiguousBarsStopFirst": 0,
+      "meanGrossPerEntryPct": -0.10526358643243641,
+      "meanNetPerEntryPct": -0.6052635864324364,
+      "meanNetPerSignalPct": -0.22417169867868014,
+      "targetFirstRateOfFillsPct": 30,
+      "positiveNetRateOfFillsPct": 30
+    },
+    "fixedStopDescriptive": {
+      "evaluable": 54,
+      "entries": 23,
+      "skips": 31,
+      "skipReasons": {
+        "SKIP_NO_PATTERN": 30,
+        "SKIP_EXTENDED": 1
+      },
+      "targetFirst": 8,
+      "stopFirst": 13,
+      "timeouts": 2,
+      "stopGaps": 2,
+      "targetGaps": 2,
+      "ambiguousBarsStopFirst": 0,
+      "meanGrossPerEntryPct": -0.4861325516290352,
+      "meanNetPerEntryPct": -0.9861325516290352,
+      "meanNetPerSignalPct": -0.4200194201382928,
+      "targetFirstRateOfFillsPct": 34.78260869565217,
+      "positiveNetRateOfFillsPct": 34.78260869565217
+    },
+    "secondaryTwentySessionLow": {
+      "evaluable": 54,
+      "entries": 15,
+      "skips": 39,
+      "skipReasons": {
+        "SKIP_NO_PATTERN": 38,
+        "SKIP_RISK_INVALID": 1
+      },
+      "targetFirst": 5,
+      "stopFirst": 9,
+      "timeouts": 1,
+      "stopGaps": 0,
+      "targetGaps": 2,
+      "ambiguousBarsStopFirst": 0,
+      "meanGrossPerEntryPct": -0.11480651908860387,
+      "meanNetPerEntryPct": -0.614806519088604,
+      "meanNetPerSignalPct": -0.17077958863572332,
+      "targetFirstRateOfFillsPct": 33.333333333333336,
+      "positiveNetRateOfFillsPct": 33.333333333333336
+    },
+    "priorNextOpen": {
+      "signals": 54,
+      "entries": 54,
+      "skips": 0,
+      "targets": 18,
+      "stops": 34,
+      "timeouts": 2,
+      "meanNetPerSignalPct": -1.1168341123068353,
+      "meanNetPerEntryPct": -1.1168341123068353,
+      "targetRateAmongFillsPct": 33.333333333333336
+    },
+    "priorBuyerVolume": {
+      "signals": 54,
+      "entries": 11,
+      "skips": 43,
+      "targets": 4,
+      "stops": 6,
+      "timeouts": 1,
+      "meanNetPerSignalPct": -0.18961214441562527,
+      "meanNetPerEntryPct": -0.9308232544039786,
+      "targetRateAmongFillsPct": 36.36363636363637
+    },
+    "priorBuyerPlusSector": {
+      "signals": 54,
+      "entries": 2,
+      "skips": 52,
+      "targets": 1,
+      "stops": 1,
+      "timeouts": 0,
+      "meanNetPerSignalPct": -0.018518518518518517,
+      "meanNetPerEntryPct": -0.5,
+      "targetRateAmongFillsPct": 50
+    },
+    "pairedStructuralMinusNextOpenPerSignalPp": 0.8926624136281552,
+    "pairedStructuralMinusBuyerVolumePerSignalPp": -0.034559554263054876,
+    "inference": {
+      "tickerClusteredBootstrap": {
+        "clusters": 37,
+        "bootstrapReplicates": 10000,
+        "meanSignalCI95Pct": [
+          -0.47649975006758716,
+          0.013340120467259867
+        ],
+        "meanFilledCI95Pct": [
+          -1.2237764387886705,
+          0.03857784024938106
+        ],
+        "pairedVsNextOpenCI95PercentagePoints": [
+          0.41485875982263515,
+          1.4004942844625239
+        ]
+      },
+      "dateClusteredBootstrap": {
+        "clusters": 35,
+        "bootstrapReplicates": 10000,
+        "meanSignalCI95Pct": [
+          -0.5046609304555096,
+          0.05156551646223848
+        ],
+        "meanFilledCI95Pct": [
+          -1.2617873934915633,
+          0.15768635069369805
+        ],
+        "pairedVsNextOpenCI95PercentagePoints": [
+          0.3940717378690974,
+          1.4160870658569757
+        ]
+      }
+    }
+  },
+  "eventRows": [
+    {
+      "symbol": "BILL",
+      "date": "2023-01-05",
+      "quarter": "2023Q1",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 96.67,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 96.67,
+        "asOfDate": "2023-01-05",
+        "firstDate": "2022-12-07",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 16,
+        "confirmationIndex": 17,
+        "entryIndex": 18,
+        "pivot": 96.67,
+        "entry": 96.94,
+        "breachExtreme": 95.29,
+        "stop": 95.19471,
+        "target": 98.8788,
+        "stopDistancePct": 1.8003816793893102,
+        "entryTimeUTC": "2023-01-06T16:00:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 34,
+        "exitTimeUTC": "2023-01-06T17:20:00.000+0000",
+        "exitPrice": 95.19471,
+        "grossPct": -1.8003816793893068,
+        "netPct": -2.300381679389307,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 16,
+        "confirmationIndex": 17,
+        "entryIndex": 18,
+        "pivot": 96.67,
+        "entry": 96.94,
+        "breachExtreme": 95.29,
+        "stop": 95.0012,
+        "target": 98.8788,
+        "stopDistancePct": 2.0000000000000004,
+        "entryTimeUTC": "2023-01-06T16:00:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 39,
+        "exitTimeUTC": "2023-01-06T17:45:00.000+0000",
+        "exitPrice": 95.0012,
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 16,
+        "confirmationIndex": 17,
+        "entryIndex": 18,
+        "pivot": 96.67,
+        "entry": 96.94,
+        "breachExtreme": 95.29,
+        "stop": 95.19471,
+        "target": 98.8788,
+        "stopDistancePct": 1.8003816793893102,
+        "entryTimeUTC": "2023-01-06T16:00:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 34,
+        "exitTimeUTC": "2023-01-06T17:20:00.000+0000",
+        "exitPrice": 95.19471,
+        "grossPct": -1.8003816793893068,
+        "netPct": -2.300381679389307,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "NET",
+      "date": "2023-01-05",
+      "quarter": "2023Q1",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 38.72,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 38.72,
+        "asOfDate": "2023-01-05",
+        "firstDate": "2022-12-07",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 38.72,
+        "entry": 39.35,
+        "breachExtreme": 38.61,
+        "stop": 38.57139,
+        "target": 40.137,
+        "stopDistancePct": 1.9786785260482858,
+        "entryTimeUTC": "2023-01-06T14:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 1,
+        "exitTimeUTC": "2023-01-06T14:35:00.000+0000",
+        "exitPrice": 38.57139,
+        "grossPct": -1.978678526048283,
+        "netPct": -2.478678526048283,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 38.72,
+        "entry": 39.35,
+        "breachExtreme": 38.61,
+        "stop": 38.563,
+        "target": 40.137,
+        "stopDistancePct": 1.9999999999999976,
+        "entryTimeUTC": "2023-01-06T14:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 1,
+        "exitTimeUTC": "2023-01-06T14:35:00.000+0000",
+        "exitPrice": 38.563,
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 38.72,
+        "entry": 39.35,
+        "breachExtreme": 38.61,
+        "stop": 38.57139,
+        "target": 40.137,
+        "stopDistancePct": 1.9786785260482858,
+        "entryTimeUTC": "2023-01-06T14:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 1,
+        "exitTimeUTC": "2023-01-06T14:35:00.000+0000",
+        "exitPrice": 38.57139,
+        "grossPct": -1.978678526048283,
+        "netPct": -2.478678526048283,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "LULU",
+      "date": "2023-01-09",
+      "quarter": "2023Q1",
+      "sector": "CONSUMER",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 289.48,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 289.48,
+        "asOfDate": "2023-01-09",
+        "firstDate": "2022-12-09",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 289.48,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 289.48,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 289.48,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 1.5,
+      "priorSectorBuyerNetPct": 1.5
+    },
+    {
+      "symbol": "ELF",
+      "date": "2023-01-10",
+      "quarter": "2023Q1",
+      "sector": "CONSUMER",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 51.05,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 51.05,
+        "asOfDate": "2023-01-10",
+        "firstDate": "2022-12-12",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 10,
+        "confirmationIndex": 11,
+        "entryIndex": 12,
+        "pivot": 51.05,
+        "entry": 51.18,
+        "breachExtreme": 50.86,
+        "stop": 50.80914,
+        "target": 52.2036,
+        "stopDistancePct": 0.7246189917936702,
+        "entryTimeUTC": "2023-01-11T15:30:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 17,
+        "exitTimeUTC": "2023-01-11T15:55:00.000+0000",
+        "exitPrice": 50.80914,
+        "grossPct": -0.7246189917936685,
+        "netPct": -1.2246189917936685,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 10,
+        "confirmationIndex": 11,
+        "entryIndex": 12,
+        "pivot": 51.05,
+        "entry": 51.18,
+        "breachExtreme": 50.86,
+        "stop": 50.1564,
+        "target": 52.2036,
+        "stopDistancePct": 2.0000000000000036,
+        "entryTimeUTC": "2023-01-11T15:30:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 22,
+        "exitTimeUTC": "2023-01-11T16:20:00.000+0000",
+        "exitPrice": 50.1564,
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 10,
+        "confirmationIndex": 11,
+        "entryIndex": 12,
+        "pivot": 51.05,
+        "entry": 51.18,
+        "breachExtreme": 50.86,
+        "stop": 50.80914,
+        "target": 52.2036,
+        "stopDistancePct": 0.7246189917936702,
+        "entryTimeUTC": "2023-01-11T15:30:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 17,
+        "exitTimeUTC": "2023-01-11T15:55:00.000+0000",
+        "exitPrice": 50.80914,
+        "grossPct": -0.7246189917936685,
+        "netPct": -1.2246189917936685,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2023-02-01",
+      "quarter": "2023Q1",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 9.85,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 8.9,
+        "asOfDate": "2023-02-01",
+        "firstDate": "2023-01-04",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 9.85,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 9.85,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 8.9,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "HUBS",
+      "date": "2023-02-03",
+      "quarter": "2023Q1",
+      "status": "UNKNOWN_INCOMPLETE_M5",
+      "sourceCounts": {
+        "2023-02-03": 78,
+        "2023-02-06": 78,
+        "2023-02-07": 74
+      }
+    },
+    {
+      "symbol": "MDB",
+      "date": "2023-02-03",
+      "quarter": "2023Q1",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 220.18,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 164.59,
+        "asOfDate": "2023-02-03",
+        "firstDate": "2023-01-06",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 1,
+        "confirmationIndex": 2,
+        "entryIndex": 3,
+        "pivot": 220.18,
+        "entry": 221.09,
+        "breachExtreme": 217.42,
+        "stop": 217.20257999999998,
+        "target": 225.5118,
+        "stopDistancePct": 1.758297525894441,
+        "entryTimeUTC": "2023-02-06T14:45:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 7,
+        "exitTimeUTC": "2023-02-06T15:05:00.000+0000",
+        "exitPrice": 225.5118,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 1,
+        "confirmationIndex": 2,
+        "entryIndex": 3,
+        "pivot": 220.18,
+        "entry": 221.09,
+        "breachExtreme": 217.42,
+        "stop": 216.6682,
+        "target": 225.5118,
+        "stopDistancePct": 1.9999999999999956,
+        "entryTimeUTC": "2023-02-06T14:45:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 7,
+        "exitTimeUTC": "2023-02-06T15:05:00.000+0000",
+        "exitPrice": 225.5118,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 164.59,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2023-02-03",
+      "quarter": "2023Q1",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 159.2,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 116.4,
+        "asOfDate": "2023-02-03",
+        "firstDate": "2023-01-06",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.4962311557788923
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 159.2,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 159.2,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 116.4,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "U",
+      "date": "2023-02-03",
+      "quarter": "2023Q1",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 36.8,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 24.69,
+        "asOfDate": "2023-02-03",
+        "firstDate": "2023-01-06",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_EXTENDED",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 36.8,
+        "entry": 37.65,
+        "breachExtreme": 36.41,
+        "stop": 36.37359,
+        "target": 38.403,
+        "stopDistancePct": 3.390199203187247,
+        "entryTimeUTC": "2023-02-06T14:35:00.000+0000",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_EXTENDED",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 36.8,
+        "entry": 37.65,
+        "breachExtreme": 36.41,
+        "stop": 36.897,
+        "target": 38.403,
+        "stopDistancePct": 2.0000000000000004,
+        "entryTimeUTC": "2023-02-06T14:35:00.000+0000",
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 24.69,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ILMN",
+      "date": "2023-02-08",
+      "quarter": "2023Q1",
+      "sector": "HEALTHCARE",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 198.19,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 190.07,
+        "asOfDate": "2023-02-08",
+        "firstDate": "2023-01-11",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 198.19,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 198.19,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 190.07,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "DVN",
+      "date": "2023-02-15",
+      "quarter": "2023Q1",
+      "sector": "ENERGY",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 55.4,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 55.40000018943518,
+        "asOfDate": "2023-02-15",
+        "firstDate": "2023-01-19",
+        "basisFactor": 1.1619909609569818,
+        "d0LowErrorPct": 3.419407645921524e-7
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 55.4,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 55.4,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 55.40000018943518,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2023-02-16",
+      "quarter": "2023Q1",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 129.95,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 127.53,
+        "asOfDate": "2023-02-16",
+        "firstDate": "2023-01-20",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.02308580223162604
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 129.95,
+        "entry": 130.17,
+        "breachExtreme": 129.44,
+        "stop": 129.31056,
+        "target": 132.77339999999998,
+        "stopDistancePct": 0.6602442959207022,
+        "entryTimeUTC": "2023-02-17T15:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 14,
+        "exitTimeUTC": "2023-02-17T15:40:00.000+0000",
+        "exitPrice": 129.31056,
+        "grossPct": -0.6602442959206978,
+        "netPct": -1.1602442959206978,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 129.95,
+        "entry": 130.17,
+        "breachExtreme": 129.44,
+        "stop": 127.56659999999998,
+        "target": 132.77339999999998,
+        "stopDistancePct": 2.000000000000006,
+        "entryTimeUTC": "2023-02-17T15:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 24,
+        "exitTimeUTC": "2023-02-17T16:30:00.000+0000",
+        "exitPrice": 127.56659999999998,
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 24,
+        "confirmationIndex": 25,
+        "entryIndex": 26,
+        "pivot": 127.53,
+        "entry": 127.7,
+        "breachExtreme": 127.3,
+        "stop": 127.17269999999999,
+        "target": 130.25400000000002,
+        "stopDistancePct": 0.4129209083790219,
+        "entryTimeUTC": "2023-02-17T16:40:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 53,
+        "exitTimeUTC": "2023-02-17T18:55:00.000+0000",
+        "exitPrice": 127.17269999999999,
+        "grossPct": -0.41292090837902196,
+        "netPct": -0.912920908379022,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2023-02-16",
+      "quarter": "2023Q1",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 44.31,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 38.1396,
+        "asOfDate": "2023-02-16",
+        "firstDate": "2023-01-20",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.011284134506883703
+      },
+      "structural": {
+        "status": "SKIP_RISK_INVALID",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 44.31,
+        "entry": 44.965,
+        "breachExtreme": 44,
+        "stop": 43.956,
+        "target": 45.86430000000001,
+        "stopDistancePct": 2.243967530301346,
+        "entryTimeUTC": "2023-02-17T14:35:00.000+0000",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 44.31,
+        "entry": 44.965,
+        "breachExtreme": 44,
+        "stop": 44.0657,
+        "target": 45.86430000000001,
+        "stopDistancePct": 2.0000000000000084,
+        "entryTimeUTC": "2023-02-17T14:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 2,
+        "exitTimeUTC": "2023-02-17T14:40:00.000+0000",
+        "exitPrice": 44.0657,
+        "grossPct": -2.000000000000013,
+        "netPct": -2.500000000000013,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 38.1396,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": -2.5,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ANF",
+      "date": "2023-02-21",
+      "quarter": "2023Q1",
+      "sector": "CONSUMER",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 28.74,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 26.865,
+        "asOfDate": "2023-02-21",
+        "firstDate": "2023-01-24",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 1,
+        "confirmationIndex": 1,
+        "entryIndex": 2,
+        "pivot": 28.74,
+        "entry": 29.065,
+        "breachExtreme": 28.68,
+        "stop": 28.65132,
+        "target": 29.6463,
+        "stopDistancePct": 1.4232926199896883,
+        "entryTimeUTC": "2023-02-22T14:40:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 10,
+        "exitTimeUTC": "2023-02-22T15:20:00.000+0000",
+        "exitPrice": 29.6463,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 1,
+        "confirmationIndex": 1,
+        "entryIndex": 2,
+        "pivot": 28.74,
+        "entry": 29.065,
+        "breachExtreme": 28.68,
+        "stop": 28.483700000000002,
+        "target": 29.6463,
+        "stopDistancePct": 1.9999999999999958,
+        "entryTimeUTC": "2023-02-22T14:40:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 10,
+        "exitTimeUTC": "2023-02-22T15:20:00.000+0000",
+        "exitPrice": 29.6463,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 26.865,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "CROX",
+      "date": "2023-02-21",
+      "quarter": "2023Q1",
+      "sector": "CONSUMER",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 118.19,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 110.69,
+        "asOfDate": "2023-02-21",
+        "firstDate": "2023-01-24",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_RISK_INVALID",
+        "breakIndex": 0,
+        "confirmationIndex": 1,
+        "entryIndex": 2,
+        "pivot": 118.19,
+        "entry": 120.145,
+        "breachExtreme": 116.65,
+        "stop": 116.53335,
+        "target": 122.5479,
+        "stopDistancePct": 3.006075991510256,
+        "entryTimeUTC": "2023-02-22T14:40:00.000+0000",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 1,
+        "entryIndex": 2,
+        "pivot": 118.19,
+        "entry": 120.145,
+        "breachExtreme": 116.65,
+        "stop": 117.7421,
+        "target": 122.5479,
+        "stopDistancePct": 2.000000000000002,
+        "entryTimeUTC": "2023-02-22T14:40:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 7,
+        "exitTimeUTC": "2023-02-22T15:05:00.000+0000",
+        "exitPrice": 122.5479,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 110.69,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "URI",
+      "date": "2023-04-04",
+      "quarter": "2023Q2",
+      "sector": "INDUSTRIALS",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 354.64,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 354.64000020161114,
+        "asOfDate": "2023-04-04",
+        "firstDate": "2023-03-08",
+        "basisFactor": 1.0353868965184638,
+        "d0LowErrorPct": 5.684952508744345e-8
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 354.64,
+        "entry": 356.17,
+        "breachExtreme": 351.96,
+        "stop": 351.60803999999996,
+        "target": 363.2934,
+        "stopDistancePct": 1.2808378021731353,
+        "entryTimeUTC": "2023-04-05T13:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 11,
+        "exitTimeUTC": "2023-04-05T14:25:00.000+0000",
+        "exitPrice": 351.60803999999996,
+        "grossPct": -1.2808378021731404,
+        "netPct": -1.7808378021731404,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 354.64,
+        "entry": 356.17,
+        "breachExtreme": 351.96,
+        "stop": 349.0466,
+        "target": 363.2934,
+        "stopDistancePct": 2.000000000000001,
+        "entryTimeUTC": "2023-04-05T13:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 32,
+        "exitTimeUTC": "2023-04-05T16:10:00.000+0000",
+        "exitPrice": 349.0466,
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 354.64000020161114,
+        "entry": 356.17,
+        "breachExtreme": 351.96,
+        "stop": 351.60803999999996,
+        "target": 363.2934,
+        "stopDistancePct": 1.2808378021731353,
+        "entryTimeUTC": "2023-04-05T13:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 11,
+        "exitTimeUTC": "2023-04-05T14:25:00.000+0000",
+        "exitPrice": 351.60803999999996,
+        "grossPct": -1.2808378021731404,
+        "netPct": -1.7808378021731404,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": -2.5,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "VLO",
+      "date": "2023-04-04",
+      "quarter": "2023Q2",
+      "sector": "ENERGY",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 126.77,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 120.85000018595944,
+        "asOfDate": "2023-04-04",
+        "firstDate": "2023-03-08",
+        "basisFactor": 1.1047465679469595,
+        "d0LowErrorPct": 7.563616399863804e-8
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 126.77,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 126.77,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 120.85000018595944,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "TWLO",
+      "date": "2023-04-05",
+      "quarter": "2023Q2",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 58.58,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 58.57,
+        "asOfDate": "2023-04-05",
+        "firstDate": "2023-03-09",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.017070672584496016
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 58.58,
+        "entry": 58.555,
+        "breachExtreme": 58.26,
+        "stop": 58.20174,
+        "target": 59.7261,
+        "stopDistancePct": 0.6032960464520516,
+        "entryTimeUTC": "2023-04-06T13:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 2,
+        "exitTimeUTC": "2023-04-06T13:40:00.000+0000",
+        "exitPrice": 58.20174,
+        "grossPct": -0.6032960464520509,
+        "netPct": -1.103296046452051,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 58.58,
+        "entry": 58.555,
+        "breachExtreme": 58.26,
+        "stop": 57.3839,
+        "target": 59.7261,
+        "stopDistancePct": 2.0000000000000044,
+        "entryTimeUTC": "2023-04-06T13:35:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 30,
+        "exitTimeUTC": "2023-04-06T16:00:00.000+0000",
+        "exitPrice": 59.7261,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 58.57,
+        "entry": 58.555,
+        "breachExtreme": 58.26,
+        "stop": 58.20174,
+        "target": 59.7261,
+        "stopDistancePct": 0.6032960464520516,
+        "entryTimeUTC": "2023-04-06T13:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 2,
+        "exitTimeUTC": "2023-04-06T13:40:00.000+0000",
+        "exitPrice": 58.20174,
+        "grossPct": -0.6032960464520509,
+        "netPct": -1.103296046452051,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ZS",
+      "date": "2023-04-05",
+      "quarter": "2023Q2",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 99.91,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 99.91,
+        "asOfDate": "2023-04-05",
+        "firstDate": "2023-03-09",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 5,
+        "confirmationIndex": 6,
+        "entryIndex": 7,
+        "pivot": 99.91,
+        "entry": 100.285,
+        "breachExtreme": 99.06,
+        "stop": 98.96094000000001,
+        "target": 102.2907,
+        "stopDistancePct": 1.320297153113615,
+        "entryTimeUTC": "2023-04-06T14:05:00.000+0000",
+        "exitStatus": "TARGET_GAP",
+        "exitIndex": 30,
+        "exitTimeUTC": "2023-04-06T16:00:00.000+0000",
+        "exitPrice": 102.365,
+        "grossPct": 2.074088846786659,
+        "netPct": 1.5740888467866592,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 5,
+        "confirmationIndex": 6,
+        "entryIndex": 7,
+        "pivot": 99.91,
+        "entry": 100.285,
+        "breachExtreme": 99.06,
+        "stop": 98.27929999999999,
+        "target": 102.2907,
+        "stopDistancePct": 2.0000000000000044,
+        "entryTimeUTC": "2023-04-06T14:05:00.000+0000",
+        "exitStatus": "TARGET_GAP",
+        "exitIndex": 30,
+        "exitTimeUTC": "2023-04-06T16:00:00.000+0000",
+        "exitPrice": 102.365,
+        "grossPct": 2.074088846786659,
+        "netPct": 1.5740888467866592,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 5,
+        "confirmationIndex": 6,
+        "entryIndex": 7,
+        "pivot": 99.91,
+        "entry": 100.285,
+        "breachExtreme": 99.06,
+        "stop": 98.96094000000001,
+        "target": 102.2907,
+        "stopDistancePct": 1.320297153113615,
+        "entryTimeUTC": "2023-04-06T14:05:00.000+0000",
+        "exitStatus": "TARGET_GAP",
+        "exitIndex": 30,
+        "exitTimeUTC": "2023-04-06T16:00:00.000+0000",
+        "exitPrice": 102.365,
+        "grossPct": 2.074088846786659,
+        "netPct": 1.5740888467866592,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "GAP",
+      "date": "2023-04-12",
+      "quarter": "2023Q2",
+      "sector": "CONSUMER",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 9.49,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 8.58228742577914,
+        "asOfDate": "2023-04-12",
+        "firstDate": "2023-03-15",
+        "basisFactor": 1.126415706420793,
+        "d0LowErrorPct": -0.0000064799053789421635
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 3,
+        "confirmationIndex": 4,
+        "entryIndex": 5,
+        "pivot": 9.49,
+        "entry": 9.51,
+        "breachExtreme": 9.4301,
+        "stop": 9.4206699,
+        "target": 9.7002,
+        "stopDistancePct": 0.9393280757097765,
+        "entryTimeUTC": "2023-04-13T13:55:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 8,
+        "exitTimeUTC": "2023-04-13T14:10:00.000+0000",
+        "exitPrice": 9.4206699,
+        "grossPct": -0.9393280757097777,
+        "netPct": -1.4393280757097777,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 3,
+        "confirmationIndex": 4,
+        "entryIndex": 5,
+        "pivot": 9.49,
+        "entry": 9.51,
+        "breachExtreme": 9.4301,
+        "stop": 9.319799999999999,
+        "target": 9.7002,
+        "stopDistancePct": 2.0000000000000084,
+        "entryTimeUTC": "2023-04-13T13:55:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 68,
+        "exitTimeUTC": "2023-04-13T19:10:00.000+0000",
+        "exitPrice": 9.319799999999999,
+        "grossPct": -2.000000000000013,
+        "netPct": -2.500000000000013,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 8.58228742577914,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "MRNA",
+      "date": "2023-04-17",
+      "quarter": "2023Q2",
+      "sector": "HEALTHCARE",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 143.22,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 143.2063,
+        "asOfDate": "2023-04-17",
+        "firstDate": "2023-03-20",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.009565703114089441
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 143.22,
+        "entry": 143.24,
+        "breachExtreme": 141.01,
+        "stop": 140.86899,
+        "target": 146.1048,
+        "stopDistancePct": 1.6552708740575344,
+        "entryTimeUTC": "2023-04-18T13:35:00.000+0000",
+        "exitStatus": "TIMEOUT",
+        "exitIndex": 155,
+        "exitTimeUTC": "2023-04-19T19:55:00.000+0000",
+        "exitPrice": 142.82,
+        "grossPct": -0.2932141859815829,
+        "netPct": -0.7932141859815829,
+        "exitSession": "D2"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 143.22,
+        "entry": 143.24,
+        "breachExtreme": 141.01,
+        "stop": 140.3752,
+        "target": 146.1048,
+        "stopDistancePct": 2.0000000000000018,
+        "entryTimeUTC": "2023-04-18T13:35:00.000+0000",
+        "exitStatus": "TIMEOUT",
+        "exitIndex": 155,
+        "exitTimeUTC": "2023-04-19T19:55:00.000+0000",
+        "exitPrice": 142.82,
+        "grossPct": -0.2932141859815829,
+        "netPct": -0.7932141859815829,
+        "exitSession": "D2"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 0,
+        "entryIndex": 1,
+        "pivot": 143.2063,
+        "entry": 143.24,
+        "breachExtreme": 141.01,
+        "stop": 140.86899,
+        "target": 146.1048,
+        "stopDistancePct": 1.6552708740575344,
+        "entryTimeUTC": "2023-04-18T13:35:00.000+0000",
+        "exitStatus": "TIMEOUT",
+        "exitIndex": 155,
+        "exitTimeUTC": "2023-04-19T19:55:00.000+0000",
+        "exitPrice": 142.82,
+        "grossPct": -0.2932141859815829,
+        "netPct": -0.7932141859815829,
+        "exitSession": "D2"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "RBLX",
+      "date": "2023-04-17",
+      "quarter": "2023Q2",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 39.1,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 39.1,
+        "asOfDate": "2023-04-17",
+        "firstDate": "2023-03-20",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 39.1,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 39.1,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 39.1,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2023-04-20",
+      "quarter": "2023Q2",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 10.12,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 10.12,
+        "asOfDate": "2023-04-20",
+        "firstDate": "2023-03-23",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 10.12,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 10.12,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 10.12,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "NET",
+      "date": "2023-04-25",
+      "quarter": "2023Q2",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 57.81,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 55.62,
+        "asOfDate": "2023-04-25",
+        "firstDate": "2023-03-28",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 57.81,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 57.81,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 55.62,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2023-04-25",
+      "quarter": "2023Q2",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 142.86,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 142.86,
+        "asOfDate": "2023-04-25",
+        "firstDate": "2023-03-28",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 142.86,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 142.86,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 142.86,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ALGM",
+      "date": "2023-04-27",
+      "quarter": "2023Q2",
+      "sector": "SEMICONDUCTORS",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 35.055,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 35.05,
+        "asOfDate": "2023-04-27",
+        "firstDate": "2023-03-30",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.014263300527750378
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 6,
+        "confirmationIndex": 7,
+        "entryIndex": 8,
+        "pivot": 35.055,
+        "entry": 35.145,
+        "breachExtreme": 34.75,
+        "stop": 34.71525,
+        "target": 35.8479,
+        "stopDistancePct": 1.2227912932138443,
+        "entryTimeUTC": "2023-04-28T14:10:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 69,
+        "exitTimeUTC": "2023-04-28T19:15:00.000+0000",
+        "exitPrice": 35.8479,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 6,
+        "confirmationIndex": 7,
+        "entryIndex": 8,
+        "pivot": 35.055,
+        "entry": 35.145,
+        "breachExtreme": 34.75,
+        "stop": 34.4421,
+        "target": 35.8479,
+        "stopDistancePct": 1.999999999999999,
+        "entryTimeUTC": "2023-04-28T14:10:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 69,
+        "exitTimeUTC": "2023-04-28T19:15:00.000+0000",
+        "exitPrice": 35.8479,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 6,
+        "confirmationIndex": 7,
+        "entryIndex": 8,
+        "pivot": 35.05,
+        "entry": 35.145,
+        "breachExtreme": 34.75,
+        "stop": 34.71525,
+        "target": 35.8479,
+        "stopDistancePct": 1.2227912932138443,
+        "entryTimeUTC": "2023-04-28T14:10:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 69,
+        "exitTimeUTC": "2023-04-28T19:15:00.000+0000",
+        "exitPrice": 35.8479,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "CROX",
+      "date": "2023-04-27",
+      "quarter": "2023Q2",
+      "sector": "CONSUMER",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 116.61,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 116.61,
+        "asOfDate": "2023-04-27",
+        "firstDate": "2023-03-30",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 116.61,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 116.61,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 116.61,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2023-04-27",
+      "quarter": "2023Q2",
+      "sector": "SEMICONDUCTORS",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 75.89,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 75.86,
+        "asOfDate": "2023-04-27",
+        "firstDate": "2023-03-30",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.03953089998682824
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 75.89,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 75.89,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 75.86,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.697104394208793,
+      "priorBuyerNetPct": 1.677639514951446,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "PINS",
+      "date": "2023-04-28",
+      "quarter": "2023Q2",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 22.1,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 22.1,
+        "asOfDate": "2023-04-28",
+        "firstDate": "2023-03-31",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 22.1,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 22.1,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 22.1,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2023-05-02",
+      "quarter": "2023Q2",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 60.57,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 60.57,
+        "asOfDate": "2023-05-02",
+        "firstDate": "2023-04-04",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 1,
+        "entryIndex": 2,
+        "pivot": 60.57,
+        "entry": 60.66,
+        "breachExtreme": 59.94,
+        "stop": 59.88006,
+        "target": 61.8732,
+        "stopDistancePct": 1.2857566765578574,
+        "entryTimeUTC": "2023-05-03T13:40:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 6,
+        "exitTimeUTC": "2023-05-03T14:00:00.000+0000",
+        "exitPrice": 59.88006,
+        "grossPct": -1.2857566765578587,
+        "netPct": -1.7857566765578587,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 1,
+        "entryIndex": 2,
+        "pivot": 60.57,
+        "entry": 60.66,
+        "breachExtreme": 59.94,
+        "stop": 59.446799999999996,
+        "target": 61.8732,
+        "stopDistancePct": 2.000000000000001,
+        "entryTimeUTC": "2023-05-03T13:40:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 15,
+        "exitTimeUTC": "2023-05-03T14:45:00.000+0000",
+        "exitPrice": 59.446799999999996,
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmationIndex": 1,
+        "entryIndex": 2,
+        "pivot": 60.57,
+        "entry": 60.66,
+        "breachExtreme": 59.94,
+        "stop": 59.88006,
+        "target": 61.8732,
+        "stopDistancePct": 1.2857566765578574,
+        "entryTimeUTC": "2023-05-03T13:40:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 6,
+        "exitTimeUTC": "2023-05-03T14:00:00.000+0000",
+        "exitPrice": 59.88006,
+        "grossPct": -1.2857566765578587,
+        "netPct": -1.7857566765578587,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "PGR",
+      "date": "2023-07-13",
+      "quarter": "2023Q3",
+      "sector": "FINANCIALS",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 114.56,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 114.56000068519413,
+        "asOfDate": "2023-07-13",
+        "firstDate": "2023-06-14",
+        "basisFactor": 1.0938328260546215,
+        "d0LowErrorPct": 5.981094064466674e-7
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 114.56,
+        "entry": 114.86,
+        "breachExtreme": 114.02,
+        "stop": 113.90598,
+        "target": 117.1572,
+        "stopDistancePct": 0.8305937663242207,
+        "entryTimeUTC": "2023-07-14T14:35:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 25,
+        "exitTimeUTC": "2023-07-14T15:35:00.000+0000",
+        "exitPrice": 117.1572,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 114.56,
+        "entry": 114.86,
+        "breachExtreme": 114.02,
+        "stop": 112.5628,
+        "target": 117.1572,
+        "stopDistancePct": 2.000000000000003,
+        "entryTimeUTC": "2023-07-14T14:35:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 25,
+        "exitTimeUTC": "2023-07-14T15:35:00.000+0000",
+        "exitPrice": 117.1572,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 114.56000068519413,
+        "entry": 114.86,
+        "breachExtreme": 114.02,
+        "stop": 113.90598,
+        "target": 117.1572,
+        "stopDistancePct": 0.8305937663242207,
+        "entryTimeUTC": "2023-07-14T14:35:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 25,
+        "exitTimeUTC": "2023-07-14T15:35:00.000+0000",
+        "exitPrice": 117.1572,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2023-07-20",
+      "quarter": "2023Q3",
+      "sector": "SEMICONDUCTORS",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 85.875,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 83.66,
+        "asOfDate": "2023-07-20",
+        "firstDate": "2023-06-22",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.017467248908298316
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 85.875,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 85.875,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 83.66,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -1.4166953133952105,
+      "priorBuyerNetPct": -1.4166953133952105,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "NET",
+      "date": "2023-07-20",
+      "quarter": "2023Q3",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 66.86,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 60.56,
+        "asOfDate": "2023-07-20",
+        "firstDate": "2023-06-22",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 66.86,
+        "entry": 67.375,
+        "breachExtreme": 66.7555,
+        "stop": 66.6887445,
+        "target": 68.7225,
+        "stopDistancePct": 1.018561038961041,
+        "entryTimeUTC": "2023-07-21T14:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 76,
+        "exitTimeUTC": "2023-07-21T19:50:00.000+0000",
+        "exitPrice": 66.6887445,
+        "grossPct": -1.018561038961041,
+        "netPct": -1.518561038961041,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 66.86,
+        "entry": 67.375,
+        "breachExtreme": 66.7555,
+        "stop": 66.0275,
+        "target": 68.7225,
+        "stopDistancePct": 1.999999999999995,
+        "entryTimeUTC": "2023-07-21T14:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 82,
+        "exitTimeUTC": "2023-07-24T13:50:00.000+0000",
+        "exitPrice": 66.0275,
+        "grossPct": -1.9999999999999907,
+        "netPct": -2.4999999999999907,
+        "exitSession": "D2"
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 60.56,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "TWLO",
+      "date": "2023-07-20",
+      "quarter": "2023Q3",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 62.71,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 61.21,
+        "asOfDate": "2023-07-20",
+        "firstDate": "2023-06-22",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.015946420028700725
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 26,
+        "confirmationIndex": 27,
+        "entryIndex": 28,
+        "pivot": 62.71,
+        "entry": 62.7101,
+        "breachExtreme": 62.375,
+        "stop": 62.312625,
+        "target": 63.964301999999996,
+        "stopDistancePct": 0.6338293193600394,
+        "entryTimeUTC": "2023-07-21T15:50:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 29,
+        "exitTimeUTC": "2023-07-21T15:55:00.000+0000",
+        "exitPrice": 62.312625,
+        "grossPct": -0.6338293193600353,
+        "netPct": -1.1338293193600353,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 26,
+        "confirmationIndex": 27,
+        "entryIndex": 28,
+        "pivot": 62.71,
+        "entry": 62.7101,
+        "breachExtreme": 62.375,
+        "stop": 61.455898,
+        "target": 63.964301999999996,
+        "stopDistancePct": 1.9999999999999991,
+        "entryTimeUTC": "2023-07-21T15:50:00.000+0000",
+        "exitStatus": "STOP_GAP",
+        "exitIndex": 78,
+        "exitTimeUTC": "2023-07-24T13:30:00.000+0000",
+        "exitPrice": 60.8,
+        "grossPct": -3.0459208325293696,
+        "netPct": -3.5459208325293696,
+        "exitSession": "D2"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 6,
+        "confirmationIndex": 7,
+        "entryIndex": 8,
+        "pivot": 61.21,
+        "entry": 61.3288,
+        "breachExtreme": 60.7227,
+        "stop": 60.661977300000004,
+        "target": 62.555376,
+        "stopDistancePct": 1.0872912889213506,
+        "entryTimeUTC": "2023-07-21T14:10:00.000+0000",
+        "exitStatus": "TARGET",
+        "exitIndex": 22,
+        "exitTimeUTC": "2023-07-21T15:20:00.000+0000",
+        "exitPrice": 62.555376,
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ZS",
+      "date": "2023-07-20",
+      "quarter": "2023Q3",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 146.65,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 136.44,
+        "asOfDate": "2023-07-20",
+        "firstDate": "2023-06-22",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 146.65,
+        "entry": 147.37,
+        "breachExtreme": 146.29,
+        "stop": 146.14371,
+        "target": 150.31740000000002,
+        "stopDistancePct": 0.8321164416095581,
+        "entryTimeUTC": "2023-07-21T14:35:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 82,
+        "exitTimeUTC": "2023-07-24T13:50:00.000+0000",
+        "exitPrice": 146.14371,
+        "grossPct": -0.8321164416095539,
+        "netPct": -1.332116441609554,
+        "exitSession": "D2"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 146.65,
+        "entry": 147.37,
+        "breachExtreme": 146.29,
+        "stop": 144.4226,
+        "target": 150.31740000000002,
+        "stopDistancePct": 2.0000000000000107,
+        "entryTimeUTC": "2023-07-21T14:35:00.000+0000",
+        "exitStatus": "STOP_GAP",
+        "exitIndex": 85,
+        "exitTimeUTC": "2023-07-24T14:05:00.000+0000",
+        "exitPrice": 144.375,
+        "grossPct": -2.032299653932279,
+        "netPct": -2.532299653932279,
+        "exitSession": "D2"
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 136.44,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": -2.5,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "RTX",
+      "date": "2023-07-25",
+      "quarter": "2023Q3",
+      "sector": "INDUSTRIALS",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 81.35,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 81.34999955200648,
+        "asOfDate": "2023-07-25",
+        "firstDate": "2023-06-27",
+        "basisFactor": 1.0690475341246477,
+        "d0LowErrorPct": -5.506988531855939e-7
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 81.35,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 81.35,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 81.34999955200648,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2023-07-26",
+      "quarter": "2023Q3",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 9.99,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 9.99,
+        "asOfDate": "2023-07-26",
+        "firstDate": "2023-06-28",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 9.99,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 9.99,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 9.99,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "CMG",
+      "date": "2023-07-27",
+      "quarter": "2023Q3",
+      "status": "UNKNOWN_INCOMPLETE_M5",
+      "sourceCounts": {
+        "2023-07-27": 78,
+        "2023-07-28": 78,
+        "2023-07-31": 73
+      }
+    },
+    {
+      "symbol": "CROX",
+      "date": "2023-07-27",
+      "quarter": "2023Q3",
+      "sector": "CONSUMER",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 101.011,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 101.011,
+        "asOfDate": "2023-07-27",
+        "firstDate": "2023-06-29",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 101.011,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 101.011,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 101.011,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 1.5,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "EBAY",
+      "date": "2023-07-27",
+      "quarter": "2023Q3",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 43.3,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 43.300000273538096,
+        "asOfDate": "2023-07-27",
+        "firstDate": "2023-06-29",
+        "basisFactor": 1.0568737254002414,
+        "d0LowErrorPct": 6.317277145839739e-7
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 43.3,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 43.3,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 43.300000273538096,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "SPGI",
+      "date": "2023-07-27",
+      "quarter": "2023Q3",
+      "sector": "FINANCIALS",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 393.77,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 389.83000040269286,
+        "asOfDate": "2023-07-27",
+        "firstDate": "2023-06-29",
+        "basisFactor": 0.9558338707201354,
+        "d0LowErrorPct": 4.791227414813193e-8
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 26,
+        "confirmationIndex": 27,
+        "entryIndex": 28,
+        "pivot": 393.77,
+        "entry": 394.11,
+        "breachExtreme": 392.16,
+        "stop": 391.76784000000004,
+        "target": 401.9922,
+        "stopDistancePct": 0.5942909340031916,
+        "entryTimeUTC": "2023-07-28T15:50:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 78,
+        "exitTimeUTC": "2023-07-31T13:30:00.000+0000",
+        "exitPrice": 391.76784000000004,
+        "grossPct": -0.5942909340031943,
+        "netPct": -1.0942909340031943,
+        "exitSession": "D2"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 26,
+        "confirmationIndex": 27,
+        "entryIndex": 28,
+        "pivot": 393.77,
+        "entry": 394.11,
+        "breachExtreme": 392.16,
+        "stop": 386.2278,
+        "target": 401.9922,
+        "stopDistancePct": 2.0000000000000027,
+        "entryTimeUTC": "2023-07-28T15:50:00.000+0000",
+        "exitStatus": "TIMEOUT",
+        "exitIndex": 155,
+        "exitTimeUTC": "2023-07-31T19:55:00.000+0000",
+        "exitPrice": 394.51,
+        "grossPct": 0.10149450660983383,
+        "netPct": -0.39850549339016617,
+        "exitSession": "D2"
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 389.83000040269286,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "WING",
+      "date": "2023-07-28",
+      "quarter": "2023Q3",
+      "sector": "CONSUMER",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 163.48,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 163.40159964746078,
+        "asOfDate": "2023-07-28",
+        "firstDate": "2023-06-30",
+        "basisFactor": 1.0161802524394699,
+        "d0LowErrorPct": -0.047957152275024395
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 163.48,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 163.48,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 163.40159964746078,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ALGM",
+      "date": "2023-08-01",
+      "quarter": "2023Q3",
+      "sector": "SEMICONDUCTORS",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 45.03,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 43.04,
+        "asOfDate": "2023-08-01",
+        "firstDate": "2023-07-05",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.022207417277364527
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 45.03,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 45.03,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 8,
+        "confirmationIndex": 9,
+        "entryIndex": 10,
+        "pivot": 43.04,
+        "entry": 43.16,
+        "breachExtreme": 42.39,
+        "stop": 42.34761,
+        "target": 44.023199999999996,
+        "stopDistancePct": 1.8822752548656014,
+        "entryTimeUTC": "2023-08-02T14:20:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 78,
+        "exitTimeUTC": "2023-08-03T13:30:00.000+0000",
+        "exitPrice": 42.34761,
+        "grossPct": -1.8822752548656063,
+        "netPct": -2.3822752548656063,
+        "exitSession": "D2"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ROK",
+      "date": "2023-08-01",
+      "quarter": "2023Q3",
+      "sector": "INDUSTRIALS",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 300.8892,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 300.8892000740402,
+        "asOfDate": "2023-08-01",
+        "firstDate": "2023-07-05",
+        "basisFactor": 1.0546206669111609,
+        "d0LowErrorPct": 2.4607138549015417e-8
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 300.8892,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 300.8892,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 300.8892000740402,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5756725372556573,
+      "priorBuyerNetPct": -2.5,
+      "priorSectorBuyerNetPct": -2.5
+    },
+    {
+      "symbol": "DVN",
+      "date": "2023-08-02",
+      "quarter": "2023Q3",
+      "sector": "ENERGY",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 49.39,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 46.7,
+        "asOfDate": "2023-08-02",
+        "firstDate": "2023-07-06",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 49.39,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 49.39,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 46.7,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": 1.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ELF",
+      "date": "2023-10-03",
+      "quarter": "2023Q4",
+      "sector": "CONSUMER",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 96.6901,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 96.67,
+        "asOfDate": "2023-10-03",
+        "firstDate": "2023-09-06",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.020788064134802386
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 96.6901,
+        "entry": 97.28,
+        "breachExtreme": 96.36,
+        "stop": 96.26364,
+        "target": 99.2256,
+        "stopDistancePct": 1.0447779605263219,
+        "entryTimeUTC": "2023-10-04T14:35:00.000+0000",
+        "exitStatus": "TARGET_GAP",
+        "exitIndex": 36,
+        "exitTimeUTC": "2023-10-04T16:30:00.000+0000",
+        "exitPrice": 99.24,
+        "grossPct": 2.014802631578938,
+        "netPct": 1.514802631578938,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 96.6901,
+        "entry": 97.28,
+        "breachExtreme": 96.36,
+        "stop": 95.3344,
+        "target": 99.2256,
+        "stopDistancePct": 1.999999999999999,
+        "entryTimeUTC": "2023-10-04T14:35:00.000+0000",
+        "exitStatus": "TARGET_GAP",
+        "exitIndex": 36,
+        "exitTimeUTC": "2023-10-04T16:30:00.000+0000",
+        "exitPrice": 99.24,
+        "grossPct": 2.014802631578938,
+        "netPct": 1.514802631578938,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 11,
+        "confirmationIndex": 12,
+        "entryIndex": 13,
+        "pivot": 96.67,
+        "entry": 97.28,
+        "breachExtreme": 96.36,
+        "stop": 96.26364,
+        "target": 99.2256,
+        "stopDistancePct": 1.0447779605263219,
+        "entryTimeUTC": "2023-10-04T14:35:00.000+0000",
+        "exitStatus": "TARGET_GAP",
+        "exitIndex": 36,
+        "exitTimeUTC": "2023-10-04T16:30:00.000+0000",
+        "exitPrice": 99.24,
+        "grossPct": 2.014802631578938,
+        "netPct": 1.514802631578938,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": -2.5,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2023-10-11",
+      "quarter": "2023Q4",
+      "sector": "HEALTHCARE",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 77.91,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 77.91,
+        "asOfDate": "2023-10-11",
+        "firstDate": "2023-09-14",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 77.91,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 77.91,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 77.91,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "PODD",
+      "date": "2023-10-11",
+      "quarter": "2023Q4",
+      "sector": "HEALTHCARE",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 132.545,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 132.545,
+        "asOfDate": "2023-10-11",
+        "firstDate": "2023-09-14",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 132.545,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 132.545,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 132.545,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ROKU",
+      "date": "2023-10-18",
+      "quarter": "2023Q4",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "PASS",
+      "status": "EVALUABLE",
+      "d0Low": 62.02,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 62.02,
+        "asOfDate": "2023-10-18",
+        "firstDate": "2023-09-21",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 62.02,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 62.02,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 62.02,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "OKTA",
+      "date": "2023-10-20",
+      "quarter": "2023Q4",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 73.55,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 73.55,
+        "asOfDate": "2023-10-20",
+        "firstDate": "2023-09-25",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 73.55,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 73.55,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 73.55,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "BILL",
+      "date": "2023-10-25",
+      "quarter": "2023Q4",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 91.8301,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 91.8301,
+        "asOfDate": "2023-10-25",
+        "firstDate": "2023-09-28",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 91.8301,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 91.8301,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 91.8301,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": -2.5,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2023-10-25",
+      "quarter": "2023Q4",
+      "sector": "SOFTWARE_INTERNET",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 48.35,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 48.35,
+        "asOfDate": "2023-10-25",
+        "firstDate": "2023-09-28",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "ENTRY",
+        "breakIndex": 1,
+        "confirmationIndex": 2,
+        "entryIndex": 3,
+        "pivot": 48.35,
+        "entry": 48.95,
+        "breachExtreme": 48.24,
+        "stop": 48.19176,
+        "target": 49.929,
+        "stopDistancePct": 1.549009193054138,
+        "entryTimeUTC": "2023-10-26T13:45:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 4,
+        "exitTimeUTC": "2023-10-26T13:50:00.000+0000",
+        "exitPrice": 48.19176,
+        "grossPct": -1.5490091930541405,
+        "netPct": -2.0490091930541405,
+        "exitSession": "D1"
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 1,
+        "confirmationIndex": 2,
+        "entryIndex": 3,
+        "pivot": 48.35,
+        "entry": 48.95,
+        "breachExtreme": 48.24,
+        "stop": 47.971000000000004,
+        "target": 49.929,
+        "stopDistancePct": 1.9999999999999982,
+        "entryTimeUTC": "2023-10-26T13:45:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 4,
+        "exitTimeUTC": "2023-10-26T13:50:00.000+0000",
+        "exitPrice": 47.971000000000004,
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "ENTRY",
+        "breakIndex": 1,
+        "confirmationIndex": 2,
+        "entryIndex": 3,
+        "pivot": 48.35,
+        "entry": 48.95,
+        "breachExtreme": 48.24,
+        "stop": 48.19176,
+        "target": 49.929,
+        "stopDistancePct": 1.549009193054138,
+        "entryTimeUTC": "2023-10-26T13:45:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 4,
+        "exitTimeUTC": "2023-10-26T13:50:00.000+0000",
+        "exitPrice": 48.19176,
+        "grossPct": -1.5490091930541405,
+        "netPct": -2.0490091930541405,
+        "exitSession": "D1"
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ON",
+      "date": "2023-10-30",
+      "quarter": "2023Q4",
+      "sector": "SEMICONDUCTORS",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 64.99,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 64.99,
+        "asOfDate": "2023-10-30",
+        "firstDate": "2023-10-03",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 64.99,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 64.99,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 64.99,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2023-10-31",
+      "quarter": "2023Q4",
+      "sector": "SEMICONDUCTORS",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 53.74,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 53.74,
+        "asOfDate": "2023-10-31",
+        "firstDate": "2023-10-04",
+        "basisFactor": 1,
+        "d0LowErrorPct": 0
+      },
+      "structural": {
+        "status": "SKIP_RISK_INVALID",
+        "breakIndex": 10,
+        "confirmationIndex": 11,
+        "entryIndex": 12,
+        "pivot": 53.74,
+        "entry": 54.095,
+        "breachExtreme": 52.135,
+        "stop": 52.082865,
+        "target": 55.176899999999996,
+        "stopDistancePct": 3.7196321286625396,
+        "entryTimeUTC": "2023-11-01T14:30:00.000+0000",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 10,
+        "confirmationIndex": 11,
+        "entryIndex": 12,
+        "pivot": 53.74,
+        "entry": 54.095,
+        "breachExtreme": 52.135,
+        "stop": 53.0131,
+        "target": 55.176899999999996,
+        "stopDistancePct": 1.9999999999999953,
+        "entryTimeUTC": "2023-11-01T14:30:00.000+0000",
+        "exitStatus": "STOP",
+        "exitIndex": 18,
+        "exitTimeUTC": "2023-11-01T15:00:00.000+0000",
+        "exitPrice": 53.0131,
+        "grossPct": -1.9999999999999907,
+        "netPct": -2.4999999999999907,
+        "exitSession": "D1"
+      },
+      "secondary": {
+        "status": "SKIP_RISK_INVALID",
+        "breakIndex": 10,
+        "confirmationIndex": 11,
+        "entryIndex": 12,
+        "pivot": 53.74,
+        "entry": 54.095,
+        "breachExtreme": 52.135,
+        "stop": 52.082865,
+        "target": 55.176899999999996,
+        "stopDistancePct": 3.7196321286625396,
+        "entryTimeUTC": "2023-11-01T14:30:00.000+0000",
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 1.5,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "EMR",
+      "date": "2023-11-07",
+      "quarter": "2023Q4",
+      "sector": "INDUSTRIALS",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 83.1,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 83.09999940948498,
+        "asOfDate": "2023-11-07",
+        "firstDate": "2023-10-11",
+        "basisFactor": 1.0541896810418432,
+        "d0LowErrorPct": -7.106077171137315e-7
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 83.1,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 83.1,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 83.09999940948498,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -1.0137786081270357,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "ILMN",
+      "date": "2023-11-10",
+      "quarter": "2023Q4",
+      "sector": "HEALTHCARE",
+      "sectorGate": "FAIL",
+      "status": "EVALUABLE",
+      "d0Low": 89.01,
+      "twentySessionPivot": {
+        "status": "AVAILABLE",
+        "value": 89,
+        "asOfDate": "2023-11-10",
+        "firstDate": "2023-10-16",
+        "basisFactor": 1,
+        "d0LowErrorPct": -0.011234692731154627
+      },
+      "structural": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 89.01,
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 89.01,
+        "netPct": 0
+      },
+      "secondary": {
+        "status": "SKIP_NO_PATTERN",
+        "pivot": 89,
+        "netPct": 0
+      },
+      "priorBaselineNetPct": -2.5,
+      "priorBuyerNetPct": 0,
+      "priorSectorBuyerNetPct": 0
+    },
+    {
+      "symbol": "AEO",
+      "date": "2023-11-21",
+      "quarter": "2023Q4",
+      "status": "UNKNOWN_INCOMPLETE_M5",
+      "sourceCounts": {
+        "2023-11-21": 78,
+        "2023-11-22": 78,
+        "2023-11-24": 42
+      }
+    }
+  ]
+}
