@@ -1,0 +1,19 @@
+# FROZEN D4 5-minute failed-seller-low + VWAP reclaim + volume after AH earnings selloff
+2026-10-11. Prior work research/prior_work/failed_low_vwap_earnings_rebound_5m_literature_2026-10-11.md was committed FIRST.
+LIMIT: all historic outcomes exposed in earlier work; one AMAT 2025-05-22 intraday result was previewed for data feasibility before freeze. This pilot is NOT independent validation.
+
+## Sample
+Exactly 12 events = 6 fixed after-hours earnings winner-vs-failure pairs from ah_6matched_pairs_12_original_release_news_coding_v1_2026-10-11.json. Join to existing archive stock OHLC by symbol+selloffDate; D0 initial qualifying >=5% decline, D4 fourth full session after D0, D5/D6 next sessions. No outcome-selected additions/removals. Buy D4 only, evaluate through D6. Obtain historical connected Webull US_STOCK RTH M5 timestamped OHLCV for D4/D5/D6. Raw Webull intraday stock prices may differ from split/dividend adjusted historical Yahoo daily source; use RAW Webull intraday price throughout entry/exit without daily splicing. Require each of 3 days >=75 valid ascending 5m RTH bars, including 09:30/15:55 ET; otherwise DATA MISSING, not no-signal.
+Intraday VWAP proxy cumulative SUM(HLC3*volume)/SUM(volume) reset every RTH day; this is candle approximation, NOT tick VWAP or order-side aggressor flow.
+
+## Fixed definitions
+D4 b0=09:30 ET and b77=15:55 ET each 5m bar, date LOCAL ET from provider. Accumulating VWAP only from observed b0..current.
+SELLER FAILED LOW: FIRST b_k, k=3..21 (09:45–11:15), LOW strictly lower than minimum all previous D4 lows, CLOSE strictly above previous minimum low, and CLOSE > (bar low+bar high)/2. This first candidate remains the sole attempt (NO re-arming).
+BUYER CONFIRMATION: within following bars k+1..min(k+6,26), FIRST 5m bar that crosses UP as-of-candle session VWAP: prior bar close<=prior cumulative VWAP, current bar close>current VWAP, close>open, volume>=median of PREVIOUS min(6,index) complete 5m bar volumes (>=4 observations). Treat volume as participation ONLY, not buyer initiated flow. Entry is next 5m bar OPEN, no later than 12:00 ET. Require entry price <=D4 b0 open*1.015 and <= failed-low candle LOW*1.02, else SKIP (no 2nd attempt).
+Secondary comparator VWAP-ONLY: first D4 b4..b27 crossing close up through own as-of VWAP, same close>open and volume>=median previous min(6,index) bars, entry NEXT open <=12:00, and <=b0 open*1.015 and <=lowest known D4 low through confirmation*1.02. This comparator omits failed-low, nothing else.
+Baseline ALL valid cases enter D4 09:50 b4 OPEN. Comparator zero-trade/no signals return 0 for every skipped case.
+
+## Exact subsequent stock outcomes
+From entry bar inclusive through final b77 on D6, target first HIGH>=entry*1.02, stop first LOW<=entry*0.99. If same 5m candle has both, STOP first. On subsequent bar, opening GAP across stop/target exits at actual bar open (rather than ideal level); timeout exit final D6 15:55 close. Entry next bar opening based ONLY prior fully completed signal 5m bars (no future). Stock roundtrip hypothetical 0.20% cost deducted from gross, no claimed option bid/ask, IV, strike, DTE, commissions. If no entry, per-event return zero and label SKIP.
+Measure signal count and failure attrition candidate->VWAP->volume->chase, time, first move already traveled from lowest earlier observed low, D4 opening move to signal entry, target-before-stop win conditional, average net stock among entries and on FULL sample skips zero, compare to every-event D4 09:50 baseline. Report with matched event IDs, raw 3d M5 bars sources, reproducible code, no threshold tuning.
+If n<8 signals, UNDERPOWERED and no statistical edge claim; regardless historical prior outcome exposure means cannot validate scanner or $50 calls. If complete M5 impossible status DATA BLOCKED. Test no alternative D5 window or multiple thresholds without new freeze.
