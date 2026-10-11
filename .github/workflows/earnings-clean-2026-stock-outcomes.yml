@@ -1,0 +1,40 @@
+name: Clean July-Sep 2026 Stock-Only Earnings Rebound Test
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/earnings-clean-2026-stock-outcomes.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: clean-2026-stock-forward-outcomes
+  cancel-in-progress: false
+jobs:
+  compute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify cohort list was independently frozen and committed before any outcome data
+        run: |
+          test -f research/earnings_recovery/frozen_jul_sep2026_earnings_selloff_discovery_2026-10-10.json
+          git log -1 --format="%h %s" -- research/earnings_recovery/frozen_jul_sep2026_earnings_selloff_discovery_2026-10-10.json
+      - name: Run historical raw-stock +5 before -5 actual test without selecting events from future results
+        run: python research/earnings_recovery/run_clean_2026_stock_only_two_entry_test.py
+      - name: Preserve all prices, missingness and outcomes
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/earnings_recovery/clean_jul_sep2026_stock_recovery_actual_outcomes_2026-10-10.json research/earnings_recovery/clean_jul_sep2026_stock_recovery_stock_bars_2026-10-10.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive 2026 independent frozen earnings event stock target stop outcomes [skip ci]'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              git push && break
+              sleep 2
+            done
+          fi
