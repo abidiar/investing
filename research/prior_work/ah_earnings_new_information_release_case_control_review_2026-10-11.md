@@ -1,0 +1,29 @@
+# Prior work — new earnings disclosure vs subsequent reversal, 2026-10-11
+
+**Question:** among quality companies with >=5% closing selloff following an AH quarterly announcement, do facts AVAILABLE IN ORIGINAL RELEASE or contemporaneous first three trading sessions (revenue/margin change, demand orders/bookings, management earnings guidance surprise/cut, charges/regulatory shocks) distinguish early *tradeable* D4 partial bounce winners vs same-year/session/similar-drop D4 failures? We seek mechanisms, NOT an outcome-chosen list of recovered stocks. Existing 164 OHLC study confirms full price recovery is different from first-hit trade profit. All outcomes already explored historically; this is interpretive and exploratory, not blinded.
+
+## Academic/operational literature — chronology caveats
+- Feldman et al., "Management’s Tone Change, Post Earnings Announcement Drift and Accruals", INSEAD research / Journal of Accounting and Economics 2010: https://www.insead.edu/faculty-research/publications/journal-articles/managements-tone-change-post-earnings-announcement ; change in SEC MD&A tone relative to prior documents adds information beyond earnings surprises/accruals about drift, but a 10-Q filed AFTER D3 cannot be used to forecast a D4 entry. Original dated AH release/prepared conference call is admissible if actually distributed by D3.
+- Fink 2021 postearnings drift review https://doi.org/10.1016/j.jbef.2020.100446: earnings bad-news repricing can continue; not every fall reverses.
+- Shivakumar 2006 surprise cash flows https://doi.org/10.1111/j.1468-5957.2006.01425.x: unexpected cashflow conveys information beyond reported EPS, different from our pre-report trailing FCF/net earnings conversion ratio.
+- Our `research/earnings_recovery/forward_guidance_proxy_results_2026-10-10.md`: retrospective *stable/up vs down management annual guidance* proxy on 27/72 qualified events failed a fixed D3 +5/-5 stock-entry edge; 45 UNKNOWN and no historical analyst consensus FY1 revisions. **Do not repeat the same binary annual management-guidance proxy as a new standalone test.** The new contribution is *structured attribution to guidance, orders, margin, regional regulations, macro/commodity exposure and one-off vs persistent drivers in original issuer release* for price-reaction-matched AH D4 winner/failure pairs.
+- Our `research/earnings_recovery/matched_quality164_fundamentals_v1_all_events_pairs_2026-10-11.json` froze 25 winner-failure comparable events by same year, AH/BMO, +/-5pp drop, diff issuer. Only SIX are AH. This six-pair roster is pre-existing (not chosen for favorable earnings narratives); some are across wildly different industries and calendar months, therefore structural inference tiny/weak.
+- Initial Web research checked contemporaneous original release accessible (e.g., ONEOK April 29 / Aug 4 2025 stated AFFIRMED full-year guidance, while its matched D4 outcomes differ). This already proves 'affirm guidance' doesn't mechanically distinguish every successful D4 bounce. Applied Materials May 15 2025 release documents revenue +7% YoY, EPS +14% adjusted while reports documented China/existing export restriction pressure. Further evidence requires all pairs, direct citations and time cutoff.
+
+## Source quality
+1. SEC EDGAR 8-K dated original company earnings Exhibit 99.1, earnings-day company IR press releases, company CFO/company CEO prepared earnings scripts or slide deck released by D3.
+2. Wire releases with timestamp/report and faithful source original if primary inaccessible. Third-party reporting only as context and not a substitute for original outlook when available.
+3. Preserve original source URL, public release day and freshness relative to D3 close. Don't use later Q2/Q3 numbers or postevent 10-Q (even if discussing same quarter) as pre-D4 information.
+4. Historical analyst EPS consensus surprise in contemporaneous news quotes may help context but a single named 3p contemporaneous estimate is not the actual full point-in-time FY1 consensus revision dataset.
+
+## Most likely discriminating mechanisms to investigate, not yet assumed predictive:
+- Signs/magnitude of actual forward **profitability** outlook changes versus previous *same fiscal period* expectation (if prior same-period guidance missing, mark unknown, do NOT infer maintenance from current release).
+- Core customer orders/backlog/shipments, organic revenue growth vs acquisition-driven revenue, customer concentration and China policy/regulatory exposure.
+- Operating and gross margin, cash flow or accrual quality relative to year-earlier quarter, and one-off charges; one quarter's results vs *surprise expectations* are distinct.
+- Forward wording of demand/outlook management vs prior release but source timing must allow it.
+- Business-cycle/industry/commodity conditions may invalidate comparisons even when gross stock reaction magnitude is matched.
+
+## Contradictions, gaps, and precise next experiment
+A negative current profit outlook is not sufficient to say continuing freefall; a positive announced earnings beat is not a causal recovery indicator; market reprices EXPECTATIONS, not year-over-year actual alone. Past management-guidance proxy no validated edge. Nearly all known 164 are repeat-sampled current survivors, and AH matched sample just six pairs, so code positive/negative/unknown with citations first; test if a precommitted *forward-demand-impairment flag* discriminates the six D4 outcomes as an exploratory check, not scanner promotion. If too few primary sources, report INCONCLUSIVE / COVERAGE BLOCKED, don't call unknown as no-change.
+
+New independent model requires much larger AH universe, contemporaneous published disclosure, sector/quarter matching, full prospective/untouched trade outcomes, and option bid/ask/IV if a stock entry edge emerges.
