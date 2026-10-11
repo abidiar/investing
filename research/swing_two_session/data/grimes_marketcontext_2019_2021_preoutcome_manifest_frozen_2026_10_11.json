@@ -1,0 +1,5722 @@
+{
+  "study": "grimes_marketcontext_2019_2021_v1",
+  "status": "FROZEN_2019_2021_D0_CANDIDATES_PRE_D1_M5",
+  "protocol": "research/swing_two_session/frozen_grimes_market_recovery_2019_2021_v1_2026_10_11.md",
+  "universeFile": "research/swing_two_session/data/grimes_2022_pivot_support_universe_frozen_2026_10_11.json",
+  "preoutcomeDailyFiles": [
+    "research/swing_two_session/data/grimes_marketcontext_2019_2021_daily_preoutcome_batch_01_2026_10_11.json",
+    "research/swing_two_session/data/grimes_marketcontext_2019_2021_daily_preoutcome_batch_02_2026_10_11.json",
+    "research/swing_two_session/data/grimes_marketcontext_2019_2021_daily_preoutcome_batch_03_2026_10_11.json",
+    "research/swing_two_session/data/grimes_marketcontext_2019_2021_daily_preoutcome_batch_04_2026_10_11.json",
+    "research/swing_two_session/data/grimes_marketcontext_2019_2021_daily_preoutcome_batch_05_2026_10_11.json"
+  ],
+  "summary": {
+    "universe": 90,
+    "availableDaily": 90,
+    "selected": 198,
+    "issuers": 76,
+    "dates": 126,
+    "byYear": {
+      "2019": {
+        "events": 48,
+        "issuers": 38
+      },
+      "2020": {
+        "events": 70,
+        "issuers": 46
+      },
+      "2021": {
+        "events": 80,
+        "issuers": 49
+      }
+    },
+    "sourceEnd": "2021-12-31",
+    "sourceStart": "2018-06-01",
+    "failReasons": {
+      "calendarIssuerDays": 64609,
+      "NOT_SHOCK": 58016,
+      "SHOCK": 5387,
+      "SHOCK_RVOL": 2565,
+      "PREVIOUS_BREAK": 1033,
+      "NOT_NEAR_SUPPORT": 1036,
+      "LOW_RVOL": 2822,
+      "SELECTED": 198,
+      "UNKNOWN_HISTORY": 1206,
+      "NO_PIVOT_PAIR": 298
+    }
+  },
+  "coverage": [
+    {
+      "symbol": "AEO",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "AFL",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "ALGM",
+      "nBarTotal": 296,
+      "first": "2020-10-29",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 296,
+      "incompleteScreeningDays": 121
+    },
+    {
+      "symbol": "ALL",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "AMGN",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "ANF",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "APP",
+      "nBarTotal": 182,
+      "first": "2021-04-15",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 182,
+      "incompleteScreeningDays": 121
+    },
+    {
+      "symbol": "AXP",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "BIIB",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "BILL",
+      "nBarTotal": 518,
+      "first": "2019-12-12",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 518,
+      "incompleteScreeningDays": 121
+    },
+    {
+      "symbol": "BMY",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "BNTX",
+      "nBarTotal": 562,
+      "first": "2019-10-10",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 562,
+      "incompleteScreeningDays": 121
+    },
+    {
+      "symbol": "BURL",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "CME",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "CMG",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "CMI",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "COF",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "CROX",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "DECK",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "DPZ",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "DRI",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "DVN",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "DXCM",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "EBAY",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "ELF",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "EMR",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "ENTG",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "ETN",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "ETSY",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "FANG",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "FAST",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "FIVE",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "FIVN",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "GAP",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "GD",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "HCA",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "HUBS",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "HUM",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "ILMN",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "IOT",
+      "nBarTotal": 12,
+      "first": "2021-12-15",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 12,
+      "incompleteScreeningDays": 12
+    },
+    {
+      "symbol": "ITW",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "KMI",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "LHX",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "LMT",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "LNG",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "LSCC",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "LULU",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "MCHP",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "MCO",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "MDB",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "MPC",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "MRNA",
+      "nBarTotal": 773,
+      "first": "2018-12-07",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 105
+    },
+    {
+      "symbol": "NET",
+      "nBarTotal": 581,
+      "first": "2019-09-13",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 581,
+      "incompleteScreeningDays": 121
+    },
+    {
+      "symbol": "NXPI",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "OKTA",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "OLED",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "ON",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "OXY",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "PCAR",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "PGR",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "PH",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "PINS",
+      "nBarTotal": 683,
+      "first": "2019-04-18",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 683,
+      "incompleteScreeningDays": 121
+    },
+    {
+      "symbol": "PODD",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "PSX",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "PWR",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "RBLX",
+      "nBarTotal": 207,
+      "first": "2021-03-10",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 207,
+      "incompleteScreeningDays": 121
+    },
+    {
+      "symbol": "ROK",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "ROKU",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "RTX",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "SCHW",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "SHOP",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "SNAP",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "SPGI",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "SWKS",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "SYF",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "TEAM",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "TER",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "TJX",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "TROW",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "TRV",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "TWLO",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "U",
+      "nBarTotal": 325,
+      "first": "2020-09-18",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 325,
+      "incompleteScreeningDays": 121
+    },
+    {
+      "symbol": "ULTA",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "URI",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "VLO",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "VRTX",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "WING",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "YUM",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    },
+    {
+      "symbol": "ZM",
+      "nBarTotal": 683,
+      "first": "2019-04-18",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 683,
+      "incompleteScreeningDays": 121
+    },
+    {
+      "symbol": "ZS",
+      "nBarTotal": 904,
+      "first": "2018-06-01",
+      "last": "2021-12-31",
+      "calendarIssuerDays": 757,
+      "incompleteScreeningDays": 0
+    }
+  ],
+  "events": [
+    {
+      "symbol": "DECK",
+      "date": "2019-01-04",
+      "year": 2019,
+      "quarter": "2019Q1",
+      "d0CloseAdjusted": 20.2983337393,
+      "d0OpenAdjusted": 21.2283337579,
+      "d0HighAdjusted": 21.3050004261,
+      "d0LowAdjusted": 20.2066670708,
+      "shockPct": -3.195294491693834,
+      "rvol20": 1.491409575450814,
+      "supportAdjusted": 19.658950393179,
+      "pivotA": {
+        "index": 91,
+        "date": "2018-11-20",
+        "low": 19.8050003961
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2018-12-17",
+        "low": 19.658950393179
+      },
+      "closeRelativeToSupportPct": 3.2523778397794967,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AMGN",
+      "date": "2019-01-28",
+      "year": 2019,
+      "quarter": "2019Q1",
+      "d0CloseAdjusted": 151.762878,
+      "d0OpenAdjusted": 154.150604,
+      "d0HighAdjusted": 154.150604,
+      "d0LowAdjusted": 150.232204,
+      "shockPct": -3.431101210851506,
+      "rvol20": 1.3461454920661187,
+      "supportAdjusted": 148.790081,
+      "pivotA": {
+        "index": 88,
+        "date": "2018-12-10",
+        "low": 148.790081
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2019-01-03",
+        "low": 149.169587
+      },
+      "closeRelativeToSupportPct": 1.997980631518037,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TROW",
+      "date": "2019-01-30",
+      "year": 2019,
+      "quarter": "2019Q1",
+      "d0CloseAdjusted": 65.05493,
+      "d0OpenAdjusted": 65.616251,
+      "d0HighAdjusted": 66.097383,
+      "d0LowAdjusted": 63.13769,
+      "shockPct": -3.784365882530971,
+      "rvol20": 3.437783731899595,
+      "supportAdjusted": 64.573797,
+      "pivotA": {
+        "index": 102,
+        "date": "2019-01-03",
+        "low": 64.573797
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2019-01-14",
+        "low": 65.04764
+      },
+      "closeRelativeToSupportPct": 0.7450901485628991,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "BURL",
+      "date": "2019-02-13",
+      "year": 2019,
+      "quarter": "2019Q1",
+      "d0CloseAdjusted": 162.26,
+      "d0OpenAdjusted": 166.96,
+      "d0HighAdjusted": 167.59,
+      "d0LowAdjusted": 159.78,
+      "shockPct": -3.1225744820586376,
+      "rvol20": 2.7613412228796848,
+      "supportAdjusted": 158.395,
+      "pivotA": {
+        "index": 7,
+        "date": "2018-08-30",
+        "low": 158.62
+      },
+      "pivotB": {
+        "index": 97,
+        "date": "2019-01-10",
+        "low": 158.395
+      },
+      "closeRelativeToSupportPct": 2.440102275955658,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AMGN",
+      "date": "2019-03-06",
+      "year": 2019,
+      "quarter": "2019Q1",
+      "d0CloseAdjusted": 145.924916,
+      "d0OpenAdjusted": 150.490298,
+      "d0HighAdjusted": 150.880706,
+      "d0LowAdjusted": 145.352929,
+      "shockPct": -3.002859704006644,
+      "rvol20": 1.3676068488382074,
+      "supportAdjusted": 140.962769,
+      "pivotA": {
+        "index": 72,
+        "date": "2018-12-24",
+        "low": 140.962769
+      },
+      "pivotB": {
+        "index": 96,
+        "date": "2019-01-30",
+        "low": 142.038036
+      },
+      "closeRelativeToSupportPct": 3.520182694481533,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "OXY",
+      "date": "2019-03-08",
+      "year": 2019,
+      "quarter": "2019Q1",
+      "d0CloseAdjusted": 53.475488,
+      "d0OpenAdjusted": 54.652273,
+      "d0HighAdjusted": 54.652273,
+      "d0LowAdjusted": 52.968107,
+      "shockPct": -3.4636702400338004,
+      "rvol20": 1.2650752533920446,
+      "supportAdjusted": 53.409019,
+      "pivotA": {
+        "index": 89,
+        "date": "2019-01-23",
+        "low": 53.877435
+      },
+      "pivotB": {
+        "index": 101,
+        "date": "2019-02-08",
+        "low": 53.409019
+      },
+      "closeRelativeToSupportPct": 0.12445276330574906,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2019-03-20",
+      "year": 2019,
+      "quarter": "2019Q1",
+      "d0CloseAdjusted": 257.244305,
+      "d0OpenAdjusted": 266.877768,
+      "d0HighAdjusted": 266.877768,
+      "d0LowAdjusted": 256.721052,
+      "shockPct": -3.9593943799578923,
+      "rvol20": 1.2466918790418908,
+      "supportAdjusted": 251.516552,
+      "pivotA": {
+        "index": 62,
+        "date": "2018-12-24",
+        "low": 252.781322
+      },
+      "pivotB": {
+        "index": 68,
+        "date": "2019-01-03",
+        "low": 251.516552
+      },
+      "closeRelativeToSupportPct": 2.2772867051708,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "URI",
+      "date": "2019-03-20",
+      "year": 2019,
+      "quarter": "2019Q1",
+      "d0CloseAdjusted": 111.776051,
+      "d0OpenAdjusted": 115.780773,
+      "d0HighAdjusted": 115.814467,
+      "d0LowAdjusted": 109.803051,
+      "shockPct": -3.786874285940056,
+      "rvol20": 2.5466750678999968,
+      "supportAdjusted": 109.802569,
+      "pivotA": {
+        "index": 76,
+        "date": "2019-01-15",
+        "low": 110.322413
+      },
+      "pivotB": {
+        "index": 81,
+        "date": "2019-01-23",
+        "low": 109.802569
+      },
+      "closeRelativeToSupportPct": 1.7973003892103767,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PH",
+      "date": "2019-03-22",
+      "year": 2019,
+      "quarter": "2019Q1",
+      "d0CloseAdjusted": 146.928605,
+      "d0OpenAdjusted": 151.523777,
+      "d0HighAdjusted": 151.523777,
+      "d0LowAdjusted": 145.948421,
+      "shockPct": -3.610406133829358,
+      "rvol20": 1.4881196532016694,
+      "supportAdjusted": 143.988054,
+      "pivotA": {
+        "index": 40,
+        "date": "2018-11-23",
+        "low": 145.280224
+      },
+      "pivotB": {
+        "index": 91,
+        "date": "2019-02-08",
+        "low": 143.988054
+      },
+      "closeRelativeToSupportPct": 2.0422187246172507,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SWKS",
+      "date": "2019-03-22",
+      "year": 2019,
+      "quarter": "2019Q1",
+      "d0CloseAdjusted": 68.737592,
+      "d0OpenAdjusted": 71.267708,
+      "d0HighAdjusted": 71.442485,
+      "d0LowAdjusted": 68.596105,
+      "shockPct": -4.043220648478075,
+      "rvol20": 1.271168746977855,
+      "supportAdjusted": 66.365608,
+      "pivotA": {
+        "index": 27,
+        "date": "2018-11-05",
+        "low": 66.907074
+      },
+      "pivotB": {
+        "index": 103,
+        "date": "2019-02-27",
+        "low": 66.365608
+      },
+      "closeRelativeToSupportPct": 3.5741162802275683,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EBAY",
+      "date": "2019-04-11",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 32.149072,
+      "d0OpenAdjusted": 33.308634,
+      "d0HighAdjusted": 33.308634,
+      "d0LowAdjusted": 31.768452,
+      "shockPct": -3.711557863776116,
+      "rvol20": 2.054386313051842,
+      "supportAdjusted": 31.883523,
+      "pivotA": {
+        "index": 101,
+        "date": "2019-03-15",
+        "low": 31.883523
+      },
+      "pivotB": {
+        "index": 107,
+        "date": "2019-03-25",
+        "low": 32.113665
+      },
+      "closeRelativeToSupportPct": 0.8328722017325374,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "FANG",
+      "date": "2019-04-11",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 71.672878,
+      "d0OpenAdjusted": 74.104534,
+      "d0HighAdjusted": 74.147572,
+      "d0LowAdjusted": 71.615494,
+      "shockPct": -3.8028312909804796,
+      "rvol20": 2.1028356683131575,
+      "supportAdjusted": 71.100207,
+      "pivotA": {
+        "index": 68,
+        "date": "2019-01-28",
+        "low": 71.100207
+      },
+      "pivotB": {
+        "index": 107,
+        "date": "2019-03-25",
+        "low": 71.170766
+      },
+      "closeRelativeToSupportPct": 0.8054420994864309,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PSX",
+      "date": "2019-04-24",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 70.171362,
+      "d0OpenAdjusted": 72.463765,
+      "d0HighAdjusted": 72.463765,
+      "d0LowAdjusted": 69.992733,
+      "shockPct": -3.203285556338631,
+      "rvol20": 1.3554913432450524,
+      "supportAdjusted": 69.843876,
+      "pivotA": {
+        "index": 88,
+        "date": "2019-03-08",
+        "low": 69.843876
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2019-04-02",
+        "low": 69.866204
+      },
+      "closeRelativeToSupportPct": 0.46888291251190317,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2019-04-25",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 10.79,
+      "d0OpenAdjusted": 11.13,
+      "d0HighAdjusted": 11.15,
+      "d0LowAdjusted": 10.51,
+      "shockPct": -4.174067495559508,
+      "rvol20": 1.7578387774631654,
+      "supportAdjusted": 10.43,
+      "pivotA": {
+        "index": 95,
+        "date": "2019-03-20",
+        "low": 10.45
+      },
+      "pivotB": {
+        "index": 100,
+        "date": "2019-03-27",
+        "low": 10.43
+      },
+      "closeRelativeToSupportPct": 3.4515819750718935,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EMR",
+      "date": "2019-05-07",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 57.077677,
+      "d0OpenAdjusted": 57.05232,
+      "d0HighAdjusted": 57.82147,
+      "d0LowAdjusted": 56.063414,
+      "shockPct": -3.734853476055311,
+      "rvol20": 2.3919832705972732,
+      "supportAdjusted": 55.708421,
+      "pivotA": {
+        "index": 79,
+        "date": "2019-03-08",
+        "low": 55.708421
+      },
+      "pivotB": {
+        "index": 90,
+        "date": "2019-03-25",
+        "low": 55.928178
+      },
+      "closeRelativeToSupportPct": 2.457897702754841,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EBAY",
+      "date": "2019-05-13",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 31.750749,
+      "d0OpenAdjusted": 32.352659,
+      "d0HighAdjusted": 32.52084,
+      "d0LowAdjusted": 31.626827,
+      "shockPct": -4.039593025042832,
+      "rvol20": 1.2630236220994275,
+      "supportAdjusted": 31.37013,
+      "pivotA": {
+        "index": 75,
+        "date": "2019-03-08",
+        "low": 31.432091
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2019-04-18",
+        "low": 31.37013
+      },
+      "closeRelativeToSupportPct": 1.2133166167943799,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ETN",
+      "date": "2019-05-13",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 67.814828,
+      "d0OpenAdjusted": 68.791016,
+      "d0HighAdjusted": 69.067459,
+      "d0LowAdjusted": 67.572941,
+      "shockPct": -3.669162344599808,
+      "rvol20": 1.260799171235578,
+      "supportAdjusted": 67.329773,
+      "pivotA": {
+        "index": 74,
+        "date": "2019-03-07",
+        "low": 67.432541
+      },
+      "pivotB": {
+        "index": 86,
+        "date": "2019-03-25",
+        "low": 67.329773
+      },
+      "closeRelativeToSupportPct": 0.7204168058015048,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LNG",
+      "date": "2019-05-13",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 62.449497,
+      "d0OpenAdjusted": 61.869147,
+      "d0HighAdjusted": 63.144015,
+      "d0LowAdjusted": 61.688382,
+      "shockPct": -3.2856925710037066,
+      "rvol20": 1.515466670130325,
+      "supportAdjusted": 60.811577,
+      "pivotA": {
+        "index": 56,
+        "date": "2019-02-08",
+        "low": 61.146087
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2019-04-26",
+        "low": 60.811577
+      },
+      "closeRelativeToSupportPct": 2.693434508366721,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PH",
+      "date": "2019-05-13",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 149.889878,
+      "d0OpenAdjusted": 152.755168,
+      "d0HighAdjusted": 154.382146,
+      "d0LowAdjusted": 147.951063,
+      "shockPct": -4.486810445538392,
+      "rvol20": 2.1659776820811483,
+      "supportAdjusted": 145.280224,
+      "pivotA": {
+        "index": 5,
+        "date": "2018-11-23",
+        "low": 145.280224
+      },
+      "pivotB": {
+        "index": 85,
+        "date": "2019-03-22",
+        "low": 145.948421
+      },
+      "closeRelativeToSupportPct": 3.1729397663924352,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2019-05-17",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 12.33,
+      "d0OpenAdjusted": 13.38,
+      "d0HighAdjusted": 13.49,
+      "d0LowAdjusted": 12.24,
+      "shockPct": -9.27152317880795,
+      "rvol20": 1.2823509241702933,
+      "supportAdjusted": 12.15,
+      "pivotA": {
+        "index": 77,
+        "date": "2019-03-18",
+        "low": 12.2
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2019-04-26",
+        "low": 12.15
+      },
+      "closeRelativeToSupportPct": 1.4814814814814836,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "CMG",
+      "date": "2019-05-23",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 13.3424,
+      "d0OpenAdjusted": 13.64,
+      "d0HighAdjusted": 13.74,
+      "d0LowAdjusted": 13.122848,
+      "shockPct": -5.512435556059147,
+      "rvol20": 2.49844290318251,
+      "supportAdjusted": 13.1512,
+      "pivotA": {
+        "index": 78,
+        "date": "2019-03-25",
+        "low": 13.1512
+      },
+      "pivotB": {
+        "index": 100,
+        "date": "2019-04-25",
+        "low": 13.170092
+      },
+      "closeRelativeToSupportPct": 1.4538597238274775,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "VRTX",
+      "date": "2019-05-29",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 166.55,
+      "d0OpenAdjusted": 171.15,
+      "d0HighAdjusted": 171.87,
+      "d0LowAdjusted": 166.3,
+      "shockPct": -3.5945820791849825,
+      "rvol20": 1.6095043762871184,
+      "supportAdjusted": 163.681,
+      "pivotA": {
+        "index": 93,
+        "date": "2019-04-18",
+        "low": 163.681
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2019-05-13",
+        "low": 164.07
+      },
+      "closeRelativeToSupportPct": 1.7527996529835388,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "HUBS",
+      "date": "2019-06-03",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 162.24,
+      "d0OpenAdjusted": 173.46,
+      "d0HighAdjusted": 173.46,
+      "d0LowAdjusted": 159.81,
+      "shockPct": -6.371191135734067,
+      "rvol20": 2.22573255080169,
+      "supportAdjusted": 157.99,
+      "pivotA": {
+        "index": 82,
+        "date": "2019-04-08",
+        "low": 159.05
+      },
+      "pivotB": {
+        "index": 90,
+        "date": "2019-04-18",
+        "low": 157.99
+      },
+      "closeRelativeToSupportPct": 2.690043673650222,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "BMY",
+      "date": "2019-06-24",
+      "year": 2019,
+      "quarter": "2019Q2",
+      "d0CloseAdjusted": 34.326972,
+      "d0OpenAdjusted": 35.48423,
+      "d0HighAdjusted": 35.649552,
+      "d0LowAdjusted": 34.24431,
+      "shockPct": -7.417916572112048,
+      "rvol20": 3.2950415849550763,
+      "supportAdjusted": 33.4703,
+      "pivotA": {
+        "index": 79,
+        "date": "2019-04-25",
+        "low": 33.4703
+      },
+      "pivotB": {
+        "index": 102,
+        "date": "2019-05-29",
+        "low": 33.71077
+      },
+      "closeRelativeToSupportPct": 2.5594990185328292,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ILMN",
+      "date": "2019-07-12",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 305.05,
+      "d0OpenAdjusted": 310.25,
+      "d0HighAdjusted": 312.47,
+      "d0LowAdjusted": 303.92,
+      "shockPct": -16.116702414343067,
+      "rvol20": 9.35736492100781,
+      "supportAdjusted": 300.35,
+      "pivotA": {
+        "index": 83,
+        "date": "2019-05-20",
+        "low": 300.35
+      },
+      "pivotB": {
+        "index": 92,
+        "date": "2019-06-03",
+        "low": 302.72
+      },
+      "closeRelativeToSupportPct": 1.5648410188113804,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DPZ",
+      "date": "2019-07-15",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 244.971503,
+      "d0OpenAdjusted": 257.241859,
+      "d0HighAdjusted": 257.241859,
+      "d0LowAdjusted": 243.610146,
+      "shockPct": -4.321009265967324,
+      "rvol20": 3.1186857676765327,
+      "supportAdjusted": 239.943294,
+      "pivotA": {
+        "index": 67,
+        "date": "2019-04-29",
+        "low": 240.259759
+      },
+      "pivotB": {
+        "index": 77,
+        "date": "2019-05-13",
+        "low": 239.943294
+      },
+      "closeRelativeToSupportPct": 2.095582217021663,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PCAR",
+      "date": "2019-07-17",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 36.207425,
+      "d0OpenAdjusted": 37.441182,
+      "d0HighAdjusted": 37.441182,
+      "d0LowAdjusted": 36.207425,
+      "shockPct": -3.348490894638856,
+      "rvol20": 1.474394849630443,
+      "supportAdjusted": 35.675722,
+      "pivotA": {
+        "index": 66,
+        "date": "2019-04-30",
+        "low": 35.886586
+      },
+      "pivotB": {
+        "index": 99,
+        "date": "2019-06-17",
+        "low": 35.675722
+      },
+      "closeRelativeToSupportPct": 1.4903776859792828,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PGR",
+      "date": "2019-07-17",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 65.838033,
+      "d0OpenAdjusted": 67.315694,
+      "d0HighAdjusted": 67.496297,
+      "d0LowAdjusted": 65.558919,
+      "shockPct": -4.660008722479658,
+      "rvol20": 2.4232508880909087,
+      "supportAdjusted": 64.274291,
+      "pivotA": {
+        "index": 86,
+        "date": "2019-05-29",
+        "low": 64.274291
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2019-06-26",
+        "low": 64.364484
+      },
+      "closeRelativeToSupportPct": 2.432919874604278,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "MDB",
+      "date": "2019-07-29",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 144.89,
+      "d0OpenAdjusted": 157.9,
+      "d0HighAdjusted": 158.52,
+      "d0LowAdjusted": 143.45,
+      "shockPct": -8.332278881437439,
+      "rvol20": 2.2080561496637325,
+      "supportAdjusted": 143.41,
+      "pivotA": {
+        "index": 35,
+        "date": "2019-03-27",
+        "low": 143.41
+      },
+      "pivotB": {
+        "index": 101,
+        "date": "2019-07-01",
+        "low": 143.85
+      },
+      "closeRelativeToSupportPct": 1.0320061362526944,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EMR",
+      "date": "2019-07-31",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 55.250857,
+      "d0OpenAdjusted": 57.311693,
+      "d0HighAdjusted": 57.311693,
+      "d0LowAdjusted": 54.441851,
+      "shockPct": -3.581513402275871,
+      "rvol20": 2.8229087372560633,
+      "supportAdjusted": 54.03309,
+      "pivotA": {
+        "index": 65,
+        "date": "2019-05-13",
+        "low": 54.212383
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2019-07-11",
+        "low": 54.03309
+      },
+      "closeRelativeToSupportPct": 2.2537430304282013,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TJX",
+      "date": "2019-08-01",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 47.810664,
+      "d0OpenAdjusted": 49.728908,
+      "d0HighAdjusted": 50.056192,
+      "d0LowAdjusted": 47.637931,
+      "shockPct": -3.6107037768434713,
+      "rvol20": 1.728431211051835,
+      "supportAdjusted": 47.547018,
+      "pivotA": {
+        "index": 60,
+        "date": "2019-05-07",
+        "low": 47.958877
+      },
+      "pivotB": {
+        "index": 96,
+        "date": "2019-06-27",
+        "low": 47.547018
+      },
+      "closeRelativeToSupportPct": 0.5544953418529897,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "HUBS",
+      "date": "2019-08-05",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 164.49,
+      "d0OpenAdjusted": 165.44,
+      "d0HighAdjusted": 167.2,
+      "d0LowAdjusted": 161.64,
+      "shockPct": -4.3885142990002235,
+      "rvol20": 1.724489397816834,
+      "supportAdjusted": 159.05,
+      "pivotA": {
+        "index": 38,
+        "date": "2019-04-08",
+        "low": 159.05
+      },
+      "pivotB": {
+        "index": 76,
+        "date": "2019-06-03",
+        "low": 159.81
+      },
+      "closeRelativeToSupportPct": 3.42030807922038,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "MCHP",
+      "date": "2019-08-05",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 36.369805,
+      "d0OpenAdjusted": 37.313628,
+      "d0HighAdjusted": 37.313628,
+      "d0LowAdjusted": 36.047948,
+      "shockPct": -5.042016587319187,
+      "rvol20": 2.3232338214237593,
+      "supportAdjusted": 36.337891,
+      "pivotA": {
+        "index": 21,
+        "date": "2019-03-14",
+        "low": 36.337891
+      },
+      "pivotB": {
+        "index": 92,
+        "date": "2019-06-25",
+        "low": 36.474191
+      },
+      "closeRelativeToSupportPct": 0.08782568036214133,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "NXPI",
+      "date": "2019-08-05",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 85.949886,
+      "d0OpenAdjusted": 86.659482,
+      "d0HighAdjusted": 87.21829,
+      "d0LowAdjusted": 85.15159,
+      "shockPct": -3.5436992118886845,
+      "rvol20": 1.2602446164419137,
+      "supportAdjusted": 84.659154,
+      "pivotA": {
+        "index": 51,
+        "date": "2019-04-26",
+        "low": 84.659154
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2019-07-18",
+        "low": 85.195939
+      },
+      "closeRelativeToSupportPct": 1.5246218973556047,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "BURL",
+      "date": "2019-08-09",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 171.46,
+      "d0OpenAdjusted": 173.97,
+      "d0HighAdjusted": 174.99,
+      "d0LowAdjusted": 169.93,
+      "shockPct": -3.1627696825934692,
+      "rvol20": 1.457041007781174,
+      "supportAdjusted": 166.85,
+      "pivotA": {
+        "index": 50,
+        "date": "2019-05-01",
+        "low": 167.29
+      },
+      "pivotB": {
+        "index": 90,
+        "date": "2019-06-27",
+        "low": 166.85
+      },
+      "closeRelativeToSupportPct": 2.7629607431824965,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AFL",
+      "date": "2019-08-21",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 41.564188,
+      "d0OpenAdjusted": 43.278351,
+      "d0HighAdjusted": 43.278351,
+      "d0LowAdjusted": 41.555702,
+      "shockPct": -5.55341327520712,
+      "rvol20": 2.4726396406042754,
+      "supportAdjusted": 40.553397,
+      "pivotA": {
+        "index": 23,
+        "date": "2019-04-03",
+        "low": 40.553397
+      },
+      "pivotB": {
+        "index": 35,
+        "date": "2019-04-22",
+        "low": 40.691977
+      },
+      "closeRelativeToSupportPct": 2.4924940320042888,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "NXPI",
+      "date": "2019-08-23",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 86.916711,
+      "d0OpenAdjusted": 90.171985,
+      "d0HighAdjusted": 90.588873,
+      "d0LowAdjusted": 86.180505,
+      "shockPct": -5.1311836954631485,
+      "rvol20": 1.5605261072730245,
+      "supportAdjusted": 85.15159,
+      "pivotA": {
+        "index": 94,
+        "date": "2019-07-18",
+        "low": 85.195939
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2019-08-05",
+        "low": 85.15159
+      },
+      "closeRelativeToSupportPct": 2.0729160782552603,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "OKTA",
+      "date": "2019-08-29",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 127.18,
+      "d0OpenAdjusted": 130.75,
+      "d0HighAdjusted": 135.25,
+      "d0LowAdjusted": 121.34,
+      "shockPct": -4.49801006232634,
+      "rvol20": 4.723868327457781,
+      "supportAdjusted": 124.15,
+      "pivotA": {
+        "index": 102,
+        "date": "2019-08-05",
+        "low": 124.33
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2019-08-14",
+        "low": 124.15
+      },
+      "closeRelativeToSupportPct": 2.4405960531614923,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TWLO",
+      "date": "2019-09-06",
+      "year": 2019,
+      "quarter": "2019Q3",
+      "d0CloseAdjusted": 123.7,
+      "d0OpenAdjusted": 130.89,
+      "d0HighAdjusted": 131.56,
+      "d0LowAdjusted": 123.35,
+      "shockPct": -4.6481153164264155,
+      "rvol20": 1.3046582155601634,
+      "supportAdjusted": 122.02,
+      "pivotA": {
+        "index": 97,
+        "date": "2019-08-05",
+        "low": 122.11
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2019-08-15",
+        "low": 122.02
+      },
+      "closeRelativeToSupportPct": 1.3768234715620498,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ETN",
+      "date": "2019-10-02",
+      "year": 2019,
+      "quarter": "2019Q4",
+      "d0CloseAdjusted": 67.760909,
+      "d0OpenAdjusted": 69.434017,
+      "d0HighAdjusted": 69.434017,
+      "d0LowAdjusted": 66.976639,
+      "shockPct": -3.762376189813277,
+      "rvol20": 1.3118645181294215,
+      "supportAdjusted": 66.266439,
+      "pivotA": {
+        "index": 81,
+        "date": "2019-08-07",
+        "low": 66.514791
+      },
+      "pivotB": {
+        "index": 94,
+        "date": "2019-08-26",
+        "low": 66.266439
+      },
+      "closeRelativeToSupportPct": 2.2552441666587653,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SCHW",
+      "date": "2019-10-02",
+      "year": 2019,
+      "quarter": "2019Q4",
+      "d0CloseAdjusted": 33.126903,
+      "d0OpenAdjusted": 33.762039,
+      "d0HighAdjusted": 33.89814,
+      "d0LowAdjusted": 33.036169,
+      "shockPct": -3.3103806579332318,
+      "rvol20": 2.449451783188232,
+      "supportAdjusted": 32.52806,
+      "pivotA": {
+        "index": 84,
+        "date": "2019-08-12",
+        "low": 32.673234
+      },
+      "pivotB": {
+        "index": 96,
+        "date": "2019-08-28",
+        "low": 32.52806
+      },
+      "closeRelativeToSupportPct": 1.8410043513200414,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "NXPI",
+      "date": "2019-10-23",
+      "year": 2019,
+      "quarter": "2019Q4",
+      "d0CloseAdjusted": 91.859902,
+      "d0OpenAdjusted": 93.506456,
+      "d0HighAdjusted": 93.889168,
+      "d0LowAdjusted": 90.680614,
+      "shockPct": -4.240118835783346,
+      "rvol20": 2.2072960696069255,
+      "supportAdjusted": 91.521691,
+      "pivotA": {
+        "index": 100,
+        "date": "2019-09-25",
+        "low": 91.521691
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2019-10-08",
+        "low": 92.233714
+      },
+      "closeRelativeToSupportPct": 0.3695419045524506,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ILMN",
+      "date": "2019-10-25",
+      "year": 2019,
+      "quarter": "2019Q4",
+      "d0CloseAdjusted": 290.64,
+      "d0OpenAdjusted": 298.85,
+      "d0HighAdjusted": 299.4601,
+      "d0LowAdjusted": 279.76,
+      "shockPct": -7.879556259904918,
+      "rvol20": 6.5793763354798545,
+      "supportAdjusted": 285.37,
+      "pivotA": {
+        "index": 63,
+        "date": "2019-08-06",
+        "low": 285.37
+      },
+      "pivotB": {
+        "index": 107,
+        "date": "2019-10-08",
+        "low": 286
+      },
+      "closeRelativeToSupportPct": 1.8467253039913034,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2019-10-29",
+      "year": 2019,
+      "quarter": "2019Q4",
+      "d0CloseAdjusted": 54.41,
+      "d0OpenAdjusted": 57.32,
+      "d0HighAdjusted": 57.32,
+      "d0LowAdjusted": 53.62,
+      "shockPct": -5.076762037683191,
+      "rvol20": 1.8100164502223068,
+      "supportAdjusted": 52.8208,
+      "pivotA": {
+        "index": 60,
+        "date": "2019-08-05",
+        "low": 52.8208
+      },
+      "pivotB": {
+        "index": 101,
+        "date": "2019-10-02",
+        "low": 52.85
+      },
+      "closeRelativeToSupportPct": 3.008663253869681,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ALL",
+      "date": "2019-10-30",
+      "year": 2019,
+      "quarter": "2019Q4",
+      "d0CloseAdjusted": 89.129307,
+      "d0OpenAdjusted": 91.269429,
+      "d0HighAdjusted": 91.388325,
+      "d0LowAdjusted": 88.025275,
+      "shockPct": -3.0216218962842323,
+      "rvol20": 1.602775146299603,
+      "supportAdjusted": 88.271559,
+      "pivotA": {
+        "index": 84,
+        "date": "2019-09-10",
+        "low": 88.271559
+      },
+      "pivotB": {
+        "index": 101,
+        "date": "2019-10-03",
+        "low": 89.018904
+      },
+      "closeRelativeToSupportPct": 0.9717150231820515,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2019-10-31",
+      "year": 2019,
+      "quarter": "2019Q4",
+      "d0CloseAdjusted": 25.14,
+      "d0OpenAdjusted": 26.17,
+      "d0HighAdjusted": 26.38,
+      "d0LowAdjusted": 24.76,
+      "shockPct": -3.009259259259267,
+      "rvol20": 2.4720722961670436,
+      "supportAdjusted": 25.14,
+      "pivotA": {
+        "index": 97,
+        "date": "2019-09-30",
+        "low": 25.14
+      },
+      "pivotB": {
+        "index": 103,
+        "date": "2019-10-08",
+        "low": 25.3
+      },
+      "closeRelativeToSupportPct": 0,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "GAP",
+      "date": "2019-11-08",
+      "year": 2019,
+      "quarter": "2019Q4",
+      "d0CloseAdjusted": 13.255592,
+      "d0OpenAdjusted": 13.780093,
+      "d0HighAdjusted": 14.082079,
+      "d0LowAdjusted": 13.12844,
+      "shockPct": -7.641191707768746,
+      "rvol20": 3.6281301119522515,
+      "supportAdjusted": 12.977447,
+      "pivotA": {
+        "index": 89,
+        "date": "2019-09-26",
+        "low": 13.08509
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2019-10-18",
+        "low": 12.977447
+      },
+      "closeRelativeToSupportPct": 2.1432952105294723,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AEO",
+      "date": "2019-12-11",
+      "year": 2019,
+      "quarter": "2019Q4",
+      "d0CloseAdjusted": 11.839663,
+      "d0OpenAdjusted": 11.554774,
+      "d0HighAdjusted": 12.107794,
+      "d0LowAdjusted": 11.546395,
+      "shockPct": -6.547622524368945,
+      "rvol20": 3.715102823000617,
+      "supportAdjusted": 11.669139,
+      "pivotA": {
+        "index": 75,
+        "date": "2019-10-08",
+        "low": 11.669139
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2019-11-25",
+        "low": 11.747493
+      },
+      "closeRelativeToSupportPct": 1.4613246101533361,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ILMN",
+      "date": "2020-01-13",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 323.15,
+      "d0OpenAdjusted": 335.91,
+      "d0HighAdjusted": 337.8132,
+      "d0LowAdjusted": 312.825,
+      "shockPct": -3.6896849760081007,
+      "rvol20": 2.8425898695334113,
+      "supportAdjusted": 317.435,
+      "pivotA": {
+        "index": 99,
+        "date": "2019-12-11",
+        "low": 317.435
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2019-12-19",
+        "low": 318.08
+      },
+      "closeRelativeToSupportPct": 1.800368579394207,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "BMY",
+      "date": "2020-01-24",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 49.396248,
+      "d0OpenAdjusted": 51.113106,
+      "d0HighAdjusted": 51.382568,
+      "d0LowAdjusted": 48.968958,
+      "shockPct": -4.052638778101835,
+      "rvol20": 1.7328786478821436,
+      "supportAdjusted": 47.964376,
+      "pivotA": {
+        "index": 97,
+        "date": "2019-12-19",
+        "low": 47.964376
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2020-01-03",
+        "low": 48.156722
+      },
+      "closeRelativeToSupportPct": 2.9852822436384763,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EMR",
+      "date": "2020-01-27",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 63.772417,
+      "d0OpenAdjusted": 64.896693,
+      "d0HighAdjusted": 65.061011,
+      "d0LowAdjusted": 63.763769,
+      "shockPct": -3.8591918134372794,
+      "rvol20": 1.4931115489675553,
+      "supportAdjusted": 62.181133,
+      "pivotA": {
+        "index": 76,
+        "date": "2019-11-20",
+        "low": 62.535713
+      },
+      "pivotB": {
+        "index": 84,
+        "date": "2019-12-03",
+        "low": 62.181133
+      },
+      "closeRelativeToSupportPct": 2.559110654995611,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "URI",
+      "date": "2020-01-27",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 140.810291,
+      "d0OpenAdjusted": 141.070213,
+      "d0HighAdjusted": 144.131516,
+      "d0LowAdjusted": 140.588876,
+      "shockPct": -3.547642708163423,
+      "rvol20": 1.696244963131665,
+      "supportAdjusted": 140.502236,
+      "pivotA": {
+        "index": 76,
+        "date": "2019-11-20",
+        "low": 140.887305
+      },
+      "pivotB": {
+        "index": 84,
+        "date": "2019-12-03",
+        "low": 140.502236
+      },
+      "closeRelativeToSupportPct": 0.21925273844041193,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EBAY",
+      "date": "2020-01-29",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 30.955453,
+      "d0OpenAdjusted": 31.380666,
+      "d0HighAdjusted": 31.805878,
+      "d0LowAdjusted": 30.745085,
+      "shockPct": -4.501520502965906,
+      "rvol20": 2.6620357863031097,
+      "supportAdjusted": 30.93755,
+      "pivotA": {
+        "index": 74,
+        "date": "2019-11-20",
+        "low": 30.977237
+      },
+      "pivotB": {
+        "index": 86,
+        "date": "2019-12-09",
+        "low": 30.93755
+      },
+      "closeRelativeToSupportPct": 0.05786818930393345,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AEO",
+      "date": "2020-01-31",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 12.179826,
+      "d0OpenAdjusted": 12.551987,
+      "d0HighAdjusted": 12.551987,
+      "d0LowAdjusted": 12.086786,
+      "shockPct": -3.225804913783925,
+      "rvol20": 1.2164194432550604,
+      "supportAdjusted": 11.773832,
+      "pivotA": {
+        "index": 94,
+        "date": "2019-12-23",
+        "low": 11.864801
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2020-01-09",
+        "low": 11.773832
+      },
+      "closeRelativeToSupportPct": 3.4482741048114107,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DVN",
+      "date": "2020-01-31",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 15.29867,
+      "d0OpenAdjusted": 15.460672,
+      "d0HighAdjusted": 15.531108,
+      "d0LowAdjusted": 14.981708,
+      "shockPct": -3.42374288130074,
+      "rvol20": 1.2116959433079026,
+      "supportAdjusted": 14.797838,
+      "pivotA": {
+        "index": 71,
+        "date": "2019-11-19",
+        "low": 14.882036
+      },
+      "pivotB": {
+        "index": 80,
+        "date": "2019-12-03",
+        "low": 14.797838
+      },
+      "closeRelativeToSupportPct": 3.384494410602401,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AEO",
+      "date": "2020-02-18",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 12.129077,
+      "d0OpenAdjusted": 12.247492,
+      "d0HighAdjusted": 12.484322,
+      "d0LowAdjusted": 11.968371,
+      "shockPct": -3.23886478185883,
+      "rvol20": 1.6822498676591449,
+      "supportAdjusted": 11.773832,
+      "pivotA": {
+        "index": 83,
+        "date": "2019-12-23",
+        "low": 11.864801
+      },
+      "pivotB": {
+        "index": 94,
+        "date": "2020-01-09",
+        "low": 11.773832
+      },
+      "closeRelativeToSupportPct": 3.0172419650628557,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TER",
+      "date": "2020-02-18",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 65.624559,
+      "d0OpenAdjusted": 66.140674,
+      "d0HighAdjusted": 66.520457,
+      "d0LowAdjusted": 64.97698,
+      "shockPct": -3.9481181988955893,
+      "rvol20": 1.325480824358165,
+      "supportAdjusted": 63.861976,
+      "pivotA": {
+        "index": 91,
+        "date": "2020-01-06",
+        "low": 64.494948
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2020-01-31",
+        "low": 63.861976
+      },
+      "closeRelativeToSupportPct": 2.75998819704546,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SPGI",
+      "date": "2020-02-21",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 297.659393,
+      "d0OpenAdjusted": 305.95224,
+      "d0HighAdjusted": 306.419156,
+      "d0LowAdjusted": 296.04041,
+      "shockPct": -3.348604280668721,
+      "rvol20": 1.759306438303414,
+      "supportAdjusted": 294.370676,
+      "pivotA": {
+        "index": 102,
+        "date": "2020-01-27",
+        "low": 294.370676
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2020-02-05",
+        "low": 296.045486
+      },
+      "closeRelativeToSupportPct": 1.1172026523457168,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AEO",
+      "date": "2020-02-24",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 11.926079,
+      "d0OpenAdjusted": 12.069869,
+      "d0HighAdjusted": 12.34899,
+      "d0LowAdjusted": 11.849956,
+      "shockPct": -4.729730917194342,
+      "rvol20": 1.5893721354340768,
+      "supportAdjusted": 11.900705,
+      "pivotA": {
+        "index": 101,
+        "date": "2020-01-27",
+        "low": 12.002203
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2020-02-03",
+        "low": 11.900705
+      },
+      "closeRelativeToSupportPct": 0.21321425915523662,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "CROX",
+      "date": "2020-02-24",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 35.39,
+      "d0OpenAdjusted": 35.16,
+      "d0HighAdjusted": 35.595,
+      "d0LowAdjusted": 34.18,
+      "shockPct": -3.5694822888283406,
+      "rvol20": 1.560900632756081,
+      "supportAdjusted": 34.96,
+      "pivotA": {
+        "index": 50,
+        "date": "2019-11-11",
+        "low": 34.96
+      },
+      "pivotB": {
+        "index": 71,
+        "date": "2019-12-11",
+        "low": 35.07
+      },
+      "closeRelativeToSupportPct": 1.2299771167048057,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "GAP",
+      "date": "2020-02-24",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 13.119703,
+      "d0OpenAdjusted": 13.216349,
+      "d0HighAdjusted": 13.381453,
+      "d0LowAdjusted": 12.958626,
+      "shockPct": -4.513477878357907,
+      "rvol20": 1.7509854845200399,
+      "supportAdjusted": 12.766851,
+      "pivotA": {
+        "index": 43,
+        "date": "2019-10-31",
+        "low": 12.766851
+      },
+      "pivotB": {
+        "index": 71,
+        "date": "2019-12-11",
+        "low": 12.790692
+      },
+      "closeRelativeToSupportPct": 2.7638138801807877,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "OKTA",
+      "date": "2020-02-24",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 126.8,
+      "d0OpenAdjusted": 123.91,
+      "d0HighAdjusted": 128,
+      "d0LowAdjusted": 120.28,
+      "shockPct": -5.082715772138635,
+      "rvol20": 1.650207621522051,
+      "supportAdjusted": 124.09,
+      "pivotA": {
+        "index": 96,
+        "date": "2020-01-17",
+        "low": 124.09
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2020-02-06",
+        "low": 124.8012
+      },
+      "closeRelativeToSupportPct": 2.1838987831412693,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "OXY",
+      "date": "2020-02-24",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 35.535055,
+      "d0OpenAdjusted": 36.453134,
+      "d0HighAdjusted": 36.500028,
+      "d0LowAdjusted": 35.535055,
+      "shockPct": -6.267805561403284,
+      "rvol20": 1.4647729161609955,
+      "supportAdjusted": 35.370992,
+      "pivotA": {
+        "index": 43,
+        "date": "2019-10-31",
+        "low": 35.370992
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2020-01-30",
+        "low": 35.481051
+      },
+      "closeRelativeToSupportPct": 0.4638348848118312,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "CMG",
+      "date": "2020-02-25",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 17.1202,
+      "d0OpenAdjusted": 17.8,
+      "d0HighAdjusted": 17.8382,
+      "d0LowAdjusted": 17.0288,
+      "shockPct": -3.2757062146892557,
+      "rvol20": 1.5969019121058676,
+      "supportAdjusted": 16.9384,
+      "pivotA": {
+        "index": 91,
+        "date": "2020-01-13",
+        "low": 17.0281
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2020-02-06",
+        "low": 16.9384
+      },
+      "closeRelativeToSupportPct": 1.073300902092278,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "KMI",
+      "date": "2020-02-25",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 14.441931,
+      "d0OpenAdjusted": 14.990793,
+      "d0HighAdjusted": 15.05254,
+      "d0LowAdjusted": 14.414488,
+      "shockPct": -3.307305006652761,
+      "rvol20": 1.5063793230440592,
+      "supportAdjusted": 14.185225,
+      "pivotA": {
+        "index": 96,
+        "date": "2020-01-21",
+        "low": 14.185225
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2020-02-03",
+        "low": 14.208665
+      },
+      "closeRelativeToSupportPct": 1.8096716830363846,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LHX",
+      "date": "2020-02-25",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 183.835446,
+      "d0OpenAdjusted": 192.222675,
+      "d0HighAdjusted": 193.493468,
+      "d0LowAdjusted": 183.081735,
+      "shockPct": -4.2454122121219795,
+      "rvol20": 1.5371332593211509,
+      "supportAdjusted": 182.92179,
+      "pivotA": {
+        "index": 13,
+        "date": "2019-09-20",
+        "low": 183.800649
+      },
+      "pivotB": {
+        "index": 91,
+        "date": "2020-01-13",
+        "low": 182.92179
+      },
+      "closeRelativeToSupportPct": 0.499479039648576,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LMT",
+      "date": "2020-02-25",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 334.177911,
+      "d0OpenAdjusted": 350.654762,
+      "d0HighAdjusted": 352.015312,
+      "d0LowAdjusted": 331.815728,
+      "shockPct": -4.52843698189791,
+      "rvol20": 1.354640376135522,
+      "supportAdjusted": 321.466439,
+      "pivotA": {
+        "index": 59,
+        "date": "2019-11-25",
+        "low": 321.466439
+      },
+      "pivotB": {
+        "index": 83,
+        "date": "2019-12-31",
+        "low": 323.084834
+      },
+      "closeRelativeToSupportPct": 3.954214330908745,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LULU",
+      "date": "2020-02-25",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 238.81,
+      "d0OpenAdjusted": 248.38,
+      "d0HighAdjusted": 250.4478,
+      "d0LowAdjusted": 237.05,
+      "shockPct": -3.005564355631374,
+      "rvol20": 1.2804742104173232,
+      "supportAdjusted": 231.84,
+      "pivotA": {
+        "index": 90,
+        "date": "2020-01-10",
+        "low": 233.26
+      },
+      "pivotB": {
+        "index": 100,
+        "date": "2020-01-27",
+        "low": 231.84
+      },
+      "closeRelativeToSupportPct": 3.006383712905447,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "MPC",
+      "date": "2020-02-25",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 43.989561,
+      "d0OpenAdjusted": 46.432505,
+      "d0HighAdjusted": 46.498755,
+      "d0LowAdjusted": 43.703861,
+      "shockPct": -4.92214063614661,
+      "rvol20": 1.2390629001593059,
+      "supportAdjusted": 42.666681,
+      "pivotA": {
+        "index": 100,
+        "date": "2020-01-27",
+        "low": 42.838856
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2020-02-03",
+        "low": 42.666681
+      },
+      "closeRelativeToSupportPct": 3.1004989584261455,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PH",
+      "date": "2020-02-25",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 178.297064,
+      "d0OpenAdjusted": 187.052396,
+      "d0HighAdjusted": 187.775742,
+      "d0LowAdjusted": 177.783662,
+      "shockPct": -4.248928958570453,
+      "rvol20": 1.3032267692924764,
+      "supportAdjusted": 175.647966,
+      "pivotA": {
+        "index": 64,
+        "date": "2019-12-03",
+        "low": 175.647966
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2020-01-31",
+        "low": 177.177165
+      },
+      "closeRelativeToSupportPct": 1.508185981498933,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TJX",
+      "date": "2020-02-25",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 54.944857,
+      "d0OpenAdjusted": 57.014949,
+      "d0HighAdjusted": 57.152955,
+      "d0LowAdjusted": 54.852853,
+      "shockPct": -3.287448510487301,
+      "rvol20": 1.8670407624701824,
+      "supportAdjusted": 53.935875,
+      "pivotA": {
+        "index": 66,
+        "date": "2019-12-05",
+        "low": 54.247537
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2020-01-31",
+        "low": 53.935875
+      },
+      "closeRelativeToSupportPct": 1.8707066493312663,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ALL",
+      "date": "2020-02-27",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 93.766399,
+      "d0OpenAdjusted": 97.750106,
+      "d0HighAdjusted": 98.125445,
+      "d0LowAdjusted": 93.723747,
+      "shockPct": -5.020306652252538,
+      "rvol20": 1.3906678177485534,
+      "supportAdjusted": 92.921888,
+      "pivotA": {
+        "index": 69,
+        "date": "2019-12-12",
+        "low": 92.921888
+      },
+      "pivotB": {
+        "index": 74,
+        "date": "2019-12-19",
+        "low": 92.96454
+      },
+      "closeRelativeToSupportPct": 0.9088396912469321,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "CME",
+      "date": "2020-02-27",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 163.023703,
+      "d0OpenAdjusted": 170.780095,
+      "d0HighAdjusted": 174.623422,
+      "d0LowAdjusted": 162.899725,
+      "shockPct": -4.44636227293741,
+      "rvol20": 2.1949603948432133,
+      "supportAdjusted": 157.173478,
+      "pivotA": {
+        "index": 19,
+        "date": "2019-10-02",
+        "low": 157.75667
+      },
+      "pivotB": {
+        "index": 89,
+        "date": "2020-01-13",
+        "low": 157.173478
+      },
+      "closeRelativeToSupportPct": 3.7221451573401065,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ITW",
+      "date": "2020-02-27",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 144.975002,
+      "d0OpenAdjusted": 146.781544,
+      "d0HighAdjusted": 150.803656,
+      "d0LowAdjusted": 144.557452,
+      "shockPct": -3.329734645643101,
+      "rvol20": 1.5533440621504044,
+      "supportAdjusted": 144.931807,
+      "pivotA": {
+        "index": 54,
+        "date": "2019-11-20",
+        "low": 144.931807
+      },
+      "pivotB": {
+        "index": 98,
+        "date": "2020-01-27",
+        "low": 145.188037
+      },
+      "closeRelativeToSupportPct": 0.029803671736461368,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TJX",
+      "date": "2020-02-27",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 55.312873,
+      "d0OpenAdjusted": 56.821741,
+      "d0HighAdjusted": 58.60662,
+      "d0LowAdjusted": 55.257671,
+      "shockPct": -6.047819668471166,
+      "rvol20": 2.4221514182493324,
+      "supportAdjusted": 53.935875,
+      "pivotA": {
+        "index": 64,
+        "date": "2019-12-05",
+        "low": 54.247537
+      },
+      "pivotB": {
+        "index": 102,
+        "date": "2020-01-31",
+        "low": 53.935875
+      },
+      "closeRelativeToSupportPct": 2.553028017066561,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TROW",
+      "date": "2020-02-27",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 89.767458,
+      "d0OpenAdjusted": 92.778683,
+      "d0HighAdjusted": 93.85733,
+      "d0LowAdjusted": 89.707533,
+      "shockPct": -5.347128700761072,
+      "rvol20": 1.6954066440623772,
+      "supportAdjusted": 88.44145,
+      "pivotA": {
+        "index": 55,
+        "date": "2019-11-21",
+        "low": 88.44145
+      },
+      "pivotB": {
+        "index": 62,
+        "date": "2019-12-03",
+        "low": 88.553128
+      },
+      "closeRelativeToSupportPct": 1.4993060380624756,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "VRTX",
+      "date": "2020-02-27",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 223.3,
+      "d0OpenAdjusted": 228.48,
+      "d0HighAdjusted": 231.63,
+      "d0LowAdjusted": 218.01,
+      "shockPct": -3.766591966902255,
+      "rvol20": 1.248480571459262,
+      "supportAdjusted": 223.01,
+      "pivotA": {
+        "index": 89,
+        "date": "2020-01-13",
+        "low": 224.56
+      },
+      "pivotB": {
+        "index": 102,
+        "date": "2020-01-31",
+        "low": 223.01
+      },
+      "closeRelativeToSupportPct": 0.13003901170351995,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "WING",
+      "date": "2020-02-27",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 76.823273,
+      "d0OpenAdjusted": 79.21697,
+      "d0HighAdjusted": 79.558927,
+      "d0LowAdjusted": 76.319337,
+      "shockPct": -4.76349905319835,
+      "rvol20": 1.6652788188661745,
+      "supportAdjusted": 75.99698,
+      "pivotA": {
+        "index": 19,
+        "date": "2019-10-02",
+        "low": 75.99698
+      },
+      "pivotB": {
+        "index": 92,
+        "date": "2020-01-16",
+        "low": 76.670292
+      },
+      "closeRelativeToSupportPct": 1.0872708362885009,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2020-02-28",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 14.17,
+      "d0OpenAdjusted": 13.86,
+      "d0HighAdjusted": 14.28,
+      "d0LowAdjusted": 13.63,
+      "shockPct": -3.3424283765347895,
+      "rvol20": 1.432984729141719,
+      "supportAdjusted": 13.96,
+      "pivotA": {
+        "index": 46,
+        "date": "2019-11-11",
+        "low": 13.96
+      },
+      "pivotB": {
+        "index": 67,
+        "date": "2019-12-11",
+        "low": 13.96
+      },
+      "closeRelativeToSupportPct": 1.5042979942693435,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TJX",
+      "date": "2020-03-05",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 54.806851,
+      "d0OpenAdjusted": 55.662489,
+      "d0HighAdjusted": 56.619332,
+      "d0LowAdjusted": 54.457235,
+      "shockPct": -4.335956167047772,
+      "rvol20": 1.3937852741910528,
+      "supportAdjusted": 53.935875,
+      "pivotA": {
+        "index": 59,
+        "date": "2019-12-05",
+        "low": 54.247537
+      },
+      "pivotB": {
+        "index": 97,
+        "date": "2020-01-31",
+        "low": 53.935875
+      },
+      "closeRelativeToSupportPct": 1.6148361364305197,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TROW",
+      "date": "2020-03-05",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 91.39292,
+      "d0OpenAdjusted": 93.662575,
+      "d0HighAdjusted": 93.804896,
+      "d0LowAdjusted": 89.856971,
+      "shockPct": -5.242311225339725,
+      "rvol20": 1.4246848991737175,
+      "supportAdjusted": 88.44145,
+      "pivotA": {
+        "index": 50,
+        "date": "2019-11-21",
+        "low": 88.44145
+      },
+      "pivotB": {
+        "index": 57,
+        "date": "2019-12-03",
+        "low": 88.553128
+      },
+      "closeRelativeToSupportPct": 3.3372021829131127,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DECK",
+      "date": "2020-03-09",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 27.0016672067,
+      "d0OpenAdjusted": 26.9216672051,
+      "d0HighAdjusted": 28.0516672277,
+      "d0LowAdjusted": 25.226383837861,
+      "shockPct": -6.151885535538448,
+      "rvol20": 1.2614093628240757,
+      "supportAdjusted": 26.4800005296,
+      "pivotA": {
+        "index": 55,
+        "date": "2019-12-03",
+        "low": 26.4800005296
+      },
+      "pivotB": {
+        "index": 62,
+        "date": "2019-12-12",
+        "low": 26.6350005327
+      },
+      "closeRelativeToSupportPct": 1.970040281973806,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2020-03-09",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 66.15,
+      "d0OpenAdjusted": 67.42,
+      "d0HighAdjusted": 69.32,
+      "d0LowAdjusted": 63.15,
+      "shockPct": -8.086702792830335,
+      "rvol20": 1.4864943956350334,
+      "supportAdjusted": 64.13,
+      "pivotA": {
+        "index": 61,
+        "date": "2019-12-11",
+        "low": 64.13
+      },
+      "pivotB": {
+        "index": 74,
+        "date": "2019-12-31",
+        "low": 64.6039
+      },
+      "closeRelativeToSupportPct": 3.1498518634024864,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "MCO",
+      "date": "2020-03-09",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 199.643695,
+      "d0OpenAdjusted": 206.555713,
+      "d0HighAdjusted": 211.848615,
+      "d0LowAdjusted": 198.27076,
+      "shockPct": -11.582169745176895,
+      "rvol20": 2.115566048296274,
+      "supportAdjusted": 197.750364,
+      "pivotA": {
+        "index": 27,
+        "date": "2019-10-23",
+        "low": 197.750364
+      },
+      "pivotB": {
+        "index": 36,
+        "date": "2019-11-05",
+        "low": 199.400248
+      },
+      "closeRelativeToSupportPct": 0.9574349000945448,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "MDB",
+      "date": "2020-03-09",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 127.85,
+      "d0OpenAdjusted": 139.65,
+      "d0HighAdjusted": 139.65,
+      "d0LowAdjusted": 125,
+      "shockPct": -14.829125308107404,
+      "rvol20": 1.2252932067920546,
+      "supportAdjusted": 126.08,
+      "pivotA": {
+        "index": 17,
+        "date": "2019-10-09",
+        "low": 126.44
+      },
+      "pivotB": {
+        "index": 75,
+        "date": "2020-01-02",
+        "low": 126.08
+      },
+      "closeRelativeToSupportPct": 1.4038705583756306,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2020-03-11",
+      "year": 2020,
+      "quarter": "2020Q1",
+      "d0CloseAdjusted": 50.23,
+      "d0OpenAdjusted": 56.55,
+      "d0HighAdjusted": 56.97,
+      "d0LowAdjusted": 49.805,
+      "shockPct": -13.351733655338972,
+      "rvol20": 1.7189317627780942,
+      "supportAdjusted": 48.48,
+      "pivotA": {
+        "index": 93,
+        "date": "2020-01-31",
+        "low": 48.48
+      },
+      "pivotB": {
+        "index": 98,
+        "date": "2020-02-07",
+        "low": 48.6
+      },
+      "closeRelativeToSupportPct": 3.60973597359735,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "BIIB",
+      "date": "2020-04-22",
+      "year": 2020,
+      "quarter": "2020Q2",
+      "d0CloseAdjusted": 298.01,
+      "d0OpenAdjusted": 302.75,
+      "d0HighAdjusted": 306.99,
+      "d0LowAdjusted": 289.02,
+      "shockPct": -9.42220601197532,
+      "rvol20": 3.1515602134138936,
+      "supportAdjusted": 287.81,
+      "pivotA": {
+        "index": 48,
+        "date": "2020-01-08",
+        "low": 287.81
+      },
+      "pivotB": {
+        "index": 107,
+        "date": "2020-04-02",
+        "low": 290
+      },
+      "closeRelativeToSupportPct": 3.5440047253396223,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "CME",
+      "date": "2020-05-27",
+      "year": 2020,
+      "quarter": "2020Q2",
+      "d0CloseAdjusted": 137.326553,
+      "d0OpenAdjusted": 143.689955,
+      "d0HighAdjusted": 144.600123,
+      "d0LowAdjusted": 133.850954,
+      "shockPct": -3.255329584776012,
+      "rvol20": 2.2784129148383667,
+      "supportAdjusted": 132.76443,
+      "pivotA": {
+        "index": 95,
+        "date": "2020-04-21",
+        "low": 132.970191
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2020-05-04",
+        "low": 132.76443
+      },
+      "closeRelativeToSupportPct": 3.436253972543679,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AMGN",
+      "date": "2020-06-11",
+      "year": 2020,
+      "quarter": "2020Q2",
+      "d0CloseAdjusted": 180.815283,
+      "d0OpenAdjusted": 188.381605,
+      "d0HighAdjusted": 189.802356,
+      "d0LowAdjusted": 180.625299,
+      "shockPct": -3.61923170679731,
+      "rvol20": 1.2767629045968294,
+      "supportAdjusted": 179.629947,
+      "pivotA": {
+        "index": 25,
+        "date": "2020-01-27",
+        "low": 180.183041
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2020-05-27",
+        "low": 179.629947
+      },
+      "closeRelativeToSupportPct": 0.6598766073231621,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "CME",
+      "date": "2020-06-11",
+      "year": 2020,
+      "quarter": "2020Q2",
+      "d0CloseAdjusted": 136.101756,
+      "d0OpenAdjusted": 145.032995,
+      "d0HighAdjusted": 145.142389,
+      "d0LowAdjusted": 135.976735,
+      "shockPct": -7.694753621960948,
+      "rvol20": 1.5095327897634472,
+      "supportAdjusted": 132.76443,
+      "pivotA": {
+        "index": 93,
+        "date": "2020-05-04",
+        "low": 132.76443
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2020-05-27",
+        "low": 133.850954
+      },
+      "closeRelativeToSupportPct": 2.513719977557227,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2020-06-11",
+      "year": 2020,
+      "quarter": "2020Q2",
+      "d0CloseAdjusted": 352.491172,
+      "d0OpenAdjusted": 366.041992,
+      "d0HighAdjusted": 366.041992,
+      "d0LowAdjusted": 347.046309,
+      "shockPct": -4.832997842125297,
+      "rvol20": 1.2973927564258747,
+      "supportAdjusted": 339.204574,
+      "pivotA": {
+        "index": 9,
+        "date": "2020-01-02",
+        "low": 339.49851
+      },
+      "pivotB": {
+        "index": 89,
+        "date": "2020-04-28",
+        "low": 339.204574
+      },
+      "closeRelativeToSupportPct": 3.91698668544489,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "FANG",
+      "date": "2020-06-24",
+      "year": 2020,
+      "quarter": "2020Q2",
+      "d0CloseAdjusted": 30.70739,
+      "d0OpenAdjusted": 33.345734,
+      "d0HighAdjusted": 33.345734,
+      "d0LowAdjusted": 30.597459,
+      "shockPct": -9.522783604476725,
+      "rvol20": 1.4644820388436428,
+      "supportAdjusted": 30.326296,
+      "pivotA": {
+        "index": 98,
+        "date": "2020-05-22",
+        "low": 30.326296
+      },
+      "pivotB": {
+        "index": 103,
+        "date": "2020-06-01",
+        "low": 30.326296
+      },
+      "closeRelativeToSupportPct": 1.2566453878838368,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "BIIB",
+      "date": "2020-08-19",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 279.98,
+      "d0OpenAdjusted": 284.8,
+      "d0HighAdjusted": 286.95,
+      "d0LowAdjusted": 279.46,
+      "shockPct": -3.080864026585428,
+      "rvol20": 1.2362860413404186,
+      "supportAdjusted": 269.31,
+      "pivotA": {
+        "index": 102,
+        "date": "2020-07-24",
+        "low": 270.662
+      },
+      "pivotB": {
+        "index": 107,
+        "date": "2020-07-31",
+        "low": 269.31
+      },
+      "closeRelativeToSupportPct": 3.9619769039397124,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EBAY",
+      "date": "2020-08-28",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 48.981661,
+      "d0OpenAdjusted": 50.777746,
+      "d0HighAdjusted": 50.777746,
+      "d0LowAdjusted": 48.783099,
+      "shockPct": -3.6228037792589096,
+      "rvol20": 1.7840050407261165,
+      "supportAdjusted": 48.431103,
+      "pivotA": {
+        "index": 98,
+        "date": "2020-07-29",
+        "low": 48.431103
+      },
+      "pivotB": {
+        "index": 107,
+        "date": "2020-08-11",
+        "low": 48.467205
+      },
+      "closeRelativeToSupportPct": 1.1367860029948051,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2020-08-31",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 28.6,
+      "d0OpenAdjusted": 29.32,
+      "d0HighAdjusted": 29.44,
+      "d0LowAdjusted": 28.46,
+      "shockPct": -3.001526199762583,
+      "rvol20": 1.7214778711135021,
+      "supportAdjusted": 28.1,
+      "pivotA": {
+        "index": 88,
+        "date": "2020-07-16",
+        "low": 28.26
+      },
+      "pivotB": {
+        "index": 94,
+        "date": "2020-07-24",
+        "low": 28.1
+      },
+      "closeRelativeToSupportPct": 1.7793594306049876,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2020-09-03",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 103.2375,
+      "d0OpenAdjusted": 109,
+      "d0HighAdjusted": 111.615,
+      "d0LowAdjusted": 102.25,
+      "shockPct": -7.763954345446833,
+      "rvol20": 2.2522714192304685,
+      "supportAdjusted": 100.6625,
+      "pivotA": {
+        "index": 91,
+        "date": "2020-07-24",
+        "low": 100.6625
+      },
+      "pivotB": {
+        "index": 103,
+        "date": "2020-08-11",
+        "low": 100.7875
+      },
+      "closeRelativeToSupportPct": 2.5580528995405416,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2020-09-03",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 28.7,
+      "d0OpenAdjusted": 30.49,
+      "d0HighAdjusted": 30.72,
+      "d0LowAdjusted": 28.33,
+      "shockPct": -7.329673877946396,
+      "rvol20": 1.3709036337352358,
+      "supportAdjusted": 28.1,
+      "pivotA": {
+        "index": 85,
+        "date": "2020-07-16",
+        "low": 28.26
+      },
+      "pivotB": {
+        "index": 91,
+        "date": "2020-07-24",
+        "low": 28.1
+      },
+      "closeRelativeToSupportPct": 2.1352313167259718,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "VRTX",
+      "date": "2020-09-03",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 267.42,
+      "d0OpenAdjusted": 281.86,
+      "d0HighAdjusted": 281.86,
+      "d0LowAdjusted": 265.25,
+      "shockPct": -5.133207988931843,
+      "rvol20": 1.4798178835588398,
+      "supportAdjusted": 261.3,
+      "pivotA": {
+        "index": 63,
+        "date": "2020-06-15",
+        "low": 262.24
+      },
+      "pivotB": {
+        "index": 103,
+        "date": "2020-08-11",
+        "low": 261.3
+      },
+      "closeRelativeToSupportPct": 2.342135476463847,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DPZ",
+      "date": "2020-09-04",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 349.728004,
+      "d0OpenAdjusted": 364.200392,
+      "d0HighAdjusted": 367.488738,
+      "d0LowAdjusted": 344.708558,
+      "shockPct": -3.9471698454188187,
+      "rvol20": 1.7344364717639877,
+      "supportAdjusted": 344.933705,
+      "pivotA": {
+        "index": 90,
+        "date": "2020-07-24",
+        "low": 344.933705
+      },
+      "pivotB": {
+        "index": 95,
+        "date": "2020-07-31",
+        "low": 346.196924
+      },
+      "closeRelativeToSupportPct": 1.3899189700815162,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "GD",
+      "date": "2020-09-08",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 128.090082,
+      "d0OpenAdjusted": 130.547989,
+      "d0HighAdjusted": 131.21912,
+      "d0LowAdjusted": 127.776307,
+      "shockPct": -3.12458814362796,
+      "rvol20": 1.514538180706412,
+      "supportAdjusted": 125.036313,
+      "pivotA": {
+        "index": 61,
+        "date": "2020-06-15",
+        "low": 125.036313
+      },
+      "pivotB": {
+        "index": 95,
+        "date": "2020-08-03",
+        "low": 125.789063
+      },
+      "closeRelativeToSupportPct": 2.442305700424785,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ON",
+      "date": "2020-09-08",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 20.93,
+      "d0OpenAdjusted": 21.77,
+      "d0HighAdjusted": 21.99,
+      "d0LowAdjusted": 20.91,
+      "shockPct": -7.716049382716051,
+      "rvol20": 1.940844548018771,
+      "supportAdjusted": 20.27,
+      "pivotA": {
+        "index": 93,
+        "date": "2020-07-30",
+        "low": 20.27
+      },
+      "pivotB": {
+        "index": 99,
+        "date": "2020-08-07",
+        "low": 20.45
+      },
+      "closeRelativeToSupportPct": 3.2560434139121908,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "HCA",
+      "date": "2020-09-18",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 125.97669,
+      "d0OpenAdjusted": 129.729795,
+      "d0HighAdjusted": 130.391827,
+      "d0LowAdjusted": 125.824279,
+      "shockPct": -3.56569877270998,
+      "rvol20": 1.3112400120023622,
+      "supportAdjusted": 123.461919,
+      "pivotA": {
+        "index": 95,
+        "date": "2020-08-13",
+        "low": 123.461919
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2020-08-26",
+        "low": 123.738162
+      },
+      "closeRelativeToSupportPct": 2.036879890065535,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LHX",
+      "date": "2020-09-21",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 157.745054,
+      "d0OpenAdjusted": 161.227207,
+      "d0HighAdjusted": 162.692909,
+      "d0LowAdjusted": 157.052177,
+      "shockPct": -4.119648086497907,
+      "rvol20": 1.2480547835597269,
+      "supportAdjusted": 156.627054,
+      "pivotA": {
+        "index": 100,
+        "date": "2020-08-21",
+        "low": 157.378581
+      },
+      "pivotB": {
+        "index": 107,
+        "date": "2020-09-01",
+        "low": 156.627054
+      },
+      "closeRelativeToSupportPct": 0.7137975026970889,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LMT",
+      "date": "2020-09-21",
+      "year": 2020,
+      "quarter": "2020Q3",
+      "d0CloseAdjusted": 322.737939,
+      "d0OpenAdjusted": 330.296065,
+      "d0HighAdjusted": 331.457245,
+      "d0LowAdjusted": 320.714504,
+      "shockPct": -3.9302526322457343,
+      "rvol20": 1.349675629739504,
+      "supportAdjusted": 313.87607,
+      "pivotA": {
+        "index": 23,
+        "date": "2020-05-04",
+        "low": 314.244866
+      },
+      "pivotB": {
+        "index": 86,
+        "date": "2020-08-03",
+        "low": 313.87607
+      },
+      "closeRelativeToSupportPct": 2.8233656041379396,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2020-10-02",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 96.13,
+      "d0OpenAdjusted": 99.2475,
+      "d0HighAdjusted": 100.4,
+      "d0LowAdjusted": 94.7775,
+      "shockPct": -7.084863715445577,
+      "rvol20": 1.66216593729668,
+      "supportAdjusted": 93.905,
+      "pivotA": {
+        "index": 101,
+        "date": "2020-09-04",
+        "low": 94.3375
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2020-09-17",
+        "low": 93.905
+      },
+      "closeRelativeToSupportPct": 2.3694158990469116,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AMGN",
+      "date": "2020-10-08",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 199.647032,
+      "d0OpenAdjusted": 207.280669,
+      "d0HighAdjusted": 207.937594,
+      "d0LowAdjusted": 198.740642,
+      "shockPct": -6.822680565721539,
+      "rvol20": 2.2003732184391014,
+      "supportAdjusted": 197.743855,
+      "pivotA": {
+        "index": 72,
+        "date": "2020-07-31",
+        "low": 197.743855
+      },
+      "pivotB": {
+        "index": 100,
+        "date": "2020-09-10",
+        "low": 198.657487
+      },
+      "closeRelativeToSupportPct": 0.9624455839601254,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "MPC",
+      "date": "2020-10-19",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 24.15151,
+      "d0OpenAdjusted": 25.126119,
+      "d0HighAdjusted": 25.22871,
+      "d0LowAdjusted": 24.083116,
+      "shockPct": -3.813414310338903,
+      "rvol20": 1.261124661334742,
+      "supportAdjusted": 23.570164,
+      "pivotA": {
+        "index": 3,
+        "date": "2020-05-04",
+        "low": 23.617889
+      },
+      "pivotB": {
+        "index": 103,
+        "date": "2020-09-24",
+        "low": 23.570164
+      },
+      "closeRelativeToSupportPct": 2.4664486848712697,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AFL",
+      "date": "2020-10-27",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 30.793193,
+      "d0OpenAdjusted": 31.942713,
+      "d0HighAdjusted": 31.951422,
+      "d0LowAdjusted": 30.784485,
+      "shockPct": -3.834647847235939,
+      "rvol20": 1.3402701298562028,
+      "supportAdjusted": 30.21729,
+      "pivotA": {
+        "index": 58,
+        "date": "2020-07-30",
+        "low": 30.21729
+      },
+      "pivotB": {
+        "index": 97,
+        "date": "2020-09-24",
+        "low": 30.405666
+      },
+      "closeRelativeToSupportPct": 1.905872432637068,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2020-10-27",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 95.1575,
+      "d0OpenAdjusted": 98.8075,
+      "d0HighAdjusted": 99.5,
+      "d0LowAdjusted": 95.0275,
+      "shockPct": -8.940191387559814,
+      "rvol20": 3.7430354830375014,
+      "supportAdjusted": 93.3525,
+      "pivotA": {
+        "index": 98,
+        "date": "2020-09-25",
+        "low": 94.1925
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2020-10-06",
+        "low": 93.3525
+      },
+      "closeRelativeToSupportPct": 1.933531506922681,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "RTX",
+      "date": "2020-10-27",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 49.502511,
+      "d0OpenAdjusted": 52.339733,
+      "d0HighAdjusted": 52.366004,
+      "d0LowAdjusted": 49.4237,
+      "shockPct": -7.038316636822161,
+      "rvol20": 2.278642160490249,
+      "supportAdjusted": 49.336131,
+      "pivotA": {
+        "index": 98,
+        "date": "2020-09-25",
+        "low": 49.336131
+      },
+      "pivotB": {
+        "index": 103,
+        "date": "2020-10-02",
+        "low": 49.484998
+      },
+      "closeRelativeToSupportPct": 0.3372376321929105,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2020-10-29",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 375.605814,
+      "d0OpenAdjusted": 389.957885,
+      "d0HighAdjusted": 391.936502,
+      "d0LowAdjusted": 375.35967,
+      "shockPct": -3.9927405525871484,
+      "rvol20": 2.5121009149762745,
+      "supportAdjusted": 361.75966,
+      "pivotA": {
+        "index": 86,
+        "date": "2020-09-11",
+        "low": 365.169662
+      },
+      "pivotB": {
+        "index": 95,
+        "date": "2020-09-24",
+        "low": 361.75966
+      },
+      "closeRelativeToSupportPct": 3.827445547687658,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EBAY",
+      "date": "2020-10-30",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 43.115811,
+      "d0OpenAdjusted": 44.147766,
+      "d0HighAdjusted": 44.482699,
+      "d0LowAdjusted": 42.536468,
+      "shockPct": -3.348213595197258,
+      "rvol20": 1.6299046315831403,
+      "supportAdjusted": 42.799159,
+      "pivotA": {
+        "index": 27,
+        "date": "2020-06-19",
+        "low": 42.799159
+      },
+      "pivotB": {
+        "index": 89,
+        "date": "2020-09-17",
+        "low": 42.943818
+      },
+      "closeRelativeToSupportPct": 0.7398556593132932,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DPZ",
+      "date": "2020-11-09",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 345.592971,
+      "d0OpenAdjusted": 355.376588,
+      "d0HighAdjusted": 357.473733,
+      "d0LowAdjusted": 338.865587,
+      "shockPct": -5.82718514633428,
+      "rvol20": 2.1765542658572996,
+      "supportAdjusted": 344.506952,
+      "pivotA": {
+        "index": 50,
+        "date": "2020-07-31",
+        "low": 346.196924
+      },
+      "pivotB": {
+        "index": 76,
+        "date": "2020-09-08",
+        "low": 344.506952
+      },
+      "closeRelativeToSupportPct": 0.3152386312366584,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EBAY",
+      "date": "2020-11-09",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 43.740415,
+      "d0OpenAdjusted": 43.450744,
+      "d0HighAdjusted": 44.582274,
+      "d0LowAdjusted": 42.409736,
+      "shockPct": -4.675479531835958,
+      "rvol20": 2.167333000416117,
+      "supportAdjusted": 42.799159,
+      "pivotA": {
+        "index": 21,
+        "date": "2020-06-19",
+        "low": 42.799159
+      },
+      "pivotB": {
+        "index": 83,
+        "date": "2020-09-17",
+        "low": 42.943818
+      },
+      "closeRelativeToSupportPct": 2.1992394757102574,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LULU",
+      "date": "2020-11-09",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 326.96,
+      "d0OpenAdjusted": 351.5,
+      "d0HighAdjusted": 353.93,
+      "d0LowAdjusted": 326.65,
+      "shockPct": -4.898196625945328,
+      "rvol20": 1.548305130708543,
+      "supportAdjusted": 316.48,
+      "pivotA": {
+        "index": 49,
+        "date": "2020-07-30",
+        "low": 316.99
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2020-10-22",
+        "low": 316.48
+      },
+      "closeRelativeToSupportPct": 3.311425682507574,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SPGI",
+      "date": "2020-12-01",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 342.178249,
+      "d0OpenAdjusted": 361.020979,
+      "d0HighAdjusted": 361.020979,
+      "d0LowAdjusted": 340.822105,
+      "shockPct": -4.963329274983619,
+      "rvol20": 1.85259873029509,
+      "supportAdjusted": 340.772952,
+      "pivotA": {
+        "index": 61,
+        "date": "2020-09-08",
+        "low": 342.24387
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2020-11-10",
+        "low": 340.772952
+      },
+      "closeRelativeToSupportPct": 0.4123851355432695,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SWKS",
+      "date": "2020-12-11",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 119.500217,
+      "d0OpenAdjusted": 123.499578,
+      "d0HighAdjusted": 123.971606,
+      "d0LowAdjusted": 118.959531,
+      "shockPct": -4.328707422579303,
+      "rvol20": 1.7757948996805781,
+      "supportAdjusted": 115.243387,
+      "pivotA": {
+        "index": 93,
+        "date": "2020-11-03",
+        "low": 115.312987
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2020-11-25",
+        "low": 115.243387
+      },
+      "closeRelativeToSupportPct": 3.6937737694224593,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DPZ",
+      "date": "2020-12-29",
+      "year": 2020,
+      "quarter": "2020Q4",
+      "d0CloseAdjusted": 353.480079,
+      "d0OpenAdjusted": 366.980671,
+      "d0HighAdjusted": 367.863544,
+      "d0LowAdjusted": 351.700539,
+      "shockPct": -3.95322127300467,
+      "rvol20": 1.7621373991668752,
+      "supportAdjusted": 348.227022,
+      "pivotA": {
+        "index": 97,
+        "date": "2020-11-24",
+        "low": 348.3188
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2020-12-10",
+        "low": 348.227022
+      },
+      "closeRelativeToSupportPct": 1.5085150399385183,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "FAST",
+      "date": "2021-01-20",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 21.231326,
+      "d0OpenAdjusted": 21.798076,
+      "d0HighAdjusted": 22.011697,
+      "d0LowAdjusted": 20.804084,
+      "shockPct": -3.4113455237616885,
+      "rvol20": 2.2193663308926954,
+      "supportAdjusted": 20.573024,
+      "pivotA": {
+        "index": 95,
+        "date": "2020-12-11",
+        "low": 20.751768
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2021-01-04",
+        "low": 20.573024
+      },
+      "closeRelativeToSupportPct": 3.199831001995612,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "HUBS",
+      "date": "2021-01-26",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 372.36,
+      "d0OpenAdjusted": 386,
+      "d0HighAdjusted": 392.12,
+      "d0LowAdjusted": 370.2,
+      "shockPct": -3.0943396226415065,
+      "rvol20": 1.5591565445431945,
+      "supportAdjusted": 368.9,
+      "pivotA": {
+        "index": 92,
+        "date": "2020-12-14",
+        "low": 370.3586
+      },
+      "pivotB": {
+        "index": 107,
+        "date": "2021-01-06",
+        "low": 368.9
+      },
+      "closeRelativeToSupportPct": 0.9379235565193822,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LNG",
+      "date": "2021-01-26",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 57.711555,
+      "d0OpenAdjusted": 61.840605,
+      "d0HighAdjusted": 62.087967,
+      "d0LowAdjusted": 57.6735,
+      "shockPct": -6.576312914265059,
+      "rvol20": 1.574972346886433,
+      "supportAdjusted": 55.571014,
+      "pivotA": {
+        "index": 92,
+        "date": "2020-12-14",
+        "low": 55.571014
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2021-01-04",
+        "low": 55.903907
+      },
+      "closeRelativeToSupportPct": 3.8519020005645332,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ROK",
+      "date": "2021-01-26",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 222.213579,
+      "d0OpenAdjusted": 232.249324,
+      "d0HighAdjusted": 233.794683,
+      "d0LowAdjusted": 221.813603,
+      "shockPct": -6.287138120871916,
+      "rvol20": 4.126602308341486,
+      "supportAdjusted": 220.627313,
+      "pivotA": {
+        "index": 96,
+        "date": "2020-12-18",
+        "low": 220.627313
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2021-01-05",
+        "low": 222.25903
+      },
+      "closeRelativeToSupportPct": 0.7189798844171369,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "BMY",
+      "date": "2021-01-27",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 49.26587,
+      "d0OpenAdjusted": 50.751313,
+      "d0HighAdjusted": 50.751313,
+      "d0LowAdjusted": 49.170548,
+      "shockPct": -3.7554313290279695,
+      "rvol20": 1.2656206085213761,
+      "supportAdjusted": 47.918505,
+      "pivotA": {
+        "index": 100,
+        "date": "2020-12-28",
+        "low": 47.918505
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2021-01-05",
+        "low": 48.030649
+      },
+      "closeRelativeToSupportPct": 2.8117842991971287,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "GAP",
+      "date": "2021-01-27",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 15.7372,
+      "d0OpenAdjusted": 17.315753,
+      "d0HighAdjusted": 17.31978,
+      "d0LowAdjusted": 15.584177,
+      "shockPct": -10.449133683057354,
+      "rvol20": 2.2600528907000785,
+      "supportAdjusted": 15.382832,
+      "pivotA": {
+        "index": 61,
+        "date": "2020-10-30",
+        "low": 15.390885
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2021-01-04",
+        "low": 15.382832
+      },
+      "closeRelativeToSupportPct": 2.3036590401559254,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2021-01-27",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 64.67,
+      "d0OpenAdjusted": 65.52,
+      "d0HighAdjusted": 68.87,
+      "d0LowAdjusted": 62.15,
+      "shockPct": -6.6002310803004,
+      "rvol20": 1.8424068976720394,
+      "supportAdjusted": 64.5,
+      "pivotA": {
+        "index": 83,
+        "date": "2020-12-02",
+        "low": 65.0101
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2021-01-04",
+        "low": 64.5
+      },
+      "closeRelativeToSupportPct": 0.26356589147287224,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "VRTX",
+      "date": "2021-01-27",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 225.25,
+      "d0OpenAdjusted": 234,
+      "d0HighAdjusted": 234,
+      "d0LowAdjusted": 224.7,
+      "shockPct": -5.213768725803735,
+      "rvol20": 1.5781097323948776,
+      "supportAdjusted": 220.93,
+      "pivotA": {
+        "index": 90,
+        "date": "2020-12-11",
+        "low": 220.93
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2021-01-06",
+        "low": 222.31
+      },
+      "closeRelativeToSupportPct": 1.9553704793373372,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2021-02-22",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 166.78,
+      "d0OpenAdjusted": 186.28,
+      "d0HighAdjusted": 187.5,
+      "d0LowAdjusted": 165.885,
+      "shockPct": -12.437654223762273,
+      "rvol20": 2.840653165082403,
+      "supportAdjusted": 163.71,
+      "pivotA": {
+        "index": 89,
+        "date": "2021-01-06",
+        "low": 163.71
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2021-02-04",
+        "low": 164.41
+      },
+      "closeRelativeToSupportPct": 1.8752672408527182,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PODD",
+      "date": "2021-03-03",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 253.1,
+      "d0OpenAdjusted": 263.92,
+      "d0HighAdjusted": 265.8,
+      "d0LowAdjusted": 249.3,
+      "shockPct": -4.817419427625902,
+      "rvol20": 1.4468819513918365,
+      "supportAdjusted": 244.53,
+      "pivotA": {
+        "index": 56,
+        "date": "2020-11-27",
+        "low": 246.91
+      },
+      "pivotB": {
+        "index": 80,
+        "date": "2021-01-04",
+        "low": 244.53
+      },
+      "closeRelativeToSupportPct": 3.504682452050867,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TJX",
+      "date": "2021-03-03",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 58.791351,
+      "d0OpenAdjusted": 60.675334,
+      "d0HighAdjusted": 60.970861,
+      "d0LowAdjusted": 58.689764,
+      "shockPct": -3.851382413302651,
+      "rvol20": 1.4203731944960425,
+      "supportAdjusted": 56.858542,
+      "pivotA": {
+        "index": 57,
+        "date": "2020-11-30",
+        "low": 56.858542
+      },
+      "pivotB": {
+        "index": 96,
+        "date": "2021-01-27",
+        "low": 57.26336
+      },
+      "closeRelativeToSupportPct": 3.399329163241638,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2021-03-04",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 89.0675,
+      "d0OpenAdjusted": 91.97,
+      "d0HighAdjusted": 92.945,
+      "d0LowAdjusted": 88.035,
+      "shockPct": -3.371304583672363,
+      "rvol20": 1.2691126664502328,
+      "supportAdjusted": 86.8975,
+      "pivotA": {
+        "index": 88,
+        "date": "2021-01-15",
+        "low": 86.8975
+      },
+      "pivotB": {
+        "index": 95,
+        "date": "2021-01-27",
+        "low": 87.25
+      },
+      "closeRelativeToSupportPct": 2.497194971086625,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ENTG",
+      "date": "2021-03-04",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 95.234948,
+      "d0OpenAdjusted": 98.976951,
+      "d0HighAdjusted": 99.790004,
+      "d0LowAdjusted": 92.580282,
+      "shockPct": -4.517776912759808,
+      "rvol20": 1.3255478700422048,
+      "supportAdjusted": 92.247224,
+      "pivotA": {
+        "index": 71,
+        "date": "2020-12-21",
+        "low": 92.267367
+      },
+      "pivotB": {
+        "index": 102,
+        "date": "2021-02-05",
+        "low": 92.247224
+      },
+      "closeRelativeToSupportPct": 3.2388226663601305,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2021-03-04",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 166.13,
+      "d0OpenAdjusted": 172.78,
+      "d0HighAdjusted": 175.59,
+      "d0LowAdjusted": 164.43,
+      "shockPct": -5.014293882218412,
+      "rvol20": 1.6169681152653432,
+      "supportAdjusted": 163.71,
+      "pivotA": {
+        "index": 81,
+        "date": "2021-01-06",
+        "low": 163.71
+      },
+      "pivotB": {
+        "index": 101,
+        "date": "2021-02-04",
+        "low": 164.41
+      },
+      "closeRelativeToSupportPct": 1.4782236882291855,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TER",
+      "date": "2021-03-04",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 111.638917,
+      "d0OpenAdjusted": 118.525129,
+      "d0HighAdjusted": 118.965925,
+      "d0LowAdjusted": 109.033323,
+      "shockPct": -6.189809988574679,
+      "rvol20": 1.6181480215483919,
+      "supportAdjusted": 109.900711,
+      "pivotA": {
+        "index": 64,
+        "date": "2020-12-10",
+        "low": 109.900711
+      },
+      "pivotB": {
+        "index": 97,
+        "date": "2021-01-29",
+        "low": 110.648449
+      },
+      "closeRelativeToSupportPct": 1.5816148814542297,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "OKTA",
+      "date": "2021-03-05",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 215.96,
+      "d0OpenAdjusted": 228.5,
+      "d0HighAdjusted": 228.51,
+      "d0LowAdjusted": 199.0801,
+      "shockPct": -4.5354080099018645,
+      "rvol20": 4.637212816553215,
+      "supportAdjusted": 214.015,
+      "pivotA": {
+        "index": 30,
+        "date": "2020-10-23",
+        "low": 214.6906
+      },
+      "pivotB": {
+        "index": 46,
+        "date": "2020-11-16",
+        "low": 214.015
+      },
+      "closeRelativeToSupportPct": 0.9088148027007525,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TRV",
+      "date": "2021-03-19",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 133.515742,
+      "d0OpenAdjusted": 139.730976,
+      "d0HighAdjusted": 139.730976,
+      "d0LowAdjusted": 133.140145,
+      "shockPct": -4.801377161300313,
+      "rvol20": 3.0389320126275132,
+      "supportAdjusted": 128.820371,
+      "pivotA": {
+        "index": 96,
+        "date": "2021-02-12",
+        "low": 128.820371
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2021-02-26",
+        "low": 129.118319
+      },
+      "closeRelativeToSupportPct": 3.6448979020561767,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "MRNA",
+      "date": "2021-03-29",
+      "year": 2021,
+      "quarter": "2021Q1",
+      "d0CloseAdjusted": 123.42,
+      "d0OpenAdjusted": 130.11,
+      "d0HighAdjusted": 131.3,
+      "d0LowAdjusted": 121.9,
+      "shockPct": -7.397959183673464,
+      "rvol20": 1.2459402723945185,
+      "supportAdjusted": 120.5,
+      "pivotA": {
+        "index": 72,
+        "date": "2021-01-19",
+        "low": 120.5
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2021-03-05",
+        "low": 121.12
+      },
+      "closeRelativeToSupportPct": 2.4232365145228307,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2021-04-28",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 66.33,
+      "d0OpenAdjusted": 69.19,
+      "d0HighAdjusted": 69.67,
+      "d0LowAdjusted": 65.83,
+      "shockPct": -14.50116009280743,
+      "rvol20": 5.030798091929969,
+      "supportAdjusted": 65.0101,
+      "pivotA": {
+        "index": 20,
+        "date": "2020-12-02",
+        "low": 65.0101
+      },
+      "pivotB": {
+        "index": 97,
+        "date": "2021-03-25",
+        "low": 65.5
+      },
+      "closeRelativeToSupportPct": 2.030299907245192,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "BMY",
+      "date": "2021-04-29",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 50.346626,
+      "d0OpenAdjusted": 52.035788,
+      "d0HighAdjusted": 52.243931,
+      "d0LowAdjusted": 49.958359,
+      "shockPct": -4.75541452568754,
+      "rvol20": 2.043246379248525,
+      "supportAdjusted": 49.234096,
+      "pivotA": {
+        "index": 96,
+        "date": "2021-03-25",
+        "low": 49.234096
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2021-04-09",
+        "low": 49.37796
+      },
+      "closeRelativeToSupportPct": 2.2596738650385584,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2021-05-03",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 190.71,
+      "d0OpenAdjusted": 200.4,
+      "d0HighAdjusted": 200.91,
+      "d0LowAdjusted": 189.27,
+      "shockPct": -4.064590774183808,
+      "rvol20": 1.5079740795117542,
+      "supportAdjusted": 190.5,
+      "pivotA": {
+        "index": 72,
+        "date": "2021-02-23",
+        "low": 191
+      },
+      "pivotB": {
+        "index": 94,
+        "date": "2021-03-25",
+        "low": 190.5
+      },
+      "closeRelativeToSupportPct": 0.1102362204724372,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ON",
+      "date": "2021-05-03",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 37.57,
+      "d0OpenAdjusted": 38.22,
+      "d0HighAdjusted": 38.99,
+      "d0LowAdjusted": 37.1,
+      "shockPct": -3.6666666666666625,
+      "rvol20": 2.0064999335438567,
+      "supportAdjusted": 37.07,
+      "pivotA": {
+        "index": 72,
+        "date": "2021-02-23",
+        "low": 37.07
+      },
+      "pivotB": {
+        "index": 85,
+        "date": "2021-03-12",
+        "low": 37.32
+      },
+      "closeRelativeToSupportPct": 1.3487995683841403,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PODD",
+      "date": "2021-05-06",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 253.16,
+      "d0OpenAdjusted": 261.82,
+      "d0HighAdjusted": 264.4,
+      "d0LowAdjusted": 245.45,
+      "shockPct": -4.269238041217616,
+      "rvol20": 3.877322874553399,
+      "supportAdjusted": 249.7,
+      "pivotA": {
+        "index": 86,
+        "date": "2021-03-18",
+        "low": 249.7
+      },
+      "pivotB": {
+        "index": 91,
+        "date": "2021-03-25",
+        "low": 250.31
+      },
+      "closeRelativeToSupportPct": 1.3856627953544365,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ENTG",
+      "date": "2021-05-12",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 99.604446,
+      "d0OpenAdjusted": 102.525628,
+      "d0HighAdjusted": 105.221349,
+      "d0LowAdjusted": 99.163328,
+      "shockPct": -6.942027863564504,
+      "rvol20": 1.999542034349288,
+      "supportAdjusted": 97.106048,
+      "pivotA": {
+        "index": 65,
+        "date": "2021-02-23",
+        "low": 97.106048
+      },
+      "pivotB": {
+        "index": 87,
+        "date": "2021-03-25",
+        "low": 97.615332
+      },
+      "closeRelativeToSupportPct": 2.5728551943541067,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TER",
+      "date": "2021-05-12",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 112.256031,
+      "d0OpenAdjusted": 116.01749,
+      "d0HighAdjusted": 117.614151,
+      "d0LowAdjusted": 111.829928,
+      "shockPct": -5.686775193498084,
+      "rvol20": 1.2750069958400683,
+      "supportAdjusted": 109.043119,
+      "pivotA": {
+        "index": 16,
+        "date": "2020-12-10",
+        "low": 109.900711
+      },
+      "pivotB": {
+        "index": 83,
+        "date": "2021-03-19",
+        "low": 109.043119
+      },
+      "closeRelativeToSupportPct": 2.9464601062997753,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TJX",
+      "date": "2021-05-19",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 62.452341,
+      "d0OpenAdjusted": 64.991958,
+      "d0HighAdjusted": 64.991958,
+      "d0LowAdjusted": 61.571817,
+      "shockPct": -5.285352403310406,
+      "rvol20": 3.166176289472785,
+      "supportAdjusted": 61.679558,
+      "pivotA": {
+        "index": 35,
+        "date": "2021-01-15",
+        "low": 61.679558
+      },
+      "pivotB": {
+        "index": 99,
+        "date": "2021-04-20",
+        "low": 61.912853
+      },
+      "closeRelativeToSupportPct": 1.2528997046314716,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "URI",
+      "date": "2021-05-19",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 309.345587,
+      "d0OpenAdjusted": 313.485084,
+      "d0HighAdjusted": 313.485084,
+      "d0LowAdjusted": 303.511784,
+      "shockPct": -3.015120909216773,
+      "rvol20": 1.5986499495848692,
+      "supportAdjusted": 301.817478,
+      "pivotA": {
+        "index": 91,
+        "date": "2021-04-08",
+        "low": 301.817478
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2021-04-29",
+        "low": 304.137522
+      },
+      "closeRelativeToSupportPct": 2.4942587983589393,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ANF",
+      "date": "2021-05-20",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 37.41,
+      "d0OpenAdjusted": 40.75,
+      "d0HighAdjusted": 40.91,
+      "d0LowAdjusted": 36.66,
+      "shockPct": -7.720769610261479,
+      "rvol20": 2.4525132038617623,
+      "supportAdjusted": 36.95,
+      "pivotA": {
+        "index": 98,
+        "date": "2021-04-20",
+        "low": 36.95
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2021-04-30",
+        "low": 36.9504
+      },
+      "closeRelativeToSupportPct": 1.2449255751014743,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DECK",
+      "date": "2021-05-20",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 51.8700010374,
+      "d0OpenAdjusted": 53.83333441,
+      "d0HighAdjusted": 53.8600010772,
+      "d0LowAdjusted": 51.00000102,
+      "shockPct": -3.6947642034905304,
+      "rvol20": 2.544306134064405,
+      "supportAdjusted": 50.5466676776,
+      "pivotA": {
+        "index": 67,
+        "date": "2021-03-05",
+        "low": 50.5466676776
+      },
+      "pivotB": {
+        "index": 81,
+        "date": "2021-03-25",
+        "low": 50.8450010169
+      },
+      "closeRelativeToSupportPct": 2.618042732788184,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "OKTA",
+      "date": "2021-05-27",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 222.4,
+      "d0OpenAdjusted": 226.89,
+      "d0HighAdjusted": 229.67,
+      "d0LowAdjusted": 215.62,
+      "shockPct": -9.787855433415803,
+      "rvol20": 5.664909589138882,
+      "supportAdjusted": 218.55,
+      "pivotA": {
+        "index": 84,
+        "date": "2021-04-07",
+        "low": 220.14
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2021-05-11",
+        "low": 218.55
+      },
+      "closeRelativeToSupportPct": 1.7616106154198174,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2021-06-03",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 159.76,
+      "d0OpenAdjusted": 164.71,
+      "d0HighAdjusted": 164.71,
+      "d0LowAdjusted": 158.325,
+      "shockPct": -3.840134826050312,
+      "rvol20": 1.7305868393439403,
+      "supportAdjusted": 154.24,
+      "pivotA": {
+        "index": 32,
+        "date": "2021-01-27",
+        "low": 154.25
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2021-05-13",
+        "low": 154.24
+      },
+      "closeRelativeToSupportPct": 3.578838174273846,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "URI",
+      "date": "2021-06-07",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 304.224162,
+      "d0OpenAdjusted": 321.224981,
+      "d0HighAdjusted": 321.706318,
+      "d0LowAdjusted": 303.242235,
+      "shockPct": -4.83331831600159,
+      "rvol20": 1.9754060407835887,
+      "supportAdjusted": 302.57799,
+      "pivotA": {
+        "index": 94,
+        "date": "2021-04-29",
+        "low": 304.137522
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2021-05-20",
+        "low": 302.57799
+      },
+      "closeRelativeToSupportPct": 0.5440488252301368,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EMR",
+      "date": "2021-06-17",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 84.754171,
+      "d0OpenAdjusted": 88.621384,
+      "d0HighAdjusted": 88.621384,
+      "d0LowAdjusted": 84.609939,
+      "shockPct": -4.295602704944046,
+      "rvol20": 1.3552123956124418,
+      "supportAdjusted": 82.707883,
+      "pivotA": {
+        "index": 100,
+        "date": "2021-05-19",
+        "low": 82.707883
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2021-05-26",
+        "low": 83.483129
+      },
+      "closeRelativeToSupportPct": 2.4741148313516925,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "VLO",
+      "date": "2021-06-17",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 66.356977,
+      "d0OpenAdjusted": 68.518772,
+      "d0HighAdjusted": 69.033887,
+      "d0LowAdjusted": 65.571637,
+      "shockPct": -3.5354782102724913,
+      "rvol20": 1.258641828182355,
+      "supportAdjusted": 63.81714,
+      "pivotA": {
+        "index": 94,
+        "date": "2021-05-11",
+        "low": 63.81714
+      },
+      "pivotB": {
+        "index": 100,
+        "date": "2021-05-19",
+        "low": 64.24568
+      },
+      "closeRelativeToSupportPct": 3.979866537422394,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ON",
+      "date": "2021-06-18",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 35.78,
+      "d0OpenAdjusted": 36.35,
+      "d0HighAdjusted": 36.47,
+      "d0LowAdjusted": 35.17,
+      "shockPct": -3.297297297297297,
+      "rvol20": 1.7237447666548849,
+      "supportAdjusted": 34.79,
+      "pivotA": {
+        "index": 47,
+        "date": "2021-03-05",
+        "low": 34.79
+      },
+      "pivotB": {
+        "index": 93,
+        "date": "2021-05-11",
+        "low": 35.12
+      },
+      "closeRelativeToSupportPct": 2.845645300373678,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SCHW",
+      "date": "2021-06-18",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 65.156616,
+      "d0OpenAdjusted": 66.322959,
+      "d0HighAdjusted": 66.994773,
+      "d0LowAdjusted": 64.643424,
+      "shockPct": -3.202105751754458,
+      "rvol20": 2.391073525826918,
+      "supportAdjusted": 63.898082,
+      "pivotA": {
+        "index": 88,
+        "date": "2021-05-04",
+        "low": 63.907389
+      },
+      "pivotB": {
+        "index": 94,
+        "date": "2021-05-12",
+        "low": 63.898082
+      },
+      "closeRelativeToSupportPct": 1.9695958949127679,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "VLO",
+      "date": "2021-06-18",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 64.195182,
+      "d0OpenAdjusted": 65.419636,
+      "d0HighAdjusted": 66.103642,
+      "d0LowAdjusted": 64.093848,
+      "shockPct": -3.257826226773408,
+      "rvol20": 2.2723149076054128,
+      "supportAdjusted": 63.81714,
+      "pivotA": {
+        "index": 93,
+        "date": "2021-05-11",
+        "low": 63.81714
+      },
+      "pivotB": {
+        "index": 99,
+        "date": "2021-05-19",
+        "low": 64.24568
+      },
+      "closeRelativeToSupportPct": 0.5923831748022579,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PSX",
+      "date": "2021-06-28",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 70.348099,
+      "d0OpenAdjusted": 73.84821,
+      "d0HighAdjusted": 73.84821,
+      "d0LowAdjusted": 69.985735,
+      "shockPct": -5.131053158051402,
+      "rvol20": 1.314003240287598,
+      "supportAdjusted": 68.308508,
+      "pivotA": {
+        "index": 93,
+        "date": "2021-05-19",
+        "low": 68.308508
+      },
+      "pivotB": {
+        "index": 98,
+        "date": "2021-05-26",
+        "low": 68.396273
+      },
+      "closeRelativeToSupportPct": 2.9858520698475832,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "VLO",
+      "date": "2021-06-28",
+      "year": 2021,
+      "quarter": "2021Q2",
+      "d0CloseAdjusted": 65.630749,
+      "d0OpenAdjusted": 69.067666,
+      "d0HighAdjusted": 69.147888,
+      "d0LowAdjusted": 65.368969,
+      "shockPct": -5.323425724911268,
+      "rvol20": 1.6925920372090304,
+      "supportAdjusted": 63.81714,
+      "pivotA": {
+        "index": 87,
+        "date": "2021-05-11",
+        "low": 63.81714
+      },
+      "pivotB": {
+        "index": 93,
+        "date": "2021-05-19",
+        "low": 64.24568
+      },
+      "closeRelativeToSupportPct": 2.8418838575341887,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "MPC",
+      "date": "2021-07-06",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 52.230056,
+      "d0OpenAdjusted": 53.859755,
+      "d0HighAdjusted": 54.010325,
+      "d0LowAdjusted": 52.079487,
+      "shockPct": -3.438677562030923,
+      "rvol20": 1.5414580225186152,
+      "supportAdjusted": 52.052915,
+      "pivotA": {
+        "index": 89,
+        "date": "2021-05-20",
+        "low": 52.052915
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2021-06-18",
+        "low": 52.132629
+      },
+      "closeRelativeToSupportPct": 0.3403094716213362,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PSX",
+      "date": "2021-07-06",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 69.549251,
+      "d0OpenAdjusted": 72.472872,
+      "d0HighAdjusted": 72.472872,
+      "d0LowAdjusted": 69.203357,
+      "shockPct": -3.9249146404079505,
+      "rvol20": 2.042710765741144,
+      "supportAdjusted": 68.308508,
+      "pivotA": {
+        "index": 88,
+        "date": "2021-05-19",
+        "low": 68.308508
+      },
+      "pivotB": {
+        "index": 93,
+        "date": "2021-05-26",
+        "low": 68.396273
+      },
+      "closeRelativeToSupportPct": 1.8163813503289994,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PODD",
+      "date": "2021-07-14",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 260.67,
+      "d0OpenAdjusted": 269.69,
+      "d0HighAdjusted": 269.69,
+      "d0LowAdjusted": 254.75,
+      "shockPct": -3.0317684696079095,
+      "rvol20": 3.4649432657498003,
+      "supportAdjusted": 258,
+      "pivotA": {
+        "index": 5,
+        "date": "2021-01-28",
+        "low": 258
+      },
+      "pivotB": {
+        "index": 92,
+        "date": "2021-06-03",
+        "low": 258.0389
+      },
+      "closeRelativeToSupportPct": 1.0348837209302353,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "NXPI",
+      "date": "2021-07-15",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 176.874263,
+      "d0OpenAdjusted": 179.458096,
+      "d0HighAdjusted": 181.564283,
+      "d0LowAdjusted": 175.418582,
+      "shockPct": -4.490297164633283,
+      "rvol20": 1.537725455001714,
+      "supportAdjusted": 174.18404,
+      "pivotA": {
+        "index": 59,
+        "date": "2021-04-19",
+        "low": 174.18404
+      },
+      "pivotB": {
+        "index": 102,
+        "date": "2021-06-18",
+        "low": 175.327602
+      },
+      "closeRelativeToSupportPct": 1.5444715830451594,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ON",
+      "date": "2021-07-15",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 36.3,
+      "d0OpenAdjusted": 37.355,
+      "d0HighAdjusted": 37.47,
+      "d0LowAdjusted": 35.665,
+      "shockPct": -3.6112586298459926,
+      "rvol20": 1.5480869174926308,
+      "supportAdjusted": 35.12,
+      "pivotA": {
+        "index": 75,
+        "date": "2021-05-11",
+        "low": 35.12
+      },
+      "pivotB": {
+        "index": 102,
+        "date": "2021-06-18",
+        "low": 35.17
+      },
+      "closeRelativeToSupportPct": 3.35990888382689,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AXP",
+      "date": "2021-07-19",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 152.73707,
+      "d0OpenAdjusted": 155.401361,
+      "d0HighAdjusted": 156.086197,
+      "d0LowAdjusted": 151.489356,
+      "shockPct": -4.235044688337886,
+      "rvol20": 1.840333907203381,
+      "supportAdjusted": 151.693957,
+      "pivotA": {
+        "index": 94,
+        "date": "2021-06-10",
+        "low": 151.693957
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2021-06-28",
+        "low": 152.704501
+      },
+      "closeRelativeToSupportPct": 0.6876430812599699,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "EMR",
+      "date": "2021-07-19",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 84.564867,
+      "d0OpenAdjusted": 86.25959,
+      "d0HighAdjusted": 86.575097,
+      "d0LowAdjusted": 84.127665,
+      "shockPct": -3.5471934122418447,
+      "rvol20": 1.5331083632239901,
+      "supportAdjusted": 82.996347,
+      "pivotA": {
+        "index": 84,
+        "date": "2021-05-26",
+        "low": 83.483129
+      },
+      "pivotB": {
+        "index": 100,
+        "date": "2021-06-18",
+        "low": 82.996347
+      },
+      "closeRelativeToSupportPct": 1.8898663094172097,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TJX",
+      "date": "2021-07-19",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 60.274202,
+      "d0OpenAdjusted": 61.330831,
+      "d0HighAdjusted": 61.75719,
+      "d0LowAdjusted": 59.903455,
+      "shockPct": -3.5306334986695886,
+      "rvol20": 1.296865724541772,
+      "supportAdjusted": 58.560471,
+      "pivotA": {
+        "index": 41,
+        "date": "2021-03-25",
+        "low": 58.560471
+      },
+      "pivotB": {
+        "index": 100,
+        "date": "2021-06-18",
+        "low": 58.624378
+      },
+      "closeRelativeToSupportPct": 2.9264296730127093,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TER",
+      "date": "2021-07-27",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 121.029598,
+      "d0OpenAdjusted": 124.009753,
+      "d0HighAdjusted": 124.411682,
+      "d0LowAdjusted": 118.392552,
+      "shockPct": -3.115435464263172,
+      "rvol20": 1.8960560244128395,
+      "supportAdjusted": 116.804443,
+      "pivotA": {
+        "index": 62,
+        "date": "2021-05-04",
+        "low": 117.202741
+      },
+      "pivotB": {
+        "index": 107,
+        "date": "2021-07-08",
+        "low": 116.804443
+      },
+      "closeRelativeToSupportPct": 3.6172896265598276,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2021-07-30",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 183.51,
+      "d0OpenAdjusted": 190.62,
+      "d0HighAdjusted": 192.55,
+      "d0LowAdjusted": 182.39,
+      "shockPct": -7.774650718665188,
+      "rvol20": 2.154965304067616,
+      "supportAdjusted": 179.23,
+      "pivotA": {
+        "index": 18,
+        "date": "2021-03-05",
+        "low": 179.23
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2021-07-15",
+        "low": 179.71
+      },
+      "closeRelativeToSupportPct": 2.3879930815153827,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SWKS",
+      "date": "2021-07-30",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 159.254223,
+      "d0OpenAdjusted": 159.347267,
+      "d0HighAdjusted": 160.471221,
+      "d0LowAdjusted": 153.350484,
+      "shockPct": -6.182946038821779,
+      "rvol20": 5.3241902845767095,
+      "supportAdjusted": 156.010705,
+      "pivotA": {
+        "index": 49,
+        "date": "2021-04-20",
+        "low": 156.010705
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2021-07-08",
+        "low": 157.294941
+      },
+      "closeRelativeToSupportPct": 2.0790355379779912,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AEO",
+      "date": "2021-08-04",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 28.096297,
+      "d0OpenAdjusted": 29.249054,
+      "d0HighAdjusted": 29.877048,
+      "d0LowAdjusted": 28.040379,
+      "shockPct": -4.975267991533361,
+      "rvol20": 1.5430140805466634,
+      "supportAdjusted": 27.812409,
+      "pivotA": {
+        "index": 82,
+        "date": "2021-06-10",
+        "low": 28.051252
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2021-07-19",
+        "low": 27.812409
+      },
+      "closeRelativeToSupportPct": 1.0207242385943616,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2021-08-05",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 182.41,
+      "d0OpenAdjusted": 175,
+      "d0HighAdjusted": 193.3479,
+      "d0LowAdjusted": 174.905,
+      "shockPct": -9.742701632855022,
+      "rvol20": 4.321821497595627,
+      "supportAdjusted": 179.23,
+      "pivotA": {
+        "index": 14,
+        "date": "2021-03-05",
+        "low": 179.23
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2021-07-15",
+        "low": 179.71
+      },
+      "closeRelativeToSupportPct": 1.7742565418735756,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DRI",
+      "date": "2021-08-09",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 116.3206,
+      "d0OpenAdjusted": 118.929251,
+      "d0HighAdjusted": 119.366831,
+      "d0LowAdjusted": 115.336044,
+      "shockPct": -4.471319521773998,
+      "rvol20": 2.0359971157188563,
+      "supportAdjusted": 112.289813,
+      "pivotA": {
+        "index": 64,
+        "date": "2021-05-19",
+        "low": 113.088452
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2021-07-19",
+        "low": 112.289813
+      },
+      "closeRelativeToSupportPct": 3.589628384188326,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "BURL",
+      "date": "2021-08-17",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 328.99,
+      "d0OpenAdjusted": 339.34,
+      "d0HighAdjusted": 339.34,
+      "d0LowAdjusted": 327.75,
+      "shockPct": -3.465375586854458,
+      "rvol20": 2.209833600649988,
+      "supportAdjusted": 319.5,
+      "pivotA": {
+        "index": 47,
+        "date": "2021-05-04",
+        "low": 319.5
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2021-07-28",
+        "low": 320.68
+      },
+      "closeRelativeToSupportPct": 2.970266040688574,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2021-08-31",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 158.23,
+      "d0OpenAdjusted": 158.07,
+      "d0HighAdjusted": 159.81,
+      "d0LowAdjusted": 155.06,
+      "shockPct": -14.391603094735716,
+      "rvol20": 7.19136846789874,
+      "supportAdjusted": 153.49,
+      "pivotA": {
+        "index": 44,
+        "date": "2021-05-13",
+        "low": 154.24
+      },
+      "pivotB": {
+        "index": 60,
+        "date": "2021-06-07",
+        "low": 153.49
+      },
+      "closeRelativeToSupportPct": 3.0881490650856547,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "FIVE",
+      "date": "2021-09-02",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 187.94,
+      "d0OpenAdjusted": 202,
+      "d0HighAdjusted": 202,
+      "d0LowAdjusted": 185.725,
+      "shockPct": -13.010877111779685,
+      "rvol20": 8.905337625896282,
+      "supportAdjusted": 186.72,
+      "pivotA": {
+        "index": 80,
+        "date": "2021-07-08",
+        "low": 186.72
+      },
+      "pivotB": {
+        "index": 94,
+        "date": "2021-07-28",
+        "low": 186.94
+      },
+      "closeRelativeToSupportPct": 0.65338474721508,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "FAST",
+      "date": "2021-09-07",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 23.940725,
+      "d0OpenAdjusted": 24.734169,
+      "d0HighAdjusted": 24.760765,
+      "d0LowAdjusted": 23.905264,
+      "shockPct": -3.363751839978779,
+      "rvol20": 1.952605565337809,
+      "supportAdjusted": 23.78115,
+      "pivotA": {
+        "index": 92,
+        "date": "2021-07-28",
+        "low": 23.78115
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2021-08-19",
+        "low": 23.869803
+      },
+      "closeRelativeToSupportPct": 0.6710146481561985,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2021-09-08",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 147.781,
+      "d0OpenAdjusted": 153.7,
+      "d0HighAdjusted": 153.794,
+      "d0LowAdjusted": 147.575,
+      "shockPct": -3.8322379124096972,
+      "rvol20": 1.2881881690085628,
+      "supportAdjusted": 143.75,
+      "pivotA": {
+        "index": 73,
+        "date": "2021-07-01",
+        "low": 144.2
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2021-08-20",
+        "low": 143.75
+      },
+      "closeRelativeToSupportPct": 2.804173913043484,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LNG",
+      "date": "2021-09-17",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 82.704674,
+      "d0OpenAdjusted": 86.205803,
+      "d0HighAdjusted": 86.434138,
+      "d0LowAdjusted": 82.504881,
+      "shockPct": -4.156559975382956,
+      "rvol20": 2.6026700097383757,
+      "supportAdjusted": 81.068276,
+      "pivotA": {
+        "index": 63,
+        "date": "2021-06-28",
+        "low": 81.068276
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2021-09-01",
+        "low": 81.848419
+      },
+      "closeRelativeToSupportPct": 2.018542987148275,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DVN",
+      "date": "2021-09-20",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 21.969306,
+      "d0OpenAdjusted": 22.164208,
+      "d0HighAdjusted": 22.47605,
+      "d0LowAdjusted": 21.361213,
+      "shockPct": -5.404501535944428,
+      "rvol20": 1.251653760245634,
+      "supportAdjusted": 21.201287,
+      "pivotA": {
+        "index": 63,
+        "date": "2021-06-29",
+        "low": 21.339207
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2021-09-01",
+        "low": 21.201287
+      },
+      "closeRelativeToSupportPct": 3.6225112183048136,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "URI",
+      "date": "2021-09-20",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 317.316526,
+      "d0OpenAdjusted": 317.06623,
+      "d0HighAdjusted": 321.249048,
+      "d0LowAdjusted": 311.829285,
+      "shockPct": -3.4674631395954836,
+      "rvol20": 1.4094050161046083,
+      "supportAdjusted": 312.676438,
+      "pivotA": {
+        "index": 30,
+        "date": "2021-05-12",
+        "low": 315.776248
+      },
+      "pivotB": {
+        "index": 100,
+        "date": "2021-08-20",
+        "low": 312.676438
+      },
+      "closeRelativeToSupportPct": 1.4839902967040963,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PODD",
+      "date": "2021-09-28",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 276.54,
+      "d0OpenAdjusted": 282.65,
+      "d0HighAdjusted": 284,
+      "d0LowAdjusted": 276.38,
+      "shockPct": -3.4022635182338834,
+      "rvol20": 1.4104049834114214,
+      "supportAdjusted": 272,
+      "pivotA": {
+        "index": 59,
+        "date": "2021-07-01",
+        "low": 273.38
+      },
+      "pivotB": {
+        "index": 88,
+        "date": "2021-08-12",
+        "low": 272
+      },
+      "closeRelativeToSupportPct": 1.6691176470588376,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TROW",
+      "date": "2021-09-28",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 161.090753,
+      "d0OpenAdjusted": 167.758668,
+      "d0HighAdjusted": 168.46853,
+      "d0LowAdjusted": 160.723938,
+      "shockPct": -4.677176022496865,
+      "rvol20": 1.5947530987925866,
+      "supportAdjusted": 155.450881,
+      "pivotA": {
+        "index": 70,
+        "date": "2021-07-19",
+        "low": 155.450881
+      },
+      "pivotB": {
+        "index": 78,
+        "date": "2021-07-29",
+        "low": 155.55802
+      },
+      "closeRelativeToSupportPct": 3.6280733590696057,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "WING",
+      "date": "2021-09-28",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 155.894152,
+      "d0OpenAdjusted": 163.881962,
+      "d0HighAdjusted": 164.308104,
+      "d0LowAdjusted": 155.225362,
+      "shockPct": -5.698006140917311,
+      "rvol20": 1.8820693087096916,
+      "supportAdjusted": 153.576934,
+      "pivotA": {
+        "index": 87,
+        "date": "2021-08-11",
+        "low": 153.72087
+      },
+      "pivotB": {
+        "index": 93,
+        "date": "2021-08-19",
+        "low": 153.576934
+      },
+      "closeRelativeToSupportPct": 1.5088320489585971,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "HCA",
+      "date": "2021-09-30",
+      "year": 2021,
+      "quarter": "2021Q3",
+      "d0CloseAdjusted": 232.761728,
+      "d0OpenAdjusted": 242.782988,
+      "d0HighAdjusted": 243.310422,
+      "d0LowAdjusted": 232.589113,
+      "shockPct": -3.76273779664984,
+      "rvol20": 1.3176279266412159,
+      "supportAdjusted": 229.566387,
+      "pivotA": {
+        "index": 73,
+        "date": "2021-07-26",
+        "low": 230.499623
+      },
+      "pivotB": {
+        "index": 91,
+        "date": "2021-08-19",
+        "low": 229.566387
+      },
+      "closeRelativeToSupportPct": 1.3919028137163725,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "SYF",
+      "date": "2021-10-21",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 43.924784,
+      "d0OpenAdjusted": 46.421222,
+      "d0HighAdjusted": 46.618074,
+      "d0LowAdjusted": 43.701089,
+      "shockPct": -5.487100577216831,
+      "rvol20": 2.1133417983840355,
+      "supportAdjusted": 43.28949,
+      "pivotA": {
+        "index": 76,
+        "date": "2021-08-19",
+        "low": 43.28949
+      },
+      "pivotB": {
+        "index": 106,
+        "date": "2021-10-01",
+        "low": 43.602663
+      },
+      "closeRelativeToSupportPct": 1.4675478967296707,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "HCA",
+      "date": "2021-10-25",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 231.889064,
+      "d0OpenAdjusted": 243.756345,
+      "d0HighAdjusted": 243.756345,
+      "d0LowAdjusted": 230.977753,
+      "shockPct": -4.464461820812204,
+      "rvol20": 1.519626309718154,
+      "supportAdjusted": 225.996163,
+      "pivotA": {
+        "index": 69,
+        "date": "2021-08-12",
+        "low": 225.996163
+      },
+      "pivotB": {
+        "index": 107,
+        "date": "2021-10-06",
+        "low": 226.346205
+      },
+      "closeRelativeToSupportPct": 2.6075225887795206,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "COF",
+      "date": "2021-10-27",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 139.64731,
+      "d0OpenAdjusted": 146.643411,
+      "d0HighAdjusted": 147.879633,
+      "d0LowAdjusted": 138.987991,
+      "shockPct": -7.491659200551037,
+      "rvol20": 3.0134489092387815,
+      "supportAdjusted": 139.308493,
+      "pivotA": {
+        "index": 85,
+        "date": "2021-09-08",
+        "low": 139.308493
+      },
+      "pivotB": {
+        "index": 93,
+        "date": "2021-09-20",
+        "low": 140.407357
+      },
+      "closeRelativeToSupportPct": 0.24321345576541198,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "AFL",
+      "date": "2021-10-29",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 47.930047,
+      "d0OpenAdjusted": 49.332137,
+      "d0HighAdjusted": 49.332137,
+      "d0LowAdjusted": 47.755902,
+      "shockPct": -3.0527453026592988,
+      "rvol20": 1.7827316119945606,
+      "supportAdjusted": 46.216623,
+      "pivotA": {
+        "index": 40,
+        "date": "2021-07-08",
+        "low": 46.216623
+      },
+      "pivotB": {
+        "index": 99,
+        "date": "2021-09-30",
+        "low": 46.474463
+      },
+      "closeRelativeToSupportPct": 3.707376023557596,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "LHX",
+      "date": "2021-11-01",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 200.348972,
+      "d0OpenAdjusted": 208.105876,
+      "d0HighAdjusted": 208.658001,
+      "d0LowAdjusted": 200.077435,
+      "shockPct": -3.986292958219395,
+      "rvol20": 1.2089901631593187,
+      "supportAdjusted": 195.850511,
+      "pivotA": {
+        "index": 93,
+        "date": "2021-09-23",
+        "low": 196.429789
+      },
+      "pivotB": {
+        "index": 100,
+        "date": "2021-10-04",
+        "low": 195.850511
+      },
+      "closeRelativeToSupportPct": 2.296884995107318,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DVN",
+      "date": "2021-11-19",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 31.652017,
+      "d0OpenAdjusted": 32.634321,
+      "d0HighAdjusted": 32.882548,
+      "d0LowAdjusted": 31.503892,
+      "shockPct": -6.278854428090785,
+      "rvol20": 1.7025008723940822,
+      "supportAdjusted": 30.525486,
+      "pivotA": {
+        "index": 99,
+        "date": "2021-10-21",
+        "low": 30.525486
+      },
+      "pivotB": {
+        "index": 105,
+        "date": "2021-10-29",
+        "low": 30.681407
+      },
+      "closeRelativeToSupportPct": 3.6904604893104764,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "OKTA",
+      "date": "2021-11-19",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 240.68,
+      "d0OpenAdjusted": 264.35,
+      "d0HighAdjusted": 264.39,
+      "d0LowAdjusted": 239.91,
+      "shockPct": -8.96781270093422,
+      "rvol20": 2.9227329130667563,
+      "supportAdjusted": 239.5,
+      "pivotA": {
+        "index": 21,
+        "date": "2021-07-01",
+        "low": 239.5
+      },
+      "pivotB": {
+        "index": 104,
+        "date": "2021-10-28",
+        "low": 239.57
+      },
+      "closeRelativeToSupportPct": 0.492693110647191,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PWR",
+      "date": "2021-11-30",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 112.92278,
+      "d0OpenAdjusted": 119.284487,
+      "d0HighAdjusted": 120.455597,
+      "d0LowAdjusted": 112.744136,
+      "shockPct": -6.492438954592316,
+      "rvol20": 1.5907315941426743,
+      "supportAdjusted": 112.704437,
+      "pivotA": {
+        "index": 71,
+        "date": "2021-09-21",
+        "low": 112.943652
+      },
+      "pivotB": {
+        "index": 109,
+        "date": "2021-11-12",
+        "low": 112.704437
+      },
+      "closeRelativeToSupportPct": 0.19373061594727403,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2021-11-30",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 376.32,
+      "d0OpenAdjusted": 398.29,
+      "d0HighAdjusted": 404.68,
+      "d0LowAdjusted": 373.2,
+      "shockPct": -5.373532148155602,
+      "rvol20": 2.0278239968774674,
+      "supportAdjusted": 371.84,
+      "pivotA": {
+        "index": 65,
+        "date": "2021-09-13",
+        "low": 371.84
+      },
+      "pivotB": {
+        "index": 76,
+        "date": "2021-09-28",
+        "low": 375.5
+      },
+      "closeRelativeToSupportPct": 1.2048192771084487,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ULTA",
+      "date": "2021-12-01",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 370.02,
+      "d0OpenAdjusted": 390.09,
+      "d0HighAdjusted": 394.96,
+      "d0LowAdjusted": 369.51,
+      "shockPct": -3.6280765724703734,
+      "rvol20": 1.6557698323393277,
+      "supportAdjusted": 363.42,
+      "pivotA": {
+        "index": 69,
+        "date": "2021-09-20",
+        "low": 363.79
+      },
+      "pivotB": {
+        "index": 99,
+        "date": "2021-11-01",
+        "low": 363.42
+      },
+      "closeRelativeToSupportPct": 1.8160805679379166,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "ELF",
+      "date": "2021-12-13",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 30.12,
+      "d0OpenAdjusted": 31.22,
+      "d0HighAdjusted": 31.5399,
+      "d0LowAdjusted": 30.09,
+      "shockPct": -4.076433121019097,
+      "rvol20": 1.5207014601573496,
+      "supportAdjusted": 29.35,
+      "pivotA": {
+        "index": 57,
+        "date": "2021-09-14",
+        "low": 29.35
+      },
+      "pivotB": {
+        "index": 94,
+        "date": "2021-11-04",
+        "low": 29.57
+      },
+      "closeRelativeToSupportPct": 2.6235093696763245,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "CROX",
+      "date": "2021-12-16",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 139.56,
+      "d0OpenAdjusted": 152.96,
+      "d0HighAdjusted": 153.82,
+      "d0LowAdjusted": 138.755,
+      "shockPct": -7.777704354721471,
+      "rvol20": 1.6622999806500685,
+      "supportAdjusted": 135.04,
+      "pivotA": {
+        "index": 37,
+        "date": "2021-08-19",
+        "low": 135.04
+      },
+      "pivotB": {
+        "index": 80,
+        "date": "2021-10-20",
+        "low": 135.32
+      },
+      "closeRelativeToSupportPct": 3.3471563981042785,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "DRI",
+      "date": "2021-12-17",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 118.495429,
+      "d0OpenAdjusted": 118.31747,
+      "d0HighAdjusted": 121.105413,
+      "d0LowAdjusted": 114.5888,
+      "shockPct": -4.96159855335867,
+      "rvol20": 3.3695481073022395,
+      "supportAdjusted": 115.336044,
+      "pivotA": {
+        "index": 28,
+        "date": "2021-08-09",
+        "low": 115.336044
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2021-12-01",
+        "low": 115.563339
+      },
+      "closeRelativeToSupportPct": 2.73928677491313,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PH",
+      "date": "2021-12-17",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 285.012092,
+      "d0OpenAdjusted": 294.468229,
+      "d0HighAdjusted": 294.600087,
+      "d0LowAdjusted": 284.569425,
+      "shockPct": -3.3627131788709796,
+      "rvol20": 2.262232191002239,
+      "supportAdjusted": 276.017461,
+      "pivotA": {
+        "index": 87,
+        "date": "2021-11-01",
+        "low": 277.887036
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2021-12-01",
+        "low": 276.017461
+      },
+      "closeRelativeToSupportPct": 3.2587181142137878,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    },
+    {
+      "symbol": "PSX",
+      "date": "2021-12-20",
+      "year": 2021,
+      "quarter": "2021Q4",
+      "d0CloseAdjusted": 58.587837,
+      "d0OpenAdjusted": 58.874743,
+      "d0HighAdjusted": 59.929543,
+      "d0LowAdjusted": 57.862134,
+      "shockPct": -3.3008361642278827,
+      "rvol20": 1.6481767470476154,
+      "supportAdjusted": 57.322076,
+      "pivotA": {
+        "index": 13,
+        "date": "2021-07-20",
+        "low": 57.426516
+      },
+      "pivotB": {
+        "index": 108,
+        "date": "2021-12-02",
+        "low": 57.322076
+      },
+      "closeRelativeToSupportPct": 2.208156243329351,
+      "status": "CANDIDATE_PRE_FORWARD_M5"
+    }
+  ]
+}
