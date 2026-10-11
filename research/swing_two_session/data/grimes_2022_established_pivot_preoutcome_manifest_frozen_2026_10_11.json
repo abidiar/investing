@@ -1,0 +1,1664 @@
+{
+  "id": "grimes_2022_preoutcome_pivot_candidates",
+  "status": "FROZEN_SELECTED_WITHOUT_FORWARD_M5_OUTCOMES",
+  "protocol": "research/swing_two_session/frozen_grimes_2022_established_pivot_support_v1_2026_10_11.md",
+  "universeFile": "research/swing_two_session/data/grimes_2022_pivot_support_universe_frozen_2026_10_11.json",
+  "dailyArchives": [
+    "research/swing_two_session/data/grimes_2022_daily_history_preoutcome_batch_01_2026_10_11.json",
+    "research/swing_two_session/data/grimes_2022_daily_history_preoutcome_batch_02_2026_10_11.json",
+    "research/swing_two_session/data/grimes_2022_daily_history_preoutcome_batch_03_2026_10_11.json",
+    "research/swing_two_session/data/grimes_2022_daily_history_preoutcome_batch_04_2026_10_11.json",
+    "research/swing_two_session/data/grimes_2022_daily_history_preoutcome_batch_05_2026_10_11.json"
+  ],
+  "selectionDiagnostics": {
+    "sessionsAttempted": 18810,
+    "NO_SHOCK": 15874,
+    "shock": 2827,
+    "LOW_RVOL": 1723,
+    "shockAndVolume": 1104,
+    "SUPPORT_PREVIOUSLY_BROKEN": 619,
+    "NO_MATCHED_PIVOT_PAIR": 162,
+    "NOT_NEAR_INTACT_SUPPORT": 278,
+    "ELIGIBLE": 45,
+    "UNKNOWN_HISTORY": 109
+  },
+  "sourceErrors": [],
+  "summary": {
+    "universe": 90,
+    "dailySeriesAvailable": 90,
+    "selected": 45,
+    "selectedIssuers": 37,
+    "distinctDates": 34,
+    "severeShock": 6,
+    "byQuarter": {
+      "2022Q1": 15,
+      "2022Q2": 16,
+      "2022Q3": 12,
+      "2022Q4": 2
+    }
+  },
+  "coverageByTicker": [
+    {
+      "symbol": "AEO",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "AFL",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ALGM",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ALL",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "AMGN",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ANF",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "APP",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "AXP",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "BIIB",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "BILL",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "BMY",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "BNTX",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "BURL",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "CME",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "CMG",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "CMI",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "COF",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "CROX",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "DECK",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "DPZ",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "DRI",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "DVN",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "DXCM",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "EBAY",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ELF",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "EMR",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ENTG",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ETN",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ETSY",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "FANG",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "FAST",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "FIVE",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "FIVN",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "GAP",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "GD",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "HCA",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "HUBS",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "HUM",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ILMN",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "IOT",
+      "allBars": 221,
+      "inRange": 209,
+      "validForScreen": 100
+    },
+    {
+      "symbol": "ITW",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "KMI",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "LHX",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "LMT",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "LNG",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "LSCC",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "LULU",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "MCHP",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "MCO",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "MDB",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "MPC",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "MRNA",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "NET",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "NXPI",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "OKTA",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "OLED",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ON",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "OXY",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "PCAR",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "PGR",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "PH",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "PINS",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "PODD",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "PSX",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "PWR",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "RBLX",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ROK",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ROKU",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "RTX",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "SCHW",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "SHOP",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "SNAP",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "SPGI",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "SWKS",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "SYF",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "TEAM",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "TER",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "TJX",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "TROW",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "TRV",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "TWLO",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "U",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ULTA",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "URI",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "VLO",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "VRTX",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "WING",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "YUM",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ZM",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    },
+    {
+      "symbol": "ZS",
+      "allBars": 359,
+      "inRange": 209,
+      "validForScreen": 209
+    }
+  ],
+  "events": [
+    {
+      "symbol": "U",
+      "date": "2022-01-04",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 129.73,
+      "d0LowAdjusted": 125.15,
+      "priorCloseAdjusted": 138.65,
+      "shockPct": -6.433465560764528,
+      "rvol20": 1.5145348220258226,
+      "supportAdjusted": 127.21,
+      "supportPivotA": {
+        "index": 41,
+        "date": "2021-09-13",
+        "low": 128.15
+      },
+      "supportPivotB": {
+        "index": 109,
+        "date": "2021-12-17",
+        "low": 127.21
+      },
+      "d0CloseToSupportPct": 1.9809763383381807,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "APP",
+      "date": "2022-01-05",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 82.03,
+      "d0LowAdjusted": 80.8,
+      "priorCloseAdjusted": 88.61,
+      "shockPct": -7.425798442613695,
+      "rvol20": 1.948254975920735,
+      "supportAdjusted": 81.05,
+      "supportPivotA": {
+        "index": 98,
+        "date": "2021-12-03",
+        "low": 81.45
+      },
+      "supportPivotB": {
+        "index": 108,
+        "date": "2021-12-17",
+        "low": 81.05
+      },
+      "d0CloseToSupportPct": 1.2091301665638543,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "TROW",
+      "date": "2022-01-05",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 150.388315,
+      "d0LowAdjusted": 150.131625,
+      "priorCloseAdjusted": 156.516791,
+      "shockPct": -3.915539004374302,
+      "rvol20": 1.3720240147659335,
+      "supportAdjusted": 149.842849,
+      "supportPivotA": {
+        "index": 62,
+        "date": "2021-10-13",
+        "low": 149.972245
+      },
+      "supportPivotB": {
+        "index": 109,
+        "date": "2021-12-20",
+        "low": 149.842849
+      },
+      "d0CloseToSupportPct": 0.364025379682964,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "URI",
+      "date": "2022-01-05",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 322.514964,
+      "d0LowAdjusted": 320.807277,
+      "priorCloseAdjusted": 334.134436,
+      "shockPct": -3.4774841345595275,
+      "rvol20": 1.3776101322731513,
+      "supportAdjusted": 311.829285,
+      "supportPivotA": {
+        "index": 45,
+        "date": "2021-09-20",
+        "low": 311.829285
+      },
+      "supportPivotB": {
+        "index": 98,
+        "date": "2021-12-03",
+        "low": 314.678799
+      },
+      "d0CloseToSupportPct": 3.4267721198796286,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "DPZ",
+      "date": "2022-01-07",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 471.477123,
+      "d0LowAdjusted": 471.26384,
+      "priorCloseAdjusted": 486.295691,
+      "shockPct": -3.0472340747103144,
+      "rvol20": 1.2277185713047822,
+      "supportAdjusted": 470.559077,
+      "supportPivotA": {
+        "index": 94,
+        "date": "2021-12-01",
+        "low": 473.142499
+      },
+      "supportPivotB": {
+        "index": 104,
+        "date": "2021-12-15",
+        "low": 470.559077
+      },
+      "d0CloseToSupportPct": 0.1950968634699235,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "MCHP",
+      "date": "2022-01-07",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 73.666974,
+      "d0LowAdjusted": 73.604034,
+      "priorCloseAdjusted": 76.697093,
+      "shockPct": -3.9507612107280266,
+      "rvol20": 1.3012061129090133,
+      "supportAdjusted": 73.199418,
+      "supportPivotA": {
+        "index": 97,
+        "date": "2021-12-06",
+        "low": 73.46017
+      },
+      "supportPivotB": {
+        "index": 107,
+        "date": "2021-12-20",
+        "low": 73.199418
+      },
+      "d0CloseToSupportPct": 0.638742783446733,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2022-01-13",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 63.64,
+      "d0LowAdjusted": 63.38,
+      "priorCloseAdjusted": 66.86,
+      "shockPct": -4.816033502841755,
+      "rvol20": 1.2623305164368543,
+      "supportAdjusted": 62.57,
+      "supportPivotA": {
+        "index": 49,
+        "date": "2021-10-04",
+        "low": 62.76
+      },
+      "supportPivotB": {
+        "index": 55,
+        "date": "2021-10-12",
+        "low": 62.57
+      },
+      "d0CloseToSupportPct": 1.7100847051302548,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "TJX",
+      "date": "2022-01-18",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 64.343147,
+      "d0LowAdjusted": 64.203087,
+      "priorCloseAdjusted": 66.462707,
+      "shockPct": -3.189096706518424,
+      "rvol20": 1.790599307529312,
+      "supportAdjusted": 63.465443,
+      "supportPivotA": {
+        "index": 75,
+        "date": "2021-11-11",
+        "low": 63.596165
+      },
+      "supportPivotB": {
+        "index": 88,
+        "date": "2021-12-01",
+        "low": 63.465443
+      },
+      "d0CloseToSupportPct": 1.38296363896806,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "TER",
+      "date": "2022-01-19",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 145.615795,
+      "d0LowAdjusted": 145.448895,
+      "priorCloseAdjusted": 152.723794,
+      "shockPct": -4.654152973701009,
+      "rvol20": 1.2266105522309232,
+      "supportAdjusted": 142.267967,
+      "supportPivotA": {
+        "index": 84,
+        "date": "2021-11-26",
+        "low": 142.768669
+      },
+      "supportPivotB": {
+        "index": 90,
+        "date": "2021-12-06",
+        "low": 142.267967
+      },
+      "d0CloseToSupportPct": 2.3531846771944087,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "LHX",
+      "date": "2022-01-31",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 190.310792,
+      "d0LowAdjusted": 188.955911,
+      "priorCloseAdjusted": 198.840178,
+      "shockPct": -4.28956868063155,
+      "rvol20": 2.6618120999207284,
+      "supportAdjusted": 188.519439,
+      "supportPivotA": {
+        "index": 79,
+        "date": "2021-12-01",
+        "low": 188.519439
+      },
+      "supportPivotB": {
+        "index": 104,
+        "date": "2022-01-06",
+        "low": 190.310792
+      },
+      "d0CloseToSupportPct": 0.9502219025805614,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "GAP",
+      "date": "2022-02-11",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 13.139456,
+      "d0LowAdjusted": 13.024053,
+      "priorCloseAdjusted": 14.235784,
+      "shockPct": -7.701212662400625,
+      "rvol20": 1.3704322441516983,
+      "supportAdjusted": 12.967776,
+      "supportPivotA": {
+        "index": 71,
+        "date": "2021-12-02",
+        "low": 12.967776
+      },
+      "supportPivotB": {
+        "index": 80,
+        "date": "2021-12-15",
+        "low": 13.074237
+      },
+      "d0CloseToSupportPct": 1.323897019812792,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "COF",
+      "date": "2022-03-01",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 129.811722,
+      "d0LowAdjusted": 129.322668,
+      "priorCloseAdjusted": 141.429078,
+      "shockPct": -8.214262699216635,
+      "rvol20": 1.629853739532344,
+      "supportAdjusted": 127.175428,
+      "supportPivotA": {
+        "index": 59,
+        "date": "2021-12-01",
+        "low": 127.175428
+      },
+      "supportPivotB": {
+        "index": 99,
+        "date": "2022-01-28",
+        "low": 127.405235
+      },
+      "d0CloseToSupportPct": 2.072958622164034,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "PCAR",
+      "date": "2022-03-07",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 47.316883,
+      "d0LowAdjusted": 47.191751,
+      "priorCloseAdjusted": 50.02428,
+      "shockPct": -5.412165852262141,
+      "rvol20": 1.4724586054567796,
+      "supportAdjusted": 45.875929,
+      "supportPivotA": {
+        "index": 55,
+        "date": "2021-12-01",
+        "low": 45.875929
+      },
+      "supportPivotB": {
+        "index": 68,
+        "date": "2021-12-20",
+        "low": 45.933883
+      },
+      "d0CloseToSupportPct": 3.1409805346939157,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "CME",
+      "date": "2022-03-08",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 183.860902,
+      "d0LowAdjusted": 183.406883,
+      "priorCloseAdjusted": 194.592243,
+      "shockPct": -5.5147835466391015,
+      "rvol20": 1.4394378083796635,
+      "supportAdjusted": 179.923325,
+      "supportPivotA": {
+        "index": 85,
+        "date": "2022-01-14",
+        "low": 181.017096
+      },
+      "supportPivotB": {
+        "index": 92,
+        "date": "2022-01-26",
+        "low": 179.923325
+      },
+      "d0CloseToSupportPct": 2.1884750073399406,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "PSX",
+      "date": "2022-03-09",
+      "quarter": "2022Q1",
+      "d0CloseAdjusted": 67.674038,
+      "d0LowAdjusted": 66.625026,
+      "priorCloseAdjusted": 71.904198,
+      "shockPct": -5.883050110648613,
+      "rvol20": 3.2567872910075417,
+      "supportAdjusted": 67.053774,
+      "supportPivotA": {
+        "index": 22,
+        "date": "2021-10-18",
+        "low": 67.053774
+      },
+      "supportPivotB": {
+        "index": 89,
+        "date": "2022-01-24",
+        "low": 67.110625
+      },
+      "d0CloseToSupportPct": 0.9250247420823587,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "ALGM",
+      "date": "2022-04-06",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 25.66,
+      "d0LowAdjusted": 25.18,
+      "priorCloseAdjusted": 26.54,
+      "shockPct": -3.3157498116051176,
+      "rvol20": 1.212142398455584,
+      "supportAdjusted": 24.81,
+      "supportPivotA": {
+        "index": 98,
+        "date": "2022-03-07",
+        "low": 24.9
+      },
+      "supportPivotB": {
+        "index": 103,
+        "date": "2022-03-14",
+        "low": 24.81
+      },
+      "d0CloseToSupportPct": 3.426037887948419,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "ON",
+      "date": "2022-04-06",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 53.7,
+      "d0LowAdjusted": 53.01,
+      "priorCloseAdjusted": 55.7,
+      "shockPct": -3.590664272890487,
+      "rvol20": 1.3884750896153673,
+      "supportAdjusted": 53.01,
+      "supportPivotA": {
+        "index": 99,
+        "date": "2022-03-08",
+        "low": 53.01
+      },
+      "supportPivotB": {
+        "index": 104,
+        "date": "2022-03-15",
+        "low": 53.15
+      },
+      "d0CloseToSupportPct": 1.3016411997736288,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "LHX",
+      "date": "2022-04-21",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 224.758757,
+      "d0LowAdjusted": 223.886537,
+      "priorCloseAdjusted": 235.471993,
+      "shockPct": -4.549685872833287,
+      "rvol20": 1.2059249694977987,
+      "supportAdjusted": 219.269708,
+      "supportPivotA": {
+        "index": 95,
+        "date": "2022-03-16",
+        "low": 220.840617
+      },
+      "supportPivotB": {
+        "index": 104,
+        "date": "2022-03-29",
+        "low": 219.269708
+      },
+      "d0CloseToSupportPct": 2.5033321064120706,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "TROW",
+      "date": "2022-04-22",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 108.64584,
+      "d0LowAdjusted": 108.53254,
+      "priorCloseAdjusted": 112.959302,
+      "shockPct": -3.818598312514354,
+      "rvol20": 1.3997356382134447,
+      "supportAdjusted": 106.742976,
+      "supportPivotA": {
+        "index": 80,
+        "date": "2022-02-24",
+        "low": 107.593262
+      },
+      "supportPivotB": {
+        "index": 88,
+        "date": "2022-03-08",
+        "low": 106.742976
+      },
+      "d0CloseToSupportPct": 1.7826596852611676,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "ROK",
+      "date": "2022-04-26",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 233.714011,
+      "d0LowAdjusted": 233.547212,
+      "priorCloseAdjusted": 242.146657,
+      "shockPct": -3.4824540237200163,
+      "rvol20": 1.22745919631203,
+      "supportAdjusted": 232.268415,
+      "supportPivotA": {
+        "index": 78,
+        "date": "2022-02-24",
+        "low": 232.268415
+      },
+      "supportPivotB": {
+        "index": 90,
+        "date": "2022-03-14",
+        "low": 234.307077
+      },
+      "d0CloseToSupportPct": 0.6223816527098691,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "ROK",
+      "date": "2022-04-29",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 234.140277,
+      "d0LowAdjusted": 233.375779,
+      "priorCloseAdjusted": 244.037052,
+      "shockPct": -4.055439499408475,
+      "rvol20": 1.7531766112660012,
+      "supportAdjusted": 232.268415,
+      "supportPivotA": {
+        "index": 75,
+        "date": "2022-02-24",
+        "low": 232.268415
+      },
+      "supportPivotB": {
+        "index": 87,
+        "date": "2022-03-14",
+        "low": 234.307077
+      },
+      "d0CloseToSupportPct": 0.8059046685275684,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "FAST",
+      "date": "2022-05-05",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 24.402223,
+      "d0LowAdjusted": 24.181531,
+      "priorCloseAdjusted": 25.784925,
+      "shockPct": -5.362443365648739,
+      "rvol20": 1.2082904565588573,
+      "supportAdjusted": 24.009587,
+      "supportPivotA": {
+        "index": 53,
+        "date": "2022-01-28",
+        "low": 24.074287
+      },
+      "supportPivotB": {
+        "index": 81,
+        "date": "2022-03-10",
+        "low": 24.009587
+      },
+      "d0CloseToSupportPct": 1.6353300871022824,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "PH",
+      "date": "2022-05-05",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 260.95558,
+      "d0LowAdjusted": 255.134729,
+      "priorCloseAdjusted": 274.581665,
+      "shockPct": -4.962489028537275,
+      "rvol20": 2.1140767117657875,
+      "supportAdjusted": 252.243202,
+      "supportPivotA": {
+        "index": 79,
+        "date": "2022-03-08",
+        "low": 253.726763
+      },
+      "supportPivotB": {
+        "index": 100,
+        "date": "2022-04-06",
+        "low": 252.243202
+      },
+      "d0CloseToSupportPct": 3.4539594847039723,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "AXP",
+      "date": "2022-05-12",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 144.91672,
+      "d0LowAdjusted": 141.711476,
+      "priorCloseAdjusted": 150.703177,
+      "shockPct": -3.8396383640936893,
+      "rvol20": 1.6225279720332022,
+      "supportAdjusted": 144.11054,
+      "supportPivotA": {
+        "index": 21,
+        "date": "2021-12-20",
+        "low": 144.624391
+      },
+      "supportPivotB": {
+        "index": 44,
+        "date": "2022-01-24",
+        "low": 144.11054
+      },
+      "d0CloseToSupportPct": 0.5594177913704312,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "COF",
+      "date": "2022-06-10",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 104.431514,
+      "d0LowAdjusted": 103.374026,
+      "priorCloseAdjusted": 110.702228,
+      "shockPct": -5.664487619887826,
+      "rvol20": 1.5203192722485004,
+      "supportAdjusted": 102.307263,
+      "supportPivotA": {
+        "index": 100,
+        "date": "2022-05-12",
+        "low": 102.959852
+      },
+      "supportPivotB": {
+        "index": 106,
+        "date": "2022-05-20",
+        "low": 102.307263
+      },
+      "d0CloseToSupportPct": 2.076344276749942,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "CMG",
+      "date": "2022-06-13",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 24.6536,
+      "d0LowAdjusted": 24.2784,
+      "priorCloseAdjusted": 26.3408,
+      "shockPct": -6.405272429083397,
+      "rvol20": 1.5636663651234763,
+      "supportAdjusted": 24.6182,
+      "supportPivotA": {
+        "index": 99,
+        "date": "2022-05-12",
+        "low": 24.8542
+      },
+      "supportPivotB": {
+        "index": 107,
+        "date": "2022-05-24",
+        "low": 24.6182
+      },
+      "d0CloseToSupportPct": 0.1437960533263949,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "CMI",
+      "date": "2022-06-13",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 178.474762,
+      "d0LowAdjusted": 177.283111,
+      "priorCloseAdjusted": 186.934575,
+      "shockPct": -4.525547507730976,
+      "rvol20": 1.445463003890451,
+      "supportAdjusted": 175.176253,
+      "supportPivotA": {
+        "index": 97,
+        "date": "2022-05-10",
+        "low": 175.500144
+      },
+      "supportPivotB": {
+        "index": 107,
+        "date": "2022-05-24",
+        "low": 175.176253
+      },
+      "d0CloseToSupportPct": 1.882965837841044,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "LNG",
+      "date": "2022-06-13",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 122.634669,
+      "d0LowAdjusted": 120.764068,
+      "priorCloseAdjusted": 129.925215,
+      "shockPct": -5.611340339132786,
+      "rvol20": 1.3318207511647706,
+      "supportAdjusted": 122.308513,
+      "supportPivotA": {
+        "index": 99,
+        "date": "2022-05-12",
+        "low": 122.557926
+      },
+      "supportPivotB": {
+        "index": 105,
+        "date": "2022-05-20",
+        "low": 122.308513
+      },
+      "d0CloseToSupportPct": 0.26666663832304316,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "ON",
+      "date": "2022-06-16",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 53.46,
+      "d0LowAdjusted": 52,
+      "priorCloseAdjusted": 58.04,
+      "shockPct": -7.8911095796002755,
+      "rvol20": 2.2609669820214027,
+      "supportAdjusted": 53.15,
+      "supportPivotA": {
+        "index": 55,
+        "date": "2022-03-15",
+        "low": 53.15
+      },
+      "supportPivotB": {
+        "index": 104,
+        "date": "2022-05-24",
+        "low": 53.56
+      },
+      "d0CloseToSupportPct": 0.5832549388523178,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2022-06-16",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 165.74,
+      "d0LowAdjusted": 162.865,
+      "priorCloseAdjusted": 179.66,
+      "shockPct": -7.7479683847267005,
+      "rvol20": 1.2021217613975124,
+      "supportAdjusted": 161.04,
+      "supportPivotA": {
+        "index": 96,
+        "date": "2022-05-12",
+        "low": 161.04
+      },
+      "supportPivotB": {
+        "index": 105,
+        "date": "2022-05-25",
+        "low": 161.21
+      },
+      "d0CloseToSupportPct": 2.918529557873839,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "FANG",
+      "date": "2022-06-23",
+      "quarter": "2022Q2",
+      "d0CloseAdjusted": 93.636641,
+      "d0LowAdjusted": 92.168169,
+      "priorCloseAdjusted": 99.023653,
+      "shockPct": -5.4401265119960796,
+      "rvol20": 1.3517960880717823,
+      "supportAdjusted": 91.585456,
+      "supportPivotA": {
+        "index": 51,
+        "date": "2022-03-15",
+        "low": 91.585456
+      },
+      "supportPivotB": {
+        "index": 79,
+        "date": "2022-04-25",
+        "low": 91.835827
+      },
+      "d0CloseToSupportPct": 2.2396405385588736,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "GD",
+      "date": "2022-07-05",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 196.626769,
+      "d0LowAdjusted": 192.328165,
+      "priorCloseAdjusted": 205.17815,
+      "shockPct": -4.167783460373331,
+      "rvol20": 1.2195260049293601,
+      "supportAdjusted": 191.54198,
+      "supportPivotA": {
+        "index": 31,
+        "date": "2022-02-24",
+        "low": 191.645502
+      },
+      "supportPivotB": {
+        "index": 91,
+        "date": "2022-05-20",
+        "low": 191.54198
+      },
+      "d0CloseToSupportPct": 2.654660351741178,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "ALL",
+      "date": "2022-07-14",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 109.648274,
+      "d0LowAdjusted": 109.113272,
+      "priorCloseAdjusted": 115.034569,
+      "shockPct": -4.682327275029829,
+      "rvol20": 1.3080926086145919,
+      "supportAdjusted": 108.640987,
+      "supportPivotA": {
+        "index": 33,
+        "date": "2022-03-09",
+        "low": 109.433921
+      },
+      "supportPivotB": {
+        "index": 84,
+        "date": "2022-05-20",
+        "low": 108.640987
+      },
+      "d0CloseToSupportPct": 0.9271703321325653,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "BIIB",
+      "date": "2022-07-20",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 207.49,
+      "d0LowAdjusted": 204.67,
+      "priorCloseAdjusted": 220.26,
+      "shockPct": -5.797693634795231,
+      "rvol20": 1.8593072964597388,
+      "supportAdjusted": 199.87,
+      "supportPivotA": {
+        "index": 20,
+        "date": "2022-02-24",
+        "low": 200.36
+      },
+      "supportPivotB": {
+        "index": 106,
+        "date": "2022-06-29",
+        "low": 199.87
+      },
+      "d0CloseToSupportPct": 3.8124781107720107,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "ULTA",
+      "date": "2022-08-03",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 372.9,
+      "d0LowAdjusted": 360.58,
+      "priorCloseAdjusted": 392.9,
+      "shockPct": -5.090353779587686,
+      "rvol20": 3.657730786857463,
+      "supportAdjusted": 368.64,
+      "supportPivotA": {
+        "index": 99,
+        "date": "2022-07-05",
+        "low": 368.64
+      },
+      "supportPivotB": {
+        "index": 105,
+        "date": "2022-07-13",
+        "low": 370.54
+      },
+      "d0CloseToSupportPct": 1.155598958333326,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "OXY",
+      "date": "2022-08-04",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 53.70026,
+      "d0LowAdjusted": 53.513346,
+      "priorCloseAdjusted": 56.999284,
+      "shockPct": -5.787834106828438,
+      "rvol20": 1.883535666611406,
+      "supportAdjusted": 52.980643,
+      "supportPivotA": {
+        "index": 61,
+        "date": "2022-05-10",
+        "low": 53.086085
+      },
+      "supportPivotB": {
+        "index": 99,
+        "date": "2022-07-06",
+        "low": 52.980643
+      },
+      "d0CloseToSupportPct": 1.3582639984191847,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "NXPI",
+      "date": "2022-08-26",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 155.256732,
+      "d0LowAdjusted": 154.979686,
+      "priorCloseAdjusted": 165.322747,
+      "shockPct": -6.088705385472448,
+      "rvol20": 1.2621972333153089,
+      "supportAdjusted": 155.011175,
+      "supportPivotA": {
+        "index": 47,
+        "date": "2022-05-12",
+        "low": 155.011175
+      },
+      "supportPivotB": {
+        "index": 107,
+        "date": "2022-08-09",
+        "low": 156.383387
+      },
+      "d0CloseToSupportPct": 0.15841244994110326,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "MCHP",
+      "date": "2022-09-13",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 57.47275,
+      "d0LowAdjusted": 57.27256,
+      "priorCloseAdjusted": 61.349158,
+      "shockPct": -6.318600167259025,
+      "rvol20": 1.382789170568329,
+      "supportAdjusted": 57.317465,
+      "supportPivotA": {
+        "index": 36,
+        "date": "2022-05-12",
+        "low": 57.317465
+      },
+      "supportPivotB": {
+        "index": 86,
+        "date": "2022-07-26",
+        "low": 57.439854
+      },
+      "d0CloseToSupportPct": 0.27092091389595563,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "SYF",
+      "date": "2022-09-13",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 28.920855,
+      "d0LowAdjusted": 28.783572,
+      "priorCloseAdjusted": 31.39194,
+      "shockPct": -7.871718026983999,
+      "rvol20": 1.292708532964112,
+      "supportAdjusted": 28.503625,
+      "supportPivotA": {
+        "index": 42,
+        "date": "2022-05-20",
+        "low": 28.503625
+      },
+      "supportPivotB": {
+        "index": 88,
+        "date": "2022-07-28",
+        "low": 28.726002
+      },
+      "d0CloseToSupportPct": 1.4637787298983795,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "DRI",
+      "date": "2022-09-22",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 109.165321,
+      "d0LowAdjusted": 108.260324,
+      "priorCloseAdjusted": 114.238528,
+      "shockPct": -4.44088967953088,
+      "rvol20": 2.4257828184280994,
+      "supportAdjusted": 106.130359,
+      "supportPivotA": {
+        "index": 5,
+        "date": "2022-04-07",
+        "low": 106.130359
+      },
+      "supportPivotB": {
+        "index": 106,
+        "date": "2022-09-01",
+        "low": 106.415521
+      },
+      "d0CloseToSupportPct": 2.859654889134977,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "SPGI",
+      "date": "2022-09-22",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 334.742935,
+      "d0LowAdjusted": 334.587178,
+      "priorCloseAdjusted": 347.733083,
+      "shockPct": -3.7356664163012754,
+      "rvol20": 1.52772024730648,
+      "supportAdjusted": 323.107284,
+      "supportPivotA": {
+        "index": 42,
+        "date": "2022-06-01",
+        "low": 323.107284
+      },
+      "supportPivotB": {
+        "index": 53,
+        "date": "2022-06-16",
+        "low": 323.511336
+      },
+      "d0CloseToSupportPct": 3.6011726061861316,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "MPC",
+      "date": "2022-09-23",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 84.15619,
+      "d0LowAdjusted": 82.849445,
+      "priorCloseAdjusted": 88.324889,
+      "shockPct": -4.719733075464161,
+      "rvol20": 1.5675551665802132,
+      "supportAdjusted": 81.122141,
+      "supportPivotA": {
+        "index": 26,
+        "date": "2022-05-10",
+        "low": 81.652688
+      },
+      "supportPivotB": {
+        "index": 86,
+        "date": "2022-08-05",
+        "low": 81.122141
+      },
+      "d0CloseToSupportPct": 3.740099758954818,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "VLO",
+      "date": "2022-09-23",
+      "quarter": "2022Q3",
+      "d0CloseAdjusted": 89.745212,
+      "d0LowAdjusted": 88.843923,
+      "priorCloseAdjusted": 96.009619,
+      "shockPct": -6.524770189953577,
+      "rvol20": 1.440986354457124,
+      "supportAdjusted": 87.860004,
+      "supportPivotA": {
+        "index": 6,
+        "date": "2022-04-11",
+        "low": 87.860004
+      },
+      "supportPivotB": {
+        "index": 75,
+        "date": "2022-07-21",
+        "low": 88.719127
+      },
+      "d0CloseToSupportPct": 2.145695326852004,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "ON",
+      "date": "2022-10-10",
+      "quarter": "2022Q4",
+      "d0CloseAdjusted": 61.93,
+      "d0LowAdjusted": 59.68,
+      "priorCloseAdjusted": 64.83,
+      "shockPct": -4.473237698596321,
+      "rvol20": 1.3447105579430403,
+      "supportAdjusted": 61.66,
+      "supportPivotA": {
+        "index": 77,
+        "date": "2022-08-09",
+        "low": 61.72
+      },
+      "supportPivotB": {
+        "index": 109,
+        "date": "2022-09-23",
+        "low": 61.66
+      },
+      "d0CloseToSupportPct": 0.43788517677587624,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    },
+    {
+      "symbol": "ULTA",
+      "date": "2022-10-19",
+      "quarter": "2022Q4",
+      "d0CloseAdjusted": 386.26,
+      "d0LowAdjusted": 384.76,
+      "priorCloseAdjusted": 404.98,
+      "shockPct": -4.622450491382302,
+      "rvol20": 1.562277753018214,
+      "supportAdjusted": 385.95,
+      "supportPivotA": {
+        "index": 31,
+        "date": "2022-06-13",
+        "low": 385.95
+      },
+      "supportPivotB": {
+        "index": 102,
+        "date": "2022-09-23",
+        "low": 386.1
+      },
+      "d0CloseToSupportPct": 0.08032128514057213,
+      "eligible": true,
+      "source": "historical adjusted daily close D0 and preceding 120 trading sessions; no future M5 read"
+    }
+  ]
+}
