@@ -14,10 +14,10 @@ EXPECTED=[(dt.datetime(2025,7,1,9,30)+dt.timedelta(minutes=5*k)).strftime("%H:%M
 def load():
  result={}
  for w in WEEKS:
-  p=R/f"buyer_initiative_2025_week{w}_M5_webull_2026-10-10.json"
+  p=R/f"buyer_initiative_2025_frozen_raw_m5_week{w}_2026-10-10.json"
   if not p.exists():
    assert w=="2025-07-14"
-   p=R/"buyer_initiative_2025_BK_fallback_M5_massive_2026-10-10.json"
+   p=R/"buyer_initiative_2025_frozen_raw_m5_week2025-07-14_2026-10-10.json"
   d=json.loads(p.read_text())
   for item in d["stocks"]:
    t=item["ticker"];assert t not in result,t
