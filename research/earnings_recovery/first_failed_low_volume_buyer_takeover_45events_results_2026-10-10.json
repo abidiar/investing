@@ -1,0 +1,1316 @@
+{
+  "study": "First failed attempt to make low, contraction of 5m traded volume on retest, expansion on green buyer breakout",
+  "protocol": "frozen_intraday_first_failed_low_volume_takeover_45events_2026-10-10.md",
+  "event_roster": "frozen_all45_jul_sep2026_earnings_announcements_pre_5min.json",
+  "asof_threshold": "first finished 5m candle LOW <=95% of last completed pre-earnings daily close by 11:30",
+  "source": "Webull connected 5m RTH stock OHLCV and Webull prior daily completed market close",
+  "announcements_frozen": 45,
+  "reliable_asof_dislocations": 17,
+  "event_state_counts": {
+    "NO_INTRADAY_5PCT_DISLOCATION": 24,
+    "ELIGIBLE_GATE": 17,
+    "HISTORICAL_DAILY_5MIN_PRICE_BASIS_MISMATCH": 3,
+    "FIRST_5PCT_TOUCH_TOO_LATE": 1
+  },
+  "pattern_state_counts": {
+    "NO_WEAKER_SELL_VOLUME_RETEST": 9,
+    "BROKEN_FIRST_LOW": 5,
+    "NO_BUYER_BREAKOUT_AFTER_FIRST_RETEST": 3
+  },
+  "intraday_dislocations_that_did_not_close_down_5pct": 4,
+  "summary": {
+    "first_failed_low_buyer_takeover": {
+      "full_denominator_events": 17,
+      "denominator_type": "asof_first_5pct_intraday_dislocations",
+      "entries": 0,
+      "target_wins": 0,
+      "stop_first": 0,
+      "timeouts": 0,
+      "unresolved_trades": 0,
+      "target_pct_per_all_events": 0.0,
+      "target_pct_per_trades": null,
+      "mean_gross_stock_return_pct_per_traded": null,
+      "mean_gross_return_pct_per_all_events_zero_for_no_trades": 0.0,
+      "mean_after_20bps_cost_per_event_pct": 0.0
+    },
+    "immediate_5pct_breach_reference": {
+      "full_denominator_events": 17,
+      "denominator_type": "asof_first_5pct_intraday_dislocations",
+      "entries": 17,
+      "target_wins": 6,
+      "stop_first": 11,
+      "timeouts": 0,
+      "unresolved_trades": 0,
+      "target_pct_per_all_events": 35.294,
+      "target_pct_per_trades": 35.294,
+      "mean_gross_stock_return_pct_per_traded": -0.1176,
+      "mean_gross_return_pct_per_all_events_zero_for_no_trades": -0.1176,
+      "mean_after_20bps_cost_per_event_pct": -0.3176
+    },
+    "takeover_per_all45_announcements": {
+      "full_denominator_events": 45,
+      "denominator_type": "all_45_unambiguously_timed_earnings",
+      "entries": 0,
+      "target_wins": 0,
+      "stop_first": 0,
+      "timeouts": 0,
+      "unresolved_trades": 0,
+      "target_pct_per_all_events": 0.0,
+      "target_pct_per_trades": null,
+      "mean_gross_stock_return_pct_per_traded": null,
+      "mean_gross_return_pct_per_all_events_zero_for_no_trades": 0.0,
+      "mean_after_20bps_cost_per_event_pct": 0.0
+    }
+  },
+  "entry_distance_pct_from_first_breach_low": [],
+  "entry_distance_median": null,
+  "go_nogo_gates": {
+    "at_least_12_takeover_entries": false,
+    "at_least_plus10pp_target_rate_per_dislocation": false,
+    "at_least_five_more_target_winners": false,
+    "positive_after_cost_mean_per_all_45_earnings": false
+  },
+  "all_gates_met": false,
+  "caveats": [
+    "A 5m green bar is not measured actual aggressive buying or selling, only directional candle and relative TOTAL volume",
+    "Fixed *first* low can be legitimately breached again: this first-try strategy then skips; no rescan or hindsight anchor",
+    "Five-minute OHLC cannot prove within-bar stop/target order; stop-first adverse sequence",
+    "Historical nonrandom 61-name universe, partial outcome exposure for 15 old names, contemporary survivorship",
+    "Historical CALL ask/bid and option Greeks at exact entry unavailable; do not infer user's META call return",
+    "2026 issuer fundamentals not freshly point-in-time qualified"
+  ],
+  "events": [
+    {
+      "ticker": "ABNB",
+      "earnings_announcement": "2026-08-06",
+      "session": "after the close",
+      "reaction_day": "2026-08-07",
+      "source_closing_reaction_pct": 17.4,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-06",
+      "pre_earnings_previous_close": 151.64,
+      "five_min_reaction_day_closing_price": 178.07,
+      "daily_reaction_day_close": 178.07,
+      "actual_session_close_reaction_pct": 17.4294,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 144.058
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "ADP",
+      "earnings_announcement": "2026-07-29",
+      "session": "before the open",
+      "reaction_day": "2026-07-29",
+      "source_closing_reaction_pct": 3.5,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-28",
+      "pre_earnings_previous_close": 262.490095,
+      "five_min_reaction_day_closing_price": 273.37,
+      "daily_reaction_day_close": 271.631591,
+      "actual_session_close_reaction_pct": 4.1449,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 249.36559
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "AMD",
+      "earnings_announcement": "2026-08-04",
+      "session": "after the close",
+      "reaction_day": "2026-08-05",
+      "source_closing_reaction_pct": -7,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-04",
+      "pre_earnings_previous_close": 518.58,
+      "five_min_reaction_day_closing_price": 482.05,
+      "daily_reaction_day_close": 482.05,
+      "actual_session_close_reaction_pct": -7.0442,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 480.44,
+        "initial_volume": 3786132.0,
+        "threshold": 492.651,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-08-05",
+        "entry_time_ET": "09:35",
+        "entry_open": 494.135,
+        "exit_day": "2026-08-05",
+        "exit_time_ET": "09:35",
+        "exit_price": 489.19365,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_WEAKER_SELL_VOLUME_RETEST",
+        "initial_time": "09:30"
+      }
+    },
+    {
+      "ticker": "ANET",
+      "earnings_announcement": "2026-08-04",
+      "session": "after the close",
+      "reaction_day": "2026-08-05",
+      "source_closing_reaction_pct": 3.6,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-04",
+      "pre_earnings_previous_close": 190.51,
+      "five_min_reaction_day_closing_price": 197.31,
+      "daily_reaction_day_close": 197.31,
+      "actual_session_close_reaction_pct": 3.5694,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 180.9845
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "CMCSA",
+      "earnings_announcement": "2026-07-23",
+      "session": "before the open",
+      "reaction_day": "2026-07-23",
+      "source_closing_reaction_pct": -6.8,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-22",
+      "pre_earnings_previous_close": 23.16,
+      "five_min_reaction_day_closing_price": 21.92,
+      "daily_reaction_day_close": 21.58449,
+      "state": "HISTORICAL_DAILY_5MIN_PRICE_BASIS_MISMATCH"
+    },
+    {
+      "ticker": "COIN",
+      "earnings_announcement": "2026-07-30",
+      "session": "after the close",
+      "reaction_day": "2026-07-31",
+      "source_closing_reaction_pct": -10.6,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-30",
+      "pre_earnings_previous_close": 163.58,
+      "five_min_reaction_day_closing_price": 146.26,
+      "daily_reaction_day_close": 146.26,
+      "actual_session_close_reaction_pct": -10.5881,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 147.22,
+        "initial_volume": 1232406.0,
+        "threshold": 155.401,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-07-31",
+        "entry_time_ET": "09:35",
+        "entry_open": 147.34,
+        "exit_day": "2026-07-31",
+        "exit_time_ET": "09:35",
+        "exit_price": 145.8666,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "BROKEN_FIRST_LOW",
+        "time_ET": "09:35",
+        "low": 144.76,
+        "initial_low": 147.22
+      }
+    },
+    {
+      "ticker": "COP",
+      "earnings_announcement": "2026-08-06",
+      "session": "before the open",
+      "reaction_day": "2026-08-06",
+      "source_closing_reaction_pct": 1.5,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-05",
+      "pre_earnings_previous_close": 114.277785,
+      "five_min_reaction_day_closing_price": 116.76,
+      "daily_reaction_day_close": 115.986389,
+      "actual_session_close_reaction_pct": 2.1721,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 108.563896
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "CRM",
+      "earnings_announcement": "2026-08-26",
+      "session": "after the close",
+      "reaction_day": "2026-08-27",
+      "source_closing_reaction_pct": 22.6,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-26",
+      "pre_earnings_previous_close": 205.258889,
+      "five_min_reaction_day_closing_price": 252.05,
+      "daily_reaction_day_close": 251.607348,
+      "actual_session_close_reaction_pct": 22.7961,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 194.995945
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "CRWD",
+      "earnings_announcement": "2026-08-26",
+      "session": "after the close",
+      "reaction_day": "2026-08-27",
+      "source_closing_reaction_pct": 20.5,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-26",
+      "pre_earnings_previous_close": 189.18,
+      "five_min_reaction_day_closing_price": 227.96,
+      "daily_reaction_day_close": 227.96,
+      "actual_session_close_reaction_pct": 20.499,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 179.721
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "CSCO",
+      "earnings_announcement": "2026-08-12",
+      "session": "after the close",
+      "reaction_day": "2026-08-13",
+      "source_closing_reaction_pct": -8.4,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-12",
+      "pre_earnings_previous_close": 123.401611,
+      "five_min_reaction_day_closing_price": 113.47,
+      "daily_reaction_day_close": 113.031811,
+      "actual_session_close_reaction_pct": -8.0482,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 111.5,
+        "initial_volume": 4861474.0,
+        "threshold": 117.23153,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "TARGET",
+        "winner": true,
+        "entry_day": "2026-08-13",
+        "entry_time_ET": "09:35",
+        "entry_open": 111.94,
+        "exit_day": "2026-08-13",
+        "exit_time_ET": "09:35",
+        "exit_price": 113.6191,
+        "gross_return_pct": 1.5,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_WEAKER_SELL_VOLUME_RETEST",
+        "initial_time": "09:30"
+      }
+    },
+    {
+      "ticker": "CVS",
+      "earnings_announcement": "2026-08-05",
+      "session": "before the open",
+      "reaction_day": "2026-08-05",
+      "source_closing_reaction_pct": -5.1,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-04",
+      "pre_earnings_previous_close": 104.42,
+      "five_min_reaction_day_closing_price": 99.12,
+      "daily_reaction_day_close": 99.12,
+      "actual_session_close_reaction_pct": -5.0757,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 93.5,
+        "initial_volume": 1221741.0,
+        "threshold": 99.199,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "TARGET",
+        "winner": true,
+        "entry_day": "2026-08-05",
+        "entry_time_ET": "09:35",
+        "entry_open": 95.46,
+        "exit_day": "2026-08-05",
+        "exit_time_ET": "09:35",
+        "exit_price": 96.8919,
+        "gross_return_pct": 1.5,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_WEAKER_SELL_VOLUME_RETEST",
+        "initial_time": "09:30"
+      }
+    },
+    {
+      "ticker": "DAL",
+      "earnings_announcement": "2026-07-10",
+      "session": "before the open",
+      "reaction_day": "2026-07-10",
+      "source_closing_reaction_pct": -1.8,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-09",
+      "pre_earnings_previous_close": 89.0,
+      "five_min_reaction_day_closing_price": 87.39,
+      "daily_reaction_day_close": 87.39,
+      "actual_session_close_reaction_pct": -1.809,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 84.55
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "DELL",
+      "earnings_announcement": "2026-09-01",
+      "session": "after the close",
+      "reaction_day": "2026-09-02",
+      "source_closing_reaction_pct": 15.8,
+      "source_bar_count": 702,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-09-01",
+      "pre_earnings_previous_close": 425.0,
+      "five_min_reaction_day_closing_price": 492.2,
+      "daily_reaction_day_close": 492.2,
+      "actual_session_close_reaction_pct": 15.8118,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 403.75
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "DG",
+      "earnings_announcement": "2026-08-27",
+      "session": "before the open",
+      "reaction_day": "2026-08-27",
+      "source_closing_reaction_pct": 2.5,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-26",
+      "pre_earnings_previous_close": 122.172891,
+      "five_min_reaction_day_closing_price": 125.89,
+      "daily_reaction_day_close": 125.267513,
+      "actual_session_close_reaction_pct": 3.0425,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 116.064246
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "DIS",
+      "earnings_announcement": "2026-08-05",
+      "session": "before the open",
+      "reaction_day": "2026-08-05",
+      "source_closing_reaction_pct": 3.6,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-04",
+      "pre_earnings_previous_close": 98.18,
+      "five_min_reaction_day_closing_price": 101.76,
+      "daily_reaction_day_close": 101.76,
+      "actual_session_close_reaction_pct": 3.6464,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 93.271
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "DLTR",
+      "earnings_announcement": "2026-08-27",
+      "session": "before the open",
+      "reaction_day": "2026-08-27",
+      "source_closing_reaction_pct": -3.9,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-26",
+      "pre_earnings_previous_close": 132.18,
+      "five_min_reaction_day_closing_price": 127.0,
+      "daily_reaction_day_close": 127.0,
+      "actual_session_close_reaction_pct": -3.9189,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 118.11,
+        "initial_volume": 481612.0,
+        "threshold": 125.571,
+        "first_event_day_close_above_minus5": true
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "TARGET",
+        "winner": true,
+        "entry_day": "2026-08-27",
+        "entry_time_ET": "09:35",
+        "entry_open": 127.46,
+        "exit_day": "2026-08-27",
+        "exit_time_ET": "09:35",
+        "exit_price": 129.3719,
+        "gross_return_pct": 1.5,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_WEAKER_SELL_VOLUME_RETEST",
+        "initial_time": "09:30"
+      }
+    },
+    {
+      "ticker": "EOG",
+      "earnings_announcement": "2026-08-04",
+      "session": "after the close",
+      "reaction_day": "2026-08-05",
+      "source_closing_reaction_pct": -6.5,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-04",
+      "pre_earnings_previous_close": 143.52,
+      "five_min_reaction_day_closing_price": 134.23,
+      "daily_reaction_day_close": 134.23,
+      "actual_session_close_reaction_pct": -6.473,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 23,
+        "initial_time": "11:25",
+        "initial_low": 135.99,
+        "initial_volume": 151346.0,
+        "threshold": 136.344,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-08-05",
+        "entry_time_ET": "11:30",
+        "entry_open": 136.1433,
+        "exit_day": "2026-08-05",
+        "exit_time_ET": "12:50",
+        "exit_price": 134.781867,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "BROKEN_FIRST_LOW",
+        "time_ET": "11:30",
+        "low": 135.62,
+        "initial_low": 135.99
+      }
+    },
+    {
+      "ticker": "EW",
+      "earnings_announcement": "2026-07-23",
+      "session": "after the close",
+      "reaction_day": "2026-07-24",
+      "source_closing_reaction_pct": -1.4,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-23",
+      "pre_earnings_previous_close": 83.82,
+      "five_min_reaction_day_closing_price": 82.63,
+      "daily_reaction_day_close": 82.63,
+      "actual_session_close_reaction_pct": -1.4197,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 79.629
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "FIS",
+      "earnings_announcement": "2026-08-04",
+      "session": "before the open",
+      "reaction_day": "2026-08-04",
+      "source_closing_reaction_pct": -1.2,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-03",
+      "pre_earnings_previous_close": 44.268494,
+      "five_min_reaction_day_closing_price": 44.26,
+      "daily_reaction_day_close": 43.754434,
+      "state": "HISTORICAL_DAILY_5MIN_PRICE_BASIS_MISMATCH"
+    },
+    {
+      "ticker": "FSLR",
+      "earnings_announcement": "2026-07-30",
+      "session": "after the close",
+      "reaction_day": "2026-07-31",
+      "source_closing_reaction_pct": 2.4,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-30",
+      "pre_earnings_previous_close": 206.01,
+      "five_min_reaction_day_closing_price": 211.03,
+      "daily_reaction_day_close": 211.03,
+      "actual_session_close_reaction_pct": 2.4368,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 195.7095
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "FTNT",
+      "earnings_announcement": "2026-07-29",
+      "session": "after the close",
+      "reaction_day": "2026-07-30",
+      "source_closing_reaction_pct": 0.7,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-29",
+      "pre_earnings_previous_close": 153.22,
+      "five_min_reaction_day_closing_price": 154.25,
+      "daily_reaction_day_close": 154.25,
+      "actual_session_close_reaction_pct": 0.6722,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 145.559
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "GE",
+      "earnings_announcement": "2026-07-16",
+      "session": "before the open",
+      "reaction_day": "2026-07-16",
+      "source_closing_reaction_pct": -4.1,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-15",
+      "pre_earnings_previous_close": 359.802886,
+      "five_min_reaction_day_closing_price": 345.73,
+      "daily_reaction_day_close": 345.205084,
+      "actual_session_close_reaction_pct": -3.9113,
+      "gate": {
+        "state": "FIRST_5PCT_TOUCH_TOO_LATE",
+        "first_time": "12:10",
+        "first_low": 341.1156,
+        "threshold": 341.812742
+      },
+      "state": "FIRST_5PCT_TOUCH_TOO_LATE"
+    },
+    {
+      "ticker": "GILD",
+      "earnings_announcement": "2026-08-04",
+      "session": "after the close",
+      "reaction_day": "2026-08-05",
+      "source_closing_reaction_pct": -2.6,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-04",
+      "pre_earnings_previous_close": 134.492504,
+      "five_min_reaction_day_closing_price": 131.76,
+      "daily_reaction_day_close": 131.02205,
+      "actual_session_close_reaction_pct": -2.0317,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 127.767879
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "GLW",
+      "earnings_announcement": "2026-07-28",
+      "session": "before the open",
+      "reaction_day": "2026-07-28",
+      "source_closing_reaction_pct": -12.1,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-27",
+      "pre_earnings_previous_close": 143.090562,
+      "five_min_reaction_day_closing_price": 126.01,
+      "daily_reaction_day_close": 125.773171,
+      "actual_session_close_reaction_pct": -11.9369,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 120.18,
+        "initial_volume": 2250323.0,
+        "threshold": 135.936034,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-07-28",
+        "entry_time_ET": "09:35",
+        "entry_open": 122.71,
+        "exit_day": "2026-07-28",
+        "exit_time_ET": "09:35",
+        "exit_price": 121.4829,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "BROKEN_FIRST_LOW",
+        "time_ET": "09:35",
+        "low": 119.85,
+        "initial_low": 120.18
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "earnings_announcement": "2026-07-22",
+      "session": "after the close",
+      "reaction_day": "2026-07-23",
+      "source_closing_reaction_pct": -6.9,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-22",
+      "pre_earnings_previous_close": 341.688164,
+      "five_min_reaction_day_closing_price": 318.34,
+      "daily_reaction_day_close": 318.133456,
+      "actual_session_close_reaction_pct": -6.8332,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 320.4,
+        "initial_volume": 3205324.0,
+        "threshold": 324.603756,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-07-23",
+        "entry_time_ET": "09:35",
+        "entry_open": 320.8,
+        "exit_day": "2026-07-23",
+        "exit_time_ET": "10:10",
+        "exit_price": 317.592,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_BUYER_BREAKOUT_AFTER_FIRST_RETEST",
+        "retest_time": "09:40",
+        "retest_low": 320.1,
+        "retest_volume": 1270697.0
+      }
+    },
+    {
+      "ticker": "GPN",
+      "earnings_announcement": "2026-08-05",
+      "session": "before the open",
+      "reaction_day": "2026-08-05",
+      "source_closing_reaction_pct": -0.9,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-04",
+      "pre_earnings_previous_close": 88.000847,
+      "five_min_reaction_day_closing_price": 87.48,
+      "daily_reaction_day_close": 87.233021,
+      "actual_session_close_reaction_pct": -0.5919,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 83.600805
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "HAL",
+      "earnings_announcement": "2026-07-21",
+      "session": "before the open",
+      "reaction_day": "2026-07-21",
+      "source_closing_reaction_pct": -5.5,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-20",
+      "pre_earnings_previous_close": 34.947807,
+      "five_min_reaction_day_closing_price": 33.19,
+      "daily_reaction_day_close": 33.036677,
+      "actual_session_close_reaction_pct": -5.0298,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 32.725,
+        "initial_volume": 1185792.0,
+        "threshold": 33.200417,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-07-21",
+        "entry_time_ET": "09:35",
+        "entry_open": 32.745,
+        "exit_day": "2026-07-21",
+        "exit_time_ET": "09:40",
+        "exit_price": 32.41755,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "BROKEN_FIRST_LOW",
+        "time_ET": "09:35",
+        "low": 32.56,
+        "initial_low": 32.725
+      }
+    },
+    {
+      "ticker": "IBM",
+      "earnings_announcement": "2026-07-22",
+      "session": "after the close",
+      "reaction_day": "2026-07-23",
+      "source_closing_reaction_pct": 0.4,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-22",
+      "pre_earnings_previous_close": 204.304426,
+      "five_min_reaction_day_closing_price": 206.65,
+      "daily_reaction_day_close": 205.178159,
+      "actual_session_close_reaction_pct": 1.1481,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 194.089205
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "ISRG",
+      "earnings_announcement": "2026-07-16",
+      "session": "after the close",
+      "reaction_day": "2026-07-17",
+      "source_closing_reaction_pct": -14.1,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-16",
+      "pre_earnings_previous_close": 402.33,
+      "five_min_reaction_day_closing_price": 345.42,
+      "daily_reaction_day_close": 345.42,
+      "actual_session_close_reaction_pct": -14.1451,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 353.17,
+        "initial_volume": 926664.0,
+        "threshold": 382.2135,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "TARGET",
+        "winner": true,
+        "entry_day": "2026-07-17",
+        "entry_time_ET": "09:35",
+        "entry_open": 357.63,
+        "exit_day": "2026-07-17",
+        "exit_time_ET": "09:35",
+        "exit_price": 362.99445,
+        "gross_return_pct": 1.5,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_WEAKER_SELL_VOLUME_RETEST",
+        "initial_time": "09:30"
+      }
+    },
+    {
+      "ticker": "KDP",
+      "earnings_announcement": "2026-08-06",
+      "session": "before the open",
+      "reaction_day": "2026-08-06",
+      "source_closing_reaction_pct": -1.2,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-05",
+      "pre_earnings_previous_close": 30.528638,
+      "five_min_reaction_day_closing_price": 30.37,
+      "daily_reaction_day_close": 30.151374,
+      "actual_session_close_reaction_pct": -0.5196,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 29.002206
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "KLAC",
+      "earnings_announcement": "2026-07-28",
+      "session": "after the close",
+      "reaction_day": "2026-07-29",
+      "source_closing_reaction_pct": -10.8,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-28",
+      "pre_earnings_previous_close": 190.584587,
+      "five_min_reaction_day_closing_price": 170.19,
+      "daily_reaction_day_close": 169.997855,
+      "actual_session_close_reaction_pct": -10.7011,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 177.48,
+        "initial_volume": 1070597.0,
+        "threshold": 181.055358,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-07-29",
+        "entry_time_ET": "09:35",
+        "entry_open": 189.24,
+        "exit_day": "2026-07-29",
+        "exit_time_ET": "09:35",
+        "exit_price": 187.3476,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_BUYER_BREAKOUT_AFTER_FIRST_RETEST",
+        "retest_time": "10:10",
+        "retest_low": 177.695,
+        "retest_volume": 239484.0
+      }
+    },
+    {
+      "ticker": "LOW",
+      "earnings_announcement": "2026-08-19",
+      "session": "before the open",
+      "reaction_day": "2026-08-19",
+      "source_closing_reaction_pct": 2,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-18",
+      "pre_earnings_previous_close": 215.64,
+      "five_min_reaction_day_closing_price": 220.0,
+      "daily_reaction_day_close": 220.0,
+      "actual_session_close_reaction_pct": 2.0219,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 204.858
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "MPWR",
+      "earnings_announcement": "2026-07-30",
+      "session": "after the close",
+      "reaction_day": "2026-07-31",
+      "source_closing_reaction_pct": 8.3,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-30",
+      "pre_earnings_previous_close": 1314.238717,
+      "five_min_reaction_day_closing_price": 1426.03,
+      "daily_reaction_day_close": 1423.926695,
+      "actual_session_close_reaction_pct": 8.5062,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 1248.526781
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "NEM",
+      "earnings_announcement": "2026-07-23",
+      "session": "after the close",
+      "reaction_day": "2026-07-24",
+      "source_closing_reaction_pct": -1.6,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-23",
+      "pre_earnings_previous_close": 94.523234,
+      "five_min_reaction_day_closing_price": 93.19,
+      "daily_reaction_day_close": 92.996413,
+      "actual_session_close_reaction_pct": -1.4105,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 89.797072
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "NFLX",
+      "earnings_announcement": "2026-07-16",
+      "session": "after the close",
+      "reaction_day": "2026-07-17",
+      "source_closing_reaction_pct": -7.3,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-16",
+      "pre_earnings_previous_close": 74.35,
+      "five_min_reaction_day_closing_price": 68.95,
+      "daily_reaction_day_close": 68.95,
+      "actual_session_close_reaction_pct": -7.2629,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 65.095,
+        "initial_volume": 11744988.0,
+        "threshold": 70.6325,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-07-17",
+        "entry_time_ET": "09:35",
+        "entry_open": 66.625,
+        "exit_day": "2026-07-17",
+        "exit_time_ET": "09:45",
+        "exit_price": 65.95875,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_WEAKER_SELL_VOLUME_RETEST",
+        "initial_time": "09:30"
+      }
+    },
+    {
+      "ticker": "NOC",
+      "earnings_announcement": "2026-07-21",
+      "session": "before the open",
+      "reaction_day": "2026-07-21",
+      "source_closing_reaction_pct": -2.2,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-20",
+      "pre_earnings_previous_close": 521.587837,
+      "five_min_reaction_day_closing_price": 512.29,
+      "daily_reaction_day_close": 509.970671,
+      "actual_session_close_reaction_pct": -1.7826,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 479.05,
+        "initial_volume": 114222.0,
+        "threshold": 495.508445,
+        "first_event_day_close_above_minus5": true
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "TARGET",
+        "winner": true,
+        "entry_day": "2026-07-21",
+        "entry_time_ET": "09:35",
+        "entry_open": 482.635,
+        "exit_day": "2026-07-21",
+        "exit_time_ET": "09:35",
+        "exit_price": 489.874525,
+        "gross_return_pct": 1.5,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_WEAKER_SELL_VOLUME_RETEST",
+        "initial_time": "09:30"
+      }
+    },
+    {
+      "ticker": "NOW",
+      "earnings_announcement": "2026-07-22",
+      "session": "after the close",
+      "reaction_day": "2026-07-23",
+      "source_closing_reaction_pct": -3.7,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-22",
+      "pre_earnings_previous_close": 95.46,
+      "five_min_reaction_day_closing_price": 91.94,
+      "daily_reaction_day_close": 91.94,
+      "actual_session_close_reaction_pct": -3.6874,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 90.687
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "PANW",
+      "earnings_announcement": "2026-09-01",
+      "session": "after the close",
+      "reaction_day": "2026-09-02",
+      "source_closing_reaction_pct": -9.3,
+      "source_bar_count": 702,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-09-01",
+      "pre_earnings_previous_close": 362.09,
+      "five_min_reaction_day_closing_price": 328.48,
+      "daily_reaction_day_close": 328.48,
+      "actual_session_close_reaction_pct": -9.2822,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 333.85,
+        "initial_volume": 748692.0,
+        "threshold": 343.9855,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-09-02",
+        "entry_time_ET": "09:35",
+        "entry_open": 334.3097,
+        "exit_day": "2026-09-02",
+        "exit_time_ET": "09:35",
+        "exit_price": 330.966603,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "BROKEN_FIRST_LOW",
+        "time_ET": "09:35",
+        "low": 330.71,
+        "initial_low": 333.85
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "earnings_announcement": "2026-07-29",
+      "session": "after the close",
+      "reaction_day": "2026-07-30",
+      "source_closing_reaction_pct": -2.6,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-29",
+      "pre_earnings_previous_close": 154.837298,
+      "five_min_reaction_day_closing_price": 151.6,
+      "daily_reaction_day_close": 150.779383,
+      "actual_session_close_reaction_pct": -2.0908,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 146.0,
+        "initial_volume": 1631648.0,
+        "threshold": 147.095433,
+        "first_event_day_close_above_minus5": true
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-07-30",
+        "entry_time_ET": "09:35",
+        "entry_open": 150.6,
+        "exit_day": "2026-07-30",
+        "exit_time_ET": "09:35",
+        "exit_price": 149.094,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_BUYER_BREAKOUT_AFTER_FIRST_RETEST",
+        "retest_time": "09:40",
+        "retest_low": 146.16,
+        "retest_volume": 674492.0
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "earnings_announcement": "2026-07-29",
+      "session": "after the close",
+      "reaction_day": "2026-07-30",
+      "source_closing_reaction_pct": 1.6,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-29",
+      "pre_earnings_previous_close": 103.545188,
+      "five_min_reaction_day_closing_price": 105.85,
+      "daily_reaction_day_close": 105.245421,
+      "actual_session_close_reaction_pct": 2.2259,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 98.367929
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "TGT",
+      "earnings_announcement": "2026-08-19",
+      "session": "before the open",
+      "reaction_day": "2026-08-19",
+      "source_closing_reaction_pct": 4.3,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-18",
+      "pre_earnings_previous_close": 152.48,
+      "five_min_reaction_day_closing_price": 159.0,
+      "daily_reaction_day_close": 159.0,
+      "actual_session_close_reaction_pct": 4.276,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 144.856
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "TMO",
+      "earnings_announcement": "2026-07-23",
+      "session": "before the open",
+      "reaction_day": "2026-07-23",
+      "source_closing_reaction_pct": 8.7,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-22",
+      "pre_earnings_previous_close": 526.05676,
+      "five_min_reaction_day_closing_price": 572.32,
+      "daily_reaction_day_close": 571.881634,
+      "actual_session_close_reaction_pct": 8.7943,
+      "gate": {
+        "state": "NO_INTRADAY_5PCT_DISLOCATION",
+        "threshold": 499.753922
+      },
+      "state": "NO_INTRADAY_5PCT_DISLOCATION"
+    },
+    {
+      "ticker": "TPR",
+      "earnings_announcement": "2026-08-13",
+      "session": "before the open",
+      "reaction_day": "2026-08-13",
+      "source_closing_reaction_pct": -16.5,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-08-12",
+      "pre_earnings_previous_close": 153.160027,
+      "five_min_reaction_day_closing_price": 128.39,
+      "daily_reaction_day_close": 127.905658,
+      "actual_session_close_reaction_pct": -16.1726,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 127.78,
+        "initial_volume": 569636.0,
+        "threshold": 145.502026,
+        "first_event_day_close_above_minus5": false
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "TARGET",
+        "winner": true,
+        "entry_day": "2026-08-13",
+        "entry_time_ET": "09:35",
+        "entry_open": 128.35,
+        "exit_day": "2026-08-13",
+        "exit_time_ET": "09:40",
+        "exit_price": 130.27525,
+        "gross_return_pct": 1.5,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_WEAKER_SELL_VOLUME_RETEST",
+        "initial_time": "09:30"
+      }
+    },
+    {
+      "ticker": "TXN",
+      "earnings_announcement": "2026-07-22",
+      "session": "after the close",
+      "reaction_day": "2026-07-23",
+      "source_closing_reaction_pct": -3.1,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-22",
+      "pre_earnings_previous_close": 292.6914,
+      "five_min_reaction_day_closing_price": 284.99,
+      "daily_reaction_day_close": 283.538264,
+      "actual_session_close_reaction_pct": -2.6312,
+      "gate": {
+        "state": "ELIGIBLE_GATE",
+        "initial_bar_index": 0,
+        "initial_time": "09:30",
+        "initial_low": 274.1,
+        "initial_volume": 800075.0,
+        "threshold": 278.05683,
+        "first_event_day_close_above_minus5": true
+      },
+      "state": "ELIGIBLE_GATE",
+      "immediate_breach_entry": {
+        "status": "RESOLVED",
+        "result": "STOP",
+        "winner": false,
+        "entry_day": "2026-07-23",
+        "entry_time_ET": "09:35",
+        "entry_open": 287.33,
+        "exit_day": "2026-07-23",
+        "exit_time_ET": "09:35",
+        "exit_price": 284.4567,
+        "gross_return_pct": -1.0,
+        "sessions": 1
+      },
+      "first_failed_low_pattern": {
+        "state": "NO_WEAKER_SELL_VOLUME_RETEST",
+        "initial_time": "09:30"
+      }
+    },
+    {
+      "ticker": "UPS",
+      "earnings_announcement": "2026-07-28",
+      "session": "before the open",
+      "reaction_day": "2026-07-28",
+      "source_closing_reaction_pct": -6.6,
+      "source_bar_count": 780,
+      "incomplete_session_days": {},
+      "pre_earnings_previous_close_day": "2026-07-27",
+      "pre_earnings_previous_close": 111.177388,
+      "five_min_reaction_day_closing_price": 105.53,
+      "daily_reaction_day_close": 103.873835,
+      "state": "HISTORICAL_DAILY_5MIN_PRICE_BASIS_MISMATCH"
+    }
+  ]
+}
