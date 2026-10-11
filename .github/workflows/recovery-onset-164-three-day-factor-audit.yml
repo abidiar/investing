@@ -1,0 +1,34 @@
+name: Recovery Onset Three-Session 164-Event Frozen Factor Audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/recovery-onset-164-three-day-factor-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: recovery-onset-164-factor-2026-10-10
+  cancel-in-progress: false
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Recompute 164 event cohort original92 holdout72 3-session +1.5/-1 first hits from source as-of prices
+        run: python research/earnings_recovery/run_recovery_onset_rs_stabilization_threeday_164events.py
+      - name: Commit all signals, missed entry observations and historical price source paths
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/earnings_recovery/recovery_onset_rs_stabilization_164events_actual_2026-10-10.json research/earnings_recovery/recovery_onset_rs_stabilization_164events_market_price_sources_2026-10-10.json
+          git commit -m 'Save original92 and holdout72 stock recovery onset factor conditional outcomes [skip ci]'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            git push && break
+            sleep 2
+          done
