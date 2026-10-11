@@ -1,0 +1,1438 @@
+{
+  "study": "frozen_disjoint49_preliminary_daily_signal_corporate_action_overlap_2026-10-11",
+  "status": "DATA_QUALITY_SCREEN_ONLY_NO_TRADE_OUTCOME",
+  "source": "Existing Webull forward-adjusted daily preliminary screen and independently observed Alpaca corporate action ex-dates",
+  "providers": [
+    "Webull",
+    "Alpaca corporate action announcements"
+  ],
+  "universe": [
+    "NVDA",
+    "AVGO",
+    "MU",
+    "TXN",
+    "KLAC",
+    "LRCX",
+    "AMAT",
+    "ASML",
+    "TSM",
+    "CSCO",
+    "ANET",
+    "PANW",
+    "CRWD",
+    "FTNT",
+    "NOW",
+    "ADBE",
+    "SNOW",
+    "DDOG",
+    "NFLX",
+    "DIS",
+    "TGT",
+    "WMT",
+    "PG",
+    "KO",
+    "PEP",
+    "MCD",
+    "SBUX",
+    "NKE",
+    "V",
+    "MA",
+    "GS",
+    "MS",
+    "C",
+    "WFC",
+    "UNH",
+    "ABBV",
+    "JNJ",
+    "MRK",
+    "PFE",
+    "NOC",
+    "GE",
+    "HON",
+    "DE",
+    "UPS",
+    "FDX",
+    "BA",
+    "CVX",
+    "SLB",
+    "COP"
+  ],
+  "universeN": 49,
+  "corporateActionsReturned": 495,
+  "dividendCount": 484,
+  "splitCount": 11,
+  "missingCorporateActionSymbols": [
+    "FTNT",
+    "ADBE",
+    "SNOW",
+    "DDOG",
+    "BA"
+  ],
+  "limitations": [
+    "Absence of a returned corporate action may mean no action OR provider omissions; never use missing to certify clean without data-quality spot checks",
+    "Dividend/split within signal40 window flags potential sensitivity to forward-adjusted daily vs as-traded five-minute prices; not proof each date changes signal",
+    "Webull daily stock volume and RTH M5 volume can differ; distinct source issue",
+    "No signal VWAP entries or target/stop outcomes scored"
+  ],
+  "n": 106,
+  "withExDate": 53,
+  "withDividend": 53,
+  "withSplit": 0,
+  "withoutKnownExDate": 53,
+  "byYear": {
+    "2024": {
+      "candidates": 40,
+      "anyExDate": 19,
+      "dividend": 19,
+      "split": 0,
+      "none": 21
+    },
+    "2025": {
+      "candidates": 39,
+      "anyExDate": 18,
+      "dividend": 18,
+      "split": 0,
+      "none": 21
+    },
+    "2026": {
+      "candidates": 27,
+      "anyExDate": 16,
+      "dividend": 16,
+      "split": 0,
+      "none": 11
+    }
+  },
+  "candidates": [
+    {
+      "symbol": "NVDA",
+      "date": "2025-11-21",
+      "lookbackStart": "2025-09-26",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "AVGO",
+      "date": "2025-02-28",
+      "lookbackStart": "2024-12-30",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "TXN",
+      "date": "2026-07-28",
+      "lookbackStart": "2026-05-29",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "LRCX",
+      "date": "2024-09-10",
+      "lookbackStart": "2024-07-15",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "TSM",
+      "date": "2025-11-21",
+      "lookbackStart": "2025-09-26",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "TSM",
+      "date": "2026-07-28",
+      "lookbackStart": "2026-05-29",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-06-11",
+          "amount": 0.742067,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "CSCO",
+      "date": "2024-02-15",
+      "lookbackStart": "2023-12-18",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-01-03",
+          "amount": 0.39,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "CSCO",
+      "date": "2024-06-05",
+      "lookbackStart": "2024-04-09",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PANW",
+      "date": "2025-03-28",
+      "lookbackStart": "2025-01-30",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "CRWD",
+      "date": "2026-01-16",
+      "lookbackStart": "2025-11-18",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "FTNT",
+      "date": "2024-06-20",
+      "lookbackStart": "2024-04-23",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "FTNT",
+      "date": "2024-08-02",
+      "lookbackStart": "2024-06-05",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NOW",
+      "date": "2025-11-04",
+      "lookbackStart": "2025-09-09",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "ADBE",
+      "date": "2025-07-02",
+      "lookbackStart": "2025-05-05",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "ADBE",
+      "date": "2026-03-20",
+      "lookbackStart": "2026-01-22",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "SNOW",
+      "date": "2025-03-07",
+      "lookbackStart": "2025-01-07",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "SNOW",
+      "date": "2025-08-07",
+      "lookbackStart": "2025-06-10",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NFLX",
+      "date": "2024-07-25",
+      "lookbackStart": "2024-05-28",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NFLX",
+      "date": "2025-04-07",
+      "lookbackStart": "2025-02-07",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NFLX",
+      "date": "2025-10-02",
+      "lookbackStart": "2025-08-06",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NFLX",
+      "date": "2025-11-03",
+      "lookbackStart": "2025-09-08",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "DIS",
+      "date": "2024-06-28",
+      "lookbackStart": "2024-05-01",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "DIS",
+      "date": "2025-03-07",
+      "lookbackStart": "2025-01-07",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "DIS",
+      "date": "2025-08-06",
+      "lookbackStart": "2025-06-09",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-06-24",
+          "amount": 0.5,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "DIS",
+      "date": "2025-09-22",
+      "lookbackStart": "2025-07-25",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "DIS",
+      "date": "2026-02-03",
+      "lookbackStart": "2025-12-04",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-12-15",
+          "amount": 0.75,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "DIS",
+      "date": "2026-03-19",
+      "lookbackStart": "2026-01-21",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "DIS",
+      "date": "2026-06-26",
+      "lookbackStart": "2026-04-29",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "TGT",
+      "date": "2024-05-21",
+      "lookbackStart": "2024-03-25",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-05-14",
+          "amount": 1.1,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "TGT",
+      "date": "2025-02-12",
+      "lookbackStart": "2024-12-12",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-02-12",
+          "amount": 1.12,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "TGT",
+      "date": "2025-03-21",
+      "lookbackStart": "2025-01-23",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-02-12",
+          "amount": 1.12,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "WMT",
+      "date": "2025-04-07",
+      "lookbackStart": "2025-02-07",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-03-21",
+          "amount": 0.235,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "WMT",
+      "date": "2026-05-21",
+      "lookbackStart": "2026-03-25",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-05-08",
+          "amount": 0.2475,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PG",
+      "date": "2024-07-30",
+      "lookbackStart": "2024-05-31",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-07-19",
+          "amount": 1.0065,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PG",
+      "date": "2025-07-09",
+      "lookbackStart": "2025-05-09",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PG",
+      "date": "2025-11-06",
+      "lookbackStart": "2025-09-11",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-10-24",
+          "amount": 1.0568,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PG",
+      "date": "2025-12-02",
+      "lookbackStart": "2025-10-06",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-10-24",
+          "amount": 1.0568,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PG",
+      "date": "2026-06-01",
+      "lookbackStart": "2026-04-02",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-04-24",
+          "amount": 1.0885,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "KO",
+      "date": "2024-10-22",
+      "lookbackStart": "2024-08-26",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-09-13",
+          "amount": 0.485,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "KO",
+      "date": "2025-09-08",
+      "lookbackStart": "2025-07-11",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "KO",
+      "date": "2025-09-19",
+      "lookbackStart": "2025-07-24",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-09-15",
+          "amount": 0.51,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PEP",
+      "date": "2024-06-11",
+      "lookbackStart": "2024-04-15",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-06-07",
+          "amount": 1.355,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PEP",
+      "date": "2024-07-10",
+      "lookbackStart": "2024-05-10",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-06-07",
+          "amount": 1.355,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PEP",
+      "date": "2026-05-18",
+      "lookbackStart": "2026-03-20",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "MCD",
+      "date": "2024-02-05",
+      "lookbackStart": "2023-12-06",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "MCD",
+      "date": "2024-03-14",
+      "lookbackStart": "2024-01-17",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-02-29",
+          "amount": 1.67,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "MCD",
+      "date": "2025-06-10",
+      "lookbackStart": "2025-04-11",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-06-02",
+          "amount": 1.77,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "MCD",
+      "date": "2026-04-01",
+      "lookbackStart": "2026-02-03",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-03-03",
+          "amount": 1.86,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "SBUX",
+      "date": "2024-12-16",
+      "lookbackStart": "2024-10-18",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-11-15",
+          "amount": 0.61,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NKE",
+      "date": "2024-10-31",
+      "lookbackStart": "2024-09-05",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NKE",
+      "date": "2025-10-31",
+      "lookbackStart": "2025-09-05",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NKE",
+      "date": "2026-08-27",
+      "lookbackStart": "2026-07-01",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "V",
+      "date": "2024-04-11",
+      "lookbackStart": "2024-02-13",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "V",
+      "date": "2024-04-16",
+      "lookbackStart": "2024-02-16",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "MA",
+      "date": "2025-10-30",
+      "lookbackStart": "2025-09-04",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-10-09",
+          "amount": 0.76,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "MA",
+      "date": "2026-01-21",
+      "lookbackStart": "2025-11-20",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-01-09",
+          "amount": 0.87,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "GS",
+      "date": "2026-09-15",
+      "lookbackStart": "2026-07-20",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-09-01",
+          "amount": 5,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "C",
+      "date": "2024-08-02",
+      "lookbackStart": "2024-06-05",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "C",
+      "date": "2025-03-06",
+      "lookbackStart": "2025-01-06",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-02-03",
+          "amount": 0.56,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "WFC",
+      "date": "2024-07-12",
+      "lookbackStart": "2024-05-14",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "WFC",
+      "date": "2026-02-23",
+      "lookbackStart": "2025-12-23",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-02-06",
+          "amount": 0.45,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "UNH",
+      "date": "2024-01-12",
+      "lookbackStart": "2023-11-14",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2023-12-01",
+          "amount": 1.88,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "UNH",
+      "date": "2024-01-18",
+      "lookbackStart": "2023-11-17",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2023-12-01",
+          "amount": 1.88,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "UNH",
+      "date": "2024-03-01",
+      "lookbackStart": "2024-01-03",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "UNH",
+      "date": "2026-09-09",
+      "lookbackStart": "2026-07-14",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "UNH",
+      "date": "2026-09-18",
+      "lookbackStart": "2026-07-23",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-09-14",
+          "amount": 2.32,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2025-04-07",
+      "lookbackStart": "2025-02-07",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2026-01-16",
+      "lookbackStart": "2025-11-18",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-01-16",
+          "amount": 1.73,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2026-03-20",
+      "lookbackStart": "2026-01-22",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2026-04-22",
+      "lookbackStart": "2026-02-24",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-04-15",
+          "amount": 1.73,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "MRK",
+      "date": "2024-05-30",
+      "lookbackStart": "2024-04-03",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "MRK",
+      "date": "2025-04-07",
+      "lookbackStart": "2025-02-07",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-03-17",
+          "amount": 0.81,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PFE",
+      "date": "2024-03-01",
+      "lookbackStart": "2024-01-03",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-01-25",
+          "amount": 0.42,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PFE",
+      "date": "2024-04-26",
+      "lookbackStart": "2024-02-29",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PFE",
+      "date": "2024-10-29",
+      "lookbackStart": "2024-09-03",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PFE",
+      "date": "2026-05-05",
+      "lookbackStart": "2026-03-09",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "PFE",
+      "date": "2026-06-18",
+      "lookbackStart": "2026-04-22",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-05-08",
+          "amount": 0.43,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NOC",
+      "date": "2024-10-30",
+      "lookbackStart": "2024-09-04",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NOC",
+      "date": "2025-11-10",
+      "lookbackStart": "2025-09-15",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "NOC",
+      "date": "2026-05-18",
+      "lookbackStart": "2026-03-20",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "GE",
+      "date": "2025-12-10",
+      "lookbackStart": "2025-10-14",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "HON",
+      "date": "2025-09-04",
+      "lookbackStart": "2025-07-09",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-08-15",
+          "amount": 1.13,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "HON",
+      "date": "2025-09-17",
+      "lookbackStart": "2025-07-22",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-08-15",
+          "amount": 1.13,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "HON",
+      "date": "2025-09-29",
+      "lookbackStart": "2025-08-01",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-08-15",
+          "amount": 1.13,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "HON",
+      "date": "2026-04-22",
+      "lookbackStart": "2026-02-24",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-02-27",
+          "amount": 1.19,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "DE",
+      "date": "2024-02-13",
+      "lookbackStart": "2023-12-14",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2023-12-28",
+          "amount": 1.47,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "DE",
+      "date": "2025-07-17",
+      "lookbackStart": "2025-05-19",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-06-30",
+          "amount": 1.62,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "DE",
+      "date": "2025-09-15",
+      "lookbackStart": "2025-07-18",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "UPS",
+      "date": "2024-12-04",
+      "lookbackStart": "2024-10-08",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-11-18",
+          "amount": 1.63,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "UPS",
+      "date": "2025-01-13",
+      "lookbackStart": "2024-11-12",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-11-18",
+          "amount": 1.63,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "UPS",
+      "date": "2025-09-11",
+      "lookbackStart": "2025-07-16",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2025-08-18",
+          "amount": 1.64,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "UPS",
+      "date": "2026-03-06",
+      "lookbackStart": "2026-01-07",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-02-17",
+          "amount": 1.64,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "FDX",
+      "date": "2024-12-23",
+      "lookbackStart": "2024-10-25",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-12-09",
+          "amount": 1.38,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "FDX",
+      "date": "2025-01-30",
+      "lookbackStart": "2024-11-29",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-12-09",
+          "amount": 1.38,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "FDX",
+      "date": "2026-06-24",
+      "lookbackStart": "2026-04-27",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-06-22",
+          "amount": 1.22,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "BA",
+      "date": "2024-10-01",
+      "lookbackStart": "2024-08-05",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "BA",
+      "date": "2024-11-06",
+      "lookbackStart": "2024-09-11",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "CVX",
+      "date": "2024-01-18",
+      "lookbackStart": "2023-11-17",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "CVX",
+      "date": "2024-06-12",
+      "lookbackStart": "2024-04-16",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-05-16",
+          "amount": 1.63,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "CVX",
+      "date": "2024-09-10",
+      "lookbackStart": "2024-07-15",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-08-19",
+          "amount": 1.63,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "SLB",
+      "date": "2024-01-10",
+      "lookbackStart": "2023-11-10",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2023-12-05",
+          "amount": 0.25,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "SLB",
+      "date": "2024-01-17",
+      "lookbackStart": "2023-11-16",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2023-12-05",
+          "amount": 0.25,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "COP",
+      "date": "2024-05-15",
+      "lookbackStart": "2024-03-19",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-05-10",
+          "amount": 0.2,
+          "splitRatio": null
+        },
+        {
+          "type": "cash_dividends",
+          "exDate": "2024-05-10",
+          "amount": 0.58,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    },
+    {
+      "symbol": "COP",
+      "date": "2024-08-01",
+      "lookbackStart": "2024-06-04",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "COP",
+      "date": "2025-11-06",
+      "lookbackStart": "2025-09-11",
+      "exDateActions": [],
+      "hasExDate": false,
+      "hasDividend": false,
+      "hasSplit": false
+    },
+    {
+      "symbol": "COP",
+      "date": "2026-06-15",
+      "lookbackStart": "2026-04-17",
+      "exDateActions": [
+        {
+          "type": "cash_dividends",
+          "exDate": "2026-05-11",
+          "amount": 0.84,
+          "splitRatio": null
+        }
+      ],
+      "hasExDate": true,
+      "hasDividend": true,
+      "hasSplit": false
+    }
+  ]
+}
