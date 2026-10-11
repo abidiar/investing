@@ -1,0 +1,293 @@
+{
+  "experiment": "dell_asof_forward_expectation_v1_2026-10-11",
+  "status": "SOURCE_CODED_FIRST_THREE_DELL_ONLY_RETROSPECTIVE_DESCRIPTIVE",
+  "sample": {
+    "full164": 164,
+    "earningsCasesCoded": 3,
+    "pending": 161,
+    "missingTrueHistoricalAnalystFY1EPS": 3
+  },
+  "outcomeExposure": "All historic stock outcomes were known before coding; no inference, no promotion",
+  "nullRule": "Unknown comparable period or unobserved, not zero",
+  "comparisonRule": "Exact same fiscal-year forecast/GAAP basis for changes; FY26 first guide Feb2025 cannot be compared with FY25 prior-year EPS as if an EPS revision",
+  "results": [
+    {
+      "ticker": "DELL",
+      "earningsDate": "2024-11-26",
+      "outcomeKnown": true,
+      "sourcePublicByD3": true,
+      "minuteLevelReleaseTimestampVerified": false,
+      "knowledgeCutoff": "2024-12-03 16:00 America/New_York",
+      "originalSources": [
+        "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2024~08~dell-technologies-delivers-second-quarter-fiscal-2025-financial-results.htm",
+        "https://investors.delltechnologies.com/static-files/5baec214-ec57-45c9-8e4a-83e6ed9355f5",
+        "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2024~11~dell-technologies-delivers-third-quarter-fiscal-2025-financial-results.htm",
+        "https://investors.delltechnologies.com/static-files/d5eaf5c6-5ae6-42e0-9391-57c0226e5f81"
+      ],
+      "period": "FY2025",
+      "priorVsCurrentManagementGuidance": {
+        "FYAdjustedEPS": {
+          "old": 7.8,
+          "new": 7.81,
+          "changePct": 0.128
+        },
+        "FYRevenueBillion": {
+          "old": 97,
+          "new": null,
+          "changePct": null
+        },
+        "FYRevenueGrowthPct": {
+          "old": 10,
+          "new": 9,
+          "changePp": -1
+        },
+        "AnnualAIShipmentsBillion": {
+          "old": null,
+          "new": null,
+          "changePct": null
+        },
+        "QuarterAIOrdersBillion": {
+          "old": 3.2,
+          "new": 3.6,
+          "changePct": 12.5
+        },
+        "AIBacklogBillion": {
+          "old": 3.8,
+          "new": 4.5,
+          "changePct": 18.421,
+          "note": null
+        },
+        "ISGOperatingMarginPct": {
+          "old": null,
+          "new": null,
+          "changePp": null
+        },
+        "NextQtrAdjustedEPSStreetSurprisePct": null,
+        "GrossMarginStreetSurprisePp": null,
+        "NewlyIntroducedFYAdjustedEPSGrowthVsPriorActualPct": null
+      },
+      "tradingInfoAsOfD3": {
+        "priorEarningsDateCloseAdjusted": 137.9461,
+        "d0SelloffDate": "2024-11-27",
+        "d0ReturnFromEarningsClosePct": -12.248,
+        "d3Date": "2024-12-03",
+        "d3CloseAdjusted": 122.1992,
+        "d3ReturnFromEarningsClosePct": -11.415,
+        "d4Date": "2024-12-04",
+        "d4OpeningAdjusted": 121.8975,
+        "originalShockMinusXLKPp": -10.893,
+        "stockRelativeXLKD0toD3Pp": -1.305,
+        "sectorXLKD0toD3Pct": 2.254,
+        "relativePriceOverGuideEPSMultipleShiftPct": -11.529,
+        "relativePriceOverGuideEPSMultipleCaution": "Adjusted archival prices: only percentage shift over closely spaced dates shown, NOT official absolute P/E"
+      },
+      "afterD3Outcomes_NOT_early_signal": {
+        "firstFullClosingRecoveryDate": null,
+        "fullRecovery60": false,
+        "modeledD4State": "STOP",
+        "modeledD4ExitDate": "2024-12-10",
+        "modeledD4NetStockPct": -5.2,
+        "futureXLKD0toD60Pct": -3.725,
+        "futureNews": [
+          "Jan 21 2025 Stargate did not name Dell a named original participant",
+          "Buyback actual Q4 period disclosed in later FY2025 10K"
+        ]
+      },
+      "historicalConsensusFY1Revision": "UNKNOWN",
+      "asofCaveats": "Prior earnings call/Nov earnings call; FY revenue dollars after earnings not independently standardized",
+      "originalPointInTimeNotes": [
+        "earnings FY25 nonGAAP EPS projected $7.81 versus $7.80 in prior call",
+        "FY25 revenue midpoint projected growth 9% versus 10% prior",
+        "Q3 consumer PC sales -18% y/y",
+        "AI orders Q3 $3.6B vs Q2 $3.2B, backlog Q3 $4.5B vs Q2 $3.8B"
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "earningsDate": "2025-02-27",
+      "outcomeKnown": true,
+      "sourcePublicByD3": true,
+      "minuteLevelReleaseTimestampVerified": false,
+      "knowledgeCutoff": "2025-03-06 16:00 America/New_York",
+      "originalSources": [
+        "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000014/exhibit991earnings8kq4fy25.htm",
+        "https://investors.delltechnologies.com/static-files/047f0b1a-89b8-484a-92ec-d73c73b749bd"
+      ],
+      "period": "FY2026",
+      "priorVsCurrentManagementGuidance": {
+        "FYAdjustedEPS": {
+          "old": null,
+          "new": 9.3,
+          "changePct": null
+        },
+        "FYRevenueBillion": {
+          "old": null,
+          "new": 103,
+          "changePct": null
+        },
+        "FYRevenueGrowthPct": {
+          "old": null,
+          "new": null,
+          "changePp": null
+        },
+        "AnnualAIShipmentsBillion": {
+          "old": null,
+          "new": 15,
+          "changePct": null
+        },
+        "QuarterAIOrdersBillion": {
+          "old": null,
+          "new": null,
+          "changePct": null
+        },
+        "AIBacklogBillion": {
+          "old": 4.1,
+          "new": 9,
+          "changePct": 119.512,
+          "note": "UNLIKE_SNAPSHOT_TIMES"
+        },
+        "ISGOperatingMarginPct": {
+          "old": null,
+          "new": null,
+          "changePp": null
+        },
+        "NextQtrAdjustedEPSStreetSurprisePct": null,
+        "GrossMarginStreetSurprisePp": null,
+        "NewlyIntroducedFYAdjustedEPSGrowthVsPriorActualPct": 14.251
+      },
+      "tradingInfoAsOfD3": {
+        "priorEarningsDateCloseAdjusted": 105.3641,
+        "d0SelloffDate": "2025-03-03",
+        "d0ReturnFromEarningsClosePct": -11.379,
+        "d3Date": "2025-03-06",
+        "d3CloseAdjusted": 90.8927,
+        "d3ReturnFromEarningsClosePct": -13.735,
+        "d4Date": "2025-03-07",
+        "d4OpeningAdjusted": 89.6176,
+        "originalShockMinusXLKPp": -9.618,
+        "stockRelativeXLKD0toD3Pp": -1.172,
+        "sectorXLKD0toD3Pct": -1.486,
+        "relativePriceOverGuideEPSMultipleShiftPct": null,
+        "relativePriceOverGuideEPSMultipleCaution": "Adjusted archival prices: only percentage shift over closely spaced dates shown, NOT official absolute P/E"
+      },
+      "afterD3Outcomes_NOT_early_signal": {
+        "firstFullClosingRecoveryDate": "2025-05-13",
+        "fullRecovery60": true,
+        "modeledD4State": "TARGET",
+        "modeledD4ExitDate": "2025-03-12",
+        "modeledD4NetStockPct": 3.011,
+        "futureXLKD0toD60Pct": 5.934,
+        "futureNews": [
+          "March 18 Dell NVIDIA announcements after D4 target completed",
+          "May 12 tariff reprieve after D4 exit",
+          "Actual repurchase quantities filed June 2025"
+        ]
+      },
+      "historicalConsensusFY1Revision": "UNKNOWN",
+      "asofCaveats": "New period guidance; no previous FY2026 EPS official numerical guide, so historical revision unknown; backlog comparison is unequal as-of intervals",
+      "originalPointInTimeNotes": [
+        "NEW FY2026 midpoint nonGAAP EPS $9.30, no numeric comparable prior FY2026 guidance",
+        "FY25 ACTUAL adjusted EPS $8.14 (not pre-announcement analyst expected FY26 EPS)",
+        "AI backlog was $4.1B at quarter end vs ~ $9B as of earnings release date after signed xAI and other deals",
+        "FY2026 revenue forecast $103B FY26 AI shipments ~$15B",
+        "FY2026 projected consolidated gross margin rate decline ~100bps, mix and pricing",
+        "additional $10B share-repurchase authorization, dividend +18%"
+      ]
+    },
+    {
+      "ticker": "DELL",
+      "earningsDate": "2025-08-28",
+      "outcomeKnown": true,
+      "sourcePublicByD3": true,
+      "minuteLevelReleaseTimestampVerified": false,
+      "knowledgeCutoff": "2025-09-04 16:00 America/New_York",
+      "originalSources": [
+        "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2025~05~dell-technologies-delivers-first-quarter-fiscal-2026-financial-results.htm",
+        "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2025~08~dell-technologies-delivers-second-quarter-fiscal-2026-financial-results.htm",
+        "https://www.reuters.com/business/dell-lifts-annual-forecasts-ai-server-sales-boom-2025-08-28/",
+        "https://www.reuters.com/business/dell-slides-after-weak-margins-eclipse-upbeat-full-year-forecast-2025-08-29/"
+      ],
+      "period": "FY2026",
+      "priorVsCurrentManagementGuidance": {
+        "FYAdjustedEPS": {
+          "old": 9.4,
+          "new": 9.55,
+          "changePct": 1.596
+        },
+        "FYRevenueBillion": {
+          "old": 103,
+          "new": 107,
+          "changePct": 3.883
+        },
+        "FYRevenueGrowthPct": {
+          "old": null,
+          "new": null,
+          "changePp": null
+        },
+        "AnnualAIShipmentsBillion": {
+          "old": 15,
+          "new": 20,
+          "changePct": 33.333
+        },
+        "QuarterAIOrdersBillion": {
+          "old": 12.1,
+          "new": 5.6,
+          "changePct": -53.719
+        },
+        "AIBacklogBillion": {
+          "old": 14.4,
+          "new": 11.7,
+          "changePct": -18.75,
+          "note": null
+        },
+        "ISGOperatingMarginPct": {
+          "old": 9.709,
+          "new": 8.929,
+          "changePp": -0.78
+        },
+        "NextQtrAdjustedEPSStreetSurprisePct": -3.922,
+        "GrossMarginStreetSurprisePp": -0.9,
+        "NewlyIntroducedFYAdjustedEPSGrowthVsPriorActualPct": null
+      },
+      "tradingInfoAsOfD3": {
+        "priorEarningsDateCloseAdjusted": 132.3633,
+        "d0SelloffDate": "2025-08-29",
+        "d0ReturnFromEarningsClosePct": -8.877,
+        "d3Date": "2025-09-04",
+        "d3CloseAdjusted": 125.0762,
+        "d3ReturnFromEarningsClosePct": -5.505,
+        "d4Date": "2025-09-05",
+        "d4OpeningAdjusted": 125.6489,
+        "originalShockMinusXLKPp": -7.343,
+        "stockRelativeXLKD0toD3Pp": 3.628,
+        "sectorXLKD0toD3Pct": 0.072,
+        "relativePriceOverGuideEPSMultipleShiftPct": -6.99,
+        "relativePriceOverGuideEPSMultipleCaution": "Adjusted archival prices: only percentage shift over closely spaced dates shown, NOT official absolute P/E"
+      },
+      "afterD3Outcomes_NOT_early_signal": {
+        "firstFullClosingRecoveryDate": "2025-09-22",
+        "fullRecovery60": true,
+        "modeledD4State": "STOP",
+        "modeledD4ExitDate": "2025-09-09",
+        "modeledD4NetStockPct": -5.214,
+        "futureXLKD0toD60Pct": 6.713,
+        "futureNews": [
+          "Sep 08 company announces CFO resign effective Sep09 while reaffirming FY26 guidance; this occurs AFTER D4 Sep05 and BEFORE Sep09 STOP; public release https://investors.delltechnologies.com/news-releases/news-release-details/dell-technologies-announces-cfo-transition",
+          "Sep 22 OpenAI-NVIDIA LOI coincident with full first close recovery but AFTER D4",
+          "September repurchases filed December 2025"
+        ]
+      },
+      "historicalConsensusFY1Revision": "UNKNOWN",
+      "asofCaveats": "Two management calls, same FY26 period for full-year EPS revenue and AI shipment guidance; street surprise is dated contemporaneous press report, not historical FY1 EPS revisions",
+      "originalPointInTimeNotes": [
+        "FY26 adjusted EPS midpoint raised $9.40->$9.55",
+        "FY26 revenue midpoint $103B->$107B",
+        "FY26 AI shipment guidance $15B->$20B",
+        "quarter AI orders $12.1B->$5.6B, backlog $14.4B->$11.7B",
+        "ISG operating income increased but margin was lower on higher segment revenue",
+        "Q3 projected adjusted EPS $2.45 versus reported ~$2.55 street expectations",
+        "adjusted gross margin 18.7% versus reported 19.6% expectation"
+      ]
+    }
+  ]
+}
