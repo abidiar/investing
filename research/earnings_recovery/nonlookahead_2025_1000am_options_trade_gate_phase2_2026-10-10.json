@@ -1,0 +1,23 @@
+{
+  "source": "Actual connected Massive five-minute option trade bars on historical entry date",
+  "observations": [
+    {
+      "ticker": "FTNT",
+      "occ": "O:FTNT250912C00088000",
+      "entry": "2025-08-13",
+      "status": "EMPTY"
+    },
+    {
+      "ticker": "CSCO",
+      "occ": "O:CSCO250919C00071000",
+      "entry": "2025-08-20",
+      "status": "RATE_LIMIT"
+    },
+    {
+      "ticker": "CPRT",
+      "occ": "O:CPRT260116C00042500",
+      "entry": "2025-12-11",
+      "status": "RATE_LIMIT"
+    }
+  ]
+}
