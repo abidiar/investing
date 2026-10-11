@@ -117,7 +117,15 @@
       "hypD4StockNetPct": 2.8000000000000025,
       "earlyD3LowerLow": true,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "NOT_FULLY_VERIFIED",
+        "sourceUrl": null,
+        "priorMin": null,
+        "priorMax": null,
+        "actual": null,
+        "note": "Not evaluated against a valid prior same-period historical quantitative expectation."
+      }
     },
     {
       "ticker": "OKE",
@@ -144,7 +152,15 @@
       "hypD4StockNetPct": -5.200000000000005,
       "earlyD3LowerLow": false,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "NOT_FULLY_VERIFIED",
+        "sourceUrl": null,
+        "priorMin": null,
+        "priorMax": null,
+        "actual": null,
+        "note": "Not evaluated against a valid prior same-period historical quantitative expectation."
+      }
     },
     {
       "ticker": "LEN",
@@ -171,7 +187,16 @@
       "hypD4StockNetPct": 2.8000000000000025,
       "earlyD3LowerLow": false,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "ISSUER_STATED_WITHIN_PREVIOUS_GUIDANCE",
+        "sourceUrl": "https://investors.lennar.com/press-releases/2025/06-16-2025-224524472",
+        "priorMin": null,
+        "priorMax": null,
+        "actual": 22601,
+        "metric": "Q2_2025_NEW_HOME_ORDERS",
+        "note": "June 16 issuer original release says 22,601 new orders and 20,131 deliveries were within guidance, and adjusted 18% gross margin met guidance. Prior numerical order guidance not independently refetched in this run."
+      }
     },
     {
       "ticker": "CPRT",
@@ -198,7 +223,15 @@
       "hypD4StockNetPct": 1.946921883083297,
       "earlyD3LowerLow": false,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "NOT_FULLY_VERIFIED",
+        "sourceUrl": null,
+        "priorMin": null,
+        "priorMax": null,
+        "actual": null,
+        "note": "Not evaluated against a valid prior same-period historical quantitative expectation."
+      }
     },
     {
       "ticker": "NEM",
@@ -225,7 +258,15 @@
       "hypD4StockNetPct": 2.8000000000000025,
       "earlyD3LowerLow": true,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "NOT_FULLY_VERIFIED",
+        "sourceUrl": null,
+        "priorMin": null,
+        "priorMax": null,
+        "actual": null,
+        "note": "Not evaluated against a valid prior same-period historical quantitative expectation."
+      }
     },
     {
       "ticker": "FTNT",
@@ -252,7 +293,15 @@
       "hypD4StockNetPct": -5.200000000000005,
       "earlyD3LowerLow": false,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "NOT_FULLY_VERIFIED",
+        "sourceUrl": null,
+        "priorMin": null,
+        "priorMax": null,
+        "actual": null,
+        "note": "Not evaluated against a valid prior same-period historical quantitative expectation."
+      }
     },
     {
       "ticker": "OKE",
@@ -279,7 +328,15 @@
       "hypD4StockNetPct": 2.8000000000000025,
       "earlyD3LowerLow": true,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "NOT_FULLY_VERIFIED",
+        "sourceUrl": null,
+        "priorMin": null,
+        "priorMax": null,
+        "actual": null,
+        "note": "Not evaluated against a valid prior same-period historical quantitative expectation."
+      }
     },
     {
       "ticker": "MPWR",
@@ -306,7 +363,17 @@
       "hypD4StockNetPct": -5.339928582554266,
       "earlyD3LowerLow": false,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "ABOVE_PREVIOUS_MANAGEMENT_GUIDANCE",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1280452/000143774925024185/ex_815329.htm",
+        "priorMin": 710,
+        "priorMax": 730,
+        "actual": 737.2,
+        "metric": "Q3_2025_REVENUE_MILLION_USD",
+        "aboveUpperGuidancePct": 0.9863013698630185,
+        "note": "July 31 2025 original issuer release provided Q3 forecast $710M-730M; October 30 actual 737.2M exceeds upper by 0.99%, yet subsequent D4 stock first-hit stopped out."
+      }
     },
     {
       "ticker": "CPRT",
@@ -333,7 +400,15 @@
       "hypD4StockNetPct": 2.8000000000000025,
       "earlyD3LowerLow": false,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "NOT_FULLY_VERIFIED",
+        "sourceUrl": null,
+        "priorMin": null,
+        "priorMax": null,
+        "actual": null,
+        "note": "Not evaluated against a valid prior same-period historical quantitative expectation."
+      }
     },
     {
       "ticker": "LEN",
@@ -360,7 +435,17 @@
       "hypD4StockNetPct": -5.200000000000005,
       "earlyD3LowerLow": false,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "BELOW_PREVIOUS_MANAGEMENT_GUIDANCE",
+        "sourceUrl": "https://investors.lennar.com/press-releases/2024/12-18-2024-213041323",
+        "priorMin": 19000,
+        "priorMax": null,
+        "actual": 16895,
+        "metric": "Q4_2024_NEW_HOME_ORDERS",
+        "shortfallFromLowerGuidancePct": -11.078947368421055,
+        "note": "Original Dec 18 issuer release explicitly reports its new orders missed lower end of prior issued 19,000-unit guidance."
+      }
     },
     {
       "ticker": "AMAT",
@@ -387,7 +472,15 @@
       "hypD4StockNetPct": 2.8000000000000025,
       "earlyD3LowerLow": true,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "NOT_FULLY_VERIFIED",
+        "sourceUrl": null,
+        "priorMin": null,
+        "priorMax": null,
+        "actual": null,
+        "note": "Not evaluated against a valid prior same-period historical quantitative expectation."
+      }
     },
     {
       "ticker": "CPRT",
@@ -414,11 +507,27 @@
       "hypD4StockNetPct": -5.200000000000005,
       "earlyD3LowerLow": true,
       "posteventInfoLeakPrevented": true,
-      "historyAnalystForwardEPSRevision": null
+      "historyAnalystForwardEPSRevision": null,
+      "priorSameQuarterGuidanceExecution": {
+        "status": "NOT_FULLY_VERIFIED",
+        "sourceUrl": null,
+        "priorMin": null,
+        "priorMax": null,
+        "actual": null,
+        "note": "Not evaluated against a valid prior same-period historical quantitative expectation."
+      }
     }
   ],
   "errata": [
     "Frozen protocol list erroneously paraphrased LEN June 2025 earnings date as June 17/18; controlling source event roster, saved machine records and original issuer 8-K release confirm Monday June 16, 2025. No reselecting or dropping pairs. Original frozen protocol is preserved as written.",
     "AMAT May 2025 external-constraint indicator is conservatively ABSENT_IN_REVIEWED_ORIGINAL_RELEASE because macro/trade uncertainty disclosure did not show a newly measurable material export-related constraint in that exact primary release; outside contextual claims not used to flip coding."
-  ]
+  ],
+  "priorGuidanceExecutionObservations": {
+    "status": "POST_SOURCE_REVIEW_EXPLORED_ONLY_3_EVENTS_NOT_COMPLETE_SAMPLE_NOT_A_TEST",
+    "nVerifiedOrIssuerStated": 3,
+    "lessons": [
+      "Quantitative miss of earlier orders lower bound may matter but same-industry paired validation missing",
+      "A same-quarter revenue guidance beat is not sufficient for D4 trade profit"
+    ]
+  }
 }
