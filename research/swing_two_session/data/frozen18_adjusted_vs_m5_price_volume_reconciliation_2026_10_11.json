@@ -1,0 +1,1142 @@
+{
+  "id": "disjoint_range_vwap_frozen18_dividend_normalized_source_and_volume_reconciliation_2026-10-11",
+  "status": "DATA_SOURCE_RECONCILIATION_NO_VWAP_ENTRY_OR_AFTER_SIGNAL_OUTCOMES",
+  "description": "D-vs-M5 raw differences often precisely explained by ex-date dividend backadjustment; rescale raw as-traded RTH M5 each day into D basis using same-date historical daily close ratio (price basis audit, NOT point-in-time proof of provider factors); evaluate original 40-day support criteria and compare RTH-only M5 volume against provider D volume; none of these source checks measure strategy returns.",
+  "counts": {
+    "auditCount": 18,
+    "dailyPassing": 18,
+    "rescaledM5Passing": 17,
+    "discordant": 1,
+    "matched": 17,
+    "dividendsConfirmed": 7
+  },
+  "limitations": [
+    "Ex-date issuer source verified for 7 audited basis-sensitive dates, not full49",
+    "Using D/M5 same-day close ratio verifies price-series consistency but a truly historical point-in-time corporate action calendar still needed for unrestricted full-cohort audit",
+    "RTH 5-min volumes may omit trades/different consolidated universe vs daily volume; intraday volume cannot substitute for daily previous20 without validating source convention",
+    "Numerous ordinary 77-of-78 historical M5 sessions, likely missing vendor bar/trade: exact provenance still unknown",
+    "18 chosen by first/last 3 distinct issuer each calendar year before results, not random. The 106 daily signals are not necessarily the correct full as-of signal set",
+    "No future trade results evaluated"
+  ],
+  "rows": [
+    {
+      "symbol": "SLB",
+      "date": "2024-01-10",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part01_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 44.729731,
+        "volRatio": 1.7226954498333473
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 44.72973070449856,
+        "volRatio": 1.9027362554924654
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 0.48281393173574827,
+      "eventDailyVolume": 17704903,
+      "eventRTH5MinVolume": 15554317,
+      "eventDailyDivRthVolume": 1.1382629658377157,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.36552649293910555,
+      "ohlcMismatchOver0_2Count": 3,
+      "topMismatchExamples": [
+        {
+          "date": "2023-12-04",
+          "field": "open",
+          "pct": -0.36552649293910555
+        },
+        {
+          "date": "2023-12-08",
+          "field": "open",
+          "pct": 0.3303755424899135
+        },
+        {
+          "date": "2023-12-15",
+          "field": "open",
+          "pct": 0.3456232913899848
+        }
+      ]
+    },
+    {
+      "symbol": "UNH",
+      "date": "2024-01-12",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part01_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 486.099236,
+        "volRatio": 2.03908579140575
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 486.1086594908612,
+        "volRatio": 2.4722597291679693
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 0.3411419301160734,
+      "eventDailyVolume": 6327267,
+      "eventRTH5MinVolume": 5380655,
+      "eventDailyDivRthVolume": 1.1759287670367269,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.22163975211517695,
+      "ohlcMismatchOver0_2Count": 2,
+      "topMismatchExamples": [
+        {
+          "date": "2023-11-22",
+          "field": "open",
+          "pct": -0.2099562312023462
+        },
+        {
+          "date": "2024-01-12",
+          "field": "open",
+          "pct": 0.22163975211517695
+        }
+      ]
+    },
+    {
+      "symbol": "CVX",
+      "date": "2024-01-18",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part01_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 125.428641,
+        "volRatio": 1.3138144373867462
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 125.43755451257532,
+        "volRatio": 1.3367602259027282
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 7.468749618766424e-7,
+      "eventDailyVolume": 11187839,
+      "eventRTH5MinVolume": 9303940,
+      "eventDailyDivRthVolume": 1.2024840014015568,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.25380753103654285,
+      "ohlcMismatchOver0_2Count": 3,
+      "topMismatchExamples": [
+        {
+          "date": "2023-11-17",
+          "field": "open",
+          "pct": 0.21685932485242532
+        },
+        {
+          "date": "2023-12-15",
+          "field": "open",
+          "pct": 0.2240023544340275
+        },
+        {
+          "date": "2024-01-04",
+          "field": "open",
+          "pct": 0.25380753103654285
+        }
+      ]
+    },
+    {
+      "symbol": "FDX",
+      "date": "2024-12-23",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part02_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 260.665586,
+        "volRatio": 1.7104710230849396
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 260.66558623727394,
+        "volRatio": 1.7974468674521045
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": {
+        "exDate": "2024-12-09",
+        "amount": 1.38,
+        "url": "https://investors.fedex.com/stock-information/dividends/default.aspx"
+      },
+      "originBasisRatioDriftPct": 0.49409257762706993,
+      "eventDailyVolume": 3500725,
+      "eventRTH5MinVolume": 2849703,
+      "eventDailyDivRthVolume": 1.22845257909333,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.38608757607945243,
+      "ohlcMismatchOver0_2Count": 10,
+      "topMismatchExamples": [
+        {
+          "date": "2024-11-01",
+          "field": "open",
+          "pct": 0.29403159622860553
+        },
+        {
+          "date": "2024-11-07",
+          "field": "open",
+          "pct": -0.33340429827567464
+        },
+        {
+          "date": "2024-11-18",
+          "field": "open",
+          "pct": 0.315043884545152
+        },
+        {
+          "date": "2024-11-22",
+          "field": "low",
+          "pct": 0.29813328496002267
+        },
+        {
+          "date": "2024-11-29",
+          "field": "open",
+          "pct": -0.38608757607945243
+        }
+      ]
+    },
+    {
+      "symbol": "SBUX",
+      "date": "2024-12-16",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part02_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 89.087751,
+        "volRatio": 1.802620712152343
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 89.08775147281105,
+        "volRatio": 1.979664140762213
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": {
+        "exDate": "2024-11-15",
+        "amount": 0.61,
+        "url": "https://investor.starbucks.com/stock-info-and-resources/dividend-and-stock-split-history/2024/default.aspx",
+        "note": "Issuer record date Nov15; exdate typically same session under T+1"
+      },
+      "originBasisRatioDriftPct": 0.6185362063310329,
+      "eventDailyVolume": 12395854,
+      "eventRTH5MinVolume": 11881961,
+      "eventDailyDivRthVolume": 1.0432498473947187,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.3389829100662767,
+      "ohlcMismatchOver0_2Count": 1,
+      "topMismatchExamples": [
+        {
+          "date": "2024-11-13",
+          "field": "open",
+          "pct": -0.3389829100662767
+        }
+      ]
+    },
+    {
+      "symbol": "UPS",
+      "date": "2024-12-04",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part02_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 114.511279,
+        "volRatio": 1.3091583759268905
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 114.52010335033883,
+        "volRatio": 1.4992679285422845
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": {
+        "exDate": "2024-11-18",
+        "amount": 1.63,
+        "url": "https://investors.ups.com/quarterly-earnings-and-financials/dividends"
+      },
+      "originBasisRatioDriftPct": 1.2307470045996638,
+      "eventDailyVolume": 4793187,
+      "eventRTH5MinVolume": 4055769,
+      "eventDailyDivRthVolume": 1.1818195267038138,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.2938954929194937,
+      "ohlcMismatchOver0_2Count": 5,
+      "topMismatchExamples": [
+        {
+          "date": "2024-10-25",
+          "field": "open",
+          "pct": -0.23131444225698017
+        },
+        {
+          "date": "2024-11-05",
+          "field": "open",
+          "pct": 0.2938954929194937
+        },
+        {
+          "date": "2024-11-15",
+          "field": "open",
+          "pct": 0.21545947659862286
+        },
+        {
+          "date": "2024-11-29",
+          "field": "open",
+          "pct": 0.24480686231740378
+        },
+        {
+          "date": "2024-12-02",
+          "field": "open",
+          "pct": -0.21301574794403422
+        }
+      ]
+    },
+    {
+      "symbol": "UPS",
+      "date": "2025-01-13",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part03_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 108.988789,
+        "volRatio": 1.519826788507645
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 108.98878952243794,
+        "volRatio": 1.6144268889437128
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 1.2307470128028797,
+      "eventDailyVolume": 6939181,
+      "eventRTH5MinVolume": 5209920,
+      "eventDailyDivRthVolume": 1.331916996806093,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.2472761645363475,
+      "ohlcMismatchOver0_2Count": 5,
+      "topMismatchExamples": [
+        {
+          "date": "2024-11-15",
+          "field": "open",
+          "pct": 0.21545947659862286
+        },
+        {
+          "date": "2024-11-29",
+          "field": "open",
+          "pct": 0.24480686231740378
+        },
+        {
+          "date": "2024-12-02",
+          "field": "open",
+          "pct": -0.21301574794403422
+        },
+        {
+          "date": "2024-12-05",
+          "field": "open",
+          "pct": 0.2472761645363475
+        },
+        {
+          "date": "2024-12-13",
+          "field": "open",
+          "pct": -0.21692681100584643
+        }
+      ]
+    },
+    {
+      "symbol": "FDX",
+      "date": "2025-01-30",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part03_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 257.65276,
+        "volRatio": 1.8891766055869523
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 257.65275931280735,
+        "volRatio": 1.7106681711112375
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 0.5161604179934054,
+      "eventDailyVolume": 2827618,
+      "eventRTH5MinVolume": 1971766,
+      "eventDailyDivRthVolume": 1.4340535337357476,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.38608757607945243,
+      "ohlcMismatchOver0_2Count": 10,
+      "topMismatchExamples": [
+        {
+          "date": "2024-11-29",
+          "field": "open",
+          "pct": -0.38608757607945243
+        },
+        {
+          "date": "2024-12-04",
+          "field": "low",
+          "pct": 0.28212268395180207
+        },
+        {
+          "date": "2024-12-05",
+          "field": "open",
+          "pct": -0.2427953038765196
+        },
+        {
+          "date": "2024-12-18",
+          "field": "open",
+          "pct": -0.2592538853711357
+        },
+        {
+          "date": "2024-12-19",
+          "field": "open",
+          "pct": 0.32966633442110815
+        }
+      ]
+    },
+    {
+      "symbol": "TGT",
+      "date": "2025-02-12",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part03_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 119.231184,
+        "volRatio": 1.258995033518626
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 119.231184,
+        "volRatio": 1.295826090456016
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": {
+        "exDate": "2025-02-12",
+        "amount": 1.12,
+        "url": "https://corporate.target.com/press/release/2025/01/target-corporation-declares-regular-quarterly-dividend"
+      },
+      "originBasisRatioDriftPct": 0.8683391026574006,
+      "eventDailyVolume": 6428960,
+      "eventRTH5MinVolume": 5422327,
+      "eventDailyDivRthVolume": 1.185645941308962,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.3968256433049766,
+      "ohlcMismatchOver0_2Count": 7,
+      "topMismatchExamples": [
+        {
+          "date": "2024-12-13",
+          "field": "open",
+          "pct": 0.22472770430415068
+        },
+        {
+          "date": "2025-01-15",
+          "field": "open",
+          "pct": -0.30736235062568396
+        },
+        {
+          "date": "2025-01-16",
+          "field": "open",
+          "pct": -0.3968256433049766
+        },
+        {
+          "date": "2025-01-17",
+          "field": "open",
+          "pct": -0.22575049788557955
+        },
+        {
+          "date": "2025-01-24",
+          "field": "open",
+          "pct": 0.2767662490887224
+        }
+      ]
+    },
+    {
+      "symbol": "GE",
+      "date": "2025-12-10",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part04_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 280.64064,
+        "volRatio": 1.3759919195202797
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 280.6406395985067,
+        "volRatio": 1.478543080174484
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 3.34923910827456e-7,
+      "eventDailyVolume": 5807431,
+      "eventRTH5MinVolume": 4052253,
+      "eventDailyDivRthVolume": 1.433136331813438,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.6584796441702956,
+      "ohlcMismatchOver0_2Count": 9,
+      "topMismatchExamples": [
+        {
+          "date": "2025-10-20",
+          "field": "open",
+          "pct": -0.200750148596196
+        },
+        {
+          "date": "2025-10-24",
+          "field": "open",
+          "pct": -0.226398109114323
+        },
+        {
+          "date": "2025-10-28",
+          "field": "open",
+          "pct": 0.36686948540480824
+        },
+        {
+          "date": "2025-10-29",
+          "field": "open",
+          "pct": 0.22258059142277187
+        },
+        {
+          "date": "2025-11-06",
+          "field": "open",
+          "pct": 0.6584796441702956
+        }
+      ]
+    },
+    {
+      "symbol": "PG",
+      "date": "2025-12-02",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part04_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 140.953821,
+        "volRatio": 1.7740038539983873
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 140.95382123628866,
+        "volRatio": 1.8881171060617195
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 0.699158889897511,
+      "eventDailyVolume": 16376769,
+      "eventRTH5MinVolume": 12579994,
+      "eventDailyDivRthVolume": 1.3018105573023326,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.28701925367569103,
+      "ohlcMismatchOver0_2Count": 6,
+      "topMismatchExamples": [
+        {
+          "date": "2025-10-08",
+          "field": "open",
+          "pct": -0.20943739116061622
+        },
+        {
+          "date": "2025-10-17",
+          "field": "open",
+          "pct": -0.28558105444993487
+        },
+        {
+          "date": "2025-10-23",
+          "field": "high",
+          "pct": -0.28701925367569103
+        },
+        {
+          "date": "2025-11-05",
+          "field": "open",
+          "pct": 0.20426251735916612
+        },
+        {
+          "date": "2025-11-18",
+          "field": "open",
+          "pct": 0.22894242542834675
+        }
+      ]
+    },
+    {
+      "symbol": "TSM",
+      "date": "2025-11-21",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part04_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 267.850833,
+        "volRatio": 1.6798094280618239
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 267.8706278855721,
+        "volRatio": 1.687142866208912
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 3.318425978449113e-7,
+      "eventDailyVolume": 20872828,
+      "eventRTH5MinVolume": 18901883,
+      "eventDailyDivRthVolume": 1.1042724156106563,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.2764502930447943,
+      "ohlcMismatchOver0_2Count": 2,
+      "topMismatchExamples": [
+        {
+          "date": "2025-10-01",
+          "field": "low",
+          "pct": 0.259768459819365
+        },
+        {
+          "date": "2025-10-22",
+          "field": "open",
+          "pct": 0.2764502930447943
+        }
+      ]
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2026-01-16",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part05_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 210.844919,
+        "volRatio": 1.3829018494241379
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 210.84491947450982,
+        "volRatio": 1.3455934554395772
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": {
+        "exDate": "2026-01-16",
+        "amount": 1.73,
+        "url": "https://investors.abbvie.com/stock-information/stock-quote"
+      },
+      "originBasisRatioDriftPct": 0.8045766412984934,
+      "eventDailyVolume": 8649746,
+      "eventRTH5MinVolume": 5173298,
+      "eventDailyDivRthVolume": 1.6719984041128115,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.6039236000777493,
+      "ohlcMismatchOver0_2Count": 13,
+      "topMismatchExamples": [
+        {
+          "date": "2025-11-18",
+          "field": "open",
+          "pct": -0.20851059396885807
+        },
+        {
+          "date": "2025-11-18",
+          "field": "low",
+          "pct": 0.3993314392140235
+        },
+        {
+          "date": "2025-11-28",
+          "field": "open",
+          "pct": 0.6039236000777493
+        },
+        {
+          "date": "2025-12-02",
+          "field": "open",
+          "pct": -0.33360010665320905
+        },
+        {
+          "date": "2025-12-08",
+          "field": "open",
+          "pct": -0.2101025647569199
+        }
+      ]
+    },
+    {
+      "symbol": "CRWD",
+      "date": "2026-01-16",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part05_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 112.36375,
+        "volRatio": 1.4464750742139962
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 112.36375,
+        "volRatio": 1.410317373247078
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 0,
+      "eventDailyVolume": 13751688,
+      "eventRTH5MinVolume": 3074300,
+      "eventDailyDivRthVolume": 4.47311192791855,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.47230571060541404,
+      "ohlcMismatchOver0_2Count": 4,
+      "topMismatchExamples": [
+        {
+          "date": "2025-11-21",
+          "field": "open",
+          "pct": -0.3836034624731477
+        },
+        {
+          "date": "2025-12-02",
+          "field": "open",
+          "pct": -0.28628741698639715
+        },
+        {
+          "date": "2026-01-14",
+          "field": "open",
+          "pct": 0.47230571060541404
+        },
+        {
+          "date": "2026-01-15",
+          "field": "open",
+          "pct": -0.2133804638330794
+        }
+      ]
+    },
+    {
+      "symbol": "MA",
+      "date": "2026-01-21",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part05_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 523.812767,
+        "volRatio": 1.4974140883409792
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 523.8127670782753,
+        "volRatio": 1.6976359882048755
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 0.15020733545918485,
+      "eventDailyVolume": 4938103,
+      "eventRTH5MinVolume": 3821231,
+      "eventDailyDivRthVolume": 1.2922806812778396,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.4038469962883595,
+      "ohlcMismatchOver0_2Count": 5,
+      "topMismatchExamples": [
+        {
+          "date": "2025-11-26",
+          "field": "open",
+          "pct": -0.4038469962883595
+        },
+        {
+          "date": "2025-12-19",
+          "field": "open",
+          "pct": 0.26138257150132294
+        },
+        {
+          "date": "2025-12-30",
+          "field": "open",
+          "pct": 0.2898902789779667
+        },
+        {
+          "date": "2026-01-09",
+          "field": "open",
+          "pct": 0.2015186415906811
+        },
+        {
+          "date": "2026-01-16",
+          "field": "open",
+          "pct": 0.3239300897592168
+        }
+      ]
+    },
+    {
+      "symbol": "UNH",
+      "date": "2026-09-18",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part06_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 373.599523,
+        "volRatio": 1.814925221598984
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": false,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": false
+        },
+        "support": 373.59952254082145,
+        "volRatio": 0.7555506573981006
+      },
+      "status": "DISCORDANT_AFTER_RESCALE",
+      "confirmedIssuerDividendWithinLookback": {
+        "exDate": "2026-09-14",
+        "amount": 2.32,
+        "url": "https://www.unitedhealthgroup.com/investors/stock.html"
+      },
+      "originBasisRatioDriftPct": 0.6157604066978184,
+      "eventDailyVolume": 8616225,
+      "eventRTH5MinVolume": 2279502,
+      "eventDailyDivRthVolume": 3.7798716561775336,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.33553617222135124,
+      "ohlcMismatchOver0_2Count": 4,
+      "topMismatchExamples": [
+        {
+          "date": "2026-08-10",
+          "field": "open",
+          "pct": 0.2398433154564339
+        },
+        {
+          "date": "2026-08-12",
+          "field": "open",
+          "pct": 0.3117362026993753
+        },
+        {
+          "date": "2026-09-04",
+          "field": "open",
+          "pct": 0.26445026847154995
+        },
+        {
+          "date": "2026-09-11",
+          "field": "open",
+          "pct": 0.33553617222135124
+        }
+      ]
+    },
+    {
+      "symbol": "GS",
+      "date": "2026-09-15",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part06_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 972.934916,
+        "volRatio": 1.3071076472691454
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 972.9349159956157,
+        "volRatio": 1.7223623805342827
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": {
+        "exDate": "2026-09-01",
+        "amount": 5,
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000294/a2q26gsearningsresults.htm"
+      },
+      "originBasisRatioDriftPct": 0.48976398516558106,
+      "eventDailyVolume": 2356138,
+      "eventRTH5MinVolume": 2028078,
+      "eventDailyDivRthVolume": 1.1617590644935747,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.4810443317266211,
+      "ohlcMismatchOver0_2Count": 13,
+      "topMismatchExamples": [
+        {
+          "date": "2026-07-21",
+          "field": "open",
+          "pct": 0.23362954612000664
+        },
+        {
+          "date": "2026-07-24",
+          "field": "open",
+          "pct": 0.4548837396414873
+        },
+        {
+          "date": "2026-07-24",
+          "field": "high",
+          "pct": 0.23297264041586274
+        },
+        {
+          "date": "2026-07-29",
+          "field": "open",
+          "pct": -0.2819511491870763
+        },
+        {
+          "date": "2026-08-06",
+          "field": "open",
+          "pct": 0.3950415940770835
+        }
+      ]
+    },
+    {
+      "symbol": "NKE",
+      "date": "2026-08-27",
+      "originArchive": "research/swing_two_session/data/frozen18_m5_daily_audit_part06_2026_10_11.json",
+      "candidateByDaily": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 38.010484,
+        "volRatio": 1.3946538515741047
+      },
+      "candidateByRescaledM5Rth": {
+        "qualified": true,
+        "flags": {
+          "range": true,
+          "touches": true,
+          "reclaim": true,
+          "closeNear": true,
+          "vol": true
+        },
+        "support": 38.01048356522674,
+        "volRatio": 1.3845309636188547
+      },
+      "status": "CONFIRMED_ON_RESCALED_M5_RTH",
+      "confirmedIssuerDividendWithinLookback": null,
+      "originBasisRatioDriftPct": 0.000002328182446831306,
+      "eventDailyVolume": 36573774,
+      "eventRTH5MinVolume": 29693654,
+      "eventDailyDivRthVolume": 1.2317033801229045,
+      "m5SessionCountEvent": 78,
+      "maxAbsDvsRescaledOHLCpct": 0.6756969765437826,
+      "ohlcMismatchOver0_2Count": 14,
+      "topMismatchExamples": [
+        {
+          "date": "2026-07-01",
+          "field": "open",
+          "pct": -0.3381654986955751
+        },
+        {
+          "date": "2026-07-06",
+          "field": "open",
+          "pct": 0.29612724086875986
+        },
+        {
+          "date": "2026-07-07",
+          "field": "open",
+          "pct": 0.3202188825431662
+        },
+        {
+          "date": "2026-07-15",
+          "field": "open",
+          "pct": 0.2558133965133047
+        },
+        {
+          "date": "2026-07-20",
+          "field": "open",
+          "pct": -0.6756969765437826
+        }
+      ]
+    }
+  ]
+}
