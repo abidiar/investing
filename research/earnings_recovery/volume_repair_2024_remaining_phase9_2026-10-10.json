@@ -1,0 +1,32 @@
+{
+  "observations": [
+    {
+      "ticker": "NOC",
+      "occ": "O:NOC240301C00505000",
+      "entry": "2024-01-31",
+      "exit": "2024-02-28",
+      "status": "NOT_ENTITLED"
+    },
+    {
+      "ticker": "ADBE",
+      "occ": "O:ADBE240419C00650000",
+      "entry": "2024-03-20",
+      "exit": "2024-03-22",
+      "status": "NOT_ENTITLED"
+    },
+    {
+      "ticker": "TGT",
+      "occ": "O:TGT240628C00160000",
+      "entry": "2024-05-29",
+      "exit": "2024-05-31",
+      "status": "NOT_ENTITLED"
+    },
+    {
+      "ticker": "CPRT",
+      "occ": "O:CPRT241018C00052500",
+      "entry": "2024-09-16",
+      "exit": "2024-10-08",
+      "status": "NOT_ENTITLED"
+    }
+  ]
+}
