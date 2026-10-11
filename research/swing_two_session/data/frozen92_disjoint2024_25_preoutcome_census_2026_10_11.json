@@ -1,0 +1,4220 @@
+{
+  "study": "Frozen 92 selected / 90 Webull D available 2024-2025 issuer independent 7% volume reversal v3",
+  "freeze": "research/swing_two_session/frozen92_issuer_disjoint_fundamental_reversal_v3_2026_10_11.md",
+  "sourceFiles": [
+    "research/swing_two_session/data/disjoint92_daily_webull_batch_01_2026_10_11.csv",
+    "research/swing_two_session/data/disjoint92_daily_webull_batch_02_2026_10_11.csv",
+    "research/swing_two_session/data/disjoint92_daily_webull_batch_03_2026_10_11.csv",
+    "research/swing_two_session/data/disjoint92_daily_webull_batch_04_2026_10_11.csv",
+    "research/swing_two_session/data/disjoint92_daily_webull_batch_05_2026_10_11.csv"
+  ],
+  "screen": "as-of T OHLCV ONLY, no trade prices/outcomes read",
+  "metrics": {
+    "allN": 283,
+    "byYear": {
+      "2024": 120,
+      "2025": 163
+    },
+    "bySector": {
+      "SOFTWARE_INTERNET": 105,
+      "SEMICONDUCTORS": 42,
+      "CONSUMER": 51,
+      "INDUSTRIALS": 17,
+      "FINANCIALS": 17,
+      "HEALTHCARE": 38,
+      "ENERGY": 13
+    },
+    "sourceCodedFirst50Years": {
+      "2024": 50,
+      "2025": 0
+    },
+    "missingStocks": [
+      "QRVO",
+      "EXAS"
+    ],
+    "missingForwardN": 0,
+    "quarterDropN": 127
+  },
+  "allEligibleCandidates": [
+    {
+      "symbol": "U",
+      "date": "2024-01-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.978450487429445,
+      "rvol20": 2.4881834590848553,
+      "signalClose": 35.87,
+      "previousClose": 38.98,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2024-01-18",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.990888077819558,
+      "rvol20": 6.2093476420852545,
+      "signalClose": 398.78778,
+      "previousClose": 433.422051,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "APP",
+      "date": "2024-01-30",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.803951041442993,
+      "rvol20": 1.9765128155418905,
+      "signalClose": 42.47,
+      "previousClose": 46.57,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROK",
+      "date": "2024-01-31",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -17.557450572482523,
+      "rvol20": 11.114019856181262,
+      "signalClose": 242.290857,
+      "previousClose": 293.890544,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TER",
+      "date": "2024-01-31",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.6489144177536055,
+      "rvol20": 3.7738768445604065,
+      "signalClose": 95.664818,
+      "previousClose": 103.58819,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "AFL",
+      "date": "2024-02-01",
+      "sector": "FINANCIALS",
+      "shockClosePct": -9.651411156885626,
+      "rvol20": 5.5894976151822515,
+      "signalClose": 71.866905,
+      "previousClose": 79.544026,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2024-02-02",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -14.715574735190273,
+      "rvol20": 6.23184054273233,
+      "signalClose": 217.39,
+      "previousClose": 254.9,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2024-02-07",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -34.61318051575931,
+      "rvol20": 6.915941120944896,
+      "signalClose": 11.41,
+      "previousClose": 17.45,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BILL",
+      "date": "2024-02-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -13.584158415841596,
+      "rvol20": 7.638542469389661,
+      "signalClose": 65.46,
+      "previousClose": 75.75,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2024-02-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -9.45481335952849,
+      "rvol20": 3.7003976997941224,
+      "signalClose": 36.87,
+      "previousClose": 40.72,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BIIB",
+      "date": "2024-02-13",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.39151752880608,
+      "rvol20": 3.6416928254551673,
+      "signalClose": 226.65,
+      "previousClose": 244.74,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MCO",
+      "date": "2024-02-13",
+      "sector": "FINANCIALS",
+      "shockClosePct": -7.943354202153186,
+      "rvol20": 3.1788305984203458,
+      "signalClose": 361.126545,
+      "previousClose": 392.287316,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROKU",
+      "date": "2024-02-13",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.755199350715227,
+      "rvol20": 2.301252260463293,
+      "signalClose": 89.94,
+      "previousClose": 98.57,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2024-02-13",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -13.397666068222613,
+      "rvol20": 3.7793520945005565,
+      "signalClose": 77.18,
+      "previousClose": 89.12,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TWLO",
+      "date": "2024-02-15",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -15.386744153867438,
+      "rvol20": 7.2446086181353175,
+      "signalClose": 61.15,
+      "previousClose": 72.27,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ZS",
+      "date": "2024-02-21",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -14.102152264696432,
+      "rvol20": 4.17269115702915,
+      "signalClose": 213.92,
+      "previousClose": 249.04,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2024-02-22",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.440295604823012,
+      "rvol20": 2.6949363295641118,
+      "signalClose": 70.62,
+      "previousClose": 77.13,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2024-02-22",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -13.413089373680497,
+      "rvol20": 7.013974391801439,
+      "signalClose": 61.52,
+      "previousClose": 71.05,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OLED",
+      "date": "2024-02-23",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -8.148978953454877,
+      "rvol20": 4.2446431423303235,
+      "signalClose": 165.307524,
+      "previousClose": 179.973529,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PODD",
+      "date": "2024-02-26",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.349166711904887,
+      "rvol20": 2.8298575764894434,
+      "signalClose": 168.83,
+      "previousClose": 184.21,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "IOT",
+      "date": "2024-03-05",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.635097493036215,
+      "rvol20": 1.6565282547858746,
+      "signalClose": 32.8,
+      "previousClose": 35.9,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MDB",
+      "date": "2024-03-05",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.744874715261963,
+      "rvol20": 2.029520995299829,
+      "signalClose": 405,
+      "previousClose": 439,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ANF",
+      "date": "2024-03-08",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.152919079668186,
+      "rvol20": 2.0255304344168135,
+      "signalClose": 118.64,
+      "previousClose": 127.78,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "RBLX",
+      "date": "2024-03-18",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.747196738022422,
+      "rvol20": 2.0597436843360803,
+      "signalClose": 36.2,
+      "previousClose": 39.24,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVE",
+      "date": "2024-03-21",
+      "sector": "CONSUMER",
+      "shockClosePct": -15.399339618127005,
+      "rvol20": 5.901042163548317,
+      "signalClose": 176.79,
+      "previousClose": 208.97,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LULU",
+      "date": "2024-03-22",
+      "sector": "CONSUMER",
+      "shockClosePct": -15.798596608470461,
+      "rvol20": 15.387247517320846,
+      "signalClose": 403.19,
+      "previousClose": 478.84,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2024-04-02",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -13.407312531115812,
+      "rvol20": 6.733933645905675,
+      "signalClose": 295.335144,
+      "previousClose": 341.062453,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ELF",
+      "date": "2024-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -11.91846393804119,
+      "rvol20": 3.242371275499702,
+      "signalClose": 163.77,
+      "previousClose": 185.93,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ULTA",
+      "date": "2024-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -15.336360837438413,
+      "rvol20": 4.846520177566217,
+      "signalClose": 439.98,
+      "previousClose": 519.68,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2024-04-15",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.112768120854107,
+      "rvol20": 1.2402025651765027,
+      "signalClose": 191.84,
+      "previousClose": 206.53,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TRV",
+      "date": "2024-04-17",
+      "sector": "FINANCIALS",
+      "shockClosePct": -7.413051396025527,
+      "rvol20": 5.306638770798497,
+      "signalClose": 198.305181,
+      "previousClose": 214.182651,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BMY",
+      "date": "2024-04-25",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.514122297057513,
+      "rvol20": 4.0028811942655835,
+      "signalClose": 39.714025,
+      "previousClose": 43.410006,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2024-04-26",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -9.90507934207665,
+      "rvol20": 3.383625253830548,
+      "signalClose": 124.34,
+      "previousClose": 138.01,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROKU",
+      "date": "2024-04-26",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.284986467123069,
+      "rvol20": 4.764365318064298,
+      "signalClose": 56.35,
+      "previousClose": 62.81,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2024-04-30",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -10.746812386156657,
+      "rvol20": 2.6986578287110543,
+      "signalClose": 68.6,
+      "previousClose": 76.86,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MPC",
+      "date": "2024-04-30",
+      "sector": "ENERGY",
+      "shockClosePct": -9.371103680691705,
+      "rvol20": 2.5046270798359727,
+      "signalClose": 173.063368,
+      "previousClose": 190.958265,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ENTG",
+      "date": "2024-05-01",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.229913022949475,
+      "rvol20": 2.3090535074500997,
+      "signalClose": 122.257266,
+      "previousClose": 131.785223,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SWKS",
+      "date": "2024-05-01",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -15.282859370727685,
+      "rvol20": 4.334729556511629,
+      "signalClose": 83.063041,
+      "previousClose": 98.047503,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2024-05-02",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -15.055921995985077,
+      "rvol20": 6.934968506821785,
+      "signalClose": 59.24,
+      "previousClose": 69.74,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BILL",
+      "date": "2024-05-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.616113744075829,
+      "rvol20": 4.764977772475444,
+      "signalClose": 56.58,
+      "previousClose": 63.3,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "NET",
+      "date": "2024-05-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -16.376306620209046,
+      "rvol20": 6.465197626347432,
+      "signalClose": 74.4,
+      "previousClose": 88.97,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2024-05-08",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -18.585334198572355,
+      "rvol20": 6.883312485342294,
+      "signalClose": 62.73,
+      "previousClose": 77.05,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TWLO",
+      "date": "2024-05-08",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.495660407132709,
+      "rvol20": 4.018295967764901,
+      "signalClose": 58.62,
+      "previousClose": 63.37,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "RBLX",
+      "date": "2024-05-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -22.05995388162951,
+      "rvol20": 11.332983697273669,
+      "signalClose": 30.42,
+      "previousClose": 39.03,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "U",
+      "date": "2024-05-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.223509933774832,
+      "rvol20": 4.047914945085623,
+      "signalClose": 21.69,
+      "previousClose": 24.16,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LULU",
+      "date": "2024-05-22",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.229549817326153,
+      "rvol20": 5.184039352037878,
+      "signalClose": 299.63,
+      "previousClose": 322.98,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MRNA",
+      "date": "2024-05-28",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.048736570433956,
+      "rvol20": 1.4214338878781687,
+      "signalClose": 153.2,
+      "previousClose": 166.61,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "AEO",
+      "date": "2024-05-30",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.567569608553571,
+      "rvol20": 3.310834227159622,
+      "signalClose": 20.563257,
+      "previousClose": 22.246799,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MDB",
+      "date": "2024-05-30",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.182849785921741,
+      "rvol20": 4.901619046996792,
+      "signalClose": 310,
+      "previousClose": 333.99,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OKTA",
+      "date": "2024-05-30",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.835201328352015,
+      "rvol20": 6.373408962182359,
+      "signalClose": 88.81,
+      "previousClose": 96.36,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "GAP",
+      "date": "2024-06-04",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.475025936331625,
+      "rvol20": 1.2535689709236097,
+      "signalClose": 24.932479,
+      "previousClose": 26.946756,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVE",
+      "date": "2024-06-06",
+      "sector": "CONSUMER",
+      "shockClosePct": -10.595677385345281,
+      "rvol20": 8.217022715699324,
+      "signalClose": 118.72,
+      "previousClose": 132.79,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "IOT",
+      "date": "2024-06-07",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -12.335054503729204,
+      "rvol20": 5.366987002942942,
+      "signalClose": 30.56,
+      "previousClose": 34.86,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUBS",
+      "date": "2024-07-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -12.120454829438964,
+      "rvol20": 7.306063229496792,
+      "signalClose": 492.31,
+      "previousClose": 560.21,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ELF",
+      "date": "2024-07-15",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.9231863442389745,
+      "rvol20": 1.3347440979941456,
+      "signalClose": 194.19,
+      "previousClose": 210.9,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SCHW",
+      "date": "2024-07-16",
+      "sector": "FINANCIALS",
+      "shockClosePct": -10.17716770115098,
+      "rvol20": 5.68838052801022,
+      "signalClose": 65.473111,
+      "previousClose": 72.89139,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ANF",
+      "date": "2024-07-17",
+      "sector": "CONSUMER",
+      "shockClosePct": -8.407808090310454,
+      "rvol20": 2.2382256625887993,
+      "signalClose": 155.78,
+      "previousClose": 170.08,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "APP",
+      "date": "2024-07-17",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.326938633999768,
+      "rvol20": 1.2463991578709597,
+      "signalClose": 80.19,
+      "previousClose": 86.53,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ENTG",
+      "date": "2024-07-17",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -8.64964467917828,
+      "rvol20": 2.3806523189694206,
+      "signalClose": 132.667625,
+      "previousClose": 145.229457,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVE",
+      "date": "2024-07-17",
+      "sector": "CONSUMER",
+      "shockClosePct": -25.051435289507197,
+      "rvol20": 11.885108706530012,
+      "signalClose": 76.5,
+      "previousClose": 102.07,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2024-07-17",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.042455536431436,
+      "rvol20": 1.7226316768678653,
+      "signalClose": 64.81,
+      "previousClose": 69.72,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2024-07-17",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -9.727385377942998,
+      "rvol20": 2.118482961077942,
+      "signalClose": 14.57,
+      "previousClose": 16.14,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DPZ",
+      "date": "2024-07-18",
+      "sector": "CONSUMER",
+      "shockClosePct": -13.571534182516443,
+      "rvol20": 5.898088517385879,
+      "signalClose": 392.932327,
+      "previousClose": 454.633,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "U",
+      "date": "2024-07-18",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -9.508015478164722,
+      "rvol20": 1.9611614051004664,
+      "signalClose": 16.37,
+      "previousClose": 18.09,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TRV",
+      "date": "2024-07-19",
+      "sector": "FINANCIALS",
+      "shockClosePct": -7.760653023522313,
+      "rvol20": 2.1564267932234373,
+      "signalClose": 196.297244,
+      "previousClose": 212.812916,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "NXPI",
+      "date": "2024-07-23",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.579014388705341,
+      "rvol20": 3.604653083958467,
+      "signalClose": 251.860597,
+      "previousClose": 272.514511,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PCAR",
+      "date": "2024-07-23",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -10.966440594810367,
+      "rvol20": 2.533154015071941,
+      "signalClose": 90.692422,
+      "previousClose": 101.863188,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ALGM",
+      "date": "2024-07-24",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -10.701373825018079,
+      "rvol20": 3.7558895908645966,
+      "signalClose": 24.7,
+      "previousClose": 27.66,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROKU",
+      "date": "2024-07-24",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.468674504751164,
+      "rvol20": 2.2892630527774873,
+      "signalClose": 55.59,
+      "previousClose": 62.09,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LULU",
+      "date": "2024-07-25",
+      "sector": "CONSUMER",
+      "shockClosePct": -9.093582298022495,
+      "rvol20": 5.262798123206928,
+      "signalClose": 247.32,
+      "previousClose": 272.06,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TER",
+      "date": "2024-07-25",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -13.379546216169235,
+      "rvol20": 3.5615727007209936,
+      "signalClose": 123.395863,
+      "previousClose": 142.455803,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BIIB",
+      "date": "2024-07-26",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.1535349982412955,
+      "rvol20": 2.4565359865339387,
+      "signalClose": 211.17,
+      "previousClose": 227.44,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2024-07-26",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -40.65832174316179,
+      "rvol20": 19.382646510904458,
+      "signalClose": 64,
+      "previousClose": 107.85,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2024-07-30",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -9.443231441048027,
+      "rvol20": 4.806256245900197,
+      "signalClose": 49.77,
+      "previousClose": 54.96,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2024-07-31",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -10.607633744305279,
+      "rvol20": 3.7240925182808042,
+      "signalClose": 351.779854,
+      "previousClose": 393.523372,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2024-07-31",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -14.457831325301207,
+      "rvol20": 4.801995699042067,
+      "signalClose": 31.95,
+      "previousClose": 37.35,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2024-08-01",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.645072152287391,
+      "rvol20": 2.540585517723697,
+      "signalClose": 60.16,
+      "previousClose": 65.14,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MRNA",
+      "date": "2024-08-01",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -21.011575239053847,
+      "rvol20": 6.991447916412051,
+      "signalClose": 94.17,
+      "previousClose": 119.22,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ON",
+      "date": "2024-08-01",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -8.115015974440887,
+      "rvol20": 1.5116884338657592,
+      "signalClose": 71.9,
+      "previousClose": 78.25,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MCHP",
+      "date": "2024-08-02",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -10.596183248939672,
+      "rvol20": 2.6853830116972577,
+      "signalClose": 71.015153,
+      "previousClose": 79.431903,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OLED",
+      "date": "2024-08-02",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -18.991865408812426,
+      "rvol20": 3.033198001629983,
+      "signalClose": 166.416,
+      "previousClose": 205.431221,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SYF",
+      "date": "2024-08-02",
+      "sector": "FINANCIALS",
+      "shockClosePct": -7.351728641434141,
+      "rvol20": 1.9069862254690693,
+      "signalClose": 43.219254,
+      "previousClose": 46.648743,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2024-08-02",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -17.063033941353034,
+      "rvol20": 5.999942340579691,
+      "signalClose": 143.68,
+      "previousClose": 173.24,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "EMR",
+      "date": "2024-08-07",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -7.645203124492738,
+      "rvol20": 3.2271603234489437,
+      "signalClose": 95.897755,
+      "previousClose": 103.836247,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2024-08-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -26.48928655521545,
+      "rvol20": 11.603645815989662,
+      "signalClose": 31.22,
+      "previousClose": 42.47,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PODD",
+      "date": "2024-08-09",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.809249712197808,
+      "rvol20": 2.9560875790307053,
+      "signalClose": 182.19,
+      "previousClose": 199.79,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "CMG",
+      "date": "2024-08-13",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.49955253266511,
+      "rvol20": 5.776823174271569,
+      "signalClose": 51.68,
+      "previousClose": 55.87,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OKTA",
+      "date": "2024-08-29",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -17.640356328982808,
+      "rvol20": 8.350013894094305,
+      "signalClose": 79.51,
+      "previousClose": 96.54,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SWKS",
+      "date": "2024-09-03",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.071812860315518,
+      "rvol20": 1.5445145876686168,
+      "signalClose": 94.978905,
+      "previousClose": 102.206777,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ZS",
+      "date": "2024-09-04",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -18.665562399710133,
+      "rvol20": 7.685281071708914,
+      "signalClose": 157.13,
+      "previousClose": 193.19,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BNTX",
+      "date": "2024-09-18",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.288910271830639,
+      "rvol20": 1.4974607298475981,
+      "signalClose": 115.62,
+      "previousClose": 124.71,
+      "quarter": "2024Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2024-10-01",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -11.773063085401214,
+      "rvol20": 4.481205361473337,
+      "signalClose": 272.608271,
+      "previousClose": 308.985306,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MPC",
+      "date": "2024-10-08",
+      "sector": "ENERGY",
+      "shockClosePct": -7.664339058575409,
+      "rvol20": 1.554523187397982,
+      "signalClose": 153.831803,
+      "previousClose": 166.600641,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ENTG",
+      "date": "2024-10-15",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.91386273696334,
+      "rvol20": 2.442030118423634,
+      "signalClose": 101.836991,
+      "previousClose": 110.58884,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TER",
+      "date": "2024-10-24",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -11.01824351422488,
+      "rvol20": 4.253797191028721,
+      "signalClose": 109.987823,
+      "previousClose": 123.607161,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HCA",
+      "date": "2024-10-25",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.861870050812259,
+      "rvol20": 3.629044970023389,
+      "signalClose": 358.165916,
+      "previousClose": 392.992391,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "CROX",
+      "date": "2024-10-29",
+      "sector": "CONSUMER",
+      "shockClosePct": -19.174212241941333,
+      "rvol20": 9.376849393272058,
+      "signalClose": 111.58,
+      "previousClose": 138.05,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "CMG",
+      "date": "2024-10-30",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.869069267647555,
+      "rvol20": 3.5080338230224264,
+      "signalClose": 55.73,
+      "previousClose": 60.49,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SWKS",
+      "date": "2024-10-30",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -8.206670672911942,
+      "rvol20": 2.4004986266655672,
+      "signalClose": 83.922592,
+      "previousClose": 91.425589,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "WING",
+      "date": "2024-10-30",
+      "sector": "CONSUMER",
+      "shockClosePct": -21.399143439368316,
+      "rvol20": 7.771977145129474,
+      "signalClose": 286.570275,
+      "previousClose": 364.589252,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "EBAY",
+      "date": "2024-10-31",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.174996072307273,
+      "rvol20": 2.671026012146144,
+      "signalClose": 55.893025,
+      "previousClose": 60.869069,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OLED",
+      "date": "2024-10-31",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -11.242370319875771,
+      "rvol20": 3.2050101114849316,
+      "signalClose": 174.5161,
+      "previousClose": 196.620956,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROKU",
+      "date": "2024-10-31",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -17.32679654238164,
+      "rvol20": 8.162618615438067,
+      "signalClose": 64.08,
+      "previousClose": 77.51,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVE",
+      "date": "2024-11-06",
+      "sector": "CONSUMER",
+      "shockClosePct": -9.894332372718539,
+      "rvol20": 4.363470759194999,
+      "signalClose": 84.42,
+      "previousClose": 93.69,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2024-11-08",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -13.999410551134694,
+      "rvol20": 7.739523436137194,
+      "signalClose": 29.18,
+      "previousClose": 33.93,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "U",
+      "date": "2024-11-08",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.699234579018466,
+      "rvol20": 3.045714756206281,
+      "signalClose": 20.5,
+      "previousClose": 22.21,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MRNA",
+      "date": "2024-11-11",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.712363869314544,
+      "rvol20": 2.680819448235794,
+      "signalClose": 42.75,
+      "previousClose": 46.83,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "AMGN",
+      "date": "2024-11-12",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.137752094644645,
+      "rvol20": 3.5227444230920737,
+      "signalClose": 281.365926,
+      "previousClose": 302.992801,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BNTX",
+      "date": "2024-11-14",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.104413347685689,
+      "rvol20": 2.089309725892986,
+      "signalClose": 103.56,
+      "previousClose": 111.48,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "AEO",
+      "date": "2024-12-05",
+      "sector": "CONSUMER",
+      "shockClosePct": -14.26484887497529,
+      "rvol20": 4.293245770660356,
+      "signalClose": 16.487498,
+      "previousClose": 19.230733,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ANF",
+      "date": "2024-12-05",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.163199603764248,
+      "rvol20": 1.4257850901027447,
+      "signalClose": 149.95,
+      "previousClose": 161.52,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "APP",
+      "date": "2024-12-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -14.684931506849308,
+      "rvol20": 2.100755736523634,
+      "signalClose": 342.54,
+      "previousClose": 401.5,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "IOT",
+      "date": "2024-12-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -9.375623379214048,
+      "rvol20": 2.9856440779894218,
+      "signalClose": 45.43,
+      "previousClose": 50.13,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MDB",
+      "date": "2024-12-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -16.916573844000805,
+      "rvol20": 5.384745613723491,
+      "signalClose": 290.9,
+      "previousClose": 350.13,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2024-12-18",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.101853370510081,
+      "rvol20": 1.7746150676041434,
+      "signalClose": 56.64,
+      "previousClose": 60.97,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "NET",
+      "date": "2024-12-18",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.196325280707727,
+      "rvol20": 1.3524411817148214,
+      "signalClose": 109.1,
+      "previousClose": 117.56,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2024-12-18",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.193154238848432,
+      "rvol20": 1.202762990766907,
+      "signalClose": 109.7,
+      "previousClose": 119.49,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2024-12-18",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.2649097446161885,
+      "rvol20": 1.856248659684674,
+      "signalClose": 250.19,
+      "previousClose": 269.79,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ZS",
+      "date": "2024-12-18",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.363432277375903,
+      "rvol20": 1.876658898540334,
+      "signalClose": 185.69,
+      "previousClose": 200.45,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "VRTX",
+      "date": "2024-12-19",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -11.365363128491623,
+      "rvol20": 6.523366460817386,
+      "signalClose": 396.64,
+      "previousClose": 447.5,
+      "quarter": "2024Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MRNA",
+      "date": "2025-01-08",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -9.173153797601518,
+      "rvol20": 1.5595264973980454,
+      "signalClose": 43.17,
+      "previousClose": 47.53,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ON",
+      "date": "2025-01-08",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.046070460704601,
+      "rvol20": 2.2877200213618325,
+      "signalClose": 58.31,
+      "previousClose": 62.73,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ANF",
+      "date": "2025-01-13",
+      "sector": "CONSUMER",
+      "shockClosePct": -15.659955257270685,
+      "rvol20": 5.018373031709574,
+      "signalClose": 135.72,
+      "previousClose": 160.92,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BNTX",
+      "date": "2025-01-13",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.415547415547419,
+      "rvol20": 1.782200536892343,
+      "signalClose": 113.74,
+      "previousClose": 122.85,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETN",
+      "date": "2025-01-27",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -15.564529132978489,
+      "rvol20": 4.6148224790842205,
+      "signalClose": 305.053629,
+      "previousClose": 361.286111,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "KMI",
+      "date": "2025-01-27",
+      "sector": "ENERGY",
+      "shockClosePct": -9.28311638207463,
+      "rvol20": 2.8787095349350853,
+      "signalClose": 25.573622,
+      "previousClose": 28.190587,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PWR",
+      "date": "2025-01-27",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -18.32248709603079,
+      "rvol20": 4.262585720395443,
+      "signalClose": 291.943529,
+      "previousClose": 357.434401,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TER",
+      "date": "2025-01-27",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.427647614719957,
+      "rvol20": 2.5405186194691254,
+      "signalClose": 119.607309,
+      "previousClose": 129.204137,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LMT",
+      "date": "2025-01-28",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -9.18024974832159,
+      "rvol20": 3.6068693078510963,
+      "signalClose": 436.447634,
+      "previousClose": 480.564671,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DECK",
+      "date": "2025-01-31",
+      "sector": "CONSUMER",
+      "shockClosePct": -20.50558020707274,
+      "rvol20": 8.418651531904283,
+      "signalClose": 177.36,
+      "previousClose": 223.11,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2025-02-05",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.362068965517233,
+      "rvol20": 2.8088664311013534,
+      "signalClose": 10.63,
+      "previousClose": 11.6,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "RBLX",
+      "date": "2025-02-06",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -11.063998939976138,
+      "rvol20": 7.10504933835447,
+      "signalClose": 67.12,
+      "previousClose": 75.47,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SWKS",
+      "date": "2025-02-06",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -24.666973349634493,
+      "rvol20": 7.56117306818017,
+      "signalClose": 61.668268,
+      "previousClose": 81.860866,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BILL",
+      "date": "2025-02-07",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -35.516346652828226,
+      "rvol20": 12.229158386070287,
+      "signalClose": 62.13,
+      "previousClose": 96.35,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ELF",
+      "date": "2025-02-07",
+      "sector": "CONSUMER",
+      "shockClosePct": -19.61803593626399,
+      "rvol20": 9.468236450864197,
+      "signalClose": 71.13,
+      "previousClose": 88.49,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ILMN",
+      "date": "2025-02-07",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -9.560260586319213,
+      "rvol20": 2.833870075149938,
+      "signalClose": 111.06,
+      "previousClose": 122.8,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TWLO",
+      "date": "2025-02-14",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -15.012221618685494,
+      "rvol20": 3.7278636165948975,
+      "signalClose": 125.17,
+      "previousClose": 147.28,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2025-02-19",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.05411066503753,
+      "rvol20": 4.453755686800756,
+      "signalClose": 51.53,
+      "previousClose": 57.29,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "WING",
+      "date": "2025-02-19",
+      "sector": "CONSUMER",
+      "shockClosePct": -13.397817275824664,
+      "rvol20": 5.926887934305547,
+      "signalClose": 262.108778,
+      "previousClose": 302.658397,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "APP",
+      "date": "2025-02-20",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.936196045895139,
+      "rvol20": 2.0035601767826714,
+      "signalClose": 450.01,
+      "previousClose": 494.17,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "IOT",
+      "date": "2025-02-20",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.105218425973147,
+      "rvol20": 2.3967702718441775,
+      "signalClose": 54.65,
+      "previousClose": 58.83,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2025-02-25",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.277950682307887,
+      "rvol20": 1.725271941006525,
+      "signalClose": 38.73,
+      "previousClose": 41.77,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ZM",
+      "date": "2025-02-25",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.483353884093702,
+      "rvol20": 4.397220304768755,
+      "signalClose": 74.22,
+      "previousClose": 81.1,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "EBAY",
+      "date": "2025-02-27",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.186289678572267,
+      "rvol20": 4.474175590553056,
+      "signalClose": 61.955283,
+      "previousClose": 67.479337,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MDB",
+      "date": "2025-03-06",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -26.937492901222882,
+      "rvol20": 9.65174750623018,
+      "signalClose": 192.98,
+      "previousClose": 264.13,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2025-03-06",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -9.42073501246703,
+      "rvol20": 1.3431198654401484,
+      "signalClose": 250.66,
+      "previousClose": 276.73,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ALGM",
+      "date": "2025-03-10",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -8.300252616383974,
+      "rvol20": 1.282338690890205,
+      "signalClose": 25.41,
+      "previousClose": 27.71,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2025-03-10",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -9.146968139773904,
+      "rvol20": 2.005738237532328,
+      "signalClose": 70.72,
+      "previousClose": 77.84,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUBS",
+      "date": "2025-03-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.381624779369279,
+      "rvol20": 1.9967106306336093,
+      "signalClose": 586.55,
+      "previousClose": 640.21,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MCHP",
+      "date": "2025-03-10",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -10.573866688743582,
+      "rvol20": 1.3981340856429505,
+      "signalClose": 51.329996,
+      "previousClose": 57.399324,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "NET",
+      "date": "2025-03-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.9999999999999964,
+      "rvol20": 1.340115775333352,
+      "signalClose": 116.61,
+      "previousClose": 126.75,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2025-03-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.434402332361511,
+      "rvol20": 1.377745401631471,
+      "signalClose": 31.75,
+      "previousClose": 34.3,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2025-03-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.370418456007188,
+      "rvol20": 1.5443776643908784,
+      "signalClose": 92.75,
+      "previousClose": 100.13,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LULU",
+      "date": "2025-03-28",
+      "sector": "CONSUMER",
+      "shockClosePct": -14.192018270722917,
+      "rvol20": 7.083025084877495,
+      "signalClose": 293.06,
+      "previousClose": 341.53,
+      "quarter": "2025Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "AEO",
+      "date": "2025-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -17.47035497608127,
+      "rvol20": 2.1646175362101676,
+      "signalClose": 9.849054,
+      "previousClose": 11.933959,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ANF",
+      "date": "2025-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -15.745293200623568,
+      "rvol20": 1.799259556421752,
+      "signalClose": 70.26,
+      "previousClose": 83.39,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "AXP",
+      "date": "2025-04-03",
+      "sector": "FINANCIALS",
+      "shockClosePct": -9.965486074887853,
+      "rvol20": 2.2623310560118726,
+      "signalClose": 243.018847,
+      "previousClose": 269.917431,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BILL",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.838005563877582,
+      "rvol20": 1.93439715316942,
+      "signalClose": 42.6,
+      "previousClose": 46.73,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BURL",
+      "date": "2025-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.616919518601284,
+      "rvol20": 1.5008541526590695,
+      "signalClose": 235.66,
+      "previousClose": 255.09,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "CMI",
+      "date": "2025-04-03",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -7.700240534901715,
+      "rvol20": 1.6101527027103437,
+      "signalClose": 287.978744,
+      "previousClose": 312.003786,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "COF",
+      "date": "2025-04-03",
+      "sector": "FINANCIALS",
+      "shockClosePct": -9.957185042380745,
+      "rvol20": 2.719486006521869,
+      "signalClose": 160.57837,
+      "previousClose": 178.335573,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "CROX",
+      "date": "2025-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -13.95911780527166,
+      "rvol20": 2.8724151761660575,
+      "signalClose": 95.97,
+      "previousClose": 111.54,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DECK",
+      "date": "2025-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -14.493982030852692,
+      "rvol20": 2.7365510384495466,
+      "signalClose": 100.88,
+      "previousClose": 117.98,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DVN",
+      "date": "2025-04-03",
+      "sector": "ENERGY",
+      "shockClosePct": -12.552741609360474,
+      "rvol20": 2.0788868610319344,
+      "signalClose": 31.888094,
+      "previousClose": 36.465516,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2025-04-03",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -9.304373348987383,
+      "rvol20": 1.234090764843589,
+      "signalClose": 61.8,
+      "previousClose": 68.14,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ELF",
+      "date": "2025-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -18.95713654441007,
+      "rvol20": 2.703029884394679,
+      "signalClose": 55.02,
+      "previousClose": 67.89,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ENTG",
+      "date": "2025-04-03",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -16.173386371209997,
+      "rvol20": 2.5167213688618877,
+      "signalClose": 71.523317,
+      "previousClose": 85.322923,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETN",
+      "date": "2025-04-03",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -8.099633487758407,
+      "rvol20": 1.4900027212659814,
+      "signalClose": 256.346319,
+      "previousClose": 278.939387,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FANG",
+      "date": "2025-04-03",
+      "sector": "ENERGY",
+      "shockClosePct": -12.514706492780615,
+      "rvol20": 2.0948827794325457,
+      "signalClose": 136.025674,
+      "previousClose": 155.484046,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVE",
+      "date": "2025-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -27.80709289483372,
+      "rvol20": 4.395307032637995,
+      "signalClose": 58.83,
+      "previousClose": 81.49,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.084486525855795,
+      "rvol20": 1.5975135200879824,
+      "signalClose": 25.24,
+      "previousClose": 27.46,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "GAP",
+      "date": "2025-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -20.285966807683597,
+      "rvol20": 2.3385794014435017,
+      "signalClose": 16.89565,
+      "previousClose": 21.195327,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUBS",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.995126393362465,
+      "rvol20": 1.669545906194406,
+      "signalClose": 527.79,
+      "previousClose": 592.99,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "IOT",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.236842105263156,
+      "rvol20": 1.9207898901924847,
+      "signalClose": 34.11,
+      "previousClose": 38,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2025-04-03",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -15.931276844982422,
+      "rvol20": 3.8128230953360163,
+      "signalClose": 43.06,
+      "previousClose": 51.22,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LULU",
+      "date": "2025-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -9.584438549955788,
+      "rvol20": 2.8634044235554934,
+      "signalClose": 255.65,
+      "previousClose": 282.75,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MCHP",
+      "date": "2025-04-03",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -16.79951010097517,
+      "rvol20": 2.9143426288354535,
+      "signalClose": 39.095307,
+      "previousClose": 46.989275,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MPC",
+      "date": "2025-04-03",
+      "sector": "ENERGY",
+      "shockClosePct": -13.05611939555611,
+      "rvol20": 1.881198278884944,
+      "signalClose": 125.068694,
+      "previousClose": 143.84991,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MRNA",
+      "date": "2025-04-03",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.178932178932174,
+      "rvol20": 1.325914023250765,
+      "signalClose": 25.73,
+      "previousClose": 27.72,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "NET",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.171476369719779,
+      "rvol20": 1.2145887541614433,
+      "signalClose": 107.39,
+      "previousClose": 119.55,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "NXPI",
+      "date": "2025-04-03",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -11.25109696695743,
+      "rvol20": 2.2004119646190308,
+      "signalClose": 167.341623,
+      "previousClose": 188.556272,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OLED",
+      "date": "2025-04-03",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -15.392369002511819,
+      "rvol20": 2.050259697029501,
+      "signalClose": 114.36636,
+      "previousClose": 135.17263,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ON",
+      "date": "2025-04-03",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -12.757605495583901,
+      "rvol20": 1.7989683571745503,
+      "signalClose": 35.56,
+      "previousClose": 40.76,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OXY",
+      "date": "2025-04-03",
+      "sector": "ENERGY",
+      "shockClosePct": -11.007500364423084,
+      "rvol20": 2.3630850423000727,
+      "signalClose": 42.576452,
+      "previousClose": 47.842742,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PH",
+      "date": "2025-04-03",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -11.491621320126043,
+      "rvol20": 1.9967974619889053,
+      "signalClose": 549.248748,
+      "previousClose": 620.561303,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -12.332695984703623,
+      "rvol20": 2.0096080228728432,
+      "signalClose": 27.51,
+      "previousClose": 31.38,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PSX",
+      "date": "2025-04-03",
+      "sector": "ENERGY",
+      "shockClosePct": -13.606319225968145,
+      "rvol20": 2.2511429972489636,
+      "signalClose": 102.096699,
+      "previousClose": 118.176119,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROK",
+      "date": "2025-04-03",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -8.318638541037593,
+      "rvol20": 1.563034933787948,
+      "signalClose": 234.103248,
+      "previousClose": 255.344428,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROKU",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -15.62587510501261,
+      "rvol20": 2.029937871465228,
+      "signalClose": 60.26,
+      "previousClose": 71.42,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -18.241430700447093,
+      "rvol20": 2.8163972703690745,
+      "signalClose": 82.29,
+      "previousClose": 100.65,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -9.684684684684697,
+      "rvol20": 1.7807066812176096,
+      "signalClose": 8.02,
+      "previousClose": 8.88,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SWKS",
+      "date": "2025-04-03",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -12.415123245329163,
+      "rvol20": 1.810994551754774,
+      "signalClose": 53.914923,
+      "previousClose": 61.557343,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SYF",
+      "date": "2025-04-03",
+      "sector": "FINANCIALS",
+      "shockClosePct": -15.422342737768668,
+      "rvol20": 2.2649569795469437,
+      "signalClose": 45.346179,
+      "previousClose": 53.614844,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -11.435077692445084,
+      "rvol20": 1.2340289869562715,
+      "signalClose": 198.35,
+      "previousClose": 223.96,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TER",
+      "date": "2025-04-03",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -10.20090853833089,
+      "rvol20": 1.3315864582133623,
+      "signalClose": 74.755751,
+      "previousClose": 83.247781,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TROW",
+      "date": "2025-04-03",
+      "sector": "FINANCIALS",
+      "shockClosePct": -8.178913279466993,
+      "rvol20": 1.4819016010828494,
+      "signalClose": 79.840623,
+      "previousClose": 86.952383,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TWLO",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.791151853328017,
+      "rvol20": 2.1128143190708686,
+      "signalClose": 89.53,
+      "previousClose": 100.36,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "U",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -13.008130081300806,
+      "rvol20": 1.4655888984830183,
+      "signalClose": 18.19,
+      "previousClose": 20.91,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "VLO",
+      "date": "2025-04-03",
+      "sector": "ENERGY",
+      "shockClosePct": -14.466397661948749,
+      "rvol20": 2.855957368337148,
+      "signalClose": 110.075894,
+      "previousClose": 128.693158,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ZS",
+      "date": "2025-04-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.162867078825341,
+      "rvol20": 1.6394353621324456,
+      "signalClose": 192.21,
+      "previousClose": 207.04,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "AFL",
+      "date": "2025-04-04",
+      "sector": "FINANCIALS",
+      "shockClosePct": -8.742729710896391,
+      "rvol20": 1.5737048289961921,
+      "signalClose": 98.804033,
+      "previousClose": 108.269766,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ALL",
+      "date": "2025-04-04",
+      "sector": "FINANCIALS",
+      "shockClosePct": -9.132086824720798,
+      "rvol20": 1.5980681021591263,
+      "signalClose": 181.255534,
+      "previousClose": 199.471439,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "APP",
+      "date": "2025-04-04",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -16.264600351171854,
+      "rvol20": 1.5894002214059375,
+      "signalClose": 219.37,
+      "previousClose": 261.98,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "EMR",
+      "date": "2025-04-04",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -7.184218766606287,
+      "rvol20": 1.7384633784353256,
+      "signalClose": 92.335286,
+      "previousClose": 99.482313,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2025-04-04",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.242098739929759,
+      "rvol20": 1.7767803959725583,
+      "signalClose": 44.42,
+      "previousClose": 48.41,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "GD",
+      "date": "2025-04-04",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -7.273199326187896,
+      "rvol20": 2.2275692630563184,
+      "signalClose": 241.901682,
+      "previousClose": 260.875691,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "KMI",
+      "date": "2025-04-04",
+      "sector": "ENERGY",
+      "shockClosePct": -8.766234276480954,
+      "rvol20": 2.4829664816269523,
+      "signalClose": 23.801708,
+      "previousClose": 26.088705,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LNG",
+      "date": "2025-04-04",
+      "sector": "ENERGY",
+      "shockClosePct": -10.369427761759976,
+      "rvol20": 2.6148617118241897,
+      "signalClose": 194.501728,
+      "previousClose": 217.003778,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MCO",
+      "date": "2025-04-04",
+      "sector": "FINANCIALS",
+      "shockClosePct": -9.032753914527058,
+      "rvol20": 2.6552027205216406,
+      "signalClose": 397.481883,
+      "previousClose": 436.950551,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OKTA",
+      "date": "2025-04-04",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.3175426348858,
+      "rvol20": 2.4061411371529307,
+      "signalClose": 91.93,
+      "previousClose": 100.27,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PGR",
+      "date": "2025-04-04",
+      "sector": "FINANCIALS",
+      "shockClosePct": -10.229965125893315,
+      "rvol20": 1.9543240401826458,
+      "signalClose": 241.718349,
+      "previousClose": 269.263958,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "RBLX",
+      "date": "2025-04-04",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -9.034695980762619,
+      "rvol20": 1.2147966928213316,
+      "signalClose": 52.96,
+      "previousClose": 58.22,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "RTX",
+      "date": "2025-04-04",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -9.81340671090376,
+      "rvol20": 1.7161738982369084,
+      "signalClose": 114.640321,
+      "previousClose": 127.114593,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SCHW",
+      "date": "2025-04-04",
+      "sector": "FINANCIALS",
+      "shockClosePct": -7.760116988672849,
+      "rvol20": 2.526707731391416,
+      "signalClose": 67.779067,
+      "previousClose": 73.481302,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SPGI",
+      "date": "2025-04-04",
+      "sector": "FINANCIALS",
+      "shockClosePct": -7.740406333040484,
+      "rvol20": 1.3535083234875467,
+      "signalClose": 479.049014,
+      "previousClose": 519.240325,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TRV",
+      "date": "2025-04-04",
+      "sector": "FINANCIALS",
+      "shockClosePct": -7.920942648807106,
+      "rvol20": 1.6659347959270003,
+      "signalClose": 236.677382,
+      "previousClose": 257.037147,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "YUM",
+      "date": "2025-04-04",
+      "sector": "CONSUMER",
+      "shockClosePct": -8.43604836335211,
+      "rvol20": 2.3261792947217197,
+      "signalClose": 143.608899,
+      "previousClose": 156.839997,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ZM",
+      "date": "2025-04-04",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.508532423208192,
+      "rvol20": 2.122617928858829,
+      "signalClose": 67.75,
+      "previousClose": 73.25,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ALGM",
+      "date": "2025-04-08",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -10.113960113960108,
+      "rvol20": 1.4212285201729908,
+      "signalClose": 18.93,
+      "previousClose": 21.06,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2025-04-17",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.398200565402635,
+      "rvol20": 2.2051837206517764,
+      "signalClose": 259.756176,
+      "previousClose": 280.508778,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BNTX",
+      "date": "2025-04-25",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -15.364194458271118,
+      "rvol20": 5.250677784950709,
+      "signalClose": 102.02,
+      "previousClose": 120.54,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "VRTX",
+      "date": "2025-05-06",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -10.028189288070543,
+      "rvol20": 4.914458849952494,
+      "signalClose": 450.03,
+      "previousClose": 500.19,
+      "quarter": "2025Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2025-07-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -9.434560188329023,
+      "rvol20": 1.6252993751052836,
+      "signalClose": 200.05,
+      "previousClose": 220.89,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LNG",
+      "date": "2025-07-21",
+      "sector": "ENERGY",
+      "shockClosePct": -7.303094846206049,
+      "rvol20": 2.5053632272134982,
+      "signalClose": 223.756469,
+      "previousClose": 241.385048,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LMT",
+      "date": "2025-07-22",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -10.811456343508796,
+      "rvol20": 6.484460511406921,
+      "signalClose": 397.494102,
+      "previousClose": 445.678431,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "CMG",
+      "date": "2025-07-24",
+      "sector": "CONSUMER",
+      "shockClosePct": -13.33838575217885,
+      "rvol20": 6.075469691858317,
+      "signalClose": 45.74,
+      "previousClose": 52.78,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ENTG",
+      "date": "2025-07-30",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -14.458220745471706,
+      "rvol20": 3.0540126272491865,
+      "signalClose": 79.06598,
+      "previousClose": 92.429665,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ALGM",
+      "date": "2025-07-31",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.263064658990248,
+      "rvol20": 1.50599483362675,
+      "signalClose": 31.41,
+      "previousClose": 33.87,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2025-07-31",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -9.308331461935781,
+      "rvol20": 3.4066401966603372,
+      "signalClose": 80.77,
+      "previousClose": 89.06,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MRNA",
+      "date": "2025-07-31",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.055987558320377,
+      "rvol20": 1.6867872745564407,
+      "signalClose": 29.56,
+      "previousClose": 32.15,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ILMN",
+      "date": "2025-08-01",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.837601012559636,
+      "rvol20": 2.1188135752677066,
+      "signalClose": 94.66,
+      "previousClose": 102.71,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MDB",
+      "date": "2025-08-01",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.112531001723477,
+      "rvol20": 1.4218951538484021,
+      "signalClose": 220.97,
+      "previousClose": 237.89,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "RBLX",
+      "date": "2025-08-01",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -9.260468829378032,
+      "rvol20": 1.7056813445750107,
+      "signalClose": 125.03,
+      "previousClose": 137.79,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROKU",
+      "date": "2025-08-01",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -15.059473237043319,
+      "rvol20": 5.034784505496889,
+      "signalClose": 79.98,
+      "previousClose": 94.16,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ON",
+      "date": "2025-08-04",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -15.575501583949315,
+      "rvol20": 3.3423422034188777,
+      "signalClose": 47.97,
+      "previousClose": 56.82,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "AEO",
+      "date": "2025-08-05",
+      "sector": "CONSUMER",
+      "shockClosePct": -9.487958354544524,
+      "rvol20": 2.127281031179759,
+      "signalClose": 11.617407,
+      "previousClose": 12.835206,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETN",
+      "date": "2025-08-05",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -7.357833526632418,
+      "rvol20": 3.1880825261559567,
+      "signalClose": 351.515512,
+      "previousClose": 379.433605,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "VRTX",
+      "date": "2025-08-05",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -20.600503949012207,
+      "rvol20": 9.161605299241021,
+      "signalClose": 374.98,
+      "previousClose": 472.27,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2025-08-06",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -17.145899893503724,
+      "rvol20": 4.5800865447746135,
+      "signalClose": 7.78,
+      "previousClose": 9.39,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "CROX",
+      "date": "2025-08-07",
+      "sector": "CONSUMER",
+      "shockClosePct": -29.239988585560727,
+      "rvol20": 14.012689577492312,
+      "signalClose": 74.39,
+      "previousClose": 105.13,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ELF",
+      "date": "2025-08-07",
+      "sector": "CONSUMER",
+      "shockClosePct": -9.484554760394959,
+      "rvol20": 4.321376610628469,
+      "signalClose": 99.92,
+      "previousClose": 110.39,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2025-08-08",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.314015828440127,
+      "rvol20": 3.8664635912375083,
+      "signalClose": 35.13,
+      "previousClose": 39.17,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TWLO",
+      "date": "2025-08-08",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -19.38066835525778,
+      "rvol20": 6.074630777956293,
+      "signalClose": 98.67,
+      "previousClose": 122.39,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2025-08-25",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.410469198850933,
+      "rvol20": 1.3944891492580178,
+      "signalClose": 57.39,
+      "previousClose": 62.66,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ULTA",
+      "date": "2025-08-29",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.1424533102161565,
+      "rvol20": 4.351221340617255,
+      "signalClose": 492.73,
+      "previousClose": 530.63,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LULU",
+      "date": "2025-09-05",
+      "sector": "CONSUMER",
+      "shockClosePct": -18.57926148769955,
+      "rvol20": 8.932502916565822,
+      "signalClose": 167.8,
+      "previousClose": 206.09,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BNTX",
+      "date": "2025-09-08",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.714209496709934,
+      "rvol20": 2.6860069911586666,
+      "signalClose": 102.66,
+      "previousClose": 112.46,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2025-09-09",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -12.03685814044343,
+      "rvol20": 3.4276778102671943,
+      "signalClose": 269.1365,
+      "previousClose": 305.965083,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "IOT",
+      "date": "2025-09-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.055140862027454,
+      "rvol20": 2.5548103144803185,
+      "signalClose": 38.6,
+      "previousClose": 41.53,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ANF",
+      "date": "2025-09-12",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.173174872665522,
+      "rvol20": 1.3810373143048829,
+      "signalClose": 87.48,
+      "previousClose": 94.24,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DRI",
+      "date": "2025-09-18",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.687149865032927,
+      "rvol20": 7.173964326393275,
+      "signalClose": 185.305109,
+      "previousClose": 200.735985,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUBS",
+      "date": "2025-09-30",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.017696391474951,
+      "rvol20": 2.962214198260955,
+      "signalClose": 467.8,
+      "previousClose": 519.88,
+      "quarter": "2025Q3",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OXY",
+      "date": "2025-10-02",
+      "sector": "ENERGY",
+      "shockClosePct": -7.313494210953319,
+      "rvol20": 4.661366886208554,
+      "signalClose": 43.366496,
+      "previousClose": 46.78836,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "RBLX",
+      "date": "2025-10-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.097378277153556,
+      "rvol20": 2.1652730506090943,
+      "signalClose": 122.69,
+      "previousClose": 133.5,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ANF",
+      "date": "2025-10-06",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.812500000000011,
+      "rvol20": 2.5281565506654267,
+      "signalClose": 77.88,
+      "previousClose": 84.48,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "APP",
+      "date": "2025-10-06",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -14.025426211260184,
+      "rvol20": 1.3012732877601312,
+      "signalClose": 587,
+      "previousClose": 682.76,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ELF",
+      "date": "2025-10-10",
+      "sector": "CONSUMER",
+      "shockClosePct": -10.540111747258052,
+      "rvol20": 2.104114701696105,
+      "signalClose": 129.69,
+      "previousClose": 144.97,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ENTG",
+      "date": "2025-10-10",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -11.238459212531914,
+      "rvol20": 1.6047451797261496,
+      "signalClose": 83.351129,
+      "previousClose": 93.904554,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVE",
+      "date": "2025-10-10",
+      "sector": "CONSUMER",
+      "shockClosePct": -8.260466348701645,
+      "rvol20": 2.4583603120229087,
+      "signalClose": 138.49,
+      "previousClose": 150.96,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MCHP",
+      "date": "2025-10-10",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -8.275129205015796,
+      "rvol20": 1.8658411218290223,
+      "signalClose": 58.868114,
+      "previousClose": 64.17901,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "NXPI",
+      "date": "2025-10-10",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.248667469006643,
+      "rvol20": 1.874712783445476,
+      "signalClose": 201.8055,
+      "previousClose": 217.576928,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ON",
+      "date": "2025-10-10",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -8.465079047428448,
+      "rvol20": 1.7332638773741764,
+      "signalClose": 45.74,
+      "previousClose": 49.97,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2025-10-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.841581741624459,
+      "rvol20": 1.5656057901606657,
+      "signalClose": 151.02,
+      "previousClose": 163.87,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TER",
+      "date": "2025-10-10",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -9.029547327989885,
+      "rvol20": 1.489051414702793,
+      "signalClose": 131.824658,
+      "previousClose": 144.909313,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FAST",
+      "date": "2025-10-13",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -7.536042141539689,
+      "rvol20": 2.7736741122172925,
+      "signalClose": 41.430063,
+      "previousClose": 44.806716,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "U",
+      "date": "2025-10-16",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.19059075113605,
+      "rvol20": 1.2016530917981585,
+      "signalClose": 34.72,
+      "previousClose": 37.41,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "URI",
+      "date": "2025-10-23",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -7.786182607877934,
+      "rvol20": 3.2119930937061736,
+      "signalClose": 906.89408,
+      "previousClose": 983.468753,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DECK",
+      "date": "2025-10-24",
+      "sector": "CONSUMER",
+      "shockClosePct": -15.213575190169692,
+      "rvol20": 6.1715438981011514,
+      "signalClose": 86.94,
+      "previousClose": 102.54,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2025-10-29",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -12.797539449050554,
+      "rvol20": 3.2085097892982097,
+      "signalClose": 65.21,
+      "previousClose": 74.78,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "CMG",
+      "date": "2025-10-30",
+      "sector": "CONSUMER",
+      "shockClosePct": -18.184104627766594,
+      "rvol20": 6.937288527669414,
+      "signalClose": 32.53,
+      "previousClose": 39.76,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "EBAY",
+      "date": "2025-10-30",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -15.883061822498512,
+      "rvol20": 2.9325076389125235,
+      "signalClose": 82.67637,
+      "previousClose": 98.287422,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "WING",
+      "date": "2025-10-30",
+      "sector": "CONSUMER",
+      "shockClosePct": -11.107904471753427,
+      "rvol20": 3.164283995368834,
+      "signalClose": 213.909592,
+      "previousClose": 240.63961,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2025-10-31",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -14.633431085043991,
+      "rvol20": 5.93819216460016,
+      "signalClose": 58.22,
+      "previousClose": 68.2,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MRNA",
+      "date": "2025-11-03",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.284241531664216,
+      "rvol20": 1.362030807969386,
+      "signalClose": 24.91,
+      "previousClose": 27.16,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2025-11-04",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -13.169458939851687,
+      "rvol20": 2.6477878605388376,
+      "signalClose": 63.23,
+      "previousClose": 72.82,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2025-11-05",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -21.756305074445446,
+      "rvol20": 7.2720516362426695,
+      "signalClose": 25.75,
+      "previousClose": 32.91,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUBS",
+      "date": "2025-11-06",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -15.011512556217854,
+      "rvol20": 4.656671546699593,
+      "signalClose": 394.95,
+      "previousClose": 464.71,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OLED",
+      "date": "2025-11-06",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.775127441950391,
+      "rvol20": 2.668137726192374,
+      "signalClose": 132.539927,
+      "previousClose": 143.713863,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2025-11-07",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.892293407613737,
+      "rvol20": 6.809803599349841,
+      "signalClose": 19.84,
+      "previousClose": 21.54,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BNTX",
+      "date": "2025-11-13",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.0008952551477215,
+      "rvol20": 3.560421157690693,
+      "signalClose": 103.88,
+      "previousClose": 111.7,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PODD",
+      "date": "2025-11-20",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -9.663356045732774,
+      "rvol20": 3.019202623312401,
+      "signalClose": 312.89,
+      "previousClose": 346.36,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BURL",
+      "date": "2025-11-25",
+      "sector": "CONSUMER",
+      "shockClosePct": -12.240306534959755,
+      "rvol20": 4.339124419523846,
+      "signalClose": 249.65,
+      "previousClose": 284.47,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ZS",
+      "date": "2025-11-26",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -13.032823663410763,
+      "rvol20": 6.753020504155558,
+      "signalClose": 251.97,
+      "previousClose": 289.73,
+      "quarter": "2025Q4",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    }
+  ],
+  "sourceCodingPriority": [
+    {
+      "symbol": "U",
+      "date": "2024-01-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.978450487429445,
+      "rvol20": 2.4881834590848553,
+      "signalClose": 35.87,
+      "previousClose": 38.98,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2024-01-18",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.990888077819558,
+      "rvol20": 6.2093476420852545,
+      "signalClose": 398.78778,
+      "previousClose": 433.422051,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "APP",
+      "date": "2024-01-30",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.803951041442993,
+      "rvol20": 1.9765128155418905,
+      "signalClose": 42.47,
+      "previousClose": 46.57,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROK",
+      "date": "2024-01-31",
+      "sector": "INDUSTRIALS",
+      "shockClosePct": -17.557450572482523,
+      "rvol20": 11.114019856181262,
+      "signalClose": 242.290857,
+      "previousClose": 293.890544,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TER",
+      "date": "2024-01-31",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.6489144177536055,
+      "rvol20": 3.7738768445604065,
+      "signalClose": 95.664818,
+      "previousClose": 103.58819,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "AFL",
+      "date": "2024-02-01",
+      "sector": "FINANCIALS",
+      "shockClosePct": -9.651411156885626,
+      "rvol20": 5.5894976151822515,
+      "signalClose": 71.866905,
+      "previousClose": 79.544026,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2024-02-02",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -14.715574735190273,
+      "rvol20": 6.23184054273233,
+      "signalClose": 217.39,
+      "previousClose": 254.9,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SNAP",
+      "date": "2024-02-07",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -34.61318051575931,
+      "rvol20": 6.915941120944896,
+      "signalClose": 11.41,
+      "previousClose": 17.45,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BILL",
+      "date": "2024-02-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -13.584158415841596,
+      "rvol20": 7.638542469389661,
+      "signalClose": 65.46,
+      "previousClose": 75.75,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PINS",
+      "date": "2024-02-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -9.45481335952849,
+      "rvol20": 3.7003976997941224,
+      "signalClose": 36.87,
+      "previousClose": 40.72,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BIIB",
+      "date": "2024-02-13",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -7.39151752880608,
+      "rvol20": 3.6416928254551673,
+      "signalClose": 226.65,
+      "previousClose": 244.74,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MCO",
+      "date": "2024-02-13",
+      "sector": "FINANCIALS",
+      "shockClosePct": -7.943354202153186,
+      "rvol20": 3.1788305984203458,
+      "signalClose": 361.126545,
+      "previousClose": 392.287316,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROKU",
+      "date": "2024-02-13",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.755199350715227,
+      "rvol20": 2.301252260463293,
+      "signalClose": 89.94,
+      "previousClose": 98.57,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2024-02-13",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -13.397666068222613,
+      "rvol20": 3.7793520945005565,
+      "signalClose": 77.18,
+      "previousClose": 89.12,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TWLO",
+      "date": "2024-02-15",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -15.386744153867438,
+      "rvol20": 7.2446086181353175,
+      "signalClose": 61.15,
+      "previousClose": 72.27,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ZS",
+      "date": "2024-02-21",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -14.102152264696432,
+      "rvol20": 4.17269115702915,
+      "signalClose": 213.92,
+      "previousClose": 249.04,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2024-02-22",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.440295604823012,
+      "rvol20": 2.6949363295641118,
+      "signalClose": 70.62,
+      "previousClose": 77.13,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVN",
+      "date": "2024-02-22",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -13.413089373680497,
+      "rvol20": 7.013974391801439,
+      "signalClose": 61.52,
+      "previousClose": 71.05,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OLED",
+      "date": "2024-02-23",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -8.148978953454877,
+      "rvol20": 4.2446431423303235,
+      "signalClose": 165.307524,
+      "previousClose": 179.973529,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "PODD",
+      "date": "2024-02-26",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.349166711904887,
+      "rvol20": 2.8298575764894434,
+      "signalClose": 168.83,
+      "previousClose": 184.21,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "IOT",
+      "date": "2024-03-05",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -8.635097493036215,
+      "rvol20": 1.6565282547858746,
+      "signalClose": 32.8,
+      "previousClose": 35.9,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MDB",
+      "date": "2024-03-05",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.744874715261963,
+      "rvol20": 2.029520995299829,
+      "signalClose": 405,
+      "previousClose": 439,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ANF",
+      "date": "2024-03-08",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.152919079668186,
+      "rvol20": 2.0255304344168135,
+      "signalClose": 118.64,
+      "previousClose": 127.78,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "RBLX",
+      "date": "2024-03-18",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.747196738022422,
+      "rvol20": 2.0597436843360803,
+      "signalClose": 36.2,
+      "previousClose": 39.24,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "FIVE",
+      "date": "2024-03-21",
+      "sector": "CONSUMER",
+      "shockClosePct": -15.399339618127005,
+      "rvol20": 5.901042163548317,
+      "signalClose": 176.79,
+      "previousClose": 208.97,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LULU",
+      "date": "2024-03-22",
+      "sector": "CONSUMER",
+      "shockClosePct": -15.798596608470461,
+      "rvol20": 15.387247517320846,
+      "signalClose": 403.19,
+      "previousClose": 478.84,
+      "quarter": "2024Q1",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "HUM",
+      "date": "2024-04-02",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -13.407312531115812,
+      "rvol20": 6.733933645905675,
+      "signalClose": 295.335144,
+      "previousClose": 341.062453,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ELF",
+      "date": "2024-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -11.91846393804119,
+      "rvol20": 3.242371275499702,
+      "signalClose": 163.77,
+      "previousClose": 185.93,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ULTA",
+      "date": "2024-04-03",
+      "sector": "CONSUMER",
+      "shockClosePct": -15.336360837438413,
+      "rvol20": 4.846520177566217,
+      "signalClose": 439.98,
+      "previousClose": 519.68,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2024-04-15",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.112768120854107,
+      "rvol20": 1.2402025651765027,
+      "signalClose": 191.84,
+      "previousClose": 206.53,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TRV",
+      "date": "2024-04-17",
+      "sector": "FINANCIALS",
+      "shockClosePct": -7.413051396025527,
+      "rvol20": 5.306638770798497,
+      "signalClose": 198.305181,
+      "previousClose": 214.182651,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BMY",
+      "date": "2024-04-25",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.514122297057513,
+      "rvol20": 4.0028811942655835,
+      "signalClose": 39.714025,
+      "previousClose": 43.410006,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "DXCM",
+      "date": "2024-04-26",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -9.90507934207665,
+      "rvol20": 3.383625253830548,
+      "signalClose": 124.34,
+      "previousClose": 138.01,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ROKU",
+      "date": "2024-04-26",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.284986467123069,
+      "rvol20": 4.764365318064298,
+      "signalClose": 56.35,
+      "previousClose": 62.81,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2024-04-30",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -10.746812386156657,
+      "rvol20": 2.6986578287110543,
+      "signalClose": 68.6,
+      "previousClose": 76.86,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MPC",
+      "date": "2024-04-30",
+      "sector": "ENERGY",
+      "shockClosePct": -9.371103680691705,
+      "rvol20": 2.5046270798359727,
+      "signalClose": 173.063368,
+      "previousClose": 190.958265,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ENTG",
+      "date": "2024-05-01",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -7.229913022949475,
+      "rvol20": 2.3090535074500997,
+      "signalClose": 122.257266,
+      "previousClose": 131.785223,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SWKS",
+      "date": "2024-05-01",
+      "sector": "SEMICONDUCTORS",
+      "shockClosePct": -15.282859370727685,
+      "rvol20": 4.334729556511629,
+      "signalClose": 83.063041,
+      "previousClose": 98.047503,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "ETSY",
+      "date": "2024-05-02",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -15.055921995985077,
+      "rvol20": 6.934968506821785,
+      "signalClose": 59.24,
+      "previousClose": 69.74,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "BILL",
+      "date": "2024-05-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.616113744075829,
+      "rvol20": 4.764977772475444,
+      "signalClose": 56.58,
+      "previousClose": 63.3,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "NET",
+      "date": "2024-05-03",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -16.376306620209046,
+      "rvol20": 6.465197626347432,
+      "signalClose": 74.4,
+      "previousClose": 88.97,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "SHOP",
+      "date": "2024-05-08",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -18.585334198572355,
+      "rvol20": 6.883312485342294,
+      "signalClose": 62.73,
+      "previousClose": 77.05,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "TWLO",
+      "date": "2024-05-08",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.495660407132709,
+      "rvol20": 4.018295967764901,
+      "signalClose": 58.62,
+      "previousClose": 63.37,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "RBLX",
+      "date": "2024-05-09",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -22.05995388162951,
+      "rvol20": 11.332983697273669,
+      "signalClose": 30.42,
+      "previousClose": 39.03,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "U",
+      "date": "2024-05-10",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -10.223509933774832,
+      "rvol20": 4.047914945085623,
+      "signalClose": 21.69,
+      "previousClose": 24.16,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "LULU",
+      "date": "2024-05-22",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.229549817326153,
+      "rvol20": 5.184039352037878,
+      "signalClose": 299.63,
+      "previousClose": 322.98,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MRNA",
+      "date": "2024-05-28",
+      "sector": "HEALTHCARE",
+      "shockClosePct": -8.048736570433956,
+      "rvol20": 1.4214338878781687,
+      "signalClose": 153.2,
+      "previousClose": 166.61,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "AEO",
+      "date": "2024-05-30",
+      "sector": "CONSUMER",
+      "shockClosePct": -7.567569608553571,
+      "rvol20": 3.310834227159622,
+      "signalClose": 20.563257,
+      "previousClose": 22.246799,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "MDB",
+      "date": "2024-05-30",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.182849785921741,
+      "rvol20": 4.901619046996792,
+      "signalClose": 310,
+      "previousClose": 333.99,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    },
+    {
+      "symbol": "OKTA",
+      "date": "2024-05-30",
+      "sector": "SOFTWARE_INTERNET",
+      "shockClosePct": -7.835201328352015,
+      "rvol20": 6.373408962182359,
+      "signalClose": 88.81,
+      "previousClose": 96.36,
+      "quarter": "2024Q2",
+      "newsSourceStatus": "UNCODED_PRE_OUTCOME"
+    }
+  ],
+  "quarterExclusions": [
+    {
+      "sym": "U",
+      "d": "2024-11-15"
+    },
+    {
+      "sym": "TEAM",
+      "d": "2024-04-26"
+    },
+    {
+      "sym": "TEAM",
+      "d": "2025-03-10"
+    },
+    {
+      "sym": "TEAM",
+      "d": "2025-03-13"
+    },
+    {
+      "sym": "TEAM",
+      "d": "2025-05-02"
+    },
+    {
+      "sym": "TEAM",
+      "d": "2025-08-07"
+    },
+    {
+      "sym": "OKTA",
+      "d": "2025-05-28"
+    },
+    {
+      "sym": "SNAP",
+      "d": "2024-08-02"
+    },
+    {
+      "sym": "SNAP",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "SNAP",
+      "d": "2025-04-30"
+    },
+    {
+      "sym": "SNAP",
+      "d": "2025-09-30"
+    },
+    {
+      "sym": "APP",
+      "d": "2024-08-02"
+    },
+    {
+      "sym": "APP",
+      "d": "2025-02-21"
+    },
+    {
+      "sym": "APP",
+      "d": "2025-02-25"
+    },
+    {
+      "sym": "APP",
+      "d": "2025-02-26"
+    },
+    {
+      "sym": "APP",
+      "d": "2025-03-06"
+    },
+    {
+      "sym": "APP",
+      "d": "2025-03-10"
+    },
+    {
+      "sym": "APP",
+      "d": "2025-03-27"
+    },
+    {
+      "sym": "APP",
+      "d": "2025-06-09"
+    },
+    {
+      "sym": "APP",
+      "d": "2025-11-11"
+    },
+    {
+      "sym": "IOT",
+      "d": "2025-03-07"
+    },
+    {
+      "sym": "MDB",
+      "d": "2024-05-31"
+    },
+    {
+      "sym": "MDB",
+      "d": "2024-12-13"
+    },
+    {
+      "sym": "MDB",
+      "d": "2025-08-08"
+    },
+    {
+      "sym": "FIVN",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "ZS",
+      "d": "2024-03-01"
+    },
+    {
+      "sym": "ZS",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "HUBS",
+      "d": "2025-05-09"
+    },
+    {
+      "sym": "ETSY",
+      "d": "2025-09-30"
+    },
+    {
+      "sym": "ETSY",
+      "d": "2025-11-13"
+    },
+    {
+      "sym": "NET",
+      "d": "2024-05-30"
+    },
+    {
+      "sym": "NET",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "RBLX",
+      "d": "2025-10-30"
+    },
+    {
+      "sym": "BILL",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "ROKU",
+      "d": "2024-02-16"
+    },
+    {
+      "sym": "ROKU",
+      "d": "2024-11-15"
+    },
+    {
+      "sym": "ROKU",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "ROKU",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "ROKU",
+      "d": "2025-05-02"
+    },
+    {
+      "sym": "ELF",
+      "d": "2024-07-17"
+    },
+    {
+      "sym": "ELF",
+      "d": "2024-08-09"
+    },
+    {
+      "sym": "ELF",
+      "d": "2024-08-12"
+    },
+    {
+      "sym": "ELF",
+      "d": "2024-08-26"
+    },
+    {
+      "sym": "ELF",
+      "d": "2024-09-06"
+    },
+    {
+      "sym": "ELF",
+      "d": "2024-09-09"
+    },
+    {
+      "sym": "ELF",
+      "d": "2025-11-06"
+    },
+    {
+      "sym": "ENTG",
+      "d": "2024-08-01"
+    },
+    {
+      "sym": "ENTG",
+      "d": "2024-08-02"
+    },
+    {
+      "sym": "ENTG",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "ENTG",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "ENTG",
+      "d": "2025-10-30"
+    },
+    {
+      "sym": "LSCC",
+      "d": "2024-06-03"
+    },
+    {
+      "sym": "LSCC",
+      "d": "2024-08-01"
+    },
+    {
+      "sym": "LSCC",
+      "d": "2024-09-03"
+    },
+    {
+      "sym": "LSCC",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "LSCC",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "LSCC",
+      "d": "2025-05-06"
+    },
+    {
+      "sym": "LSCC",
+      "d": "2025-05-21"
+    },
+    {
+      "sym": "AEO",
+      "d": "2025-05-21"
+    },
+    {
+      "sym": "TER",
+      "d": "2024-08-01"
+    },
+    {
+      "sym": "TER",
+      "d": "2024-09-03"
+    },
+    {
+      "sym": "TER",
+      "d": "2025-03-11"
+    },
+    {
+      "sym": "TER",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "TER",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "TER",
+      "d": "2025-11-20"
+    },
+    {
+      "sym": "ALGM",
+      "d": "2025-04-15"
+    },
+    {
+      "sym": "ALGM",
+      "d": "2025-04-21"
+    },
+    {
+      "sym": "OLED",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "OLED",
+      "d": "2025-11-07"
+    },
+    {
+      "sym": "ON",
+      "d": "2024-09-03"
+    },
+    {
+      "sym": "ON",
+      "d": "2025-01-10"
+    },
+    {
+      "sym": "ON",
+      "d": "2025-02-10"
+    },
+    {
+      "sym": "ON",
+      "d": "2025-04-08"
+    },
+    {
+      "sym": "ON",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "ON",
+      "d": "2025-05-05"
+    },
+    {
+      "sym": "MCHP",
+      "d": "2024-09-03"
+    },
+    {
+      "sym": "MCHP",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "MCHP",
+      "d": "2025-04-08"
+    },
+    {
+      "sym": "MCHP",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "NXPI",
+      "d": "2024-08-01"
+    },
+    {
+      "sym": "NXPI",
+      "d": "2024-09-03"
+    },
+    {
+      "sym": "NXPI",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "SWKS",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "SWKS",
+      "d": "2025-04-08"
+    },
+    {
+      "sym": "SWKS",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "LULU",
+      "d": "2025-06-06"
+    },
+    {
+      "sym": "DECK",
+      "d": "2025-05-23"
+    },
+    {
+      "sym": "ANF",
+      "d": "2024-03-25"
+    },
+    {
+      "sym": "ANF",
+      "d": "2024-08-28"
+    },
+    {
+      "sym": "ANF",
+      "d": "2024-12-09"
+    },
+    {
+      "sym": "ANF",
+      "d": "2025-03-05"
+    },
+    {
+      "sym": "ANF",
+      "d": "2025-04-08"
+    },
+    {
+      "sym": "RTX",
+      "d": "2025-04-22"
+    },
+    {
+      "sym": "PH",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "BURL",
+      "d": "2025-05-23"
+    },
+    {
+      "sym": "GAP",
+      "d": "2025-05-30"
+    },
+    {
+      "sym": "DXCM",
+      "d": "2024-05-30"
+    },
+    {
+      "sym": "DXCM",
+      "d": "2025-08-25"
+    },
+    {
+      "sym": "DXCM",
+      "d": "2025-09-19"
+    },
+    {
+      "sym": "BNTX",
+      "d": "2025-09-12"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2024-06-26"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2024-08-02"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2024-09-12"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2024-11-15"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2025-01-13"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2025-01-29"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2025-03-31"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2025-05-06"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2025-05-21"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2025-09-12"
+    },
+    {
+      "sym": "MRNA",
+      "d": "2025-11-20"
+    },
+    {
+      "sym": "COF",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "PSX",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "PSX",
+      "d": "2025-05-21"
+    },
+    {
+      "sym": "VLO",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "OXY",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "OXY",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "DVN",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "DVN",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "FANG",
+      "d": "2025-04-04"
+    },
+    {
+      "sym": "FANG",
+      "d": "2025-04-10"
+    },
+    {
+      "sym": "HUM",
+      "d": "2024-01-25"
+    },
+    {
+      "sym": "HUM",
+      "d": "2024-10-02"
+    },
+    {
+      "sym": "HUM",
+      "d": "2024-12-17"
+    },
+    {
+      "sym": "HUM",
+      "d": "2025-05-13"
+    },
+    {
+      "sym": "HUM",
+      "d": "2025-05-22"
+    }
+  ],
+  "missingSourceSymbols": [
+    "QRVO",
+    "EXAS"
+  ],
+  "invalidPriceDates": []
+}
