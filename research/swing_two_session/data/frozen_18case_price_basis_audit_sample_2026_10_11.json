@@ -1,0 +1,158 @@
+{
+  "id": "range_vwap_49issuers_preoutcome_m5_reconciliation_audit18_2026-10-11",
+  "date": "2026-10-11",
+  "protocol": "research/swing_two_session/frozen_issuer_disjoint_range_vwap_replication_v2_2026_10_11.md",
+  "stage": "DATA QUALITY ONLY, NOT OUTCOME STRATEGY SCORING",
+  "selection": "For each calendar year of frozen 106 daily provider signals choose 3 earliest distinct-symbol and 3 latest distinct-symbol events, without observing intraday outcome, union 18 events, no threshold changes. Reconstruct RTH 5min OHLCV for every prior40 trading sessions plus event day, compare same-basis membership. Later entry/exit bars separate and never select audit cases based on results.",
+  "sample": [
+    {
+      "symbol": "SLB",
+      "date": "2024-01-10",
+      "lookbackStart": "2023-11-10",
+      "lookbackEnd": "2024-01-09",
+      "priorSupport": 44.729731,
+      "prelimRatio": 1.7226954498333473
+    },
+    {
+      "symbol": "UNH",
+      "date": "2024-01-12",
+      "lookbackStart": "2023-11-14",
+      "lookbackEnd": "2024-01-11",
+      "priorSupport": 486.099236,
+      "prelimRatio": 2.03908579140575
+    },
+    {
+      "symbol": "CVX",
+      "date": "2024-01-18",
+      "lookbackStart": "2023-11-17",
+      "lookbackEnd": "2024-01-17",
+      "priorSupport": 125.428641,
+      "prelimRatio": 1.3138144373867462
+    },
+    {
+      "symbol": "FDX",
+      "date": "2024-12-23",
+      "lookbackStart": "2024-10-25",
+      "lookbackEnd": "2024-12-20",
+      "priorSupport": 260.665586,
+      "prelimRatio": 1.7104710230849396
+    },
+    {
+      "symbol": "SBUX",
+      "date": "2024-12-16",
+      "lookbackStart": "2024-10-18",
+      "lookbackEnd": "2024-12-13",
+      "priorSupport": 89.087751,
+      "prelimRatio": 1.802620712152343
+    },
+    {
+      "symbol": "UPS",
+      "date": "2024-12-04",
+      "lookbackStart": "2024-10-08",
+      "lookbackEnd": "2024-12-03",
+      "priorSupport": 114.511279,
+      "prelimRatio": 1.3091583759268905
+    },
+    {
+      "symbol": "UPS",
+      "date": "2025-01-13",
+      "lookbackStart": "2024-11-12",
+      "lookbackEnd": "2025-01-10",
+      "priorSupport": 108.988789,
+      "prelimRatio": 1.519826788507645
+    },
+    {
+      "symbol": "FDX",
+      "date": "2025-01-30",
+      "lookbackStart": "2024-11-29",
+      "lookbackEnd": "2025-01-29",
+      "priorSupport": 257.65276,
+      "prelimRatio": 1.8891766055869523
+    },
+    {
+      "symbol": "TGT",
+      "date": "2025-02-12",
+      "lookbackStart": "2024-12-12",
+      "lookbackEnd": "2025-02-11",
+      "priorSupport": 119.231184,
+      "prelimRatio": 1.258995033518626
+    },
+    {
+      "symbol": "GE",
+      "date": "2025-12-10",
+      "lookbackStart": "2025-10-14",
+      "lookbackEnd": "2025-12-09",
+      "priorSupport": 280.64064,
+      "prelimRatio": 1.3759919195202797
+    },
+    {
+      "symbol": "PG",
+      "date": "2025-12-02",
+      "lookbackStart": "2025-10-06",
+      "lookbackEnd": "2025-12-01",
+      "priorSupport": 140.953821,
+      "prelimRatio": 1.7740038539983873
+    },
+    {
+      "symbol": "TSM",
+      "date": "2025-11-21",
+      "lookbackStart": "2025-09-26",
+      "lookbackEnd": "2025-11-20",
+      "priorSupport": 267.850833,
+      "prelimRatio": 1.6798094280618239
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2026-01-16",
+      "lookbackStart": "2025-11-18",
+      "lookbackEnd": "2026-01-15",
+      "priorSupport": 210.844919,
+      "prelimRatio": 1.3829018494241379
+    },
+    {
+      "symbol": "CRWD",
+      "date": "2026-01-16",
+      "lookbackStart": "2025-11-18",
+      "lookbackEnd": "2026-01-15",
+      "priorSupport": 112.36375,
+      "prelimRatio": 1.4464750742139962
+    },
+    {
+      "symbol": "MA",
+      "date": "2026-01-21",
+      "lookbackStart": "2025-11-20",
+      "lookbackEnd": "2026-01-20",
+      "priorSupport": 523.812767,
+      "prelimRatio": 1.4974140883409792
+    },
+    {
+      "symbol": "UNH",
+      "date": "2026-09-18",
+      "lookbackStart": "2026-07-23",
+      "lookbackEnd": "2026-09-17",
+      "priorSupport": 373.599523,
+      "prelimRatio": 1.814925221598984
+    },
+    {
+      "symbol": "GS",
+      "date": "2026-09-15",
+      "lookbackStart": "2026-07-20",
+      "lookbackEnd": "2026-09-14",
+      "priorSupport": 972.934916,
+      "prelimRatio": 1.3071076472691454
+    },
+    {
+      "symbol": "NKE",
+      "date": "2026-08-27",
+      "lookbackStart": "2026-07-01",
+      "lookbackEnd": "2026-08-26",
+      "priorSupport": 38.010484,
+      "prelimRatio": 1.3946538515741047
+    }
+  ],
+  "coverage": {
+    "n": 18,
+    "eachYear": 6
+  },
+  "noOutcomeAvailable": true
+}
