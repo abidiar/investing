@@ -1,0 +1,4253 @@
+{
+  "id": "rsi5_sma5_164_asofD3_2026-10-11",
+  "protocol": "frozen_d3_rsi5_sma5_quality164_exploratory_2026-10-11.md",
+  "classification": "Previously outcome exposed, historical 5d Cutler RSI not conventional 14d Wilder, daily close at D3 before D4 stock OPEN; no VWAP measured",
+  "coverage": 164,
+  "features": [
+    "rsi5CutlerD3",
+    "rsi5ChangeD1ToD3",
+    "sma5DistanceD3Pct",
+    "sma5SlopeD2ToD3Pct"
+  ],
+  "groups": {
+    "all164": {
+      "d4": {
+        "n": 164,
+        "w": 99,
+        "l": 65,
+        "features": {
+          "rsi5CutlerD3": {
+            "winnerMedian": 20.895514343377396,
+            "loserMedian": 16.704204204204213,
+            "winnerMean": 20.461753682951187,
+            "loserMean": 18.343630537430727
+          },
+          "rsi5ChangeD1ToD3": {
+            "winnerMedian": -2.4622366799252866,
+            "loserMedian": -0.03422654991713614,
+            "winnerMean": -2.086643519454096,
+            "loserMean": -0.7490230309998817
+          },
+          "sma5DistanceD3Pct": {
+            "winnerMedian": -1.7968509826177148,
+            "loserMedian": -1.7968035003699145,
+            "winnerMean": -1.9651989151827887,
+            "loserMean": -1.707549261993782
+          },
+          "sma5SlopeD2ToD3Pct": {
+            "winnerMedian": -1.5727957326639452,
+            "loserMedian": -1.871346141184127,
+            "winnerMean": -1.9441185893088555,
+            "loserMean": -1.8496776583958756
+          }
+        }
+      },
+      "full60": {
+        "n": 164,
+        "w": 86,
+        "l": 78,
+        "features": {
+          "rsi5CutlerD3": {
+            "winnerMedian": 23.039871239161787,
+            "loserMedian": 14.614316217540065,
+            "winnerMean": 23.524841672075286,
+            "loserMean": 15.31940020188064
+          },
+          "rsi5ChangeD1ToD3": {
+            "winnerMedian": -0.9386544648755377,
+            "loserMedian": -2.1331853715643234,
+            "winnerMean": -0.9033777625425405,
+            "loserMean": -2.2765861264396077
+          },
+          "sma5DistanceD3Pct": {
+            "winnerMedian": -0.9327787020936729,
+            "loserMedian": -2.6296567787012504,
+            "winnerMean": -1.0698691864474836,
+            "loserMean": -2.737649289720621
+          },
+          "sma5SlopeD2ToD3Pct": {
+            "winnerMedian": -1.3855154147197069,
+            "loserMedian": -2.112931585527422,
+            "winnerMean": -1.5699200096866617,
+            "loserMean": -2.277995734669946
+          }
+        }
+      }
+    },
+    "AH91": {
+      "d4": {
+        "n": 91,
+        "w": 58,
+        "l": 33,
+        "features": {
+          "rsi5CutlerD3": {
+            "winnerMedian": 19.609385058951947,
+            "loserMedian": 17.112143822229378,
+            "winnerMean": 21.513155550697782,
+            "loserMean": 18.63836799967338
+          },
+          "rsi5ChangeD1ToD3": {
+            "winnerMedian": -3.5450081799044493,
+            "loserMedian": 0,
+            "winnerMean": -3.247163559450388,
+            "loserMean": -1.6882297601680767
+          },
+          "sma5DistanceD3Pct": {
+            "winnerMedian": -1.8917236143673077,
+            "loserMedian": -1.7430066865342653,
+            "winnerMean": -2.0624955213355216,
+            "loserMean": -1.7676241977248972
+          },
+          "sma5SlopeD2ToD3Pct": {
+            "winnerMedian": -1.7484137245585119,
+            "loserMedian": -1.8921728850176511,
+            "winnerMean": -1.9440370005178833,
+            "loserMean": -2.0293124499278696
+          }
+        }
+      },
+      "full60": {
+        "n": 91,
+        "w": 51,
+        "l": 40,
+        "features": {
+          "rsi5CutlerD3": {
+            "winnerMedian": 21.976504382411402,
+            "loserMedian": 15.970368474222632,
+            "winnerMean": 23.085900015638888,
+            "loserMean": 17.136206628302737
+          },
+          "rsi5ChangeD1ToD3": {
+            "winnerMedian": 0.055202870549296776,
+            "loserMedian": -3.8853794092839418,
+            "winnerMean": -1.9732748217174823,
+            "loserMean": -3.585251315651937
+          },
+          "sma5DistanceD3Pct": {
+            "winnerMedian": -1.281543464435042,
+            "loserMedian": -2.594971243775684,
+            "winnerMean": -1.380361408528445,
+            "loserMean": -2.6889476731857807
+          },
+          "sma5SlopeD2ToD3Pct": {
+            "winnerMedian": -1.5324971699816503,
+            "loserMedian": -2.12047215978885,
+            "winnerMean": -1.7835307150744382,
+            "loserMean": -2.219034760221515
+          }
+        }
+      }
+    },
+    "original92": {
+      "d4": {
+        "n": 92,
+        "w": 62,
+        "l": 30,
+        "features": {
+          "rsi5CutlerD3": {
+            "winnerMedian": 19.301957382691597,
+            "loserMedian": 17.58258013780572,
+            "winnerMean": 19.676094534785623,
+            "loserMean": 17.708015831748153
+          },
+          "rsi5ChangeD1ToD3": {
+            "winnerMedian": -3.5450081799044493,
+            "loserMedian": -4.650451144587486,
+            "winnerMean": -3.617147056405511,
+            "loserMean": -5.33773963897593
+          },
+          "sma5DistanceD3Pct": {
+            "winnerMedian": -1.833138530510492,
+            "loserMedian": -1.987800762063463,
+            "winnerMean": -2.242322800640912,
+            "loserMean": -2.0698109815764707
+          },
+          "sma5SlopeD2ToD3Pct": {
+            "winnerMedian": -1.7709449750670347,
+            "loserMedian": -1.7514339640597842,
+            "winnerMean": -2.094901887403412,
+            "loserMean": -1.9322042873965577
+          }
+        }
+      },
+      "full60": {
+        "n": 92,
+        "w": 48,
+        "l": 44,
+        "features": {
+          "rsi5CutlerD3": {
+            "winnerMedian": 21.4360093628944,
+            "loserMedian": 15.139980502498233,
+            "winnerMean": 21.77100946795018,
+            "loserMean": 16.04886094653511
+          },
+          "rsi5ChangeD1ToD3": {
+            "winnerMedian": -2.5388811516558256,
+            "loserMedian": -5.302665988982324,
+            "winnerMean": -4.496161171357113,
+            "loserMean": -3.831353873665412
+          },
+          "sma5DistanceD3Pct": {
+            "winnerMedian": -0.9327787020936729,
+            "loserMedian": -2.7079680659406193,
+            "winnerMean": -1.5317900236447255,
+            "loserMean": -2.8998277716382703
+          },
+          "sma5SlopeD2ToD3Pct": {
+            "winnerMedian": -1.470743950356579,
+            "loserMedian": -2.1360434802740915,
+            "winnerMean": -1.7664314828394556,
+            "loserMean": -2.342303056013965
+          }
+        }
+      }
+    },
+    "disjoint72": {
+      "d4": {
+        "n": 72,
+        "w": 37,
+        "l": 35,
+        "features": {
+          "rsi5CutlerD3": {
+            "winnerMedian": 22.3050169380215,
+            "loserMedian": 16.2444165013097,
+            "winnerMean": 21.7782636069043,
+            "loserMean": 18.888443142301504
+          },
+          "rsi5ChangeD1ToD3": {
+            "winnerMedian": -1.524790870288177,
+            "loserMedian": 3.478617218672275,
+            "winnerMean": 0.47798402895097475,
+            "loserMean": 3.184162632979589
+          },
+          "sma5DistanceD3Pct": {
+            "winnerMedian": -1.5942070723548363,
+            "loserMedian": -1.6606763584254502,
+            "winnerMean": -1.5008291611718807,
+            "loserMean": -1.397039216637193
+          },
+          "sma5SlopeD2ToD3Pct": {
+            "winnerMedian": -1.5581315795088702,
+            "loserMedian": -1.871346141184127,
+            "winnerMean": -1.691454684393652,
+            "loserMean": -1.7789405478238618
+          }
+        }
+      },
+      "full60": {
+        "n": 72,
+        "w": 38,
+        "l": 34,
+        "features": {
+          "rsi5CutlerD3": {
+            "winnerMedian": 25.114907142522213,
+            "loserMedian": 13.478752369811765,
+            "winnerMean": 25.740208666759667,
+            "loserMean": 14.375392179386614
+          },
+          "rsi5ChangeD1ToD3": {
+            "winnerMedian": 4.368408945381266,
+            "loserMedian": 0,
+            "winnerMean": 3.6348749643811313,
+            "loserMean": -0.26453374767680193
+          },
+          "sma5DistanceD3Pct": {
+            "winnerMedian": -0.9212540094566624,
+            "loserMedian": -2.558335176346349,
+            "winnerMean": -0.48639023419833594,
+            "loserMean": -2.5277712542977806
+          },
+          "sma5SlopeD2ToD3Pct": {
+            "winnerMedian": -1.1590785430363348,
+            "loserMedian": -1.9983422570159726,
+            "winnerMean": -1.3216949909673426,
+            "loserMean": -2.1947744952835673
+          }
+        }
+      }
+    },
+    "AH54Early": {
+      "d4": {
+        "n": 54,
+        "w": 38,
+        "l": 16,
+        "features": {
+          "rsi5CutlerD3": {
+            "winnerMedian": 15.880595964081856,
+            "loserMedian": 14.335170906823313,
+            "winnerMean": 17.481107136924678,
+            "loserMean": 16.289181121423756
+          },
+          "rsi5ChangeD1ToD3": {
+            "winnerMedian": -4.939873915924119,
+            "loserMedian": -2.1539413477150022,
+            "winnerMean": -5.118387940324749,
+            "loserMean": -6.087153897801442
+          },
+          "sma5DistanceD3Pct": {
+            "winnerMedian": -2.943385407469734,
+            "loserMedian": -2.492311363370553,
+            "winnerMean": -3.078752196216662,
+            "loserMean": -2.4608484636934302
+          },
+          "sma5SlopeD2ToD3Pct": {
+            "winnerMedian": -2.0610886235716164,
+            "loserMedian": -2.309690922145041,
+            "winnerMean": -2.2295470390016066,
+            "loserMean": -2.1722588721357736
+          }
+        }
+      },
+      "full60": {
+        "n": 54,
+        "w": 29,
+        "l": 25,
+        "features": {
+          "rsi5CutlerD3": {
+            "winnerMedian": 16.06487148102815,
+            "loserMedian": 15.323495247771307,
+            "winnerMean": 17.960957667295887,
+            "loserMean": 16.16164787177347
+          },
+          "rsi5ChangeD1ToD3": {
+            "winnerMedian": -1.9515358135631082,
+            "loserMedian": -7.949618307320494,
+            "winnerMean": -4.628980391036837,
+            "loserMean": -6.306110910283813
+          },
+          "sma5DistanceD3Pct": {
+            "winnerMedian": -2.1634174964966446,
+            "loserMedian": -3.064268737613074,
+            "winnerMean": -2.5710961914263506,
+            "loserMean": -3.2721747729585555
+          },
+          "sma5SlopeD2ToD3Pct": {
+            "winnerMedian": -2.38913102792101,
+            "loserMedian": -2.0973602650421808,
+            "winnerMean": -2.329478044744453,
+            "loserMean": -2.076962645545771
+          }
+        }
+      }
+    }
+  },
+  "matched": {
+    "d4": {
+      "n": 43,
+      "ah": 25,
+      "features": {
+        "rsi5CutlerD3": {
+          "pairedCount": 43,
+          "caseHigher": 24,
+          "caseLower": 19,
+          "tied": 0,
+          "medianCaseMinusControl": 1.6744092509584547,
+          "meanCaseMinusControl": 4.105774527873456,
+          "twoSidedSignP": 0.542384011856484,
+          "originalCaseHigher": 18,
+          "originalCases": 31,
+          "disjointCaseHigher": 6,
+          "disjointCases": 12,
+          "ahCaseHigher": 12,
+          "ahCases": 25
+        },
+        "rsi5ChangeD1ToD3": {
+          "pairedCount": 43,
+          "caseHigher": 17,
+          "caseLower": 26,
+          "tied": 0,
+          "medianCaseMinusControl": -3.4147114788640245,
+          "meanCaseMinusControl": -0.981601004465836,
+          "twoSidedSignP": 0.2220528201560228,
+          "originalCaseHigher": 11,
+          "originalCases": 31,
+          "disjointCaseHigher": 6,
+          "disjointCases": 12,
+          "ahCaseHigher": 8,
+          "ahCases": 25
+        },
+        "sma5DistanceD3Pct": {
+          "pairedCount": 43,
+          "caseHigher": 24,
+          "caseLower": 19,
+          "tied": 0,
+          "medianCaseMinusControl": 0.351443106909366,
+          "meanCaseMinusControl": -0.2645717772239636,
+          "twoSidedSignP": 0.542384011856484,
+          "originalCaseHigher": 18,
+          "originalCases": 31,
+          "disjointCaseHigher": 6,
+          "disjointCases": 12,
+          "ahCaseHigher": 13,
+          "ahCases": 25
+        },
+        "sma5SlopeD2ToD3Pct": {
+          "pairedCount": 43,
+          "caseHigher": 26,
+          "caseLower": 17,
+          "tied": 0,
+          "medianCaseMinusControl": 0.6353018539137834,
+          "meanCaseMinusControl": 0.26097645829937527,
+          "twoSidedSignP": 0.2220528201560228,
+          "originalCaseHigher": 19,
+          "originalCases": 31,
+          "disjointCaseHigher": 7,
+          "disjointCases": 12,
+          "ahCaseHigher": 15,
+          "ahCases": 25
+        }
+      },
+      "pairs": [
+        {
+          "case": "DG|2023-12-08",
+          "control": "KDP|2023-04-27",
+          "sector": "XLP",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 38.95061579714843,
+            "rsi5ChangeD1ToD3": 49.07729030968254,
+            "sma5DistanceD3Pct": 4.363143569901395,
+            "sma5SlopeD2ToD3Pct": 1.4117497462930562
+          }
+        },
+        {
+          "case": "CRWD|2024-11-29",
+          "control": "ANET|2024-11-08",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 31.755307752532527,
+            "rsi5ChangeD1ToD3": 78.38191443439062,
+            "sma5DistanceD3Pct": 5.944046404371961,
+            "sma5SlopeD2ToD3Pct": 1.3576221324961724
+          }
+        },
+        {
+          "case": "NFLX|2025-07-18",
+          "control": "GOOG|2025-02-05",
+          "sector": "XLC",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 5.3063482408651765,
+            "rsi5ChangeD1ToD3": -1.5038978477807596,
+            "sma5DistanceD3Pct": -0.32596694960825845,
+            "sma5SlopeD2ToD3Pct": 0.273093649141809
+          }
+        },
+        {
+          "case": "HON|2024-10-24",
+          "control": "WAB|2024-07-24",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": -18.406590736345205,
+            "rsi5ChangeD1ToD3": 7.459793884621804,
+            "sma5DistanceD3Pct": -1.3260085454256498,
+            "sma5SlopeD2ToD3Pct": -0.4047091475986031
+          }
+        },
+        {
+          "case": "DG|2024-03-14",
+          "control": "KDP|2024-10-25",
+          "sector": "XLP",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 27.825347068157694,
+            "rsi5ChangeD1ToD3": -6.372768722582915,
+            "sma5DistanceD3Pct": 2.560102008659537,
+            "sma5SlopeD2ToD3Pct": 1.218542315913751
+          }
+        },
+        {
+          "case": "ZBH|2025-02-06",
+          "control": "REGN|2025-04-29",
+          "sector": "XLV",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -46.792923259407395,
+            "rsi5ChangeD1ToD3": 4.198787378309459,
+            "sma5DistanceD3Pct": -5.014455201006507,
+            "sma5SlopeD2ToD3Pct": -1.7958208668248377
+          }
+        },
+        {
+          "case": "AMAT|2025-05-16",
+          "control": "TXN|2025-10-22",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -11.539759133577906,
+            "rsi5ChangeD1ToD3": -14.948849323789489,
+            "sma5DistanceD3Pct": -0.9992103274505171,
+            "sma5SlopeD2ToD3Pct": -0.24133595222760595
+          }
+        },
+        {
+          "case": "ADBE|2025-06-13",
+          "control": "FTNT|2025-11-06",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -22.401738494621608,
+            "rsi5ChangeD1ToD3": -23.756275571248068,
+            "sma5DistanceD3Pct": -4.919211276734481,
+            "sma5SlopeD2ToD3Pct": -1.3625699295472193
+          }
+        },
+        {
+          "case": "PANW|2023-11-16",
+          "control": "MPWR|2023-08-02",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 25.541994246595124,
+            "rsi5ChangeD1ToD3": 30.638015504170653,
+            "sma5DistanceD3Pct": 3.283346623442873,
+            "sma5SlopeD2ToD3Pct": 0.8813223621003008
+          }
+        },
+        {
+          "case": "ANET|2024-02-13",
+          "control": "ADBE|2024-09-13",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": -2.928927018653857,
+            "rsi5ChangeD1ToD3": -30.406926943349855,
+            "sma5DistanceD3Pct": 2.42141452896204,
+            "sma5SlopeD2ToD3Pct": 1.1156144640742771
+          }
+        },
+        {
+          "case": "ISRG|2023-01-25",
+          "control": "EW|2023-07-27",
+          "sector": "XLV",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 18.909090909091002,
+            "rsi5ChangeD1ToD3": -15.898935870390137,
+            "sma5DistanceD3Pct": 0.351443106909366,
+            "sma5SlopeD2ToD3Pct": 1.135130671733564
+          }
+        },
+        {
+          "case": "NOC|2023-01-27",
+          "control": "HON|2023-07-27",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 25.048215705860844,
+            "rsi5ChangeD1ToD3": -3.4147114788640245,
+            "sma5DistanceD3Pct": 2.1193041783272637,
+            "sma5SlopeD2ToD3Pct": 0.6865448002785213
+          }
+        },
+        {
+          "case": "GE|2026-04-21",
+          "control": "NOC|2026-04-21",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2026,
+          "diffs": {
+            "rsi5CutlerD3": 22.98755212734609,
+            "rsi5ChangeD1ToD3": 11.146514930714238,
+            "sma5DistanceD3Pct": 4.062246786770285,
+            "sma5SlopeD2ToD3Pct": 1.5540757955748385
+          }
+        },
+        {
+          "case": "HON|2025-02-06",
+          "control": "WAB|2025-07-24",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 2.9322258663915637,
+            "rsi5ChangeD1ToD3": 16.353160586203174,
+            "sma5DistanceD3Pct": 2.0581876979902214,
+            "sma5SlopeD2ToD3Pct": 0.318661430722178
+          }
+        },
+        {
+          "case": "CMCSA|2024-04-25",
+          "control": "DIS|2024-05-07",
+          "sector": "XLC",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 0.7761530021731602,
+            "rsi5ChangeD1ToD3": 8.442569938953614,
+            "sma5DistanceD3Pct": 0.2640343712300153,
+            "sma5SlopeD2ToD3Pct": 0.2906083706405216
+          }
+        },
+        {
+          "case": "CSCO|2025-08-15",
+          "control": "MPWR|2025-10-31",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -3.6511762991625325,
+            "rsi5ChangeD1ToD3": -19.015938474228143,
+            "sma5DistanceD3Pct": 0.8346551456336337,
+            "sma5SlopeD2ToD3Pct": 0.8556777180244279
+          }
+        },
+        {
+          "case": "JCI|2023-12-12",
+          "control": "ADP|2023-01-26",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 1.5836248021637438,
+            "rsi5ChangeD1ToD3": -15.12666599118813,
+            "sma5DistanceD3Pct": -2.794928945326902,
+            "sma5SlopeD2ToD3Pct": -0.02548074727034555
+          }
+        },
+        {
+          "case": "AMD|2025-02-05",
+          "control": "AMAT|2025-02-14",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -0.7154013998205855,
+            "rsi5ChangeD1ToD3": -2.2832897627612283,
+            "sma5DistanceD3Pct": -2.0060374774166556,
+            "sma5SlopeD2ToD3Pct": -0.16434891346202019
+          }
+        },
+        {
+          "case": "NOC|2024-01-25",
+          "control": "DAL|2024-07-12",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": -21.148526522369323,
+            "rsi5ChangeD1ToD3": -20.18922968580702,
+            "sma5DistanceD3Pct": -2.455133528757325,
+            "sma5SlopeD2ToD3Pct": -0.5988861976140125
+          }
+        },
+        {
+          "case": "CRWD|2025-03-05",
+          "control": "FTNT|2025-05-08",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -35.60322722399428,
+            "rsi5ChangeD1ToD3": -42.83775105622189,
+            "sma5DistanceD3Pct": -14.735029350367824,
+            "sma5SlopeD2ToD3Pct": -3.650818753427077
+          }
+        },
+        {
+          "case": "AMD|2025-08-06",
+          "control": "ANET|2025-11-05",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 28.453224557197714,
+            "rsi5ChangeD1ToD3": -15.555356503176187,
+            "sma5DistanceD3Pct": 2.7069935658704525,
+            "sma5SlopeD2ToD3Pct": 2.299070002005421
+          }
+        },
+        {
+          "case": "PYPL|2024-10-30",
+          "control": "GPN|2024-05-01",
+          "sector": "XLF",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 8.210176281608838,
+            "rsi5ChangeD1ToD3": -20.50217283042315,
+            "sma5DistanceD3Pct": 1.0172048807001843,
+            "sma5SlopeD2ToD3Pct": 0.9798469642256946
+          }
+        },
+        {
+          "case": "ANET|2025-02-19",
+          "control": "DELL|2025-08-29",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -17.102980963022752,
+            "rsi5ChangeD1ToD3": -27.154788911928577,
+            "sma5DistanceD3Pct": -9.891063323440108,
+            "sma5SlopeD2ToD3Pct": -1.7884101150478782
+          }
+        },
+        {
+          "case": "PANW|2025-05-21",
+          "control": "NOW|2025-01-30",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 27.914471495119834,
+            "rsi5ChangeD1ToD3": 19.54776929733307,
+            "sma5DistanceD3Pct": 3.1101498096852143,
+            "sma5SlopeD2ToD3Pct": 2.261133601265375
+          }
+        },
+        {
+          "case": "PANW|2026-02-18",
+          "control": "IBM|2026-04-23",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2026,
+          "diffs": {
+            "rsi5CutlerD3": -17.112143822229378,
+            "rsi5ChangeD1ToD3": -24.21545181403698,
+            "sma5DistanceD3Pct": -4.211897995428693,
+            "sma5SlopeD2ToD3Pct": -1.0262616396314872
+          }
+        },
+        {
+          "case": "GILD|2023-11-09",
+          "control": "ISRG|2023-07-24",
+          "sector": "XLV",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": -6.829466820358835,
+            "rsi5ChangeD1ToD3": -0.31829150954576235,
+            "sma5DistanceD3Pct": 0.3151233036072898,
+            "sma5SlopeD2ToD3Pct": -0.0877829656235285
+          }
+        },
+        {
+          "case": "HPE|2023-05-31",
+          "control": "MPWR|2023-05-05",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 19.759822398087547,
+            "rsi5ChangeD1ToD3": -28.812263572272478,
+            "sma5DistanceD3Pct": 1.554957349476327,
+            "sma5SlopeD2ToD3Pct": 1.8992159470663794
+          }
+        },
+        {
+          "case": "JCI|2023-02-02",
+          "control": "ADP|2023-10-25",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 10.433125839630819,
+            "rsi5ChangeD1ToD3": -18.321216016359557,
+            "sma5DistanceD3Pct": 1.1959255303319982,
+            "sma5SlopeD2ToD3Pct": 0.6914805914066791
+          }
+        },
+        {
+          "case": "JCI|2025-07-29",
+          "control": "ADP|2025-10-29",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 26.328739727775275,
+            "rsi5ChangeD1ToD3": 5.378017865682308,
+            "sma5DistanceD3Pct": 2.9796262286882036,
+            "sma5SlopeD2ToD3Pct": 0.7587436057272523
+          }
+        },
+        {
+          "case": "FIS|2026-05-08",
+          "control": "PYPL|2026-05-05",
+          "sector": "XLF",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2026,
+          "diffs": {
+            "rsi5CutlerD3": 26.6943268548399,
+            "rsi5ChangeD1ToD3": 15.274632784342174,
+            "sma5DistanceD3Pct": 0.7504014976979057,
+            "sma5SlopeD2ToD3Pct": 0.596702374832847
+          }
+        },
+        {
+          "case": "QCOM|2026-02-05",
+          "control": "PANW|2026-06-03",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2026,
+          "diffs": {
+            "rsi5CutlerD3": 30.40354121496917,
+            "rsi5ChangeD1ToD3": 79.86903429633344,
+            "sma5DistanceD3Pct": 4.400843304552893,
+            "sma5SlopeD2ToD3Pct": 1.3886230913335296
+          }
+        },
+        {
+          "case": "PYPL|2025-07-29",
+          "control": "FIS|2025-08-05",
+          "sector": "XLF",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -14.918419969330273,
+            "rsi5ChangeD1ToD3": -25.384856960204488,
+            "sma5DistanceD3Pct": -3.748586930640663,
+            "sma5SlopeD2ToD3Pct": -1.0204454050610212
+          }
+        },
+        {
+          "case": "AMD|2024-05-01",
+          "control": "DELL|2024-11-27",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 29.116329928108375,
+            "rsi5ChangeD1ToD3": 24.78350095429995,
+            "sma5DistanceD3Pct": 5.82287047597837,
+            "sma5SlopeD2ToD3Pct": 2.220551317250452
+          }
+        },
+        {
+          "case": "TMO|2026-04-23",
+          "control": "REGN|2026-04-29",
+          "sector": "XLV",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2026,
+          "diffs": {
+            "rsi5CutlerD3": -22.878945681312576,
+            "rsi5ChangeD1ToD3": -7.03781072048069,
+            "sma5DistanceD3Pct": -1.8613423777246285,
+            "sma5SlopeD2ToD3Pct": -1.2381791308249457
+          }
+        },
+        {
+          "case": "AMAT|2024-11-15",
+          "control": "ADBE|2024-03-15",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": -0.4999961289598325,
+            "rsi5ChangeD1ToD3": 13.036625385090012,
+            "sma5DistanceD3Pct": -0.6798570399920489,
+            "sma5SlopeD2ToD3Pct": 0.6353018539137834
+          }
+        },
+        {
+          "case": "QCOM|2024-08-01",
+          "control": "ADBE|2024-12-12",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 36.16980524330361,
+            "rsi5ChangeD1ToD3": 10.533012468475137,
+            "sma5DistanceD3Pct": 2.107469682830243,
+            "sma5SlopeD2ToD3Pct": 2.6831430598659334
+          }
+        },
+        {
+          "case": "ABNB|2023-05-10",
+          "control": "SBUX|2023-05-03",
+          "sector": "XLY",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": -15.282611336795162,
+            "rsi5ChangeD1ToD3": -33.06607483015155,
+            "sma5DistanceD3Pct": -5.665154664203264,
+            "sma5SlopeD2ToD3Pct": -2.0556450718858588
+          }
+        },
+        {
+          "case": "DELL|2025-03-03",
+          "control": "TXN|2025-07-23",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 1.6744092509584547,
+            "rsi5ChangeD1ToD3": -15.93647284248267,
+            "sma5DistanceD3Pct": -2.093067348201272,
+            "sma5SlopeD2ToD3Pct": -0.41020602103974957
+          }
+        },
+        {
+          "case": "FIS|2025-02-11",
+          "control": "PYPL|2025-02-04",
+          "sector": "XLF",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -14.956465757225159,
+            "rsi5ChangeD1ToD3": -4.667122906345233,
+            "sma5DistanceD3Pct": -2.335675947209204,
+            "sma5SlopeD2ToD3Pct": -1.0516906666081738
+          }
+        },
+        {
+          "case": "HPE|2025-03-07",
+          "control": "ADBE|2025-03-13",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -21.763338164257082,
+            "rsi5ChangeD1ToD3": -0.7892447802337585,
+            "sma5DistanceD3Pct": -2.581106458654569,
+            "sma5SlopeD2ToD3Pct": -2.505104105968659
+          }
+        },
+        {
+          "case": "DLTR|2023-05-25",
+          "control": "DG|2023-08-31",
+          "sector": "XLP",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 9.753226876123477,
+            "rsi5ChangeD1ToD3": 2.750987303354882,
+            "sma5DistanceD3Pct": 2.308205524471795,
+            "sma5SlopeD2ToD3Pct": 1.1113495696689064
+          }
+        },
+        {
+          "case": "CSCO|2026-02-12",
+          "control": "AMD|2026-02-04",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2026,
+          "diffs": {
+            "rsi5CutlerD3": -8.436333717756835,
+            "rsi5ChangeD1ToD3": -20.762327192485582,
+            "sma5DistanceD3Pct": -2.3472353388080847,
+            "sma5SlopeD2ToD3Pct": 0.7534962045608329
+          }
+        },
+        {
+          "case": "CRM|2024-05-30",
+          "control": "MPWR|2024-10-31",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 22.98960196171081,
+            "rsi5ChangeD1ToD3": 19.19822160435033,
+            "sma5DistanceD3Pct": 2.0826870296767552,
+            "sma5SlopeD2ToD3Pct": 1.2723816964196555
+          }
+        }
+      ]
+    },
+    "full60": {
+      "n": 34,
+      "ah": 20,
+      "features": {
+        "rsi5CutlerD3": {
+          "pairedCount": 34,
+          "caseHigher": 21,
+          "caseLower": 13,
+          "tied": 0,
+          "medianCaseMinusControl": 1.7537206811301917,
+          "meanCaseMinusControl": 7.156567860050352,
+          "twoSidedSignP": 0.22948101302608848,
+          "originalCaseHigher": 14,
+          "originalCases": 23,
+          "disjointCaseHigher": 7,
+          "disjointCases": 11,
+          "ahCaseHigher": 11,
+          "ahCases": 20
+        },
+        "rsi5ChangeD1ToD3": {
+          "pairedCount": 34,
+          "caseHigher": 13,
+          "caseLower": 21,
+          "tied": 0,
+          "medianCaseMinusControl": -4.728399449192846,
+          "meanCaseMinusControl": -3.917874386076689,
+          "twoSidedSignP": 0.22948101302608848,
+          "originalCaseHigher": 8,
+          "originalCases": 23,
+          "disjointCaseHigher": 5,
+          "disjointCases": 11,
+          "ahCaseHigher": 8,
+          "ahCases": 20
+        },
+        "sma5DistanceD3Pct": {
+          "pairedCount": 34,
+          "caseHigher": 23,
+          "caseLower": 11,
+          "tied": 0,
+          "medianCaseMinusControl": 1.0978627233853955,
+          "meanCaseMinusControl": 1.2166315770096159,
+          "twoSidedSignP": 0.05761267291381955,
+          "originalCaseHigher": 16,
+          "originalCases": 23,
+          "disjointCaseHigher": 7,
+          "disjointCases": 11,
+          "ahCaseHigher": 15,
+          "ahCases": 20
+        },
+        "sma5SlopeD2ToD3Pct": {
+          "pairedCount": 34,
+          "caseHigher": 24,
+          "caseLower": 10,
+          "tied": 0,
+          "medianCaseMinusControl": 0.7226442030028868,
+          "meanCaseMinusControl": 0.6353669499602723,
+          "twoSidedSignP": 0.024306510109454393,
+          "originalCaseHigher": 15,
+          "originalCases": 23,
+          "disjointCaseHigher": 9,
+          "disjointCases": 11,
+          "ahCaseHigher": 14,
+          "ahCases": 20
+        }
+      },
+      "pairs": [
+        {
+          "case": "DG|2023-12-08",
+          "control": "KDP|2023-04-27",
+          "sector": "XLP",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 38.95061579714843,
+            "rsi5ChangeD1ToD3": 49.07729030968254,
+            "sma5DistanceD3Pct": 4.363143569901395,
+            "sma5SlopeD2ToD3Pct": 1.4117497462930562
+          }
+        },
+        {
+          "case": "CRWD|2024-11-29",
+          "control": "ADBE|2024-09-13",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 42.514317822181326,
+            "rsi5ChangeD1ToD3": 57.800405995565,
+            "sma5DistanceD3Pct": 8.556722578230024,
+            "sma5SlopeD2ToD3Pct": 2.628564792840926
+          }
+        },
+        {
+          "case": "HON|2024-10-24",
+          "control": "GE|2024-10-22",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": -24.804178875674637,
+            "rsi5ChangeD1ToD3": -1.4719410419626575,
+            "sma5DistanceD3Pct": -0.12270128208590192,
+            "sma5SlopeD2ToD3Pct": -0.07515477513362345
+          }
+        },
+        {
+          "case": "DG|2024-03-14",
+          "control": "KDP|2024-10-25",
+          "sector": "XLP",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 27.825347068157694,
+            "rsi5ChangeD1ToD3": -6.372768722582915,
+            "sma5DistanceD3Pct": 2.560102008659537,
+            "sma5SlopeD2ToD3Pct": 1.218542315913751
+          }
+        },
+        {
+          "case": "AMAT|2025-05-16",
+          "control": "ADBE|2025-06-13",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -12.181471513480936,
+            "rsi5ChangeD1ToD3": -25.905246078036463,
+            "sma5DistanceD3Pct": 1.1785205660706066,
+            "sma5SlopeD2ToD3Pct": 0.3301470951284191
+          }
+        },
+        {
+          "case": "PANW|2023-11-16",
+          "control": "MPWR|2023-08-02",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 25.541994246595124,
+            "rsi5ChangeD1ToD3": 30.638015504170653,
+            "sma5DistanceD3Pct": 3.283346623442873,
+            "sma5SlopeD2ToD3Pct": 0.8813223621003008
+          }
+        },
+        {
+          "case": "CVS|2023-05-04",
+          "control": "ZBH|2023-08-02",
+          "sector": "XLV",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 26.58670796140856,
+            "rsi5ChangeD1ToD3": -6.042087419521667,
+            "sma5DistanceD3Pct": 1.790174769770081,
+            "sma5SlopeD2ToD3Pct": 1.1308247153959505
+          }
+        },
+        {
+          "case": "ANET|2024-02-13",
+          "control": "QCOM|2024-08-01",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": -34.75615035045212,
+            "rsi5ChangeD1ToD3": -53.90050509627457,
+            "sma5DistanceD3Pct": 0.9744717132904368,
+            "sma5SlopeD2ToD3Pct": -0.5295526945087281
+          }
+        },
+        {
+          "case": "ISRG|2023-01-25",
+          "control": "EW|2023-07-27",
+          "sector": "XLV",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 18.909090909091002,
+            "rsi5ChangeD1ToD3": -15.898935870390137,
+            "sma5DistanceD3Pct": 0.351443106909366,
+            "sma5SlopeD2ToD3Pct": 1.135130671733564
+          }
+        },
+        {
+          "case": "NOC|2023-01-27",
+          "control": "HON|2023-07-27",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 25.048215705860844,
+            "rsi5ChangeD1ToD3": -3.4147114788640245,
+            "sma5DistanceD3Pct": 2.1193041783272637,
+            "sma5SlopeD2ToD3Pct": 0.6865448002785213
+          }
+        },
+        {
+          "case": "GE|2026-04-21",
+          "control": "NOC|2026-04-21",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2026,
+          "diffs": {
+            "rsi5CutlerD3": 22.98755212734609,
+            "rsi5ChangeD1ToD3": 11.146514930714238,
+            "sma5DistanceD3Pct": 4.062246786770285,
+            "sma5SlopeD2ToD3Pct": 1.5540757955748385
+          }
+        },
+        {
+          "case": "TXN|2025-10-22",
+          "control": "AMD|2025-02-05",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -21.96207509550885,
+            "rsi5ChangeD1ToD3": -34.97204634367023,
+            "sma5DistanceD3Pct": -0.46021395609581184,
+            "sma5SlopeD2ToD3Pct": -0.493667135736664
+          }
+        },
+        {
+          "case": "PANW|2026-06-03",
+          "control": "NOW|2026-01-29",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2026,
+          "diffs": {
+            "rsi5CutlerD3": -5.168905168905151,
+            "rsi5ChangeD1ToD3": -56.78424145411202,
+            "sma5DistanceD3Pct": 2.594764195553367,
+            "sma5SlopeD2ToD3Pct": 1.2037321725486994
+          }
+        },
+        {
+          "case": "CMCSA|2024-04-25",
+          "control": "DIS|2024-05-07",
+          "sector": "XLC",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 0.7761530021731602,
+            "rsi5ChangeD1ToD3": 8.442569938953614,
+            "sma5DistanceD3Pct": 0.2640343712300153,
+            "sma5SlopeD2ToD3Pct": 0.2906083706405216
+          }
+        },
+        {
+          "case": "CSCO|2025-08-15",
+          "control": "ANET|2025-02-19",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 1.4637299755088016,
+            "rsi5ChangeD1ToD3": 8.451510390868094,
+            "sma5DistanceD3Pct": 8.786108369395652,
+            "sma5SlopeD2ToD3Pct": 1.7396743823737015
+          }
+        },
+        {
+          "case": "JCI|2023-12-12",
+          "control": "ADP|2023-01-26",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 1.5836248021637438,
+            "rsi5ChangeD1ToD3": -15.12666599118813,
+            "sma5DistanceD3Pct": -2.794928945326902,
+            "sma5SlopeD2ToD3Pct": -0.02548074727034555
+          }
+        },
+        {
+          "case": "HPE|2024-09-05",
+          "control": "AMD|2024-10-30",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": -17.60385861165129,
+            "rsi5ChangeD1ToD3": -8.26610304763545,
+            "sma5DistanceD3Pct": -3.0302410372679773,
+            "sma5SlopeD2ToD3Pct": -0.7418026216315154
+          }
+        },
+        {
+          "case": "CRWD|2025-03-05",
+          "control": "PANW|2025-11-20",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -7.322602426173084,
+            "rsi5ChangeD1ToD3": -32.77193032226131,
+            "sma5DistanceD3Pct": -10.824281793930147,
+            "sma5SlopeD2ToD3Pct": -2.513738014101164
+          }
+        },
+        {
+          "case": "FTNT|2025-11-06",
+          "control": "AMAT|2025-02-14",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 0.36597437919520104,
+            "rsi5ChangeD1ToD3": -2.5426637809364188,
+            "sma5DistanceD3Pct": 0.27522894970088974,
+            "sma5SlopeD2ToD3Pct": 0.1330708329925101
+          }
+        },
+        {
+          "case": "AMD|2025-08-06",
+          "control": "ANET|2025-11-05",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 28.453224557197714,
+            "rsi5ChangeD1ToD3": -15.555356503176187,
+            "sma5DistanceD3Pct": 2.7069935658704525,
+            "sma5SlopeD2ToD3Pct": 2.299070002005421
+          }
+        },
+        {
+          "case": "PYPL|2024-10-30",
+          "control": "GPN|2024-05-01",
+          "sector": "XLF",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 8.210176281608838,
+            "rsi5ChangeD1ToD3": -20.50217283042315,
+            "sma5DistanceD3Pct": 1.0172048807001843,
+            "sma5SlopeD2ToD3Pct": 0.9798469642256946
+          }
+        },
+        {
+          "case": "CVS|2025-10-30",
+          "control": "ZBH|2025-05-05",
+          "sector": "XLV",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": -7.402760468460883,
+            "rsi5ChangeD1ToD3": -16.40220618580347,
+            "sma5DistanceD3Pct": -0.6467507153430363,
+            "sma5SlopeD2ToD3Pct": 0.3545844228167616
+          }
+        },
+        {
+          "case": "PANW|2025-05-21",
+          "control": "NOW|2025-01-30",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 27.914471495119834,
+            "rsi5ChangeD1ToD3": 19.54776929733307,
+            "sma5DistanceD3Pct": 3.1101498096852143,
+            "sma5SlopeD2ToD3Pct": 2.261133601265375
+          }
+        },
+        {
+          "case": "GILD|2023-11-09",
+          "control": "ISRG|2023-07-24",
+          "sector": "XLV",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": -6.829466820358835,
+            "rsi5ChangeD1ToD3": -0.31829150954576235,
+            "sma5DistanceD3Pct": 0.3151233036072898,
+            "sma5SlopeD2ToD3Pct": -0.0877829656235285
+          }
+        },
+        {
+          "case": "HPE|2023-05-31",
+          "control": "CSCO|2023-11-16",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 33.66234282963341,
+            "rsi5ChangeD1ToD3": -10.606660116574892,
+            "sma5DistanceD3Pct": 2.813880083969633,
+            "sma5SlopeD2ToD3Pct": 1.717995131427874
+          }
+        },
+        {
+          "case": "JCI|2025-07-29",
+          "control": "ADP|2025-10-29",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "original92",
+          "controls": "separate72",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 26.328739727775275,
+            "rsi5ChangeD1ToD3": 5.378017865682308,
+            "sma5DistanceD3Pct": 2.9796262286882036,
+            "sma5SlopeD2ToD3Pct": 0.7587436057272523
+          }
+        },
+        {
+          "case": "HAL|2023-04-26",
+          "control": "COP|2023-02-02",
+          "sector": "XLE",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": 1.9238165600966397,
+            "rsi5ChangeD1ToD3": -20.24594357173451,
+            "sma5DistanceD3Pct": -0.32939807646297226,
+            "sma5SlopeD2ToD3Pct": 0.5694617265087687
+          }
+        },
+        {
+          "case": "FTNT|2025-05-08",
+          "control": "TXN|2025-07-23",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 30.630098679081442,
+            "rsi5ChangeD1ToD3": 13.615548928792943,
+            "sma5DistanceD3Pct": 4.743721260324252,
+            "sma5SlopeD2ToD3Pct": 2.157903944724604
+          }
+        },
+        {
+          "case": "DELL|2025-08-29",
+          "control": "ADBE|2025-03-13",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2025,
+          "diffs": {
+            "rsi5CutlerD3": 7.893811965700298,
+            "rsi5ChangeD1ToD3": 11.17854249411604,
+            "sma5DistanceD3Pct": 3.1258793761152703,
+            "sma5SlopeD2ToD3Pct": 1.1487775041125747
+          }
+        },
+        {
+          "case": "AMD|2024-05-01",
+          "control": "DELL|2024-11-27",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": 29.116329928108375,
+            "rsi5ChangeD1ToD3": 24.78350095429995,
+            "sma5DistanceD3Pct": 5.82287047597837,
+            "sma5SlopeD2ToD3Pct": 2.220551317250452
+          }
+        },
+        {
+          "case": "TMO|2026-04-23",
+          "control": "REGN|2026-04-29",
+          "sector": "XLV",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "separate72",
+          "year": 2026,
+          "diffs": {
+            "rsi5CutlerD3": -22.878945681312576,
+            "rsi5ChangeD1ToD3": -7.03781072048069,
+            "sma5DistanceD3Pct": -1.8613423777246285,
+            "sma5SlopeD2ToD3Pct": -1.2381791308249457
+          }
+        },
+        {
+          "case": "ADP|2023-10-25",
+          "control": "JCI|2023-08-02",
+          "sector": "XLI",
+          "session": "BMO",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": -6.670006101706509,
+            "rsi5ChangeD1ToD3": 0.900321793450308,
+            "sma5DistanceD3Pct": -0.014717265431041238,
+            "sma5SlopeD2ToD3Pct": -0.0838786724276952
+          }
+        },
+        {
+          "case": "AMAT|2024-11-15",
+          "control": "ADBE|2024-03-15",
+          "sector": "XLK",
+          "session": "AH",
+          "caseCohort": "separate72",
+          "controls": "original92",
+          "year": 2024,
+          "diffs": {
+            "rsi5CutlerD3": -0.4999961289598325,
+            "rsi5ChangeD1ToD3": 13.036625385090012,
+            "sma5DistanceD3Pct": -0.6798570399920489,
+            "sma5SlopeD2ToD3Pct": 0.6353018539137834
+          }
+        },
+        {
+          "case": "ABNB|2023-05-10",
+          "control": "SBUX|2023-05-03",
+          "sector": "XLY",
+          "session": "AH",
+          "caseCohort": "original92",
+          "controls": "original92",
+          "year": 2023,
+          "diffs": {
+            "rsi5CutlerD3": -15.282611336795162,
+            "rsi5ChangeD1ToD3": -33.06607483015155,
+            "sma5DistanceD3Pct": -5.665154664203264,
+            "sma5SlopeD2ToD3Pct": -2.0556450718858588
+          }
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "ticker": "ABNB",
+      "date": "2023-05-10",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 8.115514333895385,
+        "rsi5ChangeD1ToD3": -29.18199653137527,
+        "sma5DistanceD3Pct": -5.975840644249486,
+        "sma5SlopeD2ToD3Pct": -3.4118323789245952
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "date": "2025-06-13",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 19.24708377518564,
+        "rsi5ChangeD1ToD3": -10.74465403808901,
+        "sma5DistanceD3Pct": -3.943978331241327,
+        "sma5SlopeD2ToD3Pct": -1.7377322594014921
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "date": "2025-03-13",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 27.781864032783435,
+        "rsi5ChangeD1ToD3": 5.573200213381334,
+        "sma5DistanceD3Pct": -2.249873869193608,
+        "sma5SlopeD2ToD3Pct": -2.0688002035045727
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "date": "2024-12-12",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 2.951424472227913,
+        "rsi5ChangeD1ToD3": -0.14435108404425145,
+        "sma5DistanceD3Pct": -5.436620537513348,
+        "sma5SlopeD2ToD3Pct": -3.6745196752079767
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "date": "2024-09-13",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 7.294006383733261,
+        "rsi5ChangeD1ToD3": -13.104916768493826,
+        "sma5DistanceD3Pct": -4.776093670354708,
+        "sma5SlopeD2ToD3Pct": -2.6365437739250486
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "date": "2024-03-15",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 25.681594708143418,
+        "rsi5ChangeD1ToD3": -5.958783840752513,
+        "sma5DistanceD3Pct": -0.8176989797867851,
+        "sma5SlopeD2ToD3Pct": -2.0366758874194812
+      }
+    },
+    {
+      "ticker": "AMD",
+      "date": "2026-02-04",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 30.412838100168237,
+        "rsi5ChangeD1ToD3": 18.300090512560296,
+        "sma5DistanceD3Pct": 1.959895774328757,
+        "sma5SlopeD2ToD3Pct": -2.778313186661885
+      }
+    },
+    {
+      "ticker": "AMD",
+      "date": "2025-08-06",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 40.538267451640024,
+        "rsi5ChangeD1ToD3": -3.470313608733875,
+        "sma5DistanceD3Pct": 0.7638588323370943,
+        "sma5SlopeD2ToD3Pct": -0.5236394102656639
+      }
+    },
+    {
+      "ticker": "AMD",
+      "date": "2025-02-05",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 40.56744649079146,
+        "rsi5ChangeD1ToD3": 13.270995551334249,
+        "sma5DistanceD3Pct": -1.3060334816243913,
+        "sma5SlopeD2ToD3Pct": -0.6725820763088031
+      }
+    },
+    {
+      "ticker": "AMD",
+      "date": "2024-10-30",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 19.861939127706343,
+        "rsi5ChangeD1ToD3": -16.748521003759784,
+        "sma5DistanceD3Pct": -5.116724433235776,
+        "sma5SlopeD2ToD3Pct": -2.525305639542519
+      }
+    },
+    {
+      "ticker": "AMD",
+      "date": "2024-05-01",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 41.946064139941704,
+        "rsi5ChangeD1ToD3": 7.609707998144522,
+        "sma5DistanceD3Pct": 3.139607251155341,
+        "sma5SlopeD2ToD3Pct": -0.5818775424230926
+      }
+    },
+    {
+      "ticker": "AMD",
+      "date": "2023-05-03",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 62.197902416780686,
+        "rsi5ChangeD1ToD3": 14.832823051701318,
+        "sma5DistanceD3Pct": 7.263780416234011,
+        "sma5SlopeD2ToD3Pct": 1.2223821600749307
+      }
+    },
+    {
+      "ticker": "ANET",
+      "date": "2026-05-06",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 0.055202870549296776,
+        "rsi5ChangeD1ToD3": 0.055202870549296776,
+        "sma5DistanceD3Pct": -7.471209798841604,
+        "sma5SlopeD2ToD3Pct": -4.679216984303503
+      }
+    },
+    {
+      "ticker": "ANET",
+      "date": "2025-11-05",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 12.085042894442312,
+        "rsi5ChangeD1ToD3": 12.085042894442312,
+        "sma5DistanceD3Pct": -1.9431347335333582,
+        "sma5SlopeD2ToD3Pct": -2.822709412271085
+      }
+    },
+    {
+      "ticker": "ANET",
+      "date": "2025-02-19",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 18.57269503546098,
+        "rsi5ChangeD1ToD3": -10.403046204431202,
+        "sma5DistanceD3Pct": -9.015057816518446,
+        "sma5SlopeD2ToD3Pct": -2.708432814439876
+      }
+    },
+    {
+      "ticker": "ANET",
+      "date": "2024-11-08",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 18.05301645338206,
+        "rsi5ChangeD1ToD3": -33.686425207319445,
+        "sma5DistanceD3Pct": -2.1634174964966446,
+        "sma5SlopeD2ToD3Pct": -1.3656011135802948
+      }
+    },
+    {
+      "ticker": "ANET",
+      "date": "2024-02-13",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 4.365079365079404,
+        "rsi5ChangeD1ToD3": -43.51184371184368,
+        "sma5DistanceD3Pct": -2.354679141392668,
+        "sma5SlopeD2ToD3Pct": -1.5209293098507715
+      }
+    },
+    {
+      "ticker": "ANET",
+      "date": "2023-05-02",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 16.06487148102815,
+        "rsi5ChangeD1ToD3": 2.7863384427733617,
+        "sma5DistanceD3Pct": -1.6101199389609189,
+        "sma5SlopeD2ToD3Pct": -3.066204017307883
+      }
+    },
+    {
+      "ticker": "COIN",
+      "date": "2025-02-14",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 35.85663525413256,
+        "rsi5ChangeD1ToD3": -4.15105606749286,
+        "sma5DistanceD3Pct": -5.129001486345597,
+        "sma5SlopeD2ToD3Pct": -1.3358917861989394
+      }
+    },
+    {
+      "ticker": "COIN",
+      "date": "2024-10-31",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 26.687227866473165,
+        "rsi5ChangeD1ToD3": -4.424262075565704,
+        "sma5DistanceD3Pct": 1.6455298186772938,
+        "sma5SlopeD2ToD3Pct": -2.622984282506624
+      }
+    },
+    {
+      "ticker": "COIN",
+      "date": "2024-08-05",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 32.030420940926774,
+        "rsi5ChangeD1ToD3": 20.18864719439115,
+        "sma5DistanceD3Pct": 0.2387132418092186,
+        "sma5SlopeD2ToD3Pct": -2.07425252391209
+      }
+    },
+    {
+      "ticker": "CRM",
+      "date": "2024-05-30",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 26.92358481666546,
+        "rsi5ChangeD1ToD3": 4.309708800913256,
+        "sma5DistanceD3Pct": -1.7774245908509845,
+        "sma5SlopeD2ToD3Pct": -2.8418879952943454
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "date": "2025-03-05",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 8.373718020962476,
+        "rsi5ChangeD1ToD3": -17.07560987512575,
+        "sma5DistanceD3Pct": -11.536412536017282,
+        "sma5SlopeD2ToD3Pct": -4.059772692299235
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "date": "2024-11-29",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 49.80832420591459,
+        "rsi5ChangeD1ToD3": 44.69548922707118,
+        "sma5DistanceD3Pct": 3.7806289078753164,
+        "sma5SlopeD2ToD3Pct": -0.007978981084122427
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "date": "2026-02-12",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 21.976504382411402,
+        "rsi5ChangeD1ToD3": -2.4622366799252866,
+        "sma5DistanceD3Pct": -0.3873395644793276,
+        "sma5SlopeD2ToD3Pct": -2.024816982101052
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "date": "2025-08-15",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 20.036425010969783,
+        "rsi5ChangeD1ToD3": -1.9515358135631082,
+        "sma5DistanceD3Pct": -0.22894944712279486,
+        "sma5SlopeD2ToD3Pct": -0.9687584320661746
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "date": "2023-11-16",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 9.44109401348394,
+        "rsi5ChangeD1ToD3": -5.6995005775875445,
+        "sma5DistanceD3Pct": -2.5066792627283396,
+        "sma5SlopeD2ToD3Pct": -2.143584054535519
+      }
+    },
+    {
+      "ticker": "DELL",
+      "date": "2025-08-29",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 35.67567599848373,
+        "rsi5ChangeD1ToD3": 16.751742707497375,
+        "sma5DistanceD3Pct": 0.8760055069216621,
+        "sma5SlopeD2ToD3Pct": -0.920022699391998
+      }
+    },
+    {
+      "ticker": "DELL",
+      "date": "2025-03-03",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 15.021255816833774,
+        "rsi5ChangeD1ToD3": -3.7898805901794734,
+        "sma5DistanceD3Pct": -3.6381717941749825,
+        "sma5SlopeD2ToD3Pct": -2.977063904636512
+      }
+    },
+    {
+      "ticker": "DELL",
+      "date": "2024-11-27",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 12.82973421183333,
+        "rsi5ChangeD1ToD3": -17.173792956155427,
+        "sma5DistanceD3Pct": -2.6832632248230293,
+        "sma5SlopeD2ToD3Pct": -2.8024288596735447
+      }
+    },
+    {
+      "ticker": "DIS",
+      "date": "2023-05-11",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 6.723338509955389,
+        "rsi5ChangeD1ToD3": -11.51940253901121,
+        "sma5DistanceD3Pct": -3.064268737613074,
+        "sma5SlopeD2ToD3Pct": -2.331002387043779
+      }
+    },
+    {
+      "ticker": "FDX",
+      "date": "2024-09-20",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 23.049201631417095,
+        "rsi5ChangeD1ToD3": 2.3936347433437533,
+        "sma5DistanceD3Pct": -1.923820629957329,
+        "sma5SlopeD2ToD3Pct": -2.49434420280229
+      }
+    },
+    {
+      "ticker": "GILD",
+      "date": "2024-02-08",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 13.565223848337514,
+        "rsi5ChangeD1ToD3": -5.455485756282535,
+        "sma5DistanceD3Pct": -0.600211119461902,
+        "sma5SlopeD2ToD3Pct": -1.1201411975744202
+      }
+    },
+    {
+      "ticker": "GILD",
+      "date": "2023-11-09",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 12.097815283818523,
+        "rsi5ChangeD1ToD3": -0.3525180594628985,
+        "sma5DistanceD3Pct": -1.281543464435042,
+        "sma5SlopeD2ToD3Pct": -1.5324971699816503
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "date": "2025-02-05",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 22.979045415741002,
+        "rsi5ChangeD1ToD3": -8.688934431656762,
+        "sma5DistanceD3Pct": -2.955674989131374,
+        "sma5SlopeD2ToD3Pct": -1.467330518301968
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "date": "2024-07-24",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 15.323495247771307,
+        "rsi5ChangeD1ToD3": -7.949618307320494,
+        "sma5DistanceD3Pct": -1.302281574074704,
+        "sma5SlopeD2ToD3Pct": -1.3899632051912914
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "date": "2024-01-31",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 19.35683099019755,
+        "rsi5ChangeD1ToD3": 5.429444465493889,
+        "sma5DistanceD3Pct": -0.19007497204779344,
+        "sma5SlopeD2ToD3Pct": -1.3465771474099553
+      }
+    },
+    {
+      "ticker": "HPE",
+      "date": "2025-03-07",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 6.018525868526354,
+        "rsi5ChangeD1ToD3": 4.783955433147575,
+        "sma5DistanceD3Pct": -4.830980327848177,
+        "sma5SlopeD2ToD3Pct": -4.573904309473232
+      }
+    },
+    {
+      "ticker": "HPE",
+      "date": "2024-09-05",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 2.258080516055052,
+        "rsi5ChangeD1ToD3": -25.014624051395234,
+        "sma5DistanceD3Pct": -8.146965470503753,
+        "sma5SlopeD2ToD3Pct": -3.2671082611740343
+      }
+    },
+    {
+      "ticker": "HPE",
+      "date": "2023-05-31",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 43.10343684311735,
+        "rsi5ChangeD1ToD3": -16.306160694162436,
+        "sma5DistanceD3Pct": 0.30720082124129355,
+        "sma5SlopeD2ToD3Pct": -0.42558892310764485
+      }
+    },
+    {
+      "ticker": "IBM",
+      "date": "2026-04-23",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 17.112143822229378,
+        "rsi5ChangeD1ToD3": 5.888758586945389,
+        "sma5DistanceD3Pct": -0.9192098394491421,
+        "sma5SlopeD2ToD3Pct": -1.8887915878858075
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "date": "2023-07-24",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 18.92728210417736,
+        "rsi5ChangeD1ToD3": -0.03422654991713614,
+        "sma5DistanceD3Pct": -1.5966667680423319,
+        "sma5SlopeD2ToD3Pct": -1.4447142043581218
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "date": "2023-01-25",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 28.00000000000004,
+        "rsi5ChangeD1ToD3": -18.516613076098583,
+        "sma5DistanceD3Pct": -2.4697621233350953,
+        "sma5SlopeD2ToD3Pct": -1.0951201446355086
+      }
+    },
+    {
+      "ticker": "KLAC",
+      "date": "2026-01-30",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 13.220689008787561,
+        "rsi5ChangeD1ToD3": -20.841916285926878,
+        "sma5DistanceD3Pct": -9.042202224588625,
+        "sma5SlopeD2ToD3Pct": -4.263080504111771
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "date": "2025-10-22",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 1.865222623345436,
+        "rsi5ChangeD1ToD3": -29.268886906624402,
+        "sma5DistanceD3Pct": -3.3169863052418758,
+        "sma5SlopeD2ToD3Pct": -2.4808081921799396
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "date": "2025-07-18",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 28.28539365660618,
+        "rsi5ChangeD1ToD3": -10.192832279437521,
+        "sma5DistanceD3Pct": -3.2816419387396323,
+        "sma5SlopeD2ToD3Pct": -1.194236869160159
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "date": "2023-07-20",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 6.725468577728892,
+        "rsi5ChangeD1ToD3": -34.87415833144679,
+        "sma5DistanceD3Pct": -2.732672907058209,
+        "sma5SlopeD2ToD3Pct": -2.0973602650421808
+      }
+    },
+    {
+      "ticker": "NOW",
+      "date": "2026-01-29",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 5.168905168905151,
+        "rsi5ChangeD1ToD3": -10.012755730748797,
+        "sma5DistanceD3Pct": -7.152403024715381,
+        "sma5SlopeD2ToD3Pct": -3.592863200469709
+      }
+    },
+    {
+      "ticker": "NOW",
+      "date": "2025-01-30",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 4.63654891304342,
+        "rsi5ChangeD1ToD3": -19.821952141202267,
+        "sma5DistanceD3Pct": -2.9808887343612755,
+        "sma5SlopeD2ToD3Pct": -2.986532093200067
+      }
+    },
+    {
+      "ticker": "PANW",
+      "date": "2026-06-03",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 0,
+        "rsi5ChangeD1ToD3": -66.79699718486081,
+        "sma5DistanceD3Pct": -4.5576388291620145,
+        "sma5SlopeD2ToD3Pct": -2.38913102792101
+      }
+    },
+    {
+      "ticker": "PANW",
+      "date": "2026-02-18",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 0,
+        "rsi5ChangeD1ToD3": -18.326693227091592,
+        "sma5DistanceD3Pct": -5.1311078348778345,
+        "sma5SlopeD2ToD3Pct": -2.9150532275172947
+      }
+    },
+    {
+      "ticker": "PANW",
+      "date": "2025-11-20",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 15.69632044713556,
+        "rsi5ChangeD1ToD3": 15.69632044713556,
+        "sma5DistanceD3Pct": -0.7121307420871359,
+        "sma5SlopeD2ToD3Pct": -1.5460346781980716
+      }
+    },
+    {
+      "ticker": "PANW",
+      "date": "2025-05-21",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 32.551020408163254,
+        "rsi5ChangeD1ToD3": -0.2741828438691982,
+        "sma5DistanceD3Pct": 0.1292610753239387,
+        "sma5SlopeD2ToD3Pct": -0.7253984919346923
+      }
+    },
+    {
+      "ticker": "PANW",
+      "date": "2024-02-21",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 28.096385542168647,
+        "rsi5ChangeD1ToD3": 22.882946454743312,
+        "sma5DistanceD3Pct": 2.2387303731217223,
+        "sma5SlopeD2ToD3Pct": -4.120099975394654
+      }
+    },
+    {
+      "ticker": "PANW",
+      "date": "2023-11-16",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 53.52216748768468,
+        "rsi5ChangeD1ToD3": 12.824493069080006,
+        "sma5DistanceD3Pct": 3.8940086725900436,
+        "sma5SlopeD2ToD3Pct": 0.22558585276972742
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "date": "2024-02-08",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 29.6185514678567,
+        "rsi5ChangeD1ToD3": -7.294201879991167,
+        "sma5DistanceD3Pct": -1.7968509826177148,
+        "sma5SlopeD2ToD3Pct": -1.8041576907325774
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "date": "2023-08-03",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 10.650506720646366,
+        "rsi5ChangeD1ToD3": -1.6902054897215582,
+        "sma5DistanceD3Pct": -3.59736372884637,
+        "sma5SlopeD2ToD3Pct": -3.628557925733056
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "date": "2023-05-09",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 8.448060265159665,
+        "rsi5ChangeD1ToD3": -16.752187370486197,
+        "sma5DistanceD3Pct": -6.721101554556419,
+        "sma5SlopeD2ToD3Pct": -3.8609701659080398
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "date": "2026-02-05",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 30.40354121496917,
+        "rsi5ChangeD1ToD3": 13.072037111472628,
+        "sma5DistanceD3Pct": -0.15679552460912127,
+        "sma5SlopeD2ToD3Pct": -1.0005079365874803
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "date": "2025-07-31",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 7.84421696929937,
+        "rsi5ChangeD1ToD3": -17.16802299213575,
+        "sma5DistanceD3Pct": -1.9619634044766077,
+        "sma5SlopeD2ToD3Pct": -2.0128338984789385
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "date": "2024-08-01",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 39.12122971553152,
+        "rsi5ChangeD1ToD3": 10.388661384430886,
+        "sma5DistanceD3Pct": -3.329150854683105,
+        "sma5SlopeD2ToD3Pct": -0.9913766153420434
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "date": "2024-05-01",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 3.8852384870883565,
+        "rsi5ChangeD1ToD3": -3.6197027510750237,
+        "sma5DistanceD3Pct": -5.045979600032613,
+        "sma5SlopeD2ToD3Pct": -3.864262517279393
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "date": "2023-05-03",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 23.398125670690547,
+        "rsi5ChangeD1ToD3": 3.8840782987762843,
+        "sma5DistanceD3Pct": -0.3106859800462214,
+        "sma5SlopeD2ToD3Pct": -1.3561873070387365
+      }
+    },
+    {
+      "ticker": "TXN",
+      "date": "2025-10-22",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 18.60537139528261,
+        "rsi5ChangeD1ToD3": -21.701050792335984,
+        "sma5DistanceD3Pct": -1.766247437720203,
+        "sma5SlopeD2ToD3Pct": -1.166249212045467
+      }
+    },
+    {
+      "ticker": "TXN",
+      "date": "2025-07-23",
+      "cohort": "original92",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 13.34684656587532,
+        "rsi5ChangeD1ToD3": 12.146592252303197,
+        "sma5DistanceD3Pct": -1.5451044459737107,
+        "sma5SlopeD2ToD3Pct": -2.5668578835967626
+      }
+    },
+    {
+      "ticker": "CVS",
+      "date": "2025-10-30",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 22.965876797619114,
+        "rsi5ChangeD1ToD3": -2.6155256233863646,
+        "sma5DistanceD3Pct": -0.39799930603483524,
+        "sma5SlopeD2ToD3Pct": -1.0401939182526299
+      }
+    },
+    {
+      "ticker": "CVS",
+      "date": "2024-05-01",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 7.9178814779400986,
+        "rsi5ChangeD1ToD3": 3.914863012835892,
+        "sma5DistanceD3Pct": -3.8448327059406595,
+        "sma5SlopeD2ToD3Pct": -3.794790773477874
+      }
+    },
+    {
+      "ticker": "CVS",
+      "date": "2023-05-04",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 30.489501710318205,
+        "rsi5ChangeD1ToD3": -2.139293670612023,
+        "sma5DistanceD3Pct": 0.18613925181030222,
+        "sma5SlopeD2ToD3Pct": -0.7926364014582687
+      }
+    },
+    {
+      "ticker": "DIS",
+      "date": "2025-11-13",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 17.90262510971201,
+        "rsi5ChangeD1ToD3": -17.35990521800804,
+        "sma5DistanceD3Pct": -1.9611459422068767,
+        "sma5SlopeD2ToD3Pct": -1.5564838247859147
+      }
+    },
+    {
+      "ticker": "DIS",
+      "date": "2024-05-07",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 22.501745192611256,
+        "rsi5ChangeD1ToD3": -12.778630378906701,
+        "sma5DistanceD3Pct": -1.8445323647719114,
+        "sma5SlopeD2ToD3Pct": -1.4393884438132831
+      }
+    },
+    {
+      "ticker": "DOW",
+      "date": "2025-01-30",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 26.89210520711776,
+        "rsi5ChangeD1ToD3": 3.1364541611101195,
+        "sma5DistanceD3Pct": -0.9404862781932866,
+        "sma5SlopeD2ToD3Pct": -1.4535323342807938
+      }
+    },
+    {
+      "ticker": "GE",
+      "date": "2026-04-21",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 22.98755212734609,
+        "rsi5ChangeD1ToD3": 11.146514930714238,
+        "sma5DistanceD3Pct": -0.7366276238404135,
+        "sma5SlopeD2ToD3Pct": -1.3440323295780932
+      }
+    },
+    {
+      "ticker": "GE",
+      "date": "2026-01-22",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 28.380344172512412,
+        "rsi5ChangeD1ToD3": 5.118804923752837,
+        "sma5DistanceD3Pct": -0.8367225189864769,
+        "sma5SlopeD2ToD3Pct": -0.9816671705085711
+      }
+    },
+    {
+      "ticker": "GE",
+      "date": "2024-10-22",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 24.804178875674637,
+        "rsi5ChangeD1ToD3": -3.9351822809533523,
+        "sma5DistanceD3Pct": -1.746724796317367,
+        "sma5SlopeD2ToD3Pct": -1.4606509903628662
+      }
+    },
+    {
+      "ticker": "HON",
+      "date": "2025-02-06",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 13.268464558927747,
+        "rsi5ChangeD1ToD3": 7.702058366249879,
+        "sma5DistanceD3Pct": -1.751887152692344,
+        "sma5SlopeD2ToD3Pct": -1.552684710461949
+      }
+    },
+    {
+      "ticker": "HON",
+      "date": "2024-10-24",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 0,
+        "rsi5ChangeD1ToD3": -5.40712332291601,
+        "sma5DistanceD3Pct": -1.869426078403269,
+        "sma5SlopeD2ToD3Pct": -1.5358057654964896
+      }
+    },
+    {
+      "ticker": "HON",
+      "date": "2024-07-25",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 8.595505871958368,
+        "rsi5ChangeD1ToD3": -8.41394424829562,
+        "sma5DistanceD3Pct": -0.9463475647382036,
+        "sma5SlopeD2ToD3Pct": -1.4205585908623863
+      }
+    },
+    {
+      "ticker": "HON",
+      "date": "2023-07-27",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 0,
+        "rsi5ChangeD1ToD3": -6.9364164500532155,
+        "sma5DistanceD3Pct": -2.032466790593568,
+        "sma5SlopeD2ToD3Pct": -1.614076340233761
+      }
+    },
+    {
+      "ticker": "JCI",
+      "date": "2025-07-29",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 27.621484992757836,
+        "rsi5ChangeD1ToD3": 5.168823617162346,
+        "sma5DistanceD3Pct": 0.4035758961087321,
+        "sma5SlopeD2ToD3Pct": -0.98037384079388
+      }
+    },
+    {
+      "ticker": "JCI",
+      "date": "2023-12-12",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 23.03054084690648,
+        "rsi5ChangeD1ToD3": -9.50438514088599,
+        "sma5DistanceD3Pct": -2.202448768931664,
+        "sma5SlopeD2ToD3Pct": -1.2000453705654945
+      }
+    },
+    {
+      "ticker": "JCI",
+      "date": "2023-08-02",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 12.793169865773493,
+        "rsi5ChangeD1ToD3": 3.4181713442411628,
+        "sma5DistanceD3Pct": -2.523756628537188,
+        "sma5SlopeD2ToD3Pct": -2.1285029060126637
+      }
+    },
+    {
+      "ticker": "JCI",
+      "date": "2023-02-02",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 16.556289603697802,
+        "rsi5ChangeD1ToD3": -14.002722878668088,
+        "sma5DistanceD3Pct": -1.3425483636362312,
+        "sma5SlopeD2ToD3Pct": -1.5209009870336798
+      }
+    },
+    {
+      "ticker": "LOW",
+      "date": "2026-02-25",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 20.10434958986933,
+        "rsi5ChangeD1ToD3": -6.4033185675232644,
+        "sma5DistanceD3Pct": -3.1549853296791386,
+        "sma5SlopeD2ToD3Pct": -1.2781334485254203
+      }
+    },
+    {
+      "ticker": "LOW",
+      "date": "2023-03-01",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 43.394359724226575,
+        "rsi5ChangeD1ToD3": 14.17168410264393,
+        "sma5DistanceD3Pct": 1.1430463077779285,
+        "sma5SlopeD2ToD3Pct": -0.2672324595093811
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "date": "2026-05-05",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 0,
+        "rsi5ChangeD1ToD3": -5.692607442769557,
+        "sma5DistanceD3Pct": -3.36116551939567,
+        "sma5SlopeD2ToD3Pct": -2.114173756697413
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "date": "2026-02-03",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 3.9068381149821416,
+        "rsi5ChangeD1ToD3": 3.9068381149821416,
+        "sma5DistanceD3Pct": -6.165846156335098,
+        "sma5SlopeD2ToD3Pct": -5.389853001467005
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "date": "2025-07-29",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 2.1145455923893874,
+        "rsi5ChangeD1ToD3": -13.377014301691679,
+        "sma5DistanceD3Pct": -5.545390431010578,
+        "sma5SlopeD2ToD3Pct": -2.9689717189688603
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "date": "2025-02-04",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 14.956465757225159,
+        "rsi5ChangeD1ToD3": -5.149846221682113,
+        "sma5DistanceD3Pct": -3.918570969245294,
+        "sma5SlopeD2ToD3Pct": -2.724953721314183
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "date": "2024-10-30",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 20.895514343377396,
+        "rsi5ChangeD1ToD3": -17.023555611750876,
+        "sma5DistanceD3Pct": -0.6434714777252659,
+        "sma5SlopeD2ToD3Pct": -1.3696567959337158
+      }
+    },
+    {
+      "ticker": "TGT",
+      "date": "2024-11-20",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 20.894695238129636,
+        "rsi5ChangeD1ToD3": 9.781000224677669,
+        "sma5DistanceD3Pct": -0.16520561116368793,
+        "sma5SlopeD2ToD3Pct": -3.6700057491661386
+      }
+    },
+    {
+      "ticker": "TGT",
+      "date": "2024-05-22",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 22.177186736869107,
+        "rsi5ChangeD1ToD3": 16.021683616486275,
+        "sma5DistanceD3Pct": -0.039413126954479516,
+        "sma5SlopeD2ToD3Pct": -1.289240621673382
+      }
+    },
+    {
+      "ticker": "UPS",
+      "date": "2025-01-30",
+      "cohort": "original92",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 1.950430141868299,
+        "rsi5ChangeD1ToD3": -10.836587128106078,
+        "sma5DistanceD3Pct": -4.628222879230659,
+        "sma5SlopeD2ToD3Pct": -3.8794658666683968
+      }
+    },
+    {
+      "ticker": "ADP",
+      "date": "2023-01-26",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 21.446916044742736,
+        "rsi5ChangeD1ToD3": 5.62228085030214,
+        "sma5DistanceD3Pct": 0.5924801763952381,
+        "sma5SlopeD2ToD3Pct": -1.174564623295149
+      }
+    },
+    {
+      "ticker": "ADP",
+      "date": "2023-10-25",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 6.123163764066984,
+        "rsi5ChangeD1ToD3": 4.318493137691471,
+        "sma5DistanceD3Pct": -2.5384738939682294,
+        "sma5SlopeD2ToD3Pct": -2.212381578440359
+      }
+    },
+    {
+      "ticker": "ADP",
+      "date": "2025-10-29",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 1.2927452649825606,
+        "rsi5ChangeD1ToD3": -0.2091942485199616,
+        "sma5DistanceD3Pct": -2.5760503325794715,
+        "sma5SlopeD2ToD3Pct": -1.7391174465211323
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "date": "2024-11-15",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 25.181598579183586,
+        "rsi5ChangeD1ToD3": 7.077841544337499,
+        "sma5DistanceD3Pct": -1.497556019778834,
+        "sma5SlopeD2ToD3Pct": -1.401374033505698
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "date": "2025-02-14",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 41.28284789061205,
+        "rsi5ChangeD1ToD3": 15.554285314095477,
+        "sma5DistanceD3Pct": 0.7000039957922644,
+        "sma5SlopeD2ToD3Pct": -0.5082331628467829
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "date": "2025-05-16",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 7.065612261704703,
+        "rsi5ChangeD1ToD3": -36.64990011612547,
+        "sma5DistanceD3Pct": -2.76545776517072,
+        "sma5SlopeD2ToD3Pct": -1.407585164273073
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "date": "2025-08-15",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 5.441448226913532,
+        "rsi5ChangeD1ToD3": -15.356871355988797,
+        "sma5DistanceD3Pct": -3.8131718394502023,
+        "sma5SlopeD2ToD3Pct": -3.3576852723944617
+      }
+    },
+    {
+      "ticker": "CMCSA",
+      "date": "2023-10-26",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 33.17829195991385,
+        "rsi5ChangeD1ToD3": 12.993109133892847,
+        "sma5DistanceD3Pct": 1.5594254704542676,
+        "sma5SlopeD2ToD3Pct": -1.0562183138785763
+      }
+    },
+    {
+      "ticker": "CMCSA",
+      "date": "2024-04-25",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 23.277898194784417,
+        "rsi5ChangeD1ToD3": -4.336060439953087,
+        "sma5DistanceD3Pct": -1.5804979935418961,
+        "sma5SlopeD2ToD3Pct": -1.1487800731727615
+      }
+    },
+    {
+      "ticker": "CMCSA",
+      "date": "2025-01-30",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 13.89892452011984,
+        "rsi5ChangeD1ToD3": -3.10109203714134,
+        "sma5DistanceD3Pct": -1.906321181193138,
+        "sma5SlopeD2ToD3Pct": -2.285583495355392
+      }
+    },
+    {
+      "ticker": "CMCSA",
+      "date": "2026-04-24",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 32.38866469875751,
+        "rsi5ChangeD1ToD3": -2.6113380833526136,
+        "sma5DistanceD3Pct": -5.180356096940275,
+        "sma5SlopeD2ToD3Pct": -1.8160315207729316
+      }
+    },
+    {
+      "ticker": "COP",
+      "date": "2023-02-02",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 23.955580083731306,
+        "rsi5ChangeD1ToD3": 16.584845414012513,
+        "sma5DistanceD3Pct": 0.6252022180139871,
+        "sma5SlopeD2ToD3Pct": -1.7388387394086768
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "date": "2024-09-05",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 2.1479713603817747,
+        "rsi5ChangeD1ToD3": -19.473650261239907,
+        "sma5DistanceD3Pct": -1.3548515640565806,
+        "sma5SlopeD2ToD3Pct": -1.5727957326639452
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "date": "2025-05-23",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 0,
+        "rsi5ChangeD1ToD3": 0,
+        "sma5DistanceD3Pct": -4.995935259773853,
+        "sma5SlopeD2ToD3Pct": -3.4499982161332987
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "date": "2025-11-24",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 13.571428571428608,
+        "rsi5ChangeD1ToD3": 6.052631578947309,
+        "sma5DistanceD3Pct": -0.7789034261568961,
+        "sma5SlopeD2ToD3Pct": -1.0278631531214
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "date": "2026-02-23",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 44.10377358490565,
+        "rsi5ChangeD1ToD3": 35.585255066387234,
+        "sma5DistanceD3Pct": 3.1314196879684397,
+        "sma5SlopeD2ToD3Pct": -0.2768395991362471
+      }
+    },
+    {
+      "ticker": "DAL",
+      "date": "2024-07-12",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 42.29692074079804,
+        "rsi5ChangeD1ToD3": 30.10729386980034,
+        "sma5DistanceD3Pct": 2.421773818141215,
+        "sma5SlopeD2ToD3Pct": -0.48999932160722626
+      }
+    },
+    {
+      "ticker": "DG",
+      "date": "2023-08-31",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 7.883081378521649,
+        "rsi5ChangeD1ToD3": -4.936657823102055,
+        "sma5DistanceD3Pct": -7.029744898889023,
+        "sma5SlopeD2ToD3Pct": -4.026021686200931
+      }
+    },
+    {
+      "ticker": "DG",
+      "date": "2023-12-08",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 38.95061579714843,
+        "rsi5ChangeD1ToD3": 33.69267266841341,
+        "sma5DistanceD3Pct": 1.875879114960477,
+        "sma5SlopeD2ToD3Pct": -0.5565228896161956
+      }
+    },
+    {
+      "ticker": "DG",
+      "date": "2024-03-14",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 30.62432732890379,
+        "rsi5ChangeD1ToD3": -3.57378846183682,
+        "sma5DistanceD3Pct": 0.019481988546310447,
+        "sma5SlopeD2ToD3Pct": -0.926462077308754
+      }
+    },
+    {
+      "ticker": "DG",
+      "date": "2026-03-12",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 14.272166677854973,
+        "rsi5ChangeD1ToD3": 11.161344151542949,
+        "sma5DistanceD3Pct": -3.502307124112014,
+        "sma5SlopeD2ToD3Pct": -2.1730980453452453
+      }
+    },
+    {
+      "ticker": "DLTR",
+      "date": "2023-05-25",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 17.636308254645126,
+        "rsi5ChangeD1ToD3": -2.1856705197471733,
+        "sma5DistanceD3Pct": -4.721539374417228,
+        "sma5SlopeD2ToD3Pct": -2.9146721165320244
+      }
+    },
+    {
+      "ticker": "DLTR",
+      "date": "2023-08-24",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 11.932555123216565,
+        "rsi5ChangeD1ToD3": 5.227404146307186,
+        "sma5DistanceD3Pct": -3.3858131759461396,
+        "sma5SlopeD2ToD3Pct": -2.6898637502291156
+      }
+    },
+    {
+      "ticker": "DLTR",
+      "date": "2024-03-13",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 10.468920392584502,
+        "rsi5ChangeD1ToD3": 4.190260780591555,
+        "sma5DistanceD3Pct": -3.3069406240026744,
+        "sma5SlopeD2ToD3Pct": -3.1996587030716728
+      }
+    },
+    {
+      "ticker": "EOG",
+      "date": "2026-05-07",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 27.535258399216033,
+        "rsi5ChangeD1ToD3": 8.855479879109485,
+        "sma5DistanceD3Pct": 1.146218124798093,
+        "sma5SlopeD2ToD3Pct": -0.9988950253372653
+      }
+    },
+    {
+      "ticker": "EW",
+      "date": "2023-07-27",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 9.090909090909037,
+        "rsi5ChangeD1ToD3": -2.6176772057084463,
+        "sma5DistanceD3Pct": -2.8212052302444612,
+        "sma5SlopeD2ToD3Pct": -2.2302508163690726
+      }
+    },
+    {
+      "ticker": "FIS",
+      "date": "2025-02-11",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 0,
+        "rsi5ChangeD1ToD3": -9.816969128027345,
+        "sma5DistanceD3Pct": -6.254246916454498,
+        "sma5SlopeD2ToD3Pct": -3.7766443879223566
+      }
+    },
+    {
+      "ticker": "FIS",
+      "date": "2025-08-05",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 17.03296556171966,
+        "rsi5ChangeD1ToD3": 12.007842658512807,
+        "sma5DistanceD3Pct": -1.7968035003699145,
+        "sma5SlopeD2ToD3Pct": -1.948526313907839
+      }
+    },
+    {
+      "ticker": "FIS",
+      "date": "2026-05-08",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 26.6943268548399,
+        "rsi5ChangeD1ToD3": 9.582025341572617,
+        "sma5DistanceD3Pct": -2.6107640216977646,
+        "sma5SlopeD2ToD3Pct": -1.5174713818645658
+      }
+    },
+    {
+      "ticker": "FSLR",
+      "date": "2026-02-25",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 7.480394128292829,
+        "rsi5ChangeD1ToD3": -11.210665849074193,
+        "sma5DistanceD3Pct": -4.872964045350281,
+        "sma5SlopeD2ToD3Pct": -3.869946375299671
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "date": "2025-05-08",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 43.97694524495676,
+        "rsi5ChangeD1ToD3": 25.76214118109614,
+        "sma5DistanceD3Pct": 3.198616814350541,
+        "sma5SlopeD2ToD3Pct": -0.4089539388721586
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "date": "2025-08-07",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 16.704204204204213,
+        "rsi5ChangeD1ToD3": 10.724901789485923,
+        "sma5DistanceD3Pct": -1.7430066865342653,
+        "sma5SlopeD2ToD3Pct": -4.253686608320351
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "date": "2025-11-06",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 41.64882226980725,
+        "rsi5ChangeD1ToD3": 13.011621533159058,
+        "sma5DistanceD3Pct": 0.9752329454931541,
+        "sma5SlopeD2ToD3Pct": -0.3751623298542728
+      }
+    },
+    {
+      "ticker": "GLW",
+      "date": "2026-01-29",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 59.22564953803427,
+        "rsi5ChangeD1ToD3": -12.007812872759011,
+        "sma5DistanceD3Pct": 5.6719380999290525,
+        "sma5SlopeD2ToD3Pct": 0.5747883800008902
+      }
+    },
+    {
+      "ticker": "GLW",
+      "date": "2026-04-28",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 29.165682556861114,
+        "rsi5ChangeD1ToD3": 6.254372144224298,
+        "sma5DistanceD3Pct": -0.5229677921891329,
+        "sma5SlopeD2ToD3Pct": -2.168271680513967
+      }
+    },
+    {
+      "ticker": "GPN",
+      "date": "2023-05-01",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 30.024450574039292,
+        "rsi5ChangeD1ToD3": -8.205304014736818,
+        "sma5DistanceD3Pct": -2.7429036158100994,
+        "sma5SlopeD2ToD3Pct": -1.5418586462108919
+      }
+    },
+    {
+      "ticker": "GPN",
+      "date": "2024-05-01",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 12.685338061768558,
+        "rsi5ChangeD1ToD3": 3.478617218672275,
+        "sma5DistanceD3Pct": -1.6606763584254502,
+        "sma5SlopeD2ToD3Pct": -2.3495037601594104
+      }
+    },
+    {
+      "ticker": "HAL",
+      "date": "2023-04-26",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 25.879396643827945,
+        "rsi5ChangeD1ToD3": -3.661098157721998,
+        "sma5DistanceD3Pct": 0.29580414155101487,
+        "sma5SlopeD2ToD3Pct": -1.1693770128999081
+      }
+    },
+    {
+      "ticker": "HAL",
+      "date": "2024-07-19",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 4.825749101005279,
+        "rsi5ChangeD1ToD3": -23.57801107176954,
+        "sma5DistanceD3Pct": -3.374142417516124,
+        "sma5SlopeD2ToD3Pct": -1.9358914695759788
+      }
+    },
+    {
+      "ticker": "HSY",
+      "date": "2023-10-27",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 26.524823904957685,
+        "rsi5ChangeD1ToD3": -14.275177594541368,
+        "sma5DistanceD3Pct": 0.5255047569029392,
+        "sma5SlopeD2ToD3Pct": -0.7035368582666957
+      }
+    },
+    {
+      "ticker": "KDP",
+      "date": "2023-04-27",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 0,
+        "rsi5ChangeD1ToD3": -15.384617641269132,
+        "sma5DistanceD3Pct": -2.4872644549409184,
+        "sma5SlopeD2ToD3Pct": -1.9682726359092517
+      }
+    },
+    {
+      "ticker": "KDP",
+      "date": "2024-10-25",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 2.7989802607460947,
+        "rsi5ChangeD1ToD3": 2.7989802607460947,
+        "sma5DistanceD3Pct": -2.5406200201132267,
+        "sma5SlopeD2ToD3Pct": -2.145004393222505
+      }
+    },
+    {
+      "ticker": "KR",
+      "date": "2025-12-05",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 10.63492012232734,
+        "rsi5ChangeD1ToD3": -1.524790870288177,
+        "sma5DistanceD3Pct": -2.288030477576486,
+        "sma5SlopeD2ToD3Pct": -1.5581315795088702
+      }
+    },
+    {
+      "ticker": "LEN",
+      "date": "2024-03-14",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 34.087482515637,
+        "rsi5ChangeD1ToD3": 4.418324753071062,
+        "sma5DistanceD3Pct": 0.8872824025558446,
+        "sma5SlopeD2ToD3Pct": -0.793720378680407
+      }
+    },
+    {
+      "ticker": "LEN",
+      "date": "2024-09-20",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 34.951902902544035,
+        "rsi5ChangeD1ToD3": -11.686152513670244,
+        "sma5DistanceD3Pct": -1.8596265987772864,
+        "sma5SlopeD2ToD3Pct": -0.7041045260309242
+      }
+    },
+    {
+      "ticker": "LEN",
+      "date": "2024-12-19",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 0,
+        "rsi5ChangeD1ToD3": 0,
+        "sma5DistanceD3Pct": -1.2041638604405436,
+        "sma5SlopeD2ToD3Pct": -1.8921728850176511
+      }
+    },
+    {
+      "ticker": "LEN",
+      "date": "2025-06-18",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 57.66016543060379,
+        "rsi5ChangeD1ToD3": 28.866681824866035,
+        "sma5DistanceD3Pct": 4.040911966998895,
+        "sma5SlopeD2ToD3Pct": 0.41155334830076384
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "date": "2023-05-05",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 23.343614445029804,
+        "rsi5ChangeD1ToD3": 12.50610287811004,
+        "sma5DistanceD3Pct": -1.2477565282350334,
+        "sma5SlopeD2ToD3Pct": -2.3248048701740243
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "date": "2023-08-02",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 27.98017324108956,
+        "rsi5ChangeD1ToD3": -17.813522435090647,
+        "sma5DistanceD3Pct": 0.6106620491471704,
+        "sma5SlopeD2ToD3Pct": -0.6557365093305734
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "date": "2024-10-31",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 3.9339828549546483,
+        "rsi5ChangeD1ToD3": -14.888512803437076,
+        "sma5DistanceD3Pct": -3.8601116205277397,
+        "sma5SlopeD2ToD3Pct": -4.114269691714001
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "date": "2025-10-31",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 23.687601310132315,
+        "rsi5ChangeD1ToD3": 17.064402660665035,
+        "sma5DistanceD3Pct": -1.0636045927564286,
+        "sma5SlopeD2ToD3Pct": -1.8244361500906026
+      }
+    },
+    {
+      "ticker": "NEM",
+      "date": "2025-10-24",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 22.239026548969914,
+        "rsi5ChangeD1ToD3": 10.158803487429074,
+        "sma5DistanceD3Pct": -2.8225020773263942,
+        "sma5SlopeD2ToD3Pct": -1.7590951897155316
+      }
+    },
+    {
+      "ticker": "NOC",
+      "date": "2023-01-27",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 25.048215705860844,
+        "rsi5ChangeD1ToD3": -10.35112792891724,
+        "sma5DistanceD3Pct": 0.08683738773369587,
+        "sma5SlopeD2ToD3Pct": -0.9275315399552397
+      }
+    },
+    {
+      "ticker": "NOC",
+      "date": "2024-01-25",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 21.14839421842872,
+        "rsi5ChangeD1ToD3": 9.91806418399332,
+        "sma5DistanceD3Pct": -0.03335971061610987,
+        "sma5SlopeD2ToD3Pct": -1.0888855192212388
+      }
+    },
+    {
+      "ticker": "NOC",
+      "date": "2025-04-22",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 17.879338779351798,
+        "rsi5ChangeD1ToD3": -2.5564867233566204,
+        "sma5DistanceD3Pct": -1.5942070723548363,
+        "sma5SlopeD2ToD3Pct": -2.7185699428005305
+      }
+    },
+    {
+      "ticker": "NOC",
+      "date": "2026-04-21",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 0,
+        "rsi5ChangeD1ToD3": 0,
+        "sma5DistanceD3Pct": -4.798874410610699,
+        "sma5SlopeD2ToD3Pct": -2.8981081251529317
+      }
+    },
+    {
+      "ticker": "OKE",
+      "date": "2025-04-30",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 17.77110601514821,
+        "rsi5ChangeD1ToD3": -0.8689860924597426,
+        "sma5DistanceD3Pct": -2.1910961399040807,
+        "sma5SlopeD2ToD3Pct": -1.5915935676019788
+      }
+    },
+    {
+      "ticker": "OKE",
+      "date": "2025-08-05",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 16.2444165013097,
+        "rsi5ChangeD1ToD3": 5.204848778497784,
+        "sma5DistanceD3Pct": -2.206462081431526,
+        "sma5SlopeD2ToD3Pct": -1.1759209526684078
+      }
+    },
+    {
+      "ticker": "OKE",
+      "date": "2026-02-24",
+      "cohort": "separate72",
+      "session": "AH",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 21.641795892415132,
+        "rsi5ChangeD1ToD3": 11.981692424935451,
+        "sma5DistanceD3Pct": -1.2974312554076883,
+        "sma5SlopeD2ToD3Pct": -1.075852273800082
+      }
+    },
+    {
+      "ticker": "REGN",
+      "date": "2024-10-31",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 5.45140142493372,
+        "rsi5ChangeD1ToD3": 0.06325515776685453,
+        "sma5DistanceD3Pct": -2.7143748665048206,
+        "sma5SlopeD2ToD3Pct": -2.2450215019898967
+      }
+    },
+    {
+      "ticker": "REGN",
+      "date": "2025-04-29",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 51.422550173786775,
+        "rsi5ChangeD1ToD3": -4.331062148023669,
+        "sma5DistanceD3Pct": 1.8126247814979957,
+        "sma5SlopeD2ToD3Pct": 0.09996062858601551
+      }
+    },
+    {
+      "ticker": "REGN",
+      "date": "2026-04-29",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 30.896865736838468,
+        "rsi5ChangeD1ToD3": 10.271118672440306,
+        "sma5DistanceD3Pct": 0.2893246985075315,
+        "sma5SlopeD2ToD3Pct": -0.9865445669107409
+      }
+    },
+    {
+      "ticker": "TMO",
+      "date": "2026-04-23",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 8.017920055525892,
+        "rsi5ChangeD1ToD3": 3.233307951959616,
+        "sma5DistanceD3Pct": -1.572017679217097,
+        "sma5SlopeD2ToD3Pct": -2.2247236977356866
+      }
+    },
+    {
+      "ticker": "TPR",
+      "date": "2025-08-14",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 27.202255061263095,
+        "rsi5ChangeD1ToD3": -8.68824784160153,
+        "sma5DistanceD3Pct": -3.582189799813118,
+        "sma5SlopeD2ToD3Pct": -2.484973056809414
+      }
+    },
+    {
+      "ticker": "WAB",
+      "date": "2024-07-24",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2024,
+      "d4TargetFirst": false,
+      "fullRecovery60d": true,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 18.406590736345205,
+        "rsi5ChangeD1ToD3": -12.866917207537814,
+        "sma5DistanceD3Pct": -0.5434175329776192,
+        "sma5SlopeD2ToD3Pct": -1.1310966178978865
+      }
+    },
+    {
+      "ticker": "WAB",
+      "date": "2025-02-12",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 21.04352790742553,
+        "rsi5ChangeD1ToD3": -9.688008192466501,
+        "sma5DistanceD3Pct": -2.98245958814084,
+        "sma5SlopeD2ToD3Pct": -2.0284118781226934
+      }
+    },
+    {
+      "ticker": "WAB",
+      "date": "2025-07-24",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 10.336238692536183,
+        "rsi5ChangeD1ToD3": -8.651102219953293,
+        "sma5DistanceD3Pct": -3.8100748506825655,
+        "sma5SlopeD2ToD3Pct": -1.871346141184127
+      }
+    },
+    {
+      "ticker": "ZBH",
+      "date": "2023-08-02",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2023,
+      "d4TargetFirst": false,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 3.9027937489096436,
+        "rsi5ChangeD1ToD3": 3.9027937489096436,
+        "sma5DistanceD3Pct": -1.6040355179597787,
+        "sma5SlopeD2ToD3Pct": -1.9234611168542193
+      }
+    },
+    {
+      "ticker": "ZBH",
+      "date": "2025-02-06",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 4.629626914379379,
+        "rsi5ChangeD1ToD3": -0.13227476971421037,
+        "sma5DistanceD3Pct": -3.201830419508511,
+        "sma5SlopeD2ToD3Pct": -1.6958602382388221
+      }
+    },
+    {
+      "ticker": "ZBH",
+      "date": "2025-05-05",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": false,
+      "features": {
+        "rsi5CutlerD3": 30.368637266079997,
+        "rsi5ChangeD1ToD3": 13.786680562417104,
+        "sma5DistanceD3Pct": 0.24875140930820105,
+        "sma5SlopeD2ToD3Pct": -1.3947783410693915
+      }
+    },
+    {
+      "ticker": "ZBH",
+      "date": "2025-11-05",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2025,
+      "d4TargetFirst": true,
+      "fullRecovery60d": false,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 22.3050169380215,
+        "rsi5ChangeD1ToD3": -2.0807002233814735,
+        "sma5DistanceD3Pct": -2.8085081146946855,
+        "sma5SlopeD2ToD3Pct": -2.3844146974494995
+      }
+    },
+    {
+      "ticker": "ZBH",
+      "date": "2026-04-28",
+      "cohort": "separate72",
+      "session": "BMO",
+      "year": 2026,
+      "d4TargetFirst": true,
+      "fullRecovery60d": true,
+      "earlyLowByD3": true,
+      "features": {
+        "rsi5CutlerD3": 24.940045201075684,
+        "rsi5ChangeD1ToD3": 16.430773330023072,
+        "sma5DistanceD3Pct": -1.494807169620438,
+        "sma5SlopeD2ToD3Pct": -1.9480369482253956
+      }
+    }
+  ]
+}
