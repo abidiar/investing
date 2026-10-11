@@ -1,0 +1,94 @@
+{
+  "testDate": "2026-10-11",
+  "status": "EXPLORATORY_BASE_RATE_AUDIT_AFTER_OUTCOME_EXPOSURE_NOT_FROZEN_INDEPENDENT_VALIDATION",
+  "dataSource": "Archived Webull D 90 names batches 1-5 and earlier frozen 283 event list; T daily as-of sector/20-day true range nearest-match control, no pay data",
+  "question": "Did next-day-open entry ever experience +3% RTH high in first 20 FULL trading sessions, ignoring deep losses/stops; and is this occurrence different from sector+priorATR matched same-day non-shock peers?",
+  "fullSignal": {
+    "n": 283,
+    "everPlus3": 216,
+    "stopAndLaterStrict": 48,
+    "sameDailyBarTargetAndStop": 8,
+    "hitStopRegardless": 194,
+    "end20Above3": 131
+  },
+  "sectorPrior20ATRMatched": {
+    "n": 275,
+    "signalEver": 208,
+    "peerEver": 222,
+    "signalFirst": 158,
+    "peerFirst": 171,
+    "deltaTargetEverPP": -5.090909090909091,
+    "deltaFirstPp": -4.7272727272727275,
+    "avgAtrGapPctP": 0.25346555310803004,
+    "unmatched": 8,
+    "unmatchedDetails": [
+      {
+        "symbol": "ENTG",
+        "date": "2025-04-03",
+        "sector": "SEMICONDUCTORS"
+      },
+      {
+        "symbol": "LSCC",
+        "date": "2025-04-03",
+        "sector": "SEMICONDUCTORS"
+      },
+      {
+        "symbol": "MCHP",
+        "date": "2025-04-03",
+        "sector": "SEMICONDUCTORS"
+      },
+      {
+        "symbol": "NXPI",
+        "date": "2025-04-03",
+        "sector": "SEMICONDUCTORS"
+      },
+      {
+        "symbol": "OLED",
+        "date": "2025-04-03",
+        "sector": "SEMICONDUCTORS"
+      },
+      {
+        "symbol": "ON",
+        "date": "2025-04-03",
+        "sector": "SEMICONDUCTORS"
+      },
+      {
+        "symbol": "SWKS",
+        "date": "2025-04-03",
+        "sector": "SEMICONDUCTORS"
+      },
+      {
+        "symbol": "TER",
+        "date": "2025-04-03",
+        "sector": "SEMICONDUCTORS"
+      }
+    ]
+  },
+  "dateClusterBootstrap": {
+    "groups": 139,
+    "ci95DeltaEverPp": [
+      -13.302752293577981,
+      1.530612244897959
+    ]
+  },
+  "tickerClusterBootstrap": {
+    "groups": 86,
+    "ci95DeltaEverPp": [
+      -11.400651465798045,
+      0.9966777408637874
+    ]
+  },
+  "byYears": {
+    "2024": {
+      "n": 120,
+      "signalEver": 86,
+      "peerEver": 95
+    },
+    "2025": {
+      "n": 155,
+      "signalEver": 122,
+      "peerEver": 127
+    }
+  },
+  "methods": "For each event, choose single same-sector non-shock (day return>-7%), smallest absolute difference in past20 average true range as pct of prior close (no future features). Restrict paired to 275/283; 8 semiconductor shocks April 3 2025 had NO same-sector non-shock peer. The close-high threshold is an excursion not trade PnL; no call option delta/time/spread. Since constructed after outcomes were already examined, diagnostic not preregistered strategy proof."
+}
