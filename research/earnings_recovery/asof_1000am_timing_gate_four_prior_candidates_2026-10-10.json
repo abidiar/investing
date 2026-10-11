@@ -1,0 +1,52 @@
+{
+  "asof": "2026-10-10",
+  "purpose": "Diagnostic only: frozen 52 EOD-selected options, not candidate selection proof. Test 10am pre-gate volume without lookahead and first subsequent prints.",
+  "timing": "Exchange regular session America/New_York. option_volume_before_1000 is 5min trade bars from 09:30:00 to 09:59:59, known at 10:00. At 10am gate require >=10 contracts before 10am and first options print 10:00 through 10:30; print is not executable ask.",
+  "cases": [
+    {
+      "ticker": "CMCSA",
+      "option": "O:CMCSA250307C00035000",
+      "entryDate": "2025-02-04",
+      "pre1000Contracts": 3,
+      "firstPost1000To1030": null,
+      "gate": "FAIL_PRE1000_VOLUME",
+      "originalFirstPrintPrice": 0.23
+    },
+    {
+      "ticker": "UPS",
+      "option": "O:UPS250307C00121000",
+      "entryDate": "2025-02-04",
+      "pre1000Contracts": 0,
+      "firstPost1000To1030": {
+        "timeET": "10:15",
+        "price": 0.29,
+        "barContracts": 25
+      },
+      "gate": "FAIL_PRE1000_VOLUME",
+      "originalFirstPrintPrice": 0.29
+    },
+    {
+      "ticker": "PYPL",
+      "option": "O:PYPL250321C00090000",
+      "entryDate": "2025-02-18",
+      "pre1000Contracts": 74,
+      "firstPost1000To1030": {
+        "timeET": "10:00",
+        "price": 0.31,
+        "barContracts": 2
+      },
+      "gate": "PRINT_TIMING_PASSES_UNDER_OBSERVED_PRICES; ASKS_UNKNOWN",
+      "originalFirstPrintPrice": 0.4
+    },
+    {
+      "ticker": "AMAT",
+      "option": "O:AMAT250919C00190000",
+      "entryDate": "2025-08-20",
+      "pre1000Contracts": 16,
+      "firstPost1000To1030": null,
+      "gate": "NO_OPTION_PRINT_WITHIN_1000_1030",
+      "originalFirstPrintPrice": 0.39
+    }
+  ],
+  "conclusion": "Only one of four earlier selected contracts passed both pre-10am accumulated volume and post-10am observed print timing; it is not yet known to be independently preselected based on prior-close chain. For all cases true buy-ask and contemporaneous unadjusted stock new entry anchor remain required."
+}
