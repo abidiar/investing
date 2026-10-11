@@ -1,0 +1,4313 @@
+{
+  "id": "frozen49_106_vwap_m5_forward_stock_diagnostic_2026_10_11",
+  "verdict": "RESEARCH_ONLY_NOT_FULL_V2_SOURCE_CERTIFIED",
+  "priceBarSources": [
+    "research/swing_two_session/data/forward_two_session_m5_diagnostic_batch01_2026_10_11.json",
+    "research/swing_two_session/data/forward_two_session_m5_diagnostic_batch02_2026_10_11.json",
+    "research/swing_two_session/data/forward_two_session_m5_diagnostic_batch03_2026_10_11.json",
+    "research/swing_two_session/data/forward_two_session_m5_diagnostic_batch04_2026_10_11.json",
+    "research/swing_two_session/data/forward_two_session_m5_diagnostic_batch05_2026_10_11.json",
+    "research/swing_two_session/data/forward_two_session_m5_diagnostic_batch06_2026_10_11.json"
+  ],
+  "preEventSourceQA": [
+    "research/swing_two_session/data/qa_106_signal_day_m5_batch01_2026_10_11.json",
+    "research/swing_two_session/data/qa_106_signal_day_m5_batch02_2026_10_11.json",
+    "research/swing_two_session/data/qa_106_signal_day_m5_batch03_2026_10_11.json",
+    "research/swing_two_session/data/qa_106_signal_day_m5_batch04_2026_10_11.json",
+    "research/swing_two_session/data/qa_106_signal_day_m5_batch05_2026_10_11.json",
+    "research/swing_two_session/data/qa_106_signal_day_m5_batch06_2026_10_11.json"
+  ],
+  "universe": {
+    "totalDailyCandidates": 106,
+    "evaluable": 103,
+    "missing": [
+      {
+        "ticker": "ADBE",
+        "date": "2025-07-02",
+        "status": "UNKNOWN_INCOMPLETE",
+        "bars": [
+          42,
+          78
+        ]
+      },
+      {
+        "ticker": "NOC",
+        "date": "2024-10-30",
+        "status": "UNKNOWN_INCOMPLETE",
+        "bars": [
+          76,
+          67
+        ]
+      },
+      {
+        "ticker": "FDX",
+        "date": "2024-12-23",
+        "status": "UNKNOWN_INCOMPLETE",
+        "bars": [
+          42,
+          78
+        ]
+      }
+    ]
+  },
+  "costs": {
+    "0": {
+      "events": 103,
+      "entries": 76,
+      "skipped": 27,
+      "targets": 18,
+      "stops": 25,
+      "timeouts": 33,
+      "netVwPerSignal": -0.1876127733041685,
+      "netVwPerTrade": -0.2542646796095968,
+      "netOpenPerSignal": -0.3224591317490286,
+      "pairedVwMinusOpen": 0.13484635844486026
+    },
+    "1": {
+      "events": 103,
+      "entries": 76,
+      "skipped": 27,
+      "targets": 18,
+      "stops": 25,
+      "timeouts": 33,
+      "netVwPerSignal": -0.9254768509740716,
+      "netVwPerTrade": -1.254264679609597,
+      "netOpenPerSignal": -1.3224591317490288,
+      "pairedVwMinusOpen": 0.3969822807749574
+    },
+    "0.2": {
+      "events": 103,
+      "entries": 76,
+      "skipped": 27,
+      "targets": 18,
+      "stops": 25,
+      "timeouts": 33,
+      "netVwPerSignal": -0.3351855888381491,
+      "netVwPerTrade": -0.4542646796095968,
+      "netOpenPerSignal": -0.5224591317490292,
+      "pairedVwMinusOpen": 0.18727354291087966
+    },
+    "0.5": {
+      "events": 103,
+      "entries": 76,
+      "skipped": 27,
+      "targets": 18,
+      "stops": 25,
+      "timeouts": 33,
+      "netVwPerSignal": -0.5565448121391199,
+      "netVwPerTrade": -0.7542646796095966,
+      "netOpenPerSignal": -0.822459131749029,
+      "pairedVwMinusOpen": 0.26591431960990897
+    }
+  },
+  "byYear": {
+    "2024": {
+      "events": 38,
+      "entries": 29,
+      "skipped": 9,
+      "targets": 10,
+      "stops": 8,
+      "timeouts": 11,
+      "netVwPerSignal": -0.31812371943122825,
+      "netVwPerTrade": -0.4168517702891956,
+      "netOpenPerSignal": -0.5309724042007025,
+      "pairedVwMinusOpen": 0.21284868476947416
+    },
+    "2025": {
+      "events": 38,
+      "entries": 29,
+      "skipped": 9,
+      "targets": 4,
+      "stops": 11,
+      "timeouts": 14,
+      "netVwPerSignal": -0.7988855335206139,
+      "netVwPerTrade": -1.0468155266821837,
+      "netOpenPerSignal": -1.0561661647717613,
+      "pairedVwMinusOpen": 0.2572806312511478
+    },
+    "2026": {
+      "events": 27,
+      "entries": 18,
+      "skipped": 9,
+      "targets": 4,
+      "stops": 6,
+      "timeouts": 8,
+      "netVwPerSignal": -0.5510282977096054,
+      "netVwPerTrade": -0.826542446564408,
+      "netOpenPerSignal": -0.9037787018220863,
+      "pairedVwMinusOpen": 0.35275040411248076
+    }
+  },
+  "byTicker": {
+    "ABBV": {
+      "events": 4,
+      "entries": 3,
+      "skipped": 1,
+      "targets": 1,
+      "stops": 2,
+      "timeouts": 0,
+      "netVwPerSignal": -0.875,
+      "netVwPerTrade": -1.1666666666666667,
+      "netOpenPerSignal": -1.2909723949266363,
+      "pairedVwMinusOpen": 0.4159723949266363
+    },
+    "ADBE": {
+      "events": 1,
+      "entries": 1,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -2.5,
+      "netVwPerTrade": -2.5,
+      "netOpenPerSignal": -2.5,
+      "pairedVwMinusOpen": 0
+    },
+    "AVGO": {
+      "events": 1,
+      "entries": 1,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -2.5,
+      "netVwPerTrade": -2.5,
+      "netOpenPerSignal": -2.5,
+      "pairedVwMinusOpen": 0
+    },
+    "BA": {
+      "events": 2,
+      "entries": 2,
+      "skipped": 0,
+      "targets": 1,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -0.5,
+      "netVwPerTrade": -0.5,
+      "netOpenPerSignal": -0.5,
+      "pairedVwMinusOpen": 0
+    },
+    "C": {
+      "events": 2,
+      "entries": 2,
+      "skipped": 0,
+      "targets": 1,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -0.5,
+      "netVwPerTrade": -0.5,
+      "netOpenPerSignal": -0.5,
+      "pairedVwMinusOpen": 0
+    },
+    "COP": {
+      "events": 4,
+      "entries": 4,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 3,
+      "netVwPerSignal": -0.4209993518100188,
+      "netVwPerTrade": -0.4209993518100188,
+      "netOpenPerSignal": 0.004668985322109798,
+      "pairedVwMinusOpen": -0.4256683371321286
+    },
+    "CRWD": {
+      "events": 1,
+      "entries": 1,
+      "skipped": 0,
+      "targets": 1,
+      "stops": 0,
+      "timeouts": 0,
+      "netVwPerSignal": 1.5,
+      "netVwPerTrade": 1.5,
+      "netOpenPerSignal": 1.5,
+      "pairedVwMinusOpen": 0
+    },
+    "CSCO": {
+      "events": 2,
+      "entries": 2,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 1,
+      "netVwPerSignal": -1.921804023361444,
+      "netVwPerTrade": -1.921804023361444,
+      "netOpenPerSignal": -1.1451302122534974,
+      "pairedVwMinusOpen": -0.7766738111079465
+    },
+    "CVX": {
+      "events": 3,
+      "entries": 2,
+      "skipped": 1,
+      "targets": 1,
+      "stops": 0,
+      "timeouts": 1,
+      "netVwPerSignal": 0.5452127033453396,
+      "netVwPerTrade": 0.8178190550180093,
+      "netOpenPerSignal": -1.2940220657216661,
+      "pairedVwMinusOpen": 1.8392347690670057
+    },
+    "DE": {
+      "events": 3,
+      "entries": 2,
+      "skipped": 1,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 1,
+      "netVwPerSignal": -1.8431806099255539,
+      "netVwPerTrade": -2.764770914888331,
+      "netOpenPerSignal": -2.1195865258316178,
+      "pairedVwMinusOpen": 0.2764059159060637
+    },
+    "DIS": {
+      "events": 7,
+      "entries": 4,
+      "skipped": 3,
+      "targets": 1,
+      "stops": 1,
+      "timeouts": 2,
+      "netVwPerSignal": -0.7420172839246769,
+      "netVwPerTrade": -1.2985302468681845,
+      "netOpenPerSignal": -1.5210549875969803,
+      "pairedVwMinusOpen": 0.7790377036723035
+    },
+    "FDX": {
+      "events": 2,
+      "entries": 1,
+      "skipped": 1,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -1.25,
+      "netVwPerTrade": -2.5,
+      "netOpenPerSignal": -0.5,
+      "pairedVwMinusOpen": -0.75
+    },
+    "FTNT": {
+      "events": 2,
+      "entries": 2,
+      "skipped": 0,
+      "targets": 1,
+      "stops": 0,
+      "timeouts": 1,
+      "netVwPerSignal": 0.4186295503211974,
+      "netVwPerTrade": 0.4186295503211974,
+      "netOpenPerSignal": 0.5085807448086506,
+      "pairedVwMinusOpen": -0.08995119448745315
+    },
+    "GE": {
+      "events": 1,
+      "entries": 1,
+      "skipped": 0,
+      "targets": 1,
+      "stops": 0,
+      "timeouts": 0,
+      "netVwPerSignal": 1.5,
+      "netVwPerTrade": 1.5,
+      "netOpenPerSignal": 1.5,
+      "pairedVwMinusOpen": 0
+    },
+    "GS": {
+      "events": 1,
+      "entries": 1,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -2.5,
+      "netVwPerTrade": -2.5,
+      "netOpenPerSignal": -2.5,
+      "pairedVwMinusOpen": 0
+    },
+    "HON": {
+      "events": 4,
+      "entries": 4,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 2,
+      "timeouts": 2,
+      "netVwPerSignal": -1.5856143488846022,
+      "netVwPerTrade": -1.5856143488846022,
+      "netOpenPerSignal": -0.08269950837077322,
+      "pairedVwMinusOpen": -1.502914840513829
+    },
+    "KO": {
+      "events": 3,
+      "entries": 3,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 0,
+      "timeouts": 3,
+      "netVwPerSignal": -0.7289016843734504,
+      "netVwPerTrade": -0.7289016843734504,
+      "netOpenPerSignal": 0.5731827596722452,
+      "pairedVwMinusOpen": -1.3020844440456956
+    },
+    "LRCX": {
+      "events": 1,
+      "entries": 1,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -2.5,
+      "netVwPerTrade": -2.5,
+      "netOpenPerSignal": 1.5,
+      "pairedVwMinusOpen": -4
+    },
+    "MA": {
+      "events": 2,
+      "entries": 1,
+      "skipped": 1,
+      "targets": 0,
+      "stops": 0,
+      "timeouts": 1,
+      "netVwPerSignal": -0.587279672852403,
+      "netVwPerTrade": -1.174559345704806,
+      "netOpenPerSignal": -1.6092418866234632,
+      "pairedVwMinusOpen": 1.0219622137710602
+    },
+    "MCD": {
+      "events": 4,
+      "entries": 3,
+      "skipped": 1,
+      "targets": 1,
+      "stops": 0,
+      "timeouts": 2,
+      "netVwPerSignal": 0.8617549093047099,
+      "netVwPerTrade": 1.1490065457396132,
+      "netOpenPerSignal": 0.20012731632981506,
+      "pairedVwMinusOpen": 0.6616275929748948
+    },
+    "MRK": {
+      "events": 2,
+      "entries": 2,
+      "skipped": 0,
+      "targets": 1,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -0.5,
+      "netVwPerTrade": -0.5,
+      "netOpenPerSignal": -0.5,
+      "pairedVwMinusOpen": 0
+    },
+    "NFLX": {
+      "events": 4,
+      "entries": 2,
+      "skipped": 2,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 1,
+      "netVwPerSignal": -0.5912588561986947,
+      "netVwPerTrade": -1.1825177123973893,
+      "netOpenPerSignal": -2.0362660944206032,
+      "pairedVwMinusOpen": 1.4450072382219088
+    },
+    "NKE": {
+      "events": 3,
+      "entries": 1,
+      "skipped": 2,
+      "targets": 1,
+      "stops": 0,
+      "timeouts": 0,
+      "netVwPerSignal": 0.5,
+      "netVwPerTrade": 1.5,
+      "netOpenPerSignal": 0.16666666666666666,
+      "pairedVwMinusOpen": 0.3333333333333333
+    },
+    "NOC": {
+      "events": 2,
+      "entries": 2,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 0,
+      "timeouts": 2,
+      "netVwPerSignal": -0.8847915918628764,
+      "netVwPerTrade": -0.8847915918628764,
+      "netOpenPerSignal": -1.1465153752569286,
+      "pairedVwMinusOpen": 0.2617237833940522
+    },
+    "NOW": {
+      "events": 1,
+      "entries": 0,
+      "skipped": 1,
+      "targets": 0,
+      "stops": 0,
+      "timeouts": 0,
+      "netVwPerSignal": 0,
+      "netVwPerTrade": null,
+      "netOpenPerSignal": -2.5,
+      "pairedVwMinusOpen": 2.5
+    },
+    "NVDA": {
+      "events": 1,
+      "entries": 1,
+      "skipped": 0,
+      "targets": 1,
+      "stops": 0,
+      "timeouts": 0,
+      "netVwPerSignal": 1.5,
+      "netVwPerTrade": 1.5,
+      "netOpenPerSignal": 1.5,
+      "pairedVwMinusOpen": 0
+    },
+    "PANW": {
+      "events": 1,
+      "entries": 1,
+      "skipped": 0,
+      "targets": 1,
+      "stops": 0,
+      "timeouts": 0,
+      "netVwPerSignal": 1.5,
+      "netVwPerTrade": 1.5,
+      "netOpenPerSignal": -2.5,
+      "pairedVwMinusOpen": 4
+    },
+    "PEP": {
+      "events": 3,
+      "entries": 2,
+      "skipped": 1,
+      "targets": 0,
+      "stops": 0,
+      "timeouts": 2,
+      "netVwPerSignal": -0.7605608020068967,
+      "netVwPerTrade": -1.140841203010345,
+      "netOpenPerSignal": -0.682088690515847,
+      "pairedVwMinusOpen": -0.07847211149104967
+    },
+    "PFE": {
+      "events": 5,
+      "entries": 5,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 0,
+      "timeouts": 5,
+      "netVwPerSignal": -1.0377809986647186,
+      "netVwPerTrade": -1.0377809986647186,
+      "netOpenPerSignal": -1.3157190037469768,
+      "pairedVwMinusOpen": 0.27793800508225813
+    },
+    "PG": {
+      "events": 5,
+      "entries": 4,
+      "skipped": 1,
+      "targets": 1,
+      "stops": 1,
+      "timeouts": 2,
+      "netVwPerSignal": -0.38722937665238455,
+      "netVwPerTrade": -0.48403672081548066,
+      "netOpenPerSignal": -0.5084931076328657,
+      "pairedVwMinusOpen": 0.1212637309804812
+    },
+    "SBUX": {
+      "events": 1,
+      "entries": 0,
+      "skipped": 1,
+      "targets": 0,
+      "stops": 0,
+      "timeouts": 0,
+      "netVwPerSignal": 0,
+      "netVwPerTrade": null,
+      "netOpenPerSignal": -2.5105365014514653,
+      "pairedVwMinusOpen": 2.5105365014514653
+    },
+    "SLB": {
+      "events": 2,
+      "entries": 2,
+      "skipped": 0,
+      "targets": 2,
+      "stops": 0,
+      "timeouts": 0,
+      "netVwPerSignal": 1.861374353719048,
+      "netVwPerTrade": 1.861374353719048,
+      "netOpenPerSignal": 1.5572777663724109,
+      "pairedVwMinusOpen": 0.304096587346637
+    },
+    "SNOW": {
+      "events": 2,
+      "entries": 1,
+      "skipped": 1,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -1.25,
+      "netVwPerTrade": -2.5,
+      "netOpenPerSignal": -2.5,
+      "pairedVwMinusOpen": 1.25
+    },
+    "TGT": {
+      "events": 3,
+      "entries": 3,
+      "skipped": 0,
+      "targets": 1,
+      "stops": 0,
+      "timeouts": 2,
+      "netVwPerSignal": 0.4785928957909338,
+      "netVwPerTrade": 0.4785928957909338,
+      "netOpenPerSignal": 0.8999581961644957,
+      "pairedVwMinusOpen": -0.42136530037356196
+    },
+    "TSM": {
+      "events": 2,
+      "entries": 0,
+      "skipped": 2,
+      "targets": 0,
+      "stops": 0,
+      "timeouts": 0,
+      "netVwPerSignal": 0,
+      "netVwPerTrade": null,
+      "netOpenPerSignal": -0.5,
+      "pairedVwMinusOpen": 0.5
+    },
+    "TXN": {
+      "events": 1,
+      "entries": 0,
+      "skipped": 1,
+      "targets": 0,
+      "stops": 0,
+      "timeouts": 0,
+      "netVwPerSignal": 0,
+      "netVwPerTrade": null,
+      "netOpenPerSignal": -2.5,
+      "pairedVwMinusOpen": 2.5
+    },
+    "UNH": {
+      "events": 5,
+      "entries": 2,
+      "skipped": 3,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 1,
+      "netVwPerSignal": -0.45996278463043383,
+      "netVwPerTrade": -1.1499069615760846,
+      "netOpenPerSignal": -1.92777283313534,
+      "pairedVwMinusOpen": 1.4678100485049064
+    },
+    "UPS": {
+      "events": 4,
+      "entries": 2,
+      "skipped": 2,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 1,
+      "netVwPerSignal": -1.0266007532956665,
+      "netVwPerTrade": -2.053201506591333,
+      "netOpenPerSignal": -1.168459628797732,
+      "pairedVwMinusOpen": 0.14185887550206533
+    },
+    "V": {
+      "events": 2,
+      "entries": 1,
+      "skipped": 1,
+      "targets": 0,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -1.25,
+      "netVwPerTrade": -2.5,
+      "netOpenPerSignal": -1.6316561144428083,
+      "pairedVwMinusOpen": 0.38165611444280834
+    },
+    "WFC": {
+      "events": 2,
+      "entries": 2,
+      "skipped": 0,
+      "targets": 1,
+      "stops": 1,
+      "timeouts": 0,
+      "netVwPerSignal": -0.5,
+      "netVwPerTrade": -0.5,
+      "netOpenPerSignal": 1.5,
+      "pairedVwMinusOpen": -2
+    },
+    "WMT": {
+      "events": 2,
+      "entries": 2,
+      "skipped": 0,
+      "targets": 0,
+      "stops": 2,
+      "timeouts": 0,
+      "netVwPerSignal": -2.5,
+      "netVwPerTrade": -2.5,
+      "netOpenPerSignal": -2.5,
+      "pairedVwMinusOpen": 0
+    }
+  },
+  "bootstrap50bps": {
+    "meanVwNet95": [
+      -0.8193020216693795,
+      -0.27768047735888024
+    ],
+    "pairedMinusOpen95": [
+      -0.0529063445644784,
+      0.5680415081269585
+    ],
+    "clusters": 41,
+    "replicates": 10000,
+    "seed": 20261011
+  },
+  "top3SharePositiveNetPct": 47.39582249008276,
+  "topTickerContributions": [
+    {
+      "ticker": "SLB",
+      "n": 2,
+      "entries": 2,
+      "netSum": 3.722748707438096
+    },
+    {
+      "ticker": "MCD",
+      "n": 4,
+      "entries": 3,
+      "netSum": 3.4470196372188395
+    },
+    {
+      "ticker": "CVX",
+      "n": 3,
+      "entries": 2,
+      "netSum": 1.6356381100360187
+    },
+    {
+      "ticker": "CRWD",
+      "n": 1,
+      "entries": 1,
+      "netSum": 1.5
+    },
+    {
+      "ticker": "GE",
+      "n": 1,
+      "entries": 1,
+      "netSum": 1.5
+    },
+    {
+      "ticker": "NKE",
+      "n": 3,
+      "entries": 1,
+      "netSum": 1.5
+    },
+    {
+      "ticker": "NVDA",
+      "n": 1,
+      "entries": 1,
+      "netSum": 1.5
+    },
+    {
+      "ticker": "PANW",
+      "n": 1,
+      "entries": 1,
+      "netSum": 1.5
+    },
+    {
+      "ticker": "TGT",
+      "n": 3,
+      "entries": 3,
+      "netSum": 1.4357786873728013
+    },
+    {
+      "ticker": "FTNT",
+      "n": 2,
+      "entries": 2,
+      "netSum": 0.8372591006423948
+    },
+    {
+      "ticker": "NOW",
+      "n": 1,
+      "entries": 0,
+      "netSum": 0
+    },
+    {
+      "ticker": "SBUX",
+      "n": 1,
+      "entries": 0,
+      "netSum": 0
+    },
+    {
+      "ticker": "TSM",
+      "n": 2,
+      "entries": 0,
+      "netSum": 0
+    },
+    {
+      "ticker": "TXN",
+      "n": 1,
+      "entries": 0,
+      "netSum": 0
+    },
+    {
+      "ticker": "BA",
+      "n": 2,
+      "entries": 2,
+      "netSum": -1
+    }
+  ],
+  "checks": {
+    "min40": true,
+    "min12Tickers": true,
+    "min25Entries": true,
+    "positiveNetCI": false,
+    "positivePairedCI": false,
+    "top3Below50": true,
+    "sourceFullyCertified": false
+  },
+  "records": [
+    {
+      "ticker": "NVDA",
+      "signalDate": "2025-11-21",
+      "year": "2025",
+      "dates": [
+        "2025-11-24",
+        "2025-11-25"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 27
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 15,
+        "price": 179.3695,
+        "time": "2025-11-24T15:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 27
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "AVGO",
+      "signalDate": "2025-02-28",
+      "year": "2025",
+      "dates": [
+        "2025-03-03",
+        "2025-03-04"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 0
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 13,
+        "price": 195.43,
+        "time": "2025-03-03T15:35:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 43
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "TXN",
+      "signalDate": "2026-07-28",
+      "year": "2026",
+      "dates": [
+        "2026-07-29",
+        "2026-07-30"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 11
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "LRCX",
+      "signalDate": "2024-09-10",
+      "year": "2024",
+      "dates": [
+        "2024-09-11",
+        "2024-09-12"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 30
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 739.07,
+        "time": "2024-09-11T13:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 14
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "TSM",
+      "signalDate": "2025-11-21",
+      "year": "2025",
+      "dates": [
+        "2025-11-24",
+        "2025-11-25"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 2
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": 2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "TSM",
+      "signalDate": "2026-07-28",
+      "year": "2026",
+      "dates": [
+        "2026-07-29",
+        "2026-07-30"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 11
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "CSCO",
+      "signalDate": "2024-02-15",
+      "year": "2024",
+      "dates": [
+        "2024-02-16",
+        "2024-02-20"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.9641025641025647,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 15,
+        "price": 48.845,
+        "time": "2024-02-16T15:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 78
+      },
+      "entered": true,
+      "openGross": -0.9641025641025647,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "CSCO",
+      "signalDate": "2024-06-05",
+      "year": "2024",
+      "dates": [
+        "2024-06-06",
+        "2024-06-07"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.3261578604044302,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 4,
+        "price": 46.23,
+        "time": "2024-06-06T13:50:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.8436080467228879,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.3261578604044302,
+      "vwGross": -0.8436080467228879,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "PANW",
+      "signalDate": "2025-03-28",
+      "year": "2025",
+      "dates": [
+        "2025-03-31",
+        "2025-04-01"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 11
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 8,
+        "price": 168.14,
+        "time": "2025-03-31T14:10:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 154
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "CRWD",
+      "signalDate": "2026-01-16",
+      "year": "2026",
+      "dates": [
+        "2026-01-20",
+        "2026-01-21"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 83
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 12,
+        "price": 446.92,
+        "time": "2026-01-20T15:30:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 94
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "FTNT",
+      "signalDate": "2024-06-20",
+      "year": "2024",
+      "dates": [
+        "2024-06-21",
+        "2024-06-24"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.01716148961730113,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 5,
+        "price": 58.375,
+        "time": "2024-06-21T13:55:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.16274089935760516,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.01716148961730113,
+      "vwGross": -0.16274089935760516,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "FTNT",
+      "signalDate": "2024-08-02",
+      "year": "2024",
+      "dates": [
+        "2024-08-05",
+        "2024-08-06"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 0
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 14,
+        "price": 55.66,
+        "time": "2024-08-05T14:40:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 139
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "NOW",
+      "signalDate": "2025-11-04",
+      "year": "2025",
+      "dates": [
+        "2025-11-05",
+        "2025-11-06"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "ADBE",
+      "signalDate": "2025-07-02",
+      "year": "2025",
+      "dates": [
+        "2025-07-03",
+        "2025-07-07"
+      ],
+      "bars": [
+        42,
+        78
+      ],
+      "status": "UNKNOWN_INCOMPLETE"
+    },
+    {
+      "ticker": "ADBE",
+      "signalDate": "2026-03-20",
+      "year": "2026",
+      "dates": [
+        "2026-03-23",
+        "2026-03-24"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 5,
+        "price": 250.35,
+        "time": "2026-03-23T13:55:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 78
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "SNOW",
+      "signalDate": "2025-03-07",
+      "year": "2025",
+      "dates": [
+        "2025-03-10",
+        "2025-03-11"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 11
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 151.946,
+        "time": "2025-03-10T13:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 6
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "SNOW",
+      "signalDate": "2025-08-07",
+      "year": "2025",
+      "dates": [
+        "2025-08-08",
+        "2025-08-11"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 5
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "NFLX",
+      "signalDate": "2024-07-25",
+      "year": "2024",
+      "dates": [
+        "2024-07-26",
+        "2024-07-29"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 62
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "NFLX",
+      "signalDate": "2025-04-07",
+      "year": "2025",
+      "dates": [
+        "2025-04-08",
+        "2025-04-09"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 0
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "NFLX",
+      "signalDate": "2025-10-02",
+      "year": "2025",
+      "dates": [
+        "2025-10-03",
+        "2025-10-06"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.14506437768241343,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 22,
+        "price": 1155.97,
+        "time": "2025-10-03T15:20:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.6349645752052213,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.14506437768241343,
+      "vwGross": 0.6349645752052213,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "NFLX",
+      "signalDate": "2025-11-03",
+      "year": "2025",
+      "dates": [
+        "2025-11-04",
+        "2025-11-05"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 13,
+        "price": 1099.66,
+        "time": "2025-11-04T15:35:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 78
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "DIS",
+      "signalDate": "2024-06-28",
+      "year": "2024",
+      "dates": [
+        "2024-07-01",
+        "2024-07-02"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "DIS",
+      "signalDate": "2025-03-07",
+      "year": "2025",
+      "dates": [
+        "2025-03-10",
+        "2025-03-11"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 50
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 26,
+        "price": 103.41,
+        "time": "2025-03-10T15:40:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP_GAP",
+        "returnPct": -3.3362344067304983,
+        "exitBar": 78
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -3.3362344067304983,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "DIS",
+      "signalDate": "2025-08-06",
+      "year": "2025",
+      "dates": [
+        "2025-08-07",
+        "2025-08-08"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 23
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "DIS",
+      "signalDate": "2025-09-22",
+      "year": "2025",
+      "dates": [
+        "2025-09-23",
+        "2025-09-24"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.5406842758376218,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 7,
+        "price": 113.4794,
+        "time": "2025-09-23T14:05:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.04353213006059731,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.5406842758376218,
+      "vwGross": -0.04353213006059731,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "DIS",
+      "signalDate": "2026-02-03",
+      "year": "2026",
+      "dates": [
+        "2026-02-04",
+        "2026-02-05"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 7
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 105.11,
+        "time": "2026-02-04T14:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 10
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "DIS",
+      "signalDate": "2026-03-19",
+      "year": "2026",
+      "dates": [
+        "2026-03-20",
+        "2026-03-23"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -1.1005654281098565,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 99.76,
+        "time": "2026-03-20T13:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -1.8143544506816434,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -1.1005654281098565,
+      "vwGross": -1.8143544506816434,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "DIS",
+      "signalDate": "2026-06-26",
+      "year": "2026",
+      "dates": [
+        "2026-06-29",
+        "2026-06-30"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP_GAP",
+        "returnPct": -2.5875037609066287,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2.5875037609066287,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "TGT",
+      "signalDate": "2024-05-21",
+      "year": "2024",
+      "dates": [
+        "2024-05-22",
+        "2024-05-23"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 1
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 8,
+        "price": 143.11,
+        "time": "2024-05-22T14:10:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.9083921459017485,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 0.9083921459017485,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "TGT",
+      "signalDate": "2025-02-12",
+      "year": "2025",
+      "dates": [
+        "2025-02-13",
+        "2025-02-14"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.19987458849348716,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 7,
+        "price": 127.8,
+        "time": "2025-02-13T15:05:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.027386541471052794,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.19987458849348716,
+      "vwGross": 0.027386541471052794,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "TGT",
+      "signalDate": "2025-03-21",
+      "year": "2025",
+      "dates": [
+        "2025-03-24",
+        "2025-03-25"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 19
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 4,
+        "price": 106.255,
+        "time": "2025-03-24T13:50:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 73
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "WMT",
+      "signalDate": "2025-04-07",
+      "year": "2025",
+      "dates": [
+        "2025-04-08",
+        "2025-04-09"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 41
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 6,
+        "price": 86.57,
+        "time": "2025-04-08T14:00:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 37
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "WMT",
+      "signalDate": "2026-05-21",
+      "year": "2026",
+      "dates": [
+        "2026-05-22",
+        "2026-05-26"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 81
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 25,
+        "price": 120.545,
+        "time": "2026-05-22T15:35:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 125
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "PG",
+      "signalDate": "2024-07-30",
+      "year": "2024",
+      "dates": [
+        "2024-07-31",
+        "2024-08-01"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 110
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 4,
+        "price": 160.46,
+        "time": "2024-07-31T13:50:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 104
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "PG",
+      "signalDate": "2025-07-09",
+      "year": "2025",
+      "dates": [
+        "2025-07-10",
+        "2025-07-11"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.4374286801064997,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 5,
+        "price": 157.47,
+        "time": "2025-07-10T13:55:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.26671746999428203,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.4374286801064997,
+      "vwGross": -0.26671746999428203,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "PG",
+      "signalDate": "2025-11-06",
+      "year": "2025",
+      "dates": [
+        "2025-11-07",
+        "2025-11-10"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.9867301803334394,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 10,
+        "price": 147.4153,
+        "time": "2025-11-07T15:20:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 119
+      },
+      "entered": true,
+      "openGross": -0.9867301803334394,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "PG",
+      "signalDate": "2025-12-02",
+      "year": "2025",
+      "dates": [
+        "2025-12-03",
+        "2025-12-04"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.5541492782376478,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -0.5541492782376478,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "PG",
+      "signalDate": "2026-06-01",
+      "year": "2026",
+      "dates": [
+        "2026-06-02",
+        "2026-06-03"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.0641573994867417,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 13,
+        "price": 139.7281,
+        "time": "2026-06-02T14:35:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.3305705867323594,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.0641573994867417,
+      "vwGross": 0.3305705867323594,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "KO",
+      "signalDate": "2024-10-22",
+      "year": "2024",
+      "dates": [
+        "2024-10-23",
+        "2024-10-24"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 0
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 8,
+        "price": 68.09,
+        "time": "2024-10-23T14:10:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -1.1602291085328287,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": -1.1602291085328287,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "KO",
+      "signalDate": "2025-09-08",
+      "year": "2025",
+      "dates": [
+        "2025-09-09",
+        "2025-09-10"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.5783775767462362,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 28,
+        "price": 67.8,
+        "time": "2025-09-09T15:50:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.02949852507374562,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.5783775767462362,
+      "vwGross": 0.02949852507374562,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "KO",
+      "signalDate": "2025-09-19",
+      "year": "2025",
+      "dates": [
+        "2025-09-22",
+        "2025-09-23"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.6411707022704993,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 4,
+        "price": 66.4151,
+        "time": "2025-09-22T13:50:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.44402553033873193,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.6411707022704993,
+      "vwGross": 0.44402553033873193,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "PEP",
+      "signalDate": "2024-06-11",
+      "year": "2024",
+      "dates": [
+        "2024-06-12",
+        "2024-06-13"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 14,
+        "price": 164.81,
+        "time": "2024-06-12T14:40:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.8980037619076398,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -0.8980037619076398,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "PEP",
+      "signalDate": "2024-07-10",
+      "year": "2024",
+      "dates": [
+        "2024-07-11",
+        "2024-07-12"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 14
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": 2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "PEP",
+      "signalDate": "2026-05-18",
+      "year": "2026",
+      "dates": [
+        "2026-05-19",
+        "2026-05-20"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.5462660715475409,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 149.865,
+        "time": "2026-05-19T13:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.3836786441130502,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.5462660715475409,
+      "vwGross": -0.3836786441130502,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "MCD",
+      "signalDate": "2024-02-05",
+      "year": "2024",
+      "dates": [
+        "2024-02-06",
+        "2024-02-07"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 84
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 5,
+        "price": 283.3499,
+        "time": "2024-02-06T14:55:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 86
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "MCD",
+      "signalDate": "2024-03-14",
+      "year": "2024",
+      "dates": [
+        "2024-03-15",
+        "2024-03-18"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -1.170710940825892,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -1.170710940825892,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "MCD",
+      "signalDate": "2025-06-10",
+      "year": "2025",
+      "dates": [
+        "2025-06-11",
+        "2025-06-12"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 1.0162940255239672,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 9,
+        "price": 299.28,
+        "time": "2025-06-11T14:15:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 1.2964448008554008,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 1.0162940255239672,
+      "vwGross": 1.2964448008554008,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "MCD",
+      "signalDate": "2026-04-01",
+      "year": "2026",
+      "dates": [
+        "2026-04-02",
+        "2026-04-06"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.9549261806211851,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 15,
+        "price": 304.7302,
+        "time": "2026-04-02T14:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 1.6505748363634387,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.9549261806211851,
+      "vwGross": 1.6505748363634387,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "SBUX",
+      "signalDate": "2024-12-16",
+      "year": "2024",
+      "dates": [
+        "2024-12-17",
+        "2024-12-18"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP_GAP",
+        "returnPct": -2.0105365014514653,
+        "exitBar": 104
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2.0105365014514653,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "NKE",
+      "signalDate": "2024-10-31",
+      "year": "2024",
+      "dates": [
+        "2024-11-01",
+        "2024-11-04"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": 2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "NKE",
+      "signalDate": "2025-10-31",
+      "year": "2025",
+      "dates": [
+        "2025-11-03",
+        "2025-11-04"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 4
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "NKE",
+      "signalDate": "2026-08-27",
+      "year": "2026",
+      "dates": [
+        "2026-08-28",
+        "2026-08-31"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 69
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 5,
+        "price": 38.93,
+        "time": "2026-08-28T13:55:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 77
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "V",
+      "signalDate": "2024-04-11",
+      "year": "2024",
+      "dates": [
+        "2024-04-12",
+        "2024-04-15"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -1.5353344706181327,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 26,
+        "price": 276.29,
+        "time": "2024-04-12T15:40:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 130
+      },
+      "entered": true,
+      "openGross": -1.5353344706181327,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "V",
+      "signalDate": "2024-04-16",
+      "year": "2024",
+      "dates": [
+        "2024-04-17",
+        "2024-04-18"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.727977758267484,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -0.727977758267484,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "MA",
+      "signalDate": "2025-10-30",
+      "year": "2025",
+      "dates": [
+        "2025-10-31",
+        "2025-11-03"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -1.1159375511168412,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 17,
+        "price": 547.765,
+        "time": "2025-10-31T14:55:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.674559345704806,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -1.1159375511168412,
+      "vwGross": -0.674559345704806,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "MA",
+      "signalDate": "2026-01-21",
+      "year": "2026",
+      "dates": [
+        "2026-01-22",
+        "2026-01-23"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -1.1025462221300852,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -1.1025462221300852,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "GS",
+      "signalDate": "2026-09-15",
+      "year": "2026",
+      "dates": [
+        "2026-09-16",
+        "2026-09-17"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 59
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 13,
+        "price": 971,
+        "time": "2026-09-16T14:35:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 65
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "C",
+      "signalDate": "2024-08-02",
+      "year": "2024",
+      "dates": [
+        "2024-08-05",
+        "2024-08-06"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 20
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 54.295,
+        "time": "2024-08-05T13:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 20
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "C",
+      "signalDate": "2025-03-06",
+      "year": "2025",
+      "dates": [
+        "2025-03-07",
+        "2025-03-10"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 15
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 4,
+        "price": 70.15,
+        "time": "2025-03-07T14:50:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 15
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "WFC",
+      "signalDate": "2024-07-12",
+      "year": "2024",
+      "dates": [
+        "2024-07-15",
+        "2024-07-16"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 2
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 11,
+        "price": 57.805,
+        "time": "2024-07-15T14:25:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 88
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "WFC",
+      "signalDate": "2026-02-23",
+      "year": "2026",
+      "dates": [
+        "2026-02-24",
+        "2026-02-25"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 84.38,
+        "time": "2026-02-24T14:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 6
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "UNH",
+      "signalDate": "2024-01-12",
+      "year": "2024",
+      "dates": [
+        "2024-01-16",
+        "2024-01-17"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.23103507532507006,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 521.29,
+        "time": "2024-01-16T14:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.7001860768478307,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.23103507532507006,
+      "vwGross": 0.7001860768478307,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "UNH",
+      "signalDate": "2024-01-18",
+      "year": "2024",
+      "dates": [
+        "2024-01-19",
+        "2024-01-22"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 73
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "UNH",
+      "signalDate": "2024-03-01",
+      "year": "2024",
+      "dates": [
+        "2024-03-04",
+        "2024-03-05"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 111
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 4,
+        "price": 486.04,
+        "time": "2024-03-04T14:50:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 91
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "UNH",
+      "signalDate": "2026-09-09",
+      "year": "2026",
+      "dates": [
+        "2026-09-10",
+        "2026-09-11"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 77
+      },
+      "signal": {
+        "type": "SKIP_NO_TRIGGER"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "UNH",
+      "signalDate": "2026-09-18",
+      "year": "2026",
+      "dates": [
+        "2026-09-21",
+        "2026-09-22"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -1.3698992410017707,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -1.3698992410017707,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "ABBV",
+      "signalDate": "2025-04-07",
+      "year": "2025",
+      "dates": [
+        "2025-04-08",
+        "2025-04-09"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 21
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 187.265,
+        "time": "2025-04-08T13:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 21
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "ABBV",
+      "signalDate": "2026-01-16",
+      "year": "2026",
+      "dates": [
+        "2026-01-20",
+        "2026-01-21"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 87
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 211.83,
+        "time": "2026-01-20T14:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 86
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "ABBV",
+      "signalDate": "2026-03-20",
+      "year": "2026",
+      "dates": [
+        "2026-03-23",
+        "2026-03-24"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 12
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "ABBV",
+      "signalDate": "2026-04-22",
+      "year": "2026",
+      "dates": [
+        "2026-04-23",
+        "2026-04-24"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -1.1638895797065452,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 6,
+        "price": 202.655,
+        "time": "2026-04-23T14:00:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 78
+      },
+      "entered": true,
+      "openGross": -1.1638895797065452,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "MRK",
+      "signalDate": "2024-05-30",
+      "year": "2024",
+      "dates": [
+        "2024-05-31",
+        "2024-06-03"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 79
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 12,
+        "price": 125.85,
+        "time": "2024-05-31T14:30:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 79
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "MRK",
+      "signalDate": "2025-04-07",
+      "year": "2025",
+      "dates": [
+        "2025-04-08",
+        "2025-04-09"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 14
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 6,
+        "price": 82.56,
+        "time": "2025-04-08T14:00:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 17
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "PFE",
+      "signalDate": "2024-03-01",
+      "year": "2024",
+      "dates": [
+        "2024-03-04",
+        "2024-03-05"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 2
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 10,
+        "price": 26.055,
+        "time": "2024-03-04T15:20:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.09595087315295014,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": 0.09595087315295014,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "PFE",
+      "signalDate": "2024-04-26",
+      "year": "2024",
+      "dates": [
+        "2024-04-29",
+        "2024-04-30"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.19554165037152238,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 11,
+        "price": 25.78,
+        "time": "2024-04-29T14:25:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.6206361520558534,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.19554165037152238,
+      "vwGross": -0.6206361520558534,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "PFE",
+      "signalDate": "2024-10-29",
+      "year": "2024",
+      "dates": [
+        "2024-10-30",
+        "2024-10-31"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.1769911504424737,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 23,
+        "price": 28.365,
+        "time": "2024-10-30T15:25:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.22915564956812462,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.1769911504424737,
+      "vwGross": -0.22915564956812462,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "PFE",
+      "signalDate": "2026-05-05",
+      "year": "2026",
+      "dates": [
+        "2026-05-06",
+        "2026-05-07"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.4511278195488799,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 6,
+        "price": 26.545,
+        "time": "2026-05-06T14:00:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.2448672066302504,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.4511278195488799,
+      "vwGross": -0.2448672066302504,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "PFE",
+      "signalDate": "2026-06-18",
+      "year": "2026",
+      "dates": [
+        "2026-06-22",
+        "2026-06-23"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 18,
+        "price": 25.145,
+        "time": "2026-06-22T15:00:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -1.6901968582223148,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -1.6901968582223148,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "NOC",
+      "signalDate": "2024-10-30",
+      "year": "2024",
+      "dates": [
+        "2024-10-31",
+        "2024-11-01"
+      ],
+      "bars": [
+        76,
+        67
+      ],
+      "status": "UNKNOWN_INCOMPLETE"
+    },
+    {
+      "ticker": "NOC",
+      "signalDate": "2025-11-10",
+      "year": "2025",
+      "dates": [
+        "2025-11-11",
+        "2025-11-12"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.8872012349841141,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 7,
+        "price": 561.41,
+        "time": "2025-11-11T15:05:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.5058691508879276,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.8872012349841141,
+      "vwGross": -0.5058691508879276,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "NOC",
+      "signalDate": "2026-05-18",
+      "year": "2026",
+      "dates": [
+        "2026-05-19",
+        "2026-05-20"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.4058295155297431,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 7,
+        "price": 553.63,
+        "time": "2026-05-19T14:05:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.26371403283782513,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.4058295155297431,
+      "vwGross": -0.26371403283782513,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "GE",
+      "signalDate": "2025-12-10",
+      "year": "2025",
+      "dates": [
+        "2025-12-11",
+        "2025-12-12"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 45
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 282.87,
+        "time": "2025-12-11T14:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 64
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "HON",
+      "signalDate": "2025-09-04",
+      "year": "2025",
+      "dates": [
+        "2025-09-05",
+        "2025-09-08"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.10698669643687264,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 216.01,
+        "time": "2025-09-05T13:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -0.5833063284107154,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.10698669643687264,
+      "vwGross": -0.5833063284107154,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "HON",
+      "signalDate": "2025-09-17",
+      "year": "2025",
+      "dates": [
+        "2025-09-18",
+        "2025-09-19"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.8124689106284166,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 4,
+        "price": 211.89,
+        "time": "2025-09-18T13:50:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 92
+      },
+      "entered": true,
+      "openGross": -0.8124689106284166,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "HON",
+      "signalDate": "2025-09-29",
+      "year": "2025",
+      "dates": [
+        "2025-09-30",
+        "2025-10-01"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.5886575735821964,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 11,
+        "price": 209.675,
+        "time": "2025-09-30T14:25:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.24084893287230624,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.5886575735821964,
+      "vwGross": 0.24084893287230624,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "HON",
+      "signalDate": "2026-04-22",
+      "year": "2026",
+      "dates": [
+        "2026-04-23",
+        "2026-04-24"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 0
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 25,
+        "price": 215.875,
+        "time": "2026-04-23T15:35:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 79
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "DE",
+      "signalDate": "2024-02-13",
+      "year": "2024",
+      "dates": [
+        "2024-02-14",
+        "2024-02-15"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP_GAP",
+        "returnPct": -3.879191998431075,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 11,
+        "price": 380.885,
+        "time": "2024-02-14T15:25:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP_GAP",
+        "returnPct": -3.4905548918965135,
+        "exitBar": 78
+      },
+      "entered": true,
+      "openGross": -3.879191998431075,
+      "vwGross": -3.4905548918965135,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "DE",
+      "signalDate": "2025-07-17",
+      "year": "2025",
+      "dates": [
+        "2025-07-18",
+        "2025-07-21"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.7519999999999971,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 5,
+        "price": 501.45,
+        "time": "2025-07-18T13:55:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -1.0389869378801486,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.7519999999999971,
+      "vwGross": -1.0389869378801486,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "DE",
+      "signalDate": "2025-09-15",
+      "year": "2025",
+      "dates": [
+        "2025-09-16",
+        "2025-09-17"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.227567579063781,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -0.227567579063781,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "UPS",
+      "signalDate": "2024-12-04",
+      "year": "2024",
+      "dates": [
+        "2024-12-05",
+        "2024-12-06"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 88
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 25,
+        "price": 128.42,
+        "time": "2024-12-05T16:35:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 132
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "UPS",
+      "signalDate": "2025-01-13",
+      "year": "2025",
+      "dates": [
+        "2025-01-14",
+        "2025-01-15"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": 2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "UPS",
+      "signalDate": "2025-09-11",
+      "year": "2025",
+      "dates": [
+        "2025-09-12",
+        "2025-09-15"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.6738385151909276,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 6,
+        "price": 84.96,
+        "time": "2025-09-12T14:00:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": -1.1064030131826663,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": -0.6738385151909276,
+      "vwGross": -1.1064030131826663,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "UPS",
+      "signalDate": "2026-03-06",
+      "year": "2026",
+      "dates": [
+        "2026-03-09",
+        "2026-03-10"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 2
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "FDX",
+      "signalDate": "2024-12-23",
+      "year": "2024",
+      "dates": [
+        "2024-12-24",
+        "2024-12-26"
+      ],
+      "bars": [
+        42,
+        78
+      ],
+      "status": "UNKNOWN_INCOMPLETE"
+    },
+    {
+      "ticker": "FDX",
+      "signalDate": "2025-01-30",
+      "year": "2025",
+      "dates": [
+        "2025-01-31",
+        "2025-02-03"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 64
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 270.295,
+        "time": "2025-01-31T14:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 17
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "FDX",
+      "signalDate": "2026-06-24",
+      "year": "2026",
+      "dates": [
+        "2026-06-25",
+        "2026-06-26"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 2
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": 2,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "BA",
+      "signalDate": "2024-10-01",
+      "year": "2024",
+      "dates": [
+        "2024-10-02",
+        "2024-10-03"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 154
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 5,
+        "price": 154.095,
+        "time": "2024-10-02T13:55:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 91
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "BA",
+      "signalDate": "2024-11-06",
+      "year": "2024",
+      "dates": [
+        "2024-11-07",
+        "2024-11-08"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 15
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 3,
+        "price": 149.43,
+        "time": "2024-11-07T14:45:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 17
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "CVX",
+      "signalDate": "2024-01-18",
+      "year": "2024",
+      "dates": [
+        "2024-01-19",
+        "2024-01-22"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.4370198068654352,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 7,
+        "price": 141.59,
+        "time": "2024-01-19T15:05:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.6356381100360187,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.4370198068654352,
+      "vwGross": 0.6356381100360187,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "CVX",
+      "signalDate": "2024-06-12",
+      "year": "2024",
+      "dates": [
+        "2024-06-13",
+        "2024-06-14"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": -0.8190860040304337,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "SKIP_AFTER_NOON"
+      },
+      "vwap": null,
+      "entered": false,
+      "openGross": -0.8190860040304337,
+      "vwGross": 0,
+      "win": false,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "CVX",
+      "signalDate": "2024-09-10",
+      "year": "2024",
+      "dates": [
+        "2024-09-11",
+        "2024-09-12"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 15
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 24,
+        "price": 136.635,
+        "time": "2024-09-11T15:30:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 120
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": 2,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "SLB",
+      "signalDate": "2024-01-10",
+      "year": "2024",
+      "dates": [
+        "2024-01-11",
+        "2024-01-12"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET_GAP",
+        "returnPct": 2.1145555327448218,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 12,
+        "price": 48.73,
+        "time": "2024-01-11T15:30:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET_GAP",
+        "returnPct": 2.072645187769351,
+        "exitBar": 78
+      },
+      "entered": true,
+      "openGross": 2.1145555327448218,
+      "vwGross": 2.072645187769351,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "SLB",
+      "signalDate": "2024-01-17",
+      "year": "2024",
+      "dates": [
+        "2024-01-18",
+        "2024-01-19"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 71
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 8,
+        "price": 48.3,
+        "time": "2024-01-18T15:10:00.000+0000"
+      },
+      "vwap": {
+        "status": "TARGET_GAP",
+        "returnPct": 2.650103519668745,
+        "exitBar": 78
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 2.650103519668745,
+      "win": true,
+      "stop": false,
+      "timeout": false
+    },
+    {
+      "ticker": "COP",
+      "signalDate": "2024-05-15",
+      "year": "2024",
+      "dates": [
+        "2024-05-16",
+        "2024-05-17"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 1.0838420331381604,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 8,
+        "price": 120.8,
+        "time": "2024-05-16T14:10:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.7533112582781332,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 1.0838420331381604,
+      "vwGross": 0.7533112582781332,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "COP",
+      "signalDate": "2024-08-01",
+      "year": "2024",
+      "dates": [
+        "2024-08-02",
+        "2024-08-05"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 13
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 4,
+        "price": 107.53,
+        "time": "2024-08-02T13:50:00.000+0000"
+      },
+      "vwap": {
+        "status": "STOP",
+        "returnPct": -2,
+        "exitBar": 15
+      },
+      "entered": true,
+      "openGross": -2,
+      "vwGross": -2,
+      "win": false,
+      "stop": true,
+      "timeout": false
+    },
+    {
+      "ticker": "COP",
+      "signalDate": "2025-11-06",
+      "year": "2025",
+      "dates": [
+        "2025-11-07",
+        "2025-11-10"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TARGET",
+        "returnPct": 2,
+        "exitBar": 78
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 6,
+        "price": 87.335,
+        "time": "2025-11-07T15:00:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 1.0247896032518522,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 2,
+      "vwGross": 1.0247896032518522,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    },
+    {
+      "ticker": "COP",
+      "signalDate": "2026-06-15",
+      "year": "2026",
+      "dates": [
+        "2026-06-16",
+        "2026-06-17"
+      ],
+      "bars": [
+        78,
+        78
+      ],
+      "status": "EVALUABLE",
+      "open": {
+        "status": "TIMEOUT",
+        "returnPct": 0.9348339081502788,
+        "exitBar": 155
+      },
+      "signal": {
+        "type": "ENTRY",
+        "index": 10,
+        "price": 110.615,
+        "time": "2026-06-16T14:20:00.000+0000"
+      },
+      "vwap": {
+        "status": "TIMEOUT",
+        "returnPct": 0.5379017312299395,
+        "exitBar": 155
+      },
+      "entered": true,
+      "openGross": 0.9348339081502788,
+      "vwGross": 0.5379017312299395,
+      "win": false,
+      "stop": false,
+      "timeout": true
+    }
+  ]
+}
