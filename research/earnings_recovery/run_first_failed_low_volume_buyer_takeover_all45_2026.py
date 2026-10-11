@@ -124,14 +124,33 @@ def run():
     "source_bar_count":len(intraday[t]),"incomplete_session_days":issues}
   if day not in g or not prior:
    case["state"]="NO_REACTION_DAY_OR_PRIOR_CLOSE";out.append(case);continue
-  before=prior[-1];close=before[4];case["pre_earnings_previous_close_day"]=before[0];case["pre_earnings_previous_close"]=close
+  # Avoid hindsight corporate-action adjustment in Webull DAILY history.
+  # As-of reaction-session start, the last observed FULL 5m RTH previous-day CLOSE is known.
+  before=prior[-1]
+  prior_days=[d for d in g if d<day and d not in issues]
+  if not prior_days:
+   case["state"]="MISSING_PRIOR_COMPLETE_5MIN_CLOSE";out.append(case);continue
+  lastprior=prior_days[-1]
+  rawprior=g[lastprior][-1]["c"]
+  close=rawprior
+  case["pre_earnings_previous_close_day"]=lastprior
+  case["pre_earnings_previous_close"]=close
+  case["source_daily_adjusted_prior_close"]=before[4]
   case["five_min_reaction_day_closing_price"]=g[day][-1]["c"]
   case["daily_reaction_day_close"]=next((r[4] for r in daily[t] if r[0]==day),None)
   if day in issues or any(d in issues for d in list(g)[list(g).index(day):list(g).index(day)+3]):
    case["state"]="INCOMPLETE_RTH_BARS";out.append(case);continue
-  if case["daily_reaction_day_close"] is None or abs(case["daily_reaction_day_close"]/g[day][-1]["c"]-1)>.01:
-   case["state"]="HISTORICAL_DAILY_5MIN_PRICE_BASIS_MISMATCH";out.append(case);continue
+  if case["daily_reaction_day_close"] is None:
+   case["state"]="NO_DAILY_CROSSCHECK";out.append(case);continue
+  ratio_pre=before[4]/rawprior
+  ratio_day=case["daily_reaction_day_close"]/g[day][-1]["c"]
+  case["historical_daily_corporate_action_adjustment_pct"]=round((ratio_pre-1)*100,4)
+  case["adjustment_basis_ratio_diff_ppt"]=round(abs(ratio_pre-ratio_day)*100,5)
+  if abs(ratio_pre-ratio_day)>.005:
+   case["state"]="INCONSISTENT_CORPORATE_ACTION_ADJUSTMENT";out.append(case);continue
   base=100*(g[day][-1]["c"]/close-1);case["actual_session_close_reaction_pct"]=round(base,4)
+  if e.get("source_close_reaction_pct") is not None and abs(base-e["source_close_reaction_pct"])>1.0:
+   case["state"]="SOURCE_REACTION_CLOSE_MISMATCH";out.append(case);continue
   gate=selloff_gate(g[day],close);case["gate"]=gate;case["state"]=gate["state"]
   if gate["state"]!="ELIGIBLE_GATE":out.append(case);continue
   i=gate["initial_bar_index"]
