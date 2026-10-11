@@ -1,0 +1,264 @@
+{
+  "id": "ah_release_6pair_frozen_disclosure_contrast_2026-10-11",
+  "status": "EXPLORATORY_FALSIFICATION_OBSERVED_OUTCOMES_UNBLINDED",
+  "method": "Previously reviewed 12 original afterhours issuer releases; six company-disjoint same-year and initial-price-drop paired D4 stock winners/control nonwinners. Exact paired sign test on discordants. Counts not price surprise or earnings tone delta.",
+  "releaseCoverage": 12,
+  "totalReleases": 12,
+  "tests": {
+    "explicit_demand_concerns": {
+      "label": "hypothesis_no_concern_when_winner",
+      "matchedPairs": 6,
+      "winnerOnly": 0,
+      "failureOnly": 0,
+      "both": 0,
+      "neither": 6,
+      "unknown": 0,
+      "winnerFlagTotal": 0,
+      "nonwinnerFlagTotal": 0,
+      "unfavorableDiscordant": 0,
+      "favorableDiscordant": 0,
+      "exactTwoSidedDiscordantP": null
+    },
+    "explicit_material_external_constraint": {
+      "label": "hypothesis_no_constraint_when_winner",
+      "matchedPairs": 6,
+      "winnerOnly": 0,
+      "failureOnly": 0,
+      "both": 0,
+      "neither": 6,
+      "unknown": 0,
+      "winnerFlagTotal": 0,
+      "nonwinnerFlagTotal": 0,
+      "unfavorableDiscordant": 0,
+      "favorableDiscordant": 0,
+      "exactTwoSidedDiscordantP": null
+    },
+    "outlook_direction": {
+      "label": "prior_failed_proxy_negative_control",
+      "matchedPairs": 6,
+      "winnerOnly": 0,
+      "failureOnly": 0,
+      "both": 0,
+      "neither": 6,
+      "unknown": 0,
+      "winnerFlagTotal": 0,
+      "nonwinnerFlagTotal": 0,
+      "unfavorableDiscordant": 0,
+      "favorableDiscordant": 0,
+      "exactTwoSidedDiscordantP": null
+    },
+    "identified_oneoff_charge": {
+      "label": "descriptive_only_no_prior_direction",
+      "matchedPairs": 6,
+      "winnerOnly": 0,
+      "failureOnly": 0,
+      "both": 0,
+      "neither": 6,
+      "unknown": 0,
+      "winnerFlagTotal": 0,
+      "nonwinnerFlagTotal": 0,
+      "unfavorableDiscordant": 0,
+      "favorableDiscordant": 0,
+      "exactTwoSidedDiscordantP": null
+    }
+  },
+  "analystForwardFiscalEPSPreVsD3Coverage": 0,
+  "conferenceCallPriorToneComparisonCoverage": 0,
+  "actualOptionExecutionQuotesCoverage": 0,
+  "newsSurprisePriorMgmtQuarterlyNumericComparisonsComplete": false,
+  "externalEventSpecificWarningsHaveDirectExcerptsOnly": true,
+  "rows": [
+    {
+      "pair": 1,
+      "winner": "AMAT|2025-05-16",
+      "nonwinner": "OKE|2025-08-05",
+      "initialSelloffGapPp": 0.07972999999999963,
+      "flags": {
+        "explicit_demand_concerns": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "explicit_material_external_constraint": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "outlook_direction": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "identified_oneoff_charge": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        }
+      },
+      "originalSourceUrls": [
+        "https://www.sec.gov/Archives/edgar/data/6951/000000695125000017/exhibit991q22025earningsre.htm",
+        "https://www.sec.gov/Archives/edgar/data/1039684/000103968425000110/okeq22025earningsrelease.htm"
+      ]
+    },
+    {
+      "pair": 2,
+      "winner": "LEN|2025-06-18",
+      "nonwinner": "CPRT|2025-11-24",
+      "initialSelloffGapPp": 0.4091899999999997,
+      "flags": {
+        "explicit_demand_concerns": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "explicit_material_external_constraint": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "outlook_direction": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "identified_oneoff_charge": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        }
+      },
+      "originalSourceUrls": [
+        "https://investors.lennar.com/press-releases/2025/06-16-2025-224524472",
+        "https://www.sec.gov/Archives/edgar/data/900075/000119312525289803/cprt-ex99_1.htm"
+      ]
+    },
+    {
+      "pair": 3,
+      "winner": "NEM|2025-10-24",
+      "nonwinner": "FTNT|2025-11-06",
+      "initialSelloffGapPp": 0.10693000000000019,
+      "flags": {
+        "explicit_demand_concerns": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "explicit_material_external_constraint": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "outlook_direction": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "identified_oneoff_charge": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        }
+      },
+      "originalSourceUrls": [
+        "https://investors.newmont.com/investors/news-release/news-details/2025/Newmont-Reports-Third-Quarter-2025-Results-and-Improves-2025-Cost--Capital-Guidance/default.aspx",
+        "https://fortinet.gcs-web.com/news-releases/news-release-details/fortinet-reports-third-quarter-2025-financial-results/"
+      ]
+    },
+    {
+      "pair": 4,
+      "winner": "OKE|2025-04-30",
+      "nonwinner": "MPWR|2025-10-31",
+      "initialSelloffGapPp": 1.10372,
+      "flags": {
+        "explicit_demand_concerns": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "explicit_material_external_constraint": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "outlook_direction": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "identified_oneoff_charge": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        }
+      },
+      "originalSourceUrls": [
+        "https://www.sec.gov/Archives/edgar/data/1039684/000103968425000058/okeq12025earningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/1280452/000143774925032411/ex_854756.htm"
+      ]
+    },
+    {
+      "pair": 5,
+      "winner": "CPRT|2024-09-05",
+      "nonwinner": "LEN|2024-12-19",
+      "initialSelloffGapPp": 1.5129400000000004,
+      "flags": {
+        "explicit_demand_concerns": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "explicit_material_external_constraint": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "outlook_direction": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "identified_oneoff_charge": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        }
+      },
+      "originalSourceUrls": [
+        "https://www.sec.gov/Archives/edgar/data/900075/000090007524000019/cprt07312024ex99-1.htm",
+        "https://investors.lennar.com/press-releases/2024/12-18-2024-213041323"
+      ]
+    },
+    {
+      "pair": 6,
+      "winner": "AMAT|2025-08-15",
+      "nonwinner": "CPRT|2025-05-23",
+      "initialSelloffGapPp": 2.5465600000000013,
+      "flags": {
+        "explicit_demand_concerns": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "explicit_material_external_constraint": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "outlook_direction": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "identified_oneoff_charge": {
+          "winnerHas": false,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        }
+      },
+      "originalSourceUrls": [
+        "https://investors.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2025-results/",
+        "https://www.sec.gov/Archives/edgar/data/900075/000162828025027262/cprt4302025ex99-1.htm"
+      ]
+    }
+  ]
+}
