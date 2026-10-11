@@ -1,0 +1,35 @@
+# Review of neglected recovery edge: smaller bounce and an earlier as-of-entry low
+2026-10-11. **VERDICT: NEAR-LOW LIMIT ENTRY NOT SUPPORTED; D4 +3% STOCK REBOUND AFTER SECOND LOW = CONDITIONAL EXPLORATORY LEAD, NOT AN ESTABLISHED OPTIONS EDGE.**
+
+## What was overlooked
+We largely looked for full price recovery, +5% before -5%, or late buyer-confirmation candles; actual user objective is a profitable **early partial rebound** near a bottom still forming. It is trivial to profit if one can know the future lowest tick; it is NOT trivial to know this BEFORE buying. So we froze a BUY-LIMIT near an *observed earlier* low, accounted for non-fills and compared opening baselines on the same as-of eligible events. No hindsight trough was traded.
+
+**Prior review:** `research/prior_work/earnings_near_bottom_asof_low_retest_limit_2026-10-11.md`
+**Pre-committed protocol:** `research/earnings_recovery/frozen_asof_near_low_limit_retest_ah_v1_2026-10-11.md`
+**Reproducer:** `research/earnings_recovery/run_asof_near_low_limit_ah_v1.mjs`
+**All 91 event result JSON:** `research/earnings_recovery/asof_near_low_limit_ah_v1_results_2026-10-11.json`
+**Additional posthoc comparison and first exploratory issuer-cluster interval:** `research/earnings_recovery/asof_near_low_limit_ah_v1_posthoc_d4_dip_vs_nodip_2026-10-11.json`
+
+## v1 frozen result: objective near-low retest
+Among **91 previously selected AFTER-HOURS quality company earnings selloffs**, **54** had already made a lower low than D0 intraday low on any D1–D3. At D3 close calculate observed L=min(D1..D3 LOWS). Place buy limit at 101% of L, live D4–D6, then cancel if no fill. Fill model: if actual next open<=limit buy at open, else if daily intraday low<limit buy at limit (optimistic queue assumption). For intraday limit fills, only same-bar STOP can count after fill; not same-bar TARGET because its high might precede entry. +3% gain vs -5% stop from entry; 20 entry-inclusive daily RTH bars, stop first, gaps fill at actual open, illustrative 20bp stock trade roundtrip cost. 
+
+- **35 of 54 filled**, 19/54 missed; 33 fills on D4, 2 on D6; 21 filled at opening, 14 intraday touch proxies.
+- Of 35 fills: **24 +3% targets (68.6%), 11 -5% stops**, 0 timeout; mean gross **+0.6202%**, after 20bp cost **+0.4202% per entered stock trade**, or +0.1616% per ALL 91 AH initial events (skipped=0).
+- But exact same 35 trades compared with **D6 market opening**: limit +0.6202% gross versus D6 -0.0917% gross; paired difference **+0.712 percentage points**, BELOW precommitted +0.75pp gate. It is not robust by company group: original 28 limit trades +0.6824% after illustrative costs, separate-company 7 limit trades **-0.6286%**.
+- Across ALL 54 eligible known-by-D3 events, the simpler immediate **D4 OPEN** stock entry produced **38 +3% targets, 16 -5% stops**, mean **+0.5683% GROSS, +0.3683% net per eligible trade**, or +0.2186% net per all 91. That exceeds the limit strategy's **+0.2724% net per eligible event** because 19 limit orders never filled. The passive limit rule therefore **fails to improve opportunity-level return vs buying at D4**, despite superficially positive filled-trade outcomes. This is classic fill-selection tradeoff.
+- D6 opening on same 54 eligible events: 33 targets/20 stops/1 timeout, mean -0.05% gross and -0.25% after hypothetical cost. Paired D4-D6 mean advantage **+0.6183 percentage points**; issuer-cluster bootstrap exploratory 95% interval **[-0.34pp,+1.59pp]** crosses zero, NOT proven.
+- D4 early-secondary-low entry group by company set: original41 -> 28 targets/13 stops, net +0.1689%; disjoint-company13 -> 10 targets/3 stops, net +0.9974%. Both positive but only 13 in disjoint holdout and source outcomes previously observed. By event year, however D4 net **2023 -0.379% (6/10 targets)**; **2024 +0.483% (11/15)**; **2025 +0.242% (13/19)**; **2026 +1.183% (8/10)**. The most recent group drives optimism; 2023 negative.
+- D4 versus no-early-dip D4 is an unpreregistered posthoc diagnostic. Early-dip 54 D4 net mean +0.3683%; no-early-dip37 D4 net mean **-1.0085%**; contrast +1.377pp but issuer-cluster bootstrap interval **[-0.69pp,+3.60pp]**, not independently significant or stable. In original-company set the no-dip D4 mean is +0.4784%, *better* than early-dip D4 +0.1689%, while disjoint company group is reversed; do not call the dip condition a validated predictive discriminator.
+- Entire 91 AH buying at D4 regardless of early dip: 58 targets,31 stops,2 timeouts, mean after hypothetical cost **-0.1915%**. This is evidence against universal buy-the-dip. ALL events D6 mean net -0.1079% under this +3/-5 barrier.
+
+## Why this is an actual research lead, not a validated strategy
+- The result establishes that **some early smaller rebounds were tradeable from a known entry time**, not merely a retrospective recovery at an unknown bottom. The observed 70.4% D4 target-first among the 54 selected early-secondary-low AH cases is mathematically above the 62.5% before-cost breakeven target fraction for +3/-5 (ignoring any gap overshoots), but the sample is small, exposure-biased, and includes years with losses; after costs +0.3683% stock mean, which can vanish in REAL OPTION bid/ask, IV crush and theta.
+- The actual +1% observed-low limit entry failed promotion consistency. Do NOT optimize lower-low percent, D-day, entry tolerance, target, stop, volume, RSI, or DTE on these exposed same events.
+- This underlying +3% STOCK move is NOT an options profit expectation: the free options study `affordable_otm_tradebar_pilot_results_2026-10-10.md` includes QCOM day3 a +66% **async print proxy** but multiple -60% to -70% outcomes and missing quote/timing. The 2024–2025 100-event option EOD bid-ask pilot had only 20/400 quote-matched windows, had negative median -39% even among matched, and is not an executable P&L sample.
+- A lot of the data represent surviving contemporary stock universes, adjusted OHLC without precise RTH actual order queue, and known outcomes repeatedly explored. An independent genuinely unseen AH issuer/quarter cohort with correct as-of financials and release time must predeclare the D4 fixed rule and +3/-5 risk, no cherry-picking, then observe a stable incremental edge vs time-matched market/sector and baseline.
+- An options-specific follow-up should check expected premium return after 1%,2%,3% underlying movement at as-of IV and delta, spread, DTE and an option-premium stop, not wait for full pre-earnings recovery. However no real option edge may be claimed absent actual matched execution quotes.
+
+## Explicit status
+Near-trough as-of limit v1: **FAILED predeclared validation gates / RESEARCH ONLY**.
+D4 after early secondary low and +3% target: **POSTHOC LEAD for independent registration; not promoted**.
+No scanner, user automated task, execution rule or buy/sell decision changed.
