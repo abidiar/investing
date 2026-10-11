@@ -15,7 +15,7 @@ for(const file of paths){
  if(!fs.existsSync(root+file)) continue;
  const obj=read(file);
  let arr=obj.probes||obj.cases||obj.observations;
- if(!arr && obj.records) arr=obj.records.map(([ticker,occ,entry,exit,first,volume,last,exitVolume])=>({ticker,occ,entry,exit,first,volume,last,exitVolume}));
+ if(!arr && obj.records) arr=obj.records.map(z=>Array.isArray(z)?{ticker:z[0],occ:z[1],entry:z[2],exit:z[3],first:z[4],volume:z[5],last:z[6],exitVolume:z[7]}:z);
  for(const z of arr||[]){
   const k=key(z);if(!src.entries.some(c=>key(c)===k))continue;
   const entryPrice=z.firstTrade!==undefined?z.firstTrade:(z.firstTradePrice!==undefined?z.firstTradePrice:(z.first!==undefined?z.first:null));
