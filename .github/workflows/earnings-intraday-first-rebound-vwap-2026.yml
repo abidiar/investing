@@ -1,0 +1,39 @@
+name: Earnings Intraday Early Rebound Frozen 2026 Five-Minute Test
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/earnings-intraday-first-rebound-vwap-2026.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: earnings-vwap-first-rebound-2026
+  cancel-in-progress: false
+jobs:
+  historical:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify frozen event and rule definitions predate outcome bars
+        run: |
+          test -f research/earnings_recovery/frozen_2026_intraday_early_rebound_vwap_test_2026-10-10.md
+          test -f research/earnings_recovery/frozen_jul_sep2026_earnings_selloff_discovery_2026-10-10.json
+          git log -1 --format="%h %s" -- research/earnings_recovery/frozen_2026_intraday_early_rebound_vwap_test_2026-10-10.md
+      - name: Test first as-of-session VWAP higher-low entry versus day1 and day3 10am
+        run: python research/earnings_recovery/run_frozen_2026_early_intraday_vwap_rebound_research.py
+      - name: Archive every selected no-trade and resulting barrier path
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/earnings_recovery/early_2026_frozen_fivemin_vwap_rebound_actual_results_2026-10-10.json
+          git commit -m 'Save 2026 historical first intraday VWAP repair signal and per-event no-lookahead stock outcomes [skip ci]'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            git push && break
+            sleep 2
+          done
