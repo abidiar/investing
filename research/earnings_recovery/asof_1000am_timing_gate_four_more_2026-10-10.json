@@ -1,0 +1,65 @@
+{
+  "scope": "Four more chronologically preselected 2025 prior EOD quote candidate contracts; diagnostic only",
+  "cases": [
+    {
+      "ticker": "DOW",
+      "occ": "O:DOW250321C00042500",
+      "entry": "2025-02-19",
+      "status": "OK",
+      "before1000": 5,
+      "firstAfter": {
+        "et": "10:00",
+        "price": 0.15,
+        "volume": 10
+      },
+      "barCount": 13,
+      "firstDay": {
+        "et": "09:50",
+        "price": 0.16
+      }
+    },
+    {
+      "ticker": "HPE",
+      "occ": "O:HPE250417C00017000",
+      "entry": "2025-03-18",
+      "status": "OK",
+      "before1000": 0,
+      "firstAfter": {
+        "et": "10:15",
+        "price": 0.27,
+        "volume": 2
+      },
+      "barCount": 8,
+      "firstDay": {
+        "et": "10:15",
+        "price": 0.27
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "occ": "O:AMAT250620C00195000",
+      "entry": "2025-05-21",
+      "status": "OK",
+      "before1000": 7,
+      "firstAfter": null,
+      "barCount": 10,
+      "firstDay": {
+        "et": "09:35",
+        "price": 0.31
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "occ": "O:ADBE250718C00455000",
+      "entry": "2025-06-18",
+      "status": "OK",
+      "before1000": 0,
+      "firstAfter": null,
+      "barCount": 3,
+      "firstDay": {
+        "et": "10:35",
+        "price": 0.35
+      }
+    }
+  ]
+}
