@@ -23,7 +23,11 @@ for(const file of paths){
   const exitPrice=z.exitTrade!==undefined?z.exitTrade:(z.exitLastTradePrice!==undefined?z.exitLastTradePrice:(z.last!==undefined?z.last:null));
   const exitVol=z.exitVolume!==undefined?z.exitVolume:(z.exitContractVolume!==undefined?z.exitContractVolume:null);
   const status=(z.status || 'OK').slice(0,120);
-  observations.set(k,{provider_status:status,entry_option_first_trade:entryPrice,entry_option_volume:entryVol,exit_option_last_trade:exitPrice,exit_option_volume:exitVol,source_file:file});
+  const incoming={provider_status:status,entry_option_first_trade:entryPrice,entry_option_volume:entryVol,exit_option_last_trade:exitPrice,exit_option_volume:exitVol,source_file:file};
+  const prev=observations.get(k);
+  const quality=x=>x?.provider_status==='OK'?3:x?.provider_status?.includes('EMPTY')?2:x?.provider_status?.includes('ENTITLED')?1:0;
+  if(!prev || quality(incoming)>quality(prev) || (quality(incoming)===quality(prev) && file>prev.source_file))
+    observations.set(k,incoming);
  }
 }
 const rows=src.entries.map(c=>{
