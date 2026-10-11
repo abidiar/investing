@@ -1,0 +1,32 @@
+{
+  "observations": [
+    {
+      "ticker": "DAL",
+      "occ": "O:DAL240920C00052500",
+      "entry": "2024-07-17",
+      "exit": "2024-07-24",
+      "status": "ERROR"
+    },
+    {
+      "ticker": "HAL",
+      "occ": "O:HAL240823C00039000",
+      "entry": "2024-07-24",
+      "exit": "2024-08-02",
+      "status": "NOT_ENTITLED"
+    },
+    {
+      "ticker": "CPRT",
+      "occ": "O:CPRT241115C00057500",
+      "entry": "2024-09-16",
+      "exit": "2024-10-08",
+      "status": "NOT_ENTITLED"
+    },
+    {
+      "ticker": "HPE",
+      "occ": "O:HPE241115C00019000",
+      "entry": "2024-09-16",
+      "exit": "2024-09-17",
+      "status": "RATE_LIMIT"
+    }
+  ]
+}
