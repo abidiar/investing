@@ -1,0 +1,38 @@
+{
+  "source": "Massive historical actual option price volume",
+  "observations": [
+    {
+      "ticker": "QCOM",
+      "occ": "O:QCOM251017C00190000",
+      "entry": "2025-08-13",
+      "exit": "2025-09-05",
+      "status": "OK",
+      "first": null,
+      "volume": 0,
+      "last": 0.21,
+      "exitVolume": 2,
+      "records": 16
+    },
+    {
+      "ticker": "AMAT",
+      "occ": "O:AMAT250620C00195000",
+      "entry": "2025-05-21",
+      "exit": "2025-05-30",
+      "status": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+    },
+    {
+      "ticker": "FTNT",
+      "occ": "O:FTNT250912C00088000",
+      "entry": "2025-08-12",
+      "exit": "2025-08-12",
+      "status": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+    },
+    {
+      "ticker": "ZBH",
+      "occ": "O:ZBH251219C00110000",
+      "entry": "2025-11-13",
+      "exit": "2025-11-24",
+      "status": "Warning [RATE_LIMIT]: You've hit the rate limit for your current plan. Slow down or upgrade at https://massive.com/pricing"
+    }
+  ]
+}
