@@ -1,0 +1,743 @@
+{
+  "experiment": "quality164_asof_D3_sector_risk_factors_v1_2026-10-11",
+  "types": {
+    "fullRecovery60": {
+      "all": {
+        "n": 34,
+        "byYear": {
+          "2023": 11,
+          "2024": 9,
+          "2025": 11,
+          "2026": 3
+        },
+        "bySector": {
+          "XLC": 1,
+          "XLE": 1,
+          "XLF": 1,
+          "XLI": 6,
+          "XLK": 17,
+          "XLP": 2,
+          "XLV": 5,
+          "XLY": 1
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 34,
+            "caseHigher": 26,
+            "caseLower": 8,
+            "tied": 0,
+            "median": 2.513743441342658,
+            "p": 0.0029350556433200836
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 34,
+            "caseHigher": 23,
+            "caseLower": 11,
+            "tied": 0,
+            "median": 1.7396805054704145,
+            "p": 0.05761267291381955
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 34,
+            "caseHigher": 18,
+            "caseLower": 15,
+            "tied": 1,
+            "median": 0.02963781177256486,
+            "p": 0.7283324808813632
+          },
+          "preSector20Pct": {
+            "n": 34,
+            "caseHigher": 20,
+            "caseLower": 13,
+            "tied": 1,
+            "median": 0.9616282866652781,
+            "p": 0.296206368599087
+          },
+          "sectorD0ToD3Pct": {
+            "n": 34,
+            "caseHigher": 19,
+            "caseLower": 14,
+            "tied": 1,
+            "median": 0.4318732225377153,
+            "p": 0.48685024166479707
+          }
+        }
+      },
+      "AH": {
+        "n": 20,
+        "byYear": {
+          "2023": 5,
+          "2024": 5,
+          "2025": 9,
+          "2026": 1
+        },
+        "bySector": {
+          "XLK": 17,
+          "XLV": 2,
+          "XLY": 1
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 20,
+            "caseHigher": 16,
+            "caseLower": 4,
+            "tied": 0,
+            "median": 3.1015574138122393,
+            "p": 0.01181793212890625
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 20,
+            "caseHigher": 12,
+            "caseLower": 8,
+            "tied": 0,
+            "median": 1.2236786967704083,
+            "p": 0.5034446716308594
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 20,
+            "caseHigher": 10,
+            "caseLower": 10,
+            "tied": 0,
+            "median": 0.009103145331723628,
+            "p": 1
+          },
+          "preSector20Pct": {
+            "n": 20,
+            "caseHigher": 11,
+            "caseLower": 9,
+            "tied": 0,
+            "median": 0.5588577968592912,
+            "p": 0.8238029479980469
+          },
+          "sectorD0ToD3Pct": {
+            "n": 20,
+            "caseHigher": 13,
+            "caseLower": 7,
+            "tied": 0,
+            "median": 1.2587378906424418,
+            "p": 0.26317596435546875
+          }
+        }
+      },
+      "BMO": {
+        "n": 14,
+        "byYear": {
+          "2023": 6,
+          "2024": 4,
+          "2025": 2,
+          "2026": 2
+        },
+        "bySector": {
+          "XLC": 1,
+          "XLE": 1,
+          "XLF": 1,
+          "XLI": 6,
+          "XLP": 2,
+          "XLV": 3
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 14,
+            "caseHigher": 10,
+            "caseLower": 4,
+            "tied": 0,
+            "median": 0.9894781811063571,
+            "p": 0.1795654296875
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 14,
+            "caseHigher": 11,
+            "caseLower": 3,
+            "tied": 0,
+            "median": 1.9665861548145092,
+            "p": 0.057373046875
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 14,
+            "caseHigher": 8,
+            "caseLower": 5,
+            "tied": 1,
+            "median": 0.02963781177256486,
+            "p": 0.5810546875
+          },
+          "preSector20Pct": {
+            "n": 14,
+            "caseHigher": 9,
+            "caseLower": 4,
+            "tied": 1,
+            "median": 0.9616282866652781,
+            "p": 0.266845703125
+          },
+          "sectorD0ToD3Pct": {
+            "n": 14,
+            "caseHigher": 6,
+            "caseLower": 7,
+            "tied": 1,
+            "median": -0.026695456795278183,
+            "p": 1
+          }
+        }
+      },
+      "oldCohortCase": {
+        "n": 23,
+        "byYear": {
+          "2023": 7,
+          "2024": 6,
+          "2025": 8,
+          "2026": 2
+        },
+        "bySector": {
+          "XLF": 1,
+          "XLI": 4,
+          "XLK": 13,
+          "XLV": 4,
+          "XLY": 1
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 23,
+            "caseHigher": 19,
+            "caseLower": 4,
+            "tied": 0,
+            "median": 3.0083481084037462,
+            "p": 0.002599477767944336
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 23,
+            "caseHigher": 14,
+            "caseLower": 9,
+            "tied": 0,
+            "median": 1.8930945876418526,
+            "p": 0.4048728942871094
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 23,
+            "caseHigher": 12,
+            "caseLower": 10,
+            "tied": 1,
+            "median": 0.010169091285328058,
+            "p": 0.8318119049072266
+          },
+          "preSector20Pct": {
+            "n": 23,
+            "caseHigher": 13,
+            "caseLower": 9,
+            "tied": 1,
+            "median": 1.0915898688026893,
+            "p": 0.5234670639038086
+          },
+          "sectorD0ToD3Pct": {
+            "n": 23,
+            "caseHigher": 14,
+            "caseLower": 8,
+            "tied": 1,
+            "median": 1.1368477281492817,
+            "p": 0.28627872467041016
+          }
+        }
+      },
+      "newCohortCase": {
+        "n": 11,
+        "byYear": {
+          "2023": 4,
+          "2024": 3,
+          "2025": 3,
+          "2026": 1
+        },
+        "bySector": {
+          "XLC": 1,
+          "XLE": 1,
+          "XLI": 2,
+          "XLK": 4,
+          "XLP": 2,
+          "XLV": 1
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 11,
+            "caseHigher": 7,
+            "caseLower": 4,
+            "tied": 0,
+            "median": 0.4587777991347348,
+            "p": 0.548828125
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 11,
+            "caseHigher": 9,
+            "caseLower": 2,
+            "tied": 0,
+            "median": 0.8739357551300952,
+            "p": 0.0654296875
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 11,
+            "caseHigher": 6,
+            "caseLower": 5,
+            "tied": 0,
+            "median": 0.16728447756393372,
+            "p": 1
+          },
+          "preSector20Pct": {
+            "n": 11,
+            "caseHigher": 7,
+            "caseLower": 4,
+            "tied": 0,
+            "median": 0.8390207708910968,
+            "p": 0.548828125
+          },
+          "sectorD0ToD3Pct": {
+            "n": 11,
+            "caseHigher": 5,
+            "caseLower": 6,
+            "tied": 0,
+            "median": -0.053390913590556366,
+            "p": 1
+          }
+        }
+      },
+      "d3EarlyCase": {
+        "n": 20,
+        "byYear": {
+          "2023": 6,
+          "2024": 7,
+          "2025": 5,
+          "2026": 2
+        },
+        "bySector": {
+          "XLC": 1,
+          "XLE": 1,
+          "XLF": 1,
+          "XLI": 5,
+          "XLK": 9,
+          "XLP": 1,
+          "XLV": 1,
+          "XLY": 1
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 20,
+            "caseHigher": 15,
+            "caseLower": 5,
+            "tied": 0,
+            "median": 2.4213974462249266,
+            "p": 0.04138946533203125
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 20,
+            "caseHigher": 13,
+            "caseLower": 7,
+            "tied": 0,
+            "median": 1.8977743192090446,
+            "p": 0.26317596435546875
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 20,
+            "caseHigher": 11,
+            "caseLower": 8,
+            "tied": 1,
+            "median": 0.02963781177256486,
+            "p": 0.6476058959960938
+          },
+          "preSector20Pct": {
+            "n": 20,
+            "caseHigher": 10,
+            "caseLower": 9,
+            "tied": 1,
+            "median": 0.013062862457946522,
+            "p": 1
+          },
+          "sectorD0ToD3Pct": {
+            "n": 20,
+            "caseHigher": 8,
+            "caseLower": 11,
+            "tied": 1,
+            "median": -0.3365619400846953,
+            "p": 0.6476058959960938
+          }
+        }
+      }
+    },
+    "d4StockFirstHit": {
+      "all": {
+        "n": 43,
+        "byYear": {
+          "2023": 10,
+          "2024": 11,
+          "2025": 16,
+          "2026": 6
+        },
+        "bySector": {
+          "XLC": 2,
+          "XLF": 4,
+          "XLI": 8,
+          "XLK": 21,
+          "XLP": 3,
+          "XLV": 4,
+          "XLY": 1
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 43,
+            "caseHigher": 30,
+            "caseLower": 13,
+            "tied": 0,
+            "median": 1.1862932985988497,
+            "p": 0.0137181850586785
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 43,
+            "caseHigher": 24,
+            "caseLower": 19,
+            "tied": 0,
+            "median": 0.5049094506097696,
+            "p": 0.542384011856484
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 43,
+            "caseHigher": 21,
+            "caseLower": 21,
+            "tied": 1,
+            "median": 0,
+            "p": 1
+          },
+          "preSector20Pct": {
+            "n": 43,
+            "caseHigher": 22,
+            "caseLower": 20,
+            "tied": 1,
+            "median": 0.026125724915893045,
+            "p": 0.8776143287523154
+          },
+          "sectorD0ToD3Pct": {
+            "n": 43,
+            "caseHigher": 18,
+            "caseLower": 24,
+            "tied": 1,
+            "median": -0.34261217396802657,
+            "p": 0.44079906734259566
+          }
+        }
+      },
+      "AH": {
+        "n": 25,
+        "byYear": {
+          "2023": 5,
+          "2024": 6,
+          "2025": 11,
+          "2026": 3
+        },
+        "bySector": {
+          "XLC": 1,
+          "XLK": 21,
+          "XLV": 2,
+          "XLY": 1
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 25,
+            "caseHigher": 18,
+            "caseLower": 7,
+            "tied": 0,
+            "median": 1.6281891058526403,
+            "p": 0.043285250663757324
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 25,
+            "caseHigher": 12,
+            "caseLower": 13,
+            "tied": 0,
+            "median": -1.0921116354707605,
+            "p": 1
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 25,
+            "caseHigher": 11,
+            "caseLower": 14,
+            "tied": 0,
+            "median": -0.1749963468305138,
+            "p": 0.6900379657745361
+          },
+          "preSector20Pct": {
+            "n": 25,
+            "caseHigher": 11,
+            "caseLower": 14,
+            "tied": 0,
+            "median": -1.3969458158315184,
+            "p": 0.6900379657745361
+          },
+          "sectorD0ToD3Pct": {
+            "n": 25,
+            "caseHigher": 11,
+            "caseLower": 14,
+            "tied": 0,
+            "median": -0.34261217396802657,
+            "p": 0.6900379657745361
+          }
+        }
+      },
+      "BMO": {
+        "n": 18,
+        "byYear": {
+          "2023": 5,
+          "2024": 5,
+          "2025": 5,
+          "2026": 3
+        },
+        "bySector": {
+          "XLC": 1,
+          "XLF": 4,
+          "XLI": 8,
+          "XLP": 3,
+          "XLV": 2
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 18,
+            "caseHigher": 12,
+            "caseLower": 6,
+            "tied": 0,
+            "median": 0.43074071655235224,
+            "p": 0.237884521484375
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 18,
+            "caseHigher": 12,
+            "caseLower": 6,
+            "tied": 0,
+            "median": 1.1049995894078068,
+            "p": 0.237884521484375
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 18,
+            "caseHigher": 10,
+            "caseLower": 7,
+            "tied": 1,
+            "median": 0.02963781177256486,
+            "p": 0.629058837890625
+          },
+          "preSector20Pct": {
+            "n": 18,
+            "caseHigher": 11,
+            "caseLower": 6,
+            "tied": 1,
+            "median": 0.9616282866652781,
+            "p": 0.332305908203125
+          },
+          "sectorD0ToD3Pct": {
+            "n": 18,
+            "caseHigher": 7,
+            "caseLower": 10,
+            "tied": 1,
+            "median": -0.29267818428994063,
+            "p": 0.629058837890625
+          }
+        }
+      },
+      "oldCohortCase": {
+        "n": 31,
+        "byYear": {
+          "2023": 7,
+          "2024": 7,
+          "2025": 13,
+          "2026": 4
+        },
+        "bySector": {
+          "XLC": 1,
+          "XLF": 2,
+          "XLI": 6,
+          "XLK": 19,
+          "XLV": 2,
+          "XLY": 1
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 31,
+            "caseHigher": 21,
+            "caseLower": 10,
+            "tied": 0,
+            "median": 1.3350126937520361,
+            "p": 0.07075554598122835
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 31,
+            "caseHigher": 16,
+            "caseLower": 15,
+            "tied": 0,
+            "median": 0.5049094506097696,
+            "p": 1
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 31,
+            "caseHigher": 15,
+            "caseLower": 15,
+            "tied": 1,
+            "median": 0,
+            "p": 1
+          },
+          "preSector20Pct": {
+            "n": 31,
+            "caseHigher": 14,
+            "caseLower": 16,
+            "tied": 1,
+            "median": -0.26173415494661345,
+            "p": 0.8555355519056321
+          },
+          "sectorD0ToD3Pct": {
+            "n": 31,
+            "caseHigher": 13,
+            "caseLower": 17,
+            "tied": 1,
+            "median": -0.34261217396802657,
+            "p": 0.5846647117286922
+          }
+        }
+      },
+      "newCohortCase": {
+        "n": 12,
+        "byYear": {
+          "2023": 3,
+          "2024": 4,
+          "2025": 3,
+          "2026": 2
+        },
+        "bySector": {
+          "XLC": 1,
+          "XLF": 2,
+          "XLI": 2,
+          "XLK": 2,
+          "XLP": 3,
+          "XLV": 2
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 12,
+            "caseHigher": 9,
+            "caseLower": 3,
+            "tied": 0,
+            "median": 0.8225355488667923,
+            "p": 0.14599609375
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 12,
+            "caseHigher": 8,
+            "caseLower": 4,
+            "tied": 0,
+            "median": 0.6316537097579178,
+            "p": 0.3876953125
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 12,
+            "caseHigher": 6,
+            "caseLower": 6,
+            "tied": 0,
+            "median": 0.030310307521308477,
+            "p": 1
+          },
+          "preSector20Pct": {
+            "n": 12,
+            "caseHigher": 8,
+            "caseLower": 4,
+            "tied": 0,
+            "median": 0.4580345327869051,
+            "p": 0.3876953125
+          },
+          "sectorD0ToD3Pct": {
+            "n": 12,
+            "caseHigher": 5,
+            "caseLower": 7,
+            "tied": 0,
+            "median": -0.41107049929469675,
+            "p": 0.7744140625
+          }
+        }
+      },
+      "d3EarlyCase": {
+        "n": 28,
+        "byYear": {
+          "2023": 5,
+          "2024": 7,
+          "2025": 12,
+          "2026": 4
+        },
+        "bySector": {
+          "XLC": 2,
+          "XLF": 3,
+          "XLI": 6,
+          "XLK": 13,
+          "XLP": 1,
+          "XLV": 2,
+          "XLY": 1
+        },
+        "factors": {
+          "shockMinusSectorD0Pp": {
+            "n": 28,
+            "caseHigher": 20,
+            "caseLower": 8,
+            "tied": 0,
+            "median": 1.3786313487597628,
+            "p": 0.03569813817739487
+          },
+          "stockMinusSectorD0D3Pp": {
+            "n": 28,
+            "caseHigher": 13,
+            "caseLower": 15,
+            "tied": 0,
+            "median": -0.9195473839708701,
+            "p": 0.8505540192127228
+          },
+          "sectorMinusSPYD0D3Pp": {
+            "n": 28,
+            "caseHigher": 14,
+            "caseLower": 13,
+            "tied": 1,
+            "median": 0.005084545642664029,
+            "p": 1
+          },
+          "preSector20Pct": {
+            "n": 28,
+            "caseHigher": 13,
+            "caseLower": 14,
+            "tied": 1,
+            "median": -0.13086707747330673,
+            "p": 1
+          },
+          "sectorD0ToD3Pct": {
+            "n": 28,
+            "caseHigher": 8,
+            "caseLower": 19,
+            "tied": 1,
+            "median": -0.8522679514207543,
+            "p": 0.052238985896110535
+          }
+        }
+      }
+    }
+  },
+  "shockMediansByYear": {
+    "2023": {
+      "recoveryWinnerMedian": -6.254597074559354,
+      "recoveryFailMedian": -8.293872258129092,
+      "d4WinnerMedian": -6.502684118300395,
+      "d4FailMedian": -7.177423610545591
+    },
+    "2024": {
+      "recoveryWinnerMedian": -6.150305176545412,
+      "recoveryFailMedian": -9.623880174487631,
+      "d4WinnerMedian": -6.722741977360669,
+      "d4FailMedian": -8.545370338921925
+    },
+    "2025": {
+      "recoveryWinnerMedian": -6.611734895966482,
+      "recoveryFailMedian": -8.30694108442298,
+      "d4WinnerMedian": -7.019091379873754,
+      "d4FailMedian": -8.131420561639603
+    },
+    "2026": {
+      "recoveryWinnerMedian": -7.28329132636274,
+      "recoveryFailMedian": -5.735867838515651,
+      "d4WinnerMedian": -7.844808673568105,
+      "d4FailMedian": -5.650082657528104
+    }
+  },
+  "notes": "Posthoc group sensitivity to frozen match results; do not promote uncorrected p values across multiple factors and correlated cases."
+}
