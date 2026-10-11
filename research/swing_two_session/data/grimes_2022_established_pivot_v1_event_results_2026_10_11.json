@@ -1,0 +1,3010 @@
+{
+  "id": "grimes_2022_established_pivot_v1_historical",
+  "status": "SEPARATE_CALENDAR_2022_PREOUTCOME_MANIFEST_COMMITTED_BEFORE_M5_FETCH_NOT_SURVIVORSHIP_CLEAN",
+  "frozenProtocol": "research/swing_two_session/frozen_grimes_2022_established_pivot_support_v1_2026_10_11.md",
+  "frozenPreoutcomeManifest": "research/swing_two_session/data/grimes_2022_established_pivot_preoutcome_manifest_frozen_2026_10_11.json",
+  "manifestCommit": "e80ab395610c3fb7fa76cdc8d04a713f82424af6",
+  "sourceFiles": [
+    "research/swing_two_session/data/grimes_2022_double_pivot_m5_three_session_source_batch_01_2026_10_11.json",
+    "research/swing_two_session/data/grimes_2022_double_pivot_m5_three_session_source_batch_02_2026_10_11.json",
+    "research/swing_two_session/data/grimes_2022_double_pivot_m5_three_session_source_batch_03_2026_10_11.json"
+  ],
+  "qa": {
+    "selected": 45,
+    "fetched": 45,
+    "evaluable": 40,
+    "unknown": 5,
+    "unknownReasons": {
+      "UNKNOWN_INCOMPLETE_3_SESSION_M5": 5
+    }
+  },
+  "stats": {
+    "primary": {
+      "eligibleEvaluable": 40,
+      "entries": 13,
+      "skips": 27,
+      "skipReasons": {
+        "SKIP_EXTENDED": 1,
+        "SKIP_NO_PATTERN": 26
+      },
+      "targets": 6,
+      "stops": 7,
+      "timeouts": 0,
+      "meanGrossPerEntryPct": 0.39849919519520705,
+      "meanNetPerEntryPct": -0.10150080480479294,
+      "meanNetPerSignalPct": -0.03298776156155771,
+      "targetFirstAmongEntriesPct": 46.15384615384615,
+      "winNetAmongEntriesPct": 46.15384615384615
+    },
+    "fixedStopDescriptive": {
+      "eligibleEvaluable": 40,
+      "entries": 13,
+      "skips": 27,
+      "skipReasons": {
+        "SKIP_EXTENDED": 1,
+        "SKIP_NO_PATTERN": 26
+      },
+      "targets": 7,
+      "stops": 4,
+      "timeouts": 2,
+      "meanGrossPerEntryPct": 0.372651086345815,
+      "meanNetPerEntryPct": -0.12734891365418496,
+      "meanNetPerSignalPct": -0.041388396937610115,
+      "targetFirstAmongEntriesPct": 53.84615384615385,
+      "winNetAmongEntriesPct": 53.84615384615385
+    },
+    "supportTouchControl": {
+      "eligibleEvaluable": 40,
+      "entries": 2,
+      "skips": 38,
+      "skipReasons": {
+        "SKIP_NO_PATTERN": 36,
+        "SKIP_RISK_INVALID": 2
+      },
+      "targets": 0,
+      "stops": 2,
+      "timeouts": 0,
+      "meanGrossPerEntryPct": -1.1084495471752331,
+      "meanNetPerEntryPct": -1.6084495471752331,
+      "meanNetPerSignalPct": -0.08042247735876165,
+      "targetFirstAmongEntriesPct": 0,
+      "winNetAmongEntriesPct": 0
+    },
+    "nextOpenBenchmark": {
+      "eligibleEvaluable": 40,
+      "entries": 40,
+      "skips": 0,
+      "skipReasons": {},
+      "targets": 19,
+      "stops": 19,
+      "timeouts": 2,
+      "meanGrossPerEntryPct": 0.01435181078915826,
+      "meanNetPerEntryPct": -0.4856481892108418,
+      "meanNetPerSignalPct": -0.4856481892108418,
+      "targetFirstAmongEntriesPct": 47.5,
+      "winNetAmongEntriesPct": 50
+    },
+    "pairedPrimaryVsNextOpenPp": 0.452660427649284,
+    "byQuarter": {
+      "2022Q1": {
+        "eligibleEvaluable": 13,
+        "entries": 3,
+        "skips": 10,
+        "skipReasons": {
+          "SKIP_EXTENDED": 1,
+          "SKIP_NO_PATTERN": 9
+        },
+        "targets": 3,
+        "stops": 0,
+        "timeouts": 0,
+        "meanGrossPerEntryPct": 2.0000000000000018,
+        "meanNetPerEntryPct": 1.5000000000000018,
+        "meanNetPerSignalPct": 0.3461538461538466,
+        "targetFirstAmongEntriesPct": 100,
+        "winNetAmongEntriesPct": 100
+      },
+      "2022Q2": {
+        "eligibleEvaluable": 13,
+        "entries": 6,
+        "skips": 7,
+        "skipReasons": {
+          "SKIP_NO_PATTERN": 7
+        },
+        "targets": 1,
+        "stops": 5,
+        "timeouts": 0,
+        "meanGrossPerEntryPct": -0.6642797997590858,
+        "meanNetPerEntryPct": -1.164279799759086,
+        "meanNetPerSignalPct": -0.5373599075811165,
+        "targetFirstAmongEntriesPct": 16.666666666666668,
+        "winNetAmongEntriesPct": 16.666666666666668
+      },
+      "2022Q3": {
+        "eligibleEvaluable": 12,
+        "entries": 3,
+        "skips": 9,
+        "skipReasons": {
+          "SKIP_NO_PATTERN": 9
+        },
+        "targets": 1,
+        "stops": 2,
+        "timeouts": 0,
+        "meanGrossPerEntryPct": 0.38872277869739974,
+        "meanNetPerEntryPct": -0.11127722130260025,
+        "meanNetPerSignalPct": -0.02781930532565006,
+        "targetFirstAmongEntriesPct": 33.333333333333336,
+        "winNetAmongEntriesPct": 33.333333333333336
+      },
+      "2022Q4": {
+        "eligibleEvaluable": 2,
+        "entries": 1,
+        "skips": 1,
+        "skipReasons": {
+          "SKIP_NO_PATTERN": 1
+        },
+        "targets": 1,
+        "stops": 0,
+        "timeouts": 0,
+        "meanGrossPerEntryPct": 2.0000000000000018,
+        "meanNetPerEntryPct": 1.5000000000000018,
+        "meanNetPerSignalPct": 0.7500000000000009,
+        "targetFirstAmongEntriesPct": 100,
+        "winNetAmongEntriesPct": 100
+      }
+    },
+    "entryLocalETHours": {
+      "comment": "Vendor RTH bars indexed from 9:30 Eastern, 5 minutes per index; 10:30 ET starts with index 12",
+      "before1030": 8,
+      "from1030ToNoon": 5
+    },
+    "bootstrapTicker": {
+      "groups": 33,
+      "reps": 10000,
+      "meanNetPerEventCI95": [
+        -0.3047532719124415,
+        0.23426411620063647
+      ],
+      "meanNetPerTradeCI95": [
+        -0.9630750464739555,
+        0.7465187046880689
+      ],
+      "pairedPrimaryMinusNextOpenCI95": [
+        -0.15330381276673272,
+        1.0265234319101824
+      ]
+    },
+    "bootstrapDate": {
+      "groups": 33,
+      "reps": 10000,
+      "meanNetPerEventCI95": [
+        -0.31343642921059506,
+        0.2598864666268821
+      ],
+      "meanNetPerTradeCI95": [
+        -0.9560941968193196,
+        0.8712890428380605
+      ],
+      "pairedPrimaryMinusNextOpenCI95": [
+        -0.09188710688897266,
+        1.0199852204328594
+      ]
+    }
+  },
+  "events": [
+    {
+      "symbol": "U",
+      "date": "2022-01-04",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -6.433465560764528,
+      "rvol20": 1.5145348220258226,
+      "priorPivotA": {
+        "index": 41,
+        "date": "2021-09-13",
+        "low": 128.15
+      },
+      "priorPivotB": {
+        "index": 109,
+        "date": "2021-12-17",
+        "low": 127.21
+      },
+      "pivotAdjusted": 127.21,
+      "pivotM5Basis": 127.21,
+      "d0BasisFactor": 1,
+      "d0BasisPctDiff": {
+        "open": 0.1947630383034138,
+        "high": 0.266897496934293,
+        "low": 0,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-01-04": 78,
+        "2022-01-05": 78,
+        "2022-01-06": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 125.71,
+        "entry": 127.5742,
+        "stop": 125.58429,
+        "target": 130.125684,
+        "riskPct": 1.55980597957895,
+        "pivot": 127.21,
+        "entryDateTimeUTC": "2022-01-05T14:35:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 130.125684,
+        "exitIndex": 1,
+        "exitDateTimeUTC": "2022-01-05T14:35:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 125.71,
+        "entry": 127.5742,
+        "stop": 125.022716,
+        "target": 130.125684,
+        "riskPct": 2.0000000000000018,
+        "pivot": 127.21,
+        "entryDateTimeUTC": "2022-01-05T14:35:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 130.125684,
+        "exitIndex": 1,
+        "exitDateTimeUTC": "2022-01-05T14:35:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 128.05,
+        "entryDateTimeUTC": "2022-01-05T14:30:00.000+0000",
+        "stop": 125.489,
+        "target": 130.61100000000002,
+        "exit": "TARGET",
+        "exitPrice": 130.61100000000002,
+        "exitIndex": 2,
+        "exitDateTimeUTC": "2022-01-05T14:40:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "APP",
+      "date": "2022-01-05",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -7.425798442613695,
+      "rvol20": 1.948254975920735,
+      "priorPivotA": {
+        "index": 98,
+        "date": "2021-12-03",
+        "low": 81.45
+      },
+      "priorPivotB": {
+        "index": 108,
+        "date": "2021-12-17",
+        "low": 81.05
+      },
+      "pivotAdjusted": 81.05,
+      "pivotM5Basis": 81.05,
+      "d0BasisFactor": 1,
+      "d0BasisPctDiff": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-01-05": 78,
+        "2022-01-06": 78,
+        "2022-01-07": 78
+      },
+      "primary": {
+        "status": "SKIP_EXTENDED",
+        "netPct": 0,
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 80.63,
+        "entry": 82.98,
+        "stop": 80.54937,
+        "target": 84.6396,
+        "riskPct": 2.9291757049891634,
+        "pivot": 81.05,
+        "entryDateTimeUTC": "2022-01-06T14:35:00.000+0000"
+      },
+      "fixed": {
+        "status": "SKIP_EXTENDED",
+        "netPct": 0,
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 80.63,
+        "entry": 82.98,
+        "stop": 81.3204,
+        "target": 84.6396,
+        "riskPct": 1.999999999999997,
+        "pivot": 81.05,
+        "entryDateTimeUTC": "2022-01-06T14:35:00.000+0000"
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 80.75,
+        "entryDateTimeUTC": "2022-01-06T14:30:00.000+0000",
+        "stop": 79.135,
+        "target": 82.365,
+        "exit": "TARGET",
+        "exitPrice": 82.365,
+        "exitIndex": 0,
+        "exitDateTimeUTC": "2022-01-06T14:30:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "TROW",
+      "date": "2022-01-05",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -3.915539004374302,
+      "rvol20": 1.3720240147659335,
+      "priorPivotA": {
+        "index": 62,
+        "date": "2021-10-13",
+        "low": 149.972245
+      },
+      "priorPivotB": {
+        "index": 109,
+        "date": "2021-12-20",
+        "low": 149.842849
+      },
+      "pivotAdjusted": 149.842849,
+      "pivotM5Basis": 186.80000058860955,
+      "d0BasisFactor": 1.2466394081215684,
+      "d0BasisPctDiff": {
+        "open": -1.5379227891187952e-7,
+        "high": 1.0588985244197602e-7,
+        "low": -0.0907488761387576,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-01-05": 78,
+        "2022-01-06": 78,
+        "2022-01-07": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 189.5,
+        "entryDateTimeUTC": "2022-01-06T14:30:00.000+0000",
+        "stop": 185.71,
+        "target": 193.29,
+        "exit": "TIMEOUT",
+        "exitPrice": 191.58,
+        "exitIndex": 155,
+        "exitDateTimeUTC": "2022-01-07T20:55:00.000+0000",
+        "grossPct": 1.0976253298152994,
+        "netPct": 0.5976253298152994
+      }
+    },
+    {
+      "symbol": "URI",
+      "date": "2022-01-05",
+      "quarter": "2022Q1",
+      "status": "UNKNOWN_INCOMPLETE_3_SESSION_M5",
+      "coverage": {
+        "2022-01-05": 78,
+        "2022-01-06": 77,
+        "2022-01-07": 78
+      },
+      "qa": {
+        "valid": false,
+        "reason": "INCOMPLETE_3_SESSION_M5"
+      }
+    },
+    {
+      "symbol": "DPZ",
+      "date": "2022-01-07",
+      "quarter": "2022Q1",
+      "status": "UNKNOWN_INCOMPLETE_3_SESSION_M5",
+      "coverage": {
+        "2022-01-07": 74,
+        "2022-01-10": 78,
+        "2022-01-11": 78
+      },
+      "qa": {
+        "valid": false,
+        "reason": "INCOMPLETE_3_SESSION_M5"
+      }
+    },
+    {
+      "symbol": "MCHP",
+      "date": "2022-01-07",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -3.9507612107280266,
+      "rvol20": 1.3012061129090133,
+      "priorPivotA": {
+        "index": 97,
+        "date": "2021-12-06",
+        "low": 73.46017
+      },
+      "priorPivotB": {
+        "index": 107,
+        "date": "2021-12-20",
+        "low": 73.199418
+      },
+      "pivotAdjusted": 73.199418,
+      "pivotM5Basis": 81.4099995031695,
+      "d0BasisFactor": 1.112167305799747,
+      "d0BasisPctDiff": {
+        "open": -4.939404218973209e-7,
+        "high": 2.1028847552173602e-7,
+        "low": 2.3182626929241223e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-01-07": 78,
+        "2022-01-10": 78,
+        "2022-01-11": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 80.79,
+        "entryDateTimeUTC": "2022-01-10T14:30:00.000+0000",
+        "stop": 79.1742,
+        "target": 82.40580000000001,
+        "exit": "TARGET",
+        "exitPrice": 82.40580000000001,
+        "exitIndex": 75,
+        "exitDateTimeUTC": "2022-01-10T20:45:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "LSCC",
+      "date": "2022-01-13",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -4.816033502841755,
+      "rvol20": 1.2623305164368543,
+      "priorPivotA": {
+        "index": 49,
+        "date": "2021-10-04",
+        "low": 62.76
+      },
+      "priorPivotB": {
+        "index": 55,
+        "date": "2021-10-12",
+        "low": 62.57
+      },
+      "pivotAdjusted": 62.57,
+      "pivotM5Basis": 62.57,
+      "d0BasisFactor": 1,
+      "d0BasisPctDiff": {
+        "open": 0,
+        "high": 0,
+        "low": -0.015775358889413837,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-01-13": 78,
+        "2022-01-14": 78,
+        "2022-01-18": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 62.6324,
+        "entry": 63.55,
+        "stop": 62.5697676,
+        "target": 64.821,
+        "riskPct": 1.5424585365853636,
+        "pivot": 62.57,
+        "entryDateTimeUTC": "2022-01-14T14:35:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 62.5697676,
+        "exitIndex": 46,
+        "exitDateTimeUTC": "2022-01-14T18:20:00.000+0000",
+        "grossPct": -1.5424585365853671,
+        "netPct": -2.042458536585367
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 63.05,
+        "entryDateTimeUTC": "2022-01-14T14:30:00.000+0000",
+        "stop": 61.788999999999994,
+        "target": 64.31099999999999,
+        "exit": "TARGET",
+        "exitPrice": 64.31099999999999,
+        "exitIndex": 2,
+        "exitDateTimeUTC": "2022-01-14T14:40:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "TJX",
+      "date": "2022-01-18",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -3.189096706518424,
+      "rvol20": 1.790599307529312,
+      "priorPivotA": {
+        "index": 75,
+        "date": "2021-11-11",
+        "low": 63.596165
+      },
+      "priorPivotB": {
+        "index": 88,
+        "date": "2021-12-01",
+        "low": 63.465443
+      },
+      "pivotAdjusted": 63.465443,
+      "pivotM5Basis": 67.96999961985073,
+      "d0BasisFactor": 1.070976525285591,
+      "d0BasisPctDiff": {
+        "open": -0.4676212345733566,
+        "high": -2.4630930628433134e-8,
+        "low": -0.0000014138038295641309,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-01-18": 78,
+        "2022-01-19": 78,
+        "2022-01-20": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 69.08,
+        "entryDateTimeUTC": "2022-01-19T14:30:00.000+0000",
+        "stop": 67.69839999999999,
+        "target": 70.4616,
+        "exit": "STOP",
+        "exitPrice": 67.69839999999999,
+        "exitIndex": 154,
+        "exitDateTimeUTC": "2022-01-20T20:50:00.000+0000",
+        "grossPct": -2.000000000000013,
+        "netPct": -2.500000000000013
+      }
+    },
+    {
+      "symbol": "TER",
+      "date": "2022-01-19",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -4.654152973701009,
+      "rvol20": 1.2266105522309232,
+      "priorPivotA": {
+        "index": 84,
+        "date": "2021-11-26",
+        "low": 142.768669
+      },
+      "priorPivotB": {
+        "index": 90,
+        "date": "2021-12-06",
+        "low": 142.267967
+      },
+      "pivotAdjusted": 142.267967,
+      "pivotM5Basis": 144.91000008233996,
+      "d0BasisFactor": 1.0185708219359033,
+      "d0BasisPctDiff": {
+        "open": -2.4872026660460733e-7,
+        "high": 1.1488259232805831e-7,
+        "low": -0.006749102444048027,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-01-19": 78,
+        "2022-01-20": 78,
+        "2022-01-21": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 150.11,
+        "entryDateTimeUTC": "2022-01-20T14:30:00.000+0000",
+        "stop": 147.1078,
+        "target": 153.11220000000003,
+        "exit": "STOP",
+        "exitPrice": 147.1078,
+        "exitIndex": 73,
+        "exitDateTimeUTC": "2022-01-20T20:35:00.000+0000",
+        "grossPct": -2.000000000000013,
+        "netPct": -2.500000000000013
+      }
+    },
+    {
+      "symbol": "LHX",
+      "date": "2022-01-31",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -4.28956868063155,
+      "rvol20": 2.6618120999207284,
+      "priorPivotA": {
+        "index": 79,
+        "date": "2021-12-01",
+        "low": 188.519439
+      },
+      "priorPivotB": {
+        "index": 104,
+        "date": "2022-01-06",
+        "low": 190.310792
+      },
+      "pivotAdjusted": 188.519439,
+      "pivotM5Basis": 207.31999995202582,
+      "d0BasisFactor": 1.0997274395242913,
+      "d0BasisPctDiff": {
+        "open": -5.99009730706257e-8,
+        "high": 0.004721191419854165,
+        "low": 8.999512246532504e-8,
+        "close": -1.1102230246251565e-14
+      },
+      "sourceCounts": {
+        "2022-01-31": 78,
+        "2022-02-01": 78,
+        "2022-02-02": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 13,
+        "confirmIndex": 14,
+        "entryIndex": 15,
+        "extreme": 206.855,
+        "entry": 207.71,
+        "stop": 206.648145,
+        "target": 211.8642,
+        "riskPct": 0.5112199701506949,
+        "pivot": 207.31999995202582,
+        "entryDateTimeUTC": "2022-02-01T15:45:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 211.8642,
+        "exitIndex": 152,
+        "exitDateTimeUTC": "2022-02-02T20:40:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 13,
+        "confirmIndex": 14,
+        "entryIndex": 15,
+        "extreme": 206.855,
+        "entry": 207.71,
+        "stop": 203.5558,
+        "target": 211.8642,
+        "riskPct": 2.0000000000000013,
+        "pivot": 207.31999995202582,
+        "entryDateTimeUTC": "2022-02-01T15:45:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 211.8642,
+        "exitIndex": 152,
+        "exitDateTimeUTC": "2022-02-02T20:40:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "touch": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 207.49,
+        "entry": 208.69,
+        "stop": 207.28251,
+        "target": 212.8638,
+        "riskPct": 0.674440557765104,
+        "pivot": 207.31999995202582,
+        "entryDateTimeUTC": "2022-02-01T14:35:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 207.28251,
+        "exitIndex": 3,
+        "exitDateTimeUTC": "2022-02-01T14:45:00.000+0000",
+        "grossPct": -0.6744405577650991,
+        "netPct": -1.1744405577650991
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 207.95,
+        "entryDateTimeUTC": "2022-02-01T14:30:00.000+0000",
+        "stop": 203.791,
+        "target": 212.10899999999998,
+        "exit": "TARGET",
+        "exitPrice": 212.10899999999998,
+        "exitIndex": 155,
+        "exitDateTimeUTC": "2022-02-02T20:55:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "GAP",
+      "date": "2022-02-11",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -7.701212662400625,
+      "rvol20": 1.3704322441516983,
+      "priorPivotA": {
+        "index": 71,
+        "date": "2021-12-02",
+        "low": 12.967776
+      },
+      "priorPivotB": {
+        "index": 80,
+        "date": "2021-12-15",
+        "low": 13.074237
+      },
+      "pivotAdjusted": 12.967776,
+      "pivotM5Basis": 15.731728120250946,
+      "d0BasisFactor": 1.2131400264972918,
+      "d0BasisPctDiff": {
+        "open": 0.11593842880999183,
+        "high": 0.11593842880999183,
+        "low": 9.633738251579871e-9,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-02-11": 78,
+        "2022-02-14": 78,
+        "2022-02-15": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 16.12,
+        "entryDateTimeUTC": "2022-02-14T14:30:00.000+0000",
+        "stop": 15.797600000000001,
+        "target": 16.442400000000003,
+        "exit": "STOP",
+        "exitPrice": 15.797600000000001,
+        "exitIndex": 13,
+        "exitDateTimeUTC": "2022-02-14T15:35:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "COF",
+      "date": "2022-03-01",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -8.214262699216635,
+      "rvol20": 1.629853739532344,
+      "priorPivotA": {
+        "index": 59,
+        "date": "2021-12-01",
+        "low": 127.175428
+      },
+      "priorPivotB": {
+        "index": 99,
+        "date": "2022-01-28",
+        "low": 127.405235
+      },
+      "pivotAdjusted": 127.175428,
+      "pivotM5Basis": 137.82298651765825,
+      "d0BasisFactor": 1.0837233944096358,
+      "d0BasisPctDiff": {
+        "open": -0.255285575184927,
+        "high": -0.18328184933601444,
+        "low": -0.0071341758915655085,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-03-01": 78,
+        "2022-03-02": 78,
+        "2022-03-03": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 142.34,
+        "entryDateTimeUTC": "2022-03-02T14:30:00.000+0000",
+        "stop": 139.4932,
+        "target": 145.1868,
+        "exit": "STOP",
+        "exitPrice": 139.4932,
+        "exitIndex": 9,
+        "exitDateTimeUTC": "2022-03-02T15:15:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "PCAR",
+      "date": "2022-03-07",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -5.412165852262141,
+      "rvol20": 1.4724586054567796,
+      "priorPivotA": {
+        "index": 55,
+        "date": "2021-12-01",
+        "low": 45.875929
+      },
+      "priorPivotB": {
+        "index": 68,
+        "date": "2021-12-20",
+        "low": 45.933883
+      },
+      "pivotAdjusted": 45.875929,
+      "pivotM5Basis": 80.65659214090667,
+      "d0BasisFactor": 1.7581462413743527,
+      "d0BasisPctDiff": {
+        "open": -2.725117576041214e-7,
+        "high": -9.236707287918478e-7,
+        "low": -4.2843877334775016e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-03-07": 78,
+        "2022-03-08": 78,
+        "2022-03-09": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 83.81,
+        "entryDateTimeUTC": "2022-03-08T14:30:00.000+0000",
+        "stop": 82.1338,
+        "target": 85.48620000000001,
+        "exit": "TARGET",
+        "exitPrice": 85.48620000000001,
+        "exitIndex": 37,
+        "exitDateTimeUTC": "2022-03-08T17:35:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "CME",
+      "date": "2022-03-08",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -5.5147835466391015,
+      "rvol20": 1.4394378083796635,
+      "priorPivotA": {
+        "index": 85,
+        "date": "2022-01-14",
+        "low": 181.017096
+      },
+      "priorPivotB": {
+        "index": 92,
+        "date": "2022-01-26",
+        "low": 179.923325
+      },
+      "pivotAdjusted": 179.923325,
+      "pivotM5Basis": 217.95999987670027,
+      "d0BasisFactor": 1.2114049130467117,
+      "d0BasisPctDiff": {
+        "open": -1.310078601157727e-7,
+        "high": -1.310078601157727e-7,
+        "low": -3.813199200841666e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-03-08": 78,
+        "2022-03-09": 78,
+        "2022-03-10": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 225.25,
+        "entryDateTimeUTC": "2022-03-09T14:30:00.000+0000",
+        "stop": 220.745,
+        "target": 229.755,
+        "exit": "TARGET",
+        "exitPrice": 229.755,
+        "exitIndex": 33,
+        "exitDateTimeUTC": "2022-03-09T17:15:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "PSX",
+      "date": "2022-03-09",
+      "quarter": "2022Q1",
+      "status": "EVALUABLE",
+      "shockPct": -5.883050110648613,
+      "rvol20": 3.2567872910075417,
+      "priorPivotA": {
+        "index": 22,
+        "date": "2021-10-18",
+        "low": 67.053774
+      },
+      "priorPivotB": {
+        "index": 89,
+        "date": "2022-01-24",
+        "low": 67.110625
+      },
+      "pivotAdjusted": 67.053774,
+      "pivotM5Basis": 78.62272038355388,
+      "d0BasisFactor": 1.1725323675823807,
+      "d0BasisPctDiff": {
+        "open": -0.3884228533766909,
+        "high": 1.1494021290303635e-7,
+        "low": -6.707402966377174e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-03-09": 78,
+        "2022-03-10": 78,
+        "2022-03-11": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 9,
+        "confirmIndex": 10,
+        "entryIndex": 11,
+        "extreme": 78.29,
+        "entry": 79.1025,
+        "stop": 78.21171000000001,
+        "target": 80.68455,
+        "riskPct": 1.1261211718972162,
+        "pivot": 78.62272038355388,
+        "entryDateTimeUTC": "2022-03-10T15:25:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 80.68455,
+        "exitIndex": 60,
+        "exitDateTimeUTC": "2022-03-10T19:30:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 9,
+        "confirmIndex": 10,
+        "entryIndex": 11,
+        "extreme": 78.29,
+        "entry": 79.1025,
+        "stop": 77.52045000000001,
+        "target": 80.68455,
+        "riskPct": 1.9999999999999938,
+        "pivot": 78.62272038355388,
+        "entryDateTimeUTC": "2022-03-10T15:25:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 80.68455,
+        "exitIndex": 60,
+        "exitDateTimeUTC": "2022-03-10T19:30:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 80.01,
+        "entryDateTimeUTC": "2022-03-10T14:30:00.000+0000",
+        "stop": 78.4098,
+        "target": 81.6102,
+        "exit": "STOP",
+        "exitPrice": 78.4098,
+        "exitIndex": 9,
+        "exitDateTimeUTC": "2022-03-10T15:15:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "ALGM",
+      "date": "2022-04-06",
+      "quarter": "2022Q2",
+      "status": "UNKNOWN_INCOMPLETE_3_SESSION_M5",
+      "coverage": {
+        "2022-04-06": 78,
+        "2022-04-07": 78,
+        "2022-04-08": 76
+      },
+      "qa": {
+        "valid": false,
+        "reason": "INCOMPLETE_3_SESSION_M5"
+      }
+    },
+    {
+      "symbol": "ON",
+      "date": "2022-04-06",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -3.590664272890487,
+      "rvol20": 1.3884750896153673,
+      "priorPivotA": {
+        "index": 99,
+        "date": "2022-03-08",
+        "low": 53.01
+      },
+      "priorPivotB": {
+        "index": 104,
+        "date": "2022-03-15",
+        "low": 53.15
+      },
+      "pivotAdjusted": 53.01,
+      "pivotM5Basis": 53.01,
+      "d0BasisFactor": 1,
+      "d0BasisPctDiff": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-04-06": 78,
+        "2022-04-07": 78,
+        "2022-04-08": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 54.26,
+        "entryDateTimeUTC": "2022-04-07T13:30:00.000+0000",
+        "stop": 53.1748,
+        "target": 55.3452,
+        "exit": "STOP",
+        "exitPrice": 53.1748,
+        "exitIndex": 24,
+        "exitDateTimeUTC": "2022-04-07T15:30:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "LHX",
+      "date": "2022-04-21",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -4.549685872833287,
+      "rvol20": 1.2059249694977987,
+      "priorPivotA": {
+        "index": 95,
+        "date": "2022-03-16",
+        "low": 220.840617
+      },
+      "priorPivotB": {
+        "index": 104,
+        "date": "2022-03-29",
+        "low": 219.269708
+      },
+      "pivotAdjusted": 219.269708,
+      "pivotM5Basis": 240.08000027211398,
+      "d0BasisFactor": 1.0949072831898603,
+      "d0BasisPctDiff": {
+        "open": -0.4358219691236731,
+        "high": -0.4358219691236731,
+        "low": -1.246001080090764e-8,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-04-21": 78,
+        "2022-04-22": 78,
+        "2022-04-25": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 246.16,
+        "entryDateTimeUTC": "2022-04-22T13:30:00.000+0000",
+        "stop": 241.2368,
+        "target": 251.0832,
+        "exit": "STOP",
+        "exitPrice": 241.2368,
+        "exitIndex": 88,
+        "exitDateTimeUTC": "2022-04-25T14:20:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "TROW",
+      "date": "2022-04-22",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -3.818598312514354,
+      "rvol20": 1.3997356382134447,
+      "priorPivotA": {
+        "index": 80,
+        "date": "2022-02-24",
+        "low": 107.593262
+      },
+      "priorPivotB": {
+        "index": 88,
+        "date": "2022-03-08",
+        "low": 106.742976
+      },
+      "pivotAdjusted": 106.742976,
+      "pivotM5Basis": 131.89869513641756,
+      "d0BasisFactor": 1.2356662712534598,
+      "d0BasisPctDiff": {
+        "open": -1.7742353142224943e-7,
+        "high": -7.075606878181873e-7,
+        "low": -7.371061316874261e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-04-22": 78,
+        "2022-04-25": 78,
+        "2022-04-26": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 10,
+        "confirmIndex": 10,
+        "entryIndex": 11,
+        "extreme": 131.68,
+        "entry": 132.8,
+        "stop": 131.54832000000002,
+        "target": 135.45600000000002,
+        "riskPct": 0.9425301204819225,
+        "pivot": 131.89869513641756,
+        "entryDateTimeUTC": "2022-04-25T14:25:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 135.45600000000002,
+        "exitIndex": 60,
+        "exitDateTimeUTC": "2022-04-25T18:30:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 10,
+        "confirmIndex": 10,
+        "entryIndex": 11,
+        "extreme": 131.68,
+        "entry": 132.8,
+        "stop": 130.144,
+        "target": 135.45600000000002,
+        "riskPct": 2.0000000000000044,
+        "pivot": 131.89869513641756,
+        "entryDateTimeUTC": "2022-04-25T14:25:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 135.45600000000002,
+        "exitIndex": 60,
+        "exitDateTimeUTC": "2022-04-25T18:30:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 134,
+        "entryDateTimeUTC": "2022-04-25T13:30:00.000+0000",
+        "stop": 131.32,
+        "target": 136.68,
+        "exit": "TARGET",
+        "exitPrice": 136.68,
+        "exitIndex": 73,
+        "exitDateTimeUTC": "2022-04-25T19:35:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "ROK",
+      "date": "2022-04-26",
+      "quarter": "2022Q2",
+      "status": "UNKNOWN_INCOMPLETE_3_SESSION_M5",
+      "coverage": {
+        "2022-04-26": 77,
+        "2022-04-27": 77,
+        "2022-04-28": 78
+      },
+      "qa": {
+        "valid": false,
+        "reason": "INCOMPLETE_3_SESSION_M5"
+      }
+    },
+    {
+      "symbol": "ROK",
+      "date": "2022-04-29",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -4.055439499408475,
+      "rvol20": 1.7531766112660012,
+      "priorPivotA": {
+        "index": 75,
+        "date": "2022-02-24",
+        "low": 232.268415
+      },
+      "priorPivotB": {
+        "index": 87,
+        "date": "2022-03-14",
+        "low": 234.307077
+      },
+      "pivotAdjusted": 232.268415,
+      "pivotM5Basis": 250.64999994874864,
+      "d0BasisFactor": 1.0791394083812413,
+      "d0BasisPctDiff": {
+        "open": -0.29300942740956293,
+        "high": -1.4080938637306417e-7,
+        "low": 3.199243092666393e-8,
+        "close": -1.1102230246251565e-14
+      },
+      "sourceCounts": {
+        "2022-04-29": 78,
+        "2022-05-02": 78,
+        "2022-05-03": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 2,
+        "confirmIndex": 3,
+        "entryIndex": 4,
+        "extreme": 248.925,
+        "entry": 251.99,
+        "stop": 248.676075,
+        "target": 257.0298,
+        "riskPct": 1.3151017897535662,
+        "pivot": 250.64999994874864,
+        "entryDateTimeUTC": "2022-05-02T13:50:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 248.676075,
+        "exitIndex": 21,
+        "exitDateTimeUTC": "2022-05-02T15:15:00.000+0000",
+        "grossPct": -1.31510178975357,
+        "netPct": -1.81510178975357
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 2,
+        "confirmIndex": 3,
+        "entryIndex": 4,
+        "extreme": 248.925,
+        "entry": 251.99,
+        "stop": 246.9502,
+        "target": 257.0298,
+        "riskPct": 2.0000000000000053,
+        "pivot": 250.64999994874864,
+        "entryDateTimeUTC": "2022-05-02T13:50:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 246.9502,
+        "exitIndex": 46,
+        "exitDateTimeUTC": "2022-05-02T17:20:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 250.95,
+        "entryDateTimeUTC": "2022-05-02T13:30:00.000+0000",
+        "stop": 245.93099999999998,
+        "target": 255.969,
+        "exit": "STOP",
+        "exitPrice": 245.93099999999998,
+        "exitIndex": 54,
+        "exitDateTimeUTC": "2022-05-02T18:00:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "FAST",
+      "date": "2022-05-05",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -5.362443365648739,
+      "rvol20": 1.2082904565588573,
+      "priorPivotA": {
+        "index": 53,
+        "date": "2022-01-28",
+        "low": 24.074287
+      },
+      "priorPivotB": {
+        "index": 81,
+        "date": "2022-03-10",
+        "low": 24.009587
+      },
+      "pivotAdjusted": 24.009587,
+      "pivotM5Basis": 53.308234403890175,
+      "d0BasisFactor": 2.2202895203441098,
+      "d0BasisPctDiff": {
+        "open": -4.5533191661562e-7,
+        "high": 0.01759096839288876,
+        "low": -2.5111525081555897e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-05-05": 78,
+        "2022-05-06": 78,
+        "2022-05-09": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 14,
+        "confirmIndex": 15,
+        "entryIndex": 16,
+        "extreme": 52.985,
+        "entry": 53.4,
+        "stop": 52.932015,
+        "target": 54.467999999999996,
+        "riskPct": 0.8763764044943797,
+        "pivot": 53.308234403890175,
+        "entryDateTimeUTC": "2022-05-06T14:50:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 52.932015,
+        "exitIndex": 52,
+        "exitDateTimeUTC": "2022-05-06T17:50:00.000+0000",
+        "grossPct": -0.8763764044943834,
+        "netPct": -1.3763764044943834
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 14,
+        "confirmIndex": 15,
+        "entryIndex": 16,
+        "extreme": 52.985,
+        "entry": 53.4,
+        "stop": 52.332,
+        "target": 54.467999999999996,
+        "riskPct": 1.999999999999996,
+        "pivot": 53.308234403890175,
+        "entryDateTimeUTC": "2022-05-06T14:50:00.000+0000",
+        "exit": "TIMEOUT",
+        "exitPrice": 53.1,
+        "exitIndex": 155,
+        "exitDateTimeUTC": "2022-05-09T19:55:00.000+0000",
+        "grossPct": -0.561797752808979,
+        "netPct": -1.061797752808979
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 53.91,
+        "entryDateTimeUTC": "2022-05-06T13:30:00.000+0000",
+        "stop": 52.831799999999994,
+        "target": 54.9882,
+        "exit": "STOP",
+        "exitPrice": 52.831799999999994,
+        "exitIndex": 55,
+        "exitDateTimeUTC": "2022-05-06T18:05:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "PH",
+      "date": "2022-05-05",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -4.962489028537275,
+      "rvol20": 2.1140767117657875,
+      "priorPivotA": {
+        "index": 79,
+        "date": "2022-03-08",
+        "low": 253.726763
+      },
+      "priorPivotB": {
+        "index": 100,
+        "date": "2022-04-06",
+        "low": 252.243202
+      },
+      "pivotAdjusted": 252.243202,
+      "pivotM5Basis": 266.94000053311754,
+      "d0BasisFactor": 1.0582643988681906,
+      "d0BasisPctDiff": {
+        "open": -0.8617212641537586,
+        "high": -4.484739246635172e-8,
+        "low": 2.2799395704709013e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-05-05": 78,
+        "2022-05-06": 78,
+        "2022-05-09": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 14,
+        "confirmIndex": 15,
+        "entryIndex": 16,
+        "extreme": 266.13,
+        "entry": 267.88,
+        "stop": 265.86387,
+        "target": 273.2376,
+        "riskPct": 0.7526243093922561,
+        "pivot": 266.94000053311754,
+        "entryDateTimeUTC": "2022-05-06T14:50:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 265.86387,
+        "exitIndex": 78,
+        "exitDateTimeUTC": "2022-05-09T13:30:00.000+0000",
+        "grossPct": -0.752624309392258,
+        "netPct": -1.252624309392258
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 14,
+        "confirmIndex": 15,
+        "entryIndex": 16,
+        "extreme": 266.13,
+        "entry": 267.88,
+        "stop": 262.5224,
+        "target": 273.2376,
+        "riskPct": 1.9999999999999967,
+        "pivot": 266.94000053311754,
+        "entryDateTimeUTC": "2022-05-06T14:50:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 273.2376,
+        "exitIndex": 82,
+        "exitDateTimeUTC": "2022-05-09T13:50:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "touch": {
+        "status": "SKIP_RISK_INVALID",
+        "netPct": 0,
+        "breakIndex": 1,
+        "confirmIndex": 1,
+        "entryIndex": 2,
+        "extreme": 267.09,
+        "entry": 267.625,
+        "stop": 266.82291,
+        "target": 272.9775,
+        "riskPct": 0.2997066791219135,
+        "pivot": 266.94000053311754,
+        "entryDateTimeUTC": "2022-05-06T13:40:00.000+0000"
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 273.51,
+        "entryDateTimeUTC": "2022-05-06T13:30:00.000+0000",
+        "stop": 268.0398,
+        "target": 278.98019999999997,
+        "exit": "STOP",
+        "exitPrice": 268.0398,
+        "exitIndex": 1,
+        "exitDateTimeUTC": "2022-05-06T13:35:00.000+0000",
+        "grossPct": -1.9999999999999907,
+        "netPct": -2.4999999999999907
+      }
+    },
+    {
+      "symbol": "AXP",
+      "date": "2022-05-12",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -3.8396383640936893,
+      "rvol20": 1.6225279720332022,
+      "priorPivotA": {
+        "index": 21,
+        "date": "2021-12-20",
+        "low": 144.624391
+      },
+      "priorPivotB": {
+        "index": 44,
+        "date": "2022-01-24",
+        "low": 144.11054
+      },
+      "pivotAdjusted": 144.11054,
+      "pivotM5Basis": 152.41735022570205,
+      "d0BasisFactor": 1.0576419339328134,
+      "d0BasisPctDiff": {
+        "open": -0.6639428067919617,
+        "high": 0.01591049200642125,
+        "low": -3.088380884364028e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-05-12": 78,
+        "2022-05-13": 78,
+        "2022-05-16": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 155.97,
+        "entryDateTimeUTC": "2022-05-13T13:30:00.000+0000",
+        "stop": 152.8506,
+        "target": 159.0894,
+        "exit": "TARGET",
+        "exitPrice": 159.0894,
+        "exitIndex": 2,
+        "exitDateTimeUTC": "2022-05-13T13:40:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "COF",
+      "date": "2022-06-10",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -5.664487619887826,
+      "rvol20": 1.5203192722485004,
+      "priorPivotA": {
+        "index": 100,
+        "date": "2022-05-12",
+        "low": 102.959852
+      },
+      "priorPivotB": {
+        "index": 106,
+        "date": "2022-05-20",
+        "low": 102.307263
+      },
+      "pivotAdjusted": 102.307263,
+      "pivotM5Basis": 110.28999989926412,
+      "d0BasisFactor": 1.0780270790673396,
+      "d0BasisPctDiff": {
+        "open": -0.05176855714924544,
+        "high": 0.029874558514797478,
+        "low": -6.279511577389485e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-06-10": 78,
+        "2022-06-13": 78,
+        "2022-06-14": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 109.01,
+        "entry": 110.835,
+        "stop": 108.90099000000001,
+        "target": 113.0517,
+        "riskPct": 1.7449451887941414,
+        "pivot": 110.28999989926412,
+        "entryDateTimeUTC": "2022-06-13T13:35:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 108.90099000000001,
+        "exitIndex": 5,
+        "exitDateTimeUTC": "2022-06-13T13:55:00.000+0000",
+        "grossPct": -1.7449451887941447,
+        "netPct": -2.2449451887941447
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 109.01,
+        "entry": 110.835,
+        "stop": 108.61829999999999,
+        "target": 113.0517,
+        "riskPct": 2.0000000000000027,
+        "pivot": 110.28999989926412,
+        "entryDateTimeUTC": "2022-06-13T13:35:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 108.61829999999999,
+        "exitIndex": 10,
+        "exitDateTimeUTC": "2022-06-13T14:20:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 109.2,
+        "entryDateTimeUTC": "2022-06-13T13:30:00.000+0000",
+        "stop": 107.016,
+        "target": 111.384,
+        "exit": "STOP",
+        "exitPrice": 107.016,
+        "exitIndex": 18,
+        "exitDateTimeUTC": "2022-06-13T15:00:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "CMG",
+      "date": "2022-06-13",
+      "quarter": "2022Q2",
+      "status": "UNKNOWN_INCOMPLETE_3_SESSION_M5",
+      "coverage": {
+        "2022-06-13": 76,
+        "2022-06-14": 71,
+        "2022-06-15": 76
+      },
+      "qa": {
+        "valid": false,
+        "reason": "INCOMPLETE_3_SESSION_M5"
+      }
+    },
+    {
+      "symbol": "CMI",
+      "date": "2022-06-13",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -4.525547507730976,
+      "rvol20": 1.445463003890451,
+      "priorPivotA": {
+        "index": 97,
+        "date": "2022-05-10",
+        "low": 175.500144
+      },
+      "priorPivotB": {
+        "index": 107,
+        "date": "2022-05-24",
+        "low": 175.176253
+      },
+      "pivotAdjusted": 175.176253,
+      "pivotM5Basis": 192.57389926425563,
+      "d0BasisFactor": 1.099315095318631,
+      "d0BasisPctDiff": {
+        "open": -0.014929762376159061,
+        "high": 0.02236044878878296,
+        "low": 3.45571571358505e-8,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-06-13": 78,
+        "2022-06-14": 78,
+        "2022-06-15": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 196.505,
+        "entryDateTimeUTC": "2022-06-14T13:30:00.000+0000",
+        "stop": 192.57489999999999,
+        "target": 200.4351,
+        "exit": "TARGET",
+        "exitPrice": 200.4351,
+        "exitIndex": 140,
+        "exitDateTimeUTC": "2022-06-15T18:40:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "LNG",
+      "date": "2022-06-13",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -5.611340339132786,
+      "rvol20": 1.3318207511647706,
+      "priorPivotA": {
+        "index": 99,
+        "date": "2022-05-12",
+        "low": 122.557926
+      },
+      "priorPivotB": {
+        "index": 105,
+        "date": "2022-05-20",
+        "low": 122.308513
+      },
+      "pivotAdjusted": 122.308513,
+      "pivotM5Basis": 127.50000003604201,
+      "d0BasisFactor": 1.0424458356062427,
+      "d0BasisPctDiff": {
+        "open": -0.038089987218759,
+        "high": 0.1290713524696896,
+        "low": -1.7676613506267813e-7,
+        "close": -1.1102230246251565e-14
+      },
+      "sourceCounts": {
+        "2022-06-13": 78,
+        "2022-06-14": 78,
+        "2022-06-15": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 129.92,
+        "entryDateTimeUTC": "2022-06-14T13:30:00.000+0000",
+        "stop": 127.32159999999999,
+        "target": 132.51839999999999,
+        "exit": "TARGET",
+        "exitPrice": 132.51839999999999,
+        "exitIndex": 2,
+        "exitDateTimeUTC": "2022-06-14T13:40:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "ON",
+      "date": "2022-06-16",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -7.8911095796002755,
+      "rvol20": 2.2609669820214027,
+      "priorPivotA": {
+        "index": 55,
+        "date": "2022-03-15",
+        "low": 53.15
+      },
+      "priorPivotB": {
+        "index": 104,
+        "date": "2022-05-24",
+        "low": 53.56
+      },
+      "pivotAdjusted": 53.15,
+      "pivotM5Basis": 53.15,
+      "d0BasisFactor": 1,
+      "d0BasisPctDiff": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-06-16": 78,
+        "2022-06-17": 78,
+        "2022-06-21": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 1,
+        "confirmIndex": 2,
+        "entryIndex": 3,
+        "extreme": 52.79,
+        "entry": 53.43,
+        "stop": 52.73721,
+        "target": 54.4986,
+        "riskPct": 1.2966311061201614,
+        "pivot": 53.15,
+        "entryDateTimeUTC": "2022-06-17T13:45:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 52.73721,
+        "exitIndex": 9,
+        "exitDateTimeUTC": "2022-06-17T14:15:00.000+0000",
+        "grossPct": -1.2966311061201607,
+        "netPct": -1.7966311061201607
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 1,
+        "confirmIndex": 2,
+        "entryIndex": 3,
+        "extreme": 52.79,
+        "entry": 53.43,
+        "stop": 52.361399999999996,
+        "target": 54.4986,
+        "riskPct": 2.0000000000000067,
+        "pivot": 53.15,
+        "entryDateTimeUTC": "2022-06-17T13:45:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 52.361399999999996,
+        "exitIndex": 9,
+        "exitDateTimeUTC": "2022-06-17T14:15:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      },
+      "touch": {
+        "status": "SKIP_RISK_INVALID",
+        "netPct": 0,
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 53.15,
+        "entry": 53.24,
+        "stop": 53.096849999999996,
+        "target": 54.3048,
+        "riskPct": 0.26887678437266277,
+        "pivot": 53.15,
+        "entryDateTimeUTC": "2022-06-17T13:35:00.000+0000"
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 53.66,
+        "entryDateTimeUTC": "2022-06-17T13:30:00.000+0000",
+        "stop": 52.5868,
+        "target": 54.7332,
+        "exit": "STOP",
+        "exitPrice": 52.5868,
+        "exitIndex": 9,
+        "exitDateTimeUTC": "2022-06-17T14:15:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "TEAM",
+      "date": "2022-06-16",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -7.7479683847267005,
+      "rvol20": 1.2021217613975124,
+      "priorPivotA": {
+        "index": 96,
+        "date": "2022-05-12",
+        "low": 161.04
+      },
+      "priorPivotB": {
+        "index": 105,
+        "date": "2022-05-25",
+        "low": 161.21
+      },
+      "pivotAdjusted": 161.04,
+      "pivotM5Basis": 161.04,
+      "d0BasisFactor": 1,
+      "d0BasisPctDiff": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-06-16": 78,
+        "2022-06-17": 78,
+        "2022-06-21": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 167.78,
+        "entryDateTimeUTC": "2022-06-17T13:30:00.000+0000",
+        "stop": 164.4244,
+        "target": 171.1356,
+        "exit": "TARGET_GAP",
+        "exitPrice": 171.2035,
+        "exitIndex": 1,
+        "exitDateTimeUTC": "2022-06-17T13:35:00.000+0000",
+        "grossPct": 2.040469662653477,
+        "netPct": 1.5404696626534768
+      }
+    },
+    {
+      "symbol": "FANG",
+      "date": "2022-06-23",
+      "quarter": "2022Q2",
+      "status": "EVALUABLE",
+      "shockPct": -5.4401265119960796,
+      "rvol20": 1.3517960880717823,
+      "priorPivotA": {
+        "index": 51,
+        "date": "2022-03-15",
+        "low": 91.585456
+      },
+      "priorPivotB": {
+        "index": 79,
+        "date": "2022-04-25",
+        "low": 91.835827
+      },
+      "pivotAdjusted": 91.585456,
+      "pivotM5Basis": 116.62795308345159,
+      "d0BasisFactor": 1.2734331211218908,
+      "d0BasisPctDiff": {
+        "open": -2.8624638215291043e-7,
+        "high": -4.451662705129422e-7,
+        "low": -7.51674278376413e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-06-23": 78,
+        "2022-06-24": 78,
+        "2022-06-27": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 121.55,
+        "entryDateTimeUTC": "2022-06-24T13:30:00.000+0000",
+        "stop": 119.119,
+        "target": 123.981,
+        "exit": "TARGET",
+        "exitPrice": 123.981,
+        "exitIndex": 10,
+        "exitDateTimeUTC": "2022-06-24T14:20:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "GD",
+      "date": "2022-07-05",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -4.167783460373331,
+      "rvol20": 1.2195260049293601,
+      "priorPivotA": {
+        "index": 31,
+        "date": "2022-02-24",
+        "low": 191.645502
+      },
+      "priorPivotB": {
+        "index": 91,
+        "date": "2022-05-20",
+        "low": 191.54198
+      },
+      "pivotAdjusted": 191.54198,
+      "pivotM5Basis": 208.98223155668086,
+      "d0BasisFactor": 1.0910518496085342,
+      "d0BasisPctDiff": {
+        "open": -0.11339945419384101,
+        "high": -9.00088670263699e-8,
+        "low": 7.389695522164175e-8,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-07-05": 78,
+        "2022-07-06": 78,
+        "2022-07-07": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 214.2,
+        "entryDateTimeUTC": "2022-07-06T13:30:00.000+0000",
+        "stop": 209.916,
+        "target": 218.48399999999998,
+        "exit": "TARGET",
+        "exitPrice": 218.48399999999998,
+        "exitIndex": 59,
+        "exitDateTimeUTC": "2022-07-06T18:25:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "ALL",
+      "date": "2022-07-14",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -4.682327275029829,
+      "rvol20": 1.3080926086145919,
+      "priorPivotA": {
+        "index": 33,
+        "date": "2022-03-09",
+        "low": 109.433921
+      },
+      "priorPivotB": {
+        "index": 84,
+        "date": "2022-05-20",
+        "low": 108.640987
+      },
+      "pivotAdjusted": 108.640987,
+      "pivotM5Basis": 119.80916496724791,
+      "d0BasisFactor": 1.1027989368989064,
+      "d0BasisPctDiff": {
+        "open": -0.10496577796309525,
+        "high": 1.2440470875674237e-7,
+        "low": 3.018043814861926e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-07-14": 78,
+        "2022-07-15": 78,
+        "2022-07-18": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 122.14,
+        "entryDateTimeUTC": "2022-07-15T13:30:00.000+0000",
+        "stop": 119.6972,
+        "target": 124.5828,
+        "exit": "STOP",
+        "exitPrice": 119.6972,
+        "exitIndex": 153,
+        "exitDateTimeUTC": "2022-07-18T19:45:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "BIIB",
+      "date": "2022-07-20",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -5.797693634795231,
+      "rvol20": 1.8593072964597388,
+      "priorPivotA": {
+        "index": 20,
+        "date": "2022-02-24",
+        "low": 200.36
+      },
+      "priorPivotB": {
+        "index": 106,
+        "date": "2022-06-29",
+        "low": 199.87
+      },
+      "pivotAdjusted": 199.87,
+      "pivotM5Basis": 199.87,
+      "d0BasisFactor": 1,
+      "d0BasisPctDiff": {
+        "open": 0,
+        "high": 0.11340440009073305,
+        "low": 0,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-07-20": 78,
+        "2022-07-21": 78,
+        "2022-07-22": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 208.27,
+        "entryDateTimeUTC": "2022-07-21T13:30:00.000+0000",
+        "stop": 204.1046,
+        "target": 212.43540000000002,
+        "exit": "TARGET",
+        "exitPrice": 212.43540000000002,
+        "exitIndex": 4,
+        "exitDateTimeUTC": "2022-07-21T13:50:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "ULTA",
+      "date": "2022-08-03",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -5.090353779587686,
+      "rvol20": 3.657730786857463,
+      "priorPivotA": {
+        "index": 99,
+        "date": "2022-07-05",
+        "low": 368.64
+      },
+      "priorPivotB": {
+        "index": 105,
+        "date": "2022-07-13",
+        "low": 370.54
+      },
+      "pivotAdjusted": 368.64,
+      "pivotM5Basis": 368.64,
+      "d0BasisFactor": 1,
+      "d0BasisPctDiff": {
+        "open": 0,
+        "high": 0.22436733629012107,
+        "low": 0,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-08-03": 78,
+        "2022-08-04": 78,
+        "2022-08-05": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 376.63,
+        "entryDateTimeUTC": "2022-08-04T13:30:00.000+0000",
+        "stop": 369.0974,
+        "target": 384.1626,
+        "exit": "STOP",
+        "exitPrice": 369.0974,
+        "exitIndex": 78,
+        "exitDateTimeUTC": "2022-08-05T13:30:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "OXY",
+      "date": "2022-08-04",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -5.787834106828438,
+      "rvol20": 1.883535666611406,
+      "priorPivotA": {
+        "index": 61,
+        "date": "2022-05-10",
+        "low": 53.086085
+      },
+      "priorPivotB": {
+        "index": 99,
+        "date": "2022-07-06",
+        "low": 52.980643
+      },
+      "pivotAdjusted": 52.980643,
+      "pivotM5Basis": 56.69000013742951,
+      "d0BasisFactor": 1.0700134412757034,
+      "d0BasisPctDiff": {
+        "open": 0.016665537559790167,
+        "high": 0.06594070255423468,
+        "low": -0.008732196564398276,
+        "close": 2.220446049250313e-14
+      },
+      "sourceCounts": {
+        "2022-08-04": 78,
+        "2022-08-05": 78,
+        "2022-08-08": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 56.88,
+        "entryDateTimeUTC": "2022-08-05T13:30:00.000+0000",
+        "stop": 55.7424,
+        "target": 58.0176,
+        "exit": "TARGET",
+        "exitPrice": 58.0176,
+        "exitIndex": 0,
+        "exitDateTimeUTC": "2022-08-05T13:30:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "NXPI",
+      "date": "2022-08-26",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -6.088705385472448,
+      "rvol20": 1.2621972333153089,
+      "priorPivotA": {
+        "index": 47,
+        "date": "2022-05-12",
+        "low": 155.011175
+      },
+      "priorPivotB": {
+        "index": 107,
+        "date": "2022-08-09",
+        "low": 156.383387
+      },
+      "pivotAdjusted": 155.011175,
+      "pivotM5Basis": 167.85409821069788,
+      "d0BasisFactor": 1.082851595768485,
+      "d0BasisPctDiff": {
+        "open": 1.237251856522903e-7,
+        "high": -4.3347714306918306e-8,
+        "low": -0.11903327175413203,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-08-26": 78,
+        "2022-08-29": 78,
+        "2022-08-30": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 6,
+        "confirmIndex": 7,
+        "entryIndex": 8,
+        "extreme": 167.48,
+        "entry": 167.92,
+        "stop": 167.31251999999998,
+        "target": 171.27839999999998,
+        "riskPct": 0.3617675083373092,
+        "pivot": 167.85409821069788,
+        "entryDateTimeUTC": "2022-08-29T14:10:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 167.31251999999998,
+        "exitIndex": 12,
+        "exitDateTimeUTC": "2022-08-29T14:30:00.000+0000",
+        "grossPct": -0.3617675083373073,
+        "netPct": -0.8617675083373073
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 6,
+        "confirmIndex": 7,
+        "entryIndex": 8,
+        "extreme": 167.48,
+        "entry": 167.92,
+        "stop": 164.5616,
+        "target": 171.27839999999998,
+        "riskPct": 1.9999999999999936,
+        "pivot": 167.85409821069788,
+        "entryDateTimeUTC": "2022-08-29T14:10:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 164.5616,
+        "exitIndex": 90,
+        "exitDateTimeUTC": "2022-08-30T14:30:00.000+0000",
+        "grossPct": -1.9999999999999907,
+        "netPct": -2.4999999999999907
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 166.66,
+        "entryDateTimeUTC": "2022-08-29T13:30:00.000+0000",
+        "stop": 163.3268,
+        "target": 169.9932,
+        "exit": "TIMEOUT",
+        "exitPrice": 165.72,
+        "exitIndex": 155,
+        "exitDateTimeUTC": "2022-08-30T19:55:00.000+0000",
+        "grossPct": -0.564022560902433,
+        "netPct": -1.064022560902433
+      }
+    },
+    {
+      "symbol": "MCHP",
+      "date": "2022-09-13",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -6.318600167259025,
+      "rvol20": 1.382789170568329,
+      "priorPivotA": {
+        "index": 36,
+        "date": "2022-05-12",
+        "low": 57.317465
+      },
+      "priorPivotB": {
+        "index": 86,
+        "date": "2022-07-26",
+        "low": 57.439854
+      },
+      "pivotAdjusted": 57.317465,
+      "pivotM5Basis": 62.98934868089659,
+      "d0BasisFactor": 1.0989555919979468,
+      "d0BasisPctDiff": {
+        "open": 6.66731825305078e-7,
+        "high": -8.971476672670065e-7,
+        "low": 1.2716543373869627e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-09-13": 78,
+        "2022-09-14": 78,
+        "2022-09-15": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 63.61,
+        "entryDateTimeUTC": "2022-09-14T13:30:00.000+0000",
+        "stop": 62.3378,
+        "target": 64.8822,
+        "exit": "TARGET",
+        "exitPrice": 64.8822,
+        "exitIndex": 15,
+        "exitDateTimeUTC": "2022-09-14T14:45:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "SYF",
+      "date": "2022-09-13",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -7.871718026983999,
+      "rvol20": 1.292708532964112,
+      "priorPivotA": {
+        "index": 42,
+        "date": "2022-05-20",
+        "low": 28.503625
+      },
+      "priorPivotB": {
+        "index": 88,
+        "date": "2022-07-28",
+        "low": 28.726002
+      },
+      "pivotAdjusted": 28.503625,
+      "pivotM5Basis": 31.1441190103128,
+      "d0BasisFactor": 1.0926371298497226,
+      "d0BasisPctDiff": {
+        "open": 0.18143033814059795,
+        "high": -1.3020451383738418e-8,
+        "low": -0.0000015996730051703878,
+        "close": -1.1102230246251565e-14
+      },
+      "sourceCounts": {
+        "2022-09-13": 78,
+        "2022-09-14": 78,
+        "2022-09-15": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 12,
+        "confirmIndex": 13,
+        "entryIndex": 14,
+        "extreme": 30.83,
+        "entry": 31.19,
+        "stop": 30.799169999999997,
+        "target": 31.8138,
+        "riskPct": 1.253061878807325,
+        "pivot": 31.1441190103128,
+        "entryDateTimeUTC": "2022-09-14T14:40:00.000+0000",
+        "exit": "TARGET_GAP",
+        "exitPrice": 31.87,
+        "exitIndex": 78,
+        "exitDateTimeUTC": "2022-09-15T13:30:00.000+0000",
+        "grossPct": 2.180185957037506,
+        "netPct": 1.680185957037506
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 12,
+        "confirmIndex": 13,
+        "entryIndex": 14,
+        "extreme": 30.83,
+        "entry": 31.19,
+        "stop": 30.566200000000002,
+        "target": 31.8138,
+        "riskPct": 1.9999999999999976,
+        "pivot": 31.1441190103128,
+        "entryDateTimeUTC": "2022-09-14T14:40:00.000+0000",
+        "exit": "TARGET_GAP",
+        "exitPrice": 31.87,
+        "exitIndex": 78,
+        "exitDateTimeUTC": "2022-09-15T13:30:00.000+0000",
+        "grossPct": 2.180185957037506,
+        "netPct": 1.680185957037506
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 31.7,
+        "entryDateTimeUTC": "2022-09-14T13:30:00.000+0000",
+        "stop": 31.066,
+        "target": 32.334,
+        "exit": "STOP",
+        "exitPrice": 31.066,
+        "exitIndex": 8,
+        "exitDateTimeUTC": "2022-09-14T14:10:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "DRI",
+      "date": "2022-09-22",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -4.44088967953088,
+      "rvol20": 2.4257828184280994,
+      "priorPivotA": {
+        "index": 5,
+        "date": "2022-04-07",
+        "low": 106.130359
+      },
+      "priorPivotB": {
+        "index": 106,
+        "date": "2022-09-01",
+        "low": 106.415521
+      },
+      "pivotAdjusted": 106.130359,
+      "pivotM5Basis": 121.96229914947074,
+      "d0BasisFactor": 1.1491744708926381,
+      "d0BasisPctDiff": {
+        "open": -0.019376169776952334,
+        "high": 0.046476071031875676,
+        "low": 4.4318428926715114e-7,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-09-22": 78,
+        "2022-09-23": 78,
+        "2022-09-26": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 10,
+        "confirmIndex": 11,
+        "entryIndex": 12,
+        "extreme": 121.43,
+        "entry": 122.105,
+        "stop": 121.30857,
+        "target": 124.5471,
+        "riskPct": 0.652250112608002,
+        "pivot": 121.96229914947074,
+        "entryDateTimeUTC": "2022-09-23T14:30:00.000+0000",
+        "exit": "STOP",
+        "exitPrice": 121.30857,
+        "exitIndex": 18,
+        "exitDateTimeUTC": "2022-09-23T15:00:00.000+0000",
+        "grossPct": -0.6522501126079994,
+        "netPct": -1.1522501126079994
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 10,
+        "confirmIndex": 11,
+        "entryIndex": 12,
+        "extreme": 121.43,
+        "entry": 122.105,
+        "stop": 119.66290000000001,
+        "target": 124.5471,
+        "riskPct": 1.999999999999997,
+        "pivot": 121.96229914947074,
+        "entryDateTimeUTC": "2022-09-23T14:30:00.000+0000",
+        "exit": "TIMEOUT",
+        "exitPrice": 121.16,
+        "exitIndex": 155,
+        "exitDateTimeUTC": "2022-09-26T19:55:00.000+0000",
+        "grossPct": -0.7739240817329462,
+        "netPct": -1.2739240817329462
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 124.46,
+        "entryDateTimeUTC": "2022-09-23T13:30:00.000+0000",
+        "stop": 121.9708,
+        "target": 126.94919999999999,
+        "exit": "STOP",
+        "exitPrice": 121.9708,
+        "exitIndex": 9,
+        "exitDateTimeUTC": "2022-09-23T14:15:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "SPGI",
+      "date": "2022-09-22",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -3.7356664163012754,
+      "rvol20": 1.52772024730648,
+      "priorPivotA": {
+        "index": 42,
+        "date": "2022-06-01",
+        "low": 323.107284
+      },
+      "priorPivotB": {
+        "index": 53,
+        "date": "2022-06-16",
+        "low": 323.511336
+      },
+      "pivotAdjusted": 323.107284,
+      "pivotM5Basis": 311.1644317245411,
+      "d0BasisFactor": 0.9630375021955281,
+      "d0BasisPctDiff": {
+        "open": 0.06299128785975938,
+        "high": -5.687837978385346e-8,
+        "low": -0.006206502057304331,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-09-22": 78,
+        "2022-09-23": 78,
+        "2022-09-26": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 321.795,
+        "entryDateTimeUTC": "2022-09-23T13:30:00.000+0000",
+        "stop": 315.3591,
+        "target": 328.2309,
+        "exit": "STOP",
+        "exitPrice": 315.3591,
+        "exitIndex": 65,
+        "exitDateTimeUTC": "2022-09-23T18:55:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "MPC",
+      "date": "2022-09-23",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -4.719733075464161,
+      "rvol20": 1.5675551665802132,
+      "priorPivotA": {
+        "index": 26,
+        "date": "2022-05-10",
+        "low": 81.652688
+      },
+      "priorPivotB": {
+        "index": 86,
+        "date": "2022-08-05",
+        "low": 81.122141
+      },
+      "pivotAdjusted": 81.122141,
+      "pivotM5Basis": 88.15299022508029,
+      "d0BasisFactor": 1.0866699169722394,
+      "d0BasisPctDiff": {
+        "open": 0.09718136864584892,
+        "high": 0.043052452127301244,
+        "low": -5.338819053513078e-7,
+        "close": -1.1102230246251565e-14
+      },
+      "sourceCounts": {
+        "2022-09-23": 78,
+        "2022-09-26": 78,
+        "2022-09-27": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 90.66,
+        "entryDateTimeUTC": "2022-09-26T13:30:00.000+0000",
+        "stop": 88.8468,
+        "target": 92.47319999999999,
+        "exit": "TARGET",
+        "exitPrice": 92.47319999999999,
+        "exitIndex": 9,
+        "exitDateTimeUTC": "2022-09-26T14:15:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    },
+    {
+      "symbol": "VLO",
+      "date": "2022-09-23",
+      "quarter": "2022Q3",
+      "status": "EVALUABLE",
+      "shockPct": -6.524770189953577,
+      "rvol20": 1.440986354457124,
+      "priorPivotA": {
+        "index": 6,
+        "date": "2022-04-11",
+        "low": 87.860004
+      },
+      "priorPivotB": {
+        "index": 75,
+        "date": "2022-07-21",
+        "low": 88.719127
+      },
+      "pivotAdjusted": 87.860004,
+      "pivotM5Basis": 98.4574040816796,
+      "d0BasisFactor": 1.12061688594596,
+      "d0BasisPctDiff": {
+        "open": -0.12564007791999732,
+        "high": 4.665115627133787e-7,
+        "low": -0.007230968147486916,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-09-23": 78,
+        "2022-09-26": 78,
+        "2022-09-27": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 99.76,
+        "entryDateTimeUTC": "2022-09-26T13:30:00.000+0000",
+        "stop": 97.76480000000001,
+        "target": 101.7552,
+        "exit": "STOP",
+        "exitPrice": 97.76480000000001,
+        "exitIndex": 77,
+        "exitDateTimeUTC": "2022-09-26T19:55:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "ON",
+      "date": "2022-10-10",
+      "quarter": "2022Q4",
+      "status": "EVALUABLE",
+      "shockPct": -4.473237698596321,
+      "rvol20": 1.3447105579430403,
+      "priorPivotA": {
+        "index": 77,
+        "date": "2022-08-09",
+        "low": 61.72
+      },
+      "priorPivotB": {
+        "index": 109,
+        "date": "2022-09-23",
+        "low": 61.66
+      },
+      "pivotAdjusted": 61.66,
+      "pivotM5Basis": 61.66,
+      "d0BasisFactor": 1,
+      "d0BasisPctDiff": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-10-10": 78,
+        "2022-10-11": 78,
+        "2022-10-12": 78
+      },
+      "primary": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "fixed": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 60.72,
+        "entryDateTimeUTC": "2022-10-11T13:30:00.000+0000",
+        "stop": 59.5056,
+        "target": 61.9344,
+        "exit": "STOP",
+        "exitPrice": 59.5056,
+        "exitIndex": 5,
+        "exitDateTimeUTC": "2022-10-11T13:55:00.000+0000",
+        "grossPct": -2.0000000000000018,
+        "netPct": -2.5000000000000018
+      }
+    },
+    {
+      "symbol": "ULTA",
+      "date": "2022-10-19",
+      "quarter": "2022Q4",
+      "status": "EVALUABLE",
+      "shockPct": -4.622450491382302,
+      "rvol20": 1.562277753018214,
+      "priorPivotA": {
+        "index": 31,
+        "date": "2022-06-13",
+        "low": 385.95
+      },
+      "priorPivotB": {
+        "index": 102,
+        "date": "2022-09-23",
+        "low": 386.1
+      },
+      "pivotAdjusted": 385.95,
+      "pivotM5Basis": 385.95,
+      "d0BasisFactor": 1,
+      "d0BasisPctDiff": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0
+      },
+      "sourceCounts": {
+        "2022-10-19": 78,
+        "2022-10-20": 78,
+        "2022-10-21": 78
+      },
+      "primary": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 384.18,
+        "entry": 387,
+        "stop": 383.79582,
+        "target": 394.74,
+        "riskPct": 0.8279534883720951,
+        "pivot": 385.95,
+        "entryDateTimeUTC": "2022-10-20T13:35:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 394.74,
+        "exitIndex": 7,
+        "exitDateTimeUTC": "2022-10-20T14:05:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "fixed": {
+        "status": "ENTRY",
+        "breakIndex": 0,
+        "confirmIndex": 0,
+        "entryIndex": 1,
+        "extreme": 384.18,
+        "entry": 387,
+        "stop": 379.26,
+        "target": 394.74,
+        "riskPct": 2.000000000000002,
+        "pivot": 385.95,
+        "entryDateTimeUTC": "2022-10-20T13:35:00.000+0000",
+        "exit": "TARGET",
+        "exitPrice": 394.74,
+        "exitIndex": 7,
+        "exitDateTimeUTC": "2022-10-20T14:05:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      },
+      "touch": {
+        "status": "SKIP_NO_PATTERN",
+        "netPct": 0
+      },
+      "nextopen": {
+        "status": "ENTRY",
+        "entry": 387.58,
+        "entryDateTimeUTC": "2022-10-20T13:30:00.000+0000",
+        "stop": 379.8284,
+        "target": 395.3316,
+        "exit": "TARGET",
+        "exitPrice": 395.3316,
+        "exitIndex": 7,
+        "exitDateTimeUTC": "2022-10-20T14:05:00.000+0000",
+        "grossPct": 2.0000000000000018,
+        "netPct": 1.5000000000000018
+      }
+    }
+  ]
+}
