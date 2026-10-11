@@ -1,0 +1,5410 @@
+{
+  "id": "ah_delayed_secondary_dip_oneday_stabilization_v0_1_2026-10-11",
+  "protocol": "frozen_ah_delayed_secondary_dip_oneday_stabilization_v0_1_2026-10-11.md",
+  "status": "RETROSPECTIVE_EXPLORATORY_NOT_UNSEEN",
+  "summary": {
+    "allAH": {
+      "n": 91,
+      "earlyDip": 62,
+      "tradeSignals": 28,
+      "noTrigger": 33,
+      "extendedSkip": 30,
+      "signalDays": {
+        "2": 10,
+        "3": 9,
+        "4": 9,
+        "5": 13,
+        "6": 8,
+        "7": 1,
+        "8": 3,
+        "9": 2,
+        "10": 3
+      },
+      "triggered": {
+        "n": 28,
+        "target": 12,
+        "stop": 13,
+        "timeout": 3,
+        "grossMean": -0.1458225244120621,
+        "netMean": -0.3458225244120619,
+        "grossPerEvent": -0.04486846904986526,
+        "netPerEvent": -0.10640693058832675
+      },
+      "D3": {
+        "n": 91,
+        "target": 47,
+        "stop": 38,
+        "timeout": 6,
+        "grossMean": 0.44873066044925525,
+        "netPerEvent": 0.2487306604492553
+      },
+      "D6": {
+        "n": 91,
+        "target": 46,
+        "stop": 36,
+        "timeout": 9,
+        "grossMean": 0.47040206671001494,
+        "netPerEvent": 0.27040206671001465
+      },
+      "D6Dip": {
+        "n": 62,
+        "target": 34,
+        "stop": 23,
+        "timeout": 5,
+        "grossMean": 0.8979488542477138,
+        "netPerEvent": 0.475525593003937
+      },
+      "pairedD6": {
+        "n": 28,
+        "signalMean": -0.1458225244120621,
+        "d6Mean": 1.0132406073423061,
+        "avgDiff": -1.1590631317543683,
+        "signalTargets": 12,
+        "D6Targets": 15
+      },
+      "stop3": {
+        "n": 28,
+        "target": 6,
+        "netMean": -1.1758628557423785
+      },
+      "hold40": {
+        "n": 28,
+        "target": 14,
+        "netMean": -0.32951961894513676
+      }
+    },
+    "original65": {
+      "n": 65,
+      "earlyDip": 45,
+      "tradeSignals": 21,
+      "noTrigger": 21,
+      "extendedSkip": 23,
+      "signalDays": {
+        "2": 7,
+        "3": 8,
+        "4": 7,
+        "5": 10,
+        "6": 6,
+        "7": 1,
+        "8": 3,
+        "9": 1,
+        "10": 1
+      },
+      "triggered": {
+        "n": 21,
+        "target": 9,
+        "stop": 10,
+        "timeout": 2,
+        "grossMean": -0.2749384908748416,
+        "netMean": -0.4749384908748414,
+        "grossPerEvent": -0.08882628166725652,
+        "netPerEvent": -0.15344166628264108
+      },
+      "D3": {
+        "n": 65,
+        "target": 33,
+        "stop": 28,
+        "timeout": 4,
+        "grossMean": 0.481020177022184,
+        "netPerEvent": 0.28102017702218396
+      },
+      "D6": {
+        "n": 65,
+        "target": 35,
+        "stop": 25,
+        "timeout": 5,
+        "grossMean": 0.829647851869879,
+        "netPerEvent": 0.6296478518698789
+      },
+      "D6Dip": {
+        "n": 45,
+        "target": 27,
+        "stop": 15,
+        "timeout": 3,
+        "grossMean": 1.3177355009898584,
+        "netPerEvent": 0.7738168853006709
+      },
+      "pairedD6": {
+        "n": 21,
+        "signalMean": -0.2749384908748416,
+        "d6Mean": 1.1253479411337408,
+        "avgDiff": -1.4002864320085826,
+        "signalTargets": 9,
+        "D6Targets": 12
+      },
+      "stop3": {
+        "n": 21,
+        "target": 5,
+        "netMean": -1.0831809515091062
+      },
+      "hold40": {
+        "n": 21,
+        "target": 10,
+        "netMean": -0.611931442315767
+      }
+    },
+    "companyDisjoint26": {
+      "n": 26,
+      "earlyDip": 17,
+      "tradeSignals": 7,
+      "noTrigger": 12,
+      "extendedSkip": 7,
+      "signalDays": {
+        "2": 3,
+        "3": 1,
+        "4": 2,
+        "5": 3,
+        "6": 2,
+        "7": 0,
+        "8": 0,
+        "9": 1,
+        "10": 2
+      },
+      "triggered": {
+        "n": 7,
+        "target": 3,
+        "stop": 3,
+        "timeout": 1,
+        "grossMean": 0.24152537497627652,
+        "netMean": 0.04152537497627647,
+        "grossPerEvent": 0.06502606249361291,
+        "netPerEvent": 0.01117990864745905
+      },
+      "D3": {
+        "n": 26,
+        "target": 14,
+        "stop": 10,
+        "timeout": 2,
+        "grossMean": 0.3680068690169333,
+        "netPerEvent": 0.16800686901693315
+      },
+      "D6": {
+        "n": 26,
+        "target": 11,
+        "stop": 11,
+        "timeout": 4,
+        "grossMean": -0.4277123961896458,
+        "netPerEvent": -0.6277123961896459
+      },
+      "D6Dip": {
+        "n": 17,
+        "target": 7,
+        "stop": 8,
+        "timeout": 2,
+        "grossMean": -0.21325109301090334,
+        "netPerEvent": -0.27020263773789854
+      },
+      "pairedD6": {
+        "n": 7,
+        "signalMean": 0.24152537497627652,
+        "d6Mean": 0.6769186059680024,
+        "avgDiff": -0.43539323099172567,
+        "signalTargets": 3,
+        "D6Targets": 3
+      },
+      "stop3": {
+        "n": 7,
+        "target": 1,
+        "netMean": -1.4539085684421953
+      },
+      "hold40": {
+        "n": 7,
+        "target": 4,
+        "netMean": 0.517715851166754
+      }
+    }
+  },
+  "rows": [
+    {
+      "ticker": "ABNB",
+      "cohort": "original92",
+      "earningsDate": "2023-05-09",
+      "selloffDate": "2023-05-10",
+      "initialSelloffPct": -10.92,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 5,
+      "signalClose": 108.33,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 4.625784645098996,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 105.06,
+        "entryDay": "2023-05-15",
+        "exit": 110.313,
+        "exitDay": "2023-05-18",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 108.34,
+        "entryDay": "2023-05-18",
+        "exit": 113.757,
+        "exitDay": "2023-06-02",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 11
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 108.34,
+        "entryDay": "2023-05-18",
+        "exit": 113.757,
+        "exitDay": "2023-06-02",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 11
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "cohort": "original92",
+      "earningsDate": "2025-06-12",
+      "selloffDate": "2025-06-13",
+      "initialSelloffPct": -5.32,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 5,
+      "signalClose": 380.12,
+      "entryDay": "2025-06-24",
+      "entryDistanceFromObservedTroughPct": 2.996575342465757,
+      "trigger": {
+        "state": "STOP",
+        "entry": 384.96,
+        "entryDay": "2025-06-24",
+        "exit": 365.712,
+        "exitDay": "2025-07-10",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 12
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 383.985,
+        "entryDay": "2025-06-18",
+        "exit": 364.78575,
+        "exitDay": "2025-07-11",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 16
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 384.96,
+        "entryDay": "2025-06-24",
+        "exit": 365.712,
+        "exitDay": "2025-07-10",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 12
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 384.96,
+        "entryDay": "2025-06-24",
+        "exit": 365.712,
+        "exitDay": "2025-07-10",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 12
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 384.96,
+          "entryDay": "2025-06-24",
+          "exit": 373.41119999999995,
+          "exitDay": "2025-07-02",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 7
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 384.96,
+          "entryDay": "2025-06-24",
+          "exit": 365.712,
+          "exitDay": "2025-07-10",
+          "reason": "STOP_TOUCH",
+          "pct": -4.999999999999993,
+          "netPct": -5.199999999999993,
+          "days": 12
+        }
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "cohort": "original92",
+      "earningsDate": "2025-03-12",
+      "selloffDate": "2025-03-13",
+      "initialSelloffPct": -13.85,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 395.36,
+        "entryDay": "2025-03-18",
+        "exit": 375.592,
+        "exitDay": "2025-03-31",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 10
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 384.13,
+        "entryDay": "2025-03-21",
+        "exit": 403.3365,
+        "exitDay": "2025-03-25",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "cohort": "original92",
+      "earningsDate": "2024-12-11",
+      "selloffDate": "2024-12-12",
+      "initialSelloffPct": -13.69,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 9,
+      "signalClose": 450.16,
+      "entryDay": "2024-12-27",
+      "entryDistanceFromObservedTroughPct": 3.3320230304992204,
+      "trigger": {
+        "state": "STOP",
+        "entry": 446.88,
+        "entryDay": "2024-12-27",
+        "exit": 424.536,
+        "exitDay": "2025-01-07",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 7
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 460.59,
+        "entryDay": "2024-12-17",
+        "exit": 437.56049999999993,
+        "exitDay": "2024-12-19",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 3
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 433.015,
+        "entryDay": "2024-12-20",
+        "exit": 410,
+        "exitDay": "2025-01-10",
+        "reason": "GAP_STOP",
+        "pct": -5.315058369802427,
+        "netPct": -5.515058369802428,
+        "days": 13
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 433.015,
+        "entryDay": "2024-12-20",
+        "exit": 410,
+        "exitDay": "2025-01-10",
+        "reason": "GAP_STOP",
+        "pct": -5.315058369802427,
+        "netPct": -5.515058369802428,
+        "days": 13
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 446.88,
+          "entryDay": "2024-12-27",
+          "exit": 429.445,
+          "exitDay": "2025-01-03",
+          "reason": "GAP_STOP",
+          "pct": -3.9014948084497014,
+          "netPct": -4.101494808449702,
+          "days": 5
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 446.88,
+          "entryDay": "2024-12-27",
+          "exit": 424.536,
+          "exitDay": "2025-01-07",
+          "reason": "STOP_TOUCH",
+          "pct": -4.999999999999993,
+          "netPct": -5.199999999999993,
+          "days": 7
+        }
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "cohort": "original92",
+      "earningsDate": "2024-09-12",
+      "selloffDate": "2024-09-13",
+      "initialSelloffPct": -8.47,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 4,
+      "signalClose": 526.44,
+      "entryDay": "2024-09-20",
+      "entryDistanceFromObservedTroughPct": 3.9388529015671025,
+      "trigger": {
+        "state": "STOP",
+        "entry": 526.44,
+        "entryDay": "2024-09-20",
+        "exit": 500.11800000000005,
+        "exitDay": "2024-10-03",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 10
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 517.01,
+        "entryDay": "2024-09-18",
+        "exit": 491.1595,
+        "exitDay": "2024-10-07",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 14
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 525.71,
+        "entryDay": "2024-09-23",
+        "exit": 499.4245,
+        "exitDay": "2024-10-03",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 9
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 525.71,
+        "entryDay": "2024-09-23",
+        "exit": 499.4245,
+        "exitDay": "2024-10-03",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 9
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 526.44,
+          "entryDay": "2024-09-20",
+          "exit": 510.64680000000004,
+          "exitDay": "2024-10-01",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 8
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 526.44,
+          "entryDay": "2024-09-20",
+          "exit": 500.11800000000005,
+          "exitDay": "2024-10-03",
+          "reason": "STOP_TOUCH",
+          "pct": -5.000000000000004,
+          "netPct": -5.200000000000005,
+          "days": 10
+        }
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "cohort": "original92",
+      "earningsDate": "2024-03-14",
+      "selloffDate": "2024-03-15",
+      "initialSelloffPct": -13.67,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 523.29,
+        "entryDay": "2024-03-20",
+        "exit": 497.12549999999993,
+        "exitDay": "2024-03-22",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 3
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 496.79,
+        "entryDay": "2024-03-25",
+        "exit": 471.9505,
+        "exitDay": "2024-04-12",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 14
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "earningsDate": "2026-02-03",
+      "selloffDate": "2026-02-04",
+      "initialSelloffPct": -17.31,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 2,
+      "signalClose": 208.44,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 8.481019295302028,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 206.895,
+        "entryDay": "2026-02-09",
+        "exit": 217.23975000000002,
+        "exitDay": "2026-02-09",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 215.83,
+        "entryDay": "2026-02-12",
+        "exit": 204.02,
+        "exitDay": "2026-02-13",
+        "reason": "GAP_STOP",
+        "pct": -5.471899179910111,
+        "netPct": -5.6718991799101115,
+        "days": 2
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 215.83,
+        "entryDay": "2026-02-12",
+        "exit": 204.02,
+        "exitDay": "2026-02-13",
+        "reason": "GAP_STOP",
+        "pct": -5.471899179910111,
+        "netPct": -5.6718991799101115,
+        "days": 2
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "earningsDate": "2025-08-05",
+      "selloffDate": "2025-08-06",
+      "initialSelloffPct": -6.42,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 170.04,
+        "entryDay": "2025-08-11",
+        "exit": 178.542,
+        "exitDay": "2025-08-11",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 179.83,
+        "entryDay": "2025-08-14",
+        "exit": 170.8385,
+        "exitDay": "2025-08-19",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 4
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "earningsDate": "2025-02-04",
+      "selloffDate": "2025-02-05",
+      "initialSelloffPct": -6.27,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 108.44,
+        "entryDay": "2025-02-10",
+        "exit": 113.86200000000001,
+        "exitDay": "2025-02-13",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 112,
+        "entryDay": "2025-02-13",
+        "exit": 106.39999999999999,
+        "exitDay": "2025-02-25",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 8
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "earningsDate": "2024-10-29",
+      "selloffDate": "2024-10-30",
+      "initialSelloffPct": -10.62,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 5,
+      "signalClose": 145.1,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 4.981391354136844,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 141.7,
+        "entryDay": "2024-11-04",
+        "exit": 148.785,
+        "exitDay": "2024-11-07",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 146.68,
+        "entryDay": "2024-11-07",
+        "exit": 139.346,
+        "exitDay": "2024-11-13",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 5
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 146.68,
+        "entryDay": "2024-11-07",
+        "exit": 139.346,
+        "exitDay": "2024-11-13",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 5
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "earningsDate": "2024-04-30",
+      "selloffDate": "2024-05-01",
+      "initialSelloffPct": -8.91,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 2,
+      "signalClose": 150.6,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 8.462328645814887,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 153.1,
+        "entryDay": "2024-05-06",
+        "exit": 160.92,
+        "exitDay": "2024-05-16",
+        "reason": "GAP_TARGET",
+        "pct": 5.107772697583268,
+        "netPct": 4.907772697583268,
+        "days": 9
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 153.13,
+        "entryDay": "2024-05-09",
+        "exit": 160.92,
+        "exitDay": "2024-05-16",
+        "reason": "GAP_TARGET",
+        "pct": 5.087180826748505,
+        "netPct": 4.887180826748505,
+        "days": 6
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 153.13,
+        "entryDay": "2024-05-09",
+        "exit": 160.92,
+        "exitDay": "2024-05-16",
+        "reason": "GAP_TARGET",
+        "pct": 5.087180826748505,
+        "netPct": 4.887180826748505,
+        "days": 6
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "earningsDate": "2023-05-02",
+      "selloffDate": "2023-05-03",
+      "initialSelloffPct": -9.22,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 89.99,
+        "entryDay": "2023-05-08",
+        "exit": 94.48949999999999,
+        "exitDay": "2023-05-08",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 98.155,
+        "entryDay": "2023-05-11",
+        "exit": 103.06275000000001,
+        "exitDay": "2023-05-16",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "earningsDate": "2026-05-05",
+      "selloffDate": "2026-05-06",
+      "initialSelloffPct": -13.61,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 4,
+      "signalClose": 142.54,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 7.156071930733376,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 141.4,
+        "entryDay": "2026-05-11",
+        "exit": 148.47,
+        "exitDay": "2026-05-21",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 9
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 142.5,
+        "entryDay": "2026-05-14",
+        "exit": 152.26,
+        "exitDay": "2026-05-22",
+        "reason": "GAP_TARGET",
+        "pct": 6.849122807017527,
+        "netPct": 6.649122807017527,
+        "days": 7
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 142.5,
+        "entryDay": "2026-05-14",
+        "exit": 152.26,
+        "exitDay": "2026-05-22",
+        "reason": "GAP_TARGET",
+        "pct": 6.849122807017527,
+        "netPct": 6.649122807017527,
+        "days": 7
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "earningsDate": "2025-11-04",
+      "selloffDate": "2025-11-05",
+      "initialSelloffPct": -8.55,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 10,
+      "signalClose": 124.81,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 6.397444298820432,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 137.5,
+        "entryDay": "2025-11-10",
+        "exit": 130.625,
+        "exitDay": "2025-11-13",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 4
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 134.43,
+        "entryDay": "2025-11-13",
+        "exit": 127.06,
+        "exitDay": "2025-11-14",
+        "reason": "GAP_STOP",
+        "pct": -5.482407200773642,
+        "netPct": -5.682407200773643,
+        "days": 2
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 134.43,
+        "entryDay": "2025-11-13",
+        "exit": 127.06,
+        "exitDay": "2025-11-14",
+        "reason": "GAP_STOP",
+        "pct": -5.482407200773642,
+        "netPct": -5.682407200773643,
+        "days": 2
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "earningsDate": "2025-02-18",
+      "selloffDate": "2025-02-19",
+      "initialSelloffPct": -6.43,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 5,
+      "signalClose": 96.38,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 9.602686066032472,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 94.05,
+        "entryDay": "2025-02-24",
+        "exit": 89.3475,
+        "exitDay": "2025-03-03",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 6
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 97.93,
+        "entryDay": "2025-02-27",
+        "exit": 93.0335,
+        "exitDay": "2025-02-27",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 1
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 97.93,
+        "entryDay": "2025-02-27",
+        "exit": 93.0335,
+        "exitDay": "2025-02-27",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 1
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "earningsDate": "2024-11-07",
+      "selloffDate": "2024-11-08",
+      "initialSelloffPct": -7.09,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 8,
+      "signalClose": 95.4275,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 6.4060803474484285,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 99.31,
+        "entryDay": "2024-11-13",
+        "exit": 94.3445,
+        "exitDay": "2024-11-15",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 3
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 94.975,
+        "entryDay": "2024-11-18",
+        "exit": 99.72375,
+        "exitDay": "2024-11-21",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 94.975,
+        "entryDay": "2024-11-18",
+        "exit": 99.72375,
+        "exitDay": "2024-11-21",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "earningsDate": "2024-02-12",
+      "selloffDate": "2024-02-13",
+      "initialSelloffPct": -5.47,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 6,
+      "signalClose": 67.19,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 6.499920973605167,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 66.3325,
+        "entryDay": "2024-02-16",
+        "exit": 70.4,
+        "exitDay": "2024-03-01",
+        "reason": "GAP_TARGET",
+        "pct": 6.13198658274603,
+        "netPct": 5.931986582746029,
+        "days": 10
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 65.34,
+        "entryDay": "2024-02-22",
+        "exit": 68.60700000000001,
+        "exitDay": "2024-02-26",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 65.34,
+        "entryDay": "2024-02-22",
+        "exit": 68.60700000000001,
+        "exitDay": "2024-02-26",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "earningsDate": "2023-05-01",
+      "selloffDate": "2023-05-02",
+      "initialSelloffPct": -15.72,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 3,
+      "signalClose": 34.495,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 4.875455650060734,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 33.8475,
+        "entryDay": "2023-05-05",
+        "exit": 35.7025,
+        "exitDay": "2023-05-19",
+        "reason": "GAP_TARGET",
+        "pct": 5.480463845187988,
+        "netPct": 5.280463845187988,
+        "days": 11
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 35.1025,
+        "entryDay": "2023-05-10",
+        "exit": 36.857625,
+        "exitDay": "2023-05-22",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 9
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 35.1025,
+        "entryDay": "2023-05-10",
+        "exit": 36.857625,
+        "exitDay": "2023-05-22",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 9
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "COIN",
+      "cohort": "original92",
+      "earningsDate": "2025-02-13",
+      "selloffDate": "2025-02-14",
+      "initialSelloffPct": -7.98,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 7,
+      "signalClose": 212.96,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 6.342628705148212,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 260.66,
+        "entryDay": "2025-02-20",
+        "exit": 247.627,
+        "exitDay": "2025-02-21",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 2
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 219.97,
+        "entryDay": "2025-02-25",
+        "exit": 208.9715,
+        "exitDay": "2025-02-25",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 1
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 219.97,
+        "entryDay": "2025-02-25",
+        "exit": 208.9715,
+        "exitDay": "2025-02-25",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 1
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "COIN",
+      "cohort": "original92",
+      "earningsDate": "2024-10-30",
+      "selloffDate": "2024-10-31",
+      "initialSelloffPct": -15.34,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 3,
+      "signalClose": 193.96,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 25.569225535775054,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 185.59,
+        "entryDay": "2024-11-05",
+        "exit": 194.86950000000002,
+        "exitDay": "2024-11-05",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 257.67,
+        "entryDay": "2024-11-08",
+        "exit": 270.55350000000004,
+        "exitDay": "2024-11-08",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 257.67,
+        "entryDay": "2024-11-08",
+        "exit": 270.55350000000004,
+        "exitDay": "2024-11-08",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "COIN",
+      "cohort": "original92",
+      "earningsDate": "2024-08-01",
+      "selloffDate": "2024-08-05",
+      "initialSelloffPct": -10.9,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 185.67,
+        "entryDay": "2024-08-08",
+        "exit": 194.9535,
+        "exitDay": "2024-08-08",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 193.13,
+        "entryDay": "2024-08-13",
+        "exit": 202.78650000000002,
+        "exitDay": "2024-08-15",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "CRM",
+      "cohort": "original92",
+      "earningsDate": "2024-05-29",
+      "selloffDate": "2024-05-30",
+      "initialSelloffPct": -19.74,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 231.606506,
+        "entryDay": "2024-06-04",
+        "exit": 243.1868313,
+        "exitDay": "2024-06-27",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 17
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 238.101157,
+        "entryDay": "2024-06-07",
+        "exit": 226.19609914999998,
+        "exitDay": "2024-06-13",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 5
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "cohort": "original92",
+      "earningsDate": "2025-03-04",
+      "selloffDate": "2025-03-05",
+      "initialSelloffPct": -6.34,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 4,
+      "signalClose": 82.4375,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 13.101155403403641,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 80.6625,
+        "entryDay": "2025-03-10",
+        "exit": 76.629375,
+        "exitDay": "2025-03-10",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 1
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 86.6425,
+        "entryDay": "2025-03-13",
+        "exit": 90.974625,
+        "exitDay": "2025-03-17",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 86.6425,
+        "entryDay": "2025-03-13",
+        "exit": 90.974625,
+        "exitDay": "2025-03-17",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "cohort": "original92",
+      "earningsDate": "2024-11-26",
+      "selloffDate": "2024-11-29",
+      "initialSelloffPct": -5.03,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 2,
+      "signalClose": 87.4875,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 4.914428333729504,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 88.275,
+        "entryDay": "2024-12-04",
+        "exit": 92.68875000000001,
+        "exitDay": "2024-12-06",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 91.4125,
+        "entryDay": "2024-12-09",
+        "exit": 86.84187499999999,
+        "exitDay": "2024-12-10",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 2
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 91.4125,
+        "entryDay": "2024-12-09",
+        "exit": 86.84187499999999,
+        "exitDay": "2024-12-10",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 2
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "cohort": "original92",
+      "earningsDate": "2026-02-11",
+      "selloffDate": "2026-02-12",
+      "initialSelloffPct": -12.32,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 3,
+      "signalClose": 77.169681,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 6.2244620945530515,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 75.560745,
+        "entryDay": "2026-02-18",
+        "exit": 79.33878225,
+        "exitDay": "2026-03-04",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 11
+      },
+      "D6": {
+        "state": "TIMEOUT",
+        "entry": 77.831022,
+        "entryDay": "2026-02-23",
+        "exit": 76.64653,
+        "exitDay": "2026-03-20",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": -1.5218764569222887,
+        "netPct": -1.7218764569222886,
+        "days": 20
+      },
+      "D6_afterDip": {
+        "state": "TIMEOUT",
+        "entry": 77.831022,
+        "entryDay": "2026-02-23",
+        "exit": 76.64653,
+        "exitDay": "2026-03-20",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": -1.5218764569222887,
+        "netPct": -1.7218764569222886,
+        "days": 20
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "cohort": "original92",
+      "earningsDate": "2025-08-13",
+      "selloffDate": "2025-08-15",
+      "initialSelloffPct": -5.97,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 3,
+      "signalClose": 65.494678,
+      "entryDay": "2025-08-21",
+      "entryDistanceFromObservedTroughPct": 2.053232222405499,
+      "trigger": {
+        "state": "TIMEOUT",
+        "entry": 65.484919,
+        "entryDay": "2025-08-21",
+        "exit": 67.026889,
+        "exitDay": "2025-09-18",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 2.3546948267584966,
+        "netPct": 2.1546948267584964,
+        "days": 20
+      },
+      "D3": {
+        "state": "TIMEOUT",
+        "entry": 65.211659,
+        "entryDay": "2025-08-20",
+        "exit": 66.089996,
+        "exitDay": "2025-09-17",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 1.3469017863814825,
+        "netPct": 1.1469017863814825,
+        "days": 20
+      },
+      "D6": {
+        "state": "TIMEOUT",
+        "entry": 65.660587,
+        "entryDay": "2025-08-25",
+        "exit": 66.119274,
+        "exitDay": "2025-09-22",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 0.6985727983211509,
+        "netPct": 0.4985727983211509,
+        "days": 20
+      },
+      "D6_afterDip": {
+        "state": "TIMEOUT",
+        "entry": 65.660587,
+        "entryDay": "2025-08-25",
+        "exit": 66.119274,
+        "exitDay": "2025-09-22",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 0.6985727983211509,
+        "netPct": 0.4985727983211509,
+        "days": 20
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "TIMEOUT",
+          "entry": 65.484919,
+          "entryDay": "2025-08-21",
+          "exit": 67.026889,
+          "exitDay": "2025-09-18",
+          "reason": "TIMEOUT_CLOSE",
+          "pct": 2.3546948267584966,
+          "netPct": 2.1546948267584964,
+          "days": 20
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 65.484919,
+          "entryDay": "2025-08-21",
+          "exit": 68.75916495000001,
+          "exitDay": "2025-10-08",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 34
+        }
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "cohort": "original92",
+      "earningsDate": "2023-11-15",
+      "selloffDate": "2023-11-16",
+      "initialSelloffPct": -9.83,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TIMEOUT",
+        "entry": 44.744711,
+        "entryDay": "2023-11-21",
+        "exit": 46.515219,
+        "exitDay": "2023-12-19",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 3.9569101250871874,
+        "netPct": 3.7569101250871872,
+        "days": 20
+      },
+      "D6": {
+        "state": "TIMEOUT",
+        "entry": 44.800329,
+        "entryDay": "2023-11-27",
+        "exit": 46.431792,
+        "exitDay": "2023-12-22",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 3.6416317389097896,
+        "netPct": 3.4416317389097895,
+        "days": 20
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "DELL",
+      "cohort": "original92",
+      "earningsDate": "2025-08-28",
+      "selloffDate": "2025-08-29",
+      "initialSelloffPct": -8.88,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 2,
+      "signalClose": 122.4595,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 5.378080018604869,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 122.469374,
+        "entryDay": "2025-09-04",
+        "exit": 128.5928427,
+        "exitDay": "2025-09-17",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 10
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 119.349135,
+        "entryDay": "2025-09-09",
+        "exit": 125.31659175000001,
+        "exitDay": "2025-09-10",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 2
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 119.349135,
+        "entryDay": "2025-09-09",
+        "exit": 125.31659175000001,
+        "exitDay": "2025-09-10",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 2
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "DELL",
+      "cohort": "original92",
+      "earningsDate": "2025-02-27",
+      "selloffDate": "2025-03-03",
+      "initialSelloffPct": -11.38,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 2,
+      "signalClose": 95.02601,
+      "entryDay": "2025-03-06",
+      "entryDistanceFromObservedTroughPct": 1.991126031799939,
+      "trigger": {
+        "state": "STOP",
+        "entry": 92.094616,
+        "entryDay": "2025-03-06",
+        "exit": 87.4898852,
+        "exitDay": "2025-03-07",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 2
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 92.094616,
+        "entryDay": "2025-03-06",
+        "exit": 87.4898852,
+        "exitDay": "2025-03-07",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 2
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 88.469459,
+        "entryDay": "2025-03-11",
+        "exit": 92.89293195,
+        "exitDay": "2025-03-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 2
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 88.469459,
+        "entryDay": "2025-03-11",
+        "exit": 92.89293195,
+        "exitDay": "2025-03-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 2
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 92.094616,
+          "entryDay": "2025-03-06",
+          "exit": 89.33177752,
+          "exitDay": "2025-03-07",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 2
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 92.094616,
+          "entryDay": "2025-03-06",
+          "exit": 87.4898852,
+          "exitDay": "2025-03-07",
+          "reason": "STOP_TOUCH",
+          "pct": -4.999999999999993,
+          "netPct": -5.199999999999993,
+          "days": 2
+        }
+      }
+    },
+    {
+      "ticker": "DELL",
+      "cohort": "original92",
+      "earningsDate": "2024-11-26",
+      "selloffDate": "2024-11-27",
+      "initialSelloffPct": -12.25,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 121.809867,
+        "entryDay": "2024-12-03",
+        "exit": 115.71937365,
+        "exitDay": "2024-12-10",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 6
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 122.257554,
+        "entryDay": "2024-12-06",
+        "exit": 116.1446763,
+        "exitDay": "2024-12-10",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 3
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "DIS",
+      "cohort": "original92",
+      "earningsDate": "2023-05-10",
+      "selloffDate": "2023-05-11",
+      "initialSelloffPct": -8.73,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 4,
+      "signalClose": 89.946377,
+      "entryDay": "2023-05-18",
+      "entryDistanceFromObservedTroughPct": 2.364939294206092,
+      "trigger": {
+        "state": "STOP",
+        "entry": 90.019095,
+        "entryDay": "2023-05-18",
+        "exit": 85.51814024999999,
+        "exitDay": "2023-05-25",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 6
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 89.238596,
+        "entryDay": "2023-05-16",
+        "exit": 84.7766662,
+        "exitDay": "2023-05-30",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 10
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 90.169377,
+        "entryDay": "2023-05-19",
+        "exit": 85.66090815,
+        "exitDay": "2023-05-25",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 5
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 90.169377,
+        "entryDay": "2023-05-19",
+        "exit": 85.66090815,
+        "exitDay": "2023-05-25",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 5
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 90.019095,
+          "entryDay": "2023-05-18",
+          "exit": 87.31852214999999,
+          "exitDay": "2023-05-22",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 3
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 90.019095,
+          "entryDay": "2023-05-18",
+          "exit": 85.51814024999999,
+          "exitDay": "2023-05-25",
+          "reason": "STOP_TOUCH",
+          "pct": -5.000000000000004,
+          "netPct": -5.200000000000005,
+          "days": 6
+        }
+      }
+    },
+    {
+      "ticker": "FDX",
+      "cohort": "original92",
+      "earningsDate": "2024-09-19",
+      "selloffDate": "2024-09-20",
+      "initialSelloffPct": -15.23,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TIMEOUT",
+        "entry": 257.275672,
+        "entryDay": "2024-09-25",
+        "exit": 260.931557,
+        "exitDay": "2024-10-22",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 1.4209991063593552,
+        "netPct": 1.2209991063593553,
+        "days": 20
+      },
+      "D6": {
+        "state": "TIMEOUT",
+        "entry": 260.767139,
+        "entryDay": "2024-09-30",
+        "exit": 263.185052,
+        "exitDay": "2024-10-25",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 0.9272307121488854,
+        "netPct": 0.7272307121488855,
+        "days": 20
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "GILD",
+      "cohort": "original92",
+      "earningsDate": "2024-02-06",
+      "selloffDate": "2024-02-08",
+      "initialSelloffPct": -5.04,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 2,
+      "signalClose": 68.352116,
+      "entryDay": "2024-02-13",
+      "entryDistanceFromObservedTroughPct": 2.582064167036213,
+      "trigger": {
+        "state": "TIMEOUT",
+        "entry": 68.572459,
+        "entryDay": "2024-02-13",
+        "exit": 68.930515,
+        "exitDay": "2024-03-12",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 0.5221571535009462,
+        "netPct": 0.32215715350094615,
+        "days": 20
+      },
+      "D3": {
+        "state": "TIMEOUT",
+        "entry": 68.572459,
+        "entryDay": "2024-02-13",
+        "exit": 68.930515,
+        "exitDay": "2024-03-12",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 0.5221571535009462,
+        "netPct": 0.32215715350094615,
+        "days": 20
+      },
+      "D6": {
+        "state": "TIMEOUT",
+        "entry": 67.020879,
+        "entryDay": "2024-02-16",
+        "exit": 68.347378,
+        "exitDay": "2024-03-15",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 1.9792324717197607,
+        "netPct": 1.7792324717197607,
+        "days": 20
+      },
+      "D6_afterDip": {
+        "state": "TIMEOUT",
+        "entry": 67.020879,
+        "entryDay": "2024-02-16",
+        "exit": 68.347378,
+        "exitDay": "2024-03-15",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 1.9792324717197607,
+        "netPct": 1.7792324717197607,
+        "days": 20
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 68.572459,
+          "entryDay": "2024-02-13",
+          "exit": 66.51528522999999,
+          "exitDay": "2024-02-16",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000138,
+          "netPct": -3.200000000000014,
+          "days": 4
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 68.572459,
+          "entryDay": "2024-02-13",
+          "exit": 65.14383604999999,
+          "exitDay": "2024-04-04",
+          "reason": "STOP_TOUCH",
+          "pct": -5.000000000000004,
+          "netPct": -5.200000000000005,
+          "days": 36
+        }
+      }
+    },
+    {
+      "ticker": "GILD",
+      "cohort": "original92",
+      "earningsDate": "2023-11-07",
+      "selloffDate": "2023-11-09",
+      "initialSelloffPct": -6.98,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 6,
+      "signalClose": 68.644952,
+      "entryDay": "2023-11-20",
+      "entryDistanceFromObservedTroughPct": 1.6759022740204133,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 68.444795,
+        "entryDay": "2023-11-20",
+        "exit": 71.86703475,
+        "exitDay": "2023-12-05",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 11
+      },
+      "D3": {
+        "state": "TARGET",
+        "entry": 68.526677,
+        "entryDay": "2023-11-14",
+        "exit": 71.95301085000001,
+        "exitDay": "2023-12-05",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 15
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 68.13546,
+        "entryDay": "2023-11-17",
+        "exit": 71.542233,
+        "exitDay": "2023-12-05",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 12
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 68.13546,
+        "entryDay": "2023-11-17",
+        "exit": 71.542233,
+        "exitDay": "2023-12-05",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 12
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "TARGET",
+          "entry": 68.444795,
+          "entryDay": "2023-11-20",
+          "exit": 71.86703475,
+          "exitDay": "2023-12-05",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 11
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 68.444795,
+          "entryDay": "2023-11-20",
+          "exit": 71.86703475,
+          "exitDay": "2023-12-05",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 11
+        }
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "cohort": "original92",
+      "earningsDate": "2025-02-04",
+      "selloffDate": "2025-02-05",
+      "initialSelloffPct": -6.94,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 6,
+      "signalClose": 186.785903,
+      "entryDay": "2025-02-14",
+      "entryDistanceFromObservedTroughPct": 1.7426345423950718,
+      "trigger": {
+        "state": "STOP",
+        "entry": 185.742018,
+        "entryDay": "2025-02-14",
+        "exit": 176.4549171,
+        "exitDay": "2025-02-25",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 7
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 187.959032,
+        "entryDay": "2025-02-10",
+        "exit": 178.5610804,
+        "exitDay": "2025-02-25",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 11
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 184.847259,
+        "entryDay": "2025-02-13",
+        "exit": 175.60489605,
+        "exitDay": "2025-02-26",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 9
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 184.847259,
+        "entryDay": "2025-02-13",
+        "exit": 175.60489605,
+        "exitDay": "2025-02-26",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 9
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 185.742018,
+          "entryDay": "2025-02-14",
+          "exit": 180.16975746,
+          "exitDay": "2025-02-21",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 5
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 185.742018,
+          "entryDay": "2025-02-14",
+          "exit": 176.4549171,
+          "exitDay": "2025-02-25",
+          "reason": "STOP_TOUCH",
+          "pct": -5.000000000000004,
+          "netPct": -5.200000000000005,
+          "days": 7
+        }
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "cohort": "original92",
+      "earningsDate": "2024-07-23",
+      "selloffDate": "2024-07-24",
+      "initialSelloffPct": -5.03,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 3,
+      "signalClose": 169.717232,
+      "entryDay": "2024-07-30",
+      "entryDistanceFromObservedTroughPct": 3.596298327487557,
+      "trigger": {
+        "state": "STOP",
+        "entry": 170.411453,
+        "entryDay": "2024-07-30",
+        "exit": 156.070828,
+        "exitDay": "2024-08-05",
+        "reason": "GAP_STOP",
+        "pct": -8.415294129321216,
+        "netPct": -8.615294129321216,
+        "days": 5
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 169.092433,
+        "entryDay": "2024-07-29",
+        "exit": 156.070828,
+        "exitDay": "2024-08-05",
+        "reason": "GAP_STOP",
+        "pct": -7.700879790404336,
+        "netPct": -7.900879790404336,
+        "days": 6
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 170.560215,
+        "entryDay": "2024-08-01",
+        "exit": 156.070828,
+        "exitDay": "2024-08-05",
+        "reason": "GAP_STOP",
+        "pct": -8.495173977120041,
+        "netPct": -8.69517397712004,
+        "days": 3
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 170.560215,
+        "entryDay": "2024-08-01",
+        "exit": 156.070828,
+        "exitDay": "2024-08-05",
+        "reason": "GAP_STOP",
+        "pct": -8.495173977120041,
+        "netPct": -8.69517397712004,
+        "days": 3
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 170.411453,
+          "entryDay": "2024-07-30",
+          "exit": 165.29910941,
+          "exitDay": "2024-08-02",
+          "reason": "STOP_TOUCH",
+          "pct": -2.9999999999999916,
+          "netPct": -3.1999999999999917,
+          "days": 4
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 170.411453,
+          "entryDay": "2024-07-30",
+          "exit": 156.070828,
+          "exitDay": "2024-08-05",
+          "reason": "GAP_STOP",
+          "pct": -8.415294129321216,
+          "netPct": -8.615294129321216,
+          "days": 5
+        }
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "cohort": "original92",
+      "earningsDate": "2024-01-30",
+      "selloffDate": "2024-01-31",
+      "initialSelloffPct": -7.35,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 3,
+      "signalClose": 143.570146,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 5.63798239096176,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 142.688497,
+        "entryDay": "2024-02-05",
+        "exit": 135.55407215,
+        "exitDay": "2024-02-28",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000016,
+        "netPct": -5.200000000000016,
+        "days": 17
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 145.591005,
+        "entryDay": "2024-02-08",
+        "exit": 138.31145475,
+        "exitDay": "2024-02-26",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 12
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 145.591005,
+        "entryDay": "2024-02-08",
+        "exit": 138.31145475,
+        "exitDay": "2024-02-26",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 12
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "HPE",
+      "cohort": "original92",
+      "earningsDate": "2025-03-06",
+      "selloffDate": "2025-03-07",
+      "initialSelloffPct": -11.97,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 2,
+      "signalClose": 14.761958,
+      "entryDay": "2025-03-12",
+      "entryDistanceFromObservedTroughPct": 2.693601350610919,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 14.675349,
+        "entryDay": "2025-03-12",
+        "exit": 15.40911645,
+        "exitDay": "2025-03-18",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 5
+      },
+      "D3": {
+        "state": "TARGET",
+        "entry": 14.675349,
+        "entryDay": "2025-03-12",
+        "exit": 15.40911645,
+        "exitDay": "2025-03-18",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 5
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 15.060276,
+        "entryDay": "2025-03-17",
+        "exit": 15.813289800000002,
+        "exitDay": "2025-03-19",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 15.060276,
+        "entryDay": "2025-03-17",
+        "exit": 15.813289800000002,
+        "exitDay": "2025-03-19",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 14.675349,
+          "entryDay": "2025-03-12",
+          "exit": 14.23508853,
+          "exitDay": "2025-03-13",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 2
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 14.675349,
+          "entryDay": "2025-03-12",
+          "exit": 15.40911645,
+          "exitDay": "2025-03-18",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 5
+        }
+      }
+    },
+    {
+      "ticker": "HPE",
+      "cohort": "original92",
+      "earningsDate": "2024-09-04",
+      "selloffDate": "2024-09-05",
+      "initialSelloffPct": -6.02,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 5,
+      "signalClose": 16.009173,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 7.292333022064179,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 15.562892,
+        "entryDay": "2024-09-10",
+        "exit": 16.3410366,
+        "exitDay": "2024-09-16",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 5
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 16.066146,
+        "entryDay": "2024-09-13",
+        "exit": 17.063158,
+        "exitDay": "2024-09-17",
+        "reason": "GAP_TARGET",
+        "pct": 6.205669984575035,
+        "netPct": 6.005669984575035,
+        "days": 3
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 16.066146,
+        "entryDay": "2024-09-13",
+        "exit": 17.063158,
+        "exitDay": "2024-09-17",
+        "reason": "GAP_TARGET",
+        "pct": 6.205669984575035,
+        "netPct": 6.005669984575035,
+        "days": 3
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "HPE",
+      "cohort": "original92",
+      "earningsDate": "2023-05-30",
+      "selloffDate": "2023-05-31",
+      "initialSelloffPct": -7.09,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 13.859953,
+        "entryDay": "2023-06-05",
+        "exit": 14.552950650000001,
+        "exitDay": "2023-06-09",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 5
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 14.342276,
+        "entryDay": "2023-06-08",
+        "exit": 15.0593898,
+        "exitDay": "2023-06-13",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "IBM",
+      "cohort": "original92",
+      "earningsDate": "2026-04-22",
+      "selloffDate": "2026-04-23",
+      "initialSelloffPct": -8.25,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 227.186203,
+        "entryDay": "2026-04-28",
+        "exit": 215.82689285,
+        "exitDay": "2026-05-13",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 12
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 231.177977,
+        "entryDay": "2026-05-01",
+        "exit": 219.61907814999998,
+        "exitDay": "2026-05-12",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 8
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "cohort": "original92",
+      "earningsDate": "2023-07-20",
+      "selloffDate": "2023-07-24",
+      "initialSelloffPct": -6.93,
+      "earlyDip": true,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 331.71,
+        "entryDay": "2023-07-27",
+        "exit": 315.12449999999995,
+        "exitDay": "2023-08-02",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 5
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 322,
+        "entryDay": "2023-08-01",
+        "exit": 305.9,
+        "exitDay": "2023-08-08",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 6
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 322,
+        "entryDay": "2023-08-01",
+        "exit": 305.9,
+        "exitDay": "2023-08-08",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 6
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "cohort": "original92",
+      "earningsDate": "2023-01-24",
+      "selloffDate": "2023-01-25",
+      "initialSelloffPct": -5.5,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 245,
+        "entryDay": "2023-01-30",
+        "exit": 257.25,
+        "exitDay": "2023-02-02",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 253.85,
+        "entryDay": "2023-02-02",
+        "exit": 241.15749999999997,
+        "exitDay": "2023-02-14",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 9
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "KLAC",
+      "cohort": "original92",
+      "earningsDate": "2026-01-29",
+      "selloffDate": "2026-01-30",
+      "initialSelloffPct": -15.24,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 4,
+      "signalClose": 132.610937,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 7.168648856557724,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 136.018293,
+        "entryDay": "2026-02-04",
+        "exit": 129.21737835,
+        "exitDay": "2026-02-04",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 1
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 143.467652,
+        "entryDay": "2026-02-09",
+        "exit": 150.64103459999998,
+        "exitDay": "2026-02-23",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 10
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 143.467652,
+        "entryDay": "2026-02-09",
+        "exit": 150.64103459999998,
+        "exitDay": "2026-02-23",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 10
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "cohort": "original92",
+      "earningsDate": "2025-10-21",
+      "selloffDate": "2025-10-22",
+      "initialSelloffPct": -10.07,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 4,
+      "signalClose": 110.25,
+      "entryDay": "2025-10-29",
+      "entryDistanceFromObservedTroughPct": 1.153315552285461,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 109.984,
+        "entryDay": "2025-10-29",
+        "exit": 115.4832,
+        "exitDay": "2025-11-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 11
+      },
+      "D3": {
+        "state": "TARGET",
+        "entry": 110.067,
+        "entryDay": "2025-10-27",
+        "exit": 115.57034999999999,
+        "exitDay": "2025-11-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 13
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 109.44,
+        "entryDay": "2025-10-30",
+        "exit": 114.912,
+        "exitDay": "2025-11-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 10
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 109.44,
+        "entryDay": "2025-10-30",
+        "exit": 114.912,
+        "exitDay": "2025-11-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 10
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "TARGET",
+          "entry": 109.984,
+          "entryDay": "2025-10-29",
+          "exit": 115.4832,
+          "exitDay": "2025-11-12",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 11
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 109.984,
+          "entryDay": "2025-10-29",
+          "exit": 115.4832,
+          "exitDay": "2025-11-12",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 11
+        }
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "cohort": "original92",
+      "earningsDate": "2025-07-17",
+      "selloffDate": "2025-07-18",
+      "initialSelloffPct": -5.1,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 8,
+      "signalClose": 118.42,
+      "entryDay": "2025-07-31",
+      "entryDistanceFromObservedTroughPct": 1.9042452734036486,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 118.48,
+        "entryDay": "2025-07-31",
+        "exit": 124.40400000000001,
+        "exitDay": "2025-08-14",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 11
+      },
+      "D3": {
+        "state": "TARGET",
+        "entry": 118.981,
+        "entryDay": "2025-07-23",
+        "exit": 124.93005,
+        "exitDay": "2025-08-18",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 19
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 118.12,
+        "entryDay": "2025-07-28",
+        "exit": 124.02600000000001,
+        "exitDay": "2025-08-14",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 14
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 118.12,
+        "entryDay": "2025-07-28",
+        "exit": 124.02600000000001,
+        "exitDay": "2025-08-14",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 14
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 118.48,
+          "entryDay": "2025-07-31",
+          "exit": 114.9256,
+          "exitDay": "2025-08-05",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 4
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 118.48,
+          "entryDay": "2025-07-31",
+          "exit": 124.40400000000001,
+          "exitDay": "2025-08-14",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 11
+        }
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "cohort": "original92",
+      "earningsDate": "2023-07-19",
+      "selloffDate": "2023-07-20",
+      "initialSelloffPct": -8.41,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 6,
+      "signalClose": 42.578,
+      "entryDay": "2023-07-31",
+      "entryDistanceFromObservedTroughPct": 3.5520054384772237,
+      "trigger": {
+        "state": "STOP",
+        "entry": 42.651,
+        "entryDay": "2023-07-31",
+        "exit": 40.51845,
+        "exitDay": "2023-08-17",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 14
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 42.718,
+        "entryDay": "2023-07-25",
+        "exit": 40.582100000000004,
+        "exitDay": "2023-08-17",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 18
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 41.556,
+        "entryDay": "2023-07-28",
+        "exit": 43.6338,
+        "exitDay": "2023-07-31",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 2
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 41.556,
+        "entryDay": "2023-07-28",
+        "exit": 43.6338,
+        "exitDay": "2023-07-31",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 2
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 42.651,
+          "entryDay": "2023-07-31",
+          "exit": 41.37147,
+          "exitDay": "2023-08-17",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 14
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 42.651,
+          "entryDay": "2023-07-31",
+          "exit": 40.51845,
+          "exitDay": "2023-08-17",
+          "reason": "STOP_TOUCH",
+          "pct": -5.000000000000004,
+          "netPct": -5.200000000000005,
+          "days": 14
+        }
+      }
+    },
+    {
+      "ticker": "NOW",
+      "cohort": "original92",
+      "earningsDate": "2026-01-28",
+      "selloffDate": "2026-01-29",
+      "initialSelloffPct": -9.94,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 8,
+      "signalClose": 106.48,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 7.734693877551013,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 115.02,
+        "entryDay": "2026-02-03",
+        "exit": 109.26899999999999,
+        "exitDay": "2026-02-03",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 1
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 101.68,
+        "entryDay": "2026-02-06",
+        "exit": 106.76400000000001,
+        "exitDay": "2026-02-10",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 101.68,
+        "entryDay": "2026-02-06",
+        "exit": 106.76400000000001,
+        "exitDay": "2026-02-10",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "NOW",
+      "cohort": "original92",
+      "earningsDate": "2025-01-29",
+      "selloffDate": "2025-01-30",
+      "initialSelloffPct": -11.44,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 207.982,
+        "entryDay": "2025-02-04",
+        "exit": 197.5829,
+        "exitDay": "2025-02-12",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 7
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 205,
+        "entryDay": "2025-02-07",
+        "exit": 194.75,
+        "exitDay": "2025-02-13",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 5
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "earningsDate": "2026-06-02",
+      "selloffDate": "2026-06-03",
+      "initialSelloffPct": -5.64,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 5,
+      "signalClose": 263.22,
+      "entryDay": "2026-06-11",
+      "entryDistanceFromObservedTroughPct": 3.919968146525976,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 260.995,
+        "entryDay": "2026-06-11",
+        "exit": 274.04475,
+        "exitDay": "2026-06-11",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 269.63,
+        "entryDay": "2026-06-08",
+        "exit": 256.14849999999996,
+        "exitDay": "2026-06-09",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000016,
+        "netPct": -5.200000000000016,
+        "days": 2
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 260.995,
+        "entryDay": "2026-06-11",
+        "exit": 274.04475,
+        "exitDay": "2026-06-11",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 260.995,
+        "entryDay": "2026-06-11",
+        "exit": 274.04475,
+        "exitDay": "2026-06-11",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "TARGET",
+          "entry": 260.995,
+          "entryDay": "2026-06-11",
+          "exit": 274.04475,
+          "exitDay": "2026-06-11",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 1
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 260.995,
+          "entryDay": "2026-06-11",
+          "exit": 274.04475,
+          "exitDay": "2026-06-11",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 1
+        }
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "earningsDate": "2026-02-17",
+      "selloffDate": "2026-02-18",
+      "initialSelloffPct": -6.82,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 5,
+      "signalClose": 144.84,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 5.258557317945178,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 147.72,
+        "entryDay": "2026-02-23",
+        "exit": 140.334,
+        "exitDay": "2026-02-24",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 2
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 146.91,
+        "entryDay": "2026-02-26",
+        "exit": 154.2555,
+        "exitDay": "2026-03-03",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 146.91,
+        "entryDay": "2026-02-26",
+        "exit": 154.2555,
+        "exitDay": "2026-03-03",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "earningsDate": "2025-11-19",
+      "selloffDate": "2025-11-20",
+      "initialSelloffPct": -7.42,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 5,
+      "signalClose": 190.13,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 5.270758122743668,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 183.53,
+        "entryDay": "2025-11-25",
+        "exit": 192.7065,
+        "exitDay": "2025-12-03",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 6
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 189.54,
+        "entryDay": "2025-12-01",
+        "exit": 199.017,
+        "exitDay": "2025-12-05",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 5
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 189.54,
+        "entryDay": "2025-12-01",
+        "exit": 199.017,
+        "exitDay": "2025-12-05",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 5
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "earningsDate": "2025-05-20",
+      "selloffDate": "2025-05-21",
+      "initialSelloffPct": -6.8,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 188.67,
+        "entryDay": "2025-05-27",
+        "exit": 198.1035,
+        "exitDay": "2025-06-03",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 6
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 187.02,
+        "entryDay": "2025-05-30",
+        "exit": 196.371,
+        "exitDay": "2025-06-03",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "earningsDate": "2024-02-20",
+      "selloffDate": "2024-02-21",
+      "initialSelloffPct": -28.44,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 144.26,
+        "entryDay": "2024-02-26",
+        "exit": 151.47299999999998,
+        "exitDay": "2024-02-26",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 157.89,
+        "entryDay": "2024-02-29",
+        "exit": 149.9955,
+        "exitDay": "2024-03-01",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 2
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "earningsDate": "2023-11-15",
+      "selloffDate": "2023-11-16",
+      "initialSelloffPct": -5.42,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 129.775,
+        "entryDay": "2023-11-21",
+        "exit": 136.26375000000002,
+        "exitDay": "2023-11-28",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 5
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 133,
+        "entryDay": "2023-11-27",
+        "exit": 139.73,
+        "exitDay": "2023-11-29",
+        "reason": "GAP_TARGET",
+        "pct": 5.060150375939831,
+        "netPct": 4.860150375939831,
+        "days": 3
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "cohort": "original92",
+      "earningsDate": "2024-02-07",
+      "selloffDate": "2024-02-08",
+      "initialSelloffPct": -11.24,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 57.241647,
+        "entryDay": "2024-02-13",
+        "exit": 60.10372935,
+        "exitDay": "2024-02-28",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 11
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 58.210838,
+        "entryDay": "2024-02-16",
+        "exit": 61.12137990000001,
+        "exitDay": "2024-02-29",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 9
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "cohort": "original92",
+      "earningsDate": "2023-08-02",
+      "selloffDate": "2023-08-03",
+      "initialSelloffPct": -12.32,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 5,
+      "signalClose": 62.097495,
+      "entryDay": "2023-08-11",
+      "entryDistanceFromObservedTroughPct": 0.5490083029237924,
+      "trigger": {
+        "state": "STOP",
+        "entry": 61.58323,
+        "entryDay": "2023-08-11",
+        "exit": 58.359184,
+        "exitDay": "2023-08-17",
+        "reason": "GAP_STOP",
+        "pct": -5.235266159309926,
+        "netPct": -5.4352661593099265,
+        "days": 5
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 63.066686,
+        "entryDay": "2023-08-08",
+        "exit": 59.91335169999999,
+        "exitDay": "2023-08-15",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 6
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 61.58323,
+        "entryDay": "2023-08-11",
+        "exit": 58.359184,
+        "exitDay": "2023-08-17",
+        "reason": "GAP_STOP",
+        "pct": -5.235266159309926,
+        "netPct": -5.4352661593099265,
+        "days": 5
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 61.58323,
+        "entryDay": "2023-08-11",
+        "exit": 58.359184,
+        "exitDay": "2023-08-17",
+        "reason": "GAP_STOP",
+        "pct": -5.235266159309926,
+        "netPct": -5.4352661593099265,
+        "days": 5
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 61.58323,
+          "entryDay": "2023-08-11",
+          "exit": 59.7357331,
+          "exitDay": "2023-08-15",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 3
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 61.58323,
+          "entryDay": "2023-08-11",
+          "exit": 58.359184,
+          "exitDay": "2023-08-17",
+          "reason": "GAP_STOP",
+          "pct": -5.235266159309926,
+          "netPct": -5.4352661593099265,
+          "days": 5
+        }
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "cohort": "original92",
+      "earningsDate": "2023-05-08",
+      "selloffDate": "2023-05-09",
+      "initialSelloffPct": -12.73,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 4,
+      "signalClose": 61.56345,
+      "entryDay": "2023-05-16",
+      "entryDistanceFromObservedTroughPct": 0.7992173740274389,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 61.118413,
+        "entryDay": "2023-05-16",
+        "exit": 64.17433365,
+        "exitDay": "2023-06-05",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 14
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 63.393047,
+        "entryDay": "2023-05-12",
+        "exit": 60.22339465,
+        "exitDay": "2023-05-16",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 3
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 60.475582,
+        "entryDay": "2023-05-17",
+        "exit": 63.49936110000001,
+        "exitDay": "2023-06-02",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 12
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 60.475582,
+        "entryDay": "2023-05-17",
+        "exit": 63.49936110000001,
+        "exitDay": "2023-06-02",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 12
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 61.118413,
+          "entryDay": "2023-05-16",
+          "exit": 59.284860609999996,
+          "exitDay": "2023-05-25",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 8
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 61.118413,
+          "entryDay": "2023-05-16",
+          "exit": 64.17433365,
+          "exitDay": "2023-06-05",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 14
+        }
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "cohort": "original92",
+      "earningsDate": "2026-02-04",
+      "selloffDate": "2026-02-05",
+      "initialSelloffPct": -8.46,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 136.018318,
+        "entryDay": "2026-02-10",
+        "exit": 142.8192339,
+        "exitDay": "2026-02-24",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 10
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 135.009098,
+        "entryDay": "2026-02-13",
+        "exit": 141.7595529,
+        "exitDay": "2026-02-18",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "cohort": "original92",
+      "earningsDate": "2025-07-30",
+      "selloffDate": "2025-07-31",
+      "initialSelloffPct": -7.73,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 6,
+      "signalClose": 143.731815,
+      "entryDay": "2025-08-11",
+      "entryDistanceFromObservedTroughPct": 3.0983273727021254,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 144.720482,
+        "entryDay": "2025-08-11",
+        "exit": 151.9565061,
+        "exitDay": "2025-08-13",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D3": {
+        "state": "TARGET",
+        "entry": 144.666909,
+        "entryDay": "2025-08-05",
+        "exit": 151.90025445,
+        "exitDay": "2025-08-13",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 7
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 142.553206,
+        "entryDay": "2025-08-08",
+        "exit": 149.6808663,
+        "exitDay": "2025-08-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 142.553206,
+        "entryDay": "2025-08-08",
+        "exit": 149.6808663,
+        "exitDay": "2025-08-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "TARGET",
+          "entry": 144.720482,
+          "entryDay": "2025-08-11",
+          "exit": 151.9565061,
+          "exitDay": "2025-08-13",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 3
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 144.720482,
+          "entryDay": "2025-08-11",
+          "exit": 151.9565061,
+          "exitDay": "2025-08-13",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 3
+        }
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "cohort": "original92",
+      "earningsDate": "2024-07-31",
+      "selloffDate": "2024-08-01",
+      "initialSelloffPct": -9.37,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 3,
+      "signalClose": 151.277727,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 8.051979020998745,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 150.991793,
+        "entryDay": "2024-08-06",
+        "exit": 158.54138265,
+        "exitDay": "2024-08-13",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 6
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 156.376869,
+        "entryDay": "2024-08-09",
+        "exit": 164.19571245,
+        "exitDay": "2024-08-15",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 5
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 156.376869,
+        "entryDay": "2024-08-09",
+        "exit": 164.19571245,
+        "exitDay": "2024-08-15",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 5
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "cohort": "original92",
+      "earningsDate": "2024-04-30",
+      "selloffDate": "2024-05-01",
+      "initialSelloffPct": -15.88,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 5,
+      "signalClose": 68.946572,
+      "entryDay": "2024-05-09",
+      "entryDistanceFromObservedTroughPct": 2.4651810434002774,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 69.012235,
+        "entryDay": "2024-05-09",
+        "exit": 72.46284675000001,
+        "exitDay": "2024-05-17",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 7
+      },
+      "D3": {
+        "state": "TARGET",
+        "entry": 68.768342,
+        "entryDay": "2024-05-06",
+        "exit": 72.20675910000001,
+        "exitDay": "2024-05-17",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 10
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 69.012235,
+        "entryDay": "2024-05-09",
+        "exit": 72.46284675000001,
+        "exitDay": "2024-05-17",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 7
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 69.012235,
+        "entryDay": "2024-05-09",
+        "exit": 72.46284675000001,
+        "exitDay": "2024-05-17",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 7
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "TARGET",
+          "entry": 69.012235,
+          "entryDay": "2024-05-09",
+          "exit": 72.46284675000001,
+          "exitDay": "2024-05-17",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 7
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 69.012235,
+          "entryDay": "2024-05-09",
+          "exit": 72.46284675000001,
+          "exitDay": "2024-05-17",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 7
+        }
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "cohort": "original92",
+      "earningsDate": "2023-05-02",
+      "selloffDate": "2023-05-03",
+      "initialSelloffPct": -9.17,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 98.641736,
+        "entryDay": "2023-05-08",
+        "exit": 93.70964919999999,
+        "exitDay": "2023-05-23",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 12
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 98.182809,
+        "entryDay": "2023-05-11",
+        "exit": 93.27366855,
+        "exitDay": "2023-05-23",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 9
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "TXN",
+      "cohort": "original92",
+      "earningsDate": "2025-10-21",
+      "selloffDate": "2025-10-22",
+      "initialSelloffPct": -5.6,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 6,
+      "signalClose": 156.458198,
+      "entryDay": "2025-10-31",
+      "entryDistanceFromObservedTroughPct": -0.035359845722759964,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 155.740274,
+        "entryDay": "2025-10-31",
+        "exit": 163.52728770000002,
+        "exitDay": "2025-11-26",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 19
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 165.533183,
+        "entryDay": "2025-10-27",
+        "exit": 157.25652385,
+        "exitDay": "2025-10-29",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 3
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 156.107285,
+        "entryDay": "2025-10-30",
+        "exit": 163.91264925,
+        "exitDay": "2025-11-26",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 20
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 156.107285,
+        "entryDay": "2025-10-30",
+        "exit": 163.91264925,
+        "exitDay": "2025-11-26",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 20
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 155.740274,
+          "entryDay": "2025-10-31",
+          "exit": 151.06806577999998,
+          "exitDay": "2025-11-17",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000138,
+          "netPct": -3.200000000000014,
+          "days": 12
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 155.740274,
+          "entryDay": "2025-10-31",
+          "exit": 163.52728770000002,
+          "exitDay": "2025-11-26",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 19
+        }
+      }
+    },
+    {
+      "ticker": "TXN",
+      "cohort": "original92",
+      "earningsDate": "2025-07-22",
+      "selloffDate": "2025-07-23",
+      "initialSelloffPct": -13.34,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 3,
+      "signalClose": 183.148926,
+      "entryDay": "2025-07-29",
+      "entryDistanceFromObservedTroughPct": 3.550763800101553,
+      "trigger": {
+        "state": "STOP",
+        "entry": 183.589257,
+        "entryDay": "2025-07-29",
+        "exit": 174.40979414999998,
+        "exitDay": "2025-08-01",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000016,
+        "netPct": -5.200000000000016,
+        "days": 4
+      },
+      "D3": {
+        "state": "TARGET",
+        "entry": 181.818253,
+        "entryDay": "2025-07-28",
+        "exit": 190.90916565,
+        "exitDay": "2025-08-19",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 17
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 181.441212,
+        "entryDay": "2025-07-31",
+        "exit": 190.51327260000002,
+        "exitDay": "2025-08-18",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 13
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 181.441212,
+        "entryDay": "2025-07-31",
+        "exit": 190.51327260000002,
+        "exitDay": "2025-08-18",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 13
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 183.589257,
+          "entryDay": "2025-07-29",
+          "exit": 178.08157929,
+          "exitDay": "2025-07-31",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 3
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 183.589257,
+          "entryDay": "2025-07-29",
+          "exit": 174.40979414999998,
+          "exitDay": "2025-08-01",
+          "reason": "STOP_TOUCH",
+          "pct": -5.000000000000016,
+          "netPct": -5.200000000000016,
+          "days": 4
+        }
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "cohort": "separate72",
+      "earningsDate": "2024-11-14",
+      "selloffDate": "2024-11-15",
+      "initialSelloffPct": -9.2043,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 4,
+      "signalClose": 173.390199,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 5.203310798325367,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 166.644771,
+        "entryDay": "2024-11-20",
+        "exit": 174.97700955,
+        "exitDay": "2024-11-29",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 7
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 174.337309,
+        "entryDay": "2024-11-25",
+        "exit": 183.05417445,
+        "exitDay": "2024-12-04",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 7
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 174.337309,
+        "entryDay": "2024-11-25",
+        "exit": 183.05417445,
+        "exitDay": "2024-12-04",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 7
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "cohort": "separate72",
+      "earningsDate": "2025-02-13",
+      "selloffDate": "2025-02-14",
+      "initialSelloffPct": -8.17822,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 173.186382,
+        "entryDay": "2025-02-20",
+        "exit": 164.5270629,
+        "exitDay": "2025-02-25",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 4
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 166.244688,
+        "entryDay": "2025-02-25",
+        "exit": 157.9324536,
+        "exitDay": "2025-02-27",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 3
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "cohort": "separate72",
+      "earningsDate": "2025-05-15",
+      "selloffDate": "2025-05-16",
+      "initialSelloffPct": -5.25322,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 6,
+      "signalClose": 160.479888,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 4.011948896823347,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 161.715776,
+        "entryDay": "2025-05-21",
+        "exit": 153.6299872,
+        "exitDay": "2025-05-30",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000016,
+        "netPct": -5.200000000000016,
+        "days": 7
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 159.284941,
+        "entryDay": "2025-05-27",
+        "exit": 167.24918805000001,
+        "exitDay": "2025-06-06",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 9
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 159.284941,
+        "entryDay": "2025-05-27",
+        "exit": 167.24918805000001,
+        "exitDay": "2025-06-06",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 9
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "cohort": "separate72",
+      "earningsDate": "2025-08-14",
+      "selloffDate": "2025-08-15",
+      "initialSelloffPct": -14.0698,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 5,
+      "signalClose": 161.596199,
+      "entryDay": "2025-08-25",
+      "entryDistanceFromObservedTroughPct": 3.061407439951358,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 161.417189,
+        "entryDay": "2025-08-25",
+        "exit": 169.48804845,
+        "exitDay": "2025-09-11",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 13
+      },
+      "D3": {
+        "state": "TARGET",
+        "entry": 160.450138,
+        "entryDay": "2025-08-20",
+        "exit": 168.4726449,
+        "exitDay": "2025-09-11",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 16
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 161.417189,
+        "entryDay": "2025-08-25",
+        "exit": 169.48804845,
+        "exitDay": "2025-09-11",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 13
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 161.417189,
+        "entryDay": "2025-08-25",
+        "exit": 169.48804845,
+        "exitDay": "2025-09-11",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 13
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 161.417189,
+          "entryDay": "2025-08-25",
+          "exit": 155.857938,
+          "exitDay": "2025-09-02",
+          "reason": "GAP_STOP",
+          "pct": -3.4440266457620106,
+          "netPct": -3.6440266457620107,
+          "days": 6
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 161.417189,
+          "entryDay": "2025-08-25",
+          "exit": 169.48804845,
+          "exitDay": "2025-09-11",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 13
+        }
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "cohort": "separate72",
+      "earningsDate": "2024-09-04",
+      "selloffDate": "2024-09-05",
+      "initialSelloffPct": -6.67295,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 5,
+      "signalClose": 49.47,
+      "entryDay": "2024-09-13",
+      "entryDistanceFromObservedTroughPct": 3.309053069719048,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 49.64,
+        "entryDay": "2024-09-13",
+        "exit": 52.122,
+        "exitDay": "2024-09-24",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 8
+      },
+      "D3": {
+        "state": "TARGET",
+        "entry": 49.42,
+        "entryDay": "2024-09-10",
+        "exit": 51.891000000000005,
+        "exitDay": "2024-09-18",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 7
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 49.64,
+        "entryDay": "2024-09-13",
+        "exit": 52.122,
+        "exitDay": "2024-09-24",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 8
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 49.64,
+        "entryDay": "2024-09-13",
+        "exit": 52.122,
+        "exitDay": "2024-09-24",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 8
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "TARGET",
+          "entry": 49.64,
+          "entryDay": "2024-09-13",
+          "exit": 52.122,
+          "exitDay": "2024-09-24",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 8
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 49.64,
+          "entryDay": "2024-09-13",
+          "exit": 52.122,
+          "exitDay": "2024-09-24",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 8
+        }
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "cohort": "separate72",
+      "earningsDate": "2025-05-22",
+      "selloffDate": "2025-05-23",
+      "initialSelloffPct": -11.52324,
+      "earlyDip": true,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 52.12,
+        "entryDay": "2025-05-29",
+        "exit": 49.26,
+        "exitDay": "2025-06-13",
+        "reason": "GAP_STOP",
+        "pct": -5.487336914811969,
+        "netPct": -5.6873369148119695,
+        "days": 12
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 50.6,
+        "entryDay": "2025-06-03",
+        "exit": 48.07,
+        "exitDay": "2025-06-17",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 11
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 50.6,
+        "entryDay": "2025-06-03",
+        "exit": 48.07,
+        "exitDay": "2025-06-17",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 11
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "cohort": "separate72",
+      "earningsDate": "2025-11-20",
+      "selloffDate": "2025-11-24",
+      "initialSelloffPct": -5.14383,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 10,
+      "signalClose": 38.44,
+      "entryDay": "2025-12-10",
+      "entryDistanceFromObservedTroughPct": 0.5762179151388214,
+      "trigger": {
+        "state": "TIMEOUT",
+        "entry": 38.4,
+        "entryDay": "2025-12-10",
+        "exit": 39.04,
+        "exitDay": "2026-01-08",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 1.6666666666666607,
+        "netPct": 1.4666666666666608,
+        "days": 20
+      },
+      "D3": {
+        "state": "TIMEOUT",
+        "entry": 38.92,
+        "entryDay": "2025-11-28",
+        "exit": 39.3,
+        "exitDay": "2025-12-26",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 0.9763617677286618,
+        "netPct": 0.7763617677286618,
+        "days": 20
+      },
+      "D6": {
+        "state": "TIMEOUT",
+        "entry": 38.91,
+        "entryDay": "2025-12-03",
+        "exit": 39.15,
+        "exitDay": "2025-12-31",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 0.6168080185042557,
+        "netPct": 0.4168080185042557,
+        "days": 20
+      },
+      "D6_afterDip": {
+        "state": "TIMEOUT",
+        "entry": 38.91,
+        "entryDay": "2025-12-03",
+        "exit": 39.15,
+        "exitDay": "2025-12-31",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 0.6168080185042557,
+        "netPct": 0.4168080185042557,
+        "days": 20
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "TIMEOUT",
+          "entry": 38.4,
+          "entryDay": "2025-12-10",
+          "exit": 39.04,
+          "exitDay": "2026-01-08",
+          "reason": "TIMEOUT_CLOSE",
+          "pct": 1.6666666666666607,
+          "netPct": 1.4666666666666608,
+          "days": 20
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 38.4,
+          "entryDay": "2025-12-10",
+          "exit": 40.32,
+          "exitDay": "2026-01-15",
+          "reason": "TARGET_TOUCH",
+          "pct": 5.000000000000004,
+          "netPct": 4.800000000000004,
+          "days": 25
+        }
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "cohort": "separate72",
+      "earningsDate": "2026-02-19",
+      "selloffDate": "2026-02-23",
+      "initialSelloffPct": -6.08234,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 2,
+      "signalClose": 35.84,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 4.745177080334018,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 36.378,
+        "entryDay": "2026-02-26",
+        "exit": 38.1969,
+        "exitDay": "2026-03-02",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 38.31,
+        "entryDay": "2026-03-03",
+        "exit": 36.3945,
+        "exitDay": "2026-03-10",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 6
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 38.31,
+        "entryDay": "2026-03-03",
+        "exit": 36.3945,
+        "exitDay": "2026-03-10",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 6
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "EOG",
+      "cohort": "separate72",
+      "earningsDate": "2026-05-05",
+      "selloffDate": "2026-05-07",
+      "initialSelloffPct": -7.05156,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 133.131972,
+        "entryDay": "2026-05-12",
+        "exit": 139.78857059999999,
+        "exitDay": "2026-05-18",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 5
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 137.469779,
+        "entryDay": "2026-05-15",
+        "exit": 144.34326794999998,
+        "exitDay": "2026-05-20",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 4
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "EW",
+      "cohort": "separate72",
+      "earningsDate": "2023-07-26",
+      "selloffDate": "2023-07-27",
+      "initialSelloffPct": -9.77846,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 10,
+      "signalClose": 78.28,
+      "entryDay": "2023-08-11",
+      "entryDistanceFromObservedTroughPct": 1.0886469673405896,
+      "trigger": {
+        "state": "STOP",
+        "entry": 78,
+        "entryDay": "2023-08-11",
+        "exit": 74.1,
+        "exitDay": "2023-09-08",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 20
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 81.5,
+        "entryDay": "2023-08-01",
+        "exit": 77.425,
+        "exitDay": "2023-08-08",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 6
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 79.69,
+        "entryDay": "2023-08-04",
+        "exit": 75.7055,
+        "exitDay": "2023-08-21",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 12
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 79.69,
+        "entryDay": "2023-08-04",
+        "exit": 75.7055,
+        "exitDay": "2023-08-21",
+        "reason": "STOP_TOUCH",
+        "pct": -4.999999999999993,
+        "netPct": -5.199999999999993,
+        "days": 12
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 78,
+          "entryDay": "2023-08-11",
+          "exit": 75.66,
+          "exitDay": "2023-08-22",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 8
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 78,
+          "entryDay": "2023-08-11",
+          "exit": 74.1,
+          "exitDay": "2023-09-08",
+          "reason": "STOP_TOUCH",
+          "pct": -5.000000000000004,
+          "netPct": -5.200000000000005,
+          "days": 20
+        }
+      }
+    },
+    {
+      "ticker": "FSLR",
+      "cohort": "separate72",
+      "earningsDate": "2026-02-24",
+      "selloffDate": "2026-02-25",
+      "initialSelloffPct": -13.60553,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 9,
+      "signalClose": 197.8,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 5.291288081239975,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 193.1,
+        "entryDay": "2026-03-02",
+        "exit": 202.755,
+        "exitDay": "2026-03-04",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 197,
+        "entryDay": "2026-03-05",
+        "exit": 187.14999999999998,
+        "exitDay": "2026-03-09",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000016,
+        "netPct": -5.200000000000016,
+        "days": 3
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 197,
+        "entryDay": "2026-03-05",
+        "exit": 187.14999999999998,
+        "exitDay": "2026-03-09",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000016,
+        "netPct": -5.200000000000016,
+        "days": 3
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "cohort": "separate72",
+      "earningsDate": "2025-05-07",
+      "selloffDate": "2025-05-08",
+      "initialSelloffPct": -8.41454,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TIMEOUT",
+        "entry": 101.485,
+        "entryDay": "2025-05-13",
+        "exit": 101.63,
+        "exitDay": "2025-06-10",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 0.1428782578706267,
+        "netPct": -0.05712174212937332,
+        "days": 20
+      },
+      "D6": {
+        "state": "TIMEOUT",
+        "entry": 103.23,
+        "entryDay": "2025-05-16",
+        "exit": 100.83,
+        "exitDay": "2025-06-13",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": -2.3249055507120087,
+        "netPct": -2.524905550712009,
+        "days": 20
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "cohort": "separate72",
+      "earningsDate": "2025-08-06",
+      "selloffDate": "2025-08-07",
+      "initialSelloffPct": -22.03355,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 75,
+        "entryDay": "2025-08-12",
+        "exit": 78.75,
+        "exitDay": "2025-08-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D6": {
+        "state": "TIMEOUT",
+        "entry": 77.68,
+        "entryDay": "2025-08-15",
+        "exit": 79.68,
+        "exitDay": "2025-09-12",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": 2.5746652935118464,
+        "netPct": 2.374665293511846,
+        "days": 20
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "cohort": "separate72",
+      "earningsDate": "2025-11-05",
+      "selloffDate": "2025-11-06",
+      "initialSelloffPct": -6.33795,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 82.28,
+        "entryDay": "2025-11-11",
+        "exit": 78.166,
+        "exitDay": "2025-11-20",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 8
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 80.14,
+        "entryDay": "2025-11-14",
+        "exit": 84.147,
+        "exitDay": "2025-12-04",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 14
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "LEN",
+      "cohort": "separate72",
+      "earningsDate": "2024-03-13",
+      "selloffDate": "2024-03-14",
+      "initialSelloffPct": -7.63746,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 3,
+      "signalClose": 152.059309,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 5.293030663261322,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 149.068415,
+        "entryDay": "2024-03-19",
+        "exit": 157.383861,
+        "exitDay": "2024-03-21",
+        "reason": "GAP_TARGET",
+        "pct": 5.578274914910719,
+        "netPct": 5.378274914910719,
+        "days": 3
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 157.936319,
+        "entryDay": "2024-03-22",
+        "exit": 150.03950304999998,
+        "exitDay": "2024-04-10",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000016,
+        "netPct": -5.200000000000016,
+        "days": 13
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 157.936319,
+        "entryDay": "2024-03-22",
+        "exit": 150.03950304999998,
+        "exitDay": "2024-04-10",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000016,
+        "netPct": -5.200000000000016,
+        "days": 13
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "LEN",
+      "cohort": "separate72",
+      "earningsDate": "2024-09-19",
+      "selloffDate": "2024-09-20",
+      "initialSelloffPct": -5.33126,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 5,
+      "signalClose": 179.364208,
+      "entryDay": "2024-09-30",
+      "entryDistanceFromObservedTroughPct": 2.757991077671851,
+      "trigger": {
+        "state": "STOP",
+        "entry": 178.491506,
+        "entryDay": "2024-09-30",
+        "exit": 169.56693069999997,
+        "exitDay": "2024-10-22",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 17
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 175.959712,
+        "entryDay": "2024-09-25",
+        "exit": 167.1617264,
+        "exitDay": "2024-10-22",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 20
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 178.491506,
+        "entryDay": "2024-09-30",
+        "exit": 169.56693069999997,
+        "exitDay": "2024-10-22",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 17
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 178.491506,
+        "entryDay": "2024-09-30",
+        "exit": 169.56693069999997,
+        "exitDay": "2024-10-22",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 17
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 178.491506,
+          "entryDay": "2024-09-30",
+          "exit": 173.13676081999998,
+          "exitDay": "2024-10-04",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 5
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 178.491506,
+          "entryDay": "2024-09-30",
+          "exit": 169.56693069999997,
+          "exitDay": "2024-10-22",
+          "reason": "STOP_TOUCH",
+          "pct": -5.000000000000004,
+          "netPct": -5.200000000000005,
+          "days": 17
+        }
+      }
+    },
+    {
+      "ticker": "LEN",
+      "cohort": "separate72",
+      "earningsDate": "2024-12-18",
+      "selloffDate": "2024-12-19",
+      "initialSelloffPct": -5.16001,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 132.219526,
+        "entryDay": "2024-12-24",
+        "exit": 125.6085497,
+        "exitDay": "2025-01-10",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 11
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 131.738693,
+        "entryDay": "2024-12-30",
+        "exit": 125.15175835000001,
+        "exitDay": "2025-01-10",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 8
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "LEN",
+      "cohort": "separate72",
+      "earningsDate": "2025-06-16",
+      "selloffDate": "2025-06-18",
+      "initialSelloffPct": -5.55302,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 107.453233,
+        "entryDay": "2025-06-24",
+        "exit": 112.82589465,
+        "exitDay": "2025-07-01",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 6
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 106.803529,
+        "entryDay": "2025-06-27",
+        "exit": 112.14370545,
+        "exitDay": "2025-07-01",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "cohort": "separate72",
+      "earningsDate": "2023-05-04",
+      "selloffDate": "2023-05-05",
+      "initialSelloffPct": -10.38503,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 396.89655,
+        "entryDay": "2023-05-10",
+        "exit": 416.7413775,
+        "exitDay": "2023-05-18",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 7
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 389.363808,
+        "entryDay": "2023-05-15",
+        "exit": 408.83199840000003,
+        "exitDay": "2023-05-17",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "cohort": "separate72",
+      "earningsDate": "2023-07-31",
+      "selloffDate": "2023-08-02",
+      "initialSelloffPct": -5.19402,
+      "earlyDip": true,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 529.885276,
+        "entryDay": "2023-08-07",
+        "exit": 503.3910122,
+        "exitDay": "2023-08-09",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 3
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 515.44531,
+        "entryDay": "2023-08-10",
+        "exit": 486.067446,
+        "exitDay": "2023-08-14",
+        "reason": "GAP_STOP",
+        "pct": -5.699511360380782,
+        "netPct": -5.8995113603807825,
+        "days": 3
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 515.44531,
+        "entryDay": "2023-08-10",
+        "exit": 486.067446,
+        "exitDay": "2023-08-14",
+        "reason": "GAP_STOP",
+        "pct": -5.699511360380782,
+        "netPct": -5.8995113603807825,
+        "days": 3
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "cohort": "separate72",
+      "earningsDate": "2024-10-30",
+      "selloffDate": "2024-10-31",
+      "initialSelloffPct": -17.45034,
+      "earlyDip": false,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "STOP",
+        "entry": 757.453075,
+        "entryDay": "2024-11-05",
+        "exit": 619.7218,
+        "exitDay": "2024-11-11",
+        "reason": "GAP_STOP",
+        "pct": -18.183472949792957,
+        "netPct": -18.383472949792957,
+        "days": 5
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 753.415478,
+        "entryDay": "2024-11-08",
+        "exit": 619.7218,
+        "exitDay": "2024-11-11",
+        "reason": "GAP_STOP",
+        "pct": -17.745013462545288,
+        "netPct": -17.945013462545287,
+        "days": 2
+      },
+      "D6_afterDip": null,
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "cohort": "separate72",
+      "earningsDate": "2025-10-30",
+      "selloffDate": "2025-10-31",
+      "initialSelloffPct": -7.59131,
+      "earlyDip": true,
+      "signalState": "NO_TRIGGER",
+      "signalDay": null,
+      "signalClose": null,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": null,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 954.634095,
+        "entryDay": "2025-11-05",
+        "exit": 1002.3657997500001,
+        "exitDay": "2025-11-05",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 1
+      },
+      "D6": {
+        "state": "STOP",
+        "entry": 980.073389,
+        "entryDay": "2025-11-10",
+        "exit": 931.06971955,
+        "exitDay": "2025-11-13",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 4
+      },
+      "D6_afterDip": {
+        "state": "STOP",
+        "entry": 980.073389,
+        "entryDay": "2025-11-10",
+        "exit": 931.06971955,
+        "exitDay": "2025-11-13",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 4
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "NEM",
+      "cohort": "separate72",
+      "earningsDate": "2025-10-23",
+      "selloffDate": "2025-10-24",
+      "initialSelloffPct": -6.23102,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 4,
+      "signalClose": 81.545161,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 7.854636889542044,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 80.56436,
+        "entryDay": "2025-10-29",
+        "exit": 85.815112,
+        "exitDay": "2025-11-10",
+        "reason": "GAP_TARGET",
+        "pct": 6.517462560367893,
+        "netPct": 6.317462560367892,
+        "days": 9
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 79.950121,
+        "entryDay": "2025-11-03",
+        "exit": 85.815112,
+        "exitDay": "2025-11-10",
+        "reason": "GAP_TARGET",
+        "pct": 7.335812537419439,
+        "netPct": 7.135812537419439,
+        "days": 6
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 79.950121,
+        "entryDay": "2025-11-03",
+        "exit": 85.815112,
+        "exitDay": "2025-11-10",
+        "reason": "GAP_TARGET",
+        "pct": 7.335812537419439,
+        "netPct": 7.135812537419439,
+        "days": 6
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    },
+    {
+      "ticker": "OKE",
+      "cohort": "separate72",
+      "earningsDate": "2025-04-29",
+      "selloffDate": "2025-04-30",
+      "initialSelloffPct": -6.48759,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 2,
+      "signalClose": 76.568125,
+      "entryDay": "2025-05-05",
+      "entryDistanceFromObservedTroughPct": 2.095966943514105,
+      "trigger": {
+        "state": "TARGET",
+        "entry": 76.062354,
+        "entryDay": "2025-05-05",
+        "exit": 79.883735,
+        "exitDay": "2025-05-12",
+        "reason": "GAP_TARGET",
+        "pct": 5.024010958167291,
+        "netPct": 4.824010958167291,
+        "days": 6
+      },
+      "D3": {
+        "state": "TARGET",
+        "entry": 76.062354,
+        "entryDay": "2025-05-05",
+        "exit": 79.883735,
+        "exitDay": "2025-05-12",
+        "reason": "GAP_TARGET",
+        "pct": 5.024010958167291,
+        "netPct": 4.824010958167291,
+        "days": 6
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 76.099818,
+        "entryDay": "2025-05-08",
+        "exit": 79.9048089,
+        "exitDay": "2025-05-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 76.099818,
+        "entryDay": "2025-05-08",
+        "exit": 79.9048089,
+        "exitDay": "2025-05-12",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 3
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 76.062354,
+          "entryDay": "2025-05-05",
+          "exit": 73.78048337999999,
+          "exitDay": "2025-05-06",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000138,
+          "netPct": -3.200000000000014,
+          "days": 2
+        },
+        "signalHold40": {
+          "state": "TARGET",
+          "entry": 76.062354,
+          "entryDay": "2025-05-05",
+          "exit": 79.883735,
+          "exitDay": "2025-05-12",
+          "reason": "GAP_TARGET",
+          "pct": 5.024010958167291,
+          "netPct": 4.824010958167291,
+          "days": 6
+        }
+      }
+    },
+    {
+      "ticker": "OKE",
+      "cohort": "separate72",
+      "earningsDate": "2025-08-04",
+      "selloffDate": "2025-08-05",
+      "initialSelloffPct": -5.17349,
+      "earlyDip": true,
+      "signalState": "TRADE",
+      "signalDay": 6,
+      "signalClose": 71.451365,
+      "entryDay": "2025-08-14",
+      "entryDistanceFromObservedTroughPct": 2.506162837518011,
+      "trigger": {
+        "state": "STOP",
+        "entry": 70.99608,
+        "entryDay": "2025-08-14",
+        "exit": 67.446276,
+        "exitDay": "2025-09-05",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000016,
+        "netPct": -5.200000000000016,
+        "days": 16
+      },
+      "D3": {
+        "state": "STOP",
+        "entry": 71.612612,
+        "entryDay": "2025-08-08",
+        "exit": 68.03198139999999,
+        "exitDay": "2025-09-05",
+        "reason": "STOP_TOUCH",
+        "pct": -5.000000000000004,
+        "netPct": -5.200000000000005,
+        "days": 20
+      },
+      "D6": {
+        "state": "TIMEOUT",
+        "entry": 70.189845,
+        "entryDay": "2025-08-13",
+        "exit": 69.573313,
+        "exitDay": "2025-09-10",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": -0.8783777767282563,
+        "netPct": -1.0783777767282563,
+        "days": 20
+      },
+      "D6_afterDip": {
+        "state": "TIMEOUT",
+        "entry": 70.189845,
+        "entryDay": "2025-08-13",
+        "exit": 69.573313,
+        "exitDay": "2025-09-10",
+        "reason": "TIMEOUT_CLOSE",
+        "pct": -0.8783777767282563,
+        "netPct": -1.0783777767282563,
+        "days": 20
+      },
+      "secondary": {
+        "signalStop3": {
+          "state": "STOP",
+          "entry": 70.99608,
+          "entryDay": "2025-08-14",
+          "exit": 68.8661976,
+          "exitDay": "2025-08-19",
+          "reason": "STOP_TOUCH",
+          "pct": -3.0000000000000027,
+          "netPct": -3.200000000000003,
+          "days": 4
+        },
+        "signalHold40": {
+          "state": "STOP",
+          "entry": 70.99608,
+          "entryDay": "2025-08-14",
+          "exit": 67.446276,
+          "exitDay": "2025-09-05",
+          "reason": "STOP_TOUCH",
+          "pct": -5.000000000000016,
+          "netPct": -5.200000000000016,
+          "days": 16
+        }
+      }
+    },
+    {
+      "ticker": "OKE",
+      "cohort": "separate72",
+      "earningsDate": "2026-02-23",
+      "selloffDate": "2026-02-24",
+      "initialSelloffPct": -5.08416,
+      "earlyDip": true,
+      "signalState": "SKIP_EXTENDED",
+      "signalDay": 2,
+      "signalClose": 82.046804,
+      "entryDay": null,
+      "entryDistanceFromObservedTroughPct": 6.263287026908881,
+      "trigger": null,
+      "D3": {
+        "state": "TARGET",
+        "entry": 82.730364,
+        "entryDay": "2026-02-27",
+        "exit": 86.86688219999999,
+        "exitDay": "2026-03-19",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 15
+      },
+      "D6": {
+        "state": "TARGET",
+        "entry": 82.300698,
+        "entryDay": "2026-03-04",
+        "exit": 86.4157329,
+        "exitDay": "2026-03-19",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 12
+      },
+      "D6_afterDip": {
+        "state": "TARGET",
+        "entry": 82.300698,
+        "entryDay": "2026-03-04",
+        "exit": 86.4157329,
+        "exitDay": "2026-03-19",
+        "reason": "TARGET_TOUCH",
+        "pct": 5.000000000000004,
+        "netPct": 4.800000000000004,
+        "days": 12
+      },
+      "secondary": {
+        "signalStop3": null,
+        "signalHold40": null
+      }
+    }
+  ]
+}
