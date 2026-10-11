@@ -1,0 +1,40 @@
+name: Frozen 45-Event First Failed Low Buyer Takeover Test
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/earnings-first-failed-low-45event-2026.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: first-failed-low-2026-45events
+  cancel-in-progress: false
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify freeze and complete Webull 45-event source price store
+        run: |
+          test -f research/earnings_recovery/frozen_intraday_first_failed_low_volume_takeover_45events_2026-10-10.md
+          test -f research/earnings_recovery/frozen_all45_jul_sep2026_earnings_announcements_pre_5min.json
+          test -f research/earnings_recovery/first_failed_low_2026_all45_intraday_week2026-08-03_2026-10-10.json
+          git log -1 --format="%h %s" -- research/earnings_recovery/frozen_intraday_first_failed_low_volume_takeover_45events_2026-10-10.md
+      - name: Measure first -5pct intraday lows, failed retests and volume-based first buyer takeover
+        run: python research/earnings_recovery/run_first_failed_low_volume_buyer_takeover_all45_2026.py
+      - name: Commit all successes, failures, and missing event statuses
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/earnings_recovery/first_failed_low_volume_buyer_takeover_45events_results_2026-10-10.json
+          git commit -m 'Archive no-lookahead first failed low and buyer volume confirmation across all earnings reaction days [skip ci]'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            git push && break
+            sleep 2
+          done
