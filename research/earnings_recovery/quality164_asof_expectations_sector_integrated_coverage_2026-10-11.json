@@ -93,15 +93,15 @@
       }
     },
     "byEPS": {
-      "RAISED": {
-        "n": 0,
-        "d4Target": 0,
-        "d4MeanNetPct": null,
-        "fullRec60": 0,
-        "medInitialShockSector": null,
-        "medStockSectorD3": null,
-        "medSectorD0D3": null,
-        "medSectorFuture60_RETRO": null
+      "UP": {
+        "n": 9,
+        "d4Target": 4,
+        "d4MeanNetPct": -0.980385853600559,
+        "fullRec60": 5,
+        "medInitialShockSector": -8.131420561639603,
+        "medStockSectorD3": -0.7969136106577679,
+        "medSectorD0D3": -0.30588768247961085,
+        "medSectorFuture60_RETRO": 6.674614149841007
       },
       "STABLE": {
         "n": 14,
@@ -122,16 +122,6 @@
         "medStockSectorD3": -1.0774076573888347,
         "medSectorD0D3": -1.2555478051504865,
         "medSectorFuture60_RETRO": -1.7998569533653475
-      },
-      "UNKNOWN": {
-        "n": 0,
-        "d4Target": 0,
-        "d4MeanNetPct": null,
-        "fullRec60": 0,
-        "medInitialShockSector": null,
-        "medStockSectorD3": null,
-        "medSectorD0D3": null,
-        "medSectorFuture60_RETRO": null
       }
     }
   },
