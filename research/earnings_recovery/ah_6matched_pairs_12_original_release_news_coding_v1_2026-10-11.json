@@ -17,7 +17,7 @@
     "primaryReleasesVerified": 12,
     "winnerDemandConcerns": 2,
     "failureDemandConcerns": 1,
-    "winnerExternalConstraints": 3,
+    "winnerExternalConstraints": 2,
     "failureExternalConstraints": 1,
     "winnerReaffirmed": 1,
     "failureReaffirmed": 1,
@@ -106,9 +106,9 @@
       "outlookDirection": "NEW_WITHOUT_PRIOR",
       "outlookDetail": "Q3 FY2025 revenue $7.2B +/- $0.5B; nonGAAP EPS $2.35 +/-0.20; FY management guidance revision not established",
       "explicitDemandConcerns": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
-      "explicitMaterialExternalConstraint": "PRESENT",
+      "explicitMaterialExternalConstraint": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
       "identifiedOneOffCharge": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
-      "narrative": "Revenue +7% and adjusted EPS +14%; CFO explicitly said no significant changes in customer demand despite dynamic economic and trade conditions. Export/trade policy is a disclosed risk, but no contemporaneous earnings release-specific quantified new restriction. Q3 outlook $7.2B midpoint.",
+      "narrative": "Revenue +7% and adjusted EPS +14%; CFO explicitly said no significant changes in customer demand despite dynamic economic and trade conditions. Export/trade policy is a disclosed risk, but no contemporaneous earnings release-specific quantified new restriction. Q3 outlook $7.2B midpoint. Coding conservatively: broad macro/trade uncertainty is not by itself a newly quantified material constraint within this specific release; export controls are mentioned in cautions, prepared remarks would require separate dated sourcing.",
       "pairedId": 1,
       "tradeLabel": "WINNER",
       "selloffDate": "2025-05-16",
@@ -416,5 +416,9 @@
       "posteventInfoLeakPrevented": true,
       "historyAnalystForwardEPSRevision": null
     }
+  ],
+  "errata": [
+    "Frozen protocol list erroneously paraphrased LEN June 2025 earnings date as June 17/18; controlling source event roster, saved machine records and original issuer 8-K release confirm Monday June 16, 2025. No reselecting or dropping pairs. Original frozen protocol is preserved as written.",
+    "AMAT May 2025 external-constraint indicator is conservatively ABSENT_IN_REVIEWED_ORIGINAL_RELEASE because macro/trade uncertainty disclosure did not show a newly measurable material export-related constraint in that exact primary release; outside contextual claims not used to flip coding."
   ]
 }
