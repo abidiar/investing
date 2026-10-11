@@ -5,61 +5,61 @@
   "releaseCoverage": 12,
   "totalReleases": 12,
   "tests": {
-    "explicit_demand_concerns": {
+    "explicitDemandConcerns": {
       "label": "hypothesis_no_concern_when_winner",
       "matchedPairs": 6,
-      "winnerOnly": 0,
-      "failureOnly": 0,
+      "winnerOnly": 2,
+      "failureOnly": 1,
       "both": 0,
-      "neither": 6,
+      "neither": 3,
       "unknown": 0,
-      "winnerFlagTotal": 0,
-      "nonwinnerFlagTotal": 0,
-      "unfavorableDiscordant": 0,
-      "favorableDiscordant": 0,
-      "exactTwoSidedDiscordantP": null
+      "winnerFlagTotal": 2,
+      "nonwinnerFlagTotal": 1,
+      "unfavorableDiscordant": 2,
+      "favorableDiscordant": 1,
+      "exactTwoSidedDiscordantP": 1
     },
-    "explicit_material_external_constraint": {
+    "explicitMaterialExternalConstraint": {
       "label": "hypothesis_no_constraint_when_winner",
       "matchedPairs": 6,
-      "winnerOnly": 0,
-      "failureOnly": 0,
+      "winnerOnly": 2,
+      "failureOnly": 1,
       "both": 0,
-      "neither": 6,
+      "neither": 3,
       "unknown": 0,
-      "winnerFlagTotal": 0,
-      "nonwinnerFlagTotal": 0,
-      "unfavorableDiscordant": 0,
-      "favorableDiscordant": 0,
-      "exactTwoSidedDiscordantP": null
+      "winnerFlagTotal": 2,
+      "nonwinnerFlagTotal": 1,
+      "unfavorableDiscordant": 2,
+      "favorableDiscordant": 1,
+      "exactTwoSidedDiscordantP": 1
     },
-    "outlook_direction": {
+    "outlookDirection": {
       "label": "prior_failed_proxy_negative_control",
       "matchedPairs": 6,
-      "winnerOnly": 0,
-      "failureOnly": 0,
+      "winnerOnly": 1,
+      "failureOnly": 1,
       "both": 0,
-      "neither": 6,
+      "neither": 4,
       "unknown": 0,
-      "winnerFlagTotal": 0,
-      "nonwinnerFlagTotal": 0,
-      "unfavorableDiscordant": 0,
-      "favorableDiscordant": 0,
-      "exactTwoSidedDiscordantP": null
+      "winnerFlagTotal": 1,
+      "nonwinnerFlagTotal": 1,
+      "unfavorableDiscordant": 1,
+      "favorableDiscordant": 1,
+      "exactTwoSidedDiscordantP": 1
     },
-    "identified_oneoff_charge": {
+    "identifiedOneOffCharge": {
       "label": "descriptive_only_no_prior_direction",
       "matchedPairs": 6,
-      "winnerOnly": 0,
-      "failureOnly": 0,
+      "winnerOnly": 2,
+      "failureOnly": 2,
       "both": 0,
-      "neither": 6,
+      "neither": 2,
       "unknown": 0,
-      "winnerFlagTotal": 0,
-      "nonwinnerFlagTotal": 0,
-      "unfavorableDiscordant": 0,
-      "favorableDiscordant": 0,
-      "exactTwoSidedDiscordantP": null
+      "winnerFlagTotal": 2,
+      "nonwinnerFlagTotal": 2,
+      "unfavorableDiscordant": 2,
+      "favorableDiscordant": 2,
+      "exactTwoSidedDiscordantP": 1
     }
   },
   "analystForwardFiscalEPSPreVsD3Coverage": 0,
@@ -74,24 +74,32 @@
       "nonwinner": "OKE|2025-08-05",
       "initialSelloffGapPp": 0.07972999999999963,
       "flags": {
-        "explicit_demand_concerns": {
+        "explicitDemandConcerns": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "explicit_material_external_constraint": {
+        "explicitMaterialExternalConstraint": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "outlook_direction": {
+        "outlookDirection": {
+          "winner": "NEW_WITHOUT_PRIOR",
+          "nonwinner": "REAFFIRMED",
           "winnerHas": false,
-          "nonwinnerHas": false,
+          "nonwinnerHas": true,
           "anyUnknown": false
         },
-        "identified_oneoff_charge": {
+        "identifiedOneOffCharge": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "PRESENT",
           "winnerHas": false,
-          "nonwinnerHas": false,
+          "nonwinnerHas": true,
           "anyUnknown": false
         }
       },
@@ -106,23 +114,31 @@
       "nonwinner": "CPRT|2025-11-24",
       "initialSelloffGapPp": 0.4091899999999997,
       "flags": {
-        "explicit_demand_concerns": {
+        "explicitDemandConcerns": {
+          "winner": "PRESENT",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "winnerHas": true,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "explicitMaterialExternalConstraint": {
+          "winner": "PRESENT",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "winnerHas": true,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "outlookDirection": {
+          "winner": "NEW_WITHOUT_PRIOR",
+          "nonwinner": "NO_COMP_REPORT",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "explicit_material_external_constraint": {
-          "winnerHas": false,
-          "nonwinnerHas": false,
-          "anyUnknown": false
-        },
-        "outlook_direction": {
-          "winnerHas": false,
-          "nonwinnerHas": false,
-          "anyUnknown": false
-        },
-        "identified_oneoff_charge": {
-          "winnerHas": false,
+        "identifiedOneOffCharge": {
+          "winner": "PRESENT",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "winnerHas": true,
           "nonwinnerHas": false,
           "anyUnknown": false
         }
@@ -138,22 +154,30 @@
       "nonwinner": "FTNT|2025-11-06",
       "initialSelloffGapPp": 0.10693000000000019,
       "flags": {
-        "explicit_demand_concerns": {
+        "explicitDemandConcerns": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "explicit_material_external_constraint": {
+        "explicitMaterialExternalConstraint": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "outlook_direction": {
+        "outlookDirection": {
+          "winner": "MIXED",
+          "nonwinner": "NEW_WITHOUT_PRIOR",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "identified_oneoff_charge": {
+        "identifiedOneOffCharge": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
@@ -170,23 +194,31 @@
       "nonwinner": "MPWR|2025-10-31",
       "initialSelloffGapPp": 1.10372,
       "flags": {
-        "explicit_demand_concerns": {
+        "explicitDemandConcerns": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "explicit_material_external_constraint": {
+        "explicitMaterialExternalConstraint": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "outlook_direction": {
-          "winnerHas": false,
+        "outlookDirection": {
+          "winner": "REAFFIRMED",
+          "nonwinner": "NEW_WITHOUT_PRIOR",
+          "winnerHas": true,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "identified_oneoff_charge": {
-          "winnerHas": false,
+        "identifiedOneOffCharge": {
+          "winner": "PRESENT",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "winnerHas": true,
           "nonwinnerHas": false,
           "anyUnknown": false
         }
@@ -202,24 +234,32 @@
       "nonwinner": "LEN|2024-12-19",
       "initialSelloffGapPp": 1.5129400000000004,
       "flags": {
-        "explicit_demand_concerns": {
+        "explicitDemandConcerns": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "PRESENT",
+          "winnerHas": false,
+          "nonwinnerHas": true,
+          "anyUnknown": false
+        },
+        "explicitMaterialExternalConstraint": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "PRESENT",
+          "winnerHas": false,
+          "nonwinnerHas": true,
+          "anyUnknown": false
+        },
+        "outlookDirection": {
+          "winner": "NO_COMP_REPORT",
+          "nonwinner": "NEW_WITHOUT_PRIOR",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "explicit_material_external_constraint": {
+        "identifiedOneOffCharge": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "PRESENT",
           "winnerHas": false,
-          "nonwinnerHas": false,
-          "anyUnknown": false
-        },
-        "outlook_direction": {
-          "winnerHas": false,
-          "nonwinnerHas": false,
-          "anyUnknown": false
-        },
-        "identified_oneoff_charge": {
-          "winnerHas": false,
-          "nonwinnerHas": false,
+          "nonwinnerHas": true,
           "anyUnknown": false
         }
       },
@@ -234,22 +274,30 @@
       "nonwinner": "CPRT|2025-05-23",
       "initialSelloffGapPp": 2.5465600000000013,
       "flags": {
-        "explicit_demand_concerns": {
+        "explicitDemandConcerns": {
+          "winner": "PRESENT",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "winnerHas": true,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "explicitMaterialExternalConstraint": {
+          "winner": "PRESENT",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "winnerHas": true,
+          "nonwinnerHas": false,
+          "anyUnknown": false
+        },
+        "outlookDirection": {
+          "winner": "NEW_WITHOUT_PRIOR",
+          "nonwinner": "NO_COMP_REPORT",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
         },
-        "explicit_material_external_constraint": {
-          "winnerHas": false,
-          "nonwinnerHas": false,
-          "anyUnknown": false
-        },
-        "outlook_direction": {
-          "winnerHas": false,
-          "nonwinnerHas": false,
-          "anyUnknown": false
-        },
-        "identified_oneoff_charge": {
+        "identifiedOneOffCharge": {
+          "winner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
+          "nonwinner": "ABSENT_IN_REVIEWED_ORIGINAL_RELEASE",
           "winnerHas": false,
           "nonwinnerHas": false,
           "anyUnknown": false
@@ -260,5 +308,6 @@
         "https://www.sec.gov/Archives/edgar/data/900075/000162828025027262/cprt4302025ex99-1.htm"
       ]
     }
-  ]
+  ],
+  "erratum": "First committed numeric result had incorrect snake_case lookup of camelCase source fields and consequently all zeros. This is a mechanical mapping error; the same frozen thresholds/cases/outcomes/source data are retained. Corrected here with original camelCase keys. Original read-before-results freeze remained unchanged."
 }
