@@ -1,0 +1,39 @@
+name: Test First Buyer Initiative 2025 Forty Earnings Events
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/earnings-first-buyer-initiative-2025.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: first-buyer-initiative-2025-40-events
+  cancel-in-progress: false
+jobs:
+  historical:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check cohort and rule were frozen before all full historical 2025 bars
+        run: |
+          test -f research/earnings_recovery/frozen_2025_jul_aug_40_announcements_for_first_buyer_initiative_2026-10-10.json
+          test -f research/earnings_recovery/frozen_2025_first_buyer_initiative_without_retest_protocol_2026-10-10.md
+          git log -1 --format="%h %s" -- research/earnings_recovery/frozen_2025_first_buyer_initiative_without_retest_protocol_2026-10-10.md
+      - name: Run complete 40 event historical first buyer initiative entry stop target study
+        run: python research/earnings_recovery/run_first_buyer_initiative_without_retest_2025_40events.py
+      - name: Commit complete outcomes and unknown source statuses
+        run: |
+          git config user.name 'Investing OS Research Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add research/earnings_recovery/early_buyer_initiative_no_retest_2025_40events_actual_2026-10-10.json
+          git commit -m 'Archive 2025 forty-event earliest buyer participation stock first-touch outcomes [skip ci]'
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            git push && break
+            sleep 2
+          done
