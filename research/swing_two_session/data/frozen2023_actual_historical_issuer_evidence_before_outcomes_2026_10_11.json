@@ -1,0 +1,266 @@
+{
+  "protocol": "research/swing_two_session/frozen2023_historical_fundamental_shock_protocol_2026_10_11.md",
+  "sourceFreezeBeforeOutcomes": true,
+  "summary": {
+    "count": 13,
+    "sourceClass": {
+      "MATERIAL_BAD_FUNDAMENTALS": 0,
+      "INTACT_VERIFIED": 1,
+      "UNKNOWN": 12
+    },
+    "originalFiscalGuidanceComparable": [
+      "UPS",
+      "ABBV",
+      "FTNT",
+      "WMT"
+    ],
+    "notes": "Missing primary guidance comparator is UNKNOWN, not 'nothing wrong'; original 2023 source descriptions primary where cited, contemporary reporting for market cause. All classifications frozen before reading prospective outcome bars."
+  },
+  "records": [
+    {
+      "symbol": "CRWD",
+      "date": "2023-01-05",
+      "stockShockCloseClosePct": -9.078714128299714,
+      "rvol20": 2.5647630955258953,
+      "signalClose": 23.7225,
+      "priorClose": 26.09125,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "ANALYST_DOWNGRADE_AND_SECTOR",
+      "evidence": "Same-day multiple equity analyst target cuts/downgrades; no comparable original issuer new FY profit/margin/orders guidance verified for entry.",
+      "sources": [
+        "https://www.fool.com/investing/2023/01/05/why-shopify-palantir-and-crowdstrike-stocks-slumpe/"
+      ]
+    },
+    {
+      "symbol": "DDOG",
+      "date": "2023-01-05",
+      "stockShockCloseClosePct": -7.917633410672842,
+      "rvol20": 2.045137922855513,
+      "signalClose": 63.5,
+      "priorClose": 68.96,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "SOFTWARE_SECTOR_WITHOUT_VERIFIED_ISSUER_RELEASE",
+      "evidence": "Contemporaneous primary management guidance updates absent from inspected sources; same-day peer CRWD analyst/sector pressure, not sufficient to claim DDOG no fundamental news.",
+      "sources": []
+    },
+    {
+      "symbol": "SNOW",
+      "date": "2023-02-03",
+      "stockShockCloseClosePct": -8.289806234203889,
+      "rvol20": 1.2886128275226305,
+      "signalClose": 163.29,
+      "priorClose": 178.05,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "UNKNOWN_CAUSE",
+      "evidence": "No verified date-stamped comparison of original same-FY issuer profit/order/margin guidance for entry; absence unproven.",
+      "sources": []
+    },
+    {
+      "symbol": "ADBE",
+      "date": "2023-02-24",
+      "stockShockCloseClosePct": -7.6306841104259,
+      "rvol20": 3.1859496756526533,
+      "signalClose": 320.54,
+      "priorClose": 347.02,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "SPECIFIC_REGULATORY_RISK",
+      "evidence": "DOJ preparing possible lawsuit to block Adobe-Figma merger reported Feb23 evening; event-specific deal/regulatory risk, not quantified EPS/profit guidance deterioration; cannot label nonfundamental.",
+      "sources": [
+        "https://news.bloomberglaw.com/tech-and-telecom-law/doj-preparing-suit-to-block-adobes-20-billion-deal-for-figma"
+      ]
+    },
+    {
+      "symbol": "C",
+      "date": "2023-03-13",
+      "stockShockCloseClosePct": -7.4472484644222625,
+      "rvol20": 3.049476134736212,
+      "signalClose": 39.909734,
+      "priorClose": 43.121067,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "BANK_SYSTEM_CONTAGION",
+      "evidence": "SVB/Signature Bank failure broader financial selloff; no original same-date issuer guidance verification. Systemic risk can affect fundamentals, cannot claim nonfundamental.",
+      "sources": [
+        "https://www.kitco.com/news/off-the-wire/2023-03-13/us-stocks-sliding-bank-shares-drag-wall-street-choppy-trade"
+      ]
+    },
+    {
+      "symbol": "WFC",
+      "date": "2023-03-13",
+      "stockShockCloseClosePct": -7.132494071791706,
+      "rvol20": 4.228085394729615,
+      "signalClose": 35.161288,
+      "priorClose": 37.861777,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "BANK_SYSTEM_CONTAGION",
+      "evidence": "SVB/Signature crisis; no historical new original WFC FY guidance comparator; bank funding risk may be fundamental.",
+      "sources": [
+        "https://www.kitco.com/news/off-the-wire/2023-03-13/us-stocks-sliding-bank-shares-drag-wall-street-choppy-trade"
+      ]
+    },
+    {
+      "symbol": "SLB",
+      "date": "2023-03-15",
+      "stockShockCloseClosePct": -8.184764517407617,
+      "rvol20": 2.3219157285798593,
+      "signalClose": 41.554651,
+      "priorClose": 45.258993,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "OIL_PRICE_MACRO_SHOCK",
+      "evidence": "Oil price plunged amid banking crisis Credit Suisse contagion; dated sector/commodity news, not evidence SLB forward EPS/orders unchanged.",
+      "sources": [
+        "https://www.investing.com/news/commodities-news/oil-prices-bounce-back-helped-by-stronger-opec-outlook-for-china-3030661"
+      ]
+    },
+    {
+      "symbol": "UPS",
+      "date": "2023-04-25",
+      "stockShockCloseClosePct": -9.987235454650968,
+      "rvol20": 4.794441486822681,
+      "signalClose": 145.756765,
+      "priorClose": 161.928995,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "ORIGINAL_ISSUER_FULL_YEAR_OUTLOOK_SOFTENS",
+      "evidence": "Jan prior full-year 2023 revenue midpoint $98.2bn, 12.8%-13.6% adjusted operating margin midpoint13.2%; Apr25 new annual revenue about $97bn (-1.22% FY revenue midpoint), adjusted operating margin about12.8% (-0.4pp), below frozen material -5% revenue/-1pp margin thresholds. EPS actual down 27.9% YoY is not same-quarter forecast miss. Demand and volume deteriorated, but NOT a full frozen MATERIAL_BAD label.",
+      "quant": {
+        "annualRevenuePriorMidBn": 98.2,
+        "annualRevenueNowBn": 97,
+        "annualRevenueRevisionPct": -1.221995926680244,
+        "annualOperatingMarginPriorMidPct": 13.2,
+        "annualOperatingMarginNowPct": 12.8,
+        "annualMarginRevisionPp": -0.4
+      },
+      "sources": [
+        "https://investors.ups.com/sec-filings/all-sec-filings/content/0001090727-23-000003/exhibit991-q42022earningsp.htm",
+        "https://investors.ups.com/news-events/press-releases/detail/2090/ups-releases-1q-2023-earnings"
+      ]
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2023-04-27",
+      "stockShockCloseClosePct": -7.991347520558978,
+      "rvol20": 3.8706387236046647,
+      "signalClose": 132.74756,
+      "priorClose": 144.277257,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "ORIGINAL_ISSUER_FY_EPS_UP_BUT_HUMIRA_ISSUE",
+      "evidence": "Apr27 adjusts FY2023 EPS guidance from $10.62-11.02 to $10.72-11.12 (+0.92% midpoint), but reveals Humira erosion and portfolio revenue declines; comparable future Humira volume/order or margin expectation not fully crosschecked. Cannot call verified intact.",
+      "quant": {
+        "FYadjustedEPSPriorMid": 10.82,
+        "FYadjustedEPSNowMid": 10.92,
+        "FYEPSRevisionPct": 0.924214417744923
+      },
+      "sources": [
+        "https://news.abbvie.com/2023-04-27-AbbVie-Reports-First-Quarter-2023-Financial-Results"
+      ]
+    },
+    {
+      "symbol": "PANW",
+      "date": "2023-07-12",
+      "stockShockCloseClosePct": -7.029532829796592,
+      "rvol20": 2.452281114960867,
+      "signalClose": 116.32,
+      "priorClose": 125.115,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "COMPETITIVE_NEWS_MICROSOFT",
+      "evidence": "Microsoft announced competing secure internet/private access products; competitive threat but no quantified PANW issuer profit/orders/margin revision.",
+      "sources": [
+        "https://stockstory.org/us/stocks/nasdaq/panw/news/why-up-down/why-palo-alto-networks-panw-stock-is-trading-lower-today/"
+      ]
+    },
+    {
+      "symbol": "FTNT",
+      "date": "2023-08-04",
+      "stockShockCloseClosePct": -25.06599788806758,
+      "rvol20": 6.622850970952409,
+      "signalClose": 56.77,
+      "priorClose": 75.76,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "ORIGINAL_ISSUER_MIXED_FY_DOWN_BILLINGS_UP_EPS",
+      "evidence": "Aug3 prior-to-open Aug4 issuer release: prior Q1-23 company FY revenue midpoint $5.455bn -> new $5.400bn (-1.01%); full FY billings midpoint $6.780bn -> $6.540bn (-3.54%); FY adjusted EPS prior $1.46 -> $1.51 (+3.42%). Q2 quarter billings actual $1.54bn vs prior midpoint $1.58bn (-2.53%). None satisfies preregistered >=5% FY revenue or >=10% same-quarter billings shortfall; cannot relabel after viewing prices, despite explicit demand slowdown.",
+      "quant": {
+        "FYrevenuePriorMidBn": 5.455,
+        "FYrevenueNewMidBn": 5.4,
+        "FYrevenueRevisionPct": -1.0082493125572878,
+        "FYbillingsPriorMidBn": 6.78,
+        "FYbillingsNewMidBn": 6.54,
+        "FYbillingsRevisionPct": -3.53982300884956,
+        "FYadjustedEPSPriorMid": 1.46,
+        "FYadjustedEPSNewMid": 1.51,
+        "FYadjustedEPSRevisionPct": 3.42465753424658,
+        "Q2billingsPriorMidBn": 1.58,
+        "Q2billingsActualBn": 1.54,
+        "Q2billingsSurprisePct": -2.531645569620259
+      },
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1262039/000126203923000013/ftntq1-2023ex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1262039/000126203923000027/ftntq2-2023ex991.htm"
+      ]
+    },
+    {
+      "symbol": "ANET",
+      "date": "2023-10-26",
+      "stockShockCloseClosePct": -8.743081304745026,
+      "rvol20": 3.031913138883846,
+      "signalClose": 42.455,
+      "priorClose": 46.5225,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "UNKNOWN",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "CUSTOMER_CAPEX_FORECAST_DOWN_META",
+      "evidence": "Meta, significant customer, reduced 2023 capex view after Oct25 earnings. This is pre-entry order demand risk but NOT an ANET original new orders/profit guidance revision or contract cancellation.",
+      "sources": [
+        "https://www.boursorama.com/bourse/actualites/arista-networks-et-pure-storage-en-baisse-apres-que-meta-a-revu-a-la-baisse-ses-previsions-d-investissements-5664f170f603e4b6a795195f6e4e5116"
+      ]
+    },
+    {
+      "symbol": "WMT",
+      "date": "2023-11-16",
+      "stockShockCloseClosePct": -8.092827294433702,
+      "rvol20": 5.953359758682454,
+      "signalClose": 50.402717,
+      "priorClose": 54.840896,
+      "originalDatedRelease": "NOT_CODED",
+      "sourceClass": "INTACT_VERIFIED",
+      "publicationAsOf": "Source publicly dated no later than entry T+1; for secondary stories date verified, clock verification incomplete where noted",
+      "newsType": "ORIGINAL_ISSUER_FY_EPS_SALES_RAISED",
+      "evidence": "Aug17 FY24 adjusted EPS midpoint $6.41 -> Nov16 midpoint $6.44 (+0.47%) and net sales FY constant-currency growth midpoint 4.25% -> 5.25% (+1pp); Q3 EPS $1.53 vs prior same-quarter management $1.45-1.50 midpoint $1.475 (+3.73%); company gross margin +32bp yoy, no large original-source guided revenue/earnings/margin orders shortfall identified. Earnings release dated premarket Nov16. Verified intact per limited metrics not proof no other uncertainty.",
+      "quant": {
+        "FYadjEPSPriorMid": 6.41,
+        "FYadjEPSNewMid": 6.44,
+        "FYadjEPSRevisionPct": 0.4680187207488206,
+        "FYsalesGrowthPriorMidPct": 4.25,
+        "FYsalesGrowthNewMidPct": 5.25,
+        "FYsalesGrowthRevisionPp": 1,
+        "Q3epsPriorGuideMid": 1.475,
+        "Q3actualAdjEPS": 1.53,
+        "Q3earningsActualVsGuidePct": 3.728813559322036
+      },
+      "sources": [
+        "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-23-000088/earningsreleasefy24q2.htm",
+        "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-23-000124/earningsreleasefy24q3.htm"
+      ]
+    }
+  ]
+}
