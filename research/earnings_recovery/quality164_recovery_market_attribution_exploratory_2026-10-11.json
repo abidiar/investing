@@ -55,7 +55,8 @@
       "stockToRecoveryPct": 7.486865148861654,
       "spyToRecoveryPct": -7.517788936774117,
       "stockExcessRecoveryPp": 15.00465408563577,
-      "preEarningsLossPct": -6.335862210375243
+      "preEarningsLossPct": -6.335862210375243,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "PANW",
@@ -70,7 +71,8 @@
       "stockToRecoveryPct": 8.476268587526302,
       "spyToRecoveryPct": -3.098802939541634,
       "stockExcessRecoveryPp": 11.575071527067937,
-      "preEarningsLossPct": -5.636314691432798
+      "preEarningsLossPct": -5.636314691432798,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CMCSA",
@@ -85,7 +87,8 @@
       "stockToRecoveryPct": 13.052633236005672,
       "spyToRecoveryPct": -4.812904846562027,
       "stockExcessRecoveryPp": 17.8655380825677,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -11.001072756962515,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "OKE",
@@ -100,7 +103,8 @@
       "stockToRecoveryPct": 6.635299293671371,
       "spyToRecoveryPct": -4.008147196915635,
       "stockExcessRecoveryPp": 10.643446490587005,
-      "preEarningsLossPct": -5.084163149107557
+      "preEarningsLossPct": -5.084163149107557,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ZBH",
@@ -115,7 +119,8 @@
       "stockToRecoveryPct": 7.751484890016025,
       "spyToRecoveryPct": -7.543871181118522,
       "stockExcessRecoveryPp": 15.295356071134547,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.136257917568187,
+      "earningsReleaseSession": "BMO"
     }
   ],
   "rows": [
@@ -132,7 +137,8 @@
       "stockToRecoveryPct": 12.951674176163962,
       "spyToRecoveryPct": 7.206007043001761,
       "stockExcessRecoveryPp": 5.745667133162202,
-      "preEarningsLossPct": -10.923113244668292
+      "preEarningsLossPct": -10.923113244668292,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ADBE",
@@ -147,7 +153,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -5.3181202862115695
+      "preEarningsLossPct": -5.3181202862115695,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ADBE",
@@ -162,7 +169,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -13.853169174646618
+      "preEarningsLossPct": -13.853169174646618,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ADBE",
@@ -177,7 +185,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -13.69265179204625
+      "preEarningsLossPct": -13.69265179204625,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ADBE",
@@ -192,7 +201,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -8.469866166567208
+      "preEarningsLossPct": -8.469866166567208,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ADBE",
@@ -207,7 +217,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -13.671662722412137
+      "preEarningsLossPct": -13.671662722412137,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "AMD",
@@ -222,7 +233,8 @@
       "stockToRecoveryPct": 22.40371646935411,
       "spyToRecoveryPct": -0.7103574993896911,
       "stockExcessRecoveryPp": 23.1140739687438,
-      "preEarningsLossPct": -17.31444384783777
+      "preEarningsLossPct": -17.31444384783777,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "AMD",
@@ -237,7 +249,8 @@
       "stockToRecoveryPct": 7.252329573320249,
       "spyToRecoveryPct": 1.5661050122176112,
       "stockExcessRecoveryPp": 5.686224561102637,
-      "preEarningsLossPct": -6.4195972692329795
+      "preEarningsLossPct": -6.4195972692329795,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "AMD",
@@ -252,7 +265,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -6.2677824267782345
+      "preEarningsLossPct": -6.2677824267782345,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "AMD",
@@ -267,7 +281,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -10.616541353383457
+      "preEarningsLossPct": -10.616541353383457,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "AMD",
@@ -282,7 +297,8 @@
       "stockToRecoveryPct": 10.67442988840368,
       "spyToRecoveryPct": 5.881882790079529,
       "stockExcessRecoveryPp": 4.792547098324151,
-      "preEarningsLossPct": -8.908953150650323
+      "preEarningsLossPct": -8.908953150650323,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "AMD",
@@ -297,7 +313,8 @@
       "stockToRecoveryPct": 16.442048517520224,
       "spyToRecoveryPct": 1.1568061314178646,
       "stockExcessRecoveryPp": 15.285242386102361,
-      "preEarningsLossPct": -9.220331442553654
+      "preEarningsLossPct": -9.220331442553654,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ANET",
@@ -312,7 +329,8 @@
       "stockToRecoveryPct": 16.061471508227942,
       "spyToRecoveryPct": 3.367264896707467,
       "stockExcessRecoveryPp": 12.694206611520475,
-      "preEarningsLossPct": -13.605921748325688
+      "preEarningsLossPct": -13.605921748325688,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ANET",
@@ -327,7 +345,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -8.55096059915339
+      "preEarningsLossPct": -8.55096059915339,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ANET",
@@ -342,7 +361,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -6.428957320367368
+      "preEarningsLossPct": -6.428957320367368,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ANET",
@@ -357,7 +377,8 @@
       "stockToRecoveryPct": 8.128355599950066,
       "spyToRecoveryPct": 1.6081847906115332,
       "stockExcessRecoveryPp": 6.520170809338532,
-      "preEarningsLossPct": -7.092478307271122
+      "preEarningsLossPct": -7.092478307271122,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ANET",
@@ -372,7 +393,8 @@
       "stockToRecoveryPct": 8.372566005046899,
       "spyToRecoveryPct": 3.798979738190722,
       "stockExcessRecoveryPp": 4.573586266856178,
-      "preEarningsLossPct": -5.472087724295072
+      "preEarningsLossPct": -5.472087724295072,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ANET",
@@ -387,7 +409,8 @@
       "stockToRecoveryPct": 26.203882056600982,
       "spyToRecoveryPct": 2.234446617644692,
       "stockExcessRecoveryPp": 23.96943543895629,
-      "preEarningsLossPct": -15.721778221778226
+      "preEarningsLossPct": -15.721778221778226,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "COIN",
@@ -402,7 +425,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -7.983630203616121
+      "preEarningsLossPct": -7.983630203616121,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "COIN",
@@ -417,7 +441,8 @@
       "stockToRecoveryPct": 41.87447698744771,
       "spyToRecoveryPct": 3.9392233711605718,
       "stockExcessRecoveryPp": 37.935253616287135,
-      "preEarningsLossPct": -15.34429016718618
+      "preEarningsLossPct": -15.34429016718618,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "COIN",
@@ -432,7 +457,8 @@
       "stockToRecoveryPct": 16.224204359529224,
       "spyToRecoveryPct": 13.336931921669892,
       "stockExcessRecoveryPp": 2.887272437859334,
-      "preEarningsLossPct": -10.896350639578623
+      "preEarningsLossPct": -10.896350639578623,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CRM",
@@ -447,7 +473,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -19.737132892344167
+      "preEarningsLossPct": -19.737132892344167,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CRWD",
@@ -462,7 +489,8 @@
       "stockToRecoveryPct": 7.486865148861654,
       "spyToRecoveryPct": -7.517788936774117,
       "stockExcessRecoveryPp": 15.00465408563577,
-      "preEarningsLossPct": -6.335862210375243
+      "preEarningsLossPct": -6.335862210375243,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CRWD",
@@ -477,7 +505,8 @@
       "stockToRecoveryPct": 5.454230135560878,
       "spyToRecoveryPct": 0.682101089530418,
       "stockExcessRecoveryPp": 4.77212904603046,
-      "preEarningsLossPct": -5.0315673895141355
+      "preEarningsLossPct": -5.0315673895141355,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CSCO",
@@ -492,7 +521,8 @@
       "stockToRecoveryPct": 15.623144352829677,
       "spyToRecoveryPct": 4.522345713050013,
       "stockExcessRecoveryPp": 11.100798639779663,
-      "preEarningsLossPct": -12.32172008414516
+      "preEarningsLossPct": -12.32172008414516,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CSCO",
@@ -507,7 +537,8 @@
       "stockToRecoveryPct": 6.880170506466343,
       "spyToRecoveryPct": 4.901199112591326,
       "stockExcessRecoveryPp": 1.9789713938750175,
-      "preEarningsLossPct": -5.965909070234543
+      "preEarningsLossPct": -5.965909070234543,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CSCO",
@@ -522,7 +553,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -9.834835488470283
+      "preEarningsLossPct": -9.834835488470283,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "DELL",
@@ -537,7 +569,8 @@
       "stockToRecoveryPct": 11.084731981981832,
       "spyToRecoveryPct": 3.664660359143479,
       "stockExcessRecoveryPp": 7.420071622838353,
-      "preEarningsLossPct": -8.877284983897649
+      "preEarningsLossPct": -8.877284983897649,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "DELL",
@@ -552,7 +585,8 @@
       "stockToRecoveryPct": 13.584806918382508,
       "spyToRecoveryPct": 0.8282082169717819,
       "stockExcessRecoveryPp": 12.756598701410727,
-      "preEarningsLossPct": -11.37902262648237
+      "preEarningsLossPct": -11.37902262648237,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "DELL",
@@ -567,7 +601,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -12.247777434012209
+      "preEarningsLossPct": -12.247777434012209,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "DIS",
@@ -582,7 +617,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -8.730472648417676
+      "preEarningsLossPct": -8.730472648417676,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "FDX",
@@ -597,7 +633,8 @@
       "stockToRecoveryPct": 19.835846662379453,
       "spyToRecoveryPct": 5.152661669033942,
       "stockExcessRecoveryPp": 14.68318499334551,
-      "preEarningsLossPct": -15.230200830443819
+      "preEarningsLossPct": -15.230200830443819,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "GILD",
@@ -612,7 +649,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -5.04374621711573
+      "preEarningsLossPct": -5.04374621711573,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "GILD",
@@ -627,7 +665,8 @@
       "stockToRecoveryPct": 7.788743692348166,
       "spyToRecoveryPct": 6.974921677108825,
       "stockExcessRecoveryPp": 0.8138220152393405,
-      "preEarningsLossPct": -6.98424453259242
+      "preEarningsLossPct": -6.98424453259242,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "GOOG",
@@ -642,7 +681,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -6.937557600970767
+      "preEarningsLossPct": -6.937557600970767,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "GOOG",
@@ -657,7 +697,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -5.027233376964768
+      "preEarningsLossPct": -5.027233376964768,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "GOOG",
@@ -672,7 +713,8 @@
       "stockToRecoveryPct": 10.366713375496461,
       "spyToRecoveryPct": 8.470488553519907,
       "stockExcessRecoveryPp": 1.8962248219765554,
-      "preEarningsLossPct": -7.350538925974082
+      "preEarningsLossPct": -7.350538925974082,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "HPE",
@@ -687,7 +729,8 @@
       "stockToRecoveryPct": 14.261198730374215,
       "spyToRecoveryPct": 2.20253355444191,
       "stockExcessRecoveryPp": 12.058665175932305,
-      "preEarningsLossPct": -11.971048700326925
+      "preEarningsLossPct": -11.971048700326925,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "HPE",
@@ -702,7 +745,8 @@
       "stockToRecoveryPct": 7.6239546822349125,
       "spyToRecoveryPct": 3.8882116678812473,
       "stockExcessRecoveryPp": 3.735743014353665,
-      "preEarningsLossPct": -6.020248123932581
+      "preEarningsLossPct": -6.020248123932581,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "HPE",
@@ -717,7 +761,8 @@
       "stockToRecoveryPct": 9.292653452939748,
       "spyToRecoveryPct": 2.0820867908790452,
       "stockExcessRecoveryPp": 7.210566662060702,
-      "preEarningsLossPct": -7.087627926208584
+      "preEarningsLossPct": -7.087627926208584,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "IBM",
@@ -732,7 +777,8 @@
       "stockToRecoveryPct": 10.278629061958533,
       "spyToRecoveryPct": 4.83732094372582,
       "stockExcessRecoveryPp": 5.441308118232713,
-      "preEarningsLossPct": -8.250615407638461
+      "preEarningsLossPct": -8.250615407638461,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ISRG",
@@ -747,7 +793,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -6.932060058678024
+      "preEarningsLossPct": -6.932060058678024,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "ISRG",
@@ -762,7 +809,8 @@
       "stockToRecoveryPct": 7.013945857260029,
       "spyToRecoveryPct": 4.103908909288623,
       "stockExcessRecoveryPp": 2.910036947971406,
-      "preEarningsLossPct": -5.496550120164356
+      "preEarningsLossPct": -5.496550120164356,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "KLAC",
@@ -777,7 +825,8 @@
       "stockToRecoveryPct": 21.118841303807343,
       "spyToRecoveryPct": -1.4745109306430582,
       "stockExcessRecoveryPp": 22.593352234450403,
-      "preEarningsLossPct": -15.241198972504833
+      "preEarningsLossPct": -15.241198972504833,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "NFLX",
@@ -792,7 +841,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -10.068071051677608
+      "preEarningsLossPct": -10.068071051677608,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "NFLX",
@@ -807,7 +857,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -5.095866328668852
+      "preEarningsLossPct": -5.095866328668852,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "NFLX",
@@ -822,7 +873,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -8.410980129399704
+      "preEarningsLossPct": -8.410980129399704,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "NOW",
@@ -837,7 +889,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -9.944453016509803
+      "preEarningsLossPct": -9.944453016509803,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "NOW",
@@ -852,7 +905,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -11.444260818621398
+      "preEarningsLossPct": -11.444260818621398,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "PANW",
@@ -867,7 +921,8 @@
       "stockToRecoveryPct": 8.476268587526302,
       "spyToRecoveryPct": -3.098802939541634,
       "stockExcessRecoveryPp": 11.575071527067937,
-      "preEarningsLossPct": -5.636314691432798
+      "preEarningsLossPct": -5.636314691432798,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "PANW",
@@ -882,7 +937,8 @@
       "stockToRecoveryPct": 8.336068263866103,
       "spyToRecoveryPct": -2.026839897779953,
       "stockExcessRecoveryPp": 10.362908161646056,
-      "preEarningsLossPct": -6.8195718654434305
+      "preEarningsLossPct": -6.8195718654434305,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "PANW",
@@ -897,7 +953,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -7.418709354677344
+      "preEarningsLossPct": -7.418709354677344,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "PANW",
@@ -912,7 +969,8 @@
       "stockToRecoveryPct": 7.503034315348134,
       "spyToRecoveryPct": 1.689942696894975,
       "stockExcessRecoveryPp": 5.813091618453159,
-      "preEarningsLossPct": -6.797614150555331
+      "preEarningsLossPct": -6.797614150555331,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "PANW",
@@ -927,7 +985,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -28.441093720123455
+      "preEarningsLossPct": -28.441093720123455,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "PANW",
@@ -942,7 +1001,8 @@
       "stockToRecoveryPct": 7.540239372678492,
       "spyToRecoveryPct": 0.8950982258114637,
       "stockExcessRecoveryPp": 6.6451411468670285,
-      "preEarningsLossPct": -5.418065422749629
+      "preEarningsLossPct": -5.418065422749629,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "PYPL",
@@ -957,7 +1017,8 @@
       "stockToRecoveryPct": 14.430786057387923,
       "spyToRecoveryPct": 3.237558454854139,
       "stockExcessRecoveryPp": 11.193227602533785,
-      "preEarningsLossPct": -11.242885081787223
+      "preEarningsLossPct": -11.242885081787223,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "PYPL",
@@ -972,7 +1033,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -12.322405396655833
+      "preEarningsLossPct": -12.322405396655833,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "PYPL",
@@ -987,7 +1049,8 @@
       "stockToRecoveryPct": 15.044381444453613,
       "spyToRecoveryPct": 11.817315238834446,
       "stockExcessRecoveryPp": 3.227066205619167,
-      "preEarningsLossPct": -12.731726606002635
+      "preEarningsLossPct": -12.731726606002635,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "QCOM",
@@ -1002,7 +1065,8 @@
       "stockToRecoveryPct": 9.908790215887041,
       "spyToRecoveryPct": 5.647673220117411,
       "stockExcessRecoveryPp": 4.2611169957696315,
-      "preEarningsLossPct": -8.455907391418094
+      "preEarningsLossPct": -8.455907391418094,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "QCOM",
@@ -1017,7 +1081,8 @@
       "stockToRecoveryPct": 8.455983047076266,
       "spyToRecoveryPct": 2.069358243935082,
       "stockExcessRecoveryPp": 6.386624803141183,
-      "preEarningsLossPct": -7.7329315316171705
+      "preEarningsLossPct": -7.7329315316171705,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "QCOM",
@@ -1032,7 +1097,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -9.367228530744464
+      "preEarningsLossPct": -9.367228530744464,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "SBUX",
@@ -1047,7 +1113,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -15.877500604761563
+      "preEarningsLossPct": -15.877500604761563,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "SBUX",
@@ -1062,7 +1129,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -9.173509718717654
+      "preEarningsLossPct": -9.173509718717654,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "TXN",
@@ -1077,7 +1145,8 @@
       "stockToRecoveryPct": 7.919773013476705,
       "spyToRecoveryPct": 2.4094039046501425,
       "stockExcessRecoveryPp": 5.510369108826563,
-      "preEarningsLossPct": -5.601637151023842
+      "preEarningsLossPct": -5.601637151023842,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "TXN",
@@ -1092,7 +1161,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -13.33984757790818
+      "preEarningsLossPct": -13.33984757790818,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CVS",
@@ -1107,7 +1177,8 @@
       "stockToRecoveryPct": 8.697695416932639,
       "spyToRecoveryPct": 1.6454455612597396,
       "stockExcessRecoveryPp": 7.0522498556728985,
-      "preEarningsLossPct": -4.851116270866962
+      "preEarningsLossPct": -6.70316350820811,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "CVS",
@@ -1122,7 +1193,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -16.83650875831836,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "CVS",
@@ -1137,7 +1209,8 @@
       "stockToRecoveryPct": 8.12618111138812,
       "spyToRecoveryPct": 12.776459141518748,
       "stockExcessRecoveryPp": -4.650278030130628,
-      "preEarningsLossPct": -1.8407525676573222
+      "preEarningsLossPct": -5.456294760078462,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "DIS",
@@ -1152,7 +1225,8 @@
       "stockToRecoveryPct": 8.4137466713341,
       "spyToRecoveryPct": 3.5833098538325725,
       "stockExcessRecoveryPp": 4.830436817501527,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -7.749678923326653,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "DIS",
@@ -1167,7 +1241,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -9.513179443764507,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "DOW",
@@ -1182,7 +1257,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -6.090131833046486,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "GE",
@@ -1197,7 +1273,8 @@
       "stockToRecoveryPct": 6.661319008281641,
       "spyToRecoveryPct": 4.225372095482216,
       "stockExcessRecoveryPp": 2.435946912799425,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.556653540642753,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "GE",
@@ -1212,7 +1289,8 @@
       "stockToRecoveryPct": 8.813559272413807,
       "spyToRecoveryPct": 0.2380330086132032,
       "stockExcessRecoveryPp": 8.575526263800604,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -7.378335939370029,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "GE",
@@ -1227,7 +1305,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -9.045976366749276,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "HON",
@@ -1242,7 +1321,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.635259807429871,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "HON",
@@ -1257,7 +1337,8 @@
       "stockToRecoveryPct": 7.718794718547661,
       "spyToRecoveryPct": 3.369933130156144,
       "stockExcessRecoveryPp": 4.348861588391517,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.101207113473782,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "HON",
@@ -1272,7 +1353,8 @@
       "stockToRecoveryPct": 6.134500999511316,
       "spyToRecoveryPct": 7.522106444568943,
       "stockExcessRecoveryPp": -1.387605445057627,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.242218595097792,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "HON",
@@ -1287,7 +1369,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.690002930359562,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "JCI",
@@ -1302,7 +1385,8 @@
       "stockToRecoveryPct": 8.088604575297964,
       "spyToRecoveryPct": 5.964680553816448,
       "stockExcessRecoveryPp": 2.123924021481516,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -7.424677283347658,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "JCI",
@@ -1317,7 +1401,8 @@
       "stockToRecoveryPct": 7.4087758941346005,
       "spyToRecoveryPct": 2.4715468148309716,
       "stockExcessRecoveryPp": 4.937229079303629,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.974897977408289,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "JCI",
@@ -1332,7 +1417,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -9.25317732559331,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "JCI",
@@ -1347,7 +1433,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -2.697408105643795
+      "preEarningsLossPct": -7.187005765957554,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "LOW",
@@ -1362,7 +1449,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.588858249314665,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "LOW",
@@ -1377,7 +1465,8 @@
       "stockToRecoveryPct": 7.096906662828961,
       "spyToRecoveryPct": 5.332887614400161,
       "stockExcessRecoveryPp": 1.7640190484287999,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.5601455000716005,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "PYPL",
@@ -1392,7 +1481,8 @@
       "stockToRecoveryPct": 19.817206036464885,
       "spyToRecoveryPct": 4.55726141140147,
       "stockExcessRecoveryPp": 15.259944625063415,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -7.739632083702485,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "PYPL",
@@ -1407,7 +1497,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -20.31339651916121,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "PYPL",
@@ -1422,7 +1513,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -8.65507632186684,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "PYPL",
@@ -1437,7 +1529,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -13.166126395321287,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "PYPL",
@@ -1452,7 +1545,8 @@
       "stockToRecoveryPct": 11.148042759858301,
       "spyToRecoveryPct": 3.23270289876898,
       "stockExcessRecoveryPp": 7.915339861089321,
-      "preEarningsLossPct": -2.566018376136636
+      "preEarningsLossPct": -6.424212543526309,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "TGT",
@@ -1467,7 +1561,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -21.410123445797367,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "TGT",
@@ -1482,7 +1577,8 @@
       "stockToRecoveryPct": 8.996998327576344,
       "spyToRecoveryPct": -0.4642997634650814,
       "stockExcessRecoveryPp": 9.461298091041426,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -8.030555800032646,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "UPS",
@@ -1497,7 +1593,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -14.112722807372357,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "ADP",
@@ -1512,7 +1609,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -1.1315292511944297
+      "preEarningsLossPct": -5.736984908625741,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "ADP",
@@ -1527,7 +1625,8 @@
       "stockToRecoveryPct": 10.232277247707632,
       "spyToRecoveryPct": 12.681116004509029,
       "stockExcessRecoveryPp": -2.448838756801397,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -9.199417514836473,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "ADP",
@@ -1542,7 +1641,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -6.583699749971705,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "AMAT",
@@ -1557,7 +1657,8 @@
       "stockToRecoveryPct": 10.681279333592975,
       "spyToRecoveryPct": 1.345421356977683,
       "stockExcessRecoveryPp": 9.33585797661529,
-      "preEarningsLossPct": -9.204301113328928
+      "preEarningsLossPct": -9.204301113328928,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "AMAT",
@@ -1572,7 +1673,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -8.178216943525562
+      "preEarningsLossPct": -8.178216943525562,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "AMAT",
@@ -1587,7 +1689,8 @@
       "stockToRecoveryPct": 5.99602565628905,
       "spyToRecoveryPct": 1.6072029526080778,
       "stockExcessRecoveryPp": 4.388822703680972,
-      "preEarningsLossPct": -5.253219035824353
+      "preEarningsLossPct": -5.253219035824353,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "AMAT",
@@ -1602,7 +1705,8 @@
       "stockToRecoveryPct": 17.649445128485077,
       "spyToRecoveryPct": 2.9249036445595955,
       "stockExcessRecoveryPp": 14.72454148392548,
-      "preEarningsLossPct": -14.069804794895447
+      "preEarningsLossPct": -14.069804794895447,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CMCSA",
@@ -1617,7 +1721,8 @@
       "stockToRecoveryPct": 10.293741705870474,
       "spyToRecoveryPct": 5.366622230319895,
       "stockExcessRecoveryPp": 4.927119475550579,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -8.421052604258094,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "CMCSA",
@@ -1632,7 +1737,8 @@
       "stockToRecoveryPct": 8.060312869296826,
       "spyToRecoveryPct": 10.972763761231663,
       "stockExcessRecoveryPp": -2.912450891934837,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.819447518893506,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "CMCSA",
@@ -1647,7 +1753,8 @@
       "stockToRecoveryPct": 13.052633236005672,
       "spyToRecoveryPct": -4.812904846562027,
       "stockExcessRecoveryPp": 17.8655380825677,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -11.001072756962515,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "CMCSA",
@@ -1662,7 +1769,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -12.895071695697824
+      "preEarningsLossPct": -6.162753219996054,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "COP",
@@ -1677,7 +1785,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.4375537625706905,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "CPRT",
@@ -1692,7 +1801,8 @@
       "stockToRecoveryPct": 9.957584326398706,
       "spyToRecoveryPct": 4.606466443017543,
       "stockExcessRecoveryPp": 5.351117883381162,
-      "preEarningsLossPct": -6.672950047125347
+      "preEarningsLossPct": -6.672950047125347,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CPRT",
@@ -1707,7 +1817,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -11.52324431256181
+      "preEarningsLossPct": -11.52324431256181,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CPRT",
@@ -1722,7 +1833,8 @@
       "stockToRecoveryPct": 6.0138781804163655,
       "spyToRecoveryPct": 3.821552205791834,
       "stockExcessRecoveryPp": 2.1923259746245316,
-      "preEarningsLossPct": -5.143832276938099
+      "preEarningsLossPct": -5.143832276938099,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "CPRT",
@@ -1737,7 +1849,8 @@
       "stockToRecoveryPct": 7.720588235294135,
       "spyToRecoveryPct": 0.5275576175184371,
       "stockExcessRecoveryPp": 7.1930306177756975,
-      "preEarningsLossPct": -6.08233731739708
+      "preEarningsLossPct": -6.08233731739708,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "DAL",
@@ -1752,7 +1865,8 @@
       "stockToRecoveryPct": 7.9403020774410304,
       "spyToRecoveryPct": 0.25179024213852763,
       "stockExcessRecoveryPp": 7.688511835302503,
-      "preEarningsLossPct": -3.0451194578698715
+      "preEarningsLossPct": -6.9142108202339685,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "DG",
@@ -1767,7 +1881,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -12.152734086717798,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "DG",
@@ -1782,7 +1897,8 @@
       "stockToRecoveryPct": 5.675207853584063,
       "spyToRecoveryPct": 3.963938404473466,
       "stockExcessRecoveryPp": 1.7112694491105973,
-      "preEarningsLossPct": -3.839757742353944
+      "preEarningsLossPct": -5.002986772582229,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "DG",
@@ -1797,7 +1913,8 @@
       "stockToRecoveryPct": 6.077568819963375,
       "spyToRecoveryPct": 1.1794837616338594,
       "stockExcessRecoveryPp": 4.8980850583295155,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.127394630062865,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "DG",
@@ -1812,7 +1929,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -6.137807027161801,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "DLTR",
@@ -1827,7 +1945,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -12.030897972320565,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "DLTR",
@@ -1842,7 +1961,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -12.895513992406137,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "DLTR",
@@ -1857,7 +1977,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -14.209366023114445,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "EOG",
@@ -1872,7 +1993,8 @@
       "stockToRecoveryPct": 9.24440422387043,
       "spyToRecoveryPct": 0.9664014818964395,
       "stockExcessRecoveryPp": 8.278002741973989,
-      "preEarningsLossPct": -7.051555066783899
+      "preEarningsLossPct": -7.051555066783899,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "EW",
@@ -1887,7 +2009,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -9.778456837280359
+      "preEarningsLossPct": -9.778456837280359,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "FIS",
@@ -1902,7 +2025,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -11.492862636211676,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "FIS",
@@ -1917,7 +2041,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -8.535967296120617,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "FIS",
@@ -1932,7 +2057,8 @@
       "stockToRecoveryPct": 8.863083117631776,
       "spyToRecoveryPct": -0.8515496933078182,
       "stockExcessRecoveryPp": 9.714632810939595,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -7.957672719767395,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "FSLR",
@@ -1947,7 +2073,8 @@
       "stockToRecoveryPct": 18.446601941747566,
       "spyToRecoveryPct": 7.444039577713846,
       "stockExcessRecoveryPp": 11.002562364033718,
-      "preEarningsLossPct": -13.605526088565433
+      "preEarningsLossPct": -13.605526088565433,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "FTNT",
@@ -1962,7 +2089,8 @@
       "stockToRecoveryPct": 10.026601186822193,
       "spyToRecoveryPct": 10.10760382503526,
       "stockExcessRecoveryPp": -0.08100263821306797,
-      "preEarningsLossPct": -8.414542728635688
+      "preEarningsLossPct": -8.414542728635688,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "FTNT",
@@ -1977,7 +2105,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -22.03354731828536
+      "preEarningsLossPct": -22.03354731828536,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "FTNT",
@@ -1992,7 +2121,8 @@
       "stockToRecoveryPct": 7.921529674695793,
       "spyToRecoveryPct": 2.2944608233371966,
       "stockExcessRecoveryPp": 5.6270688513585965,
-      "preEarningsLossPct": -6.337946272822403
+      "preEarningsLossPct": -6.337946272822403,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "GLW",
@@ -2007,7 +2137,8 @@
       "stockToRecoveryPct": 7.145630199216613,
       "spyToRecoveryPct": 0.19739503818221316,
       "stockExcessRecoveryPp": 6.9482351610343995,
-      "preEarningsLossPct": -1.2274637916054654
+      "preEarningsLossPct": -6.141789479191207,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "GLW",
@@ -2022,7 +2153,8 @@
       "stockToRecoveryPct": 18.634432558598956,
       "spyToRecoveryPct": 3.1109051142226507,
       "stockExcessRecoveryPp": 15.523527444376306,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -8.904231797717177,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "GPN",
@@ -2037,7 +2169,8 @@
       "stockToRecoveryPct": 9.93319407856279,
       "spyToRecoveryPct": 7.741609613495082,
       "stockExcessRecoveryPp": 2.1915844650677085,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -8.6150296241412,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "GPN",
@@ -2052,7 +2185,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -11.167223177373254,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "HAL",
@@ -2067,7 +2201,8 @@
       "stockToRecoveryPct": 12.747916592214947,
       "spyToRecoveryPct": 8.858296480106986,
       "stockExcessRecoveryPp": 3.889620112107961,
-      "preEarningsLossPct": -4.6015052069881435
+      "preEarningsLossPct": -7.977954187719638,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "HAL",
@@ -2082,7 +2217,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.598244177928658,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "HSY",
@@ -2097,7 +2233,8 @@
       "stockToRecoveryPct": 5.751996696814854,
       "spyToRecoveryPct": 7.185643168990841,
       "stockExcessRecoveryPp": -1.4336464721759867,
-      "preEarningsLossPct": -2.61306551031254
+      "preEarningsLossPct": -5.327300351166187,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "KDP",
@@ -2112,7 +2249,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.521126500795948,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "KDP",
@@ -2127,7 +2265,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -1.030338235661532
+      "preEarningsLossPct": -5.77656616386003,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "KR",
@@ -2142,7 +2281,8 @@
       "stockToRecoveryPct": 6.522084821717433,
       "spyToRecoveryPct": 0.3686776264477887,
       "stockExcessRecoveryPp": 6.1534071952696445,
-      "preEarningsLossPct": -0.6810265696737594
+      "preEarningsLossPct": -5.271903114357002,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "LEN",
@@ -2157,7 +2297,8 @@
       "stockToRecoveryPct": 8.975533282626348,
       "spyToRecoveryPct": 1.530118195752217,
       "stockExcessRecoveryPp": 7.44541508687413,
-      "preEarningsLossPct": -7.637462300426334
+      "preEarningsLossPct": -7.637462300426334,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "LEN",
@@ -2172,7 +2313,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -5.331255000790813
+      "preEarningsLossPct": -5.331255000790813,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "LEN",
@@ -2187,7 +2329,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -5.16000774170613
+      "preEarningsLossPct": -5.16000774170613,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "LEN",
@@ -2202,7 +2345,8 @@
       "stockToRecoveryPct": 6.981917092167156,
       "spyToRecoveryPct": 0.7505917316413813,
       "stockExcessRecoveryPp": 6.231325360525775,
-      "preEarningsLossPct": -5.553018925111253
+      "preEarningsLossPct": -5.553018925111253,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "MPWR",
@@ -2217,7 +2361,8 @@
       "stockToRecoveryPct": 18.734651268879343,
       "spyToRecoveryPct": 0.48954255208424335,
       "stockExcessRecoveryPp": 18.2451087167951,
-      "preEarningsLossPct": -10.385026056106605
+      "preEarningsLossPct": -10.385026056106605,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "MPWR",
@@ -2232,7 +2377,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -5.194016050786532
+      "preEarningsLossPct": -5.194016050786532,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "MPWR",
@@ -2247,7 +2393,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -17.45034299522913
+      "preEarningsLossPct": -17.45034299522913,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "MPWR",
@@ -2262,7 +2409,8 @@
       "stockToRecoveryPct": 9.188342003939031,
       "spyToRecoveryPct": 2.2703973357797835,
       "stockExcessRecoveryPp": 6.917944668159248,
-      "preEarningsLossPct": -7.591305280738004
+      "preEarningsLossPct": -7.591305280738004,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "NEM",
@@ -2277,7 +2425,8 @@
       "stockToRecoveryPct": 7.892527942657668,
       "spyToRecoveryPct": 0.8490217380993093,
       "stockExcessRecoveryPp": 7.0435062045583585,
-      "preEarningsLossPct": -6.231019785787706
+      "preEarningsLossPct": -6.231019785787706,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "NOC",
@@ -2292,7 +2441,8 @@
       "stockToRecoveryPct": 5.988803855620062,
       "spyToRecoveryPct": 0.5817391143421169,
       "stockExcessRecoveryPp": 5.407064741277945,
-      "preEarningsLossPct": -1.3123772920478616
+      "preEarningsLossPct": -5.534330427154743,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "NOC",
@@ -2307,7 +2457,8 @@
       "stockToRecoveryPct": 6.843774644546308,
       "spyToRecoveryPct": 5.414298435819864,
       "stockExcessRecoveryPp": 1.4294762087264434,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -6.330832993125968,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "NOC",
@@ -2322,7 +2473,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -12.656917672775748,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "NOC",
@@ -2337,7 +2489,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -6.978903544410242,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "OKE",
@@ -2352,7 +2505,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -6.487594373887795
+      "preEarningsLossPct": -6.487594373887795,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "OKE",
@@ -2367,7 +2521,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -5.173494754011543
+      "preEarningsLossPct": -5.173494754011543,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "OKE",
@@ -2382,7 +2537,8 @@
       "stockToRecoveryPct": 6.635299293671371,
       "spyToRecoveryPct": -4.008147196915635,
       "stockExcessRecoveryPp": 10.643446490587005,
-      "preEarningsLossPct": -5.084163149107557
+      "preEarningsLossPct": -5.084163149107557,
+      "earningsReleaseSession": "AH"
     },
     {
       "ticker": "REGN",
@@ -2397,7 +2553,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -9.166766041696661,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "REGN",
@@ -2412,7 +2569,8 @@
       "stockToRecoveryPct": 8.22419347828507,
       "spyToRecoveryPct": 6.95085877381536,
       "stockExcessRecoveryPp": 1.2733347044697085,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -6.867367288131732,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "REGN",
@@ -2427,7 +2585,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -6.205501663640744,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "TMO",
@@ -2442,7 +2601,8 @@
       "stockToRecoveryPct": 12.270130905242759,
       "spyToRecoveryPct": 5.398864773249912,
       "stockExcessRecoveryPp": 6.871266131992848,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -9.198801353439645,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "TPR",
@@ -2457,7 +2617,8 @@
       "stockToRecoveryPct": 18.8524398389472,
       "spyToRecoveryPct": 2.6839289885877804,
       "stockExcessRecoveryPp": 16.168510850359418,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -15.713908227715756,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "WAB",
@@ -2472,7 +2633,8 @@
       "stockToRecoveryPct": 7.952267921082767,
       "spyToRecoveryPct": 4.147959274588353,
       "stockExcessRecoveryPp": 3.8043086464944142,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -6.442210340905207,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "WAB",
@@ -2487,7 +2649,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -9.057274356252332,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "WAB",
@@ -2502,7 +2665,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -6.381192329769714,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "ZBH",
@@ -2517,7 +2681,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": -2.9409545003243887
+      "preEarningsLossPct": -7.072023500755931,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "ZBH",
@@ -2532,7 +2697,8 @@
       "stockToRecoveryPct": 7.751484890016025,
       "spyToRecoveryPct": -7.543871181118522,
       "stockExcessRecoveryPp": 15.295356071134547,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -5.136257917568187,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "ZBH",
@@ -2547,7 +2713,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -11.623363621751304,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "ZBH",
@@ -2562,7 +2729,8 @@
       "stockToRecoveryPct": null,
       "spyToRecoveryPct": null,
       "stockExcessRecoveryPp": null,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -15.148284479782214,
+      "earningsReleaseSession": "BMO"
     },
     {
       "ticker": "ZBH",
@@ -2577,7 +2745,9 @@
       "stockToRecoveryPct": 12.73839101289198,
       "spyToRecoveryPct": 2.6946547873706983,
       "stockExcessRecoveryPp": 10.043736225521283,
-      "preEarningsLossPct": 0
+      "preEarningsLossPct": -10.5734958140965,
+      "earningsReleaseSession": "BMO"
     }
-  ]
+  ],
+  "corrections": "2026-10-11 audit correction: preEarningsLossPct now uses pre-announcement close, AH report: earnings-day close; BMO report: previous RTH session close. Prior version accidentally used earnings-day close for BMO and falsely zeroed shock. All market attribution and first recovery day statistics unchanged."
 }
