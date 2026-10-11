@@ -1,9 +1,22 @@
 # Investing OS Research — Master Status
 
-Updated: 2026-09-21
+Updated: 2026-10-11
 Status: **CANONICAL CROSS-TOPIC INDEX**
 
 This file is the concise cross-chat research state. Detailed prior-work reviews, frozen protocols, code, and results remain in their topic files. Governance is defined in `research/RESEARCH_GOVERNANCE.md`.
+
+## PRIORITY (2026-10-11): AFTER-HOURS EARNINGS SECONDARY-DIP → MULTI-DAY RECOVERY ENTRY
+
+**PRIMARY ACTIVE RESEARCH TRACK.** Correct question is NOT the same-day 09:35 earnings-gap reversal. In previously archived qualified AH stock data, 62/91 after-hours initial >=5% selloffs printed a further low within 5 sessions; 42/91 followed an early further low with a +5% partial rebound in sessions 6–60. Retrospective underlying path, not an as-of trade/option edge. See `research/earnings_recovery/after_hours_delayed_dip_recovery_diagnostic_2026-10-11.md`.
+
+**Latest frozen exploratory v0.1, FAILED.** After pre-experiment review `research/prior_work/after_hours_delayed_selling_stabilization_prior_work_2026-10-11.md`, froze one early observable daily price signal: after additional low, first higher daily low + green candle + higher daily close (D2–D10), enter following open if <=4% above observed trough. Same +5%/-5% stock barrier, 20 sessions. On ALL 91 AH episodes, it entered 28 (12 target, 13 stop, 3 timeout); gross mean -0.146%, hypothetical net mean -0.346% per trade, and cost-adjusted -0.106% across all 91 events with skips 0. 30 potential signals were >4% extended; 33 no qualifying signal. Fair paired comparison among 28 entries: signal mean -0.146% gross vs SAME-EVENT D6 gross +1.013% (delta -1.159 pp). D6 ALL-EVENT performance by original-company sample and disjoint-company holdout changed sign (+0.83% gross in original65, -0.43% gross in disjoint26) and MUST NOT be promoted as a day6 call timing rule. These pre-exposed historical cohorts cannot give independent validation. Alternative 3% stop and longer 40-session horizons did not rescue v0.1. **No scanner/automation/options expiry or A+ change.**
+
+**NEXT EVIDENCE-BASED BOTTLENECK:** Stop adding candle indicators or tuning thresholds on these same observed stocks. For a truly new/frozen AH earnings roster, verify announcement timestamp, historical as-of quality plus guidance/forward earnings revision after selloff, and identify why a dip is transitory vs persistent negative earnings repricing. Compare *one* entry definition versus day3/day6/observed secondary-low baselines on underlying first-hit path with no-signal full denominator, then validate inexpensive listed calls using as-of entry ask, exit bid, delta/IV/spreads and realistic expiry. No paid data without approval.
+
+Protocol: `research/earnings_recovery/frozen_ah_delayed_secondary_dip_oneday_stabilization_v0_1_2026-10-11.md`.
+Reproducer: `research/earnings_recovery/run_ah_delayed_secondary_dip_oneday_stabilization_v0_1.mjs`.
+Machine rows: `research/earnings_recovery/ah_delayed_secondary_dip_oneday_stabilization_v0_1_results_2026-10-11.json`.
+Findings: `research/earnings_recovery/ah_delayed_secondary_dip_oneday_stabilization_v0_1_findings_2026-10-11.md`.
 
 ## Current production posture
 - **Price gets final vote.**
