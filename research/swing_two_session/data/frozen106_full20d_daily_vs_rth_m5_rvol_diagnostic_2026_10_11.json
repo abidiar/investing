@@ -1,0 +1,2671 @@
+{
+  "id": "disjoint49_106_signal_asof_volume_basis_diagnostic_2026_10_11",
+  "status": "FULL_106_PRIOR20_AND_EVENT_RTH_M5_VOLUME_SOURCE_SENSITIVITY_AUDIT_ONLY_NO_TRADE_ENTRIES_EXITS_OR_RETURNS",
+  "method": "Use original frozen 106 adjusted D signals and compare D 20-session event-day volume ratio to 20-session RTH M5 volume ratio; add earlier (full-day where possible) M5 source daily aggregates and dedupe by maximum bar coverage; never use post-signal time. Distinction is a sensitivity, NOT modification of original frozen DAILY volume gate. Bars 77 rather than 78 and half-day 41/42 retained, not silently repaired.",
+  "chunks": {
+    "main": [
+      "research/swing_two_session/data/frozen106_source_m5_signalday_chunk01_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_signalday_chunk02_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_signalday_chunk03_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_signalday_chunk04_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_signalday_chunk05_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_signalday_chunk06_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_signalday_chunk07_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_signalday_chunk08_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_signalday_chunk09_2026_10_11.json"
+    ],
+    "older": [
+      "research/swing_two_session/data/frozen106_source_m5_prior20_extension_chunk01_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_prior20_extension_chunk02_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_prior20_extension_chunk03_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_prior20_extension_chunk04_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_prior20_extension_chunk05_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_prior20_extension_chunk06_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_prior20_extension_chunk07_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_prior20_extension_chunk08_2026_10_11.json",
+      "research/swing_two_session/data/frozen106_source_m5_prior20_extension_chunk09_2026_10_11.json"
+    ]
+  },
+  "counts": {
+    "cases": 106,
+    "allPrior20Present": 106,
+    "missingPrior20": [],
+    "m5VolumePass": 100,
+    "m5VolumeFail": 6,
+    "m5VolumeUnknown": 0,
+    "dailyVolumePass": 106,
+    "disagreement": 6,
+    "disagreementEvents": [
+      {
+        "symbol": "DIS",
+        "date": "2026-06-26",
+        "dailyVolRel": 1.2752690421787893,
+        "rthVolRel": 0.9271048542081051,
+        "sourceRatioDOverRTH": 2.0145926470794664,
+        "prior20Partial": 0
+      },
+      {
+        "symbol": "PG",
+        "date": "2025-11-06",
+        "dailyVolRel": 1.2503625590905523,
+        "rthVolRel": 1.164926070420773,
+        "sourceRatioDOverRTH": 1.545029820031762,
+        "prior20Partial": 0
+      },
+      {
+        "symbol": "KO",
+        "date": "2025-09-19",
+        "dailyVolRel": 1.7814778300427252,
+        "rthVolRel": 1.0616122283712774,
+        "sourceRatioDOverRTH": 2.312742513634592,
+        "prior20Partial": 0
+      },
+      {
+        "symbol": "V",
+        "date": "2024-04-11",
+        "dailyVolRel": 1.316436491417752,
+        "rthVolRel": 1.007274184815607,
+        "sourceRatioDOverRTH": 2.29509029332584,
+        "prior20Partial": 0
+      },
+      {
+        "symbol": "V",
+        "date": "2024-04-16",
+        "dailyVolRel": 1.273235541474876,
+        "rthVolRel": 0.8073026719452413,
+        "sourceRatioDOverRTH": 2.955807133870779,
+        "prior20Partial": 0
+      },
+      {
+        "symbol": "UNH",
+        "date": "2026-09-18",
+        "dailyVolRel": 1.814925221598984,
+        "rthVolRel": 0.7551581488441411,
+        "sourceRatioDOverRTH": 3.7798716561775336,
+        "prior20Partial": 0
+      }
+    ],
+    "fully78Prior20": 85,
+    "prev20WithSomeNon78": 21,
+    "byYear": {
+      "2024": {
+        "n": 40,
+        "disagreements": 2,
+        "rthPass": 38
+      },
+      "2025": {
+        "n": 39,
+        "disagreements": 2,
+        "rthPass": 37
+      },
+      "2026": {
+        "n": 27,
+        "disagreements": 2,
+        "rthPass": 25
+      }
+    }
+  },
+  "perEvent": [
+    {
+      "symbol": "NVDA",
+      "date": "2025-11-21",
+      "dailyVolumeRel20": 1.659148257995098,
+      "minuteRthVolumeRel20": 1.6748893038359471,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 346926153,
+      "rthSignalVolume": 319438464,
+      "ratioDOverRthSignal": 1.0860500287153898,
+      "dailySourceClose": 178.452457,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "AVGO",
+      "date": "2025-02-28",
+      "dailyVolumeRel20": 1.590921397069633,
+      "minuteRthVolumeRel20": 1.6026442129172769,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 39747248,
+      "rthSignalVolume": 36825750,
+      "ratioDOverRthSignal": 1.0793330210518455,
+      "dailySourceClose": 196.560702,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "TXN",
+      "date": "2026-07-28",
+      "dailyVolumeRel20": 1.3594282748878415,
+      "minuteRthVolumeRel20": 1.4137332198213712,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 11160385,
+      "rthSignalVolume": 10068124,
+      "ratioDOverRthSignal": 1.1084870428691582,
+      "dailySourceClose": 275.658609,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "LRCX",
+      "date": "2024-09-10",
+      "dailyVolumeRel20": 1.2002765173815841,
+      "minuteRthVolumeRel20": 1.241602492012568,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-08-16",
+          "n": 77
+        },
+        {
+          "d": "2024-08-29",
+          "n": 77
+        },
+        {
+          "d": "2024-09-09",
+          "n": 77
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 1351778,
+      "rthSignalVolume": 1312146,
+      "ratioDOverRthSignal": 1.0302039559622176,
+      "dailySourceClose": 71.837839,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "TSM",
+      "date": "2025-11-21",
+      "dailyVolumeRel20": 1.6798094280618239,
+      "minuteRthVolumeRel20": 1.6863861929385047,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 20872828,
+      "rthSignalVolume": 18901883,
+      "ratioDOverRthSignal": 1.1042724156106563,
+      "dailySourceClose": 272.2454,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "TSM",
+      "date": "2026-07-28",
+      "dailyVolumeRel20": 1.2217070250578634,
+      "minuteRthVolumeRel20": 1.2159348317342402,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 18276277,
+      "rthSignalVolume": 15374363,
+      "ratioDOverRthSignal": 1.1887501940730814,
+      "dailySourceClose": 391.270555,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "CSCO",
+      "date": "2024-02-15",
+      "dailyVolumeRel20": 2.1389105718166337,
+      "minuteRthVolumeRel20": 2.325935073510109,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 42766544,
+      "rthSignalVolume": 41258605,
+      "ratioDOverRthSignal": 1.0365484727367782,
+      "dailySourceClose": 45.830887,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "CSCO",
+      "date": "2024-06-05",
+      "dailyVolumeRel20": 1.3320553792599474,
+      "minuteRthVolumeRel20": 1.4428813763033963,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 28746399,
+      "rthSignalVolume": 27764563,
+      "ratioDOverRthSignal": 1.0353629192723113,
+      "dailySourceClose": 43.342212,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PANW",
+      "date": "2025-03-28",
+      "dailyVolumeRel20": 1.316163790618567,
+      "minuteRthVolumeRel20": 1.2328364506080294,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 6249862,
+      "rthSignalVolume": 5382717,
+      "ratioDOverRthSignal": 1.1610980105400301,
+      "dailySourceClose": 172.76,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "CRWD",
+      "date": "2026-01-16",
+      "dailyVolumeRel20": 1.4464750742139962,
+      "minuteRthVolumeRel20": 1.40990381876735,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2025-12-24",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 13751688,
+      "rthSignalVolume": 3074300,
+      "ratioDOverRthSignal": 4.47311192791855,
+      "dailySourceClose": 113.47,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "FTNT",
+      "date": "2024-06-20",
+      "dailyVolumeRel20": 2.215993280467778,
+      "minuteRthVolumeRel20": 2.2546596187550385,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 10407451,
+      "rthSignalVolume": 9958802,
+      "ratioDOverRthSignal": 1.0450504990459697,
+      "dailySourceClose": 57.94,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "FTNT",
+      "date": "2024-08-02",
+      "dailyVolumeRel20": 1.2372305960873955,
+      "minuteRthVolumeRel20": 1.288571848503055,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 5940825,
+      "rthSignalVolume": 5655735,
+      "ratioDOverRthSignal": 1.0504072414991155,
+      "dailySourceClose": 56.51,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NOW",
+      "date": "2025-11-04",
+      "dailyVolumeRel20": 1.4472042516614005,
+      "minuteRthVolumeRel20": 1.4848325484992426,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2025-10-14",
+          "n": 75
+        },
+        {
+          "d": "2025-10-17",
+          "n": 73
+        },
+        {
+          "d": "2025-10-24",
+          "n": 77
+        },
+        {
+          "d": "2025-10-27",
+          "n": 77
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 9724680,
+      "rthSignalVolume": 1627134,
+      "ratioDOverRthSignal": 5.976569846122077,
+      "dailySourceClose": 177.514,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "ADBE",
+      "date": "2025-07-02",
+      "dailyVolumeRel20": 1.5135422821912736,
+      "minuteRthVolumeRel20": 1.6259630372214993,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 6912202,
+      "rthSignalVolume": 6734918,
+      "ratioDOverRthSignal": 1.0263231118775313,
+      "dailySourceClose": 378.47,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "ADBE",
+      "date": "2026-03-20",
+      "dailyVolumeRel20": 1.5720297493789699,
+      "minuteRthVolumeRel20": 1.3767774926635976,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 10467284,
+      "rthSignalVolume": 8398145,
+      "ratioDOverRthSignal": 1.2463804804513379,
+      "dailySourceClose": 248.15,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "SNOW",
+      "date": "2025-03-07",
+      "dailyVolumeRel20": 1.5745233613452494,
+      "minuteRthVolumeRel20": 1.6040898617654793,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 11044583,
+      "rthSignalVolume": 9996618,
+      "ratioDOverRthSignal": 1.1048319541668992,
+      "dailySourceClose": 158.91,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "SNOW",
+      "date": "2025-08-07",
+      "dailyVolumeRel20": 1.304015030485366,
+      "minuteRthVolumeRel20": 1.3401997920542257,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 4619413,
+      "rthSignalVolume": 4086484,
+      "ratioDOverRthSignal": 1.1304125991928513,
+      "dailySourceClose": 206.4,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NFLX",
+      "date": "2024-07-25",
+      "dailyVolumeRel20": 1.2380974814072556,
+      "minuteRthVolumeRel20": 1.294769127717975,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-07-03",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 45545390,
+      "rthSignalVolume": 4241715,
+      "ratioDOverRthSignal": 10.737494150361352,
+      "dailySourceClose": 63.409,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NFLX",
+      "date": "2025-04-07",
+      "dailyVolumeRel20": 1.2609025296144527,
+      "minuteRthVolumeRel20": 1.2467305592392774,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 66568230,
+      "rthSignalVolume": 6278262,
+      "ratioDOverRthSignal": 10.602971013315468,
+      "dailySourceClose": 86.783,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NFLX",
+      "date": "2025-10-02",
+      "dailyVolumeRel20": 1.5279000990541465,
+      "minuteRthVolumeRel20": 1.5687936343982594,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 46854670,
+      "rthSignalVolume": 4464998,
+      "ratioDOverRthSignal": 10.493771777725321,
+      "dailySourceClose": 116.253,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NFLX",
+      "date": "2025-11-03",
+      "dailyVolumeRel20": 1.300553239388872,
+      "minuteRthVolumeRel20": 1.3194172038865835,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 58634390,
+      "rthSignalVolume": 5307416,
+      "ratioDOverRthSignal": 11.047634102923155,
+      "dailySourceClose": 110.009,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "DIS",
+      "date": "2024-06-28",
+      "dailyVolumeRel20": 2.3545808874902012,
+      "minuteRthVolumeRel20": 2.07513744622014,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 21439416,
+      "rthSignalVolume": 15246131,
+      "ratioDOverRthSignal": 1.4062201092198408,
+      "dailySourceClose": 96.581676,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "DIS",
+      "date": "2025-03-07",
+      "dailyVolumeRel20": 1.4566319667721366,
+      "minuteRthVolumeRel20": 1.5505438697091773,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 12715904,
+      "rthSignalVolume": 10369216,
+      "ratioDOverRthSignal": 1.2263129632944285,
+      "dailySourceClose": 103.562372,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "DIS",
+      "date": "2025-08-06",
+      "dailyVolumeRel20": 2.9340443369664118,
+      "minuteRthVolumeRel20": 3.1991808739675034,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 22153696,
+      "rthSignalVolume": 17972334,
+      "ratioDOverRthSignal": 1.2326554803622056,
+      "dailySourceClose": 113.526121,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "DIS",
+      "date": "2025-09-22",
+      "dailyVolumeRel20": 2.0752724678974497,
+      "minuteRthVolumeRel20": 2.090379455778982,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 15479834,
+      "rthSignalVolume": 11817094,
+      "ratioDOverRthSignal": 1.3099526837985718,
+      "dailySourceClose": 110.953374,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "DIS",
+      "date": "2026-02-03",
+      "dailyVolumeRel20": 2.141393444699722,
+      "minuteRthVolumeRel20": 2.385119651745732,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 24827093,
+      "rthSignalVolume": 21508153,
+      "ratioDOverRthSignal": 1.15431078623999,
+      "dailySourceClose": 103.427493,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "DIS",
+      "date": "2026-03-19",
+      "dailyVolumeRel20": 1.369375456770551,
+      "minuteRthVolumeRel20": 1.332022036508141,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 14793761,
+      "rthSignalVolume": 11525799,
+      "ratioDOverRthSignal": 1.283534529797023,
+      "dailySourceClose": 98.445666,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "DIS",
+      "date": "2026-06-26",
+      "dailyVolumeRel20": 1.2752690421787893,
+      "minuteRthVolumeRel20": 0.9271048542081051,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": false,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": true,
+      "signalDailyVolume": 13921361,
+      "rthSignalVolume": 6910261,
+      "ratioDOverRthSignal": 2.0145926470794664,
+      "dailySourceClose": 98.038783,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "TGT",
+      "date": "2024-05-21",
+      "dailyVolumeRel20": 1.9632216186622065,
+      "minuteRthVolumeRel20": 1.998690689350584,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 6291009,
+      "rthSignalVolume": 4885479,
+      "ratioDOverRthSignal": 1.2876954337537834,
+      "dailySourceClose": 143.037721,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "TGT",
+      "date": "2025-02-12",
+      "dailyVolumeRel20": 1.258995033518626,
+      "minuteRthVolumeRel20": 1.2953589266837857,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 6428960,
+      "rthSignalVolume": 5422327,
+      "ratioDOverRthSignal": 1.185645941308962,
+      "dailySourceClose": 119.853193,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "TGT",
+      "date": "2025-03-21",
+      "dailyVolumeRel20": 3.770484329121952,
+      "minuteRthVolumeRel20": 1.2611285015098828,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 31066226,
+      "rthSignalVolume": 8336645,
+      "ratioDOverRthSignal": 3.7264662223232485,
+      "dailySourceClose": 97.819006,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "WMT",
+      "date": "2025-04-07",
+      "dailyVolumeRel20": 1.401918852594742,
+      "minuteRthVolumeRel20": 1.6061057239538707,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 36884944,
+      "rthSignalVolume": 31882519,
+      "ratioDOverRthSignal": 1.1569018119302306,
+      "dailySourceClose": 82.737397,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "WMT",
+      "date": "2026-05-21",
+      "dailyVolumeRel20": 3.18667860745494,
+      "minuteRthVolumeRel20": 3.253380012798348,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 53006570,
+      "rthSignalVolume": 46684912,
+      "ratioDOverRthSignal": 1.1354111581060709,
+      "dailySourceClose": 121.050789,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PG",
+      "date": "2024-07-30",
+      "dailyVolumeRel20": 2.6875802988283013,
+      "minuteRthVolumeRel20": 3.1289006105751653,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-07-03",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 15746254,
+      "rthSignalVolume": 12855713,
+      "ratioDOverRthSignal": 1.224844860802353,
+      "dailySourceClose": 153.209662,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PG",
+      "date": "2025-07-09",
+      "dailyVolumeRel20": 2.156869495203279,
+      "minuteRthVolumeRel20": 1.5752565595456554,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2025-07-03",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 18770894,
+      "rthSignalVolume": 8682162,
+      "ratioDOverRthSignal": 2.162006882617486,
+      "dailySourceClose": 151.982493,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PG",
+      "date": "2025-11-06",
+      "dailyVolumeRel20": 1.2503625590905523,
+      "minuteRthVolumeRel20": 1.164926070420773,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": false,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": true,
+      "signalDailyVolume": 10024549,
+      "rthSignalVolume": 6488256,
+      "ratioDOverRthSignal": 1.545029820031762,
+      "dailySourceClose": 142.94942,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PG",
+      "date": "2025-12-02",
+      "dailyVolumeRel20": 1.7740038539983873,
+      "minuteRthVolumeRel20": 1.8865032184802484,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2025-11-28",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 16376769,
+      "rthSignalVolume": 12579994,
+      "ratioDOverRthSignal": 1.3018105573023326,
+      "dailySourceClose": 142.685296,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PG",
+      "date": "2026-06-01",
+      "dailyVolumeRel20": 1.3462458817914416,
+      "minuteRthVolumeRel20": 1.673535762224583,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 11093789,
+      "rthSignalVolume": 9206958,
+      "ratioDOverRthSignal": 1.204935332603885,
+      "dailySourceClose": 139.241048,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "KO",
+      "date": "2024-10-22",
+      "dailyVolumeRel20": 1.587319326741145,
+      "minuteRthVolumeRel20": 1.8896824649573771,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 18603251,
+      "rthSignalVolume": 14539847,
+      "ratioDOverRthSignal": 1.279466764677785,
+      "dailySourceClose": 65.676237,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "KO",
+      "date": "2025-09-08",
+      "dailyVolumeRel20": 1.4209439099906236,
+      "minuteRthVolumeRel20": 1.4073484419328455,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 21671747,
+      "rthSignalVolume": 15518096,
+      "ratioDOverRthSignal": 1.3965467799657896,
+      "dailySourceClose": 65.18396,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "KO",
+      "date": "2025-09-19",
+      "dailyVolumeRel20": 1.7814778300427252,
+      "minuteRthVolumeRel20": 1.0616122283712774,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": false,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": true,
+      "signalDailyVolume": 31192851,
+      "rthSignalVolume": 13487386,
+      "ratioDOverRthSignal": 2.312742513634592,
+      "dailySourceClose": 64.709763,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PEP",
+      "date": "2024-06-11",
+      "dailyVolumeRel20": 1.6864019205066156,
+      "minuteRthVolumeRel20": 1.3922412690334702,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 8284512,
+      "rthSignalVolume": 5828161,
+      "ratioDOverRthSignal": 1.4214624475885276,
+      "dailySourceClose": 151.585307,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PEP",
+      "date": "2024-07-10",
+      "dailyVolumeRel20": 1.3202068581340458,
+      "minuteRthVolumeRel20": 1.4430827694309851,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-07-03",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 7372266,
+      "rthSignalVolume": 6993851,
+      "ratioDOverRthSignal": 1.0541068146862151,
+      "dailySourceClose": 150.226209,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PEP",
+      "date": "2026-05-18",
+      "dailyVolumeRel20": 1.5728198755161662,
+      "minuteRthVolumeRel20": 1.536405703896136,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 8799358,
+      "rthSignalVolume": 7448902,
+      "ratioDOverRthSignal": 1.1812959816091015,
+      "dailySourceClose": 145.948908,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "MCD",
+      "date": "2024-02-05",
+      "dailyVolumeRel20": 2.570196933473945,
+      "minuteRthVolumeRel20": 2.863766900440586,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 7581895,
+      "rthSignalVolume": 6407056,
+      "ratioDOverRthSignal": 1.1833664322584352,
+      "dailySourceClose": 267.594512,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "MCD",
+      "date": "2024-03-14",
+      "dailyVolumeRel20": 1.6928482488934995,
+      "minuteRthVolumeRel20": 1.9661194768292287,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 4659308,
+      "rthSignalVolume": 3907753,
+      "ratioDOverRthSignal": 1.192324079848445,
+      "dailySourceClose": 265.126881,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "MCD",
+      "date": "2025-06-10",
+      "dailyVolumeRel20": 1.653223591802093,
+      "minuteRthVolumeRel20": 1.920565403958062,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 4698701,
+      "rthSignalVolume": 3836131,
+      "ratioDOverRthSignal": 1.2248541564404345,
+      "dailySourceClose": 291.243012,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "MCD",
+      "date": "2026-04-01",
+      "dailyVolumeRel20": 1.2244100705082097,
+      "minuteRthVolumeRel20": 1.4186687728972358,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 3887414,
+      "rthSignalVolume": 3145786,
+      "ratioDOverRthSignal": 1.2357528452348634,
+      "dailySourceClose": 303.065791,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "SBUX",
+      "date": "2024-12-16",
+      "dailyVolumeRel20": 1.802620712152343,
+      "minuteRthVolumeRel20": 1.9789068357515591,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-11-29",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 12395854,
+      "rthSignalVolume": 11881961,
+      "ratioDOverRthSignal": 1.0432498473947187,
+      "dailySourceClose": 89.093438,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NKE",
+      "date": "2024-10-31",
+      "dailyVolumeRel20": 1.411652595844404,
+      "minuteRthVolumeRel20": 1.3636619300943331,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 13990086,
+      "rthSignalVolume": 11022768,
+      "ratioDOverRthSignal": 1.2691989888565196,
+      "dailySourceClose": 73.04719,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NKE",
+      "date": "2025-10-31",
+      "dailyVolumeRel20": 1.4238453250029288,
+      "minuteRthVolumeRel20": 1.3651352782467814,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 17822510,
+      "rthSignalVolume": 14408073,
+      "ratioDOverRthSignal": 1.2369808231815593,
+      "dailySourceClose": 62.528321,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NKE",
+      "date": "2026-08-27",
+      "dailyVolumeRel20": 1.3946538515741047,
+      "minuteRthVolumeRel20": 1.384290550821148,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 36573774,
+      "rthSignalVolume": 29693654,
+      "ratioDOverRthSignal": 1.2317033801229045,
+      "dailySourceClose": 38.036508,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "V",
+      "date": "2024-04-11",
+      "dailyVolumeRel20": 1.316436491417752,
+      "minuteRthVolumeRel20": 1.007274184815607,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": false,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": true,
+      "signalDailyVolume": 8102293,
+      "rthSignalVolume": 3530272,
+      "ratioDOverRthSignal": 2.29509029332584,
+      "dailySourceClose": 270.541282,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "V",
+      "date": "2024-04-16",
+      "dailyVolumeRel20": 1.273235541474876,
+      "minuteRthVolumeRel20": 0.8073026719452413,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": false,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": true,
+      "signalDailyVolume": 8237131,
+      "rthSignalVolume": 2786762,
+      "ratioDOverRthSignal": 2.955807133870779,
+      "dailySourceClose": 266.291994,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "MA",
+      "date": "2025-10-30",
+      "dailyVolumeRel20": 1.657172408047672,
+      "minuteRthVolumeRel20": 1.9041518533558293,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 4284723,
+      "rthSignalVolume": 3648648,
+      "ratioDOverRthSignal": 1.1743316976589684,
+      "dailySourceClose": 550.143505,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "MA",
+      "date": "2026-01-21",
+      "dailyVolumeRel20": 1.4974140883409792,
+      "minuteRthVolumeRel20": 1.6972249362657497,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2025-12-24",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 4938103,
+      "rthSignalVolume": 3821231,
+      "ratioDOverRthSignal": 1.2922806812778396,
+      "dailySourceClose": 524.987663,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "GS",
+      "date": "2026-09-15",
+      "dailyVolumeRel20": 1.3071076472691454,
+      "minuteRthVolumeRel20": 1.7218869780046313,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 2356138,
+      "rthSignalVolume": 2028078,
+      "ratioDOverRthSignal": 1.1617590644935747,
+      "dailySourceClose": 976.67,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "C",
+      "date": "2024-08-02",
+      "dailyVolumeRel20": 2.167392201188829,
+      "minuteRthVolumeRel20": 2.422705107758101,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 30289346,
+      "rthSignalVolume": 26819437,
+      "ratioDOverRthSignal": 1.1293803818476875,
+      "dailySourceClose": 55.29606,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "C",
+      "date": "2025-03-06",
+      "dailyVolumeRel20": 1.2448959739048375,
+      "minuteRthVolumeRel20": 1.3451646250352534,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 18550843,
+      "rthSignalVolume": 15684226,
+      "ratioDOverRthSignal": 1.1827707022329315,
+      "dailySourceClose": 68.121483,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "WFC",
+      "date": "2024-07-12",
+      "dailyVolumeRel20": 2.853792576981601,
+      "minuteRthVolumeRel20": 3.752404628287259,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-07-03",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 53042761,
+      "rthSignalVolume": 47533092,
+      "ratioDOverRthSignal": 1.1159122785448083,
+      "dailySourceClose": 53.71899,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "WFC",
+      "date": "2026-02-23",
+      "dailyVolumeRel20": 1.3716185820466564,
+      "minuteRthVolumeRel20": 1.5027241870422898,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 20607036,
+      "rthSignalVolume": 17776754,
+      "ratioDOverRthSignal": 1.1592125311516377,
+      "dailySourceClose": 84.18264,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "UNH",
+      "date": "2024-01-12",
+      "dailyVolumeRel20": 2.03908579140575,
+      "minuteRthVolumeRel20": 2.471424588824876,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 6327267,
+      "rthSignalVolume": 5380655,
+      "ratioDOverRthSignal": 1.1759287670367269,
+      "dailySourceClose": 491.413753,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "UNH",
+      "date": "2024-01-18",
+      "dailyVolumeRel20": 2.513414383303079,
+      "minuteRthVolumeRel20": 2.9141286592197164,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 7367041,
+      "rthSignalVolume": 6434918,
+      "ratioDOverRthSignal": 1.1448539048982442,
+      "dailySourceClose": 486.542113,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "UNH",
+      "date": "2024-03-01",
+      "dailyVolumeRel20": 2.0766756514938947,
+      "minuteRthVolumeRel20": 2.2982490414001506,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 7315039,
+      "rthSignalVolume": 6326779,
+      "ratioDOverRthSignal": 1.1562027059898883,
+      "dailySourceClose": 461.279313,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "UNH",
+      "date": "2026-09-09",
+      "dailyVolumeRel20": 1.8039345027368667,
+      "minuteRthVolumeRel20": 2.1963658461327813,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 7737638,
+      "rthSignalVolume": 6105288,
+      "ratioDOverRthSignal": 1.2673665845083804,
+      "dailySourceClose": 390.654505,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "UNH",
+      "date": "2026-09-18",
+      "dailyVolumeRel20": 1.814925221598984,
+      "minuteRthVolumeRel20": 0.7551581488441411,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": false,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": true,
+      "signalDailyVolume": 8616225,
+      "rthSignalVolume": 2279502,
+      "ratioDOverRthSignal": 3.7798716561775336,
+      "dailySourceClose": 376.9,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2025-04-07",
+      "dailyVolumeRel20": 1.6229559313498907,
+      "minuteRthVolumeRel20": 1.772877314983813,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 12581054,
+      "rthSignalVolume": 9543450,
+      "ratioDOverRthSignal": 1.318292022277059,
+      "dailySourceClose": 177.744806,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2026-01-16",
+      "dailyVolumeRel20": 1.3829018494241379,
+      "minuteRthVolumeRel20": 1.3452825228962777,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2025-12-24",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 8649746,
+      "rthSignalVolume": 5173298,
+      "ratioDOverRthSignal": 1.6719984041128115,
+      "dailySourceClose": 211.083879,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2026-03-20",
+      "dailyVolumeRel20": 4.376078381632265,
+      "minuteRthVolumeRel20": 1.7284162767913744,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 27982356,
+      "rthSignalVolume": 7752838,
+      "ratioDOverRthSignal": 3.6093048764852305,
+      "dailySourceClose": 201.945281,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "ABBV",
+      "date": "2026-04-22",
+      "dailyVolumeRel20": 1.2186119805316211,
+      "minuteRthVolumeRel20": 1.3858878792424307,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 7646222,
+      "rthSignalVolume": 5656189,
+      "ratioDOverRthSignal": 1.351832833025912,
+      "dailySourceClose": 199.082952,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "MRK",
+      "date": "2024-05-30",
+      "dailyVolumeRel20": 1.9150485205797627,
+      "minuteRthVolumeRel20": 2.028589919620199,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 13003476,
+      "rthSignalVolume": 10044422,
+      "ratioDOverRthSignal": 1.2945967423511278,
+      "dailySourceClose": 115.192639,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "MRK",
+      "date": "2025-04-07",
+      "dailyVolumeRel20": 1.5210896982182833,
+      "minuteRthVolumeRel20": 1.9894464921647284,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 26581980,
+      "rthSignalVolume": 21542597,
+      "ratioDOverRthSignal": 1.233926438859716,
+      "dailySourceClose": 77.31869,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PFE",
+      "date": "2024-03-01",
+      "dailyVolumeRel20": 1.2169509797913958,
+      "minuteRthVolumeRel20": 1.215227784196137,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 46392099,
+      "rthSignalVolume": 38964445,
+      "ratioDOverRthSignal": 1.1906264544509744,
+      "dailySourceClose": 22.554958,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PFE",
+      "date": "2024-04-26",
+      "dailyVolumeRel20": 1.287247266493949,
+      "minuteRthVolumeRel20": 1.21323606352264,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 46526457,
+      "rthSignalVolume": 36374793,
+      "ratioDOverRthSignal": 1.27908513458757,
+      "dailySourceClose": 21.545541,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PFE",
+      "date": "2024-10-29",
+      "dailyVolumeRel20": 3.419778956464167,
+      "minuteRthVolumeRel20": 2.8061060000529183,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 102266959,
+      "rthSignalVolume": 67699701,
+      "ratioDOverRthSignal": 1.5105969079538475,
+      "dailySourceClose": 24.851094,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PFE",
+      "date": "2026-05-05",
+      "dailyVolumeRel20": 1.6887923688645161,
+      "minuteRthVolumeRel20": 1.6995425011615752,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 57656105,
+      "rthSignalVolume": 45628077,
+      "ratioDOverRthSignal": 1.2636102327959164,
+      "dailySourceClose": 25.573114,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "PFE",
+      "date": "2026-06-18",
+      "dailyVolumeRel20": 3.5637729134487373,
+      "minuteRthVolumeRel20": 2.651084749367812,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 119614339,
+      "rthSignalVolume": 65722195,
+      "ratioDOverRthSignal": 1.8199991494501973,
+      "dailySourceClose": 24.776561,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NOC",
+      "date": "2024-10-30",
+      "dailyVolumeRel20": 1.2764899525138282,
+      "minuteRthVolumeRel20": 1.2064396798215806,
+      "sourceRthSignalDayBars": 77,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-10-02",
+          "n": 76
+        },
+        {
+          "d": "2024-10-03",
+          "n": 76
+        },
+        {
+          "d": "2024-10-04",
+          "n": 74
+        },
+        {
+          "d": "2024-10-07",
+          "n": 75
+        },
+        {
+          "d": "2024-10-08",
+          "n": 74
+        },
+        {
+          "d": "2024-10-09",
+          "n": 72
+        },
+        {
+          "d": "2024-10-10",
+          "n": 73
+        },
+        {
+          "d": "2024-10-11",
+          "n": 70
+        },
+        {
+          "d": "2024-10-14",
+          "n": 74
+        },
+        {
+          "d": "2024-10-15",
+          "n": 74
+        },
+        {
+          "d": "2024-10-21",
+          "n": 77
+        },
+        {
+          "d": "2024-10-23",
+          "n": 76
+        },
+        {
+          "d": "2024-10-25",
+          "n": 77
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 799181,
+      "rthSignalVolume": 584654,
+      "ratioDOverRthSignal": 1.366929842265682,
+      "dailySourceClose": 488.663052,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NOC",
+      "date": "2025-11-10",
+      "dailyVolumeRel20": 1.4182411414145697,
+      "minuteRthVolumeRel20": 1.5715131968449843,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2025-10-13",
+          "n": 76
+        },
+        {
+          "d": "2025-10-14",
+          "n": 70
+        },
+        {
+          "d": "2025-10-15",
+          "n": 73
+        },
+        {
+          "d": "2025-10-16",
+          "n": 74
+        },
+        {
+          "d": "2025-10-20",
+          "n": 77
+        },
+        {
+          "d": "2025-10-24",
+          "n": 77
+        },
+        {
+          "d": "2025-10-27",
+          "n": 72
+        },
+        {
+          "d": "2025-10-28",
+          "n": 77
+        },
+        {
+          "d": "2025-10-29",
+          "n": 77
+        },
+        {
+          "d": "2025-10-31",
+          "n": 77
+        },
+        {
+          "d": "2025-11-04",
+          "n": 77
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 1075772,
+      "rthSignalVolume": 940582,
+      "ratioDOverRthSignal": 1.1437301585614013,
+      "dailySourceClose": 553.948864,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "NOC",
+      "date": "2026-05-18",
+      "dailyVolumeRel20": 1.537135834207928,
+      "minuteRthVolumeRel20": 1.4196388021095834,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 1286227,
+      "rthSignalVolume": 945720,
+      "ratioDOverRthSignal": 1.3600505435012478,
+      "dailySourceClose": 545.1108,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "GE",
+      "date": "2025-12-10",
+      "dailyVolumeRel20": 1.3759919195202797,
+      "minuteRthVolumeRel20": 1.4773442603317637,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2025-11-28",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 5807431,
+      "rthSignalVolume": 4052253,
+      "ratioDOverRthSignal": 1.433136331813438,
+      "dailySourceClose": 282.082883,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "HON",
+      "date": "2025-09-04",
+      "dailyVolumeRel20": 1.5221095983541948,
+      "minuteRthVolumeRel20": 1.5614847913191736,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 4655506,
+      "rthSignalVolume": 4318555,
+      "ratioDOverRthSignal": 1.078024014977232,
+      "dailySourceClose": 727.202283,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "HON",
+      "date": "2025-09-17",
+      "dailyVolumeRel20": 1.5771044744701377,
+      "minuteRthVolumeRel20": 1.6239176214507223,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 5412333,
+      "rthSignalVolume": 5182135,
+      "ratioDOverRthSignal": 1.0444214594949766,
+      "dailySourceClose": 715.440506,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "HON",
+      "date": "2025-09-29",
+      "dailyVolumeRel20": 1.240491882685942,
+      "minuteRthVolumeRel20": 1.2074196115243239,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 5637968,
+      "rthSignalVolume": 5003568,
+      "ratioDOverRthSignal": 1.1267895229963898,
+      "dailySourceClose": 707.328935,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "HON",
+      "date": "2026-04-22",
+      "dailyVolumeRel20": 1.2827124260055518,
+      "minuteRthVolumeRel20": 1.3617367498648352,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 4470209,
+      "rthSignalVolume": 4137654,
+      "ratioDOverRthSignal": 1.0803728392949241,
+      "dailySourceClose": 751.625388,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "DE",
+      "date": "2024-02-13",
+      "dailyVolumeRel20": 1.306676188925947,
+      "minuteRthVolumeRel20": 1.4420920387117309,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 1765241,
+      "rthSignalVolume": 1604834,
+      "ratioDOverRthSignal": 1.0999523938301408,
+      "dailySourceClose": 365.701761,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "DE",
+      "date": "2025-07-17",
+      "dailyVolumeRel20": 1.517423778433276,
+      "minuteRthVolumeRel20": 1.7775221275566715,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2025-06-20",
+          "n": 77
+        },
+        {
+          "d": "2025-06-30",
+          "n": 77
+        },
+        {
+          "d": "2025-07-03",
+          "n": 42
+        },
+        {
+          "d": "2025-07-11",
+          "n": 77
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 1778885,
+      "rthSignalVolume": 1567503,
+      "ratioDOverRthSignal": 1.1348526924669362,
+      "dailySourceClose": 491.791352,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "DE",
+      "date": "2025-09-15",
+      "dailyVolumeRel20": 1.2901076163764469,
+      "minuteRthVolumeRel20": 1.364916393806187,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2025-08-28",
+          "n": 76
+        },
+        {
+          "d": "2025-09-10",
+          "n": 77
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 1787672,
+      "rthSignalVolume": 1540172,
+      "ratioDOverRthSignal": 1.160696337811621,
+      "dailySourceClose": 462.203472,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "UPS",
+      "date": "2024-12-04",
+      "dailyVolumeRel20": 1.3091583759268905,
+      "minuteRthVolumeRel20": 1.4978915864332487,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-11-29",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 4793187,
+      "rthSignalVolume": 4055769,
+      "ratioDOverRthSignal": 1.1818195267038138,
+      "dailySourceClose": 115.036278,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "UPS",
+      "date": "2025-01-13",
+      "dailyVolumeRel20": 1.519826788507645,
+      "minuteRthVolumeRel20": 1.613737284306065,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-12-24",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 6939181,
+      "rthSignalVolume": 5209920,
+      "ratioDOverRthSignal": 1.331916996806093,
+      "dailySourceClose": 111.668622,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "UPS",
+      "date": "2025-09-11",
+      "dailyVolumeRel20": 1.2243947117424616,
+      "minuteRthVolumeRel20": 1.2451372002702021,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 10453460,
+      "rthSignalVolume": 9144825,
+      "ratioDOverRthSignal": 1.1431011528378072,
+      "dailySourceClose": 79.432433,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "UPS",
+      "date": "2026-03-06",
+      "dailyVolumeRel20": 1.5708167407242937,
+      "minuteRthVolumeRel20": 1.703412610745913,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 9494756,
+      "rthSignalVolume": 8389982,
+      "ratioDOverRthSignal": 1.1316777556852924,
+      "dailySourceClose": 99.083354,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "FDX",
+      "date": "2024-12-23",
+      "dailyVolumeRel20": 1.7104710230849396,
+      "minuteRthVolumeRel20": 1.796967027799045,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-11-29",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 3500725,
+      "rthSignalVolume": 2849703,
+      "ratioDOverRthSignal": 1.22845257909333,
+      "dailySourceClose": 261.462683,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "FDX",
+      "date": "2025-01-30",
+      "dailyVolumeRel20": 1.8891766055869523,
+      "minuteRthVolumeRel20": 1.710117285730461,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 2827618,
+      "rthSignalVolume": 1971766,
+      "ratioDOverRthSignal": 1.4340535337357476,
+      "dailySourceClose": 261.68623,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "FDX",
+      "date": "2026-06-24",
+      "dailyVolumeRel20": 2.8906330550759134,
+      "minuteRthVolumeRel20": 3.459070689022356,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 5964622,
+      "rthSignalVolume": 4754612,
+      "ratioDOverRthSignal": 1.254491849177178,
+      "dailySourceClose": 315.591074,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "BA",
+      "date": "2024-10-01",
+      "dailyVolumeRel20": 1.3119517998604695,
+      "minuteRthVolumeRel20": 1.380788809180176,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 12588778,
+      "rthSignalVolume": 11691056,
+      "ratioDOverRthSignal": 1.0767870755216638,
+      "dailySourceClose": 154.22,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "BA",
+      "date": "2024-11-06",
+      "dailyVolumeRel20": 1.6019219511131109,
+      "minuteRthVolumeRel20": 1.8399980351236738,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 28069287,
+      "rthSignalVolume": 26572555,
+      "ratioDOverRthSignal": 1.056326235847475,
+      "dailySourceClose": 147.16,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "CVX",
+      "date": "2024-01-18",
+      "dailyVolumeRel20": 1.3138144373867462,
+      "minuteRthVolumeRel20": 1.336325425088771,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 11187839,
+      "rthSignalVolume": 9303940,
+      "ratioDOverRthSignal": 1.2024840014015568,
+      "dailySourceClose": 126.40911,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "CVX",
+      "date": "2024-06-12",
+      "dailyVolumeRel20": 1.579148044369531,
+      "minuteRthVolumeRel20": 1.4439657709316833,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 10017421,
+      "rthSignalVolume": 7268142,
+      "ratioDOverRthSignal": 1.3782643487152562,
+      "dailySourceClose": 140.364829,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "CVX",
+      "date": "2024-09-10",
+      "dailyVolumeRel20": 1.2077365443188894,
+      "minuteRthVolumeRel20": 1.2699928471517443,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 8202480,
+      "rthSignalVolume": 7055774,
+      "ratioDOverRthSignal": 1.1625202281138822,
+      "dailySourceClose": 127.219455,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "SLB",
+      "date": "2024-01-10",
+      "dailyVolumeRel20": 1.7226954498333473,
+      "minuteRthVolumeRel20": 1.9022127619279616,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 17704903,
+      "rthSignalVolume": 15554317,
+      "ratioDOverRthSignal": 1.1382629658377157,
+      "dailySourceClose": 45.069262,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "SLB",
+      "date": "2024-01-17",
+      "dailyVolumeRel20": 1.2258757588302742,
+      "minuteRthVolumeRel20": 1.3830119515033408,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 12992656,
+      "rthSignalVolume": 11777851,
+      "ratioDOverRthSignal": 1.103143179515516,
+      "dailySourceClose": 44.548337,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "COP",
+      "date": "2024-05-15",
+      "dailyVolumeRel20": 1.2583853642578464,
+      "minuteRthVolumeRel20": 1.249341354591943,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 6138611,
+      "rthSignalVolume": 4548135,
+      "ratioDOverRthSignal": 1.349698502792903,
+      "dailySourceClose": 112.541789,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "COP",
+      "date": "2024-08-01",
+      "dailyVolumeRel20": 1.8223531445344208,
+      "minuteRthVolumeRel20": 2.017587926166269,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [
+        {
+          "d": "2024-07-03",
+          "n": 42
+        }
+      ],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 9704569,
+      "rthSignalVolume": 8335089,
+      "ratioDOverRthSignal": 1.1643029846471946,
+      "dailySourceClose": 101.063832,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "COP",
+      "date": "2025-11-06",
+      "dailyVolumeRel20": 2.0705048840703353,
+      "minuteRthVolumeRel20": 2.3215725307538757,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 13101817,
+      "rthSignalVolume": 11398617,
+      "ratioDOverRthSignal": 1.1494216359756626,
+      "dailySourceClose": 83.041976,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    },
+    {
+      "symbol": "COP",
+      "date": "2026-06-15",
+      "dailyVolumeRel20": 1.655333191341004,
+      "minuteRthVolumeRel20": 1.696893888250616,
+      "sourceRthSignalDayBars": 78,
+      "pre20Present": 20,
+      "missing": [],
+      "pre20Incomplete": [],
+      "minuteVolumeFlag": true,
+      "originalDailySignalVolumeFlag": true,
+      "relativeVolumeDisagreement": false,
+      "signalDailyVolume": 10860505,
+      "rthSignalVolume": 7891745,
+      "ratioDOverRthSignal": 1.3761854950964585,
+      "dailySourceClose": 111.516204,
+      "sourceChunks": [
+        1200,
+        1000
+      ],
+      "error": null
+    }
+  ]
+}
