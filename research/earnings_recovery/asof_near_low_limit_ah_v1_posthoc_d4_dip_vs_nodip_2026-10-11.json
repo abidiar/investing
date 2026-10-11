@@ -1,0 +1,2818 @@
+{
+  "status": "POSTHOC_DIAGNOSTIC_NOT_FROZEN",
+  "summary": {
+    "all": {
+      "n": 91,
+      "win": 58,
+      "loss": 31,
+      "other": 2,
+      "grossMean": 0.008547356629286575,
+      "netMean": -0.191452643370713,
+      "medianHold": 4,
+      "uniqueTickers": 34
+    },
+    "eligible": {
+      "n": 54,
+      "win": 38,
+      "loss": 16,
+      "other": 0,
+      "grossMean": 0.5683426181218413,
+      "netMean": 0.36834261812184077,
+      "medianHold": 4,
+      "uniqueTickers": 28
+    },
+    "notDip": {
+      "n": 37,
+      "win": 20,
+      "loss": 15,
+      "other": 2,
+      "grossMean": -0.8084511331166029,
+      "netMean": -1.008451133116603,
+      "medianHold": 4,
+      "uniqueTickers": 24
+    },
+    "differenceNetPp": 1.3767937512384438,
+    "clusterCI95": [
+      -0.687224411386098,
+      3.5988086552396337
+    ],
+    "clusterReplications": 3000,
+    "years": {
+      "2023": {
+        "eligible": {
+          "n": 10,
+          "win": 6,
+          "loss": 4,
+          "other": 0,
+          "grossMean": -0.17879618542422798,
+          "netMean": -0.3787961854242283,
+          "medianHold": 5,
+          "uniqueTickers": 9
+        },
+        "not": {
+          "n": 7,
+          "win": 5,
+          "loss": 2,
+          "other": 0,
+          "grossMean": 0.7314000614064782,
+          "netMean": 0.5314000614064776,
+          "medianHold": 2,
+          "uniqueTickers": 7
+        }
+      },
+      "2024": {
+        "eligible": {
+          "n": 15,
+          "win": 11,
+          "loss": 4,
+          "other": 0,
+          "grossMean": 0.6827114013915018,
+          "netMean": 0.48271140139150165,
+          "medianHold": 4,
+          "uniqueTickers": 11
+        },
+        "not": {
+          "n": 12,
+          "win": 8,
+          "loss": 4,
+          "other": 0,
+          "grossMean": -0.8076615873788864,
+          "netMean": -1.0076615873788866,
+          "medianHold": 4,
+          "uniqueTickers": 12
+        }
+      },
+      "2025": {
+        "eligible": {
+          "n": 19,
+          "win": 13,
+          "loss": 6,
+          "other": 0,
+          "grossMean": 0.44244839748871906,
+          "netMean": 0.24244839748871888,
+          "medianHold": 4,
+          "uniqueTickers": 15
+        },
+        "not": {
+          "n": 15,
+          "win": 5,
+          "loss": 8,
+          "other": 2,
+          "grossMean": -1.7717158373390205,
+          "netMean": -1.9717158373390204,
+          "medianHold": 5,
+          "uniqueTickers": 12
+        }
+      },
+      "2026": {
+        "eligible": {
+          "n": 10,
+          "win": 8,
+          "loss": 2,
+          "other": 0,
+          "grossMean": 1.3831272659663507,
+          "netMean": 1.1831272659663505,
+          "medianHold": 1,
+          "uniqueTickers": 9
+        },
+        "not": {
+          "n": 3,
+          "win": 2,
+          "loss": 1,
+          "other": 0,
+          "grossMean": 0.41172808449076265,
+          "netMean": 0.21172808449076244,
+          "medianHold": 5,
+          "uniqueTickers": 3
+        }
+      }
+    },
+    "cohorts": {
+      "original92": {
+        "eligible": {
+          "n": 41,
+          "win": 28,
+          "loss": 13,
+          "other": 0,
+          "grossMean": 0.3688779875954514,
+          "netMean": 0.16887798759545097,
+          "medianHold": 4,
+          "uniqueTickers": 20
+        },
+        "not": {
+          "n": 24,
+          "win": 17,
+          "loss": 7,
+          "other": 0,
+          "grossMean": 0.6784410153561264,
+          "netMean": 0.4784410153561262,
+          "medianHold": 4,
+          "uniqueTickers": 17
+        }
+      },
+      "separate72": {
+        "eligible": {
+          "n": 13,
+          "win": 10,
+          "loss": 3,
+          "other": 0,
+          "grossMean": 1.1974233759358397,
+          "netMean": 0.9974233759358395,
+          "medianHold": 2,
+          "uniqueTickers": 8
+        },
+        "not": {
+          "n": 13,
+          "win": 3,
+          "loss": 8,
+          "other": 2,
+          "grossMean": -3.553482791835488,
+          "netMean": -3.753482791835488,
+          "medianHold": 5,
+          "uniqueTickers": 7
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "ticker": "ABNB",
+      "cohort": "original92",
+      "date": "2023-05-10",
+      "yr": "2023",
+      "eligible": true,
+      "drop": -10.92,
+      "initialFurtherLow3Pct": -8.516653414612597,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2023-05-16",
+        "exitDate": "2023-05-17",
+        "entry": 105.72,
+        "exit": 108.8916
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2023-05-18",
+        "exitDate": "2023-05-18",
+        "entry": 108.34,
+        "exit": 111.59020000000001
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "cohort": "original92",
+      "date": "2025-06-13",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -5.32,
+      "initialFurtherLow3Pct": -3.6100898692810413,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 8,
+        "entryDate": "2025-06-20",
+        "exitDate": "2025-07-01",
+        "entry": 380.48,
+        "exit": 391.8944
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -4.999999999999993,
+        "net": -5.199999999999993,
+        "held": 12,
+        "entryDate": "2025-06-24",
+        "exitDate": "2025-07-10",
+        "entry": 384.96,
+        "exit": 365.712
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "cohort": "original92",
+      "date": "2025-03-13",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -13.85,
+      "initialFurtherLow3Pct": -0.010586491636666029,
+      "d4": {
+        "status": "stop",
+        "gross": -5.63943161634104,
+        "net": -5.83943161634104,
+        "held": 12,
+        "entryDate": "2025-03-19",
+        "exitDate": "2025-04-03",
+        "entry": 394.1,
+        "exit": 371.875
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2025-03-21",
+        "exitDate": "2025-03-24",
+        "entry": 384.13,
+        "exit": 395.6539
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "cohort": "original92",
+      "date": "2024-12-12",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -13.69,
+      "initialFurtherLow3Pct": -4.66679308092619,
+      "d4": {
+        "status": "stop",
+        "gross": -5.2499779366340205,
+        "net": -5.449977936634021,
+        "held": 11,
+        "entryDate": "2024-12-18",
+        "exitDate": "2025-01-03",
+        "entry": 453.24,
+        "exit": 429.445
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2024-12-20",
+        "exitDate": "2024-12-20",
+        "entry": 433.015,
+        "exit": 446.00545
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "cohort": "original92",
+      "date": "2024-09-13",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -8.47,
+      "initialFurtherLow3Pct": -5.658706949540859,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 13,
+        "entryDate": "2024-09-19",
+        "exitDate": "2024-10-07",
+        "entry": 518.81,
+        "exit": 492.8694999999999
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 9,
+        "entryDate": "2024-09-23",
+        "exitDate": "2024-10-03",
+        "entry": 525.71,
+        "exit": 499.4245
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "cohort": "original92",
+      "date": "2024-03-15",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -13.67,
+      "initialFurtherLow3Pct": 0.6274621289038773,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 8,
+        "entryDate": "2024-03-21",
+        "exitDate": "2024-04-02",
+        "entry": 517.6,
+        "exit": 491.71999999999997
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2024-03-25",
+        "exitDate": "2024-03-26",
+        "entry": 496.79,
+        "exit": 511.69370000000004
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "date": "2026-02-04",
+      "yr": "2026",
+      "eligible": true,
+      "drop": -17.31,
+      "initialFurtherLow3Pct": -4.730506019281677,
+      "d4": {
+        "status": "stop",
+        "gross": -5.16872734033651,
+        "net": -5.36872734033651,
+        "held": 4,
+        "entryDate": "2026-02-10",
+        "exitDate": "2026-02-13",
+        "entry": 215.14,
+        "exit": 204.02
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.471899179910111,
+        "net": -5.6718991799101115,
+        "held": 2,
+        "entryDate": "2026-02-12",
+        "exitDate": "2026-02-13",
+        "entry": 215.83,
+        "exit": 204.02
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "date": "2025-08-06",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -6.42,
+      "initialFurtherLow3Pct": 2.1947032859244597,
+      "d4": {
+        "status": "target",
+        "gross": 3.8022155550426984,
+        "net": 3.602215555042698,
+        "held": 2,
+        "entryDate": "2025-08-12",
+        "exitDate": "2025-08-13",
+        "entry": 173.32,
+        "exit": 179.91
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2025-08-14",
+        "exitDate": "2025-08-14",
+        "entry": 179.83,
+        "exit": 185.22490000000002
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "date": "2025-02-05",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -6.27,
+      "initialFurtherLow3Pct": -4.660298187661816,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2025-02-11",
+        "exitDate": "2025-02-11",
+        "entry": 108.98,
+        "exit": 112.24940000000001
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2025-02-13",
+        "exitDate": "2025-02-18",
+        "entry": 112,
+        "exit": 115.36
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "date": "2024-10-30",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -10.62,
+      "initialFurtherLow3Pct": -5.975773889636605,
+      "d4": {
+        "status": "target",
+        "gross": 3.339439199661842,
+        "net": 3.139439199661842,
+        "held": 3,
+        "entryDate": "2024-11-05",
+        "exitDate": "2024-11-07",
+        "entry": 141.94,
+        "exit": 146.68
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 5,
+        "entryDate": "2024-11-07",
+        "exitDate": "2024-11-13",
+        "entry": 146.68,
+        "exit": 139.346
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "date": "2024-05-01",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -8.91,
+      "initialFurtherLow3Pct": -2.1591460456089284,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 8,
+        "entryDate": "2024-05-07",
+        "exitDate": "2024-05-16",
+        "entry": 156.32,
+        "exit": 161.0096
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 5,
+        "entryDate": "2024-05-09",
+        "exitDate": "2024-05-15",
+        "entry": 153.13,
+        "exit": 157.7239
+      }
+    },
+    {
+      "ticker": "AMD",
+      "cohort": "original92",
+      "date": "2023-05-03",
+      "yr": "2023",
+      "eligible": false,
+      "drop": -9.22,
+      "initialFurtherLow3Pct": -0.6248468512619509,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2023-05-09",
+        "exitDate": "2023-05-10",
+        "entry": 94.89,
+        "exit": 97.7367
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2023-05-11",
+        "exitDate": "2023-05-16",
+        "entry": 98.155,
+        "exit": 101.09965
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "date": "2026-05-06",
+      "yr": "2026",
+      "eligible": true,
+      "drop": -13.61,
+      "initialFurtherLow3Pct": -8.11233510131919,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2026-05-12",
+        "exitDate": "2026-05-12",
+        "entry": 136.78,
+        "exit": 140.8834
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2026-05-14",
+        "exitDate": "2026-05-14",
+        "entry": 142.5,
+        "exit": 146.775
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "date": "2025-11-05",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -8.55,
+      "initialFurtherLow3Pct": -5.675758438968803,
+      "d4": {
+        "status": "stop",
+        "gross": -5.790761474012019,
+        "net": -5.990761474012019,
+        "held": 4,
+        "entryDate": "2025-11-11",
+        "exitDate": "2025-11-14",
+        "entry": 134.87,
+        "exit": 127.06
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.482407200773642,
+        "net": -5.682407200773643,
+        "held": 2,
+        "entryDate": "2025-11-13",
+        "exitDate": "2025-11-14",
+        "entry": 134.43,
+        "exit": 127.06
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "date": "2025-02-19",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -6.43,
+      "initialFurtherLow3Pct": -11.807159353348728,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2025-02-25",
+        "exitDate": "2025-02-25",
+        "entry": 90.06,
+        "exit": 92.76180000000001
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 1,
+        "entryDate": "2025-02-27",
+        "exitDate": "2025-02-27",
+        "entry": 97.93,
+        "exit": 93.0335
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "date": "2024-11-08",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -7.09,
+      "initialFurtherLow3Pct": -2.5546260456985825,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 2,
+        "entryDate": "2024-11-14",
+        "exitDate": "2024-11-15",
+        "entry": 98.25,
+        "exit": 93.33749999999999
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.1850486970255387,
+        "net": 2.9850486970255385,
+        "held": 4,
+        "entryDate": "2024-11-18",
+        "exitDate": "2024-11-21",
+        "entry": 94.975,
+        "exit": 98
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "date": "2024-02-13",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -5.47,
+      "initialFurtherLow3Pct": -1.9509622989717923,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2024-02-20",
+        "exitDate": "2024-02-22",
+        "entry": 64.5175,
+        "exit": 66.453025
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2024-02-22",
+        "exitDate": "2024-02-22",
+        "entry": 65.34,
+        "exit": 67.3002
+      }
+    },
+    {
+      "ticker": "ANET",
+      "cohort": "original92",
+      "date": "2023-05-02",
+      "yr": "2023",
+      "eligible": true,
+      "drop": -15.72,
+      "initialFurtherLow3Pct": -2.444806638020436,
+      "d4": {
+        "status": "target",
+        "gross": 3.4105720492396907,
+        "net": 3.2105720492396905,
+        "held": 10,
+        "entryDate": "2023-05-08",
+        "exitDate": "2023-05-19",
+        "entry": 34.525,
+        "exit": 35.7025
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 8,
+        "entryDate": "2023-05-10",
+        "exitDate": "2023-05-19",
+        "entry": 35.1025,
+        "exit": 36.155575
+      }
+    },
+    {
+      "ticker": "COIN",
+      "cohort": "original92",
+      "date": "2025-02-14",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -7.98,
+      "initialFurtherLow3Pct": -8.727315810579272,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 1,
+        "entryDate": "2025-02-21",
+        "exitDate": "2025-02-21",
+        "entry": 266.99,
+        "exit": 253.6405
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 1,
+        "entryDate": "2025-02-25",
+        "exitDate": "2025-02-25",
+        "entry": 219.97,
+        "exit": 208.9715
+      }
+    },
+    {
+      "ticker": "COIN",
+      "cohort": "original92",
+      "date": "2024-10-31",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -15.34,
+      "initialFurtherLow3Pct": -1.6011157601115822,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2024-11-06",
+        "exitDate": "2024-11-06",
+        "entry": 221.479,
+        "exit": 228.12337000000002
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2024-11-08",
+        "exitDate": "2024-11-08",
+        "entry": 257.67,
+        "exit": 265.4001
+      }
+    },
+    {
+      "ticker": "COIN",
+      "cohort": "original92",
+      "date": "2024-08-05",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -10.9,
+      "initialFurtherLow3Pct": -6.375679527101918,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2024-08-09",
+        "exitDate": "2024-08-09",
+        "entry": 191.29,
+        "exit": 197.0287
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2024-08-13",
+        "exitDate": "2024-08-13",
+        "entry": 193.13,
+        "exit": 198.9239
+      }
+    },
+    {
+      "ticker": "CRM",
+      "cohort": "original92",
+      "date": "2024-05-30",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -19.74,
+      "initialFurtherLow3Pct": -0.8944543778156455,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2024-06-05",
+        "exitDate": "2024-06-06",
+        "entry": 231.527902,
+        "exit": 238.47373906
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 5,
+        "entryDate": "2024-06-07",
+        "exitDate": "2024-06-13",
+        "entry": 238.101157,
+        "exit": 226.19609914999998
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "cohort": "original92",
+      "date": "2025-03-05",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -6.34,
+      "initialFurtherLow3Pct": -16.870074430823113,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2025-03-11",
+        "exitDate": "2025-03-11",
+        "entry": 77.6025,
+        "exit": 79.930575
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2025-03-13",
+        "exitDate": "2025-03-17",
+        "entry": 86.6425,
+        "exit": 89.241775
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "cohort": "original92",
+      "date": "2024-11-29",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -5.03,
+      "initialFurtherLow3Pct": -2.7198890077174354,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 8,
+        "entryDate": "2024-12-05",
+        "exitDate": "2024-12-16",
+        "entry": 90.3,
+        "exit": 93.009
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 2,
+        "entryDate": "2024-12-09",
+        "exitDate": "2024-12-10",
+        "entry": 91.4125,
+        "exit": 86.84187499999999
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "cohort": "original92",
+      "date": "2026-02-12",
+      "yr": "2026",
+      "eligible": true,
+      "drop": -12.32,
+      "initialFurtherLow3Pct": -2.1066670974784985,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 10,
+        "entryDate": "2026-02-19",
+        "exitDate": "2026-03-04",
+        "entry": 76.982136,
+        "exit": 79.29160008
+      },
+      "d6": {
+        "status": "timeout",
+        "gross": -1.5218764569222887,
+        "net": -1.7218764569222886,
+        "held": 20,
+        "entryDate": "2026-02-23",
+        "exitDate": "2026-03-20",
+        "entry": 77.831022,
+        "exit": 76.64653
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "cohort": "original92",
+      "date": "2025-08-15",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -5.97,
+      "initialFurtherLow3Pct": -0.6797589137280236,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 6,
+        "entryDate": "2025-08-21",
+        "exitDate": "2025-08-28",
+        "entry": 65.484919,
+        "exit": 67.44946657000001
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2025-08-25",
+        "exitDate": "2025-08-28",
+        "entry": 65.660587,
+        "exit": 67.63040461000001
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "cohort": "original92",
+      "date": "2023-11-16",
+      "yr": "2023",
+      "eligible": false,
+      "drop": -9.83,
+      "initialFurtherLow3Pct": -1.0199834009667175,
+      "d4": {
+        "status": "target",
+        "gross": 3.119800429845343,
+        "net": 2.919800429845343,
+        "held": 14,
+        "entryDate": "2023-11-22",
+        "exitDate": "2023-12-12",
+        "entry": 44.568588,
+        "exit": 45.959039
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.4554121243172142,
+        "net": 3.255412124317214,
+        "held": 14,
+        "entryDate": "2023-11-27",
+        "exitDate": "2023-12-14",
+        "entry": 44.800329,
+        "exit": 46.348365
+      }
+    },
+    {
+      "ticker": "DELL",
+      "cohort": "original92",
+      "date": "2025-08-29",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -8.88,
+      "initialFurtherLow3Pct": -3.6430616463499987,
+      "d4": {
+        "status": "stop",
+        "gross": -5.013752691648021,
+        "net": -5.213752691648021,
+        "held": 3,
+        "entryDate": "2025-09-05",
+        "exitDate": "2025-09-09",
+        "entry": 125.648858,
+        "exit": 119.349135
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2025-09-09",
+        "exitDate": "2025-09-10",
+        "entry": 119.349135,
+        "exit": 122.92960905000001
+      }
+    },
+    {
+      "ticker": "DELL",
+      "cohort": "original92",
+      "date": "2025-03-03",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -11.38,
+      "initialFurtherLow3Pct": -3.2963579904089158,
+      "d4": {
+        "status": "target",
+        "gross": 3.2110337179457105,
+        "net": 3.0110337179457103,
+        "held": 4,
+        "entryDate": "2025-03-07",
+        "exitDate": "2025-03-12",
+        "entry": 89.617589,
+        "exit": 92.49524
+      },
+      "d6": {
+        "status": "target",
+        "gross": 4.550475435822432,
+        "net": 4.350475435822432,
+        "held": 2,
+        "entryDate": "2025-03-11",
+        "exitDate": "2025-03-12",
+        "entry": 88.469459,
+        "exit": 92.49524
+      }
+    },
+    {
+      "ticker": "DELL",
+      "cohort": "original92",
+      "date": "2024-11-27",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -12.25,
+      "initialFurtherLow3Pct": -0.8843869568915141,
+      "d4": {
+        "status": "stop",
+        "gross": -4.999999999999993,
+        "net": -5.199999999999993,
+        "held": 5,
+        "entryDate": "2024-12-04",
+        "exitDate": "2024-12-10",
+        "entry": 121.897458,
+        "exit": 115.8025851
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -4.999999999999993,
+        "net": -5.199999999999993,
+        "held": 3,
+        "entryDate": "2024-12-06",
+        "exitDate": "2024-12-10",
+        "entry": 122.257554,
+        "exit": 116.1446763
+      }
+    },
+    {
+      "ticker": "DIS",
+      "cohort": "original92",
+      "date": "2023-05-11",
+      "yr": "2023",
+      "eligible": true,
+      "drop": -8.73,
+      "initialFurtherLow3Pct": -1.7441222427015957,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2023-05-17",
+        "exitDate": "2023-05-18",
+        "entry": 88.249642,
+        "exit": 90.89713126
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 5,
+        "entryDate": "2023-05-19",
+        "exitDate": "2023-05-25",
+        "entry": 90.169377,
+        "exit": 85.66090815
+      }
+    },
+    {
+      "ticker": "FDX",
+      "cohort": "original92",
+      "date": "2024-09-20",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -15.23,
+      "initialFurtherLow3Pct": 0.3377315957197702,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2024-09-26",
+        "exitDate": "2024-09-30",
+        "entry": 258.32021,
+        "exit": 266.06981629999996
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0784066699447,
+        "net": 2.8784066699446997,
+        "held": 19,
+        "entryDate": "2024-09-30",
+        "exitDate": "2024-10-24",
+        "entry": 260.767139,
+        "exit": 268.794612
+      }
+    },
+    {
+      "ticker": "GILD",
+      "cohort": "original92",
+      "date": "2024-02-08",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -5.04,
+      "initialFurtherLow3Pct": -1.3414644495626904,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 17,
+        "entryDate": "2024-02-14",
+        "exitDate": "2024-03-08",
+        "entry": 67.12187,
+        "exit": 69.1355261
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 15,
+        "entryDate": "2024-02-16",
+        "exitDate": "2024-03-08",
+        "entry": 67.020879,
+        "exit": 69.03150536999999
+      }
+    },
+    {
+      "ticker": "GILD",
+      "cohort": "original92",
+      "date": "2023-11-09",
+      "yr": "2023",
+      "eligible": true,
+      "drop": -6.98,
+      "initialFurtherLow3Pct": -0.5868229139326164,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 11,
+        "entryDate": "2023-11-15",
+        "exitDate": "2023-11-30",
+        "entry": 67.534988,
+        "exit": 69.56103764
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 10,
+        "entryDate": "2023-11-17",
+        "exitDate": "2023-12-01",
+        "entry": 68.13546,
+        "exit": 70.1795238
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "cohort": "original92",
+      "date": "2025-02-05",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -6.94,
+      "initialFurtherLow3Pct": -4.242110575220403,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000016,
+        "net": -5.200000000000016,
+        "held": 10,
+        "entryDate": "2025-02-11",
+        "exitDate": "2025-02-25",
+        "entry": 185.746989,
+        "exit": 176.45963955
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 9,
+        "entryDate": "2025-02-13",
+        "exitDate": "2025-02-26",
+        "entry": 184.847259,
+        "exit": 175.60489605
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "cohort": "original92",
+      "date": "2024-07-24",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -5.03,
+      "initialFurtherLow3Pct": -4.877559355006489,
+      "d4": {
+        "status": "stop",
+        "gross": -8.415294129321216,
+        "net": -8.615294129321216,
+        "held": 5,
+        "entryDate": "2024-07-30",
+        "exitDate": "2024-08-05",
+        "entry": 170.411453,
+        "exit": 156.070828
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -8.495173977120041,
+        "net": -8.69517397712004,
+        "held": 3,
+        "entryDate": "2024-08-01",
+        "exitDate": "2024-08-05",
+        "entry": 170.560215,
+        "exit": 156.070828
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "cohort": "original92",
+      "date": "2024-01-31",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -7.35,
+      "initialFurtherLow3Pct": -2.559944056189001,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2024-02-06",
+        "exitDate": "2024-02-09",
+        "entry": 144.590482,
+        "exit": 148.92819646
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 12,
+        "entryDate": "2024-02-08",
+        "exitDate": "2024-02-26",
+        "entry": 145.591005,
+        "exit": 138.31145475
+      }
+    },
+    {
+      "ticker": "HPE",
+      "cohort": "original92",
+      "date": "2025-03-07",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -11.97,
+      "initialFurtherLow3Pct": -6.072104652961141,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2025-03-13",
+        "exitDate": "2025-03-14",
+        "entry": 14.540624,
+        "exit": 14.97684272
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2025-03-17",
+        "exitDate": "2025-03-19",
+        "entry": 15.060276,
+        "exit": 15.51208428
+      }
+    },
+    {
+      "ticker": "HPE",
+      "cohort": "original92",
+      "date": "2024-09-05",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -6.02,
+      "initialFurtherLow3Pct": -9.580496162016395,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2024-09-11",
+        "exitDate": "2024-09-12",
+        "entry": 15.287526,
+        "exit": 15.74615178
+      },
+      "d6": {
+        "status": "target",
+        "gross": 6.205669984575035,
+        "net": 6.005669984575035,
+        "held": 3,
+        "entryDate": "2024-09-13",
+        "exitDate": "2024-09-17",
+        "entry": 16.066146,
+        "exit": 17.063158
+      }
+    },
+    {
+      "ticker": "HPE",
+      "cohort": "original92",
+      "date": "2023-05-31",
+      "yr": "2023",
+      "eligible": false,
+      "drop": -7.09,
+      "initialFurtherLow3Pct": 0.06935248206596523,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2023-06-06",
+        "exitDate": "2023-06-06",
+        "entry": 13.614241,
+        "exit": 14.02266823
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2023-06-08",
+        "exitDate": "2023-06-12",
+        "entry": 14.342276,
+        "exit": 14.77254428
+      }
+    },
+    {
+      "ticker": "IBM",
+      "cohort": "original92",
+      "date": "2026-04-23",
+      "yr": "2026",
+      "eligible": false,
+      "drop": -8.25,
+      "initialFurtherLow3Pct": -2.6311232002070417,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 11,
+        "entryDate": "2026-04-29",
+        "exitDate": "2026-05-13",
+        "entry": 227.028503,
+        "exit": 215.67707785
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 8,
+        "entryDate": "2026-05-01",
+        "exitDate": "2026-05-12",
+        "entry": 231.177977,
+        "exit": 219.61907814999998
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "cohort": "original92",
+      "date": "2023-07-24",
+      "yr": "2023",
+      "eligible": true,
+      "drop": -6.93,
+      "initialFurtherLow3Pct": -0.33996785758437786,
+      "d4": {
+        "status": "stop",
+        "gross": -5.198533903481972,
+        "net": -5.398533903481972,
+        "held": 5,
+        "entryDate": "2023-07-28",
+        "exitDate": "2023-08-03",
+        "entry": 327.4,
+        "exit": 310.38
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 6,
+        "entryDate": "2023-08-01",
+        "exitDate": "2023-08-08",
+        "entry": 322,
+        "exit": 305.9
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "cohort": "original92",
+      "date": "2023-01-25",
+      "yr": "2023",
+      "eligible": false,
+      "drop": -5.5,
+      "initialFurtherLow3Pct": -0.7465135356850006,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2023-01-31",
+        "exitDate": "2023-02-01",
+        "entry": 243.2,
+        "exit": 250.49599999999998
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2023-02-02",
+        "exitDate": "2023-02-02",
+        "entry": 253.85,
+        "exit": 261.4655
+      }
+    },
+    {
+      "ticker": "KLAC",
+      "cohort": "original92",
+      "date": "2026-01-30",
+      "yr": "2026",
+      "eligible": true,
+      "drop": -15.24,
+      "initialFurtherLow3Pct": -10.007423412364325,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2026-02-05",
+        "exitDate": "2026-02-05",
+        "entry": 128.811036,
+        "exit": 132.67536708
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2026-02-09",
+        "exitDate": "2026-02-11",
+        "entry": 143.467652,
+        "exit": 147.77168156
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "cohort": "original92",
+      "date": "2025-10-22",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -10.07,
+      "initialFurtherLow3Pct": -2.6039753845051306,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2025-10-28",
+        "exitDate": "2025-10-31",
+        "entry": 109.4,
+        "exit": 112.682
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2025-10-30",
+        "exitDate": "2025-10-31",
+        "entry": 109.44,
+        "exit": 112.7232
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "cohort": "original92",
+      "date": "2025-07-18",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -5.1,
+      "initialFurtherLow3Pct": -2.947305745757667,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 12,
+        "entryDate": "2025-07-24",
+        "exitDate": "2025-08-08",
+        "entry": 117.78,
+        "exit": 121.3134
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 11,
+        "entryDate": "2025-07-28",
+        "exitDate": "2025-08-11",
+        "entry": 118.12,
+        "exit": 121.6636
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "cohort": "original92",
+      "date": "2023-07-20",
+      "yr": "2023",
+      "eligible": true,
+      "drop": -8.41,
+      "initialFurtherLow3Pct": -4.167619221800556,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2023-07-26",
+        "exitDate": "2023-07-31",
+        "entry": 42.42,
+        "exit": 43.692600000000006
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2023-07-28",
+        "exitDate": "2023-07-31",
+        "entry": 41.556,
+        "exit": 42.802679999999995
+      }
+    },
+    {
+      "ticker": "NOW",
+      "cohort": "original92",
+      "date": "2026-01-29",
+      "yr": "2026",
+      "eligible": true,
+      "drop": -9.94,
+      "initialFurtherLow3Pct": -7.393129444016111,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2026-02-04",
+        "exitDate": "2026-02-04",
+        "entry": 107.19,
+        "exit": 110.4057
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.2553107789142333,
+        "net": 3.055310778914233,
+        "held": 3,
+        "entryDate": "2026-02-06",
+        "exitDate": "2026-02-10",
+        "entry": 101.68,
+        "exit": 104.99
+      }
+    },
+    {
+      "ticker": "NOW",
+      "cohort": "original92",
+      "date": "2025-01-30",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -11.44,
+      "initialFurtherLow3Pct": -1.4512268575660459,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 11,
+        "entryDate": "2025-02-05",
+        "exitDate": "2025-02-20",
+        "entry": 203.072,
+        "exit": 192.9184
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 5,
+        "entryDate": "2025-02-07",
+        "exitDate": "2025-02-13",
+        "entry": 205,
+        "exit": 194.75
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "date": "2026-06-03",
+      "yr": "2026",
+      "eligible": true,
+      "drop": -5.64,
+      "initialFurtherLow3Pct": -5.70908961238098,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 1,
+        "entryDate": "2026-06-09",
+        "exitDate": "2026-06-09",
+        "entry": 265.3,
+        "exit": 252.035
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2026-06-11",
+        "exitDate": "2026-06-11",
+        "entry": 260.995,
+        "exit": 268.82485
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "date": "2026-02-18",
+      "yr": "2026",
+      "eligible": true,
+      "drop": -6.82,
+      "initialFurtherLow3Pct": -5.9402691171644095,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2026-02-24",
+        "exitDate": "2026-02-24",
+        "entry": 142.93,
+        "exit": 147.21790000000001
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2026-02-26",
+        "exitDate": "2026-03-02",
+        "entry": 146.91,
+        "exit": 151.3173
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "date": "2025-11-20",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -7.42,
+      "initialFurtherLow3Pct": -2.712487167017874,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 5,
+        "entryDate": "2025-11-26",
+        "exitDate": "2025-12-03",
+        "entry": 187.145,
+        "exit": 192.75935
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2025-12-01",
+        "exitDate": "2025-12-04",
+        "entry": 189.54,
+        "exit": 195.2262
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "date": "2025-05-21",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -6.8,
+      "initialFurtherLow3Pct": 0.6620324395895549,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2025-05-28",
+        "exitDate": "2025-06-02",
+        "entry": 187.76,
+        "exit": 193.3928
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2025-05-30",
+        "exitDate": "2025-05-30",
+        "entry": 187.02,
+        "exit": 192.63060000000002
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "date": "2024-02-21",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -28.44,
+      "initialFurtherLow3Pct": 1.1566209871359145,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2024-02-27",
+        "exitDate": "2024-02-27",
+        "entry": 158.7,
+        "exit": 163.46099999999998
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -4.999999999999993,
+        "net": -5.199999999999993,
+        "held": 2,
+        "entryDate": "2024-02-29",
+        "exitDate": "2024-03-01",
+        "entry": 157.89,
+        "exit": 149.9955
+      }
+    },
+    {
+      "ticker": "PANW",
+      "cohort": "original92",
+      "date": "2023-11-16",
+      "yr": "2023",
+      "eligible": false,
+      "drop": -5.42,
+      "initialFurtherLow3Pct": 0.28064382996284554,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2023-11-22",
+        "exitDate": "2023-11-28",
+        "entry": 132.5,
+        "exit": 136.475
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2023-11-27",
+        "exitDate": "2023-11-28",
+        "entry": 133,
+        "exit": 136.99
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "cohort": "original92",
+      "date": "2024-02-08",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -11.24,
+      "initialFurtherLow3Pct": 0.05362545877662939,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 10,
+        "entryDate": "2024-02-14",
+        "exitDate": "2024-02-28",
+        "entry": 57.948761,
+        "exit": 59.68722383
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 8,
+        "entryDate": "2024-02-16",
+        "exitDate": "2024-02-28",
+        "entry": 58.210838,
+        "exit": 59.957163140000006
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "cohort": "original92",
+      "date": "2023-08-03",
+      "yr": "2023",
+      "eligible": true,
+      "drop": -12.32,
+      "initialFurtherLow3Pct": -3.0850720640310914,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 5,
+        "entryDate": "2023-08-09",
+        "exitDate": "2023-08-15",
+        "entry": 62.404076,
+        "exit": 59.2838722
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.235266159309926,
+        "net": -5.4352661593099265,
+        "held": 5,
+        "entryDate": "2023-08-11",
+        "exitDate": "2023-08-17",
+        "entry": 61.58323,
+        "exit": 58.359184
+      }
+    },
+    {
+      "ticker": "PYPL",
+      "cohort": "original92",
+      "date": "2023-05-09",
+      "yr": "2023",
+      "eligible": true,
+      "drop": -12.73,
+      "initialFurtherLow3Pct": -6.9721581499564085,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 13,
+        "entryDate": "2023-05-15",
+        "exitDate": "2023-06-01",
+        "entry": 61.068965,
+        "exit": 62.90103395
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2023-05-17",
+        "exitDate": "2023-05-22",
+        "entry": 60.475582,
+        "exit": 62.289849460000006
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "cohort": "original92",
+      "date": "2026-02-05",
+      "yr": "2026",
+      "eligible": false,
+      "drop": -8.46,
+      "initialFurtherLow3Pct": -0.7501833750701237,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 5,
+        "entryDate": "2026-02-11",
+        "exitDate": "2026-02-18",
+        "entry": 137.874299,
+        "exit": 142.01052797
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2026-02-13",
+        "exitDate": "2026-02-13",
+        "entry": 135.009098,
+        "exit": 139.05937094
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "cohort": "original92",
+      "date": "2025-07-31",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -7.73,
+      "initialFurtherLow3Pct": -0.7427085832924063,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2025-08-06",
+        "exitDate": "2025-08-11",
+        "entry": 142.840553,
+        "exit": 147.12576959
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2025-08-08",
+        "exitDate": "2025-08-11",
+        "entry": 142.553206,
+        "exit": 146.82980218
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "cohort": "original92",
+      "date": "2024-08-01",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -9.37,
+      "initialFurtherLow3Pct": -7.688963207514277,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 5,
+        "entryDate": "2024-08-07",
+        "exitDate": "2024-08-13",
+        "entry": 155.909844,
+        "exit": 160.58713932
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2024-08-09",
+        "exitDate": "2024-08-13",
+        "entry": 156.376869,
+        "exit": 161.06817507
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "cohort": "original92",
+      "date": "2024-05-01",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -15.88,
+      "initialFurtherLow3Pct": -2.3374522008164145,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2024-05-07",
+        "exitDate": "2024-05-09",
+        "entry": 68.33684,
+        "exit": 70.3869452
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2024-05-09",
+        "exitDate": "2024-05-10",
+        "entry": 69.012235,
+        "exit": 71.08260205
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "cohort": "original92",
+      "date": "2023-05-03",
+      "yr": "2023",
+      "eligible": false,
+      "drop": -9.17,
+      "initialFurtherLow3Pct": -0.15390577684547546,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 11,
+        "entryDate": "2023-05-09",
+        "exitDate": "2023-05-23",
+        "entry": 98.201166,
+        "exit": 93.2911077
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 9,
+        "entryDate": "2023-05-11",
+        "exitDate": "2023-05-23",
+        "entry": 98.182809,
+        "exit": 93.27366855
+      }
+    },
+    {
+      "ticker": "TXN",
+      "cohort": "original92",
+      "date": "2025-10-22",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -5.6,
+      "initialFurtherLow3Pct": -1.1891511332198679,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 2,
+        "entryDate": "2025-10-28",
+        "exitDate": "2025-10-29",
+        "entry": 164.870348,
+        "exit": 156.6268306
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 5,
+        "entryDate": "2025-10-30",
+        "exitDate": "2025-11-05",
+        "entry": 156.107285,
+        "exit": 160.79050354999998
+      }
+    },
+    {
+      "ticker": "TXN",
+      "cohort": "original92",
+      "date": "2025-07-23",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -13.34,
+      "initialFurtherLow3Pct": -1.6375835776110903,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000016,
+        "net": -5.200000000000016,
+        "held": 4,
+        "entryDate": "2025-07-29",
+        "exitDate": "2025-08-01",
+        "entry": 183.589257,
+        "exit": 174.40979414999998
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 9,
+        "entryDate": "2025-07-31",
+        "exitDate": "2025-08-12",
+        "entry": 181.441212,
+        "exit": 186.88444836000002
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "cohort": "separate72",
+      "date": "2024-11-15",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -9.2043,
+      "initialFurtherLow3Pct": -1.2019777942136822,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2024-11-21",
+        "exitDate": "2024-11-21",
+        "entry": 168.921024,
+        "exit": 173.98865472
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 5,
+        "entryDate": "2024-11-25",
+        "exitDate": "2024-12-02",
+        "entry": 174.337309,
+        "exit": 179.56742827000002
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "cohort": "separate72",
+      "date": "2025-02-14",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -8.17822,
+      "initialFurtherLow3Pct": -0.059101477111001,
+      "d4": {
+        "status": "stop",
+        "gross": -4.999999999999993,
+        "net": -5.199999999999993,
+        "held": 3,
+        "entryDate": "2025-02-21",
+        "exitDate": "2025-02-25",
+        "entry": 174.165339,
+        "exit": 165.45707205
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -4.999999999999993,
+        "net": -5.199999999999993,
+        "held": 3,
+        "entryDate": "2025-02-25",
+        "exitDate": "2025-02-27",
+        "entry": 166.244688,
+        "exit": 157.9324536
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "cohort": "separate72",
+      "date": "2025-05-16",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -5.25322,
+      "initialFurtherLow3Pct": -2.356103229200379,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 5,
+        "entryDate": "2025-05-22",
+        "exitDate": "2025-05-29",
+        "entry": 159.349398,
+        "exit": 164.12987994000002
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0101163172731926,
+        "net": 2.8101163172731924,
+        "held": 3,
+        "entryDate": "2025-05-27",
+        "exitDate": "2025-05-29",
+        "entry": 159.284941,
+        "exit": 164.079603
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "cohort": "separate72",
+      "date": "2025-08-15",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -14.0698,
+      "initialFurtherLow3Pct": -2.3585049723322205,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2025-08-21",
+        "exitDate": "2025-08-22",
+        "entry": 159.060226,
+        "exit": 163.83203278
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 13,
+        "entryDate": "2025-08-25",
+        "exitDate": "2025-09-11",
+        "entry": 161.417189,
+        "exit": 166.25970467000002
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "cohort": "separate72",
+      "date": "2024-09-05",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -6.67295,
+      "initialFurtherLow3Pct": -1.5552413653807218,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2024-09-11",
+        "exitDate": "2024-09-16",
+        "entry": 49.3,
+        "exit": 50.778999999999996
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2024-09-13",
+        "exitDate": "2024-09-18",
+        "entry": 49.64,
+        "exit": 51.129200000000004
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "cohort": "separate72",
+      "date": "2025-05-23",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -11.52324,
+      "initialFurtherLow3Pct": -4.713992919694432,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 11,
+        "entryDate": "2025-05-30",
+        "exitDate": "2025-06-13",
+        "entry": 51.35,
+        "exit": 48.7825
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 11,
+        "entryDate": "2025-06-03",
+        "exitDate": "2025-06-17",
+        "entry": 50.6,
+        "exit": 48.07
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "cohort": "separate72",
+      "date": "2025-11-24",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -5.14383,
+      "initialFurtherLow3Pct": -0.6168080185042224,
+      "d4": {
+        "status": "timeout",
+        "gross": 2.146921883083297,
+        "net": 1.946921883083297,
+        "held": 20,
+        "entryDate": "2025-12-01",
+        "exitDate": "2025-12-29",
+        "entry": 38.66,
+        "exit": 39.49
+      },
+      "d6": {
+        "status": "timeout",
+        "gross": 0.6168080185042557,
+        "net": 0.4168080185042557,
+        "held": 20,
+        "entryDate": "2025-12-03",
+        "exitDate": "2025-12-31",
+        "entry": 38.91,
+        "exit": 39.15
+      }
+    },
+    {
+      "ticker": "CPRT",
+      "cohort": "separate72",
+      "date": "2026-02-23",
+      "yr": "2026",
+      "eligible": true,
+      "drop": -6.08234,
+      "initialFurtherLow3Pct": -1.7816742081448012,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2026-02-27",
+        "exitDate": "2026-02-27",
+        "entry": 36.96,
+        "exit": 38.0688
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 6,
+        "entryDate": "2026-03-03",
+        "exitDate": "2026-03-10",
+        "entry": 38.31,
+        "exit": 36.3945
+      }
+    },
+    {
+      "ticker": "EOG",
+      "cohort": "separate72",
+      "date": "2026-05-07",
+      "yr": "2026",
+      "eligible": false,
+      "drop": -7.05156,
+      "initialFurtherLow3Pct": -1.291160369221911,
+      "d4": {
+        "status": "target",
+        "gross": 3.2351842534722897,
+        "net": 3.0351842534722895,
+        "held": 3,
+        "entryDate": "2026-05-13",
+        "exitDate": "2026-05-15",
+        "entry": 133.161751,
+        "exit": 137.469779
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2026-05-15",
+        "exitDate": "2026-05-18",
+        "entry": 137.469779,
+        "exit": 141.59387236999999
+      }
+    },
+    {
+      "ticker": "EW",
+      "cohort": "separate72",
+      "date": "2023-07-27",
+      "yr": "2023",
+      "eligible": true,
+      "drop": -9.77846,
+      "initialFurtherLow3Pct": -1.959598403290197,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 5,
+        "entryDate": "2023-08-02",
+        "exitDate": "2023-08-08",
+        "entry": 81.45,
+        "exit": 77.3775
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -4.999999999999993,
+        "net": -5.199999999999993,
+        "held": 12,
+        "entryDate": "2023-08-04",
+        "exitDate": "2023-08-21",
+        "entry": 79.69,
+        "exit": 75.7055
+      }
+    },
+    {
+      "ticker": "FSLR",
+      "cohort": "separate72",
+      "date": "2026-02-25",
+      "yr": "2026",
+      "eligible": true,
+      "drop": -13.60553,
+      "initialFurtherLow3Pct": -8.722206358271468,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2026-03-03",
+        "exitDate": "2026-03-03",
+        "entry": 192.3,
+        "exit": 198.06900000000002
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000016,
+        "net": -5.200000000000016,
+        "held": 3,
+        "entryDate": "2026-03-05",
+        "exitDate": "2026-03-09",
+        "entry": 197,
+        "exit": 187.14999999999998
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "cohort": "separate72",
+      "date": "2025-05-08",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -8.41454,
+      "initialFurtherLow3Pct": -2.373644362594629,
+      "d4": {
+        "status": "timeout",
+        "gross": -2.930542340627973,
+        "net": -3.130542340627973,
+        "held": 20,
+        "entryDate": "2025-05-14",
+        "exitDate": "2025-06-11",
+        "entry": 105.1,
+        "exit": 102.02
+      },
+      "d6": {
+        "status": "timeout",
+        "gross": -2.3249055507120087,
+        "net": -2.524905550712009,
+        "held": 20,
+        "entryDate": "2025-05-16",
+        "exitDate": "2025-06-13",
+        "entry": 103.23,
+        "exit": 100.83
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "cohort": "separate72",
+      "date": "2025-08-07",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -22.03355,
+      "initialFurtherLow3Pct": -3.280212483399736,
+      "d4": {
+        "status": "stop",
+        "gross": -5.814972458688028,
+        "net": -6.014972458688028,
+        "held": 14,
+        "entryDate": "2025-08-13",
+        "exitDate": "2025-09-02",
+        "entry": 79.88,
+        "exit": 75.235
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2025-08-15",
+        "exitDate": "2025-08-18",
+        "entry": 77.68,
+        "exit": 80.0104
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "cohort": "separate72",
+      "date": "2025-11-06",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -6.33795,
+      "initialFurtherLow3Pct": -1.2292028805562571,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 5,
+        "entryDate": "2025-11-12",
+        "exitDate": "2025-11-18",
+        "entry": 83.35,
+        "exit": 79.18249999999999
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2025-11-14",
+        "exitDate": "2025-11-14",
+        "entry": 80.14,
+        "exit": 82.5442
+      }
+    },
+    {
+      "ticker": "LEN",
+      "cohort": "separate72",
+      "date": "2024-03-14",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -7.63746,
+      "initialFurtherLow3Pct": -0.8766194442060726,
+      "d4": {
+        "status": "target",
+        "gross": 3.566503887165906,
+        "net": 3.366503887165906,
+        "held": 2,
+        "entryDate": "2024-03-20",
+        "exitDate": "2024-03-21",
+        "entry": 151.964057,
+        "exit": 157.383861
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 5,
+        "entryDate": "2024-03-22",
+        "exitDate": "2024-03-28",
+        "entry": 157.936319,
+        "exit": 162.67440857
+      }
+    },
+    {
+      "ticker": "LEN",
+      "cohort": "separate72",
+      "date": "2024-09-20",
+      "yr": "2024",
+      "eligible": true,
+      "drop": -5.33126,
+      "initialFurtherLow3Pct": -0.5847744297052482,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2024-09-26",
+        "exitDate": "2024-09-27",
+        "entry": 175.662418,
+        "exit": 180.93229054
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 17,
+        "entryDate": "2024-09-30",
+        "exitDate": "2024-10-22",
+        "entry": 178.491506,
+        "exit": 169.56693069999997
+      }
+    },
+    {
+      "ticker": "LEN",
+      "cohort": "separate72",
+      "date": "2024-12-19",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -5.16001,
+      "initialFurtherLow3Pct": -1.322254570381165,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 10,
+        "entryDate": "2024-12-26",
+        "exitDate": "2025-01-10",
+        "entry": 131.74831,
+        "exit": 125.1608945
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 8,
+        "entryDate": "2024-12-30",
+        "exitDate": "2025-01-10",
+        "entry": 131.738693,
+        "exit": 125.15175835000001
+      }
+    },
+    {
+      "ticker": "LEN",
+      "cohort": "separate72",
+      "date": "2025-06-18",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -5.55302,
+      "initialFurtherLow3Pct": 0.09670274561663916,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 5,
+        "entryDate": "2025-06-25",
+        "exitDate": "2025-07-01",
+        "entry": 107.656872,
+        "exit": 110.88657816000001
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2025-06-27",
+        "exitDate": "2025-07-01",
+        "entry": 106.803529,
+        "exit": 110.00763487
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "cohort": "separate72",
+      "date": "2023-05-05",
+      "yr": "2023",
+      "eligible": false,
+      "drop": -10.38503,
+      "initialFurtherLow3Pct": -3.2241593041937078,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 2,
+        "entryDate": "2023-05-11",
+        "exitDate": "2023-05-12",
+        "entry": 403.893327,
+        "exit": 383.69866064999997
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2023-05-15",
+        "exitDate": "2023-05-15",
+        "entry": 389.363808,
+        "exit": 401.04472224
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "cohort": "separate72",
+      "date": "2023-08-02",
+      "yr": "2023",
+      "eligible": true,
+      "drop": -5.19402,
+      "initialFurtherLow3Pct": -2.209528077356082,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 4,
+        "entryDate": "2023-08-08",
+        "exitDate": "2023-08-11",
+        "entry": 517.749456,
+        "exit": 491.8619832
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.699511360380782,
+        "net": -5.8995113603807825,
+        "held": 3,
+        "entryDate": "2023-08-10",
+        "exitDate": "2023-08-14",
+        "entry": 515.44531,
+        "exit": 486.067446
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "cohort": "separate72",
+      "date": "2024-10-31",
+      "yr": "2024",
+      "eligible": false,
+      "drop": -17.45034,
+      "initialFurtherLow3Pct": -1.674568738408555,
+      "d4": {
+        "status": "stop",
+        "gross": -18.691939048546658,
+        "net": -18.891939048546657,
+        "held": 4,
+        "entryDate": "2024-11-06",
+        "exitDate": "2024-11-11",
+        "entry": 762.189865,
+        "exit": 619.7218
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -17.745013462545288,
+        "net": -17.945013462545287,
+        "held": 2,
+        "entryDate": "2024-11-08",
+        "exitDate": "2024-11-11",
+        "entry": 753.415478,
+        "exit": 619.7218
+      }
+    },
+    {
+      "ticker": "MPWR",
+      "cohort": "separate72",
+      "date": "2025-10-31",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -7.59131,
+      "initialFurtherLow3Pct": -5.1651741434817104,
+      "d4": {
+        "status": "stop",
+        "gross": -5.1399285825542655,
+        "net": -5.339928582554266,
+        "held": 2,
+        "entryDate": "2025-11-06",
+        "exitDate": "2025-11-07",
+        "entry": 988.516731,
+        "exit": 937.707677
+      },
+      "d6": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 4,
+        "entryDate": "2025-11-10",
+        "exitDate": "2025-11-13",
+        "entry": 980.073389,
+        "exit": 931.06971955
+      }
+    },
+    {
+      "ticker": "NEM",
+      "cohort": "separate72",
+      "date": "2025-10-24",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -6.23102,
+      "initialFurtherLow3Pct": -8.783974431672037,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 1,
+        "entryDate": "2025-10-30",
+        "exitDate": "2025-10-30",
+        "entry": 79.068391,
+        "exit": 81.44044273
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 4,
+        "entryDate": "2025-11-03",
+        "exitDate": "2025-11-06",
+        "entry": 79.950121,
+        "exit": 82.34862463
+      }
+    },
+    {
+      "ticker": "OKE",
+      "cohort": "separate72",
+      "date": "2025-04-30",
+      "yr": "2025",
+      "eligible": true,
+      "drop": -6.48759,
+      "initialFurtherLow3Pct": -2.277256359493729,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 3,
+        "entryDate": "2025-05-06",
+        "exitDate": "2025-05-08",
+        "entry": 75.022713,
+        "exit": 77.27339438999999
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2025-05-08",
+        "exitDate": "2025-05-09",
+        "entry": 76.099818,
+        "exit": 78.38281254
+      }
+    },
+    {
+      "ticker": "OKE",
+      "cohort": "separate72",
+      "date": "2025-08-05",
+      "yr": "2025",
+      "eligible": false,
+      "drop": -5.17349,
+      "initialFurtherLow3Pct": -1.6908842241490807,
+      "d4": {
+        "status": "stop",
+        "gross": -5.000000000000004,
+        "net": -5.200000000000005,
+        "held": 19,
+        "entryDate": "2025-08-11",
+        "exitDate": "2025-09-05",
+        "entry": 70.777922,
+        "exit": 67.2390259
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 13,
+        "entryDate": "2025-08-13",
+        "exitDate": "2025-08-29",
+        "entry": 70.189845,
+        "exit": 72.29554035000001
+      }
+    },
+    {
+      "ticker": "OKE",
+      "cohort": "separate72",
+      "date": "2026-02-24",
+      "yr": "2026",
+      "eligible": true,
+      "drop": -5.08416,
+      "initialFurtherLow3Pct": -3.8165041418724788,
+      "d4": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2026-03-02",
+        "exitDate": "2026-03-03",
+        "entry": 82.505766,
+        "exit": 84.98093897999999
+      },
+      "d6": {
+        "status": "target",
+        "gross": 3.0000000000000027,
+        "net": 2.8000000000000025,
+        "held": 2,
+        "entryDate": "2026-03-04",
+        "exitDate": "2026-03-05",
+        "entry": 82.300698,
+        "exit": 84.76971894
+      }
+    }
+  ]
+}
