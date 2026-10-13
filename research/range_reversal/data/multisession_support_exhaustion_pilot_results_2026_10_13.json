@@ -1,0 +1,458 @@
+{
+  "created": "2026-10-13",
+  "frozenProtocol": "research/range_reversal/frozen_multisession_seller_exhaustion_pilot_2026_10_13.md",
+  "source": "Webull US_STOCK raw M5 RTH",
+  "sample": [
+    "AAPL",
+    "ABBV",
+    "AMD",
+    "AMZN",
+    "AVGO",
+    "BAC",
+    "CAT",
+    "COST",
+    "CRM",
+    "GOOGL",
+    "HD",
+    "JPM",
+    "META",
+    "MSFT",
+    "NVDA",
+    "ORCL",
+    "QCOM",
+    "TSLA",
+    "UBER",
+    "WMT"
+  ],
+  "fetchLog": [
+    {
+      "page": 1,
+      "symbols": 20,
+      "bars": 24000,
+      "newest": "2026-10-13T20:00:00.000Z",
+      "oldest": "2026-09-22T17:30:00.000Z",
+      "less1200": []
+    },
+    {
+      "page": 2,
+      "symbols": 20,
+      "bars": 24000,
+      "newest": "2026-09-22T17:29:00.000Z",
+      "oldest": "2026-08-31T14:55:00.000Z",
+      "less1200": []
+    },
+    {
+      "page": 3,
+      "symbols": 20,
+      "bars": 24000,
+      "newest": "2026-08-31T14:54:00.000Z",
+      "oldest": "2026-08-07T18:50:00.000Z",
+      "less1200": []
+    },
+    {
+      "page": 4,
+      "symbols": 20,
+      "bars": 24000,
+      "newest": "2026-08-07T18:49:00.000Z",
+      "oldest": "2026-07-17T16:15:00.000Z",
+      "less1200": []
+    },
+    {
+      "page": 5,
+      "symbols": 20,
+      "bars": 24000,
+      "newest": "2026-07-17T16:14:00.000Z",
+      "oldest": "2026-06-25T13:40:00.000Z",
+      "less1200": []
+    },
+    {
+      "page": 6,
+      "symbols": 20,
+      "bars": 24000,
+      "newest": "2026-06-25T13:39:00.000Z",
+      "oldest": "2026-06-02T17:35:00.000Z",
+      "less1200": []
+    }
+  ],
+  "pageErr": [],
+  "diagnostics": {
+    "AAPL": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "ABBV": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "AMD": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "AMZN": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "AVGO": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "BAC": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "CAT": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "COST": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "CRM": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "GOOGL": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "HD": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "JPM": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "META": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "MSFT": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "NVDA": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "ORCL": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "QCOM": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "TSLA": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "UBER": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    },
+    "WMT": {
+      "fullSessions": 92,
+      "oldest": "2026-06-03",
+      "newest": "2026-10-13",
+      "incomplete": [
+        "2026-06-02"
+      ]
+    }
+  },
+  "counts": {
+    "baseline": {
+      "n": 6,
+      "target": 1,
+      "stop": 4,
+      "timeout": 1,
+      "targetRate": 0.166667,
+      "wilson95": [
+        0.0301,
+        0.5635
+      ],
+      "netPerEntered": -0.009472,
+      "issuerCount": 6
+    },
+    "shallower": {
+      "n": 4,
+      "target": 0,
+      "stop": 4,
+      "timeout": 0,
+      "targetRate": 0,
+      "wilson95": [
+        0,
+        0.4899
+      ],
+      "netPerEntered": -0.015275,
+      "issuerCount": 4
+    },
+    "decliningPressure": {
+      "n": 0,
+      "target": 0,
+      "stop": 0,
+      "timeout": 0,
+      "targetRate": null,
+      "wilson95": null,
+      "netPerEntered": null,
+      "issuerCount": 0
+    },
+    "both": {
+      "n": 0,
+      "target": 0,
+      "stop": 0,
+      "timeout": 0,
+      "targetRate": null,
+      "wilson95": null,
+      "netPerEntered": null,
+      "issuerCount": 0
+    },
+    "notBoth": {
+      "n": 6,
+      "target": 1,
+      "stop": 4,
+      "timeout": 1,
+      "targetRate": 0.166667,
+      "wilson95": [
+        0.0301,
+        0.5635
+      ],
+      "netPerEntered": -0.009472,
+      "issuerCount": 6
+    },
+    "entry1030toNoon": {
+      "n": 0,
+      "target": 0,
+      "stop": 0,
+      "timeout": 0,
+      "targetRate": null,
+      "wilson95": null,
+      "netPerEntered": null,
+      "issuerCount": 0
+    },
+    "missingPressure": 6
+  },
+  "events": [
+    {
+      "symbol": "AMZN",
+      "supportDateStart": "2026-08-13",
+      "support": 249.58,
+      "test1": "2026-10-01",
+      "test2": "2026-10-02",
+      "firstLow": 250,
+      "secondLow": 251.28,
+      "firstPressure": null,
+      "secondPressure": null,
+      "firstTestReclaim": "09:30",
+      "secondTestReclaim": "09:30",
+      "entryTime": "09:35",
+      "entryPrice": 253.24,
+      "exit": "STOP",
+      "exitDate": "2026-10-02",
+      "exitTime": "11:15",
+      "exitPrice": 250.7076,
+      "gross": -0.010000000000000009,
+      "net": -0.01500000000000001,
+      "shallow": true,
+      "weak": false,
+      "both": false
+    },
+    {
+      "symbol": "COST",
+      "supportDateStart": "2026-07-16",
+      "support": 916.76,
+      "test1": "2026-08-20",
+      "test2": "2026-09-03",
+      "firstLow": 925.8,
+      "secondLow": 920.32,
+      "firstPressure": null,
+      "secondPressure": null,
+      "firstTestReclaim": "09:30",
+      "secondTestReclaim": "09:30",
+      "entryTime": "09:35",
+      "entryPrice": 921.02,
+      "exit": "TIMEOUT",
+      "exitDate": "2026-09-04",
+      "exitTime": "15:55",
+      "exitPrice": 915.74,
+      "gross": -0.005732774532583362,
+      "net": -0.010732774532583363,
+      "shallow": false,
+      "weak": false,
+      "both": false
+    },
+    {
+      "symbol": "GOOGL",
+      "supportDateStart": "2026-08-04",
+      "support": 337.156,
+      "test1": "2026-09-11",
+      "test2": "2026-09-23",
+      "firstLow": 335.065,
+      "secondLow": 340.19,
+      "firstPressure": null,
+      "secondPressure": 2.2286506366461407,
+      "firstTestReclaim": "09:30",
+      "secondTestReclaim": "10:15",
+      "entryTime": "10:20",
+      "entryPrice": 340.49,
+      "exit": "STOP",
+      "exitDate": "2026-09-24",
+      "exitTime": "09:30",
+      "exitPrice": 336.71,
+      "gross": -0.011101647625481048,
+      "net": -0.01610164762548105,
+      "shallow": true,
+      "weak": false,
+      "both": false
+    },
+    {
+      "symbol": "JPM",
+      "supportDateStart": "2026-07-31",
+      "support": 349.7,
+      "test1": "2026-09-17",
+      "test2": "2026-09-21",
+      "firstLow": 351.1801,
+      "secondLow": 352.48,
+      "firstPressure": null,
+      "secondPressure": null,
+      "firstTestReclaim": "09:30",
+      "secondTestReclaim": "09:30",
+      "entryTime": "09:35",
+      "entryPrice": 353.835,
+      "exit": "STOP",
+      "exitDate": "2026-09-21",
+      "exitTime": "11:30",
+      "exitPrice": 350.29665,
+      "gross": -0.009999999999999898,
+      "net": -0.014999999999999899,
+      "shallow": true,
+      "weak": false,
+      "both": false
+    },
+    {
+      "symbol": "NVDA",
+      "supportDateStart": "2026-06-09",
+      "support": 189.8,
+      "test1": "2026-07-29",
+      "test2": "2026-07-30",
+      "firstLow": 191.2,
+      "secondLow": 191.52,
+      "firstPressure": 1.2428311425148968,
+      "secondPressure": null,
+      "firstTestReclaim": "10:10",
+      "secondTestReclaim": "09:35",
+      "entryTime": "09:40",
+      "entryPrice": 192.515,
+      "exit": "TARGET",
+      "exitDate": "2026-07-30",
+      "exitTime": "10:00",
+      "exitPrice": 196.3653,
+      "gross": 0.020000000000000018,
+      "net": 0.015000000000000017,
+      "shallow": false,
+      "weak": false,
+      "both": false
+    },
+    {
+      "symbol": "ORCL",
+      "supportDateStart": "2026-08-06",
+      "support": 137.43,
+      "test1": "2026-09-24",
+      "test2": "2026-09-25",
+      "firstLow": 136.4,
+      "secondLow": 137.77,
+      "firstPressure": null,
+      "secondPressure": null,
+      "firstTestReclaim": "09:35",
+      "secondTestReclaim": "09:30",
+      "entryTime": "09:35",
+      "entryPrice": 140.387,
+      "exit": "STOP",
+      "exitDate": "2026-09-25",
+      "exitTime": "09:45",
+      "exitPrice": 138.98313,
+      "gross": -0.01000000000000012,
+      "net": -0.015000000000000121,
+      "shallow": true,
+      "weak": false,
+      "both": false
+    }
+  ]
+}
