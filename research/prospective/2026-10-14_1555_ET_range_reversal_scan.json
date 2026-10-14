@@ -1,0 +1,286 @@
+{
+  "schema": "range_reversal_v1_prospective_scan",
+  "freeze_time": "2026-10-14T15:55:00-04:00",
+  "completed_bar": "2026-10-14 15:45–15:50 ET",
+  "l1_quote_time": "2026-10-14 15:54:53 ET",
+  "universe": "20 liquid stocks screened; 5 candidates archived",
+  "decision": "NO TRADE; zero BUY ON TRIGGER",
+  "independent_negative_baseline": "49-issuer independent replication negative; exact success rate unavailable; no positive expectancy established",
+  "other_exploratory_baseline": "Earlier 138-event unadjusted test +2% before -1%: 45 target, 90 stop, 3 neither; 33.3% resolved; not comparable independent holdout",
+  "market_context": {
+    "SPY": {
+      "close": 768.88,
+      "pct": -1.17
+    },
+    "QQQ": {
+      "close": 728.73,
+      "pct": -2
+    },
+    "SMH": {
+      "close": 566.35,
+      "pct": -3.7
+    },
+    "XLK": {
+      "close": 190.53,
+      "pct": -2.93
+    },
+    "XLI": {
+      "close": 166.775,
+      "pct": -1.12
+    },
+    "XLY": {
+      "close": 111.105,
+      "pct": -1.12
+    },
+    "XLC": {
+      "close": 110.785,
+      "pct": -1.33
+    },
+    "time": "2026-10-14 15:45–15:50 ET",
+    "macro": "2026-10-14 CPI hot; October 15 PPI/retail sales scheduled; overnight gap risk elevated"
+  },
+  "earnings": {
+    "QCOM": "Oct 29 estimated",
+    "META": "Oct 28 estimated",
+    "AMZN": "Oct 29 estimated",
+    "BBY": "unverified",
+    "MMM": "unverified"
+  },
+  "hanna_readings": {
+    "NYSE_closing_TICK_TomOscillator": "UNKNOWN/RESEARCH ONLY",
+    "CBI": "UNKNOWN/RESEARCH ONLY",
+    "capitulation": "UNKNOWN/RESEARCH ONLY",
+    "breadth_thrust": "UNKNOWN/RESEARCH ONLY"
+  },
+  "same_sector_comparison": "BBY/AMZN both XLY but different industries/volatility; QCOM/AMD same broad semiconductor sector, AMD -5.73% by 15:45; not a matched independent control",
+  "rules": "No orders; no A+ detector changes; no VWAP/RSI predictive claims; 20-session same-clock completed-bar volume ratio is participation proxy not buyer aggressor flow; do not relabel stages using future data",
+  "candidates": [
+    {
+      "decision": "NO TRADE",
+      "next_session": "2026-10-15 10:30–12:00 ET CONFIRMATION PENDING",
+      "option_execution": "OPTION NOT VERIFIED; no call recommended",
+      "forward": {
+        "first_target": null,
+        "first_stop": null,
+        "overnight_gap": null,
+        "mfe": null,
+        "mae": null,
+        "spy_benchmark": null,
+        "qqq_benchmark": null
+      },
+      "quality": "Webull completed RTH M5 and D candles: high for observed OHLCV, support clusters: exploratory, broker L1 quotes: indicative only, unverified executable size",
+      "symbol": "BBY",
+      "support": 87.49,
+      "support_published": "2026-10-14 09:19 ET",
+      "touches": [
+        "2026-09-29 87.42",
+        "2026-09-30 87.42",
+        "2026-10-02 87.41",
+        "2026-10-09 86.955"
+      ],
+      "weakening": "October 9 penetration below prior low; repeated October 14 failed reclaims",
+      "atr14": 2.55,
+      "range25d_atr": 5.05,
+      "penetration": "2026-10-14 10:00 ET",
+      "first_reclaim": "2026-10-14 10:05 ET close 87.58",
+      "later": "Reclaims 10:45 and 12:05; late advance to 88.88, near day high 88.96; too extended",
+      "bar_close_1545": 88.88,
+      "volume_proxy_20": 0.76,
+      "first_reclaim_volume_proxy_20": 0.44,
+      "ask_1554": 88.92,
+      "stop": 88.12,
+      "resistance": 89.23,
+      "rr": 0.39,
+      "stage": "WATCH/DEVELOPING but exhausted for same-day entry",
+      "next_trigger": "New-session fresh retest of 87.49 with completed-bar reclaim, higher low and priced R:R>=2; not triggered",
+      "targets_descriptive": {
+        "plus2pct": 90.7,
+        "plus3pct": 91.59,
+        "plus5pct": 93.37
+      }
+    },
+    {
+      "decision": "NO TRADE",
+      "next_session": "2026-10-15 10:30–12:00 ET CONFIRMATION PENDING",
+      "option_execution": "OPTION NOT VERIFIED; no call recommended",
+      "forward": {
+        "first_target": null,
+        "first_stop": null,
+        "overnight_gap": null,
+        "mfe": null,
+        "mae": null,
+        "spy_benchmark": null,
+        "qqq_benchmark": null
+      },
+      "quality": "Webull completed RTH M5 and D candles: high for observed OHLCV, support clusters: exploratory, broker L1 quotes: indicative only, unverified executable size",
+      "symbol": "MMM",
+      "support": 161.2,
+      "support_published": "2026-10-14 09:19 ET",
+      "touches": [
+        "2026-09-10 161.295",
+        "2026-09-15 160.68",
+        "2026-10-02 161.12",
+        "2026-10-06 161.50",
+        "2026-10-07 160.96"
+      ],
+      "weakening": "October 7 low below October 2; support not precise",
+      "atr14": 3.46,
+      "range25d_atr": 3.4,
+      "penetration": "NONE today",
+      "first_reclaim": "NONE today",
+      "later": "No true failure test",
+      "bar_close_1545": 164.27,
+      "volume_proxy_20": 0.82,
+      "first_reclaim_volume_proxy_20": null,
+      "ask_1554": 164.19,
+      "stop": 163.67,
+      "resistance": 164.71,
+      "rr": 1,
+      "stage": "WATCH/DEVELOPING untriggered",
+      "next_trigger": "Only a new pre-defined support failure/reclaim with >=2:1 to resistance",
+      "targets_descriptive": {
+        "plus2pct": 167.47,
+        "plus3pct": 169.12,
+        "plus5pct": 172.4
+      }
+    },
+    {
+      "decision": "NO TRADE",
+      "next_session": "2026-10-15 10:30–12:00 ET CONFIRMATION PENDING",
+      "option_execution": "OPTION NOT VERIFIED; no call recommended",
+      "forward": {
+        "first_target": null,
+        "first_stop": null,
+        "overnight_gap": null,
+        "mfe": null,
+        "mae": null,
+        "spy_benchmark": null,
+        "qqq_benchmark": null
+      },
+      "quality": "Webull completed RTH M5 and D candles: high for observed OHLCV, support clusters: exploratory, broker L1 quotes: indicative only, unverified executable size",
+      "symbol": "QCOM",
+      "support": 172.59,
+      "support_published": "2026-10-14 15:55 ET; retrospective level not valid as a pre-event publication for today's bars",
+      "touches": [
+        "2026-10-08 171.02",
+        "2026-10-09 171.79",
+        "2026-10-12 172.1601",
+        "2026-10-13 172.29"
+      ],
+      "weakening": "Prior lows rising, but today 171.02 tested lower; several reclaim failures",
+      "atr14": 6.71,
+      "range25d_atr": 5.27,
+      "penetration": "2026-10-14 11:40 ET",
+      "first_reclaim": "2026-10-14 11:50 ET close 172.77",
+      "later": "Multiple reclaims and renewed selling; 15:45 close 172.55 below 172.59",
+      "bar_close_1545": 172.55,
+      "volume_proxy_20": 1.18,
+      "first_reclaim_volume_proxy_20": 0.6,
+      "ask_1554": 173.21,
+      "stop": 171.34,
+      "resistance": 175.23,
+      "rr": 1.08,
+      "stage": "WATCH/DEVELOPING weak",
+      "next_trigger": "Next session fresh reclaim above 172.59 and independent higher low with R:R>=2",
+      "targets_descriptive": {
+        "plus2pct": 176.67,
+        "plus3pct": 178.41,
+        "plus5pct": 181.87
+      }
+    },
+    {
+      "decision": "NO TRADE",
+      "next_session": "2026-10-15 10:30–12:00 ET CONFIRMATION PENDING",
+      "option_execution": "OPTION NOT VERIFIED; no call recommended",
+      "forward": {
+        "first_target": null,
+        "first_stop": null,
+        "overnight_gap": null,
+        "mfe": null,
+        "mae": null,
+        "spy_benchmark": null,
+        "qqq_benchmark": null
+      },
+      "quality": "Webull completed RTH M5 and D candles: high for observed OHLCV, support clusters: exploratory, broker L1 quotes: indicative only, unverified executable size",
+      "symbol": "META",
+      "support": 737.01,
+      "support_published": "2026-10-14 15:55 ET; retrospective level not valid as a pre-event publication for today's bars",
+      "touches": [
+        "2026-09-23 739.51",
+        "2026-10-06 736.69",
+        "2026-10-13 734.84"
+      ],
+      "weakening": "Progressively lower daily support tests",
+      "atr14": 23.11,
+      "range25d_atr": 6.13,
+      "penetration": "2026-10-14 12:10 ET",
+      "first_reclaim": "2026-10-14 12:35 ET close 737.585",
+      "later": "Multiple renewed sub-support trades and late rebound; no sustained clean higher low",
+      "bar_close_1545": 738.33,
+      "volume_proxy_20": 0.77,
+      "first_reclaim_volume_proxy_20": 0.92,
+      "ask_1554": 739.19,
+      "stop": 734.2,
+      "resistance": 741.58,
+      "rr": 0.48,
+      "stage": "WATCH/DEVELOPING weak",
+      "next_trigger": "Next session new failure test, durable higher low, R:R>=2",
+      "targets_descriptive": {
+        "plus2pct": 753.97,
+        "plus3pct": 761.37,
+        "plus5pct": 776.15
+      }
+    },
+    {
+      "decision": "NO TRADE",
+      "next_session": "2026-10-15 10:30–12:00 ET CONFIRMATION PENDING",
+      "option_execution": "OPTION NOT VERIFIED; no call recommended",
+      "forward": {
+        "first_target": null,
+        "first_stop": null,
+        "overnight_gap": null,
+        "mfe": null,
+        "mae": null,
+        "spy_benchmark": null,
+        "qqq_benchmark": null
+      },
+      "quality": "Webull completed RTH M5 and D candles: high for observed OHLCV, support clusters: exploratory, broker L1 quotes: indicative only, unverified executable size",
+      "symbol": "AMZN",
+      "support": 253.49,
+      "support_published": "2026-10-14 15:55 ET; retrospective level not valid as a pre-event publication for today's bars",
+      "touches": [
+        "2026-09-11 253.14",
+        "2026-09-21 253.60",
+        "2026-09-22 253.78",
+        "2026-10-07 253.17",
+        "2026-10-08 253.78"
+      ],
+      "weakening": "Repeated tests around same band; today undercut and closed below",
+      "atr14": 5.37,
+      "range25d_atr": 3.61,
+      "penetration": "2026-10-14 13:25 ET",
+      "first_reclaim": "2026-10-14 14:10 ET close 253.695",
+      "later": "Reclaim failed; 15:45 close 252.96 below support",
+      "bar_close_1545": 252.96,
+      "volume_proxy_20": 1.16,
+      "first_reclaim_volume_proxy_20": 0.83,
+      "ask_1554": 253.55,
+      "stop": 252.6,
+      "resistance": 254.53,
+      "rr": 1.03,
+      "stage": "NO TRADE",
+      "next_trigger": "Next session regain 253.49, successful retest, independently >=2:1",
+      "targets_descriptive": {
+        "plus2pct": 258.62,
+        "plus3pct": 261.16,
+        "plus5pct": 266.23
+      }
+    }
+  ],
+  "sources": [
+    "Webull connected historical RTH M5 and daily candles and L1 quotes 2026-10-14",
+    "https://www.reuters.com/business/sp-500-dow-futures-rise-ahead-big-bank-results-cpi-data-2026-10-14/",
+    "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119202837.ch6",
+    "https://www.theta.md/earnings"
+  ]
+}
