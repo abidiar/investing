@@ -1,0 +1,306 @@
+{
+  "schema": "early_range_reversal_v1_prospective_scan",
+  "freeze_time": "2026-10-15T10:21:10-04:00",
+  "data_cutoff": "2026-10-15T10:20:00-04:00",
+  "completed_candles": "2026-10-15 09:30–10:20 ET, RTH 5-minute Webull candles; last candle 10:15–10:20 ET",
+  "universe": "20 liquid US stocks; five retained for research, not trade selection",
+  "decision": "NO TRADE; 0 ENTRY WINDOW",
+  "source_quality": {
+    "webull_daily_and_completed_m5": "high for observed OHLCV; timestamps returned in UTC",
+    "quotes": "indicative L1 only; executable fill not guaranteed; timestamped separately",
+    "support": "prior published research level, not independently exchange-certified",
+    "buyer_volume": "completed-bar OHLCV PROXY ONLY; no aggressor classification; no verified 20-session same-clock normalization",
+    "macro": "BLS release calendar and dated Reuters reporting",
+    "earnings": "Webull calendar may omit future events; unknown is not no event"
+  },
+  "historical_baseline": "49-issuer independent replication negative, success rate unavailable; 138-event exploratory resolved target-first 45/135=33.3% not independent; no positive expectancy demonstrated",
+  "market": {
+    "time": "2026-10-15T10:20:45-04:00",
+    "SPY": {
+      "price": 767.87,
+      "pct": -0.22
+    },
+    "QQQ": {
+      "price": 720.99,
+      "pct": -1.09
+    },
+    "SMH": {
+      "price": 547.42,
+      "pct": -3.07
+    },
+    "XLK": {
+      "price": 186.6599,
+      "pct": -1.98
+    },
+    "XLY": {
+      "price": 112.62,
+      "pct": 1
+    },
+    "XLE": {
+      "price": 66.75,
+      "pct": -1.3
+    },
+    "macro": "September PPI released 2026-10-15 08:30 ET: +1.3% m/m, +6.3% y/y (Reuters); September retail sales +0.8% m/m; macro shock risk",
+    "Hanna": "NYSE closing TICK TomOscillator/CBI/capitulation/breadth thrust UNKNOWN/RESEARCH ONLY"
+  },
+  "candidates": [
+    {
+      "symbol": "PYPL",
+      "stage": "EARLY WATCH",
+      "stock_setup": "NO TRADE",
+      "support": 55.35,
+      "published": "2026-10-15 09:21 ET",
+      "touches": [
+        "2026-10-12 low 55.35",
+        "2026-10-14 low 55.375"
+      ],
+      "weakening": "none objectively established, only two touches",
+      "range": {
+        "low": 55.35,
+        "high": 56.4,
+        "width": 1.05,
+        "age_sessions": 3,
+        "atr14": 1.3,
+        "width_atr": 0.81
+      },
+      "penetration": null,
+      "reclaim": null,
+      "higher_low": "intraday 09:55 low 55.755 above 09:30 low 55.5088, but no support penetration/reclaim",
+      "last_bar": {
+        "start": "10:15 ET",
+        "end": "10:20 ET",
+        "o": 56.33,
+        "h": 56.36,
+        "l": 55.98,
+        "c": 56.01,
+        "v": 83854
+      },
+      "participation": "raw 83,854 shares on last bar vs 124,125 previous bar; no verified same-time volume ratio",
+      "quote": {
+        "time": "10:20:45 ET",
+        "bid": 55.97,
+        "ask": 55.98,
+        "ask_size": 143
+      },
+      "stop_illustrative": 55.49,
+      "resistance": 56.4,
+      "rr_illustrative": 0.86,
+      "runway": 0.42,
+      "trigger": "FUTURE: undercut prepublished 55.35, completed reclaim and successful higher-low retest; reprice stop and target >=2:1; not occurred",
+      "earnings": "2026-10-27 expected (Webull)",
+      "sector": "XLF proxy imperfect for PYPL fintech; sector mismatch",
+      "option": "OPTION NOT VERIFIED; NONE"
+    },
+    {
+      "symbol": "QCOM",
+      "stage": "EXPIRED",
+      "stock_setup": "NO TRADE",
+      "support": 172.59,
+      "published": "2026-10-14 15:55 ET",
+      "touches": [
+        "2026-10-08 low 171.02",
+        "2026-10-09 low 171.79",
+        "2026-10-12 low 172.1601",
+        "2026-10-13 low 172.29",
+        "2026-10-14 low 171.02"
+      ],
+      "weakening": "10/14 broke rising-lows sequence; band broad and imprecise",
+      "range": {
+        "low": 171.02,
+        "high": 176.4,
+        "width": 5.38,
+        "age_sessions": 5,
+        "atr14": 6.736,
+        "width_atr": 0.8
+      },
+      "penetration": "09:30–09:35 ET opening candle low 168.84; gap below prior support, not clean intraday first break",
+      "reclaim": "09:30–09:35 ET close 173.65 >172.59",
+      "higher_low": "09:35–09:40 low 173.0034 >168.84, no completed support retest near 172.59; 10:05 and 10:15 lows ~173.86",
+      "last_bar": {
+        "start": "10:15 ET",
+        "end": "10:20 ET",
+        "o": 174.89,
+        "h": 175.13,
+        "l": 173.86,
+        "c": 174.3101,
+        "v": 100616
+      },
+      "participation": "first reclaim opening candle volume 509,576; last 100,616; raw proxy, no verified normal-time comparison",
+      "quote": {
+        "time": "10:20:45 ET",
+        "bid": 174.55,
+        "ask": 174.86,
+        "ask_size": 130
+      },
+      "stop_illustrative": 173.84,
+      "resistance": 175.23,
+      "second_resistance": 176.4,
+      "rr_illustrative_to_first": 0.36,
+      "rr_illustrative_to_second": 1.51,
+      "runway": 0.37,
+      "trigger": "Fresh independent failure test and reset; opening reversal already moved through first resistance; no current trigger",
+      "earnings": "2026-11-04 expected (Webull)",
+      "sector": "SMH -3.07% at 10:20:45 ET",
+      "option": "OPTION NOT VERIFIED; NONE"
+    },
+    {
+      "symbol": "AMZN",
+      "stage": "NO TRADE",
+      "stock_setup": "NO TRADE",
+      "support": 253.49,
+      "published": "2026-10-14 15:55 ET",
+      "touches": [
+        "2026-10-07 low 253.17",
+        "2026-10-08 low 253.78",
+        "2026-10-14 low 252.66"
+      ],
+      "weakening": "10/14 undercut and closed below; 10/15 below since open",
+      "range": {
+        "low": 253.49,
+        "high": 262.8,
+        "width": 9.31,
+        "atr14": 5.526,
+        "width_atr": 1.68
+      },
+      "penetration": "already below 253.49 on 09:30 opening candle; morning low 248.65",
+      "reclaim": "NONE of prepublished 253.49 by 10:20",
+      "higher_low": "10:10 low 251.52 > opening low 248.65, but still below old support",
+      "last_bar": {
+        "start": "10:15 ET",
+        "end": "10:20 ET",
+        "o": 252.04,
+        "h": 252.5599,
+        "l": 252.04,
+        "c": 252.1699,
+        "v": 562355
+      },
+      "participation": "last completed bar 562,355; no normalized proxy",
+      "quote": {
+        "time": "10:20:45 ET",
+        "bid": 252.44,
+        "ask": 252.49,
+        "ask_size": 36
+      },
+      "stop_illustrative": 251.49,
+      "resistance": 252.66,
+      "rr_illustrative": 0.17,
+      "runway": 0.17,
+      "trigger": "Reclaim 253.49 plus independent retest and >=2:1 priced R:R; NOT MET",
+      "earnings": "future date absent in returned Webull calendar; UNKNOWN",
+      "sector": "XLY +1.00% at 10:20:45 ET",
+      "option": "OPTION NOT VERIFIED; NONE"
+    },
+    {
+      "symbol": "SLB",
+      "stage": "EXPIRED",
+      "stock_setup": "NO TRADE",
+      "support": 48.67,
+      "published": "2026-10-14 09:19 ET",
+      "touches": [
+        "2026-09-30 low 48.69",
+        "2026-10-09 low 48.635",
+        "2026-10-12 low 48.55",
+        "2026-10-14 low 47.755"
+      ],
+      "weakening": "successive breaks; current downtrend",
+      "range": {
+        "low": 48.67,
+        "high": 49.76,
+        "width": 1.09,
+        "atr14": 1.403,
+        "width_atr": 0.78
+      },
+      "penetration": "already below at 09:30 open 48.28; low 47.17 at 09:55",
+      "reclaim": "NONE by 10:20",
+      "higher_low": "no sustained higher-low support retest; 10:10 low 47.20 near 09:55 47.17",
+      "last_bar": {
+        "start": "10:15 ET",
+        "end": "10:20 ET",
+        "o": 47.315,
+        "h": 47.49,
+        "l": 47.29,
+        "c": 47.49,
+        "v": 79384
+      },
+      "participation": "last 79,384 vs 10:10 218,735, raw proxy only",
+      "quote": {
+        "time": "10:20:45 ET",
+        "bid": 47.5,
+        "ask": 47.51,
+        "ask_size": 100
+      },
+      "stop_illustrative": 47.14,
+      "resistance": 47.65,
+      "rr_illustrative": 0.38,
+      "runway": 0.14,
+      "trigger": "NONE; prepublished support broken, do not relabel new lows as range support",
+      "earnings": "2026-10-23 expected (Webull)",
+      "sector": "XLE -1.30% at 10:20:45 ET",
+      "option": "OPTION NOT VERIFIED; NONE"
+    },
+    {
+      "symbol": "META",
+      "stage": "NO TRADE",
+      "stock_setup": "NO TRADE",
+      "support": 737.01,
+      "published": "2026-10-14 15:55 ET",
+      "touches": [
+        "2026-10-06 low 736.69",
+        "2026-10-13 low 734.84",
+        "2026-10-14 low 734.2865"
+      ],
+      "weakening": "progressively lower lows; support weak",
+      "range": {
+        "low": 716.2,
+        "high": 741.58,
+        "width": 25.38,
+        "atr14": 22.496,
+        "width_atr": 1.13
+      },
+      "penetration": "09:30–09:35 low 715.58, below support on opening bar",
+      "reclaim": "NONE through 10:20",
+      "higher_low": "later lows higher than opening low but price still below support",
+      "last_bar": {
+        "start": "10:15 ET",
+        "end": "10:20 ET",
+        "o": 733.355,
+        "h": 733.905,
+        "l": 731.8501,
+        "c": 733.5887,
+        "v": 108591
+      },
+      "participation": "raw completed last volume 108,591, no verified normalized ratio",
+      "quote": {
+        "time": "10:21:08 ET",
+        "bid": 731.9,
+        "ask": 732.06,
+        "ask_size": 107
+      },
+      "stop_illustrative": 715.5,
+      "resistance": 737.01,
+      "rr_illustrative": 0.3,
+      "runway": 4.95,
+      "trigger": "NONE; 737.01 not reclaimed; stop distance too large",
+      "earnings": "not checked this scan; UNKNOWN",
+      "sector": "QQQ -1.09%; XLK imperfect for META",
+      "option": "OPTION NOT VERIFIED; NONE"
+    }
+  ],
+  "forward": {
+    "asof": "2026-10-15 10:21 ET",
+    "first_target": null,
+    "first_stop": null,
+    "overnight_gap": null,
+    "mfe": null,
+    "mae": null,
+    "spy_benchmark_outcome": null,
+    "qqq_benchmark_outcome": null,
+    "rule": "All future outcomes null at freeze; no hindsight relabeling. NO TRADE candidates not counted as executed positions."
+  },
+  "rules": "Frozen A+ detector untouched. No orders. No RSI/VWAP inference. Do not treat first resistance as optional; 2:1 stock R:R must be defensible at executable ask. Options none without chain.",
+  "sources": [
+    "Webull connected RTH M5/D and L1 snapshots as timestamped",
+    "https://www.bls.gov/schedule/2026/10_sched.htm",
+    "https://www.reuters.com/business/us-producer-prices-post-largest-increase-4-12-years-september-2026-10-15/"
+  ]
+}
