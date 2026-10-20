@@ -1,0 +1,226 @@
+{
+  "scanner": "SAME_DAY_MOMENTUM_BREAKOUT_RADAR",
+  "version": "forward_frozen_exploratory_v1",
+  "as_of": "2026-10-20T11:48:40-04:00",
+  "latest_completed_m5": "2026-10-20T11:40:00-04:00",
+  "horizon": "2026-10-20 16:00 ET RTH close",
+  "global_decision": "NO VERIFIED ENTRY WINDOW",
+  "universe_method": "union of Webull day gainers top100, M5 movers top100, volume/turnover top100, sector map, ETF and peer snapshot discovery, 52week-high snapshot; not complete market-wide census",
+  "etfs": {
+    "SPY": 0.34,
+    "QQQ": 0.04,
+    "XLV": 2.37,
+    "XBI": 3.56,
+    "KBE": 1.93,
+    "JETS": 2.91,
+    "IGV": 0.72,
+    "SOXX": 0.34
+  },
+  "candidate_records": [
+    {
+      "ticker": "BMY",
+      "first_discovered_et": "2026-10-20T11:48:04-04:00",
+      "lane": "A+B sector-sponsored early buying/OR",
+      "state": "BUILDING",
+      "strength": 4,
+      "runway": 3,
+      "snapshot_price": 61.42,
+      "change_pct": 4.4,
+      "volume": 4145790,
+      "or_high": 60.98,
+      "or_low": 59.84,
+      "m5_close_1140": 61.395,
+      "vwap": 61.027,
+      "hod": 61.55,
+      "first_resistance": 61.55,
+      "next_documented_resistance": 62.25,
+      "trigger_prospective": "M5 close above 61.55 followed by hold/retest",
+      "independent_stop_provisional": 61.26,
+      "entry_example": 61.58,
+      "target_example": 62.25,
+      "example_rr": 2.09,
+      "day_adr20_pct": 2.72,
+      "missing": [
+        "same-clock 20-day RVOL",
+        "confirmed hold",
+        "options chain",
+        "halt audit",
+        "macro schedule"
+      ]
+    },
+    {
+      "ticker": "NU",
+      "first_discovered_et": "2026-10-20T11:47:12-04:00",
+      "lane": "B+C",
+      "state": "BUILDING",
+      "strength": 4,
+      "runway": 2,
+      "snapshot_price": 15.275,
+      "change_pct": 5.27,
+      "volume": 30429889,
+      "or_high": 15.03,
+      "or_low": 14.6001,
+      "m5_close_1140": 15.269,
+      "vwap": 15.132,
+      "hod": 15.31,
+      "first_resistance": 15.31,
+      "next_documented_resistance": 15.86,
+      "trigger_prospective": "M5 close above 15.31 then hold/retest",
+      "independent_stop_provisional": 15.19,
+      "day_adr20_pct": 3.35,
+      "missing": [
+        "20-day same-clock RVOL",
+        "confirmed hold",
+        "nearby overhead supply between HOD and 15.86",
+        "options chain"
+      ]
+    },
+    {
+      "ticker": "PFE",
+      "first_discovered_et": "2026-10-20T11:47:12-04:00",
+      "lane": "A+D sector catch-up/52week high",
+      "state": "EARLY WATCH",
+      "strength": 3,
+      "runway": 2,
+      "snapshot_price": 30.13,
+      "change_pct": 2.34,
+      "volume": 14622431,
+      "or_high": 30.23,
+      "or_low": 29.59,
+      "m5_close_1140": 30.105,
+      "vwap": 30.018,
+      "hod": 30.23,
+      "first_resistance": 30.23,
+      "trigger_prospective": "M5 close above 30.23 then hold/retest",
+      "independent_stop_provisional": 30.03,
+      "day_adr20_pct": 1.85,
+      "missing": [
+        "20-day same-clock RVOL",
+        "reliable above-HOD resistance",
+        "confirmed breakout hold",
+        "options chain"
+      ]
+    },
+    {
+      "ticker": "KVYO",
+      "first_discovered_et": "2026-10-20T11:47:12-04:00",
+      "lane": "D sector sympathy",
+      "state": "BUILDING",
+      "strength": 3,
+      "runway": 2,
+      "snapshot_price": 19.265,
+      "change_pct": 10.02,
+      "volume": 5673243,
+      "or_high": 19.55,
+      "or_low": 18.6,
+      "m5_close_1140": 19.255,
+      "vwap": 19.179,
+      "hod": 19.59,
+      "first_resistance": 19.55,
+      "trigger_prospective": "M5 close above 19.59 then hold/retest",
+      "independent_stop_provisional": 19.12,
+      "news": "Salesforce announced cash acquisition of competitor Braze for $47.50/share on Oct 20, 2026; secondary source news published this morning; not KVYO issuer event",
+      "day_adr20_pct": 5.34,
+      "missing": [
+        "20-day same-clock RVOL",
+        "confirmed sector breadth beyond buyout",
+        "options chain"
+      ]
+    },
+    {
+      "ticker": "AAL",
+      "first_discovered_et": "2026-10-20T11:47:12-04:00",
+      "lane": "C airline second-leg watch",
+      "state": "INVALID",
+      "strength": 2,
+      "runway": 2,
+      "snapshot_price": 12.2599,
+      "change_pct": 4.96,
+      "volume": 34861931,
+      "or_high": 12.02,
+      "or_low": 11.63,
+      "m5_close_1140": 12.2818,
+      "vwap": 12.363,
+      "hod": 12.63,
+      "first_resistance": 12.63,
+      "trigger_prospective": "No valid trigger until VWAP reclaim and completed higher low",
+      "independent_stop_provisional": null,
+      "day_adr20_pct": 3.4,
+      "missing": [
+        "20-day same-clock RVOL",
+        "buyer reacceleration",
+        "options chain"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "BRZE",
+      "reason": "Cash merger price anchor 47.50, +50.9% already; not momentum entry"
+    },
+    {
+      "ticker": "EFX",
+      "reason": "Earnings gap +11.5%, >3x 14-day ATR consumed; missed/chase"
+    },
+    {
+      "ticker": "MYGN",
+      "reason": "40.9% jump, speculative news/option suitability unknown, extreme move"
+    },
+    {
+      "ticker": "KEY",
+      "reason": "3.3% up but below 9:30-9:50 high and HOD, weak late-volume acceleration"
+    },
+    {
+      "ticker": "RKT",
+      "reason": "5.8% up, 5.0% ATR, first resistance nearby, mortgage macro risk"
+    },
+    {
+      "ticker": "LLY",
+      "reason": "4.9% gain already, near intraday high, no clean new risk/reward"
+    },
+    {
+      "ticker": "BIIB",
+      "reason": "4.7% up and near 52week high, spread 0.37, limited same-day entry proof"
+    },
+    {
+      "ticker": "MMM",
+      "reason": "5% earnings move, intraday HOD 172.50 above current, no hold/retest confirmation"
+    },
+    {
+      "ticker": "SAIQ",
+      "reason": "Speculative small capitalization +49% not main liquid optionable lane"
+    },
+    {
+      "ticker": "PRSO",
+      "reason": "Microcap 0.53, speculative only"
+    },
+    {
+      "ticker": "AIXI",
+      "reason": "Tiny cap, speculative only"
+    },
+    {
+      "ticker": "WORX",
+      "reason": "Tiny cap, speculative only"
+    }
+  ],
+  "missing_global": [
+    "20 prior same-clock M5 sessions: M5 API max 1200 bars (~15 sessions), unavailable",
+    "signed aggressor flow",
+    "reliable options contract quotes and greeks",
+    "confirmed trade halts for all names",
+    "comprehensive market-wide breadth",
+    "exact next macro-event timing"
+  ],
+  "forward_outcomes": {
+    "candidate_time_first_hit_0p5_1_2_before_minus0p5_or_minus1": "PENDING",
+    "confirmed_entry_first_hit": "NO ENTRIES",
+    "MFE": "PENDING",
+    "MAE": "PENDING",
+    "close_return": "PENDING",
+    "cost_20_50_100bps": "PENDING",
+    "matched_same_day_sector_ATR_liquidity_controls": "PENDING",
+    "simple_top_gainer_RVOL_baseline": "PENDING",
+    "false_positives_and_missed_runners": "PENDING"
+  },
+  "notes": "No orders, no option proposals, no changes to A+ or reversal scanners; keep first-discovery timestamps and classifications immutable. Data bars may have daily/intraday corporate action differences; do not mix raw price levels. Not statistically certified."
+}
